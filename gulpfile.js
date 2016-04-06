@@ -10,7 +10,7 @@ gulp.task('redirects', function() {
 
 gulp.task('css', function() {
   return gulp.src('./css/*.css')
-    .pipe(gulp.dest('./dist'));
+    .pipe(gulp.dest('./dist/css'));
 });
 
 gulp.task('markdown', function() {
