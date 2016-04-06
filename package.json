@@ -4,6 +4,7 @@
   "description": "The website for jamstack.org",
   "main": "gulpfile.js",
   "scripts": {
+    "build": "./node_modules/.bin/gulp build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
