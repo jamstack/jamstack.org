@@ -1,0 +1,18 @@
+{
+  "name": "JAMStack",
+  "version": "1.0.0",
+  "description": "The website for jamstack.org",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-front-matter": "^1.3.0",
+    "gulp-layout": "0.0.3",
+    "gulp-markdown": "^1.2.0",
+    "jade": "^1.11.0"
+  }
+}

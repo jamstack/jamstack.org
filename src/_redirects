@@ -1,0 +1,14 @@
+https://jamstack.com/* https://jamstack.org/:splat 301!
+https://www.jamstack.com/* https://jamstack.org/:splat 301!
+http://jamstack.com/* https://jamstack.org/:splat 301!
+http://www.jamstack.com/* https://jamstack.org/:splat 301!
+
+https://jam-stack.com/* https://jamstack.org/:splat 301!
+https://www.jam-stack.com/* https://jamstack.org/:splat 301!
+http://jam-stack.com/* https://jamstack.org/:splat 301!
+http://www.jam-stack.com/* https://jamstack.org/:splat 301!
+
+https://jam-stack.org/* https://jamstack.org/:splat 301!
+https://www.jam-stack.org/* https://jamstack.org/:splat 301!
+http://jam-stack.org/* https://jamstack.org/:splat 301!
+http://www.jam-stack.org/* https://jamstack.org/:splat 301!
