@@ -14,7 +14,7 @@ gulp.task('css', function() {
 });
 
 gulp.task('markdown', function() {
-  return gulp.src('./src/index.md')
+  return gulp.src('./src/**/*.md')
     .pipe(frontMatter())
     .pipe(markdown())
     .pipe(layout(function(file) {
