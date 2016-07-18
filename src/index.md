@@ -7,7 +7,7 @@ layout: layouts/main.jade
   The JAM stack is an ideal way of building websites and apps that are fast, secure and simple to work with.
 </p>
 
-JAM stands for JavaScript, APIs and Markup. It's the fastest growing new stack for building websites and apps: no more servers, host all your front-end on a CDN and use APIs for any moving parts.
+JAM stands for JavaScript, APIs and Markup. It's the fastest growing stack for building websites and apps: no more servers, host all your front-end on a CDN and use APIs for any moving parts.
 
 When the LAMP stack started to gain prominence in the late 90s, it grew out of a set of constraints that are no longer present. Browsers were primitive document readers back then, and just about anything dynamic, social or interactive had to happen on the server. The only form of affordable hosting was shared hosting. Deployments consisted of uploading files through FTP. Version control was mostly absent from the day-to-day workflows of web developers.
 
