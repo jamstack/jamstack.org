@@ -1,5 +1,5 @@
 ---
-title: JAM Stack
+title: JAMStack
 layout: layouts/main.jade
 ---
 
@@ -16,7 +16,7 @@ A publicação de sites consistia no upload de arquivos por FTP. Controle de ver
 Hoje os browsers são o sistema operacional da web e são capazes de rodar aplicações complexas inteiramente do lado do cliente. Eles são capazes de consumir e interagir com um número cada vez maior de APIs e serviços em vários domínios e infra-estruturas.
 CDSn (Content Delivery Networks, ou redes distribuição de conteúdo) deixaram de ser um luxo que apenas grandes empresas podiam pagar, para se tornarem o caminho natural para reduzir a demora até o primeiro byte em sites e apps de todos os tamanhos. Modelos de deploy não são mais uploads manuais trabalhosos, mas processos automatizados acionados por sistemas de controle de versão onipresentes.
 
-O JAM stack é o ambiente dessa nova realidade. Ao invés de enviar por FTP o código back-end para um servidor compartilhado, nós usamos git e, dando um push, nosso código é instantâneamente compilado e distribuído em CDNs ao redor do mundo. Ao invés de depender de um banco de dados para cada request servido, nós usamos build tools para preparar sites inteiros e aplicativos prontos para rodar diretamente no browser. Ao invés de misturar persistência, geração de HTML, transações com cartões de crédito, autenticação etc num só lugar, nós separamos essas responsabilidades e consumimos APIs bem definidas em nosso front-end.
+O JAMStack é o ambiente dessa nova realidade. Ao invés de enviar por FTP o código back-end para um servidor compartilhado, nós usamos git e, dando um push, nosso código é instantâneamente compilado e distribuído em CDNs ao redor do mundo. Ao invés de depender de um banco de dados para cada request servido, nós usamos build tools para preparar sites inteiros e aplicativos prontos para rodar diretamente no browser. Ao invés de misturar persistência, geração de HTML, transações com cartões de crédito, autenticação etc num só lugar, nós separamos essas responsabilidades e consumimos APIs bem definidas em nosso front-end.
 
 O stack JAM usa linguagens de marcação como HTML, CSS e Markdown para formatar e dar estilo ao conteúdo, JavaScript no lado do cliente para torná-lo interativo e cativante e APIs para adicionar persistência, interações com o mundo real, comentários, carrinhos de compra, sincronismo em tempo real e assim por diante.
 
