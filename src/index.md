@@ -19,4 +19,6 @@ The JAMstack uses markup languages like HTML, CSS and Markdown to format and sty
 
 Browsers are the new operating system. Servers are abstracted away by CDNs and APIs. Sites are either database free and generated up front, or consume hosted database services directly from the browser. JavaScript is in charge of any dynamic programming during the request/response cycle and runs entirely on the client.
 
+To hear more about JAMstack checkout out podcast [JAMstack Radio](https://itunes.apple.com/us/podcast/jamstack-radio/id1148797643).
+
 Spread the JAM!
