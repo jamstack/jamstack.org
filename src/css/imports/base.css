@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700,900);
 
 @font-face {
   font-family: 'leitura';
@@ -23,6 +23,10 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+section:not(.hero) {
+  margin: $xxl auto;
+}
+
 h1 {
   font-weight: $regular;
   font-size: $medium;
@@ -30,9 +34,30 @@ h1 {
   margin: 0;
 }
 
+h2 {
+  font-family: $roboto;
+  font-size: 18px;
+  font-weight: $black;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-family: $roboto;
+  font-size: 14px;
+  font-weight: $regular;
+  margin: 0;
+}
+
 p {
   font-size: 18px;
   line-height: 32px;
+}
+
+a {
+  color: $green;
+  text-decoration: none;
+  font-weight: $bold;
 }
 
 .contained {

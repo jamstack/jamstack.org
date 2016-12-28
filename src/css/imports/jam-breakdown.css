@@ -1,6 +1,5 @@
 .jam-breakdown {
   max-width: $desktop;
-  margin: $xl auto;
 
   .letter-definition {
     display: table;

@@ -13,6 +13,7 @@ module.exports = {
   // typography
   regular: 400,
   bold: 700,
+  black: 900,
 
   // fonts
   roboto: "'Roboto', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif",

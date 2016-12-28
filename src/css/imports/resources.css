@@ -1,0 +1,62 @@
+.resources {
+  overflow: hidden;
+  width: 100%;
+
+  h1 {
+    margin-bottom: $small;
+  }
+
+  .resources-list {
+    display: block;
+    list-style-type: none;
+    margin-bottom: 55px;
+  }
+
+  li {
+    display: flex;
+    flex-flow: row wrap;
+    padding: $tiny 0;
+    position: relative;
+
+    &:nth-child(even) {
+      background: $lightGrey;
+
+      &:before {
+        background: $lightGrey;
+        content: ' ';
+        height: 100%;
+        left: -200%;
+        position: absolute;
+        top: 0;
+        width: 400%;
+        z-index: -1;
+      }
+    }
+
+    h2, h3, a {
+      flex: 1;
+      vertical-align: bottom;
+
+      &:first-child,
+      &:last-child {
+        flex: 3;
+      }
+    }
+
+    a {
+      font-family: $roboto;
+      font-size: 14px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+
+      h3 {
+        font-weight: $bold;
+      }
+    }
+  }
+
+  strong {
+    display: block;
+  }
+}

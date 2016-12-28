@@ -1,12 +1,12 @@
 {{ partial "header" . }}
 
-<div class="hero">
+<section class="hero">
   <div class="contained">
     <h1>{{ .Site.Data.definitions.jamstack | markdownify }}</h1>
   </div>
-</div>
+</section>
 
-<div class="jam-breakdown">
+<section class="jam-breakdown">
   <div class="letter-definition">
     <img class="letter" src="/img/j.svg"/>
     <h1>Javascript</h1>
@@ -22,6 +22,28 @@
     <h1>Markup</h1>
     <p>{{ .Site.Data.definitions.markup | markdownify }}</p>
   </div>
-</div>
+</section>
+
+<section class="resources">
+  <h1 class="contained">JAMstack Resources</h1>
+  <ul class="resources-list contained">
+    <li>
+      <h2>title</h2>
+      <h2>type</h2>
+      <h2>link</h2>
+    </li>
+    {{ range .Site.Data.resources.resources }}
+      <li>
+        <h3>{{ .title }}</h3>
+        <h3>{{ .type }}</h3>
+        <a href="{{ .link }}">{{ .link }}</a>
+      </li>
+    {{ end }}
+  </ul>
+  <p class="contained">
+    <strong>Do you have a useful JAMstack resource?</strong>
+    Submit a Pull Request with your resource’s information <a href="https://github.com/jamstack/jamstack.org">here</a>.
+  </p>
+</section>
 
 {{ partial "footer" . }}
