@@ -9,9 +9,7 @@
             <g id="jam-breakdown" transform="translate(250.000000, 812.000000)">
                 <g id="m" transform="translate(0.000000, 472.000000)">
                     <circle id="Oval-Copy-2" fill="#F69200" opacity="0.5" cx="150" cy="150" r="150"></circle>
-                    <text id="M" font-family="RobotoCondensed-Bold, Roboto Condensed" font-size="104" font-style="condensed" font-weight="bold" fill="#FFFFFF">
-                        <tspan x="112.396484" y="183">M</tspan>
-                    </text>
+                    <polygon id="M" fill="#FFFFFF" points="136.466797 109.0625 149.720703 163.347656 150.025391 163.347656 163.431641 109.0625 182.271484 109.0625 182.271484 183 167.900391 183 167.900391 161.519531 169.119141 132.777344 168.814453 132.726562 154.697266 183 145.099609 183 131.134766 133.132812 130.830078 133.183594 132.099609 161.519531 132.099609 183 117.728516 183 117.728516 109.0625"></polygon>
                 </g>
             </g>
         </g>

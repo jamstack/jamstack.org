@@ -9,9 +9,7 @@
             <g id="jam-breakdown" transform="translate(250.000000, 812.000000)">
                 <g id="a" transform="translate(0.000000, 236.000000)">
                     <circle id="Oval-Copy" fill="#4D9ABF" opacity="0.5" cx="150" cy="150" r="150"></circle>
-                    <text id="A" font-family="RobotoCondensed-Bold, Roboto Condensed" font-size="104" font-style="condensed" font-weight="bold" fill="#FFFFFF">
-                        <tspan x="121.207031" y="186">A</tspan>
-                    </text>
+                    <path d="M160.054688,170.308594 L140.554688,170.308594 L136.59375,186 L122.019531,186 L142.839844,112.0625 L157.871094,112.0625 L178.640625,186 L164.066406,186 L160.054688,170.308594 Z M143.5,158.679688 L157.109375,158.679688 L150.457031,132.527344 L150.152344,132.527344 L143.5,158.679688 Z" id="A" fill="#FFFFFF"></path>
                 </g>
             </g>
         </g>
