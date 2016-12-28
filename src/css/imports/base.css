@@ -17,11 +17,24 @@
 }
 
 body {
-  font-family: $leitura;
   color: $grey;
+  font-family: $leitura;
   font-size: 14px;
+  margin: 0;
 
   @media screen and (min-width: $mobile) {
     font-size: 16px;
   }
+}
+
+.contained {
+  margin: 0 auto;
+  max-width: $display;
+  padding: 0 $medium;
+}
+
+h1 {
+  font-weight: $regular;
+  font-size: $medium;
+  line-height: $large;
 }

@@ -1,0 +1,10 @@
+.hero {
+  background: url('/img/jam-watermark.svg') no-repeat center;
+  background-size: cover;
+  padding: $xxl 0;
+
+  strong {
+    color: $green;
+    font-weight: $regular;
+  }
+}

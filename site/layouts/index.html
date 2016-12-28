@@ -1,5 +1,9 @@
 {{ partial "header" . }}
 
-<h1>Hugo with Gulp, PostCSS and Webpack</h1>
+<div class="hero">
+  <div class="contained">
+    <h1>{{ .Site.Data.definition.definition | markdownify }}</h1>
+  </div>
+</div>
 
 {{ partial "footer" . }}
