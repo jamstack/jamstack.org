@@ -19,22 +19,24 @@
 body {
   color: $grey;
   font-family: $leitura;
-  font-size: 14px;
   margin: 0;
-
-  @media screen and (min-width: $mobile) {
-    font-size: 16px;
-  }
-}
-
-.contained {
-  margin: 0 auto;
-  max-width: $display;
-  padding: 0 $medium;
+  -webkit-font-smoothing: antialiased;
 }
 
 h1 {
   font-weight: $regular;
   font-size: $medium;
   line-height: $large;
+  margin: 0;
+}
+
+p {
+  font-size: 18px;
+  line-height: 32px;
+}
+
+.contained {
+  margin: 0 auto;
+  max-width: $display;
+  padding: 0 $medium;
 }

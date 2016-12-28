@@ -2,7 +2,25 @@
 
 <div class="hero">
   <div class="contained">
-    <h1>{{ .Site.Data.definition.definition | markdownify }}</h1>
+    <h1>{{ .Site.Data.definitions.jamstack | markdownify }}</h1>
+  </div>
+</div>
+
+<div class="jam-breakdown">
+  <div class="letter-definition">
+    <img class="letter" src="/img/j.svg"/>
+    <h1>Javascript</h1>
+    <p>{{ .Site.Data.definitions.javascript | markdownify }}</p>
+  </div>
+  <div class="letter-definition">
+    <img class="letter" src="/img/a.svg"/>
+    <h1>APIs</h1>
+    <p>{{ .Site.Data.definitions.apis | markdownify }}</p>
+  </div>
+  <div class="letter-definition">
+    <img class="letter" src="/img/m.svg"/>
+    <h1>Markup</h1>
+    <p>{{ .Site.Data.definitions.markup | markdownify }}</p>
   </div>
 </div>
 

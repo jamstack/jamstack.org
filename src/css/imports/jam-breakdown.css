@@ -1,0 +1,24 @@
+.jam-breakdown {
+  max-width: $desktop;
+  margin: $xl auto;
+
+  .letter-definition {
+    display: table;
+
+    &:not(:last-child) {
+      margin-bottom: -$large;
+    }
+  }
+
+  .letter {
+    float: left;
+    height: auto;
+    max-width: 300px;
+    margin-right: $small;
+  }
+
+  h1 {
+    padding-top: $medium;
+    line-height: 28px;
+  }
+}
