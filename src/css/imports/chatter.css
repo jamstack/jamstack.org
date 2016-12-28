@@ -5,18 +5,34 @@ section.chatter {
     text-align: center;
 
     img {
-      padding: 0 $micro;
+      height: 20px;
+      padding: 0 $micro 0 0;
+      width: auto;
+
+      @media screen and (min-width: $mobile) {
+        height: initial;
+        padding: 0 $micro;
+      }
     }
 
     span {
+      display: block;
       font-family: $roboto;
       font-weight: $bold;
+
+      @media screen and (min-width: $mobile) {
+        display: initial;
+      }
     }
   }
 
   .tweets {
     background-image: linear-gradient(0deg, $lighterGrey 0%, white 100%);
-    padding: $medium 0;
+    padding: $medium 0 0 0;
+
+    @media screen and (min-width: $mobile) {
+      padding: $medium 0;
+    }
 
     * {
       font-family: $roboto;

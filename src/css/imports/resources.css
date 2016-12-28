@@ -3,13 +3,38 @@
   width: 100%;
 
   h1 {
-    margin-bottom: $small;
+    margin-bottom: $tiny;
   }
 
   .resources-list {
     display: block;
     list-style-type: none;
-    margin-bottom: 55px;
+    margin-bottom: 31px;
+    text-align: left;
+
+    @media screen and (min-width: $desktop) {
+      margin-bottom: 55px;
+    }
+
+    &.mobile {
+      @media screen and (min-width: $mobile) {
+        display: none;
+      }
+
+      .link-icon {
+        margin-right: $micro;
+        height: $tiny;
+        width: auto;
+      }
+    }
+
+    &.desktop {
+      display: none;
+
+      @media screen and (min-width: $mobile) {
+        display: block;
+      }
+    }
   }
 
   li {
@@ -40,6 +65,14 @@
       &:first-child,
       &:last-child {
         flex: 3;
+      }
+
+      &:not(:first-child):not(:last-child) {
+        display: none;
+
+        @media screen and (min-width: $tablet) {
+          display: initial;
+        }
       }
     }
 

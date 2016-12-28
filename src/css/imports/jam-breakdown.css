@@ -1,23 +1,43 @@
 .jam-breakdown {
+  padding: 0 $small;
   max-width: $desktop;
+
+  @media screen and (min-width: $tablet) {
+    padding: 0 $;
+  }
 
   .letter-definition {
     display: table;
 
     &:not(:last-child) {
-      margin-bottom: -$large;
+      margin-bottom: $medium;
+
+      @media screen and (min-width: $tablet) {
+        margin-bottom: -$large;
+      }
+    }
+
+    &:first-child h1 {
+      @media screen and (min-width: $tablet) and (max-width: $desktop) {
+        padding-top: 0;
+      }
     }
   }
 
   .letter {
-    float: left;
     height: auto;
-    max-width: 300px;
-    margin-right: $small;
+    margin: 0 auto;
+    max-width: 80%;
+
+    @media screen and (min-width: $tablet) {
+      float: left;
+      margin-right: $small;
+      max-width: 300px;
+    }
   }
 
   h1 {
-    padding-top: $medium;
     line-height: 28px;
+    padding-top: $medium;
   }
 }

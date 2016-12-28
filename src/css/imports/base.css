@@ -20,18 +20,40 @@ body {
   color: $grey;
   font-family: $leitura;
   margin: 0;
+  text-align: center;
   -webkit-font-smoothing: antialiased;
+
+  @media screen and (min-width: $tablet) {
+    text-align: left;
+  }
 }
 
 section:not(.hero) {
-  margin: $xxl auto;
+  margin: $medium auto;
+
+  @media screen and (min-width: $mobile) {
+    margin: $large auto;
+  }
+
+  @media screen and (min-width: $tablet) {
+    margin: $xl auto;
+  }
+
+  @media screen and (min-width: $desktop) {
+    margin: $xxl auto;
+  }
 }
 
 h1 {
   font-weight: $regular;
-  font-size: $medium;
-  line-height: $large;
+  font-size: $small;
+  line-height: $medium;
   margin: 0;
+
+  @media screen and (min-width: $tablet) {
+    font-size: $medium;
+    line-height: $large;
+  }
 }
 
 h2 {
@@ -50,8 +72,13 @@ h3 {
 }
 
 p {
-  font-size: 18px;
-  line-height: 32px;
+  font-size: 14px;
+  line-height: $small;
+
+  @media screen and (min-width: $tablet) {
+    font-size: 18px;
+    line-height: 32px;
+  }
 }
 
 a {
@@ -63,7 +90,11 @@ a {
 .contained {
   margin: 0 auto;
   max-width: $display;
-  padding: 0 $medium;
+  padding: 0 $small;
+
+  @media screen and (min-width: $tablet) {
+    padding: 0 $medium;
+  }
 }
 
 .button {

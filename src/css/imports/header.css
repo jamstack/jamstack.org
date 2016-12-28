@@ -2,30 +2,53 @@ header {
   background: transparent;
   box-shadow: none;
   font-family: $roboto;
-  position: fixed;
   padding: $medium 0;
-  text-align: right;
+  position: absolute;
+  text-align: center;
   transition: background .2s ease, padding .2s ease, box-shadow .2s ease;
   width: 100%;
   z-index: 100;
 
+  @media screen and (min-width: $mobile) {
+    text-align: right;
+    position: fixed;
+  }
+
   &.scrolled {
-    background: white;
-    box-shadow: 0 calc($micro / 2) $micro rgba(0,0,0,0.05);
-    padding: $small 0;
+    @media screen and (min-width: $mobile) {
+      background: white;
+      box-shadow: 0 calc($micro / 2) $micro rgba(0,0,0,0.05);
+      padding: $small 0;
+    }
   }
 
   a {
     color: $grey;
     display: inline-block;
 
+    &:not(:first-child):not(:last-child) {
+      display: none;
+
+      @media screen and (min-width: 550px) {
+        display: initial;
+      }
+    }
+
     &:last-child {
-      margin-left: 19px;
+      @media screen and (min-width: $mobile) {
+        margin-left: 19px;
+      }
     }
   }
 
   .logo {
-    float: left;
-    margin: -3px 0 -6px 0;
+    margin: 0 auto $tiny auto;
+    width: 100%;
+
+    @media screen and (min-width: $mobile) {
+      float: left;
+      margin: -3px 0 -6px 0;
+      width: initial;
+    }
   }
 }

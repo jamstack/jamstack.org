@@ -26,7 +26,7 @@
 
 <section class="resources">
   <h1 class="contained">JAMstack Resources</h1>
-  <ul class="resources-list contained">
+  <ul class="resources-list contained desktop">
     <li>
       <h2>title</h2>
       <h2>type</h2>
@@ -37,6 +37,13 @@
         <h3>{{ .title }}</h3>
         <h3>{{ .type }}</h3>
         <a href="{{ .link }}">{{ .link }}</a>
+      </li>
+    {{ end }}
+  </ul>
+  <ul class="resources-list contained mobile">
+    {{ range .Site.Data.resources.resources }}
+      <li>
+        <a href="{{ .link }}"><img src="/img/link.svg" class="link-icon"/> {{ .title }}</a>
       </li>
     {{ end }}
   </ul>
