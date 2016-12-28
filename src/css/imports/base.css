@@ -1,7 +1,23 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
 
+@font-face {
+  font-family: 'leitura';
+  src: url('/fonts/leitura/leitura.woff2') format('woff2'),
+       url('/fonts/leitura/leitura.woff') format('woff'),
+       url('/fonts/leitura/leitura.svg#leitura_newsroman_2') format('svg');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'leitura';
+  src: url('/fonts/leitura/leitura_bold.woff2') format('woff2'),
+       url('/fonts/leitura/leitura_bold.woff') format('woff'),
+       url('/fonts/leitura/leitura_bold.svg#leitura_newsroman_4') format('svg');
+  font-weight: bold;
+}
+
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: $leitura;
   color: $grey;
   font-size: 14px;
 

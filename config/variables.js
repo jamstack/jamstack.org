@@ -14,6 +14,10 @@ module.exports = {
   regular: 400,
   bold: 700,
 
+  // fonts
+  roboto: "'Roboto', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif",
+  leitura: "'leitura', serif",
+
   // padding
   micro: '8px',
   tiny: '16px',
