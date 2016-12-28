@@ -3,6 +3,7 @@
 module.exports = {
 
   // colors
+  lighterGrey: '#F7F8F8',
   lightGrey: '#F6F6F6',
   grey: '#313D3E',
   orange: '#F69200',
