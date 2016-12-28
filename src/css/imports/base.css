@@ -65,3 +65,18 @@ a {
   max-width: $display;
   padding: 0 $medium;
 }
+
+.button {
+  background-image: linear-gradient(0deg, #313D3E 15%, #425253 100%);
+  border-radius: $borderRadius;
+  color: white;
+  font-family: $roboto;
+  font-size: $tiny;
+  font-weight: $regular;
+  padding: $micro $tiny;
+  transition: background-image .2s ease;
+
+  &:hover {
+    background-image: linear-gradient(0deg, $green 15%, $green 100%);
+  }
+}

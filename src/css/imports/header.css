@@ -1,0 +1,31 @@
+header {
+  background: transparent;
+  box-shadow: none;
+  font-family: $roboto;
+  position: fixed;
+  padding: $medium 0;
+  text-align: right;
+  transition: background .2s ease, padding .2s ease, box-shadow .2s ease;
+  width: 100%;
+  z-index: 100;
+
+  &.scrolled {
+    background: white;
+    box-shadow: 0 calc($micro / 2) $micro rgba(0,0,0,0.05);
+    padding: $small 0;
+  }
+
+  a {
+    color: $grey;
+    display: inline-block;
+
+    &:last-child {
+      margin-left: 19px;
+    }
+  }
+
+  .logo {
+    float: left;
+    margin: -3px 0 -6px 0;
+  }
+}
