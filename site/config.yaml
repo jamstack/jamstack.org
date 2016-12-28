@@ -1,5 +1,5 @@
 baseurl: "/"
 languageCode: "en-us"
-title: "Title"
+title: "JAMstack | Javascript, APIs, and Markup"
 disable404: true
 metaDataFormat: "yaml"
