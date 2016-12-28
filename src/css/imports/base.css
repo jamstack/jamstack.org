@@ -1,0 +1,11 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: $grey;
+  font-size: 14px;
+
+  @media screen and (min-width: $mobile) {
+    font-size: 16px;
+  }
+}
