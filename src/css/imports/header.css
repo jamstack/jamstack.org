@@ -47,7 +47,7 @@ header {
 
     @media screen and (min-width: $mobile) {
       float: left;
-      margin: -3px 0 -6px 0;
+      margin: 2px 0 -6px 0;
       width: initial;
     }
   }
