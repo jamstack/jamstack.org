@@ -1,0 +1,23 @@
+{{ partial "header" . }}
+
+<div class="videos">
+  <div class="contained">
+    <p class="cta">
+      <strong>Notice a JAMstack Video missing?</strong>
+      Submit a Pull Request with your JAMstack video's information <a href="https://github.com/jamstack/jamstack.org">here</a>.
+    </p>
+    <div class="grid">
+      {{ range .Site.Data.videos.videos }}
+        <a class="video" href="{{ .link }}" data-lity data-lity-target="{{ .link }}" >
+          <div class="thumbnail-wrap">
+            <img src="{{ .thumbnailurl }}"/>
+          </div>
+          <h1>{{ .title }}</h1>
+          <p>{{ .description }}</p>
+        </a>
+      {{ end }}
+    </div>
+  </div>
+</div>
+
+{{ partial "footer" . }}
