@@ -6,7 +6,7 @@ resources:
   - title: Isomorphic Rendering on the JAMstack
     type: Article
     link: https://www.hawksworx.com/blog/isomorphic-rendering-on-the-jam-stack/
-  - title: The New Frontend Stack
+  - title: Smashing Conf SF: The New Frontend Stack
     type: Conference Talk
     link: https://vimeo.com/163522126
   - title: JAMstack Radio
