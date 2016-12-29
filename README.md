@@ -31,3 +31,7 @@ npm run build
 ## Contribute Resources
 
 To contribute resources to the JAMstack community, simply clone this branch and edit the `resources.yaml` in the `/site/data` directory. Just add another item (following the the prexisting syntax) and submit a pull request. We will review these regularly and likely merge the addition shortly.
+
+## Contribute Examples
+
+To contribute examples to the JAMstack community, simply clone this branch and edit the `examples.yaml` in the `/site/data` directory. Just add another item (following the the prexisting syntax). Lastly, upload a thumbnail of the site to the `/img/examples` directory (image should be a jpeg 596px wide and 396px tall) and submit a pull request. We will review these regularly and likely merge the addition shortly.
