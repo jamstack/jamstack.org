@@ -1,0 +1,15 @@
+.hero {
+  background: url('/img/jam-watermark.svg') no-repeat 0 0;
+  background-size: cover;
+  padding: 180px 0 $xl 0;
+
+  @media screen and (min-width: $tablet) {
+    background-position: center;
+    padding: 220px 0 $xxl 0;
+  }
+
+  strong {
+    color: $green;
+    font-weight: $regular;
+  }
+}

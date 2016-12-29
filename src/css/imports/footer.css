@@ -1,0 +1,15 @@
+footer {
+  background: $lighterGrey;
+  padding: $medium 0 30px 0;
+
+  p {
+    color: #8B8B8B;
+    font-family: $roboto;
+    font-size: 12px;
+    text-align: center;
+
+    @media screen and (min-width: $mobile) {
+      font-size: $tiny;
+    }
+  }
+}

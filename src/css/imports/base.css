@@ -1,0 +1,113 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700,900);
+
+@font-face {
+  font-family: 'leitura';
+  src: url('/fonts/leitura/leitura.woff2') format('woff2'),
+       url('/fonts/leitura/leitura.woff') format('woff'),
+       url('/fonts/leitura/leitura.svg#leitura_newsroman_2') format('svg');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'leitura';
+  src: url('/fonts/leitura/leitura_bold.woff2') format('woff2'),
+       url('/fonts/leitura/leitura_bold.woff') format('woff'),
+       url('/fonts/leitura/leitura_bold.svg#leitura_newsroman_4') format('svg');
+  font-weight: bold;
+}
+
+body {
+  color: $grey;
+  font-family: $leitura;
+  margin: 0;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+
+  @media screen and (min-width: $tablet) {
+    text-align: left;
+  }
+}
+
+section:not(.hero) {
+  margin: $medium auto;
+
+  @media screen and (min-width: $mobile) {
+    margin: $large auto;
+  }
+
+  @media screen and (min-width: $tablet) {
+    margin: $xl auto;
+  }
+
+  @media screen and (min-width: $desktop) {
+    margin: $xxl auto;
+  }
+}
+
+h1 {
+  font-weight: $regular;
+  font-size: $small;
+  line-height: $medium;
+  margin: 0;
+
+  @media screen and (min-width: $tablet) {
+    font-size: $medium;
+    line-height: $large;
+  }
+}
+
+h2 {
+  font-family: $roboto;
+  font-size: 18px;
+  font-weight: $black;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-family: $roboto;
+  font-size: 14px;
+  font-weight: $regular;
+  margin: 0;
+}
+
+p {
+  font-size: 14px;
+  line-height: $small;
+
+  @media screen and (min-width: $tablet) {
+    font-size: 18px;
+    line-height: 32px;
+  }
+}
+
+a {
+  color: $green;
+  text-decoration: none;
+  font-weight: $bold;
+}
+
+.contained {
+  margin: 0 auto;
+  max-width: $display;
+  padding: 0 $small;
+
+  @media screen and (min-width: $tablet) {
+    padding: 0 $medium;
+  }
+}
+
+.button {
+  background-image: linear-gradient(0deg, #313D3E 15%, #425253 100%);
+  border-radius: $borderRadius;
+  color: white;
+  font-family: $roboto;
+  font-size: $tiny;
+  font-weight: $regular;
+  padding: $micro $tiny;
+  transition: background-image .2s ease;
+
+  &:hover {
+    background-image: linear-gradient(0deg, $green 15%, $green 100%);
+  }
+}

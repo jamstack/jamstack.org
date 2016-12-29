@@ -1,0 +1,65 @@
+{{ partial "header" . }}
+
+<section class="hero">
+  <div class="contained">
+    <h1>{{ .Site.Data.definitions.jamstack | markdownify }}</h1>
+  </div>
+</section>
+
+<section class="jam-breakdown">
+  <div class="letter-definition">
+    <img class="letter" src="/img/j.svg"/>
+    <h1>JavaScript</h1>
+    <p>{{ .Site.Data.definitions.javascript | markdownify }}</p>
+  </div>
+  <div class="letter-definition">
+    <img class="letter" src="/img/a.svg"/>
+    <h1>APIs</h1>
+    <p>{{ .Site.Data.definitions.apis | markdownify }}</p>
+  </div>
+  <div class="letter-definition">
+    <img class="letter" src="/img/m.svg"/>
+    <h1>Markup</h1>
+    <p>{{ .Site.Data.definitions.markup | markdownify }}</p>
+  </div>
+</section>
+
+<section class="resources">
+  <h1 class="contained">JAMstack Resources</h1>
+  <ul class="resources-list contained desktop">
+    <li>
+      <h2>title</h2>
+      <h2>type</h2>
+      <h2>link</h2>
+    </li>
+    {{ range .Site.Data.resources.resources }}
+      <li>
+        <h3>{{ .title }}</h3>
+        <h3>{{ .type }}</h3>
+        <a href="{{ .link }}">{{ .link }}</a>
+      </li>
+    {{ end }}
+  </ul>
+  <ul class="resources-list contained mobile">
+    {{ range .Site.Data.resources.resources }}
+      <li>
+        <a href="{{ .link }}"><img src="/img/link.svg" class="link-icon"/> {{ .title }}</a>
+      </li>
+    {{ end }}
+  </ul>
+  <p class="contained">
+    <strong>Do you have a useful JAMstack resource?</strong>
+    Submit a Pull Request with your resource’s information <a href="https://github.com/jamstack/jamstack.org">here</a>.
+  </p>
+</section>
+
+<section class="chatter">
+  <h1>Spread the JAM by tweeting <span><img src="/img/twitter.svg"/>#JAMstack</span></h1>
+  <div class="tweets">
+    <div class="contained">
+      <ul class="juicer-feed" data-feed-id="jamstack" data-overlay="false"></ul>
+    </div>
+  </div>
+</section>
+
+{{ partial "footer" . }}

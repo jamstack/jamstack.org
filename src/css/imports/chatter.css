@@ -1,0 +1,55 @@
+section.chatter {
+  margin-bottom: 0;
+
+  h1 {
+    text-align: center;
+
+    img {
+      height: 20px;
+      padding: 0 $micro 0 0;
+      width: auto;
+
+      @media screen and (min-width: $mobile) {
+        height: initial;
+        padding: 0 $micro;
+      }
+    }
+
+    span {
+      display: block;
+      font-family: $roboto;
+      font-weight: $bold;
+
+      @media screen and (min-width: $mobile) {
+        display: initial;
+      }
+    }
+  }
+
+  .tweets {
+    background-image: linear-gradient(0deg, $lighterGrey 0%, white 100%);
+    padding: $medium 0 0 0;
+
+    @media screen and (min-width: $mobile) {
+      padding: $medium 0;
+    }
+
+    * {
+      font-family: $roboto;
+    }
+
+    .juicer-feed {
+      overflow: visible;
+    }
+
+    .referral,
+    .feed-item.juicer {
+      display: none;
+    }
+
+    .feed-item {
+      border-radius: $borderRadius;
+      box-shadow: 0 $micro $small rgba(0,0,0,0.1);
+    }
+  }
+}
