@@ -1,17 +1,17 @@
 ---
 resources:
+  - title: "Smashing Conf SF: The New Frontend Stack"
+    type: Conference Talk
+    link: https://vimeo.com/163522126
+  - title: JAMstack Radio
+    type: Podcast
+    link: http://www.heavybit.com/library/podcasts/jamstack-radio/
   - title: A JAMstack-ready CMS
     type: Article
     link: https://www.contentful.com/r/knowledgebase/jamstack-cms/
   - title: Isomorphic Rendering on the JAMstack
     type: Article
     link: https://www.hawksworx.com/blog/isomorphic-rendering-on-the-jam-stack/
-  - title: Smashing Conf SF: The New Frontend Stack
-    type: Conference Talk
-    link: https://vimeo.com/163522126
-  - title: JAMstack Radio
-    type: Podcast
-    link: http://www.heavybit.com/library/podcasts/jamstack-radio/
   - title: 234 JSJ JAMStack with Brian Douglas and Matt Christensen
     type: Podcast
     link: https://devchat.tv/js-jabber/234-jsj-jamstack-with-brian-douglas-and-matt-christensen
