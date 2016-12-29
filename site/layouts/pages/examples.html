@@ -1,0 +1,16 @@
+{{ partial "header" . }}
+
+<div class="examples contained">
+  {{ range .Site.Data.examples.examples }}
+    <a class="example" href="{{ .link }}">
+      <div class="browser">
+        <div class="controls">•••</div>
+      </div>
+      <img src="{{ .thumbnailurl }}"/>
+      <h1>{{ .title }}</h1>
+      <p>{{ .description }}</p>
+    </a>
+  {{ end }}
+</div>
+
+{{ partial "footer" . }}

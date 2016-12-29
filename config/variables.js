@@ -35,7 +35,6 @@ module.exports = {
   // responsive breakpoints
   mobile: '480px',
   tablet: '768px',
-  newsNavBreak: '930px',
   desktop: '960px',
   display: '1200px'
 }
