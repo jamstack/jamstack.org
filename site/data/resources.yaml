@@ -18,4 +18,7 @@ resources:
   - title: Dynamic product management in a static e-commerce workflow
     type: Article
     link: https://www.contentful.com/blog/2016/02/10/snipcart-middleman-contentful
+  - title: "JAMstack for Clients: On Benefits & Static Site CMS"
+    type: Article
+    link: https://snipcart.com/blog/jamstack-clients-static-site-cms
 ---
