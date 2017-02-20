@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="44px" height="44px" viewBox="0 0 44 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>play-btn</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="videos" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="jamstack-videos" transform="translate(-698.000000, -214.000000)" fill-rule="nonzero" fill="#FFFFFF">
+            <g id="video-copy" transform="translate(570.000000, 137.000000)">
+                <g id="base" transform="translate(1.000000, 0.000000)">
+                    <g id="noun_573710_cc" transform="translate(127.000000, 77.000000)">
+                        <path d="M22,0 C9.8,0 0,9.8 0,22 C0,34.2 9.8,44 22,44 C34.2,44 44,34.2 44,22 C44,9.8 34.2,0 22,0 Z M31.1,23.7 L19.1,31.7 C18.2,32.3 16.9,32.1 16.3,31.1 C16.1,30.8 16,30.4 16,30 L16,14 C16,12.9 16.9,12 18,12 C18.4,12 18.8,12.1 19.1,12.3 L31.1,20.3 C32,20.9 32.3,22.2 31.6,23.1 C31.5,23.3 31.3,23.5 31.1,23.7 Z" id="play-btn"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
