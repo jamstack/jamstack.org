@@ -34,6 +34,20 @@
   </div>
 </section>
 
+<section class="jam-disqualifications contained">
+  <h1>What is <em>not</em> on the JAMstack?</h1>
+  <p>Any project that relies on a tight coupling between client and server is not on the JAMstack. This would include:</p>
+  <div class="disqualifications">
+    {{ range .Site.Data.definitions.disqualifications }}
+      {{ if .disqualification }}
+        <h4 class="disqualification">{{ .disqualification | markdownify }}</h4>
+      {{ else }}
+        <h4 class="qualification">{{ .qualification | markdownify }}</h4>
+      {{ end }}
+    {{ end }}
+  </div>
+</section>
+
 <section class="resources">
   <h1 class="contained">JAMstack Resources</h1>
   <ul class="resources-list contained desktop">
