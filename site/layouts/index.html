@@ -24,6 +24,16 @@
   </div>
 </section>
 
+<section class="jam-qualifications contained">
+  <h1>Is my site a JAMstack site?</h1>
+  <p>Yes, it is if it meets the requirements below.</p>
+  <div class="qualifications">
+    {{ range .Site.Data.definitions.qualifications }}
+      <h4 class="qualification">{{ .qualification | markdownify }}</h4>
+    {{ end }}
+  </div>
+</section>
+
 <section class="resources">
   <h1 class="contained">JAMstack Resources</h1>
   <ul class="resources-list contained desktop">

@@ -71,6 +71,18 @@ h3 {
   margin: 0;
 }
 
+h4 {
+  font-size: $tiny;
+  font-weight: $regular;
+  line-height: $small;
+  margin: 0;
+
+  @media screen and (min-width: $tablet) {
+    font-size: $small;
+    line-height: $medium;
+  }
+}
+
 p {
   font-size: 14px;
   line-height: $small;
