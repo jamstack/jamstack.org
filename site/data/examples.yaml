@@ -32,4 +32,8 @@ examples:
     description: Design interactive high-fidelity prototypes for iOS, Android, desktop or the web. Invent new animations and interactions. Integrates with Sketch and Photoshop.
     link: https://framer.com/
     thumbnailurl: /img/examples/framer.jpg
+  - title: MojoTech
+    description: Since 2008, MojoTech has tackled more than 150 business challenges with our proven process, thoughtful design and serious engineering.
+    link: https://www.mojotech.com/
+    thumbnailurl: /img/examples/mojotech.jpg
 ---
