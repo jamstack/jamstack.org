@@ -1,0 +1,122 @@
+.videos {
+  background-image: linear-gradient(0deg, $lighterGrey 0%, white 100%);
+  padding-top: 186px;
+  text-align: left;
+
+  @media screen and (min-width: $mobile) {
+    padding-top: 124px;
+  }
+
+  .cta {
+    margin-bottom: 54px;
+
+    strong {
+      display: block;
+    }
+  }
+
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+
+    a {
+      color: $grey;
+    }
+  }
+
+  .video {
+    outline: none;
+    box-shadow: none;
+
+    @media screen and (min-width: $tablet) {
+      width: 48%;
+    }
+
+    @media screen and (min-width: $desktop) {
+      width: 30%;
+    }
+
+    &:nth-child(2n) {
+      @media screen and (min-width: $tablet) and (max-width: 959px) {
+        margin: 0 0 0 4%;
+      }
+    }
+
+    &:nth-child(3n - 1) {
+      @media screen and (min-width: $desktop) {
+        margin: 0 5%;
+      }
+    }
+
+    &:active,
+    &:visited {
+      outline: none;
+      box-shadow: none;
+    }
+
+    &:hover {
+      margin-bottom: -2px;
+
+      .thumbnail-wrap {
+        background: $green;
+        border-color: $green;
+        box-shadow: 0 $micro $small rgba(0,0,0,0.2);
+
+        &:after {
+          background-size: $large $large;
+        }
+      }
+
+      img {
+        opacity: 0.1;
+      }
+    }
+  }
+
+  .thumbnail-wrap {
+    background: black;
+    border-radius: $borderRadius;
+    border: 1px solid #BCBCBC;
+    box-sizing: border-box;
+    box-shadow: 0 0 $micro rgba(0,0,0,0);
+    margin-bottom: $micro;
+    overflow: hidden;
+    position: relative;
+    transition: background .2s ease, box-shadow .2s ease, border-color .2s ease;
+
+    &:after {
+      background: url('/img/play-btn.svg') no-repeat center;
+      background-size: 44px 44px;
+      content: '';
+      height: 100%;
+      position: absolute;
+      width: 100%;
+      z-index: 3;
+      top: 0;
+      left: 0;
+      transition: background-size .2s ease;
+    }
+  }
+
+  img {
+    height: auto;
+    margin-bottom: -10px;
+    opacity: 0.5;
+    transition: opacity .2s ease;
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 22px;
+    font-weight: $bold;
+    line-height: 34px;
+    margin: 0 0 6px 0;
+  }
+
+  p:not(.cta) {
+    font-size: $tiny;
+    font-weight: $regular;
+    line-height: 28px;
+    margin: 0 0 45px 0;
+  }
+}
