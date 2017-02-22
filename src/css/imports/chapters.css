@@ -2,15 +2,25 @@
 
   .hero {
     background: url('/img/chapters/meetup-logo.svg') top center no-repeat;
+    background-position: bottom center;
     background-size: cover;
-    padding: 160px 0 $xl 0;
+    padding: 220px 0 $large 0;
     text-align: center;
+
+    @media screen and (min-width: $tablet) {
+      background-position: top center;
+      padding: 160px 0 $xl 0;
+    }
   }
 
   .grid {
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: $xxl;
+    margin-bottom: $medium;
+
+    @media screen and (min-width: $tablet) {
+      margin-bottom: $xxl;
+    }
 
     a {
       color: $grey;
@@ -88,23 +98,38 @@
     background: $lighterGrey;
 
     .contained {
-      padding: $xl $medium $large $medium;
+      padding: $large $medium $medium $medium;
+
+      @media screen and (min-width: $tablet) {
+        padding: $xl $medium $large $medium;
+      }
     }
 
     img {
-      float: left;
-      margin: $medium $large 0 0;
-      width: 40%;
+      max-width: 100%;
+      margin: 0 0 $small 0;
+
+      @media screen and (min-width: $tablet) {
+        float: left;
+        margin: $medium $large 0 0;
+        width: 40%;
+      }
     }
 
     h1, p, a {
-      margin-left: calc(40% + $large);
+      @media screen and (min-width: $tablet) {
+        margin-left: calc(40% + $large);
+      }
     }
 
     a {
       background: $meetupred;
-      display: table-cell;
+      display: inline-block;
       padding: $tiny $small;
+
+      @media screen and (min-width: $tablet) {
+        display: table-cell;
+      }
     }
   }
 }
