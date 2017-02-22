@@ -29,8 +29,9 @@ header {
     &:not(:first-child):not(:last-child) {
       display: none;
 
-      @media screen and (min-width: 550px) {
+      @media screen and (min-width: 630px) {
         display: initial;
+        margin-left: 17px;
       }
     }
 
