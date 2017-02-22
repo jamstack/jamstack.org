@@ -1,0 +1,110 @@
+.chapters {
+
+  .hero {
+    background: url('/img/chapters/meetup-logo.svg') top center no-repeat;
+    background-size: cover;
+    padding: 160px 0 $xl 0;
+    text-align: center;
+  }
+
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: $xxl;
+
+    a {
+      color: $grey;
+    }
+  }
+
+  .chapter {
+    margin-bottom: $large;
+    text-align: center;
+
+    @media screen and (min-width: $tablet) {
+      width: 48%;
+    }
+
+    @media screen and (min-width: $desktop) {
+      margin-bottom: 0;
+      width: 30%;
+    }
+
+    &:nth-child(2n) {
+      @media screen and (min-width: $tablet) and (max-width: 959px) {
+        margin: 0 0 0 4%;
+      }
+    }
+
+    &:nth-child(3n - 1) {
+      @media screen and (min-width: $desktop) {
+        margin: 0 5%;
+      }
+    }
+
+    img {
+      box-sizing: border-box;
+      height: calc($xxl * .9);
+      margin-bottom: $tiny;
+      transition: box-shadow .2s ease;
+      width: 100%;
+    }
+
+    h1 {
+      font-size: 22px;
+      font-weight: $bold;
+      line-height: 34px;
+      margin: 0 0 14px 0;
+    }
+
+    p:not(.cta) {
+      font-size: $tiny;
+      font-weight: $regular;
+      line-height: 28px;
+      margin: 0 0 $small 0;
+    }
+
+    .button {
+      border: 1px solid $meetupred;
+      background: white;
+      color: $grey;
+      transition: background .2s ease, color .2s ease;
+
+      &:hover {
+        background: $meetupred;
+        color: white;
+      }
+
+      &.greyed,
+      &.greyed:hover {
+        border: #ccc;
+        background: #ccc;
+        color: white;
+      }
+    }
+  }
+
+  .bottom-cta {
+    background: $lighterGrey;
+
+    .contained {
+      padding: $xl $medium $large $medium;
+    }
+
+    img {
+      float: left;
+      margin: $medium $large 0 0;
+      width: 40%;
+    }
+
+    h1, p, a {
+      margin-left: calc(40% + $large);
+    }
+
+    a {
+      background: $meetupred;
+      display: table-cell;
+      padding: $tiny $small;
+    }
+  }
+}
