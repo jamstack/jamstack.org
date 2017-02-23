@@ -1,7 +1,13 @@
 ---
-jamstack: "**JAMstack**: noun &#92;’jam-stak’&#92; The ideal way of building websites and apps that are fast, secure and simple to work with through the utilization of JavaScript, APIs, and Markup."
+jamstack: |
+  **JAMstack**: noun &#92;’jam-stak’&#92; The ideal way of building websites and apps that are fast, secure and simple to work with through the utilization of JavaScript, APIs, and Markup.
 
 javascript: "With servers abstracted away by CDNs and APIs, sites are either database free (and generated up front) or consume hosted database services directly from the browser. JavaScript is in charge of any dynamic programming during the request/response cycle and runs entirely on the client."
 apis: "Today browsers are the operating system of the web, and are able to run complex applications completely client side. They are capable of consuming and interacting with an ever growing amount of APIs and services across domains and infrastructures."
 markup: "The JAMstack uses markup languages like HTML, CSS and Markdown to format and style our content, client-side JavaScript to make it interactive and engaging and APIs to add persistence, real-time sync, real-world interactions, comments, shopping carts, and so on."
+
+qualifications:
+  - qualification: My entire site is on a CDN (Netlify, etc.)
+  - qualification: My site uses a build tool (Jekyll, Hugo, etc.)
+  - qualification: My site has everything living in Git
 ---

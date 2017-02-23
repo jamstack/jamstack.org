@@ -2,10 +2,14 @@
 
 <div class="examples">
   <div class="contained">
-    <p class="cta">
-      <strong>Want to get your site listed here?</strong>
-      Submit a Pull Request with your JAMstack site’s information <a href="https://github.com/jamstack/jamstack.org">here</a>.
-    </p>
+    <div class="cta grid">
+      <div class="pull-request">
+        <p>
+          <strong>Want to get your site listed here?</strong>
+          Submit a Pull Request with your JAMstack site’s information <a href="https://github.com/jamstack/jamstack.org">here</a>.
+        </p>
+      </div>
+    </div>
     <div class="grid">
       {{ range .Site.Data.examples.examples }}
         <a class="example" href="{{ .link }}">
