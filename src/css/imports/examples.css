@@ -9,6 +9,9 @@
 
   .cta {
     margin-bottom: 54px;
+    > * {
+      margin-right: 24px;
+    }
 
     strong {
       display: block;
