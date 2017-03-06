@@ -13,6 +13,7 @@ module.exports = {
 
   // typography
   regular: 400,
+  semibold: 500,
   bold: 700,
   black: 900,
 

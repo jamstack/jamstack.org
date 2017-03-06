@@ -1,16 +1,31 @@
 .jam-breakdown {
-  padding: 0 $small;
-  max-width: $desktop;
 
-  @media screen and (min-width: $tablet) {
-    padding: 0 $;
+  .intro {
+    h1 {
+      margin: $small 0 0 0;
+
+      @media screen and (min-width: $tablet) {
+        margin: -19px 0 0 0;
+      }
+    }
+
+    p {
+      margin: 0 0 $medium 0;
+      @media screen and (min-width: $tablet) {
+        margin: -6px 0 30px 0;
+      }
+    }
   }
 
   .letter-definition {
     display: table;
+    padding: 0 $small;
+    margin: auto;
+    max-width: $desktop;
+    text-align: left;
 
     &:not(:last-child) {
-      margin-bottom: $medium;
+      margin-bottom: $small;
 
       @media screen and (min-width: $tablet) {
         margin-bottom: -$large;
@@ -22,22 +37,44 @@
         padding-top: 0;
       }
     }
+
+    h1 {
+      line-height: 28px;
+      padding-top: 0;
+
+      @media screen and (min-width: $tablet) {
+        padding-top: $large;
+      }
+
+      @media screen and (min-width: $desktop) {
+        padding-top: calc($medium * 2);
+      }
+    }
+
+    p {
+      display: inline-block;
+      width: calc(80% - $small);
+
+      @media screen and (min-width: $tablet) {
+        width: calc(100% - 300px - $small);
+      }
+    }
+
+    a {
+      font-family: $roboto;
+      font-weight: $semibold;
+      font-size: $tiny;
+    }
   }
 
   .letter {
     height: auto;
-    margin: 0 auto;
-    max-width: 80%;
+    margin: 0 $small 0 auto;
+    max-width: 20%;
+    float: left;
 
     @media screen and (min-width: $tablet) {
-      float: left;
-      margin-right: $small;
       max-width: 300px;
     }
-  }
-
-  h1 {
-    line-height: 28px;
-    padding-top: $medium;
   }
 }

@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,700,900);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700,900);
 
 @font-face {
   font-family: 'leitura';
@@ -37,10 +37,6 @@ section:not(.hero) {
 
   @media screen and (min-width: $tablet) {
     margin: $xl auto;
-  }
-
-  @media screen and (min-width: $desktop) {
-    margin: $xxl auto;
   }
 }
 
