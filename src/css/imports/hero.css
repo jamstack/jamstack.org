@@ -1,15 +1,48 @@
 .hero {
   background: url('/img/jam-watermark.svg') no-repeat 0 0;
   background-size: cover;
-  padding: 180px 0 $xl 0;
+  padding: 140px 0 $large 0;
 
   @media screen and (min-width: $tablet) {
     background-position: center;
-    padding: 220px 0 $xxl 0;
+    padding: 156px 0 $xl 0;
+  }
+
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  h1 {
+    margin: $medium 0;
+
+    @media screen and (min-width: $tablet) {
+      font-size: 28px;
+      line-height: 54px;
+      margin: calc($micro/2) 10% 0 0;
+      width: 48%;
+    }
+
+    span {
+      display: none;
+
+      @media screen and (min-width: 858px) {
+        display: initial;
+      }
+    }
   }
 
   strong {
     color: $green;
     font-weight: $regular;
+  }
+
+  p {
+    font-size: $tiny;
+
+    @media screen and (min-width: $tablet) {
+      line-height: 31px;
+      width: 40%;
+    }
   }
 }
