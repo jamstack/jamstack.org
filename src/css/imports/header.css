@@ -29,7 +29,7 @@ header {
     &:not(:first-child):not(:last-child) {
       display: none;
 
-      @media screen and (min-width: 630px) {
+      @media screen and (min-width: 865px) {
         display: initial;
         margin-left: 17px;
       }
