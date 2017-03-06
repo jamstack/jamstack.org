@@ -19,6 +19,11 @@
     @media screen and (min-width: $tablet) {
       font-size: 28px;
       line-height: 54px;
+      margin: calc($micro/2) 8% 0 0;
+      width: 50%;
+    }
+
+    @media screen and (min-width: $desktop) {
       margin: calc($micro/2) 10% 0 0;
       width: 48%;
     }
@@ -42,6 +47,10 @@
 
     @media screen and (min-width: $tablet) {
       line-height: 31px;
+      width: 41%;
+    }
+
+    @media screen and (min-width: $desktop) {
       width: 40%;
     }
   }
