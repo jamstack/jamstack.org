@@ -5,14 +5,14 @@
     <h1>{{ .Site.Data.definitions.jamstack | markdownify }}</h1>
     <p>
       {{ .Site.Data.definitions.explanation | markdownify }}
-      <a class="text-link" href="#jam-breakdown">What?</a>
-      <a class="text-link" href="#jam-breakdown">Why?</a>
-      <a class="text-link" href="#jam-breakdown">How?</a>
+      <a class="text-link scrolling-link" href="#what">What?</a>
+      <a class="text-link scrolling-link" href="#why">Why?</a>
+      <a class="text-link scrolling-link" href="#how">How?</a>
     </p>
   </div>
 </section>
 
-<section id="jam-breakdown" class="jam-breakdown">
+<section id="what" class="jam-breakdown">
   <div class="contained intro">
     <h1>What is the Jamstack?</h1>
     <p>Your project is on the JAMstack if it meets three key criteria:</p>
@@ -48,7 +48,7 @@
   </div>
 </section>
 
-<section class="advantages contained">
+<section id="why" class="advantages contained">
   <h1>Why the JAMstack?</h1>
   <div class="advantages-grid">
     {{ range .Site.Data.definitions.advantages }}
@@ -58,6 +58,12 @@
       </div>
     {{ end }}
   </div>
+</section>
+
+<section id="how" class="bottom-cta contained">
+  <h1>How do I get started?</h1>
+  <a href="/resources"><h4>View Resources →</h4></a>
+  <a href="/best-practices"><h4>Learn About Best Practices →</h4></a>
 </section>
 
 <section class="chatter">
