@@ -1,0 +1,79 @@
+.best-practices {
+  padding-top: 186px;
+  text-align: left;
+  width: 100%;
+
+  @media screen and (min-width: $mobile) {
+    padding-top: 124px;
+  }
+
+  h1 {
+    margin-bottom: $tiny;
+  }
+
+  .cta {
+    margin-bottom: 54px;
+
+    @media screen and (min-width: $tablet) {
+      max-width: 50%;
+    }
+  }
+
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+
+    a {
+      color: $grey;
+    }
+  }
+
+  .best-practice {
+    @media screen and (min-width: $tablet) {
+      width: 48%;
+    }
+
+    @media screen and (min-width: $desktop) {
+      width: 30%;
+    }
+
+    &:nth-child(2n) {
+      @media screen and (min-width: $tablet) and (max-width: 959px) {
+        margin: 0 0 0 4%;
+      }
+    }
+
+    &:nth-child(3n - 1) {
+      @media screen and (min-width: $desktop) {
+        margin: 0 5%;
+      }
+    }
+
+    &:hover {
+      margin-bottom: -2px;
+
+      img {
+        box-shadow: 0 $micro $small rgba(0,0,0,0.2);
+      }
+    }
+  }
+
+  h4 {
+    font-weight: $bold;
+    font-size: 18px;
+    line-height: 32px;
+    margin: 0 0 14px 0;
+
+    @media screen and (min-width: $tablet) {
+      font-size: 22px;
+      line-height: 34px;
+    }
+  }
+
+  p:not(.cta) {
+    font-size: $tiny;
+    font-weight: $regular;
+    line-height: 28px;
+    margin: 0 0 45px 0;
+  }
+}

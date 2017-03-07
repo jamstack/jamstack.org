@@ -1,0 +1,25 @@
+{{ partial "header" . }}
+
+<div class="best-practices">
+  <div class="contained">
+    <h1>Best Practices</h1>
+    <p class ="cta">When building JAMstack projects, you can really get the most out of the stack if you stick to a few best practices.</p>
+    <div class="grid">
+      {{ range .Site.Data.bestpractices.bestpractices }}
+        <div class="best-practice" href="{{ .link }}">
+          <h4>{{ .title }}</h4>
+          <p>{{ .description }}</p>
+        </div>
+      {{ end }}
+    </div>
+  </div>
+
+  <section class="bottom-cta contained">
+    <h1>How do I get started?</h1>
+    <a href="/resources"><h4>View Resources →</h4></a>
+    <a href="/best-practices"><h4>Learn About Best Practices →</h4></a>
+  </section>
+
+</div>
+
+{{ partial "footer" . }}
