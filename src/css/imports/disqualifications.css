@@ -38,17 +38,15 @@
     background-size: $tiny;
     background-position: 0 calc($micro / 2);
     box-sizing: border-box;
-    margin: 0 0 $micro 0;
+    margin: 0 0 $small 0;
     padding: 0 0 0 $small;
     text-align: left;
-
-    @media screen and (min-width: $mobile) {
-      width: 48%;
-    }
 
     @media screen and (min-width: $tablet) {
       background-position: top left;
       background-size: $medium;
+      font-size: 18px;
+      line-height: 32px;
       margin: 0 0 $small 0;
       padding: 0 0 0 $large;
       width: 48%;
