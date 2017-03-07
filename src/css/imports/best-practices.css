@@ -7,7 +7,7 @@
     padding-top: 124px;
   }
 
-  h1 {
+  .headline {
     margin-bottom: $tiny;
   }
 
@@ -49,31 +49,23 @@
       }
     }
 
-    &:hover {
-      margin-bottom: -2px;
+    h4 {
+      font-weight: $bold;
+      font-size: 18px;
+      line-height: 32px;
+      margin: 0 0 14px 0;
 
-      img {
-        box-shadow: 0 $micro $small rgba(0,0,0,0.2);
+      @media screen and (min-width: $tablet) {
+        font-size: 22px;
+        line-height: 34px;
       }
     }
-  }
 
-  h4 {
-    font-weight: $bold;
-    font-size: 18px;
-    line-height: 32px;
-    margin: 0 0 14px 0;
-
-    @media screen and (min-width: $tablet) {
-      font-size: 22px;
-      line-height: 34px;
+    p {
+      font-size: $tiny;
+      font-weight: $regular;
+      line-height: 28px;
+      margin: 0 0 45px 0;
     }
-  }
-
-  p:not(.cta) {
-    font-size: $tiny;
-    font-weight: $regular;
-    line-height: 28px;
-    margin: 0 0 45px 0;
   }
 }

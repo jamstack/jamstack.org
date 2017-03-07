@@ -13,7 +13,7 @@
     flex-wrap: wrap;
   }
 
-  h1 {
+  h1:not(.chapters-headline) {
     margin: $medium 0;
 
     @media screen and (min-width: $tablet) {
