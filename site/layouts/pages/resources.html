@@ -1,0 +1,41 @@
+{{ partial "header" . }}
+
+<div class="resources">
+  <h1 class="contained">Resources</h1>
+    <p class="contained">
+      <strong>Have a great JAMstack resource to share?</strong>
+      Submit a Pull Request with your JAMstack resource's information <a href="https://github.com/jamstack/jamstack.org">here</a>.
+    </p>
+  <ul class="resources-list contained desktop">
+    <li>
+      <h2>title</h2>
+      <h2>type</h2>
+      <h2>link</h2>
+    </li>
+    {{ range .Site.Data.resources.resources }}
+      <li>
+        <h3>{{ .title }}</h3>
+        <h3>{{ .type }}</h3>
+        <a href="{{ .link }}">{{ .link }}</a>
+      </li>
+    {{ end }}
+  </ul>
+  <ul class="resources-list contained mobile">
+    {{ range .Site.Data.resources.resources }}
+      <li>
+        <a href="{{ .link }}"><img src="/img/link.svg" class="link-icon"/> {{ .title }}</a>
+      </li>
+    {{ end }}
+  </ul>
+</div>
+
+<section class="chatter">
+  <h1>Spread the JAM by tweeting <span><img src="/img/twitter.svg"/>#JAMstack</span></h1>
+  <div class="tweets">
+    <div class="contained">
+      <ul class="juicer-feed" data-feed-id="jamstack" data-overlay="false"></ul>
+    </div>
+  </div>
+</section>
+
+{{ partial "footer" . }}

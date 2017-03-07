@@ -1,6 +1,12 @@
 .resources {
   overflow: hidden;
+  padding-top: 186px;
+  text-align: left;
   width: 100%;
+
+  @media screen and (min-width: $mobile) {
+    padding-top: 124px;
+  }
 
   h1 {
     margin-bottom: $tiny;
@@ -9,12 +15,8 @@
   .resources-list {
     display: block;
     list-style-type: none;
-    margin-bottom: 31px;
+    margin: 32px 0 0 0;
     text-align: left;
-
-    @media screen and (min-width: $desktop) {
-      margin-bottom: 55px;
-    }
 
     &.mobile {
       @media screen and (min-width: $mobile) {
