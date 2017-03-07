@@ -46,8 +46,6 @@
     }
 
     &:hover {
-      margin-bottom: -2px;
-
       img {
         box-shadow: 0 $micro $small rgba(0,0,0,0.2);
       }
@@ -78,7 +76,7 @@
     border-radius: 0 0 $borderRadius $borderRadius;
     box-shadow: 0 0 $micro rgba(0,0,0,0);
     height: auto;
-    margin-bottom: $micro;
+    margin-bottom: 26px;
     transition: box-shadow .2s ease;
     width: 100%;
   }
@@ -90,10 +88,27 @@
     margin: 0 0 6px 0;
   }
 
+  h2 {
+    font-size: 14px;
+  }
+
   p:not(.cta) {
     font-size: $tiny;
     font-weight: $regular;
     line-height: 28px;
-    margin: 0 0 45px 0;
+    margin: 0 0 26px 0;
+  }
+
+  .tools {
+    list-style-type: none;
+    margin: $micro 0 34px $micro;
+    padding: 0;
+
+    li {
+      font-weight: $regular;
+      &:before {
+        content: '• ';
+      }
+    }
   }
 }

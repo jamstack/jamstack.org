@@ -4,7 +4,7 @@
   <div class="contained">
     <p class="cta">
       <strong>Want to get your site listed here?</strong>
-      Submit a Pull Request with your JAMstack site’s information <a href="https://github.com/jamstack/jamstack.org">here</a>.
+      Submit a Pull Request with your JAMstack project’s information <a href="https://github.com/jamstack/jamstack.org">here</a>.
     </p>
     <div class="grid">
       {{ range .Site.Data.examples.examples }}
@@ -15,6 +15,12 @@
           <img src="{{ .thumbnailurl }}"/>
           <h1>{{ .title }}</h1>
           <p>{{ .description }}</p>
+          <h2>Tools &amp; Frameworks</h2>
+          <ul class="tools">
+            {{ range .tools }}
+              <li>{{ .tool }}</li>
+            {{ end }}
+          </ul>
         </a>
       {{ end }}
     </div>
