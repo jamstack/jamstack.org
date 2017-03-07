@@ -48,6 +48,18 @@
   </div>
 </section>
 
+<section class="advantages contained">
+  <h1>Why the JAMstack?</h1>
+  <div class="advantages-grid">
+    {{ range .Site.Data.definitions.advantages }}
+      <div class="advantage">
+        <h4>{{ .advantage | markdownify }}</h4>
+        <p>{{ .description | markdownify }}</p>
+      </div>
+    {{ end }}
+  </div>
+</section>
+
 <section class="resources">
   <h1 class="contained">JAMstack Resources</h1>
   <ul class="resources-list contained desktop">

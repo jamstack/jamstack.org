@@ -1,0 +1,60 @@
+.advantages {
+  padding: 0 $small;
+
+  @media screen and (min-width: $tablet) {
+    padding: 0 $medium;
+  }
+
+  h1 {
+    line-height: 30px;
+    margin: 0 0 29px 0;
+
+    @media screen and (min-width: $tablet) {
+      margin-bottom: 53px;
+    }
+  }
+
+  h4 {
+    font-weight: $bold;
+
+    @media screen and (min-width: $tablet) {
+      font-weight: $regular;
+    }
+  }
+
+  p {
+    margin: 10px 0 29px 0;
+
+    @media screen and (min-width: $tablet) {
+      margin: 10px 0 43px 0;
+    }
+  }
+
+  .advantages-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .advantage {
+    box-sizing: border-box;
+    margin: 0;
+    text-align: left;
+
+    @media screen and (min-width: $tablet) {
+      width: 50%;
+
+      &:nth-child(odd) {
+        padding: 0 3% 0 0;
+      }
+
+      &:nth-child(even) {
+        padding: 0 0 0 3%;
+      }
+
+      &:nth-child(n+2) p {
+        margin-bottom: 0;
+      }
+    }
+  }
+}

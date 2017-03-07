@@ -11,4 +11,14 @@ disqualifications:
   - disqualification: A monolithic server-run web app that relies on Ruby, Node, or another backend language.
   - disqualification: A single page app that uses isomorphic rendering to build views on the server at runtime.
   - qualification: Want to learn about best practices for building a JAMstack site?<br>[View best practices →](/best-practices)
+
+advantages:
+  - advantage: Better Performance
+    description: Why wait for pages to build on the fly when you can generate them at deploy time? When it comes to minimizing the time to first byte, nothing beats pre-built files served over a CDN.
+  - advantage: Higher Security
+    description: With server-side processes abstracted into microservice APIs, surface areas for attacks are reduced. You can also leverage the domain expertise of specialist third-party services.
+  - advantage: Cheaper, Easier Scaling
+    description: When your deployment amounts to a stack of files that can be served anywhere, scaling is a matter of serving those files in more places. CDNs are perfect for this, and often include scaling in all of their plans.
+  - advantage: Better Developer Experience
+    description: Loose coupling and separation of controls allow for more targeted development and debugging, and the expanding selection of CMS options for site generators remove the need to maintain a separate stack for content and marketing.
 ---
