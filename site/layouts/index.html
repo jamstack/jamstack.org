@@ -15,7 +15,7 @@
 <section id="what" class="jam-breakdown">
   <div class="contained intro">
     <h1>What is the Jamstack?</h1>
-    <p>Your project is on the JAMstack if it meets three key criteria:</p>
+    <p>Your project is built with the JAMstack if it meets three key criteria:</p>
   </div>
   <div class="letter-definition">
     <img class="letter" src="/img/j.svg"/>
@@ -35,15 +35,11 @@
 </section>
 
 <section class="jam-disqualifications contained">
-  <h1>What is <em>not</em> on the JAMstack?</h1>
-  <p>Any project that relies on a tight coupling between client and server is not on the JAMstack. This would include:</p>
+  <h1>When is your site <em>not</em> built with the JAMstack?</h1>
+  <p>Any project that relies on a tight coupling between client and server is not built with the JAMstack. This would include:</p>
   <div class="disqualifications">
     {{ range .Site.Data.definitions.disqualifications }}
-      {{ if .disqualification }}
-        <h4 class="disqualification">{{ .disqualification | markdownify }}</h4>
-      {{ else }}
-        <h4 class="qualification">{{ .qualification | markdownify }}</h4>
-      {{ end }}
+      <h4 class="disqualification">{{ .disqualification | markdownify }}</h4>
     {{ end }}
   </div>
 </section>
@@ -62,8 +58,8 @@
 
 <section id="how" class="bottom-cta contained">
   <h1>How do I get started?</h1>
-  <a href="/resources"><h4>View Resources →</h4></a>
   <a href="/best-practices"><h4>Learn About Best Practices →</h4></a>
+  <a href="/resources"><h4>View Resources →</h4></a>
 </section>
 
 <section class="chatter">
