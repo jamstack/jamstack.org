@@ -8,7 +8,13 @@
 
 <section class="intro">
   <div class="contained grid">
-    {{ .Site.Data.definitions.explanation | markdownify }}
+    <div>{{ .Site.Data.definitions.explanation | markdownify }}</div>
+    <div>
+      <h1>FAQ</h1>
+      <a class="text-link scrolling-link" href="#what"><h4>What is the JAMstack?</h4></a>
+      <a class="text-link scrolling-link" href="#why"><h4>Why the JAMstack?</h4></a>
+      <a class="text-link scrolling-link" href="#how"><h4>How do I get started?</h4></a>
+    </div>
   </div>
 </section>
 

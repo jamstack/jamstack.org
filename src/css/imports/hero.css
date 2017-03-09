@@ -34,44 +34,76 @@
     font-weight: $regular;
   }
 
-  + .intro ul {
-    display: flex;
-    flex-wrap: wrap;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+  + .intro .grid {
+    padding-bottom: $medium;
 
-    li {
-      margin: 20px 0 0 0;
+    @media screen and (min-width: $tablet) {
+      padding-bottom: 0;
+    }
+
+    > div {
+      display: inline-block;
+      margin: 0;
       width: 100%;
+      vertical-align: top;
 
       @media screen and (min-width: $tablet) {
         width: 44%;
+      }
 
-        &:first-child {
-          margin-right: 3%;
+      @media screen and (min-width: $desktop) {
+        font-size: 18px;
+        line-height: 35px;
+      }
+
+      &:first-child {
+        margin: 0 0 $medium 0;
+
+        @media screen and (min-width: $tablet) {
+          margin: 0 3% 0 0;
+        }
+
+        @media screen and (min-width: $desktop) {
+          margin-top: -10px;
         }
       }
 
       &:last-child {
+        border: 1px solid #d1d4d4;
+        box-sizing: border-box;
+        padding: $medium;
+        text-align: left;
 
         @media screen and (min-width: $tablet) {
-          margin-left: 3%;
+          padding: $small;
+          margin-left: 7%;
         }
 
         @media screen and (min-width: $desktop) {
-          margin-left: 13%;
-          width: 34%;
+          padding: $medium;
+          width: 40%;
+        }
+
+        h4:after {
+          content: ' →';
+
+          @media screen and (min-width: $tablet) {
+            content: '';
+          }
+
+          @media screen and (min-width: $desktop) {
+            content: ' →';
+          }
         }
       }
     }
 
     h1 {
-      display: none;
-      line-height: 52px;
+      line-height: 0;
+      margin: 9px 0 26px 0;
 
       @media screen and (min-width: $tablet) {
-        display: initial;
+        margin: 15px 0 43px 0;
       }
     }
 
@@ -87,6 +119,14 @@
     a {
       display: block;
       margin-bottom: 6px;
+
+      &:last-child {
+        margin-bottom: -7px;
+
+        @media screen and (min-width: $tablet) {
+          margin-bottom: -12px;
+        }
+      }
     }
   }
 }
