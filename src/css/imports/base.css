@@ -113,9 +113,18 @@ a {
   font-size: $tiny;
   font-weight: $bold;
   padding: $micro $tiny;
-  transition: background-image .2s ease;
+  transition: background .2s ease;
 
   &:hover {
     background-image: linear-gradient(0deg, $green 15%, $green 100%);
+  }
+
+  &.green {
+    background: $green;
+    color: $grey;
+
+    &:hover {
+      background: white;
+    }
   }
 }

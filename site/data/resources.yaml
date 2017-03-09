@@ -1,24 +1,25 @@
 ---
-resources:
-  - title: "Smashing Conf SF: The New Frontend Stack"
-    type: Conference Talk
-    link: https://vimeo.com/163522126
-  - title: JAMstack Radio
-    type: Podcast
-    link: http://www.heavybit.com/library/podcasts/jamstack-radio/
+articles:
   - title: A JAMstack-ready CMS
-    type: Article
     link: https://www.contentful.com/r/knowledgebase/jamstack-cms/
   - title: Isomorphic Rendering on the JAMstack
-    type: Article
     link: https://www.hawksworx.com/blog/isomorphic-rendering-on-the-jam-stack/
-  - title: 234 JSJ JAMStack with Brian Douglas and Matt Christensen
-    type: Podcast
-    link: https://devchat.tv/js-jabber/234-jsj-jamstack-with-brian-douglas-and-matt-christensen
   - title: Dynamic product management in a static e-commerce workflow
-    type: Article
     link: https://www.contentful.com/blog/2016/02/10/snipcart-middleman-contentful
   - title: "JAMstack for Clients: On Benefits & Static Site CMS"
-    type: Article
     link: https://snipcart.com/blog/jamstack-clients-static-site-cms
+
+videos:
+  - title: The New Front-end Stack. Javascript, APIs and Markup
+    description: Matt Biilmann covers how a new stack has emerged and how this has changed how web sites and web apps are built.
+    link: https://vimeo.com/163522126
+    thumbnailurl: /img/videos/mathias-smashing-conf.png
+  - title: How to fix the mobile web? Rethink loading
+    description: The modern web platform is feature-rich and the processors in our phones are powerful. Gray Norton provides answers on why today’s mobile web experience is often underwhelming.
+    link: https://www.youtube.com/watch?v=nv3ehPhcBgg
+    thumbnailurl: /img/videos/loading.jpg
+  - title: Easy Isomorphic Rendering on the JAMstack
+    description: In this talk, Phil will explore some techniques and tools which can combine to create dynamic and powerful sites with on a JAM Stack. With a simple example site at it's heart, we'll look at how its architecture and approach to content and data can be the basis of high performance experience.
+    link: https://www.youtube.com/watch?v=lRg99MH6rhw
+    thumbnailurl: /img/videos/isomorphic.jpg
 ---
