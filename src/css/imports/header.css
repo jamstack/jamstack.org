@@ -3,53 +3,99 @@ header {
   box-shadow: none;
   font-family: $roboto;
   padding: $medium 0;
-  position: absolute;
+  position: fixed;
   text-align: center;
   transition: background .2s ease, padding .2s ease, box-shadow .2s ease;
   width: 100%;
   z-index: 100;
 
-  @media screen and (min-width: $mobile) {
+  @media screen and (min-width: 900px) {
     text-align: right;
-    position: fixed;
   }
 
   &.scrolled {
-    @media screen and (min-width: $mobile) {
-      background: white;
-      box-shadow: 0 calc($micro / 2) $micro rgba(0,0,0,0.05);
-      padding: $small 0;
-    }
+    background: white;
+    box-shadow: 0 calc($micro / 2) $micro rgba(0,0,0,0.05);
+    padding: $small 0;
   }
 
-  a {
-    color: $grey;
-    display: inline-block;
+  a:not(.slicknav_btn):not(.mobile-logo) {
+    display: block;
+    padding: $small 0;
+    border-radius: 4px;
 
-    &:not(:first-child):not(:last-child) {
-      display: none;
+    &:not(.button) {
+      background: $lighterGrey;
+      color: $grey;
 
-      @media screen and (min-width: 865px) {
-        display: initial;
-        margin-left: 17px;
+      &:hover {
+        background: $green;
+        color: white;
+      }
+
+      @media screen and (min-width: 900px) {
+        background: none;
+        padding: 0;
+
+        &:hover {
+          background: none;
+          color: $grey;
+        }
       }
     }
 
-    &:last-child {
-      @media screen and (min-width: $mobile) {
-        margin-left: 19px;
+    @media screen and (min-width: 900px) {
+      display: inline-block;
+      margin-left: 17px;
+    }
+
+    &.button {
+      padding: $small 0;
+
+      @media screen and (min-width: 900px) {
+        padding: $micro $tiny;
       }
     }
   }
 
   .logo {
-    margin: 0 auto $tiny auto;
-    width: 100%;
-
-    @media screen and (min-width: $mobile) {
+    @media screen and (min-width: 900px) {
       float: left;
       margin: -3px 0 -6px 0;
       width: initial;
     }
+
+    img {
+      display: none;
+
+      @media screen and (min-width: 900px) {
+        display: block;
+      }
+    }
+
+    a:not(.slicknav_btn):not(.mobile-logo) {
+      margin-left: 0;
+
+      &:before {
+        content: 'The JAMstack';
+
+        @media screen and (min-width: 900px) {
+          content: '';
+        }
+      }
+    }
+  }
+}
+
+#menu {
+  display: none;
+  list-style-type: none;
+
+  @media screen and (min-width: 900px) {
+    display: block;
+  }
+
+  li {
+    display: inline-block;
   }
 }

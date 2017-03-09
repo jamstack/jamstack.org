@@ -1,3 +1,14 @@
+// mobile menu
+
+$(function(){
+  $('#menu').slicknav({
+    brand: '<a class="mobile-logo" href="/"><img src="/img/jamstack-full-logo.svg"/></a>',
+    label: '',
+    appendTo: 'header'
+  });
+});
+
+
 // Sticky Nav Functionality in Vanilla JS
 
 function hasClass(el, className) {

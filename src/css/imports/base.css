@@ -111,7 +111,7 @@ a {
   color: white;
   font-family: $roboto;
   font-size: $tiny;
-  font-weight: $regular;
+  font-weight: $bold;
   padding: $micro $tiny;
   transition: background-image .2s ease;
 
