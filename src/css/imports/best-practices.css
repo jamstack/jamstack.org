@@ -61,6 +61,12 @@
       }
     }
 
+    img {
+      height: 16px;
+      width: auto;
+      margin-right: $micro;
+    }
+
     p {
       font-size: $tiny;
       font-weight: $regular;
