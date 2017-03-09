@@ -1,14 +1,14 @@
 {{ partial "header" . }}
 
 <section class="hero">
-  <div class="contained grid">
+  <div class="contained">
     <h1>{{ .Site.Data.definitions.jamstack | markdownify }}</h1>
-    <p>
-      {{ .Site.Data.definitions.explanation | markdownify }}
-      <a class="text-link scrolling-link" href="#what">What?</a>
-      <a class="text-link scrolling-link" href="#why">Why?</a>
-      <a class="text-link scrolling-link" href="#how">How?</a>
-    </p>
+  </div>
+</section>
+
+<section class="intro">
+  <div class="contained grid">
+    {{ .Site.Data.definitions.explanation | markdownify }}
   </div>
 </section>
 

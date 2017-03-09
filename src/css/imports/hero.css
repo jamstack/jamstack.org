@@ -17,15 +17,7 @@
     margin: $medium 0;
 
     @media screen and (min-width: $tablet) {
-      font-size: 28px;
-      line-height: 54px;
-      margin: calc($micro/2) 8% 0 0;
-      width: 50%;
-    }
-
-    @media screen and (min-width: $desktop) {
-      margin: calc($micro/2) 10% 0 0;
-      width: 48%;
+      margin: calc($micro/2) 0 0 0;
     }
 
     span {
@@ -42,17 +34,59 @@
     font-weight: $regular;
   }
 
-  p {
-    font-size: $tiny;
+  + .intro ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 
-    @media screen and (min-width: $tablet) {
-      line-height: 31px;
+    li {
       margin: 20px 0 0 0;
-      width: 41%;
+      width: 100%;
+
+      @media screen and (min-width: $tablet) {
+        width: 44%;
+
+        &:first-child {
+          margin-right: 3%;
+        }
+      }
+
+      &:last-child {
+
+        @media screen and (min-width: $tablet) {
+          margin-left: 3%;
+        }
+
+        @media screen and (min-width: $desktop) {
+          margin-left: 13%;
+          width: 34%;
+        }
+      }
     }
 
-    @media screen and (min-width: $desktop) {
-      width: 40%;
+    h1 {
+      display: none;
+      line-height: 52px;
+
+      @media screen and (min-width: $tablet) {
+        display: initial;
+      }
+    }
+
+    p {
+      font-size: $tiny;
+
+      @media screen and (min-width: $tablet) {
+        line-height: 31px;
+        margin: 0;
+      }
+    }
+
+    a {
+      display: block;
+      margin-bottom: 6px;
     }
   }
 }

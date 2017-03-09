@@ -11,8 +11,9 @@
 
     p {
       margin: 0 0 $medium 0;
+
       @media screen and (min-width: $tablet) {
-        margin: -6px 0 30px 0;
+        margin: 13px 0 50px 0;
       }
     }
   }
