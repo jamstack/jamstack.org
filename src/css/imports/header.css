@@ -20,46 +20,43 @@ header {
   }
 
   a:not(.slicknav_btn):not(.mobile-logo) {
+    background: $lighterGrey;
+    border-radius: 4px;
+    color: $grey;
     display: block;
     padding: $small 0;
-    border-radius: 4px;
 
-    &:not(.button) {
-      background: $lighterGrey;
-      color: $grey;
+    &:hover {
+      background: $green;
+      color: white;
+    }
 
-      &:hover {
-        background: $green;
-        color: white;
+    @media screen and (min-width: 900px) {
+      background: none;
+      padding: 0;
+      position: relative;
+
+      &:not(.logo-link) {
+        &:before {
+          background: $green;
+          content: ' ';
+          height: 29px;
+          left: 0;
+          position: absolute;
+          top: -48px;
+          transform: translateY(-30px) skew(45deg);
+          transition: transform .2s ease;
+          width: 100%;
+          z-index: -1;
+        }
       }
 
-      @media screen and (min-width: 900px) {
+      &:hover {
         background: none;
-        padding: 0;
-        position: relative;
+        color: $grey;
 
-        &:not(.logo-link) {
-          &:before {
-            background: $green;
-            content: ' ';
-            height: 29px;
-            left: 0;
-            position: absolute;
-            top: -48px;
-            transform: translateY(-30px) skew(45deg);
-            transition: transform .2s ease;
-            width: 100%;
-            z-index: -1;
-          }
-        }
-
-        &:hover {
-          background: none;
-          color: $grey;
-
-          &:before {
-            transform: translateY(0);
-          }
+        &:before {
+          transform: translateY(0);
         }
       }
     }
@@ -108,7 +105,7 @@ header {
     }
     &.on-community {
       a:not(.slicknav_btn):not(.mobile-logo):not(.logo-link) {
-        &.best-practices-link {
+        &.community-link {
           &:before {
             transform: translateY(0);
           }
