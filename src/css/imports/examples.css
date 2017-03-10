@@ -122,6 +122,12 @@
     list-style-type: none;
     margin: $micro 0 34px 0;
     padding: 0;
+    -moz-column-count: 2;
+    -moz-column-gap: $tiny;
+    -webkit-column-count: 2;
+    -webkit-column-gap: $tiny;
+    column-count: 2;
+    column-gap: $tiny;
 
     @media screen and (min-width: $tablet) {
       margin-bottom: 58px;
