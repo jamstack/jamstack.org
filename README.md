@@ -28,9 +28,9 @@ To build your static output to the `/dist` folder, use:
 npm run build
 ```
 
-## Contribute Resources
+## Contribute Resources (Videos & Articles)
 
-To contribute resources to the JAMstack community, simply clone this branch and edit the `resources.yaml` in the `/site/data` directory. Just add another item (following the the prexisting syntax) and submit a pull request. We will review these regularly and likely merge the addition shortly.
+To contribute resources to the JAMstack community, simply clone this branch and edit the `resources.yaml` in the `/site/data` directory. Just add another item (following the the prexisting syntax) and submit a pull request. If you are adding a video resource, please upload a thumbnail of the video to the `/img/videos` directory (image should be a jpeg 600px wide and 400px tall) before submitting your pull request. We will review these regularly and likely merge the addition shortly.
 
 ## Contribute Examples
 
