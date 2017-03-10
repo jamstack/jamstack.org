@@ -1,11 +1,8 @@
 .best-practices {
-  padding-top: 186px;
+  padding-top: 124px;
   text-align: left;
   width: 100%;
 
-  @media screen and (min-width: $mobile) {
-    padding-top: 124px;
-  }
 
   .headline {
     margin-bottom: $tiny;
