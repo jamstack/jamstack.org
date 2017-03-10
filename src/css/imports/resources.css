@@ -54,8 +54,6 @@
     }
 
     &:hover {
-      margin-bottom: -2px;
-
       .thumbnail-wrap {
         background: $green;
         border-color: $green;
