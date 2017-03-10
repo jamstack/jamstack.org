@@ -1,7 +1,23 @@
 ---
-jamstack: "**JAMstack**: noun &#92;’jam-stak’&#92; The ideal way of building websites and apps that are fast, secure and simple to work with through the utilization of JavaScript, APIs, and Markup."
+jamstack: "**JAMstack**: noun &#92;’jam-stak’&#92; <span><br></span>Modern web development architecture based on client-side JavaScript, reusable APIs, and prebuilt Markup."
+explanation: When we talk about "The Stack," we no longer talk about operating systems, specific web servers, backend programming languages, or databases.<br><br>The JAMstack is not about specific technologies. It's a new way of building websites and apps that delivers better performance, higher security, lower cost of scaling, and a better developer experience.
 
-javascript: "With servers abstracted away by CDNs and APIs, sites are either database free (and generated up front) or consume hosted database services directly from the browser. JavaScript is in charge of any dynamic programming during the request/response cycle and runs entirely on the client."
-apis: "Today browsers are the operating system of the web, and are able to run complex applications completely client side. They are capable of consuming and interacting with an ever growing amount of APIs and services across domains and infrastructures."
-markup: "The JAMstack uses markup languages like HTML, CSS and Markdown to format and style our content, client-side JavaScript to make it interactive and engaging and APIs to add persistence, real-time sync, real-world interactions, comments, shopping carts, and so on."
+javascript: "Any dynamic programming during the request/response cycle is handled by JavaScript, running entirely on the client. This could be any frontend framework, library, or even vanilla JavaScript."
+apis: "All server-side processes or database actions are abstracted into reusable APIs, accessed over HTTP with JavaScript. These can be custom-built or leverage third-party services."
+markup: "Templated markup should be pre-built at deploy time, usually using a site generator for content sites, or a build tool for web apps.<br><br>[Want to see some examples?](/examples)"
+
+disqualifications:
+  - disqualification: A site built with a server-side CMS like WordPress, Drupal, Joomla, or Squarespace.
+  - disqualification: A monolithic server-run web app that relies on Ruby, Node, or another backend language.
+  - disqualification: A single page app that uses isomorphic rendering to build views on the server at runtime.
+
+advantages:
+  - advantage: Better Performance
+    description: Why wait for pages to build on the fly when you can generate them at deploy time? When it comes to minimizing the time to first byte, nothing beats pre-built files served over a CDN.
+  - advantage: Higher Security
+    description: With server-side processes abstracted into microservice APIs, surface areas for attacks are reduced. You can also leverage the domain expertise of specialist third-party services.
+  - advantage: Cheaper, Easier Scaling
+    description: When your deployment amounts to a stack of files that can be served anywhere, scaling is a matter of serving those files in more places. CDNs are perfect for this, and often include scaling in all of their plans.
+  - advantage: Better Developer Experience
+    description: Loose coupling and separation of controls allow for more targeted development and debugging, and the expanding selection of CMS options for site generators remove the need to maintain a separate stack for content and marketing.
 ---

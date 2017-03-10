@@ -1,0 +1,59 @@
+{{ partial "header" . }}
+
+<div class="community">
+
+  <section class="hero">
+    <div class="contained">
+      <h1 class="community-headline">Join your local JAMstack Chapter.</h1>
+    </div>
+  </section>
+
+  <div class="contained">
+    <div class="grid">
+      {{ range .Site.Data.community.chapters }}
+        <a class="chapter" href="{{ .link }}">
+          <img src="{{ .artpath }}" class="art"/>
+          <h1>{{ .name }}</h1>
+          <div class="button{{ if .teaser }} greyed{{ end }}">{{ .btncopy }}</div>
+        </a>
+      {{ end }}
+    </div>
+  </div>
+
+  <section class="upcoming-event grid contained">
+    <div class="hook">
+      <h1>Upcoming Events</h1>
+      <p>
+        <strong>Do you happen to be in {{ .Site.Data.community.upcomingevent.location }} on {{ .Site.Data.community.upcomingevent.date }}?</strong>
+        If so, come join us for <a href="{{ .Site.Data.community.upcomingevent.link }}" class="text-link">{{ .Site.Data.community.upcomingevent.name }}</a>!
+      </p>
+    </div>
+    <a href="{{ .Site.Data.community.upcomingevent.link }}" class="event-card">
+      <h4>{{ .Site.Data.community.upcomingevent.name }}</h4>
+      <p>{{ .Site.Data.community.upcomingevent.description }}</p>
+      <p>
+        <strong>Where? </strong>{{ .Site.Data.community.upcomingevent.location }}<br>
+        <strong>When? </strong>{{ .Site.Data.community.upcomingevent.date }}
+      </p>
+    </a>
+  </section>
+
+  <div class="bottom-cta">
+    <div class="contained">
+      <img src="{{ .Site.Data.community.bottomcta.artpath }}" class="art"/>
+      <h1>{{ .Site.Data.community.bottomcta.headline }}</h1>
+      <a href="{{ .Site.Data.community.bottomcta.ctalink }}" class="button">{{ .Site.Data.community.bottomcta.ctacopy }}</a>
+    </div>
+  </div>
+
+  <section class="chatter">
+    <h1>Spread the JAM by tweeting <span><img src="/img/twitter.svg"/>#JAMstack</span></h1>
+    <div class="tweets">
+      <div class="contained">
+        <ul class="juicer-feed" data-feed-id="jamstack" data-pages="1" data-overlay="false" data-per="3"></ul>
+      </div>
+    </div>
+  </section>
+</div>
+
+{{ partial "footer" . }}

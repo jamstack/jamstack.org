@@ -1,0 +1,62 @@
+{{ partial "header" . }}
+
+<div class="resources">
+  <h1 class="contained">Resources</h1>
+  <p class="contained">
+    <strong>Have a great JAMstack resource to share?</strong>
+    Submit a Pull Request with your JAMstack resource's information <a href="https://github.com/jamstack/jamstack.org">here</a>.
+  </p>
+
+  <section class="videos contained">
+    <h1>Videos</h1>
+    <div class="grid">
+      {{ range .Site.Data.resources.videos }}
+        <a class="video" href="{{ .link }}" data-lity data-lity-target="{{ .link }}" >
+          <div class="thumbnail-wrap">
+            <img src="{{ .thumbnailurl }}"/>
+          </div>
+          <h4>{{ .title }}</h4>
+          <p>{{ .description }}</p>
+        </a>
+      {{ end }}
+    </div>
+  </section>
+
+  <section class="articles">
+    <h1 class="contained">Articles</h1>
+    <ul class="articles-list contained">
+      {{ range .Site.Data.resources.articles }}
+        <li>
+          <a href="{{ .link }}">
+            <h3>{{ .title }}</h3>
+            <span>→</span>
+          </a>
+        </li>
+      {{ end }}
+    </ul>
+  </section>
+
+  <section class="podcasts contained">
+    <div class="podcast-promo">
+      <div class="cta">
+        <img class="jamstack-radio" src="/img/jamstack-knockout.svg" />
+        <a href="https://www.netlify.com/tags/podcast" class="button green">View All Podcasts →</a>
+      </div>
+      <div class="teaser">
+        <h1>Tune into the Podcast</h1>
+        <p>Every week, Brian Douglas from Netlify talks with special guests about all things pertaining to the JAMstack.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="chatter">
+    <h1>Spread the JAM by tweeting <span><img src="/img/twitter.svg"/>#JAMstack</span></h1>
+    <div class="tweets">
+      <div class="contained">
+        <ul class="juicer-feed" data-feed-id="jamstack" data-pages="1" data-overlay="false" data-per="3"></ul>
+      </div>
+    </div>
+  </section>
+</div>
+
+{{ partial "footer" . }}

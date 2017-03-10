@@ -1,0 +1,119 @@
+.slicknav_btn {
+  position: relative;
+  display: block;
+  vertical-align: middle;
+  float: right;
+  padding: $micro 6px 22px 20px;
+  line-height: 0;
+  margin: -4px 0 -$micro 0;
+  cursor: pointer;
+  transition: margin .2s ease;
+
+  &.slicknav_open {
+    margin: -4px 0 29px 0;
+  }
+
+  .slicknav_icon-bar + .slicknav_icon-bar {
+    margin-top: 2px;
+  }
+}
+
+.slicknav_menu {
+  display: block;
+  *zoom: 1;
+  margin: 0 auto;
+  max-width: $display;
+  padding: 0 $small;
+
+  @media screen and (min-width: $tablet) {
+    padding: 0 $medium;
+  }
+
+  @media screen and (min-width: 900px) {
+    display: none;
+  }
+
+  .slicknav_menutxt {
+    display: block;
+    line-height: 1.188em;
+    float: left;
+  }
+  .slicknav_icon {
+    float: left;
+    width: 1.125em;
+    height: 0.875em;
+    margin: 0.188em 0 0 0.438em;
+
+    &:before {
+      background: transparent;
+      width: 1.125em;
+      height: 0.875em;
+      display: block;
+      content: "";
+      position: absolute;
+    }
+  }
+  .slicknav_no-text {
+    margin: 0;
+  }
+  .slicknav_icon-bar {
+    display: block;
+    width: $small;
+    height: 4px;
+    box-shadow: 0 2px 0 $grey;
+  }
+  &:before {
+    content: " ";
+    display: table;
+  }
+  &:after {
+    content: " ";
+    display: table;
+    clear: both;
+  }
+}
+.slicknav_nav {
+  clear: both;
+  background: white;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+
+  @media screen and (min-width: $tablet) {
+    padding: $small 0;
+  }
+
+  ul {
+    display: block;
+  }
+  li {
+    display: block;
+
+    &:not(:last-child){
+      border-bottom: 4px solid white;
+    }
+  }
+  .slicknav_arrow {
+    font-size: 0.8em;
+    margin: 0 0 0 0.4em;
+  }
+  .slicknav_item {
+    cursor: pointer;
+    a {
+      display: inline;
+    }
+  }
+  .slicknav_row {
+    display: block;
+  }
+  a {
+    display: block;
+  }
+  .slicknav_parent-link a {
+    display: inline;
+  }
+}
+.slicknav_brand {
+  float: left;
+  margin: -3px 0 -$micro 0;
+}

@@ -1,0 +1,55 @@
+.jam-disqualifications {
+  padding: 0 $small;
+
+  @media screen and (min-width: $tablet) {
+    padding: 0 $medium;
+  }
+
+  h1 + p {
+    margin-bottom: 43px;
+  }
+
+  .disqualifications {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .disqualification {
+    background: url(/img/x.svg) no-repeat top left;
+  }
+
+  .qualification {
+    background: url(/img/check.svg) no-repeat top left;
+
+    a {
+      font-family: $roboto;
+      font-weight: $semibold;
+      font-size: 14px;
+
+      @media screen and (min-width: $tablet) {
+        font-size: $tiny;
+      }
+    }
+  }
+
+  .disqualification,
+  .qualification {
+    background-size: $tiny;
+    background-position: 0 calc($micro / 2);
+    box-sizing: border-box;
+    margin: 0 0 $small 0;
+    padding: 0 0 0 $small;
+    text-align: left;
+
+    @media screen and (min-width: $tablet) {
+      background-position: top left;
+      background-size: $medium;
+      font-size: 18px;
+      line-height: 32px;
+      margin: 0 0 $small 0;
+      padding: 0 0 0 $large;
+      width: 48%;
+    }
+  }
+}

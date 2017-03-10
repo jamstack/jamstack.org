@@ -1,0 +1,29 @@
+---
+chapters:
+  - name: JAMstack San Francisco
+    artpath: /img/chapters/sf-art.svg
+    btncopy: Join Now
+    link: https://www.meetup.com/jamstack-sf/
+  - name: JAMstack Dallas
+    artpath: /img/chapters/dallas-art.svg
+    btncopy: Join Now
+    link: https://www.meetup.com/JAMstack-Meetup/
+  - name: JAMstack London
+    artpath: /img/chapters/london-art.svg
+    btncopy: Coming Soon
+    link: #
+    teaser: true
+
+upcomingevent:
+  name: "Active Ingredients: Web"
+  link: http://activeingredients.info/
+  date: April 28, 2017
+  location: San Francisco
+  description: The world’s first conference focused on the JAMstack, produced by Designers + Geeks and curated by Netlify.
+
+bottomcta:
+  artpath: /img/chapters/meetup-map.svg
+  headline: Start a JAMstack Meetup
+  ctacopy: Contact Us
+  ctalink: mailto:cassandra@netlify.com
+---

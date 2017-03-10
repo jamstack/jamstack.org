@@ -1,0 +1,174 @@
+.community {
+
+  .hero {
+    background: url('/img/chapters/meetup-logo.svg') top center no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+    padding: $xl 0 $small 0;
+    text-align: center;
+
+    @media screen and (min-width: $tablet) {
+      background-position: top center;
+      padding: 160px 0 $xl 0;
+    }
+  }
+
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 0;
+
+    @media screen and (min-width: $tablet) {
+      margin-bottom: calc($large * 1.61);
+    }
+  }
+
+  .upcoming-event {
+    margin: $small auto $large auto;
+
+    @media screen and (min-width: $tablet) {
+      margin: $medium auto $large auto;
+    }
+
+    .hook {
+      align-self: center;
+      margin: 0 0 $medium 0;
+      width: 100%;
+
+      @media screen and (min-width: $tablet) {
+        margin: 0 3% 0 0;
+        width: 44%;
+      }
+
+      strong {
+        display: block;
+      }
+    }
+
+    .event-card {
+      color: $grey;
+      border: 1px solid #d1d4d4;
+      box-sizing: border-box;
+      padding: $medium;
+      text-align: left;
+      transition: all .2s ease;
+
+      &:hover {
+        color: white;
+        background: $green;
+        border-color: $green;
+      }
+
+      @media screen and (min-width: $tablet) {
+        padding: $small;
+        margin-left: 7%;
+        width: 40%;
+      }
+
+      @media screen and (min-width: $desktop) {
+        padding: $medium;
+      }
+
+      h4 {
+        font-weight: $bold;
+        margin-top: -10px;
+
+        @media screen and (min-width: $tablet) {
+          font-weight: $regular;
+        }
+      }
+
+      p {
+        font-size: $tiny;
+        font-weight: $regular;
+        margin-bottom: -10px;
+
+        &:last-child {
+          margin-top: $small;
+        }
+      }
+    }
+  }
+
+
+  .chapter {
+    color: $grey;
+    margin-bottom: $large;
+    text-align: center;
+    width: 100%;
+
+    @media screen and (min-width: $tablet) {
+      margin-bottom: 0;
+      width: 30%;
+    }
+
+    &:nth-child(3n - 1) {
+      @media screen and (min-width: $tablet) {
+        margin: 0 5%;
+      }
+    }
+
+    img {
+      box-sizing: border-box;
+      height: calc($xxl * .9);
+      margin-bottom: $tiny;
+      transition: box-shadow .2s ease;
+      width: 100%;
+    }
+
+    h1 {
+      font-size: 22px;
+      font-weight: $bold;
+      line-height: 34px;
+      margin: 0 0 14px 0;
+
+      @media screen and (min-width: $tablet) and (max-width: 959px) {
+        font-size: 18px;
+      }
+    }
+
+    .button {
+      border: 1px solid $meetupred;
+      background: white;
+      color: $grey;
+      display: inline-block;
+      min-width: $xxl;
+      transition: background .2s ease, color .2s ease;
+
+      &:hover {
+        background: $meetupred;
+        color: white;
+      }
+
+      &.greyed,
+      &.greyed:hover {
+        border: #ccc;
+        background: #ccc;
+        color: white;
+      }
+    }
+  }
+
+  .bottom-cta {
+    background: $lighterGrey;
+    text-align: center;
+
+    .contained {
+      padding: $large $medium;
+    }
+
+    img {
+      width: 320px;
+      max-width: 100%;
+      margin: 0 0 $small 0;
+    }
+
+    a {
+      background: $meetupred;
+      display: inline-block;
+      padding: $tiny $small;
+      min-width: $xxl;
+      text-align: center;
+    }
+  }
+}

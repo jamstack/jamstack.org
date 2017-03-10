@@ -1,0 +1,74 @@
+.best-practices {
+  padding-top: 124px;
+  text-align: left;
+  width: 100%;
+
+
+  .headline {
+    margin-bottom: $tiny;
+  }
+
+  .cta {
+    margin-bottom: 54px;
+
+    @media screen and (min-width: $tablet) {
+      max-width: 50%;
+    }
+  }
+
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+
+    a {
+      color: $grey;
+    }
+  }
+
+  .best-practice {
+    @media screen and (min-width: $tablet) {
+      width: 48%;
+    }
+
+    @media screen and (min-width: $desktop) {
+      width: 30%;
+    }
+
+    &:nth-child(2n) {
+      @media screen and (min-width: $tablet) and (max-width: 959px) {
+        margin: 0 0 0 4%;
+      }
+    }
+
+    &:nth-child(3n - 1) {
+      @media screen and (min-width: $desktop) {
+        margin: 0 5%;
+      }
+    }
+
+    h4 {
+      font-weight: $bold;
+      font-size: 18px;
+      line-height: 32px;
+      margin: 0 0 14px 0;
+
+      @media screen and (min-width: $tablet) {
+        font-size: 22px;
+        line-height: 34px;
+      }
+    }
+
+    img {
+      height: 16px;
+      width: auto;
+      margin-right: $micro;
+    }
+
+    p {
+      font-size: $tiny;
+      font-weight: $regular;
+      line-height: 28px;
+      margin: 0 0 45px 0;
+    }
+  }
+}

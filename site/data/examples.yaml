@@ -4,36 +4,80 @@ examples:
     description: DUSK is a creative collective agency for web design, development, strategy & branding built on jekyll using the JAMstack and Netlify CMS for content management.
     link: https://www.justdusk.com
     thumbnailurl: /img/examples/dusk.jpg
-  - title: Super Bowl
-    description: The official source for Super Bowl event information, news, and history, from NFL.com.
-    link: https://www.nfl.com/super-bowl
-    thumbnailurl: /img/examples/super-bowl.jpg
-  - title: Learn Apollo
-    description: A hands-on tutorial for Apollo GraphQL Client
-    link: https://www.learnapollo.com/
-    thumbnailurl: /img/examples/apollo.jpg
+    tools:
+      - tool: Jekyll
+      - tool: GitHub
+      - tool: Netlify
+      - tool: SASS
+      - tool: NPM
+      - tool: Google Analytics
   - title: Sequoia Capital
     description: Sequoia Capital help the daring build legendary companies.
     link: https://www.sequoiacap.com/
     thumbnailurl: /img/examples/sequoia.jpg
+    tools:
+      - tool: Middleman
+      - tool: jQuery
+      - tool: Sass
+      - tool: Contentful
+      - tool: fuse.js
+      - tool: GitHub
+      - tool: Netlify
+      - tool: Google Analytics
   - title: Carrot Creative
     description: Creative, technology, and distribution under one roof. Carrot is the full-service digital agency within VICE.
     link: https://carrot.is/
     thumbnailurl: /img/examples/carrot.jpg
+    tools:
+      - tool: Roots
+      - tool: Vue
+      - tool: Stylus
+      - tool: Coffeescript
+      - tool: Jade (Pug)
+      - tool: Contentful
+      - tool: Internal APIs
+      - tool: Spike
+      - tool: GitHub
+      - tool: Netlify
+      - tool: Google Analytics
   - title: Sphero
     description: Sphero fuses physical robotic toys, digital apps, and entertainment experiences to unlock the true potential of play and inspire tomorrow’s creators.
     link: http://www.sphero.com/
     thumbnailurl: /img/examples/sphero.jpg
+    tools:
+      - tool: Angular
+      - tool: Jekyll
+      - tool: GRUNT
+      - tool: Contentful
+      - tool: Vero API
+      - tool: SASS
+      - tool: GitHub
+      - tool: Netlify
   - title: Lodash
     description: A JavaScript utility library delivering consistency, modularity, performance, & extras.
     link: https://lodash.com/
     thumbnailurl: /img/examples/lodash.jpg
-  - title: Framer
-    description: Design interactive high-fidelity prototypes for iOS, Android, desktop or the web. Invent new animations and interactions. Integrates with Sketch and Photoshop.
-    link: https://framer.com/
-    thumbnailurl: /img/examples/framer.jpg
-  - title: MojoTech
-    description: Since 2008, MojoTech has tackled more than 150 business challenges with our proven process, thoughtful design and serious engineering.
-    link: https://www.mojotech.com/
-    thumbnailurl: /img/examples/mojotech.jpg
+    tools:
+      - tool: Grunt
+      - tool: Babel
+      - tool: Jekyll
+      - tool: React
+      - tool: Sass
+      - tool: GitHub
+      - tool: Netlify
+  - title: Serverless
+    description: Serverless Application Framework powered by AWS Lambda, Microsoft Azure, Google Cloud Platform, and IBM OpenWhisk
+    link: http://www.serverless.com/
+    thumbnailurl: /img/examples/serverless.jpg
+    tools:
+      - tool: Webpack
+      - tool: Babel
+      - tool: Phenomic
+      - tool: React
+      - tool: CSS modules
+      - tool: PostCSS
+      - tool: Disqus
+      - tool: Auth0
+      - tool: GitHub
+      - tool: Netlify
 ---

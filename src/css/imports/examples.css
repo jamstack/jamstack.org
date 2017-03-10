@@ -1,14 +1,35 @@
 .examples {
   background-image: linear-gradient(0deg, $lighterGrey 0%, white 100%);
-  padding-top: 186px;
+  padding-top: 124px;
   text-align: left;
 
-  @media screen and (min-width: $mobile) {
-    padding-top: 124px;
+  @media screen and (min-width: $tablet) {
+    padding-top: 144px;
   }
 
   .cta {
-    margin-bottom: 54px;
+    margin-bottom: $small;
+
+    @media screen and (min-width: $tablet) {
+      margin-bottom: 54px;
+    }
+
+    h1, p {
+      @media screen and (min-width: $tablet) {
+        width: 48%;
+      }
+    }
+
+    h1 {
+      margin: 0 4% $medium 0;
+
+      @media screen and (min-width: $tablet) {
+        font-size: 17px;
+        font-style: italic;
+        line-height: 26px;
+        margin-bottom: $small;
+      }
+    }
 
     strong {
       display: block;
@@ -18,13 +39,11 @@
   .grid {
     display: flex;
     flex-wrap: wrap;
-
-    a {
-      color: $grey;
-    }
   }
 
   .example {
+    color: $grey;
+
     @media screen and (min-width: $tablet) {
       width: 48%;
     }
@@ -46,11 +65,16 @@
     }
 
     &:hover {
-      margin-bottom: -2px;
-
       img {
         box-shadow: 0 $micro $small rgba(0,0,0,0.2);
       }
+    }
+
+    h1 {
+      font-size: 22px;
+      font-weight: $bold;
+      line-height: 34px;
+      margin: 0 0 6px 0;
     }
   }
 
@@ -78,22 +102,42 @@
     border-radius: 0 0 $borderRadius $borderRadius;
     box-shadow: 0 0 $micro rgba(0,0,0,0);
     height: auto;
-    margin-bottom: $micro;
+    margin-bottom: 26px;
     transition: box-shadow .2s ease;
     width: 100%;
   }
 
-  h1 {
-    font-size: 22px;
-    font-weight: $bold;
-    line-height: 34px;
-    margin: 0 0 6px 0;
+  h2 {
+    font-size: 14px;
   }
 
   p:not(.cta) {
     font-size: $tiny;
     font-weight: $regular;
     line-height: 28px;
-    margin: 0 0 45px 0;
+    margin: 0 0 26px 0;
+  }
+
+  .tools {
+    list-style-type: none;
+    margin: $micro 0 34px 0;
+    padding: 0;
+    -moz-column-count: 2;
+    -moz-column-gap: $tiny;
+    -webkit-column-count: 2;
+    -webkit-column-gap: $tiny;
+    column-count: 2;
+    column-gap: $tiny;
+
+    @media screen and (min-width: $tablet) {
+      margin-bottom: 58px;
+    }
+
+    li {
+      font-weight: $regular;
+      &:before {
+        content: '• ';
+      }
+    }
   }
 }

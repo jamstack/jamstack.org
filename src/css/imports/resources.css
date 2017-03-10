@@ -1,53 +1,149 @@
 .resources {
   overflow: hidden;
+  padding-top: 124px;
+  text-align: left;
   width: 100%;
 
   h1 {
     margin-bottom: $tiny;
   }
 
-  .resources-list {
+  strong {
     display: block;
-    list-style-type: none;
-    margin-bottom: 31px;
-    text-align: left;
+  }
 
-    @media screen and (min-width: $desktop) {
-      margin-bottom: 55px;
-    }
+  .videos {
+    margin: $medium auto 0 auto;
 
-    &.mobile {
-      @media screen and (min-width: $mobile) {
-        display: none;
-      }
-
-      .link-icon {
-        margin-right: $micro;
-        height: $tiny;
-        width: auto;
-      }
-    }
-
-    &.desktop {
-      display: none;
-
-      @media screen and (min-width: $mobile) {
-        display: block;
-      }
+    .grid {
+      display: flex;
+      flex-wrap: wrap;
+      margin-bottom: -45px;
     }
   }
 
-  li {
-    display: flex;
-    flex-flow: row wrap;
-    padding: $tiny 0;
-    position: relative;
+  .video {
+    color: $grey;
+    outline: none;
+    box-shadow: none;
 
-    &:nth-child(even) {
-      background: $lightGrey;
+    @media screen and (min-width: $tablet) {
+      width: 48%;
+    }
+
+    @media screen and (min-width: $desktop) {
+      width: 30%;
+    }
+
+    &:nth-child(2n) {
+      @media screen and (min-width: $tablet) and (max-width: 959px) {
+        margin: 0 0 0 4%;
+      }
+    }
+
+    &:nth-child(3n - 1) {
+      @media screen and (min-width: $desktop) {
+        margin: 0 5%;
+      }
+    }
+
+    &:active,
+    &:visited {
+      outline: none;
+      box-shadow: none;
+    }
+
+    &:hover {
+      .thumbnail-wrap {
+        background: $green;
+        border-color: $green;
+        box-shadow: 0 $micro $small rgba(0,0,0,0.2);
+
+        &:after {
+          background-size: $large $large;
+        }
+      }
+
+      img {
+        opacity: 0.1;
+      }
+    }
+
+    img {
+      height: auto;
+      margin-bottom: -10px;
+      opacity: 0.5;
+      transition: opacity .2s ease;
+      width: 100%;
+    }
+
+    h4 {
+      font-size: 18px;
+      font-weight: $bold;
+      line-height: 30px;
+      margin: $small 0 $tiny 0;
+    }
+
+    p {
+      font-size: $tiny;
+      font-weight: $regular;
+      line-height: 28px;
+      margin: 0 0 45px 0;
+    }
+  }
+
+  .thumbnail-wrap {
+    background: black;
+    border-radius: $borderRadius;
+    border: 1px solid #BCBCBC;
+    box-sizing: border-box;
+    box-shadow: 0 0 $micro rgba(0,0,0,0);
+    margin-bottom: $micro;
+    overflow: hidden;
+    position: relative;
+    transition: background .2s ease, box-shadow .2s ease, border-color .2s ease;
+
+    &:after {
+      background: url('/img/play-btn.svg') no-repeat center;
+      background-size: 44px 44px;
+      content: '';
+      height: 100%;
+      position: absolute;
+      width: 100%;
+      z-index: 3;
+      top: 0;
+      left: 0;
+      transition: background-size .2s ease;
+    }
+  }
+
+  .articles {
+    margin: $medium 0;
+
+    @media screen and (min-width: $tablet) {
+      margin: $xl 0;
+    }
+
+    @media screen and (min-width: $desktop) {
+      margin: $medium 0 $xl 0;
+    }
+  }
+
+  .articles-list {
+    display: block;
+    list-style-type: none;
+    margin: 32px auto 0 auto;
+    text-align: left;
+
+    li {
+      display: flex;
+      flex-flow: row wrap;
+      padding: 0;
+      position: relative;
+      transition: background .2s ease;
 
       &:before {
-        background: $lightGrey;
+        background: white;
         content: ' ';
         height: 100%;
         left: -200%;
@@ -55,41 +151,149 @@
         top: 0;
         width: 400%;
         z-index: -1;
-      }
-    }
-
-    h2, h3, a {
-      flex: 1;
-      vertical-align: bottom;
-
-      &:first-child,
-      &:last-child {
-        flex: 3;
+        transition: background .2s ease;
       }
 
-      &:not(:first-child):not(:last-child) {
-        display: none;
+      &:hover {
+        &:before {
+          background: $green !important;
+        }
 
-        @media screen and (min-width: $tablet) {
-          display: initial;
+        a {
+          color: white;
+        }
+
+        span {
+          transform: translateX($small);
         }
       }
-    }
 
-    a {
-      font-family: $roboto;
-      font-size: 14px;
-      overflow: hidden;
-      text-overflow: ellipsis;
-      white-space: nowrap;
+      &:nth-child(odd) {
+
+        &:before {
+          background: $lightGrey;
+        }
+
+        span {
+          color: $lightGrey;
+        }
+      }
+
+      h2, a {
+        color: $grey;
+        display: inline-block;
+        flex: 1;
+        vertical-align: bottom;
+
+        &:first-child,
+        &:last-child {
+          flex: 2;
+        }
+
+        &:not(:first-child):not(:last-child) {
+          display: none;
+
+          @media screen and (min-width: $tablet) {
+            display: initial;
+          }
+        }
+      }
 
       h3 {
-        font-weight: $bold;
+        display: inline-block;
+      }
+
+      a {
+        cursor: pointer;
+        padding: $tiny $medium $tiny 0;
+        position: relative;
+      }
+
+      span {
+        color: white;
+        font-family: $roboto;
+        font-size: 14px;
+        float: right;
+        text-align: right;
+        top: calc(50% - 10px);
+        right: $small;
+        transform: translateX(0);
+        position: absolute;
+        transition: transform .2s ease;
+
+        @media screen and (min-width: $tablet) {
+          &:before {
+            content: 'Read Full Article ';
+          }
+        }
       }
     }
   }
 
-  strong {
-    display: block;
+  .podcast-promo {
+    background: #222 url('/img/podcast-bg.jpg') top center no-repeat at-2x;
+    background-size: cover;
+    color: white;
+    border-radius: 10px;
+    padding: $large $medium;
+
+    @media screen and (min-width: $tablet) {
+      padding: $large $small;
+    }
+
+    @media screen and (min-width: $desktop) {
+      padding: $large $medium;
+    }
+
+    h1 {
+      margin: -18px 0 4px 0;
+    }
+
+    p {
+      margin: 0 0 -10px 0;
+      opacity: .7;
+    }
+
+    .cta,
+    .teaser {
+      box-sizing: border-box;
+
+      @media screen and (min-width: $tablet) {
+        display: inline-block;
+        width: calc(70% - $medium);
+        vertical-align: middle;
+      }
+
+      @media screen and (min-width: $desktop) {
+        width: calc(60% - $medium);
+      }
+    }
+
+    .cta {
+      @media screen and (min-width: $tablet) {
+        padding-right: $medium;
+        width: calc(40% - $medium);
+      }
+
+      @media screen and (min-width: $desktop) {
+        padding-right: $xl;
+      }
+    }
+
+    img {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+
+    .button {
+      display: block;
+      margin-bottom: $medium;
+      max-width: 100%;
+      text-align: center;
+
+      @media screen and (min-width: $tablet) {
+        margin-bottom: 0;
+      }
+    }
   }
 }

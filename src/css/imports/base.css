@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,700,900);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700,900);
 
 @font-face {
   font-family: 'leitura';
@@ -38,10 +38,6 @@ section:not(.hero) {
   @media screen and (min-width: $tablet) {
     margin: $xl auto;
   }
-
-  @media screen and (min-width: $desktop) {
-    margin: $xxl auto;
-  }
 }
 
 h1 {
@@ -71,6 +67,18 @@ h3 {
   margin: 0;
 }
 
+h4 {
+  font-size: $tiny;
+  font-weight: $regular;
+  line-height: $small;
+  margin: 0;
+
+  @media screen and (min-width: $tablet) {
+    font-size: $small;
+    line-height: $medium;
+  }
+}
+
 p {
   font-size: 14px;
   line-height: $small;
@@ -98,16 +106,25 @@ a {
 }
 
 .button {
-  background-image: linear-gradient(0deg, #313D3E 15%, #425253 100%);
+  background: $grey;
   border-radius: $borderRadius;
   color: white;
   font-family: $roboto;
   font-size: $tiny;
-  font-weight: $regular;
+  font-weight: $bold;
   padding: $micro $tiny;
-  transition: background-image .2s ease;
+  transition: background .2s ease;
 
   &:hover {
-    background-image: linear-gradient(0deg, $green 15%, $green 100%);
+    background: $green;
+  }
+
+  &.green {
+    background: $green;
+    color: $grey;
+
+    &:hover {
+      background: white;
+    }
   }
 }

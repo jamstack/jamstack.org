@@ -6,7 +6,23 @@
   </div>
 </section>
 
-<section class="jam-breakdown">
+<section class="intro">
+  <div class="contained grid">
+    <div>{{ .Site.Data.definitions.explanation | markdownify }}</div>
+    <div>
+      <h1>FAQ</h1>
+      <a class="text-link scrolling-link" href="#what"><h4>What is the JAMstack?</h4></a>
+      <a class="text-link scrolling-link" href="#why"><h4>Why the JAMstack?</h4></a>
+      <a class="text-link scrolling-link" href="#how"><h4>How do I get started?</h4></a>
+    </div>
+  </div>
+</section>
+
+<section id="what" class="jam-breakdown">
+  <div class="contained intro">
+    <h1>What is the Jamstack?</h1>
+    <p>Your project is built with the JAMstack if it meets three key criteria:</p>
+  </div>
   <div class="letter-definition">
     <img class="letter" src="/img/j.svg"/>
     <h1>JavaScript</h1>
@@ -24,42 +40,32 @@
   </div>
 </section>
 
-<section class="resources">
-  <h1 class="contained">JAMstack Resources</h1>
-  <ul class="resources-list contained desktop">
-    <li>
-      <h2>title</h2>
-      <h2>type</h2>
-      <h2>link</h2>
-    </li>
-    {{ range .Site.Data.resources.resources }}
-      <li>
-        <h3>{{ .title }}</h3>
-        <h3>{{ .type }}</h3>
-        <a href="{{ .link }}">{{ .link }}</a>
-      </li>
+<section class="jam-disqualifications contained">
+  <h1>When is your site <em>not</em> built with the JAMstack?</h1>
+  <p>Any project that relies on a tight coupling between client and server is not built with the JAMstack. This would include:</p>
+  <div class="disqualifications">
+    {{ range .Site.Data.definitions.disqualifications }}
+      <h4 class="disqualification">{{ .disqualification | markdownify }}</h4>
     {{ end }}
-  </ul>
-  <ul class="resources-list contained mobile">
-    {{ range .Site.Data.resources.resources }}
-      <li>
-        <a href="{{ .link }}"><img src="/img/link.svg" class="link-icon"/> {{ .title }}</a>
-      </li>
-    {{ end }}
-  </ul>
-  <p class="contained">
-    <strong>Do you have a useful JAMstack resource?</strong>
-    Submit a Pull Request with your resource’s information <a href="https://github.com/jamstack/jamstack.org">here</a>.
-  </p>
+  </div>
 </section>
 
-<section class="chatter">
-  <h1>Spread the JAM by tweeting <span><img src="/img/twitter.svg"/>#JAMstack</span></h1>
-  <div class="tweets">
-    <div class="contained">
-      <ul class="juicer-feed" data-feed-id="jamstack" data-overlay="false"></ul>
-    </div>
+<section id="why" class="advantages contained">
+  <h1>Why the JAMstack?</h1>
+  <div class="advantages-grid">
+    {{ range .Site.Data.definitions.advantages }}
+      <div class="advantage">
+        <h4>{{ .advantage | markdownify }}</h4>
+        <p>{{ .description | markdownify }}</p>
+      </div>
+    {{ end }}
   </div>
+</section>
+
+<section id="how" class="bottom-cta contained">
+  <h1>How do I get started?</h1>
+  <a href="/best-practices"><h4>Learn About Best Practices →</h4></a>
+  <a href="/resources"><h4>View Resources →</h4></a>
 </section>
 
 {{ partial "footer" . }}

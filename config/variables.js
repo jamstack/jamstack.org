@@ -10,9 +10,11 @@ module.exports = {
   blue: '#4D9ABF',
   green: '#00C7B7',
   red: '#FB6D77',
+  meetupred: '#ED1C40',
 
   // typography
   regular: 400,
+  semibold: 500,
   bold: 700,
   black: 900,
 
