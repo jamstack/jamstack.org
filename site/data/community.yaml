@@ -14,6 +14,13 @@ chapters:
     link: #
     teaser: true
 
+upcomingevent:
+  name: "Active Ingredients: Web"
+  link: http://activeingredients.info/
+  date: April 28, 2017
+  location: San Francisco
+  description: The world’s first conference focused on the JAMstack, produced by Designers + Geeks and curated by Netlify.
+
 bottomcta:
   artpath: /img/chapters/meetup-map.svg
   headline: Start a JAMstack Meetup
