@@ -106,7 +106,7 @@ a {
 }
 
 .button {
-  background-image: linear-gradient(0deg, #313D3E 15%, #425253 100%);
+  background: $grey;
   border-radius: $borderRadius;
   color: white;
   font-family: $roboto;
@@ -116,7 +116,7 @@ a {
   transition: background .2s ease;
 
   &:hover {
-    background-image: linear-gradient(0deg, $green 15%, $green 100%);
+    background: $green;
   }
 
   &.green {

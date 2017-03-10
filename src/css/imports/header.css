@@ -36,10 +36,30 @@ header {
       @media screen and (min-width: 900px) {
         background: none;
         padding: 0;
+        position: relative;
+
+        &:not(.logo-link) {
+          &:before {
+            background: $green;
+            content: ' ';
+            height: 29px;
+            left: 0;
+            position: absolute;
+            top: -48px;
+            transform: translateY(-30px) skew(45deg);
+            transition: transform .2s ease;
+            width: 100%;
+            z-index: -1;
+          }
+        }
 
         &:hover {
           background: none;
           color: $grey;
+
+          &:before {
+            transform: translateY(0);
+          }
         }
       }
     }
@@ -54,6 +74,45 @@ header {
 
       @media screen and (min-width: 900px) {
         padding: $micro $tiny;
+      }
+    }
+  }
+
+  @media screen and (min-width: 900px) {
+    &.on-best-practices {
+      a:not(.slicknav_btn):not(.mobile-logo):not(.logo-link) {
+        &.best-practices-link {
+          &:before {
+            transform: translateY(0);
+          }
+        }
+      }
+    }
+    &.on-examples {
+      a:not(.slicknav_btn):not(.mobile-logo):not(.logo-link) {
+        &.examples-link {
+          &:before {
+            transform: translateY(0);
+          }
+        }
+      }
+    }
+    &.on-resources {
+      a:not(.slicknav_btn):not(.mobile-logo):not(.logo-link) {
+        &.resources-link {
+          &:before {
+            transform: translateY(0);
+          }
+        }
+      }
+    }
+    &.on-community {
+      a:not(.slicknav_btn):not(.mobile-logo):not(.logo-link) {
+        &.best-practices-link {
+          &:before {
+            transform: translateY(0);
+          }
+        }
       }
     }
   }
