@@ -4,7 +4,7 @@ explanation: When we talk about "The Stack," we no longer talk about operating s
 
 javascript: "Any dynamic programming during the request/response cycle is handled by JavaScript, running entirely on the client. This could be any frontend framework, library, or even vanilla JavaScript."
 apis: "All server-side processes or database actions are abstracted into reusable APIs, accessed over HTTP with JavaScript. These can be custom-built or leverage third-party services."
-markup: "Templated markup should be pre-built at deploy time, usually using a site generator for content sites, or a build tool for web apps.<br><br>[Want to see some examples?](/examples)"
+markup: "Templated markup should be prebuilt at deploy time, usually using a site generator for content sites, or a build tool for web apps.<br><br>[Want to see some examples?](/examples)"
 
 disqualifications:
   - disqualification: A site built with a server-side CMS like WordPress, Drupal, Joomla, or Squarespace.
