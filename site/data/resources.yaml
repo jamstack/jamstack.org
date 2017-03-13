@@ -8,6 +8,8 @@ articles:
     link: https://www.contentful.com/blog/2016/02/10/snipcart-middleman-contentful
   - title: "JAMstack for Clients: On Benefits & Static Site CMS"
     link: https://snipcart.com/blog/jamstack-clients-static-site-cms
+  - title: "Go static: 5 reasons to try JAMstack on your next project"
+    link: https://builtvisible.com/go-static-try-jamstack/
 
 videos:
   - title: The New Front-end Stack. Javascript, APIs and Markup
