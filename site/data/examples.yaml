@@ -80,4 +80,16 @@ examples:
       - tool: Auth0
       - tool: GitHub
       - tool: Netlify
+  - title: MarvelSearch
+    description: Lightning fast search into all superheroes of the Marvel universe
+    link: https://community.algolia.com/marvel-search/
+    thumbnailurl: /img/examples/marvel-search.png
+    tools:
+      - tool: Brunch
+      - tool: Babel
+      - tool: GitHub Pages
+      - tool: Algolia
+      - tool: Cloudinary
+      - tool: instantsearch.js
+      - tool: SCSS
 ---
