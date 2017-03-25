@@ -119,7 +119,7 @@ examples:
       - tool: CloudFlare
       - tool: Sass
       - tool: Critical CSS
-      - tool: Github
+      - tool: GitHub
       - tool: Service Workers
       - tool: Web App Manifest
 ---
