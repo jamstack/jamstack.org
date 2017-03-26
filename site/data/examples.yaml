@@ -122,4 +122,22 @@ examples:
       - tool: GitHub
       - tool: Service Workers
       - tool: Web App Manifest
+  - title: eCommWar
+    description: eCommWar is a leaderboard of the top open-source e-commerce platforms. Promoting the bests for building reliable stores.
+    link: https://www.ecommwar.com/
+    thumbnailurl: /img/examples/ecommwar.jpg
+    tools:
+      - tool: Middleman
+      - tool: jQuery
+      - tool: Normalize.css
+      - tool: ShareButton.co
+      - tool: GitHub
+      - tool: GitHub API
+      - tool: GitHub Gist
+      - tool: Netlify
+      - tool: Let's Encrypt
+      - tool: Google Analytics
+      - tool: Zapier
+      - tool: Font Awesome
+      - tool: Kontaktify
 ---
