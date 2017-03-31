@@ -9,14 +9,33 @@
   width: 100%;
   z-index: 101;
 
+  sup,
+  sub {
+    font-size: initial;
+    vertical-align: initial;
+    bottom: 0;
+    line-height: initial;
+    position: initial;
+  }
+
+  em {
+    font-style: normal;
+    color: #8B8B8B;
+    padding: 0 $micro;
+  }
+
   .text-link {
     text-decoration: underline;
   }
 
   + header {
-    margin-top: 74px;
+    margin-top: 95px;
 
-    @media screen and (min-width: 709px) {
+    @media screen and (min-width: 419px) {
+      margin-top: 74px;
+    }
+
+    @media screen and (min-width: 750px) {
       margin-top: 50px;
     }
 
@@ -24,10 +43,14 @@
     + .hero:before {
       content: '';
       display: block;
-      height: 74px;
+      height: 95px;
       width: 100%;
 
-      @media screen and (min-width: 709px) {
+      @media screen and (min-width: 419px) {
+        height: 74px;
+      }
+
+      @media screen and (min-width: 750px) {
         height: 50px;
       }
     }
