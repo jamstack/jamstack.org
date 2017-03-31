@@ -1,3 +1,39 @@
+.notification {
+  background: $grey;
+  box-sizing: border-box;
+  color: white;
+  font-family: $roboto;
+  padding: $tiny $small;
+  position: fixed;
+  text-align: center;
+  width: 100%;
+  z-index: 101;
+
+  .text-link {
+    text-decoration: underline;
+  }
+
+  + header {
+    margin-top: 74px;
+
+    @media screen and (min-width: 709px) {
+      margin-top: 50px;
+    }
+
+    + div:before,
+    + .hero:before {
+      content: '';
+      display: block;
+      height: 74px;
+      width: 100%;
+
+      @media screen and (min-width: 709px) {
+        height: 50px;
+      }
+    }
+  }
+}
+
 header {
   background: transparent;
   box-shadow: none;
