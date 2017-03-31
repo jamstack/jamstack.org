@@ -9,7 +9,8 @@
 
     @media screen and (min-width: $tablet) {
       background-position: top center;
-      padding: 160px 0 $xl 0;
+      padding: 160px 0 calc($xl * 2) 0;
+      margin-bottom: -$xl;
     }
   }
 
