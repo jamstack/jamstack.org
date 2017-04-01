@@ -28,8 +28,9 @@
       {{ range .Site.Data.resources.articles }}
         <li>
           <a href="{{ .link }}">
-            <h3>{{ .title }}</h3>
-            <span>→</span>
+            <h2>{{ .title }}</h2>
+            <small>{{ .description | truncate 160 }}</small>
+            <span class="arrow">→</span>
           </a>
         </li>
       {{ end }}

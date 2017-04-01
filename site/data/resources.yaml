@@ -1,14 +1,19 @@
 ---
 articles:
   - title: A JAMstack-ready CMS
+    description: Where does a CMS stand in the JAMstack architecture? And is it a good idea to follow the API-based content-as-a-service approach?
     link: https://www.contentful.com/r/knowledgebase/jamstack-cms/
   - title: Isomorphic Rendering on the JAMstack
+    description: A simplified yet powerful model for delivering ready-to-consume web pages which enhance to a dynamic client-side rendering approach.
     link: https://www.hawksworx.com/blog/isomorphic-rendering-on-the-jam-stack/
   - title: Dynamic product management in a static e-commerce workflow
+    description: This is a guest post by Yanick Ouellet, a full-stack developer at Snipcart, in which he shows how to combine the benefits of dynamic content management and a static e-commerce website using Snipcart, Contentful, and Middleman.
     link: https://www.contentful.com/blog/2016/02/10/snipcart-middleman-contentful
   - title: "JAMstack for Clients: On Benefits & Static Site CMS"
+    description: Learn more about the implications of the JAMstack (JavaScript, APIs & Markup) & static site CMS for non-technical clients & businesses.
     link: https://snipcart.com/blog/jamstack-clients-static-site-cms
   - title: "Go static: 5 reasons to try JAMstack on your next project"
+    description: Static site generators and ultra-fast CDN-based distribution are powering a new generation of websites. The time to embrace this is now.
     link: https://builtvisible.com/go-static-try-jamstack/
 
 videos:

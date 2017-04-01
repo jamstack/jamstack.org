@@ -131,6 +131,7 @@
 
   .articles-list {
     display: block;
+    font-family: $roboto;
     list-style-type: none;
     margin: 32px auto 0 auto;
     text-align: left;
@@ -163,7 +164,12 @@
           color: white;
         }
 
+        small {
+          color: white;
+        }
+
         span {
+          visibility: visible;
           transform: translateX($small);
         }
       }
@@ -181,7 +187,6 @@
 
       h2, a {
         color: $grey;
-        display: inline-block;
         flex: 1;
         vertical-align: bottom;
 
@@ -199,19 +204,26 @@
         }
       }
 
-      h3 {
-        display: inline-block;
+      h2 {
+        font-size: $tiny;
       }
 
       a {
         cursor: pointer;
-        padding: $tiny $medium $tiny 0;
+        padding: $tiny $small $tiny 0;
         position: relative;
+
+        @media screen and (min-width: $tablet) {
+          padding-right: $xxl;
+        }
       }
 
-      span {
-        color: white;
-        font-family: $roboto;
+      small {
+        color: $green;
+      }
+
+      .arrow {
+        visibility: hidden;
         font-size: 14px;
         float: right;
         text-align: right;
