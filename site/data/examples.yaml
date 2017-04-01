@@ -93,22 +93,21 @@ examples:
       - tool: instantsearch.js
       - tool: SCSS
   - title: Hack Cabin
-    description: Hacker blog with in-depth technology articles and resources for Digital Nomads.
+    description: Independent technology articles and resources for the digitally nomadic.
     link: https://hackcabin.com
     thumbnailurl: /img/examples/hackcabin.png
     tools:
       - tool: Hugo
       - tool: After Dark
-      - tool: S3
+      - tool: Pygments
       - tool: CloudFront
-      - tool: Route53
       - tool: Serverless
-      - tool: Lambda
-      - tool: s3_website
-      - tool: GitHub
-      - tool: Google Maps API
-      - tool: lazysizes
-      - tool: smoothscroll polyfill
+      - tool: Route 53
+      - tool: Lambda ƛ
+      - tool: S3
+      - tool: SES/DKIM
+      - tool: SpeedTracker
+      - tool: Gitea
   - title: Julian Gaviria
     description: Front-end development and design blog with a focus on web performance, testing, and the modern web.
     link: https://julian.is
