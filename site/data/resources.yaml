@@ -10,6 +10,9 @@ articles:
     link: https://snipcart.com/blog/jamstack-clients-static-site-cms
   - title: "Go static: 5 reasons to try JAMstack on your next project"
     link: https://builtvisible.com/go-static-try-jamstack/
+  - title: "Zero to HTTP/2 with AWS and Hugo"
+    description: A step-by-step guide to creating your own JAMstack site using Amazon Web Services and the Hugo static site generator.
+    link: https://habd.as/zero-to-http-2-aws-hugo/
 
 videos:
   - title: The New Front-end Stack. Javascript, APIs and Markup
