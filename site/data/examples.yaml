@@ -8,8 +8,8 @@ examples:
       - tool: Jekyll
       - tool: GitHub
       - tool: Netlify
-      - tool: SASS
-      - tool: NPM
+      - tool: Sass
+      - tool: npm
       - tool: Google Analytics
   - title: Sequoia Capital
     description: Sequoia Capital help the daring build legendary companies.
@@ -47,10 +47,10 @@ examples:
     tools:
       - tool: Angular
       - tool: Jekyll
-      - tool: GRUNT
+      - tool: Grunt
       - tool: Contentful
       - tool: Vero API
-      - tool: SASS
+      - tool: Sass
       - tool: GitHub
       - tool: Netlify
   - title: Lodash
@@ -91,7 +91,7 @@ examples:
       - tool: Algolia
       - tool: Cloudinary
       - tool: instantsearch.js
-      - tool: SCSS
+      - tool: Sass (SCSS)
   - title: Hack Cabin
     description: Independent technology articles and resources for the digitally nomadic.
     link: https://hackcabin.com
