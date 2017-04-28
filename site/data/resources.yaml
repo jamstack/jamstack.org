@@ -1,5 +1,7 @@
 ---
 articles:
+  - title: How to Build a JAMstack Website
+    link: https://cosmicjs.com/blog/how-to-build-a-jamstack-website
   - title: A JAMstack-ready CMS
     link: https://www.contentful.com/r/knowledgebase/jamstack-cms/
   - title: Isomorphic Rendering on the JAMstack
