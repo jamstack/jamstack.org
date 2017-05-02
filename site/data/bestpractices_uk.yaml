@@ -1,0 +1,15 @@
+---
+bestpractices:
+  - title: Entire Project on a CDN
+    description: Because JAMstack projects don’t rely on server-side code, they can be distributed instead of living on a single server. Serving directly from a CDN unlocks speeds and performance that can't be beat. The more of your app you can push to the edge, the better the user experience.
+  - title: Everything Lives in Git
+    description: With a JAMstack project, anyone should be able to do a `git clone` , install any needed dependencies with a standard procedure (like `npm install`), and be ready to run the full project locally. No databases to clone, no complex installs. This reduces contributor friction, and also simplifies staging and testing workflows.
+  - title: Modern Build Tools
+    description: Take advantage of the world of modern build tools. It can be a jungle to get oriented in and it's a fast moving space, but you'll want to be able to use tomorrow's web standards today without waiting for tomorrow's browsers. And that currently means, Babel, PostCSS, Webpack, and friends.
+  - title: Automated Builds
+    description: Because JAMstack markup is prebuilt, content changes won’t go live until you run another build. Automating this process will save you lots of headache. You can do this yourself with webhooks, or use a publishing platform that includes the service automatically.
+  - title: Atomic Deploys
+    description: As JAMstack projects grow really large, new changes might require re-deploying hundreds files. Uploading these one at a time can cause inconsistent state while the process completes. You can avoid this with a system that lets you do "atomic deploys", where no changes go live until all changed files have been uploaded.
+  - title: Instant Cache Invalidation
+    description: When the build-to-deploy cycle becomes a regular occurrence, you need to know that when a deploy goes live, it really goes live. Eliminate any doubt by making sure your CDN can handle instant cache purges.
+---
