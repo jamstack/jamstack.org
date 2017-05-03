@@ -5,7 +5,7 @@ footer {
   p {
     color: #8B8B8B;
     font-family: $roboto;
-    font-size: 12px;
+    font-size: 14px;
     text-align: center;
 
     @media screen and (min-width: $mobile) {
