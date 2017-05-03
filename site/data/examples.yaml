@@ -1,5 +1,18 @@
 ---
 examples:
+  - title: Skcript
+    description: We build Artificial Intelligence powered products for today's businesses.
+    link: https://www.skcript.com/
+    thumbnailurl: /img/examples/skcript.jpg
+    tools:
+      - tool: Middleman
+      - tool: Gulp
+      - tool: Github
+      - tool: Sass
+      - tool: Service Workers
+      - tool: S3
+      - tool: Progressive Web App
+      - tool: Google Analytics
   - title: DUSK
     description: DUSK is a creative collective agency for web design, development, strategy & branding built on jekyll using the JAMstack and Netlify CMS for content management.
     link: https://www.justdusk.com
