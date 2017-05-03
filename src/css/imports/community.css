@@ -24,6 +24,77 @@
     }
   }
 
+  .gitter {
+    margin: $small auto $large auto;
+
+    @media screen and (min-width: $tablet) {
+      margin: $medium auto $large auto;
+    }
+
+    strong {
+      display: block;
+    }
+
+    .hook {
+      align-self: center;
+      margin: 0 0 $medium 0;
+      width: 100%;
+
+      @media screen and (min-width: $tablet) {
+        margin: 0 3% 0 0;
+        width: 44%;
+      }
+
+    }
+
+    .event-card {
+      color: $grey;
+      border: 1px solid #d1d4d4;
+      box-sizing: border-box;
+      display: none;
+      padding: $medium;
+      text-align: left;
+      transition: all .2s ease;
+
+      &:hover {
+        color: white;
+        background: $green;
+        border-color: $green;
+      }
+
+      @media screen and (min-width: $tablet) {
+        display: initial;
+        padding: $small;
+        margin-left: 7%;
+        width: 40%;
+      }
+
+      @media screen and (min-width: $desktop) {
+        padding: $medium;
+      }
+
+      h4 {
+        font-weight: $bold;
+        margin-top: -10px;
+
+        @media screen and (min-width: $tablet) {
+          font-weight: $regular;
+        }
+      }
+
+      p {
+        font-size: $tiny;
+        font-weight: $regular;
+        margin-bottom: -10px;
+
+        &:last-child {
+          margin-top: $small;
+        }
+      }
+    }
+  }
+
+
   .chapter {
     color: $grey;
     margin-bottom: $large;
