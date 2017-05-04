@@ -1,7 +1,15 @@
 ---
 examples:
+  - title: City of Boston - Budget Site
+    description: Executive summary of the City of Boston’s fiscal year 2018 recommended budget.
+    link: https://budget.boston.gov
+    thumbnailurl: /img/examples/boston-budget.jpg
+    tools:
+      - tool: Jekyll
+      - tool: Gulp
+      - tool: Chart.js
   - title: Skcript
-    description: We build Artificial Intelligence powered products for today's businesses.
+    description: We build Artificial Intelligence powered products for today’s businesses.
     link: https://www.skcript.com/
     thumbnailurl: /img/examples/skcript.jpg
     tools:
