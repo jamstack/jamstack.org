@@ -8,8 +8,25 @@ chapters:
     artpath: /img/chapters/dallas-art.svg
     btncopy: Join Now
     link: https://www.meetup.com/jamstack-dallas/
+  - name: JAMstack Austin
+    artpath: /img/chapters/austin-art.svg
+    btncopy: Join Now
+    link: https://www.meetup.com/JAMstack-Austin/
+  - name: JAMstack Boston
+    artpath: /img/chapters/boston-art.svg
+    btncopy: Join Now
+    link: https://www.meetup.com/JAMstack-Boston/
+  - name: JAMstack Porto
+    artpath: /img/chapters/porto-art.svg
+    btncopy: Join Now
+    link: https://www.meetup.com/JAMstack-Porto/
   - name: JAMstack London
     artpath: /img/chapters/london-art.svg
+    btncopy: Coming Soon
+    link: #
+    teaser: true
+  - name: JAMstack Oklahoma City
+    artpath: /img/chapters/okc-art.svg
     btncopy: Coming Soon
     link: #
     teaser: true
