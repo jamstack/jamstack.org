@@ -142,4 +142,27 @@ examples:
       - tool: GitHub
       - tool: Service Workers
       - tool: Web App Manifest
+  - title: Digital Continuum
+    description: A knowledge base that documents how organizations can optimize all aspects of their digital value delivery at the enterprise level.
+    link: https://www.digitalcontinuum.com/
+    thumbnailurl: /img/examples/digital-continuum.jpg
+    tools:
+      - tool: Hexo
+      - tool: Contentful
+      - tool: Sass
+      - tool: Google Analytics
+      - tool: Algolia
+      - tool: Netlify
+  - title: Universal Mind
+    description: A digital solutions agency focused on services from innovation and design through development
+    link: http://www.universalmind.com/
+    thumbnailurl: /img/examples/universalmind.jpg
+    tools:
+      - tool: Hexo
+      - tool: Contentful
+      - tool: Sass
+      - tool: S3
+      - tool: Google Analytics
+      - tool: Algolia
+      - tool: Netlify
 ---
