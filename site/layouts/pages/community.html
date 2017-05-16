@@ -11,7 +11,7 @@
   <div class="contained">
     <div class="grid">
       {{ range .Site.Data.community.chapters }}
-        <a class="chapter" href="{{ .link }}">
+        <a class="chapter {{ .name | urlize }}" href="{{ .link }}">
           <img src="{{ .artpath }}" class="art"/>
           <h1>{{ .name }}</h1>
           <div class="button{{ if .teaser }} greyed{{ end }}">{{ .btncopy }}</div>
