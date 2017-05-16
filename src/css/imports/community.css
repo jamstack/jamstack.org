@@ -111,6 +111,22 @@
       }
     }
 
+    &.jamstack-boston img {
+      margin-top: -16px;
+      height: 167px;
+    }
+
+    &.jamstack-oklahoma-city img {
+      margin-top: -12px;
+      height: 163px;
+    }
+
+    &.jamstack-nyc img {
+      height: 178px;
+      margin-top: -29px;
+      margin-bottom: 18px;
+    }
+
     img {
       box-sizing: border-box;
       height: calc($xxl * .9);
