@@ -142,4 +142,18 @@ examples:
       - tool: GitHub
       - tool: Service Workers
       - tool: Web App Manifest
+  - title: Hyper Static
+    description: Prescriptive marketing agency with an exclusive focus on Hugo and Static Site Generators
+    link: https://www.gohyperstatic.com
+    thumbnailurl: /img/examples/hyperstatic.png
+    tools:
+      - tool: Hugo
+      - tool: WebPack 2
+      - tool: CloudFlare
+      - tool: Babel
+      - tool: Critical CSS
+      - tool: Gitlab
+      - tool: PostCSS
+      - tool: Disqus
+      - tool: Netlify      
 ---
