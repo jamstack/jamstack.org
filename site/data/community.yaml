@@ -24,13 +24,12 @@ chapters:
     artpath: /img/chapters/okc-art.svg
     btncopy: Join Now
     link: https://www.meetup.com/JAMstack-OKC/
-  - name: JAMstack London
-    artpath: /img/chapters/london-art.svg
-    btncopy: Coming Soon
-    link: #
-    teaser: true
   - name: JAMstack NYC
     artpath: /img/chapters/nyc-art.svg
+    btncopy: Join Now
+    link: https://www.meetup.com/JAMstack-nyc/
+  - name: JAMstack London
+    artpath: /img/chapters/london-art.svg
     btncopy: Coming Soon
     link: #
     teaser: true
