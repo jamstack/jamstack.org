@@ -116,7 +116,7 @@ examples:
   - title: Hack Cabin
     description: Independent technology articles and resources for the digitally nomadic.
     link: https://hackcabin.com
-    thumbnailurl: /img/examples/hackcabin.png
+    thumbnailurl: /img/examples/hackcabin-fs8.png
     tools:
       - tool: Hugo
       - tool: After Dark
