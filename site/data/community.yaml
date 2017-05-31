@@ -33,6 +33,16 @@ chapters:
     btncopy: Coming Soon
     link: #
     teaser: true
+  - name: JAMstack Seattle
+    artpath: /img/chapters/seattle-art.svg
+    btncopy: Coming Soon
+    link: #
+    teaser: true
+  - name: JAMstack Portland
+    artpath: /img/chapters/portland-art.svg
+    btncopy: Coming Soon
+    link: #
+    teaser: true
 
 gitterurl: https://gitter.im/jamstack/community
 

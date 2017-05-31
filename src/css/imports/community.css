@@ -127,6 +127,16 @@
       margin-bottom: 18px;
     }
 
+    &.jamstack-seattle img {
+      height: 159px;
+      margin-top: -8px;
+    }
+
+    &.jamstack-portland img {
+      height: 156px;
+      margin-top: -5px;
+    }
+
     img {
       box-sizing: border-box;
       height: calc($xxl * .9);
