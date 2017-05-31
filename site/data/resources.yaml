@@ -17,6 +17,10 @@ articles:
     link: https://habd.as/zero-to-http-2-aws-hugo/
 
 videos:
+  - title: Rise of the JAMstack
+    description: The emergence of Git centered workflows, around modern build tools, static site generators, and modern browsers, have changed the way most front-enders work.
+    link: https://www.youtube.com/watch?v=uWTMEDEPw8c
+    thumbnailurl: /img/videos/mathias-active-ingredients.jpg
   - title: The New Front-end Stack. Javascript, APIs and Markup
     description: Matt Biilmann covers how a new stack has emerged and how this has changed how web sites and web apps are built.
     link: https://vimeo.com/163522126
