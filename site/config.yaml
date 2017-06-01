@@ -1,4 +1,4 @@
-baseurl: "/"
+baseurl: DEPLOY_PRIME_URL
 languageCode: "en-us"
 title: "JAMstack | JavaScript, APIs, and Markup"
 disable404: true
