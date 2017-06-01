@@ -35,3 +35,13 @@ To contribute resources to the JAMstack community, simply clone this branch and 
 ## Contribute Examples
 
 To contribute examples to the JAMstack community, simply clone this branch and edit the `examples.yaml` in the `/site/data` directory. Just add another item (following the the prexisting syntax). Lastly, upload a thumbnail of the site to the `/img/examples` directory (image should be a jpeg 596px wide and 396px tall) and submit a pull request. We will review these regularly and likely merge the addition shortly.
+
+## Contribute Events
+
+To contribute events to the JAMstack community, we recommend just adding the event to your meetup and let our logic do the rest. If the event is outside of a meetup (like a conference), please manually submit it using the short guide below:
+
+1. Clone this branch and edit the `events.yaml` in the `/site/data` directory
+2. Add your event (following the the prexisting syntax)
+3. Submit a pull request
+
+*We will review these regularly and likely merge the addition shortly.
