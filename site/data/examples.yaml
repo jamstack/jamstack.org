@@ -113,22 +113,6 @@ examples:
       - tool: Cloudinary
       - tool: instantsearch.js
       - tool: Sass (SCSS)
-  - title: Hack Cabin
-    description: Independent technology articles and resources for the digitally nomadic.
-    link: https://hackcabin.com
-    thumbnailurl: /img/examples/hackcabin-fs8.png
-    tools:
-      - tool: Hugo
-      - tool: After Dark
-      - tool: Pygments
-      - tool: CloudFront
-      - tool: Serverless
-      - tool: Route 53
-      - tool: Lambda ƛ
-      - tool: S3
-      - tool: SES/DKIM
-      - tool: SpeedTracker
-      - tool: Gitea
   - title: Julian Gaviria
     description: Front-end development and design blog with a focus on web performance, testing, and the modern web.
     link: https://julian.is
