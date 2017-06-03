@@ -35,8 +35,76 @@
         <strong>• Resource recommendations</strong>
         <strong>• General discussion</strong>
       </p>
-
     </a>
+  </section>
+
+  <section class="events contained">
+    <script src="/js/moment.js"></script>
+    <script>
+      var getMeetupEvents = function(meetupName, meetupPath, requestUrl) {
+        $.ajax({
+          type:"GET",
+          url: requestUrl,
+          success: function(events) {
+
+            for(i=0;i<=events.data.length-1;i++) {
+
+              var meetupDate      = moment(events.data[i].time).format('MMM DD'),
+                  meetupTime      = moment(events.data[i].time).format('h:mm a'),
+                  meetupLink      = events.data[i].link,
+                  meetupLocation  = events.data[i].venue.name,
+                  meetupEventName = events.data[i].name;
+
+              if (i===0) {
+                $('#meetup-events').append('<h4 class="meetup-events-label">Upcoming '+meetupName+' Events</h4>');
+              }
+
+              $('#meetup-events').append('<a href="'+meetupLink+'" class="event-card with-link"><div class="event-date">'+ meetupDate +'</div><div class="event-info"><h4>'+meetupLocation+'</h4><h1>'+meetupEventName+'</h1><em>Starts at '+meetupTime+'</em></div></a>');
+            }
+          },
+          error: function() {
+            console.log('There was an error retrieving events for '+meetupName+'.');
+          },
+          dataType: 'jsonp',
+        });
+      }
+
+      $('.chapter').each(function() {
+
+        if ($(this).attr('href').length > 1) {
+
+          var meetupName = $("h1", this).text(),
+              meetupPath = $(this).attr('href').slice(22);
+              requestUrl = "https://api.meetup.com"+meetupPath+"events";
+
+          getMeetupEvents(meetupName, meetupPath, requestUrl);
+        }
+
+      })
+    </script>
+
+    <h1>Come hang out at the next JAMstack event.</h1>
+    {{ range .Site.Data.events.events }}
+      <a href='{{ if .link }}{{ .link }}{{ end }}' class='event-card{{ if .link }} with-link{{ end }}'>
+        <div class="event-date">{{ dateFormat "Jan 02" .date }}</div>
+        <div class="event-info">
+          <h4>
+            {{ if .location }}
+              {{ .location }}
+            {{ end }}
+          </h4>
+          <h1>{{ .title }}</h1>
+          <em>
+            {{ if .time }}
+               Starts at {{ .time }}
+            {{ end }}
+          </em>
+          <p>{{ .description }}</p>
+        </div>
+      </a>
+    {{ end }}
+
+    <div id="meetup-events"></div>
   </section>
 
   <div class="bottom-cta">

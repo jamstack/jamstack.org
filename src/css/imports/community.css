@@ -1,5 +1,13 @@
 .community {
 
+  h1 {
+    line-height: 32px;
+
+    @media screen and (min-width: $tablet) {
+      line-height: $medium;
+    }
+  }
+
   .hero {
     background: url('/img/chapters/meetup-logo.svg') top center no-repeat;
     background-position: bottom center;
@@ -25,10 +33,10 @@
   }
 
   .gitter {
-    margin: $small auto $large auto;
+    margin: $small auto;
 
     @media screen and (min-width: $tablet) {
-      margin: $medium auto $large auto;
+      margin: -$medium auto $medium auto;
     }
 
     strong {
@@ -173,6 +181,158 @@
         border: #ccc;
         background: #ccc;
         color: white;
+      }
+    }
+  }
+
+  .events {
+    overflow: hidden;
+    margin: 0 auto $large auto;
+    @neat-row;
+
+    @media screen and (min-width: $tablet) {
+      margin: $xl auto $large auto;
+      }
+
+    > h1 {
+      margin-bottom: 32px;
+      text-align: center;
+      width: 100%;
+
+      @media screen and (min-width: $tablet) {
+        margin-bottom: 46px;
+      }
+    }
+
+    .meetup-events-label,
+    .event-card {
+      @neat-span-columns 12;
+
+      @media screen and (min-width: $desktop) {
+        @neat-span-columns 8;
+        @neat-shift 2;
+      }
+    }
+
+    .meetup-events-label {
+      font-weight: $bold;
+      margin-top: 18px;
+      margin-bottom: 12px;
+      background: url('/img/chapters/meetup-logomark.svg') no-repeat left center;
+      background-size: auto 100%;
+      background-size: contain;
+      padding-left: 28px;
+      text-align: left;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      box-sizing: border-box;
+      overflow: hidden;
+
+      @media screen and (min-width: $tablet) {
+        margin-top: 37px;
+        padding-left: 46px;
+      }
+    }
+
+    .event-card {
+      color: $grey;
+      cursor: default;
+      line-height: 30px;
+      padding: $small;
+      text-decoration: none;
+      background: white;
+      border: 1px solid #d1d4d4;
+      box-shadow: 0 0 0 rgba(0,0,0,0);
+      border-radius: $borderRadius;
+      box-sizing: border-box;
+      margin-bottom: $tiny;
+      overflow: hidden;
+      position: relative;
+      top: 0;
+      transition: top .2s ease, box-shadow .2s ease, border-color .2s ease;
+      text-align: left;
+
+      &.with-link {
+        cursor: pointer;
+
+        &:visited,
+        &:active,
+        &:focus {
+          color: $grey;
+        }
+
+        &:hover {
+          top: -2px;
+          border-color: $green;
+          box-shadow: 0 5px $micro rgba(0,0,0,.2);
+        }
+      }
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+
+      .event-date {
+        @neat-span-columns 2 8;
+        text-align: justify;
+        text-transform: uppercase;
+        font-family: $roboto;
+        font-weight: $black;
+        font-size: 14px;
+        line-height: 14px;
+
+        @media screen and (min-width: $tablet) {
+          @neat-span-columns 1 8;
+        }
+      }
+
+      .event-info {
+        @neat-span-columns 6 8;
+
+        @media screen and (min-width: $tablet) {
+          @neat-span-columns 7 8;
+        }
+
+        h4 {
+          color: #8b8b8b;
+          font-family: $roboto;
+          text-transform: uppercase;
+          font-weight: $bold;
+          font-size: 14px;
+          line-height: 14px;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          margin: 0 0 $tiny 0;
+          padding: 0;
+        }
+
+        h1 {
+          font-size: $small;
+          font-weight: $regular;
+          line-height: 30px;
+          margin: 0 0 1px 0;
+          padding: 0;
+        }
+
+        em,
+        p {
+          margin: 0;
+          padding: 0;
+          font-size: $tiny;
+          font-weight: $regular;
+          line-height: $small;
+        }
+
+        em {
+          color: #8b8b8b;
+          font-family: $roboto;
+          font-weight: $medium;
+        }
+
+        p {
+          margin-top: 9px;
+        }
       }
     }
   }
