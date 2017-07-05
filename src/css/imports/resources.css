@@ -99,9 +99,14 @@
     box-sizing: border-box;
     box-shadow: 0 0 $micro rgba(0,0,0,0);
     margin-bottom: $micro;
+    max-height: 236px;
     overflow: hidden;
     position: relative;
     transition: background .2s ease, box-shadow .2s ease, border-color .2s ease;
+
+    &.imported img {
+      margin-top: -18px;
+    }
 
     &:after {
       background: url('/img/play-btn.svg') no-repeat center;
