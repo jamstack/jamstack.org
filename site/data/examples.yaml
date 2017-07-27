@@ -174,4 +174,16 @@ examples:
       - tool: Critical CSS
       - tool: Bitbucket
       - tool: Netlify
+  - title: Silvestar Bistrović
+    description: SB - Silvestar's personal website
+    link: https://www.silvestarbistrovic.from.hr
+    thumbnailurl: /img/examples/silvestarbistrovic.png
+    tools:
+      - tool: Hexo
+      - tool: Sass
+      - tool: Gulp
+      - tool: Critical CSS
+      - tool: Bitbucket
+      - tool: Netlify
+      - tool: Cloudinary
 ---
