@@ -188,7 +188,7 @@ examples:
       - tool: Cloudinary
   - title: VAS
     description: VAS - At the heart of your dairy
-    link: https://vas.com
+    link: http://web.vas.com/
     thumbnailurl: /img/examples/vas.png
     tools:
       - tool: Roots
