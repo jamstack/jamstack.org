@@ -5,7 +5,7 @@ import postcss from "gulp-postcss";
 import cssImport from "postcss-import";
 import neatgrid from "postcss-neat";
 import nestedcss from "postcss-nested";
-import colorfunctions from "postcss-colour-functions";
+import colorfunctions from "postcss-color-function";
 import hdBackgrounds from "postcss-at2x";
 import cssvars from "postcss-simple-vars-async";
 import cssextend from "postcss-simple-extend";
