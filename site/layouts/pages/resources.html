@@ -10,21 +10,24 @@
   <section class="videos contained">
 
     <script>
-      $.get(
-        "https://www.googleapis.com/youtube/v3/channels",{
-        part : 'contentDetails',
-        id : 'UCMzabFudT_ntxlueP9R-3Vg',
-        key: 'AIzaSyBKfalwfLyyEC2uy-cH_ab5mXjNbKz5oAA'},
-        function(data) {
-          $.each( data.items, function( i, item ) {
-            playlists = ['PLzlG0L9jlhEOwdVv4nJZW6c_MCLbmfs4z', 'PLzlG0L9jlhEN3-GX9s6kAAt_kJcWWrAU1'];
-            playlists.forEach(function(pid) {
-              getVids(pid);
+      function loadVids() {
+        $.get(
+          "https://www.googleapis.com/youtube/v3/channels",{
+          part : 'contentDetails',
+          id : 'UCMzabFudT_ntxlueP9R-3Vg',
+          key: 'AIzaSyBKfalwfLyyEC2uy-cH_ab5mXjNbKz5oAA'},
+          function(data) {
+            $.each( data.items, function( i, item ) {
+              playlists = ['PLzlG0L9jlhEOwdVv4nJZW6c_MCLbmfs4z', 'PLzlG0L9jlhEN3-GX9s6kAAt_kJcWWrAU1'];
+              playlists.forEach(function(pid) {
+                getVids(pid);
+              });
             });
-          });
-        }
-      );
-
+          }
+        );
+      }
+      window.onload = loadVids;
+      
       function getVids(pid){
         $.get(
           "https://www.googleapis.com/youtube/v3/playlistItems",{
