@@ -1,5 +1,7 @@
 baseurl: DEPLOY_PRIME_URL
 languageCode: "en-us"
 title: "JAMstack | JavaScript, APIs, and Markup"
-disable404: true
+disableKinds: ["404"]
 metaDataFormat: "yaml"
+
+publishDir: "dist"
