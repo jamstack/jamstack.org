@@ -197,4 +197,6 @@ examples:
       - tool: Github
       - tool: Jasonbase
       - tool: Coinhive
+      - tool: Critical CSS
+      - tool: Google style deferring script
 ---
