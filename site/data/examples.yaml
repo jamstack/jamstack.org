@@ -186,4 +186,15 @@ examples:
       - tool: Bitbucket
       - tool: Netlify
       - tool: Cloudinary
+  - title: Story Breeding
+    description: Combines stories for inspiration.
+    link: http://storybreeding.surge.sh
+    thumbnailurl: /img/examples/story-breeding.png
+    tools:
+      - tool: Gulp
+      - tool: Sass
+      - tool: Surge
+      - tool: Github
+      - tool: Jasonbase
+      - tool: Coinhive
 ---
