@@ -186,4 +186,13 @@ examples:
       - tool: Bitbucket
       - tool: Netlify
       - tool: Cloudinary
+  - title: Adaptive Programmer
+    description: Learn. Build. Adapt. Thrive.
+    link: http://adaptiveprogrammer.com/
+    thumbnailurl: /img/examples/adaptiveprogrammer.jpg
+    tools:
+      - tool: Hugo
+      - tool: Git
+      - tool: Netlify
+      - tool: Disqus            
 ---
