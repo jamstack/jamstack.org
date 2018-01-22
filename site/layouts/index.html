@@ -5,6 +5,13 @@
     </div>
   </section>
   
+  <section class="subscribe">
+    <form name="newsletter-subscription" action="thank-you" netlify>
+      <input><span><button>Subscribe</button></span></input>
+      <p>Stay up to date with JAMstack news and articles</p>
+    <form/>
+  </section>
+
   <section class="intro">
     <div class="contained grid">
       <div>{{ .Site.Data.definitions.explanation | markdownify }}</div>
@@ -16,7 +23,6 @@
       </div>
     </div>
   </section>
-  
   <section id="what" class="jam-breakdown">
     <div class="contained intro">
       <h1>What is the JAMstack?</h1>
