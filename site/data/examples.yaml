@@ -2,7 +2,7 @@
 examples:
   - title: Fabuwood Cabinetry
     description: Fabuwood Cabinetry official website.
-    link: https:/fabuwood.com
+    link: https://fabuwood.com
     thumbnailurl: /img/examples/fabuwood.jpg
     tools:
       - tool: Metalsmith
