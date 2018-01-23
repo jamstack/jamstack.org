@@ -1,5 +1,15 @@
 ---
 examples:
+  - title: Fabuwood Cabinetry
+    description: Fabuwood Cabinetry official website.
+    link: https:/fabuwood.com
+    thumbnailurl: /img/examples/fabuwood.jpg
+    tools:
+      - tool: Metalsmith
+      - tool: Webpack
+      - tool: Prismic.io
+      - tool: Netlify
+      - tool: Browser Sync
   - title: City of Boston - Budget Site
     description: Executive summary of the City of Boston’s fiscal year 2018 recommended budget.
     link: https://budget.boston.gov
