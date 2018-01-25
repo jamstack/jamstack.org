@@ -104,7 +104,7 @@ examples:
   - title: MarvelSearch
     description: Lightning fast search into all superheroes of the Marvel universe
     link: https://community.algolia.com/marvel-search/
-    thumbnailurl: /img/examples/marvel-search.png
+    thumbnailurl: /img/examples/marvel-search.jpg
     tools:
       - tool: Brunch
       - tool: Babel
