@@ -1,24 +1,9 @@
-<!doctype html>
-<html>
-  <head>
-    <title>{{ .Site.Title }}</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link type="image/x-icon" rel="shortcut icon" href="/img/favicon.ico">
-
-    {{ if or (eq .Title "Community") (eq .Title "Resources") }}
-      <script src="//assets.juicer.io/embed.js" type="text/javascript"></script>
-      <link href="//assets.juicer.io/embed.css" media="all" rel="stylesheet" type="text/css" />
-    {{ end }}
-
-    <link rel="stylesheet" href="/css/main.css"/>
-  </head>
-  <body>
-    <header id="header" class="on-{{ .Title | urlize }}">
-      <ul id="menu" class="contained">
-        <li class="logo"><a href="/" class="logo-link"><img src="/img/jamstack-full-logo.svg"/></a></li>
-        <li><a href="/best-practices" class="best-practices-link">Best Practices</a></li>
-        <li><a href="/examples" class="examples-link">Examples</a></li>
-        <li><a href="/resources" class="resources-link">Resources</a></li>
-        <li><a href="/community" class="community-link">Community</a></li>
-      </ul>
-    </header>
+<header id="header" class="on-{{ .Title | urlize }}">
+  <ul id="menu" class="contained">
+    <li class="logo"><a href="/" class="logo-link"><img src="/img/jamstack-full-logo.svg"/></a></li>
+    <li><a href="/best-practices" class="best-practices-link">Best Practices</a></li>
+    <li><a href="/examples" class="examples-link">Examples</a></li>
+    <li><a href="/resources" class="resources-link">Resources</a></li>
+    <li><a href="/community" class="community-link">Community</a></li>
+  </ul>
+</header>

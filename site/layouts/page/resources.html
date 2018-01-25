@@ -1,4 +1,4 @@
-{{ partial "header" . }}
+{{ define "main" }}
 
 <div class="resources">
   <h1 class="contained">Resources</h1>
@@ -8,48 +8,6 @@
   </p>
 
   <section class="videos contained">
-
-    <script>
-      $.get(
-        "https://www.googleapis.com/youtube/v3/channels",{
-        part : 'contentDetails',
-        id : 'UCMzabFudT_ntxlueP9R-3Vg',
-        key: 'AIzaSyBKfalwfLyyEC2uy-cH_ab5mXjNbKz5oAA'},
-        function(data) {
-          $.each( data.items, function( i, item ) {
-            playlists = ['PLzlG0L9jlhEOwdVv4nJZW6c_MCLbmfs4z', 'PLzlG0L9jlhEN3-GX9s6kAAt_kJcWWrAU1'];
-            playlists.forEach(function(pid) {
-              getVids(pid);
-            });
-          });
-        }
-      );
-
-      function getVids(pid){
-        $.get(
-          "https://www.googleapis.com/youtube/v3/playlistItems",{
-          part : 'snippet',
-          maxResults : 50,
-          playlistId : pid,
-          key: 'AIzaSyBKfalwfLyyEC2uy-cH_ab5mXjNbKz5oAA'},
-          function(data) {
-            var results;
-            $.each( data.items, function( i, item ) {
-              var fullDescription = item.snippet.description,
-                  description = fullDescription.substring(0, 160);
-
-              if (fullDescription.length > 160) {
-                description = description + '...';
-              }
-
-              results = '<a class="video" href="https://www.youtube.com/watch?v='+item.snippet.resourceId.videoId+'" data-lity="" data-lity-target="https://www.youtube.com/watch?v='+item.snippet.resourceId.videoId+'"><div class="thumbnail-wrap imported"><img src="'+ item.snippet.thumbnails.high.url +'"></div><h4>'+ item.snippet.title +'</h4><p>'+ description +'</p></a>';
-
-              $('#videos-grid').append(results);
-            });
-          }
-        );
-      }
-    </script>
 
     <h1>Videos</h1>
     <div id="videos-grid" class="grid">
@@ -102,4 +60,49 @@
   </section>
 </div>
 
-{{ partial "footer" . }}
+{{ end }}
+{{ define "page-scripts" }}
+<script>
+  $(document).ready(function(){
+    $.get(
+      "https://www.googleapis.com/youtube/v3/channels",{
+      part : 'contentDetails',
+      id : 'UCMzabFudT_ntxlueP9R-3Vg',
+      key: 'AIzaSyBKfalwfLyyEC2uy-cH_ab5mXjNbKz5oAA'},
+      function(data) {
+        $.each( data.items, function( i, item ) {
+          playlists = ['PLzlG0L9jlhEOwdVv4nJZW6c_MCLbmfs4z', 'PLzlG0L9jlhEN3-GX9s6kAAt_kJcWWrAU1'];
+          playlists.forEach(function(pid) {
+            getVids(pid);
+          });
+        });
+      }
+    );
+  });
+
+  function getVids(pid){
+    $.get(
+      "https://www.googleapis.com/youtube/v3/playlistItems",{
+      part : 'snippet',
+      maxResults : 50,
+      playlistId : pid,
+      key: 'AIzaSyBKfalwfLyyEC2uy-cH_ab5mXjNbKz5oAA'},
+      function(data) {
+        var results;
+        $.each( data.items, function( i, item ) {
+          var fullDescription = item.snippet.description,
+              description = fullDescription.substring(0, 160);
+
+          if (fullDescription.length > 160) {
+            description = description + '...';
+          }
+
+          results = '<a class="video" href="https://www.youtube.com/watch?v='+item.snippet.resourceId.videoId+'" data-lity="" data-lity-target="https://www.youtube.com/watch?v='+item.snippet.resourceId.videoId+'"><div class="thumbnail-wrap imported"><img src="'+ item.snippet.thumbnails.high.url +'"></div><h4>'+ item.snippet.title +'</h4><p>'+ description +'</p></a>';
+
+          $('#videos-grid').append(results);
+        });
+      }
+    );
+  }
+</script>
+{{ end }}

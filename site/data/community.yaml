@@ -48,6 +48,11 @@ chapters:
     btncopy: Coming Soon
     link: #
     teaser: true
+  - name: JAMstack Tokyo
+    artpath: /img/chapters/tokyo-art.svg
+    btncopy: Coming Soon
+    link: #
+    teaser: true
 
 gitterurl: https://gitter.im/jamstack/community
 
