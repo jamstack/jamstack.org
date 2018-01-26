@@ -7,7 +7,7 @@
       {{ range .Site.Data.bestpractices.bestpractices }}
         <div class="best-practice">
           <h4><img src="/img/thumbs-up.svg" /> {{ .title }}</h4>
-          <p>{{ .description }}</p>
+          <p>{{ .description | markdownify }}</p>
         </div>
       {{ end }}
     </div>
