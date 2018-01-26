@@ -46,13 +46,14 @@
           url: requestUrl,
           success: function(events) {
 
-            for(i=0;i<=events.data.length-1;i++) {
+            for(i=0;i<3;i++) {
 
-              var meetupDate      = moment(events.data[i].time).format('MMM DD'),
-                  meetupTime      = moment(events.data[i].time).format('h:mm a'),
-                  meetupLink      = events.data[i].link,
-                  meetupLocation  = events.data[i].venue.name,
-                  meetupEventName = events.data[i].name;
+              var event           = events.data[i],
+                  meetupDate      = moment(event.time).format('MMM DD'),
+                  meetupTime      = moment(event.time).format('h:mm a'),
+                  meetupLink      = event.link,
+                  meetupLocation  = event.venue ? event.venue.name : 'Location TBA',
+                  meetupEventName = event.name;
 
               if (i===0) {
                 $('#meetup-events').append('<h4 class="meetup-events-label">Upcoming '+meetupName+' Events</h4>');
