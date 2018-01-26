@@ -30,9 +30,8 @@ chapters:
     link: https://www.meetup.com/JAMstack-nyc/
   - name: JAMstack London
     artpath: /img/chapters/london-art.svg
-    btncopy: Coming Soon
-    link: #
-    teaser: true
+    btncopy: Join Now
+    link: https://www.meetup.com/JAMstack-London/
   - name: JAMstack Seattle
     artpath: /img/chapters/seattle-art.svg
     btncopy: Coming Soon
