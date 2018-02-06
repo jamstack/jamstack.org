@@ -32,6 +32,14 @@ chapters:
     artpath: /img/chapters/london-art.svg
     btncopy: Join Now
     link: https://www.meetup.com/JAMstack-London/
+  - name: JAMstack Berlin
+    artpath: /img/chapters/berlin-illo.svg
+    btncopy: Join Now
+    link: https://www.meetup.com/JAMstack-Berlin/
+  - name: JAMstack Toulouse
+    artpath: /img/chapters/toulouse-illo.svg
+    btncopy: Join Now
+    link: https://www.meetup.com/JAMstack-Toulouse/
   - name: JAMstack Seattle
     artpath: /img/chapters/seattle-art.svg
     btncopy: Coming Soon
