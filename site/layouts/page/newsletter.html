@@ -1,0 +1,25 @@
+{{ define "main" }}
+<div class="best-practices">
+  <div class="contained">
+    <h1 class="headline">Weekly Newsletter</h1>
+    <p class ="cta">Keep up to date with the latest JAMstack news, tutorials,
+    and conversations</p>
+
+    <div class="subscribe">
+      <form name="newsletter-subscription" action="thank-you" netlify>
+        <input><span><button>Subscribe</button></span></input>
+        <p>Stay up to date with JAMstack news and articles</p>
+      <form/>
+    </div>
+
+    <ul>
+    {{ range where .Site.RegularPages.ByDate.Reverse "Section" "newsletter" }}
+      <li><a href="{{ .Permalink }}">
+        <h2>Issues Number #{{ .Params.Issue }}</h2>
+        <p>{{ .Params.Description }}</p>
+      </a></li>
+    {{ end }}
+    </ul>
+  </div>
+</div>
+{{ end }}

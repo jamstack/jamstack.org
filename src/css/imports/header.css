@@ -136,6 +136,15 @@ header {
   }
 
   @media screen and (min-width: 900px) {
+    &.on-newsletter {
+      a:not(.slicknav_btn):not(.mobile-logo):not(.logo-link) {
+        &.newsletter-link {
+          &:before {
+            transform: translateY(0);
+          }
+        }
+      }
+    }
     &.on-best-practices {
       a:not(.slicknav_btn):not(.mobile-logo):not(.logo-link) {
         &.best-practices-link {
