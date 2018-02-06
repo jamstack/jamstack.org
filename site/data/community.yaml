@@ -12,6 +12,10 @@ chapters:
     artpath: /img/chapters/austin-art.svg
     btncopy: Join Now
     link: https://www.meetup.com/JAMstack-Austin/
+  - name: JAMstack Berlin
+    artpath: /img/chapters/dallas-art.svg
+    btncopy: Join Now
+    link: https://www.meetup.com/JAMstack-Berlin/
   - name: JAMstack Boston
     artpath: /img/chapters/boston-art.svg
     btncopy: Join Now
