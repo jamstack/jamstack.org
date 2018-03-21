@@ -1,5 +1,15 @@
 ---
 examples:
+  - title: Code Bushi
+    description: Web development tips and resources to elevate your coding journey.
+    link: https://codebushi.com
+    thumbnailurl: /img/examples/code-bushi.jpg
+    tools:
+      - tool: Gatsby.js
+      - tool: React
+      - tool: Webpack
+      - tool: Sass
+      - tool: Netlify
   - title: Compare Ali
     description: Curated brand-name clothing on Ali Express.
     link: https://compareali.com
@@ -181,7 +191,7 @@ examples:
       - tool: Gitlab
       - tool: PostCSS
       - tool: Disqus
-      - tool: Netlify      
+      - tool: Netlify
   - title: CiTA
     description: Creative Internet Technology Agency
     link: https://www.cita.hr
@@ -250,5 +260,5 @@ examples:
       - tool: Hugo
       - tool: Git
       - tool: Netlify
-      - tool: Disqus            
+      - tool: Disqus
 ---
