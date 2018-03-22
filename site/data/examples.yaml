@@ -34,7 +34,7 @@ examples:
     tools:
       - tool: Middleman
       - tool: Gulp
-      - tool: Github
+      - tool: GitHub
       - tool: Sass
       - tool: Service Workers
       - tool: S3
@@ -212,7 +212,7 @@ examples:
     tools:
       - tool: Metalsmith
       - tool: Contentful
-      - tool: Github
+      - tool: GitHub
       - tool: Travis
       - tool: Firebase
       - tool: Handlebars
@@ -224,7 +224,7 @@ examples:
       - tool: Gulp
       - tool: Sass
       - tool: Surge
-      - tool: Github
+      - tool: GitHub
       - tool: Jasonbase
       - tool: Coinhive
       - tool: Critical CSS
