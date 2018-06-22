@@ -1,5 +1,6 @@
 ---
+type: page
 title: Best Practices
-url: '/best-practices/'
+url: "/best-practices/"
 layout: best-practices
 ---

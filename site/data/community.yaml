@@ -30,9 +30,16 @@ chapters:
     link: https://www.meetup.com/JAMstack-nyc/
   - name: JAMstack London
     artpath: /img/chapters/london-art.svg
-    btncopy: Coming Soon
-    link: #
-    teaser: true
+    btncopy: Join Now
+    link: https://www.meetup.com/JAMstack-London/
+  - name: JAMstack Berlin
+    artpath: /img/chapters/berlin-illo.svg
+    btncopy: Join Now
+    link: https://www.meetup.com/JAMstack-Berlin/
+  - name: JAMstack Toulouse
+    artpath: /img/chapters/toulouse-illo.svg
+    btncopy: Join Now
+    link: https://www.meetup.com/JAMstack-Toulouse/
   - name: JAMstack Seattle
     artpath: /img/chapters/seattle-art.svg
     btncopy: Coming Soon
@@ -45,6 +52,11 @@ chapters:
     teaser: true
   - name: JAMstack Philadelphia
     artpath: /img/chapters/philadelphia-art.svg
+    btncopy: Coming Soon
+    link: #
+    teaser: true
+  - name: JAMstack Tokyo
+    artpath: /img/chapters/tokyo-art.svg
     btncopy: Coming Soon
     link: #
     teaser: true

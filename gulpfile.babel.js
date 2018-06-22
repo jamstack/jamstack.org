@@ -5,7 +5,7 @@ import postcss from "gulp-postcss";
 import cssImport from "postcss-import";
 import neatgrid from "postcss-neat";
 import nestedcss from "postcss-nested";
-import colorfunctions from "postcss-colour-functions";
+import colorfunctions from "postcss-color-function";
 import hdBackgrounds from "postcss-at2x";
 import cssvars from "postcss-simple-vars-async";
 import cssextend from "postcss-simple-extend";
@@ -17,6 +17,7 @@ import webpackConfig from "./webpack.conf";
 const browserSync = BrowserSync.create();
 const hugoBin = "hugo";
 const defaultArgs = ["-d", "../dist", "-s", "site", "-v"];
+const DEST = "./dist/";
 
 gulp.task("hugo", (cb) => buildSite(cb));
 gulp.task("hugo-preview", (cb) => buildSite(cb, ["--buildDrafts", "--buildFuture"]));
@@ -34,7 +35,7 @@ gulp.task("css", () => (
       hdBackgrounds(),
       cssextend(),
       cssvars({variables: styleVariables})]))
-    .pipe(gulp.dest("./dist/css"))
+    .pipe(gulp.dest(DEST+"css"))
     .pipe(browserSync.stream())
 ));
 
@@ -54,13 +55,13 @@ gulp.task("js", (cb) => {
 
 gulp.task("fonts", () => (
   gulp.src("./src/fonts/**/*")
-    .pipe(gulp.dest("./dist/fonts"))
+    .pipe(gulp.dest(DEST+"fonts"))
     .pipe(browserSync.stream())
 ));
 
 gulp.task("images", () => (
   gulp.src("./src/img/**/*")
-    .pipe(gulp.dest("./dist/img"))
+    .pipe(gulp.dest(DEST+"img"))
     .pipe(browserSync.stream())
 ));
 
