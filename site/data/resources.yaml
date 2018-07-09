@@ -17,6 +17,8 @@ articles:
     link: https://habd.as/zero-to-http-2-aws-hugo/
   - title: "Static Websites + JAMstack = <3"
     link: https://julian.is/article/static-websites-and-jamstack/
+  - title: "JAMStack: Modern Web Architecture in Digestible Terms"
+    link: https://www.gridhaus.com/blog/jamstack-modern-web-architecture-in-digestible-terms
 
 videos:
   - title: Rise of the JAMstack
