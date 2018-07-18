@@ -181,7 +181,7 @@ examples:
       - tool: Gitlab
       - tool: PostCSS
       - tool: Disqus
-      - tool: Netlify      
+      - tool: Netlify
   - title: CiTA
     description: Creative Internet Technology Agency
     link: https://www.cita.hr
@@ -205,6 +205,17 @@ examples:
       - tool: Bitbucket
       - tool: Netlify
       - tool: Cloudinary
+  - title: Han Han Xue
+    description: https://hanhanxue.com/info/
+    link: https://hanhanxue.com
+    thumbnailurl: /img/examples/hanhanxue.png
+    tools:
+      - tool: Middleman
+      - tool: Sass
+      - tool: Gulp
+      - tool: Critical CSS
+      - tool: Bitbucket
+      - tool: Netlify
   - title: Psykose | bipolar
     description: A website for TIPS Sør-Øst with support and advice about mental disorders
     link: https://psykose-bipolar.no
