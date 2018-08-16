@@ -40,6 +40,10 @@ chapters:
     artpath: /img/chapters/toulouse-illo.svg
     btncopy: Join Now
     link: https://www.meetup.com/JAMstack-Toulouse/
+  - name: JAMstack Wrocław
+    artpath: /img/chapters/wroclaw-illo.svg
+    btncopy: Join Now
+    link: https://www.meetup.com/JAMStack-Wroclaw/
   - name: JAMstack Seattle
     artpath: /img/chapters/seattle-art.svg
     btncopy: Coming Soon
