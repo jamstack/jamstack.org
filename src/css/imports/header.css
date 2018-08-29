@@ -78,7 +78,7 @@ header {
     background: white;
     box-shadow: 0 calc($micro / 2) $micro rgba(0,0,0,0.05);
     padding: $small 0;
-    margin-top: 55px;
+    margin-top: 54px;
   }
 
   a:not(.slicknav_btn):not(.mobile-logo) {
