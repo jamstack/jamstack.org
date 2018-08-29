@@ -4,9 +4,10 @@
   display: block;
   text-align: center;
   z-index: 200;
-  position: relative;
+  position: fixed;
   margin: 0;
   padding: 0;
+  width: 100%;
 
   p {
     margin: 0;
