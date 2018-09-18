@@ -71,5 +71,5 @@ bottomcta:
   artpath: /img/chapters/meetup-map.svg
   headline: Start a JAMstack Meetup
   ctacopy: Contact Us
-  ctalink: mailto:cassandra@netlify.com
+  ctalink: mailto:community@netlify.com
 ---
