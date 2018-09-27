@@ -44,13 +44,13 @@ chapters:
     artpath: /img/chapters/wroclaw-illo.svg
     btncopy: Join Now
     link: https://www.meetup.com/JAMStack-Wroclaw/
-  - name: JAMstack Seattle
-    artpath: /img/chapters/seattle-art.svg
-    btncopy: Coming Soon
-    link: #
-    teaser: true
   - name: JAMstack Portland
     artpath: /img/chapters/portland-art.svg
+    btncopy: Join Now
+    link: https://www.meetup.com/JAMstack-Portland/
+    teaser: true
+  - name: JAMstack Seattle
+    artpath: /img/chapters/seattle-art.svg
     btncopy: Coming Soon
     link: #
     teaser: true
