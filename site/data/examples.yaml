@@ -1,5 +1,15 @@
 ---
 examples:
+  - title: William Oliveira Blog
+    description: A blog about software development, career, communities and more.
+    link: https://woliveiras.com.br/
+    thumbnailurl: /img/examples/william-oliveira.jpg
+    tools:
+      - tool: Jekyll
+      - tool: GitHub Pages
+      - tool: Cloudflare
+      - tool: Disqus
+      - tool: Sass
   - title: Compare Ali
     description: Curated brand-name clothing on Ali Express.
     link: https://compareali.com
