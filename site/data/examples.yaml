@@ -3,7 +3,7 @@ examples:
   - title: William Oliveira Blog
     description: A blog about software development, career, communities and more.
     link: https://woliveiras.com.br/
-    thumbnailurl: /img/examples/william-oliveira.jpg
+    thumbnailurl: /img/examples/william-oliveira.png
     tools:
       - tool: Jekyll
       - tool: GitHub Pages
