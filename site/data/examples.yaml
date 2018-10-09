@@ -1,5 +1,15 @@
 ---
 examples:
+  - title: William Oliveira Blog
+    description: A blog about software development, career, communities and more.
+    link: https://woliveiras.com.br/
+    thumbnailurl: /img/examples/william-oliveira.png
+    tools:
+      - tool: Jekyll
+      - tool: GitHub Pages
+      - tool: Cloudflare
+      - tool: Disqus
+      - tool: Sass
   - title: cState
     description: Hugo status page. Fast, IE8+, and customizable.
     link: https://github.com/mistermantas/cstate
