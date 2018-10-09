@@ -32,13 +32,24 @@ chapters:
     artpath: /img/chapters/london-art.svg
     btncopy: Join Now
     link: https://www.meetup.com/JAMstack-London/
-  - name: JAMstack Seattle
-    artpath: /img/chapters/seattle-art.svg
-    btncopy: Coming Soon
-    link: #
-    teaser: true
+  - name: JAMstack Berlin
+    artpath: /img/chapters/berlin-illo.svg
+    btncopy: Join Now
+    link: https://www.meetup.com/JAMstack-Berlin/
+  - name: JAMstack Toulouse
+    artpath: /img/chapters/toulouse-illo.svg
+    btncopy: Join Now
+    link: https://www.meetup.com/JAMstack-Toulouse/
+  - name: JAMstack Wrocław
+    artpath: /img/chapters/wroclaw-illo.svg
+    btncopy: Join Now
+    link: https://www.meetup.com/JAMStack-Wroclaw/
   - name: JAMstack Portland
     artpath: /img/chapters/portland-art.svg
+    btncopy: Join Now
+    link: https://www.meetup.com/JAMstack-Portland/
+  - name: JAMstack Seattle
+    artpath: /img/chapters/seattle-art.svg
     btncopy: Coming Soon
     link: #
     teaser: true
@@ -59,5 +70,5 @@ bottomcta:
   artpath: /img/chapters/meetup-map.svg
   headline: Start a JAMstack Meetup
   ctacopy: Contact Us
-  ctalink: mailto:cassandra@netlify.com
+  ctalink: mailto:community@netlify.com
 ---

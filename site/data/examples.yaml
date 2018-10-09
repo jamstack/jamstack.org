@@ -1,5 +1,46 @@
 ---
 examples:
+  - title: William Oliveira Blog
+    description: A blog about software development, career, communities and more.
+    link: https://woliveiras.com.br/
+    thumbnailurl: /img/examples/william-oliveira.png
+    tools:
+      - tool: Jekyll
+      - tool: GitHub Pages
+      - tool: Cloudflare
+      - tool: Disqus
+      - tool: Sass
+  - title: cState
+    description: Hugo status page. Fast, IE8+, and customizable.
+    link: https://github.com/mistermantas/cstate
+    thumbnailurl: /img/examples/cstate.jpg
+    tools:
+      - tool: Netlify
+      - tool: Hugo
+      - tool: Netlify CMS
+      - tool: GitHub
+      - tool: Vanilla JS & CSS
+      - tool: Google Analytics
+      - tool: Git
+  - title: Compare Ali
+    description: Curated brand-name clothing on Ali Express.
+    link: https://compareali.com
+    thumbnailurl: /img/examples/compareali.jpg
+    tools:
+      - tool: Netlify
+      - tool: Metalsmith
+      - tool: Prismic.io
+      - tool: Webpack
+  - title: Fabuwood Cabinetry
+    description: Fabuwood Cabinetry official website.
+    link: https://www.fabuwood.com
+    thumbnailurl: /img/examples/fabuwood.jpg
+    tools:
+      - tool: Metalsmith
+      - tool: Webpack
+      - tool: Prismic.io
+      - tool: Netlify
+      - tool: Browser Sync
   - title: City of Boston - Budget Site
     description: Executive summary of the City of Boston’s fiscal year 2018 recommended budget.
     link: https://budget.boston.gov
@@ -15,7 +56,7 @@ examples:
     tools:
       - tool: Middleman
       - tool: Gulp
-      - tool: Github
+      - tool: GitHub
       - tool: Sass
       - tool: Service Workers
       - tool: S3
@@ -162,7 +203,7 @@ examples:
       - tool: Gitlab
       - tool: PostCSS
       - tool: Disqus
-      - tool: Netlify      
+      - tool: Netlify
   - title: CiTA
     description: Creative Internet Technology Agency
     link: https://www.cita.hr
@@ -186,6 +227,41 @@ examples:
       - tool: Bitbucket
       - tool: Netlify
       - tool: Cloudinary
+  - title: Han Han Xue
+    description: https://hanhanxue.com/info/
+    link: https://hanhanxue.com
+    thumbnailurl: /img/examples/hanhanxue.png
+    tools:
+      - tool: Middleman
+      - tool: Sass
+      - tool: Gulp
+      - tool: Critical CSS
+      - tool: Bitbucket
+      - tool: Netlify
+  - title: Psykose | bipolar
+    description: A website for TIPS Sør-Øst with support and advice about mental disorders
+    link: https://psykose-bipolar.no
+    thumbnailurl: /img/examples/psykose-bipolar.png
+    tools:
+      - tool: Metalsmith
+      - tool: Contentful
+      - tool: GitHub
+      - tool: Travis
+      - tool: Firebase
+      - tool: Handlebars
+  - title: Story Breeding
+    description: Combines stories for inspiration.
+    link: http://storybreeding.surge.sh
+    thumbnailurl: /img/examples/story-breeding.png
+    tools:
+      - tool: Gulp
+      - tool: Sass
+      - tool: Surge
+      - tool: GitHub
+      - tool: Jasonbase
+      - tool: Coinhive
+      - tool: Critical CSS
+      - tool: Google style deferring script
   - title: VAS
     description: VAS - At the heart of your dairy
     link: http://web.vas.com/
@@ -207,5 +283,5 @@ examples:
       - tool: Hugo
       - tool: Git
       - tool: Netlify
-      - tool: Disqus            
+      - tool: Disqus
 ---
