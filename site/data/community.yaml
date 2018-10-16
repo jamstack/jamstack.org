@@ -48,6 +48,10 @@ chapters:
     artpath: /img/chapters/portland-art.svg
     btncopy: Join Now
     link: https://www.meetup.com/JAMstack-Portland/
+  - name: JAMstack Hamburg
+    artpath: /img/chapters/hamburg-art.svg
+    btncopy: Join Now
+    link: https://www.meetup.com/JAMstack-Hamburg/
   - name: JAMstack Seattle
     artpath: /img/chapters/seattle-art.svg
     btncopy: Coming Soon
