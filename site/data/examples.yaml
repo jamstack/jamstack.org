@@ -12,6 +12,18 @@ examples:
       - tool: Bootstrap
       - tool: Sass
       - tool: Github
+  - title: Fullstack HQ
+    description: Web Design & Development Team in the Philippines
+    link: https://fullstackhq.com
+    thumbnailurl: /img/examples/psdwizard.png
+    tools:
+      - tool: Netlify
+      - tool: React-Static
+      - tool: Netlify CMS
+      - tool: Webpack
+      - tool: Bootstrap
+      - tool: Sass
+      - tool: Github
   - title: William Oliveira Blog
     description: A blog about software development, career, communities and more.
     link: https://woliveiras.com.br/
