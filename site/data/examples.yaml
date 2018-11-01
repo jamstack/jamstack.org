@@ -1,5 +1,14 @@
 ---
 examples:
+  - title: NSHipster
+    description: A journal of the overlooked bits in Objective-C, Swift, and Cocoa.
+    link: https://nshipster.com
+    thumbnailurl: /img/examples/nshipster.png
+    tools:
+      - tool: Netlify
+      - tool: Jekyll
+      - tool: GitHub
+      - tool: Jamalytics
   - title: TechnoDuet
     description: A Technology Blog
     link: https://www.technoduet.com
