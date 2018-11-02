@@ -52,6 +52,10 @@ chapters:
     artpath: /img/chapters/hamburg-art.svg
     btncopy: Join Now
     link: https://www.meetup.com/JAMstack-Hamburg/
+  - name: JAMstack Bengaluru
+    artpath: /img/chapters/bengaluru-art.svg
+    btncopy: Join Now
+    link: https://www.meetup.com/JAMstack-Bengaluru/
   - name: JAMstack Seattle
     artpath: /img/chapters/seattle-art.svg
     btncopy: Coming Soon
