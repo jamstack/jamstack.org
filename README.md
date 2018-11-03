@@ -6,7 +6,7 @@ Over time this will hopefully grow into a useful entry-point for learning about 
 
 ## Usage
 
-Be sure that you have the latest node, npm and [Hugo](https://gohugo.io/) installed. If you need to install hugo, run:
+Be sure that you have the latest node, yarn, and [Hugo](https://gohugo.io/) installed. If you need to install hugo, run:
 
 ```bash
 brew install hugo
@@ -15,8 +15,8 @@ brew install hugo
 Next, clone this repository and run:
 
 ```bash
-npm install
-npm start
+yarn
+yarn start
 ```
 
 Then visit http://localhost:3000/ - BrowserSync will automatically reload CSS or
@@ -25,7 +25,7 @@ refresh the page when stylesheets or content changes.
 To build your static output to the `/dist` folder, use:
 
 ```bash
-npm run build
+yarn build
 ```
 
 ## Contribute Resources (Videos & Articles)
