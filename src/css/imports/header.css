@@ -59,7 +59,7 @@
 }
 
 header {
-  background: white;
+  background: transparent;
   box-shadow: none;
   font-family: $roboto;
   padding: $medium 0;
