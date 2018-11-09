@@ -9,15 +9,15 @@ $(function(){
 });
 
 
-// Sticky Nav Functionality in Vanilla JS
+// Sticky Nav
 
 var header = document.getElementById("header");
 
-window.onscroll = function() {
-  var currentWindowPos = document.documentElement.scrollTop || document.body.scrollTop;
-
-  header.classList.toggle('stuck', currentWindowPos > 0);
-};
+const watcher = scrollMonitor.create(header);
+watcher.lock();
+watcher.stateChange(function() {
+  header.classList.toggle('stuck', this.isAboveViewport);
+});
 
 
 // scrolling for anchor links
