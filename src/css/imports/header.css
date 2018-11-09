@@ -59,11 +59,14 @@
 }
 
 header {
-  background: transparent;
+  background: white;
   box-shadow: none;
   font-family: $roboto;
   padding: $medium 0;
-  position: fixed;
+  position: sticky;
+  position: -webkit-sticky;
+  display: block;
+  top: 0px;
   margin-top: 45px;
   text-align: center;
   transition: background .2s ease, padding .2s ease, box-shadow .2s ease;
@@ -74,7 +77,7 @@ header {
     text-align: right;
   }
 
-  &.scrolled {
+  &.stuck {
     background: white;
     box-shadow: 0 calc($micro / 2) $micro rgba(0,0,0,0.05);
     padding: $small 0;

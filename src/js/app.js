@@ -16,7 +16,7 @@ var header = document.getElementById("header");
 window.onscroll = function() {
   var currentWindowPos = document.documentElement.scrollTop || document.body.scrollTop;
 
-  header.classList.toggle('scrolled', currentWindowPos > 0);
+  header.classList.toggle('stuck', currentWindowPos > 0);
 };
 
 
