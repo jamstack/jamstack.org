@@ -4,10 +4,6 @@ chapters:
     artpath: /img/chapters/sf-art.svg
     btncopy: Join Now
     link: https://www.meetup.com/jamstack-sf/
-  - name: JAMstack Dallas
-    artpath: /img/chapters/dallas-art.svg
-    btncopy: Join Now
-    link: https://www.meetup.com/jamstack-dallas/
   - name: JAMstack Austin
     artpath: /img/chapters/austin-art.svg
     btncopy: Join Now
