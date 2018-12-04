@@ -1,4 +1,3 @@
----
 chapters:
   - name: JAMstack San Francisco
     artpath: /img/chapters/sf-art.svg
@@ -54,9 +53,8 @@ chapters:
     link: https://www.meetup.com/JAMstack-Bengaluru/
   - name: JAMstack Seattle
     artpath: /img/chapters/seattle-art.svg
-    btncopy: Coming Soon
-    link: #
-    teaser: true
+    btncopy: Join Now
+    link: https://www.meetup.com/jamstack-seattle/
   - name: JAMstack Philadelphia
     artpath: /img/chapters/philadelphia-art.svg
     btncopy: Coming Soon
