@@ -59,11 +59,6 @@ chapters:
     artpath: /img/chapters/seattle-art.svg
     btncopy: Join Now
     link: https://www.meetup.com/jamstack-seattle/
-  - name: JAMstack Philadelphia
-    artpath: /img/chapters/philadelphia-art.svg
-    btncopy: Coming Soon
-    link: #
-    teaser: true
   - name: JAMstack Tokyo
     artpath: /img/chapters/tokyo-art.svg
     btncopy: Coming Soon
