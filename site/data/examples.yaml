@@ -1,5 +1,17 @@
 ---
 examples:
+  - title: Browser Smart
+    description: A pithy browser selection guide
+    link: https://browsersmart.com
+    thumbnailurl: /img/examples/browsersmart.png
+    tools:
+      - tool: Platframe
+      - tool: Gulp
+      - tool: Pug
+      - tool: Stylus
+      - tool: Platform.js
+      - tool: GitLab
+      - tool: Netlify
   - title: PSD Wizard
     description: On-demand Front-End Coding Service
     link: https://psdwizard.com
