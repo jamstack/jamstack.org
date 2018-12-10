@@ -1,6 +1,6 @@
 ---
 examples:
-  - title: Browser Smart
+  - title: BrowserSmart
     description: A pithy browser selection guide
     link: https://browsersmart.com
     thumbnailurl: /img/examples/browsersmart.png
