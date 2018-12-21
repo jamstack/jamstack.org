@@ -61,9 +61,8 @@ chapters:
     link: https://www.meetup.com/jamstack-seattle/
   - name: JAMstack Tokyo
     artpath: /img/chapters/tokyo-art.svg
-    btncopy: Coming Soon
-    link: #
-    teaser: true
+    btncopy: Join Now
+    link: https://jamstack-tokyo.connpass.com/
 
 gitterurl: https://gitter.im/jamstack/community
 
