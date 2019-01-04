@@ -63,6 +63,10 @@ chapters:
     artpath: /img/chapters/tokyo-art.svg
     btncopy: Join Now
     link: https://jamstack-tokyo.connpass.com/
+  - name: JAMstack Lisbon
+    artpath: /img/chapters/lisbon-art.svg
+    btncopy: Join Now
+    link: https://www.meetup.com/JAMstack-Lisbon/
 
 gitterurl: https://gitter.im/jamstack/community
 
@@ -72,3 +76,4 @@ bottomcta:
   ctacopy: Contact Us
   ctalink: mailto:community@netlify.com
 ---
+
