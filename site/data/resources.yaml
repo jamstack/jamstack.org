@@ -8,8 +8,8 @@ articles:
     link: https://www.hawksworx.com/blog/isomorphic-rendering-on-the-jam-stack/
   - title: Dynamic product management in a static e-commerce workflow
     link: https://www.contentful.com/blog/2016/02/10/snipcart-middleman-contentful
-  - title: "JAMstack for Clients: On Benefits & Static Site CMS"
-    link: https://snipcart.com/blog/jamstack-clients-static-site-cms
+  - title: "The JAMstack in 2019: Why (and How) to Get Started"
+    link: https://snipcart.com/blog/jamstack
   - title: "Go static: 5 reasons to try JAMstack on your next project"
     link: https://builtvisible.com/go-static-try-jamstack/
   - title: "Zero to HTTP/2 with AWS and Hugo"
