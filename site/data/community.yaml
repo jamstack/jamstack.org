@@ -67,6 +67,10 @@ chapters:
     artpath: /img/chapters/lisbon-art.svg
     btncopy: Join Now
     link: https://www.meetup.com/JAMstack-Lisbon/
+  - name: JAMstack Istanbul
+    artpath: /img/chapters/istanbul-art.svg
+    btncopy: Join Now
+    link: https://www.meetup.com/JAMstack/
 
 gitterurl: https://gitter.im/jamstack/community
 
