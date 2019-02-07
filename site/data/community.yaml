@@ -71,6 +71,10 @@ chapters:
     artpath: /img/chapters/istanbul-art.svg
     btncopy: Join Now
     link: https://www.meetup.com/JAMstack/
+  - name: JAMstack Oslo
+    artpath: /img/chapters/oslo-art.svg
+    btncopy: Join Now
+    link: https://www.meetup.com/JAMstack-Oslo/
 
 gitterurl: https://gitter.im/jamstack/community
 
@@ -80,4 +84,3 @@ bottomcta:
   ctacopy: Contact Us
   ctalink: mailto:community@netlify.com
 ---
-
