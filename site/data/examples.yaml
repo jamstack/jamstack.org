@@ -308,4 +308,14 @@ examples:
       - tool: Git
       - tool: Netlify
       - tool: Disqus
+  - title: UICardio
+    description: A place where you can find beautifully designed and coded bootstrap templats, UI Kits, Admin Dashboards.
+    link: https://uicard.io/
+    thumbnailurl: /img/examples/uicardio.jpg
+    tools:
+      - tool: Hugo
+      - tool: Git
+      - tool: Netlify
+      - tool: Google Analytics
+      - tool: SASS
 ---
