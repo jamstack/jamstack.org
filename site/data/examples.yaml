@@ -88,7 +88,7 @@ examples:
       - tool: Google Analytics
   - title: DUSK
     description: DUSK is a creative collective agency for web design, development, strategy & branding built on jekyll using the JAMstack and Netlify CMS for content management.
-    link: https://www.justdusk.com
+    link: https://www.duskdigital.co/
     thumbnailurl: /img/examples/dusk.jpg
     tools:
       - tool: Jekyll
@@ -214,20 +214,6 @@ examples:
       - tool: Google Analytics
       - tool: Algolia
       - tool: Netlify
-  - title: Hyper Static
-    description: Prescriptive marketing agency with an exclusive focus on Hugo and Static Site Generators
-    link: https://www.gohyperstatic.com
-    thumbnailurl: /img/examples/hyperstatic.png
-    tools:
-      - tool: Hugo
-      - tool: WebPack 2
-      - tool: CloudFlare
-      - tool: Babel
-      - tool: Critical CSS
-      - tool: Gitlab
-      - tool: PostCSS
-      - tool: Disqus
-      - tool: Netlify
   - title: CiTA
     description: Creative Internet Technology Agency
     link: https://www.cita.hr
@@ -299,13 +285,4 @@ examples:
       - tool: GitHub
       - tool: Netlify
       - tool: Google Analytics
-  - title: Adaptive Programmer
-    description: Learn. Build. Adapt. Thrive.
-    link: http://adaptiveprogrammer.com/
-    thumbnailurl: /img/examples/adaptiveprogrammer.jpg
-    tools:
-      - tool: Hugo
-      - tool: Git
-      - tool: Netlify
-      - tool: Disqus
 ---
