@@ -17,6 +17,8 @@ articles:
     link: https://habd.as/zero-to-http-2-aws-hugo/
   - title: "Static Websites + JAMstack = <3"
     link: https://julian.is/article/static-websites-and-jamstack/
+  - title: "Going JAMstack with Netlify and Nuxt"
+    link: https://blog.lichter.io/posts/going-jamstack-with-netlify-and-nuxt/
 
 videos:
   - title: Rise of the JAMstack
