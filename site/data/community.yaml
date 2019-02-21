@@ -79,6 +79,10 @@ chapters:
     artpath: /img/chapters/atlanta-art.svg
     btncopy: Join Now
     link: https://www.meetup.com/JAMStack-Atlanta/
+  - name: JAMstack Phoenix
+    artpath: /img/chapters/phoenix-art.svg
+    btncopy: Join Now
+    link: https://www.meetup.com/JAMstack_PHX/
 
 gitterurl: https://gitter.im/jamstack/community
 
