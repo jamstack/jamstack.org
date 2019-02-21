@@ -75,6 +75,10 @@ chapters:
     artpath: /img/chapters/oslo-art.svg
     btncopy: Join Now
     link: https://www.meetup.com/JAMstack-Oslo/
+  - name: JAMstack Atlanta
+    artpath: /img/chapters/atlanta-art.svg
+    btncopy: Join Now
+    link: https://www.meetup.com/JAMStack-Atlanta/
 
 gitterurl: https://gitter.im/jamstack/community
 
