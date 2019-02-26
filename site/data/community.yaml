@@ -79,17 +79,14 @@ chapters:
     artpath: /img/chapters/atlanta-art.svg
     btncopy: Join Now
     link: https://www.meetup.com/JAMStack-Atlanta/
-<<<<<<< HEAD
   - name: JAMstack Cincinnati
     artpath: /img/chapters/cincinnati-art.svg
     btncopy: Join Now
     link: https://www.meetup.com/JAMstack-Cincinnati/
-=======
   - name: JAMstack Phoenix
     artpath: /img/chapters/phoenix-art.svg
     btncopy: Join Now
     link: https://www.meetup.com/JAMstack_PHX/
->>>>>>> cb91f66246d377a2767491228987ab01aa2277e1
 
 gitterurl: https://gitter.im/jamstack/community
 
@@ -98,4 +95,3 @@ bottomcta:
   headline: Start a JAMstack Meetup
   ctacopy: Contact Us
   ctalink: mailto:community@netlify.com
----
