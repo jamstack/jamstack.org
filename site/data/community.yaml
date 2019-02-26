@@ -79,6 +79,10 @@ chapters:
     artpath: /img/chapters/atlanta-art.svg
     btncopy: Join Now
     link: https://www.meetup.com/JAMStack-Atlanta/
+  - name: JAMstack Cincinnati
+    artpath: /img/chapters/cincinnati-art.svg
+    btncopy: Join Now
+    link: https://www.meetup.com/JAMstack-Cincinnati/
 
 gitterurl: https://gitter.im/jamstack/community
 
