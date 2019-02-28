@@ -286,14 +286,14 @@ examples:
       - tool: Netlify
       - tool: Google Analytics
   - title: AMZScout Blog
-      description: AMZScout - Instant Amazon product research in your browser
-      link: https://amzscout.net/blog/
-      thumbnailurl: /img/examples/amzscout-blog.jpg
-      tools:
-        - tool: Gatsby
-        - tool: React
-        - tool: Contentful
-        - tool: Styled Components
-        - tool: Webhooks
-        - tool: Disqus
+    description: AMZScout - Instant Amazon product research in your browser
+    link: https://amzscout.net/blog/
+    thumbnailurl: /img/examples/amzscout-blog.jpg
+    tools:
+      - tool: Gatsby
+      - tool: React
+      - tool: Contentful
+      - tool: Styled Components
+      - tool: Webhooks
+      - tool: Disqus
 ---
