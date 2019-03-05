@@ -285,4 +285,17 @@ examples:
       - tool: GitHub
       - tool: Netlify
       - tool: Google Analytics
+  - title: BreezoMeter
+    description: BreezoMeter - Worldwide Air Quality Data
+    link: https://breezometer.com/
+    thumbnailurl: /img/examples/breezometer.png
+    tools:
+      - tool: Nuxt
+      - tool: Vue
+      - tool: Nuxtent
+      - tool: SCSS
+      - tool: BitBucket
+      - tool: HubSpot
+      - tool: Netlify
+      - tool: Google Analytics
 ---
