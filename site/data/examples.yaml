@@ -1,5 +1,17 @@
 ---
 examples:
+  - title: Helenzys Inc.,
+    description: A digital solutions agency dedicated to help find solutions to all your business challenges
+    link: https://helenzys.com/
+    thumbnailurl: /img/examples/helenzys.jpg
+    tools:
+      - tool: Gatsby JS
+      - tool: React-Static
+      - tool: Wordpress CMS
+      - tool: Webpack
+      - tool: Bootstrap
+      - tool: Less
+      - tool: Github
   - title: PSD Wizard
     description: On-demand Front-End Coding Service
     link: https://psdwizard.com
