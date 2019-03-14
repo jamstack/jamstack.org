@@ -87,6 +87,10 @@ chapters:
     artpath: /img/chapters/phoenix-art.svg
     btncopy: Join Now
     link: https://www.meetup.com/JAMstack_PHX/
+  - name: JAMstack Minsk
+    artpath: /img/chapters/minsk-art.svg
+    btncopy: Join Now
+    link: https://www.meetup.com/ru-RU/JAMstack-Minsk/
 
 gitterurl: https://gitter.im/jamstack/community
 
