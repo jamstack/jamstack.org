@@ -79,7 +79,8 @@ h4 {
   }
 }
 
-p {
+p,
+li {
   font-size: 14px;
   line-height: $small;
 

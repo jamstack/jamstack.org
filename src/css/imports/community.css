@@ -1,5 +1,4 @@
 .community {
-
   h1 {
     line-height: 32px;
 
@@ -20,6 +19,12 @@
       padding: 160px 0 calc($xl * 2) 0;
       margin-bottom: -$xl;
     }
+  }
+
+  .community-headline-link {
+    display: inline-block;
+    font-size: 18px;
+    margin: 10px 0 20px;
   }
 
   .grid {
@@ -52,7 +57,6 @@
         margin: 0 3% 0 0;
         width: 44%;
       }
-
     }
 
     .event-card {
@@ -192,7 +196,7 @@
 
     @media screen and (min-width: $tablet) {
       margin: $xl auto $large auto;
-      }
+    }
 
     > h1 {
       margin-bottom: 32px;
@@ -357,6 +361,20 @@
       padding: $tiny $small;
       min-width: $xxl;
       text-align: center;
+    }
+  }
+
+  &.code-of-conduct {
+    text-align: left;
+    padding-bottom: 100px;
+
+    h1,
+    h2 {
+      margin-top: 1.5em;
+    }
+
+    .contained {
+      max-width: 960px;
     }
   }
 }

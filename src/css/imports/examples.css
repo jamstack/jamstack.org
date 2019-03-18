@@ -134,7 +134,10 @@
     }
 
     li {
+      font-size: 16px;
       font-weight: $regular;
+      line-height: normal;
+
       &:before {
         content: '• ';
       }
