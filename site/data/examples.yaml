@@ -1,5 +1,15 @@
 ---
 examples:
+  - title: Staticaly
+    description: Staticaly is a free CDN for Git repositories, WordPress, images and other assets with high-performance of caching and optimization.
+    link: https://www.staticaly.com
+    thumbnailurl: https://cdn.staticaly.com/screenshot/staticaly.com
+    tools:
+      - tool: Jekyll
+      - tool: Staticaly CDN
+      - tool: Netlify
+      - tool: GitHub
+      - tool: Google Analytics
   - title: Kentico Developer Community
     description: Official Kentico Developer Community site.
     link: https://kentico.github.io
