@@ -3,7 +3,7 @@ examples:
   - title: Staticaly
     description: Staticaly is a free CDN for Git repositories, WordPress, images and other assets with high-performance of caching and optimization.
     link: https://www.staticaly.com
-    thumbnailurl: https://cdn.staticaly.com/screenshot/staticaly.com
+    thumbnailurl: https://cdn.staticaly.com/screenshot/staticaly.com?w=596&h=396
     tools:
       - tool: Jekyll
       - tool: Staticaly CDN
