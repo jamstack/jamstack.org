@@ -31,10 +31,6 @@ chapters:
     artpath: /img/chapters/berlin-illo.svg
     btncopy: Join Now
     link: https://www.meetup.com/JAMstack-Berlin/
-  - name: JAMstack Toulouse
-    artpath: /img/chapters/toulouse-illo.svg
-    btncopy: Join Now
-    link: https://www.meetup.com/JAMstack-Toulouse/
   - name: JAMstack Wrocław
     artpath: /img/chapters/wroclaw-illo.svg
     btncopy: Join Now
@@ -54,7 +50,7 @@ chapters:
   - name: JAMstack Paris
     artpath: /img/chapters/paris-art.svg
     btncopy: Join Now
-    link: https://www.meetup.com/fr-FR/JAMstack-paris/events/256464233/
+    link: https://www.meetup.com/fr-FR/JAMstack-paris/
   - name: JAMstack Seattle
     artpath: /img/chapters/seattle-art.svg
     btncopy: Join Now
@@ -87,6 +83,10 @@ chapters:
     artpath: /img/chapters/phoenix-art.svg
     btncopy: Join Now
     link: https://www.meetup.com/JAMstack_PHX/
+  - name: JAMstack Minsk
+    artpath: /img/chapters/minsk-art.svg
+    btncopy: Join Now
+    link: https://www.meetup.com/ru-RU/JAMstack-Minsk/
 
 gitterurl: https://gitter.im/jamstack/community
 
