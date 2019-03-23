@@ -55,7 +55,7 @@ examples:
   - title: William Oliveira Blog
     description: A blog about software development, career, communities and more.
     link: https://woliveiras.com.br/
-    thumbnailurl: https://cdn.staticaly.com/screenshot/william-oliveira.com.br?w=596&h=396
+    thumbnailurl: https://cdn.staticaly.com/screenshot/woliveiras.com.br?w=596&h=396
     tools:
       - tool: Jekyll
       - tool: GitHub Pages
