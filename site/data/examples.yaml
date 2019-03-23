@@ -13,7 +13,7 @@ examples:
   - title: Kentico Developer Community
     description: Official Kentico Developer Community site.
     link: https://kentico.github.io
-    thumbnailurl: /img/examples/devcommunitypage.png
+    thumbnailurl: https://cdn.staticaly.com/screenshot/kentico.github.io?w=596&h=396
     tools:
       - tool: Gatsby
       - tool: React
@@ -31,7 +31,7 @@ examples:
   - title: PSD Wizard
     description: On-demand Front-End Coding Service
     link: https://psdwizard.com
-    thumbnailurl: /img/examples/psdwizard.png
+    thumbnailurl: https://cdn.staticaly.com/screenshot/psdwizard.com?w=596&h=396
     tools:
       - tool: Netlify
       - tool: React-Static
@@ -43,7 +43,7 @@ examples:
   - title: Fullstack HQ
     description: Web Design & Development Team in the Philippines
     link: https://fullstackhq.com
-    thumbnailurl: /img/examples/fullstackhq.jpg
+    thumbnailurl: https://cdn.staticaly.com/screenshot/fullstackhq.com?w=596&h=396
     tools:
       - tool: Netlify
       - tool: React-Static
@@ -55,7 +55,7 @@ examples:
   - title: William Oliveira Blog
     description: A blog about software development, career, communities and more.
     link: https://woliveiras.com.br/
-    thumbnailurl: /img/examples/william-oliveira.png
+    thumbnailurl: https://cdn.staticaly.com/screenshot/william-oliveira.com.br?w=596&h=396
     tools:
       - tool: Jekyll
       - tool: GitHub Pages
@@ -65,7 +65,7 @@ examples:
   - title: cState
     description: Hugo status page. Fast, IE8+, and customizable.
     link: https://github.com/mistermantas/cstate
-    thumbnailurl: /img/examples/cstate.jpg
+    thumbnailurl: https://cdn.staticaly.com/screenshot/cstate-example.netlify.com?w=596&h=396
     tools:
       - tool: Netlify
       - tool: Hugo
@@ -77,7 +77,7 @@ examples:
   - title: Compare Ali
     description: Curated brand-name clothing on Ali Express.
     link: https://compareali.com
-    thumbnailurl: /img/examples/compareali.jpg
+    thumbnailurl: https://cdn.staticaly.com/screenshot/compareali.com?w=596&h=396
     tools:
       - tool: Netlify
       - tool: Metalsmith
@@ -86,7 +86,7 @@ examples:
   - title: Fabuwood Cabinetry
     description: Fabuwood Cabinetry official website.
     link: https://www.fabuwood.com
-    thumbnailurl: /img/examples/fabuwood.jpg
+    thumbnailurl: https://cdn.staticaly.com/screenshot/fabuwood.com?w=596&h=396
     tools:
       - tool: Metalsmith
       - tool: Webpack
@@ -96,7 +96,7 @@ examples:
   - title: City of Boston - Budget Site
     description: Executive summary of the City of Boston’s fiscal year 2018 recommended budget.
     link: https://budget.boston.gov
-    thumbnailurl: /img/examples/boston-budget.jpg
+    thumbnailurl: https://cdn.staticaly.com/screenshot/budget.boston.gov?w=596&h=396
     tools:
       - tool: Jekyll
       - tool: Gulp
@@ -104,7 +104,7 @@ examples:
   - title: Skcript
     description: We build Artificial Intelligence powered products for today’s businesses.
     link: https://www.skcript.com/
-    thumbnailurl: /img/examples/skcript.jpg
+    thumbnailurl: https://cdn.staticaly.com/screenshot/skcript.com?w=596&h=396
     tools:
       - tool: Middleman
       - tool: Gulp
@@ -117,7 +117,7 @@ examples:
   - title: DUSK
     description: DUSK is a creative collective agency for web design, development, strategy & branding built on jekyll using the JAMstack and Netlify CMS for content management.
     link: https://www.duskdigital.co/
-    thumbnailurl: /img/examples/dusk.jpg
+    thumbnailurl: https://cdn.staticaly.com/screenshot/duskdigital.co?w=596&h=396
     tools:
       - tool: Jekyll
       - tool: GitHub
@@ -128,7 +128,7 @@ examples:
   - title: Sequoia Capital
     description: Sequoia Capital help the daring build legendary companies.
     link: https://www.sequoiacap.com/
-    thumbnailurl: /img/examples/sequoia.jpg
+    thumbnailurl: https://cdn.staticaly.com/screenshot/sequoiacap.com?w=596&h=396
     tools:
       - tool: Middleman
       - tool: jQuery
@@ -141,7 +141,7 @@ examples:
   - title: Carrot Creative
     description: Creative, technology, and distribution under one roof. Carrot is the full-service digital agency within VICE.
     link: https://carrot.is/
-    thumbnailurl: /img/examples/carrot.jpg
+    thumbnailurl: https://cdn.staticaly.com/screenshot/carrot.is?w=596&h=396
     tools:
       - tool: Roots
       - tool: Vue
@@ -157,7 +157,7 @@ examples:
   - title: Sphero
     description: Sphero fuses physical robotic toys, digital apps, and entertainment experiences to unlock the true potential of play and inspire tomorrow’s creators.
     link: http://www.sphero.com/
-    thumbnailurl: /img/examples/sphero.jpg
+    thumbnailurl: https://cdn.staticaly.com/screenshot/sphero.com?w=596&h=396
     tools:
       - tool: Angular
       - tool: Jekyll
@@ -170,7 +170,7 @@ examples:
   - title: Lodash
     description: A JavaScript utility library delivering consistency, modularity, performance, & extras.
     link: https://lodash.com/
-    thumbnailurl: /img/examples/lodash.jpg
+    thumbnailurl: https://cdn.staticaly.com/screenshot/lodash.com?w=596&h=396
     tools:
       - tool: Grunt
       - tool: Babel
@@ -182,7 +182,7 @@ examples:
   - title: Serverless
     description: Serverless Application Framework powered by AWS Lambda, Microsoft Azure, Google Cloud Platform, and IBM OpenWhisk
     link: http://www.serverless.com/
-    thumbnailurl: /img/examples/serverless.jpg
+    thumbnailurl: https://cdn.staticaly.com/screenshot/serverless.com?w=596&h=396
     tools:
       - tool: Webpack
       - tool: Babel
@@ -197,7 +197,7 @@ examples:
   - title: MarvelSearch
     description: Lightning fast search into all superheroes of the Marvel universe
     link: https://community.algolia.com/marvel-search/
-    thumbnailurl: /img/examples/marvel-search.jpg
+    thumbnailurl: https://cdn.staticaly.com/screenshot/community.algolia.com/marvel-search/?w=596&h=396
     tools:
       - tool: Brunch
       - tool: Babel
@@ -209,7 +209,7 @@ examples:
   - title: Julian Gaviria
     description: Front-end development and design blog with a focus on web performance, testing, and the modern web.
     link: https://julian.is
-    thumbnailurl: /img/examples/julian.jpg
+    thumbnailurl: https://cdn.staticaly.com/screenshot/julian.is?w=596&h=396
     tools:
       - tool: Jekyll
       - tool: Grunt
@@ -222,7 +222,7 @@ examples:
   - title: Digital Continuum
     description: A knowledge base that documents how organizations can optimize all aspects of their digital value delivery at the enterprise level.
     link: https://www.digitalcontinuum.com/
-    thumbnailurl: /img/examples/digital-continuum.jpg
+    thumbnailurl: https://cdn.staticaly.com/screenshot/digitalcontinuum.com?w=596&h=396
     tools:
       - tool: Hexo
       - tool: Contentful
@@ -233,7 +233,7 @@ examples:
   - title: Universal Mind
     description: A digital solutions agency focused on services from innovation and design through development
     link: http://www.universalmind.com/
-    thumbnailurl: /img/examples/universalmind.jpg
+    thumbnailurl: https://cdn.staticaly.com/screenshot/universalmind.com?w=596&h=396
     tools:
       - tool: Hexo
       - tool: Contentful
@@ -245,7 +245,7 @@ examples:
   - title: CiTA
     description: Creative Internet Technology Agency
     link: https://www.cita.hr
-    thumbnailurl: /img/examples/cita.png
+    thumbnailurl: https://cdn.staticaly.com/screenshot/cita.hr?w=596&h=396
     tools:
       - tool: Sass
       - tool: WebPack 2
@@ -256,7 +256,7 @@ examples:
   - title: Silvestar Bistrović
     description: SB - Silvestar's personal website
     link: https://www.silvestarbistrovic.from.hr
-    thumbnailurl: /img/examples/silvestarbistrovic.png
+    thumbnailurl: https://cdn.staticaly.com/screenshot/silvestarbistrovic.from.hr?w=596&h=396
     tools:
       - tool: Hexo
       - tool: Sass
@@ -268,7 +268,7 @@ examples:
   - title: Han Han Xue
     description: https://hanhanxue.com/info/
     link: https://hanhanxue.com
-    thumbnailurl: /img/examples/hanhanxue.png
+    thumbnailurl: https://cdn.staticaly.com/screenshot/hanhanxue.com?w=596&h=396
     tools:
       - tool: Middleman
       - tool: Sass
@@ -279,7 +279,7 @@ examples:
   - title: Psykose | bipolar
     description: A website for TIPS Sør-Øst with support and advice about mental disorders
     link: https://psykose-bipolar.no
-    thumbnailurl: /img/examples/psykose-bipolar.png
+    thumbnailurl: https://cdn.staticaly.com/screenshot/psykose-bipolar.no?w=596&h=396
     tools:
       - tool: Metalsmith
       - tool: Contentful
@@ -290,7 +290,7 @@ examples:
   - title: Story Breeding
     description: Combines stories for inspiration.
     link: http://storybreeding.surge.sh
-    thumbnailurl: /img/examples/story-breeding.png
+    thumbnailurl: https://cdn.staticaly.com/screenshot/storybreeding.surge.sh?w=596&h=396
     tools:
       - tool: Gulp
       - tool: Sass
@@ -303,7 +303,7 @@ examples:
   - title: VAS
     description: VAS - At the heart of your dairy
     link: http://web.vas.com/
-    thumbnailurl: /img/examples/vas.png
+    thumbnailurl: https://cdn.staticaly.com/screenshot/web.vas.com?w=596&h=396
     tools:
       - tool: Roots
       - tool: Stylus
