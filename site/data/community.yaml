@@ -87,6 +87,18 @@ chapters:
     artpath: /img/chapters/minsk-art.svg
     btncopy: Join Now
     link: https://www.meetup.com/ru-RU/JAMstack-Minsk/
+  - name: JAMstack Lagos
+    artpath: /img/chapters/placeholder-art.svg
+    btncopy: Join Now
+    link: https://www.meetup.com/JAMStack-Lagos/
+  - name: JAMstack Chicago
+    artpath: /img/chapters/placeholder-art.svg
+    btncopy: Join Now
+    link: https://www.meetup.com/JAMstack-Chicago/
+  - name: JAMstack São Paulo
+    artpath: /img/chapters/placeholder-art.svg
+    btncopy: Join Now
+    link: https://www.meetup.com/JAMstack-SP/
 
 gitterurl: https://gitter.im/jamstack/community
 
