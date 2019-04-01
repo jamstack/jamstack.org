@@ -95,11 +95,11 @@ chapters:
     artpath: /img/chapters/placeholder-art.svg
     btncopy: Join Now
     link: https://www.meetup.com/JAMstack-Chicago/
-  - name: JAMstack S&atilde;o Paulo
+  - name: JAMstack São Paulo
     artpath: /img/chapters/placeholder-art.svg
     btncopy: Join Now
     link: https://www.meetup.com/JAMstack-SP/
-    
+    git
 gitterurl: https://gitter.im/jamstack/community
 
 bottomcta:
