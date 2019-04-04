@@ -1,5 +1,69 @@
 ---
 examples:
+  - title: Kentico Developer Community
+    description: Official Kentico Developer Community site.
+    link: https://kentico.github.io
+    thumbnailurl: /img/examples/devcommunitypage.png
+    tools:
+      - tool: Gatsby
+      - tool: React
+      - tool: Kentico Cloud
+      - tool: Travis CI
+      - tool: Sass
+      - tool: Github
+      - tool: Github Pages
+      - tool: GitHub API
+      - tool: Azure Functions
+      - tool: Azure Table Storage
+      - tool: Google Analytics
+      - tool: Service Workers
+      - tool: Web App Manifest
+  - title: PSD Wizard
+    description: On-demand Front-End Coding Service
+    link: https://psdwizard.com
+    thumbnailurl: /img/examples/psdwizard.png
+    tools:
+      - tool: Netlify
+      - tool: React-Static
+      - tool: Netlify CMS
+      - tool: Webpack
+      - tool: Bootstrap
+      - tool: Sass
+      - tool: Github
+  - title: Fullstack HQ
+    description: Web Design & Development Team in the Philippines
+    link: https://fullstackhq.com
+    thumbnailurl: /img/examples/fullstackhq.jpg
+    tools:
+      - tool: Netlify
+      - tool: React-Static
+      - tool: Netlify CMS
+      - tool: Webpack
+      - tool: Bootstrap
+      - tool: Sass
+      - tool: Github
+  - title: William Oliveira Blog
+    description: A blog about software development, career, communities and more.
+    link: https://woliveiras.com.br/
+    thumbnailurl: /img/examples/william-oliveira.png
+    tools:
+      - tool: Jekyll
+      - tool: GitHub Pages
+      - tool: Cloudflare
+      - tool: Disqus
+      - tool: Sass
+  - title: cState
+    description: Hugo status page. Fast, IE8+, and customizable.
+    link: https://github.com/mistermantas/cstate
+    thumbnailurl: /img/examples/cstate.jpg
+    tools:
+      - tool: Netlify
+      - tool: Hugo
+      - tool: Netlify CMS
+      - tool: GitHub
+      - tool: Vanilla JS & CSS
+      - tool: Google Analytics
+      - tool: Git
   - title: Compare Ali
     description: Curated brand-name clothing on Ali Express.
     link: https://compareali.com
@@ -42,7 +106,7 @@ examples:
       - tool: Google Analytics
   - title: DUSK
     description: DUSK is a creative collective agency for web design, development, strategy & branding built on jekyll using the JAMstack and Netlify CMS for content management.
-    link: https://www.justdusk.com
+    link: https://www.duskdigital.co/
     thumbnailurl: /img/examples/dusk.jpg
     tools:
       - tool: Jekyll
@@ -168,20 +232,6 @@ examples:
       - tool: Google Analytics
       - tool: Algolia
       - tool: Netlify
-  - title: Hyper Static
-    description: Prescriptive marketing agency with an exclusive focus on Hugo and Static Site Generators
-    link: https://www.gohyperstatic.com
-    thumbnailurl: /img/examples/hyperstatic.png
-    tools:
-      - tool: Hugo
-      - tool: WebPack 2
-      - tool: CloudFlare
-      - tool: Babel
-      - tool: Critical CSS
-      - tool: Gitlab
-      - tool: PostCSS
-      - tool: Disqus
-      - tool: Netlify      
   - title: CiTA
     description: Creative Internet Technology Agency
     link: https://www.cita.hr
@@ -205,6 +255,17 @@ examples:
       - tool: Bitbucket
       - tool: Netlify
       - tool: Cloudinary
+  - title: Han Han Xue
+    description: https://hanhanxue.com/info/
+    link: https://hanhanxue.com
+    thumbnailurl: /img/examples/hanhanxue.png
+    tools:
+      - tool: Middleman
+      - tool: Sass
+      - tool: Gulp
+      - tool: Critical CSS
+      - tool: Bitbucket
+      - tool: Netlify
   - title: Psykose | bipolar
     description: A website for TIPS Sør-Øst with support and advice about mental disorders
     link: https://psykose-bipolar.no
@@ -242,13 +303,4 @@ examples:
       - tool: GitHub
       - tool: Netlify
       - tool: Google Analytics
-  - title: Adaptive Programmer
-    description: Learn. Build. Adapt. Thrive.
-    link: http://adaptiveprogrammer.com/
-    thumbnailurl: /img/examples/adaptiveprogrammer.jpg
-    tools:
-      - tool: Hugo
-      - tool: Git
-      - tool: Netlify
-      - tool: Disqus            
 ---
