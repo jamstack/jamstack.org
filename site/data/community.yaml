@@ -92,7 +92,7 @@ chapters:
     btncopy: Join Now
     link: https://www.meetup.com/JAMstack-Chicago/
   - name: JAMstack Lagos
-    artpath: /img/chapters/placeholder-art.svg
+    artpath: /img/chapters/lagos-art.svg
     btncopy: Join Now
     link: https://www.meetup.com/JAMStack-Lagos/
   - name: JAMstack São Paulo
