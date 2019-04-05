@@ -103,6 +103,10 @@ chapters:
     artpath: /img/chapters/placeholder-art.svg
     btncopy: Join Now
     link: https://www.meetup.com/JAMstack-Denver/
+  - name: JAMstack Israel
+    artpath: /img/chapters/placeholder-art.svg
+    btncopy: Join Now
+    link: https://www.meetup.com/JAMStack-IL/
 
 
 gitterurl: https://gitter.im/jamstack/community
