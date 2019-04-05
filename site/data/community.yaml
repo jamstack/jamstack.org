@@ -99,6 +99,10 @@ chapters:
     artpath: /img/chapters/placeholder-art.svg
     btncopy: Join Now
     link: https://www.meetup.com/JAMstack-SP/
+  - name: JAMstack Denver
+    artpath: /img/chapters/placeholder-art.svg
+    btncopy: Join Now
+    link: https://www.meetup.com/JAMstack-Denver/
 
 
 gitterurl: https://gitter.im/jamstack/community
