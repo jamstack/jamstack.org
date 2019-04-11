@@ -107,7 +107,10 @@ chapters:
     artpath: /img/chapters/placeholder-art.svg
     btncopy: Join Now
     link: https://www.meetup.com/JAMStack-IL/
-
+  - name: JAMstack Yemen
+    artpath: /img/chapters/placeholder-art.svg
+    btncopy: Join Now
+    link: https://www.facebook.com/groups/JAMstackYemenMeetups
 
 gitterurl: https://gitter.im/jamstack/community
 
