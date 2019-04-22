@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200px" height="200px" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>placeholder-small</title>
+    <desc>Created with Sketch.</desc>
+    <g id="placeholder-small" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M55.5276183,44.650537 C55.3161842,44.8206378 55.1057452,44.9919252 54.8963113,45.164389 C39.0828878,58.1863733 29,77.9156944 29,100 C29,139.212217 60.7877828,171 100,171 C139.212217,171 171,139.212217 171,100 C171,77.6452991 160.668695,57.7036036 144.520271,44.6890987" id="Path" stroke="#313D3E" stroke-width="2.5" fill-rule="nonzero"></path>
+        <g id="Building" opacity="0.5" transform="translate(56.000000, 28.000000)" fill-rule="nonzero" stroke="#313D3E" stroke-width="2">
+            <path d="M4,112 L4,82 M4,77 L4,47 M4,42 L4,5 M84,5 L84,42 M84,47 L84,77 M84,82 L84,112 M84,116 L84,130 M4,130 L4,116" id="Shape"></path>
+            <polygon id="Path-303" points="2 82 2 77 86 77 86 82"></polygon>
+            <polygon id="Path-303" points="2 116 2 112 86 112 86 116"></polygon>
+            <polygon id="Path-303" points="2 47 2 42 86 42 86 47"></polygon>
+            <polygon id="Path-303" points="0 5 0 0 88 0 88 5"></polygon>
+            <g id="Group" transform="translate(12.000000, 11.000000)">
+                <polyline id="Path-306" points="0 31 0 0 16 0 16 31"></polyline>
+                <path d="M0,24 L16,24" id="Path-307"></path>
+                <path d="M8,0 L8,24" id="Path-308"></path>
+                <path d="M0,12 L16,12" id="Path-309"></path>
+            </g>
+            <g id="Group" transform="translate(12.000000, 47.000000)">
+                <path d="M0,30 L0,0 M16,0 L16,30" id="Shape"></path>
+                <path d="M8,0 L8,29" id="Path-308"></path>
+                <path d="M0,14 L16,14" id="Path-309"></path>
+            </g>
+            <g id="Group" transform="translate(12.000000, 82.000000)">
+                <path d="M0,30 L0,0 M16,0 L16,30" id="Shape"></path>
+                <path d="M8,0 L8,29" id="Path-308"></path>
+                <path d="M0,14 L16,14" id="Path-309"></path>
+            </g>
+            <g id="Group" transform="translate(36.000000, 11.000000)">
+                <polyline id="Path-306" points="0 31 0 0 16 0 16 31"></polyline>
+                <path d="M0,24 L16,24" id="Path-307"></path>
+                <path d="M8,0 L8,24" id="Path-308"></path>
+                <path d="M0,12 L16,12" id="Path-309"></path>
+            </g>
+            <g id="Group" transform="translate(36.000000, 47.000000)">
+                <path d="M0,30 L0,0 M16,0 L16,30" id="Shape"></path>
+                <path d="M8,0 L8,29" id="Path-308"></path>
+                <path d="M0,14 L16,14" id="Path-309"></path>
+            </g>
+            <g id="Group" transform="translate(36.000000, 82.000000)">
+                <path d="M0,30 L0,0 M16,0 L16,30" id="Shape"></path>
+                <path d="M8,0 L8,29" id="Path-308"></path>
+                <path d="M0,14 L16,14" id="Path-309"></path>
+            </g>
+            <g id="Group" transform="translate(36.000000, 122.000000)">
+                <polyline id="Path-306" points="0 20 0 0 16 0 16 20"></polyline>
+                <path d="M10,12 L12,12" id="Path-2"></path>
+            </g>
+            <g id="Group" transform="translate(60.000000, 11.000000)">
+                <polyline id="Path-306" points="0 31 0 0 16 0 16 31"></polyline>
+                <path d="M0,24 L16,24" id="Path-307"></path>
+                <path d="M8,0 L8,24" id="Path-308"></path>
+                <path d="M0,12 L16,12" id="Path-309"></path>
+            </g>
+            <g id="Group" transform="translate(60.000000, 47.000000)">
+                <path d="M0,30 L0,0 M16,0 L16,30" id="Shape"></path>
+                <path d="M8,0 L8,29" id="Path-308"></path>
+                <path d="M0,14 L16,14" id="Path-309"></path>
+            </g>
+            <g id="Group" transform="translate(60.000000, 82.000000)">
+                <path d="M0,30 L0,0 M16,0 L16,30" id="Shape"></path>
+                <path d="M8,0 L8,29" id="Path-308"></path>
+                <path d="M0,14 L16,14" id="Path-309"></path>
+            </g>
+        </g>
+    </g>
+</svg>

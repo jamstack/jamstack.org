@@ -14,6 +14,17 @@ examples:
       - tool: GitHub
       - tool: S3
       - tool: Google Analytics
+  - title: Flamingo
+    description: E-commerce site for Flamingo, a women's body care brand
+    link: https://www.shopflamingo.com
+    thumbnailurl: /img/examples/flamingo.png
+    tools:
+      - tool: Gatsby
+      - tool: React
+      - tool: Contentful
+      - tool: Fastly
+      - tool: Amazon S3
+      - tool: styled-components
   - title: Kentico Developer Community
     description: Official Kentico Developer Community site.
     link: https://kentico.github.io
