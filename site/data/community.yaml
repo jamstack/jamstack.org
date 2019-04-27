@@ -96,7 +96,7 @@ chapters:
     btncopy: Join Now
     link: https://www.meetup.com/JAMStack-Lagos/
   - name: JAMstack São Paulo
-    artpath: /img/chapters/placeholder-art.svg
+    artpath: /img/chapters/saopaulo-art.svg
     btncopy: Join Now
     link: https://www.meetup.com/JAMstack-SP/
   - name: JAMstack Denver
