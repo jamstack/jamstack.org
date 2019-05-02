@@ -17,6 +17,7 @@
 
   .disqualification {
     background: url(/img/x.svg) no-repeat top left;
+    min-height: 64px;
   }
 
   .qualification {

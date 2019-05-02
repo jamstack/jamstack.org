@@ -18,10 +18,14 @@
     }
   }
 
+  .letter-definition-container {
+    max-width: 960px;
+    margin: auto;
+  }
+
   .letter-definition {
     display: table;
     padding: 0 $small;
-    margin: auto;
     max-width: $desktop;
     text-align: left;
 
