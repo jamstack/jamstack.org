@@ -111,6 +111,10 @@ chapters:
     artpath: /img/chapters/placeholder-art.svg
     btncopy: Join Now
     link: https://www.facebook.com/groups/JAMstackYemenMeetups
+  - name: JAMstack Florence
+    artpath: /img/chapters/placeholder-art.svg
+    btncopy: Join Now
+    link: https://www.meetup.com/JAMstack_Florence/
 
 gitterurl: https://gitter.im/jamstack/community
 forumurl: https://community.netlify.com
