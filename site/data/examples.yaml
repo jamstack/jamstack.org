@@ -1,5 +1,17 @@
 ---
 examples:
+  - title: Winkt
+    description: Entertainment site for tattoo inspiration
+    link: https://www.winkt.io
+    thumbnailurl: /img/examples/winkt.jpg
+    tools:
+      - tool: Nextjs
+      - tool: React
+      - tool: Apollo
+      - tool: GraphQL
+      - tool: CSS Modules
+      - tool: Express
+      - tool: MongoDB
   - title: Flamingo
     description: E-commerce site for Flamingo, a women's body care brand
     link: https://www.shopflamingo.com
