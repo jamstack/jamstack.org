@@ -317,7 +317,7 @@ examples:
   - title: GreenOrbit
     description: Cloud-based intranet software. Get your people going with everything you need, built in.
     link: https://www.greenorbit.com
-    thumbnailurl: /img/examples/greenorbit.jpg
+    thumbnailurl: /img/examples/greenrobit.jpg
     tools:
       - tool: Serverless Framework
       - tool: Amazon S3
