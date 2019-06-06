@@ -13,7 +13,7 @@
       <form name="New Community Request" netlify>
         <div class="input-field">
           <label for="name">Name:</label>
-          <input id="name" type="text" name="Name" value="" placeholder="">
+          <input id="name" type="text" name="Name" value="" placeholder="" required>
         </div>
         <div class="input-field">
           <label for="name">Address:</label>
@@ -21,32 +21,44 @@
         </div>
         <div class="input-field">
           <label for="email">Email:</label>
-          <input id="email" type="email" name="Email" value="" placeholder="">
-        </div>
-        <div class="input-field">
-          <label for="mailing">Mailing address:</label>
-          <textarea name="mailing" rows="6" cols="80" id="mailing" value="" placeholder=""></textarea>
-          <span class="more-detail">(please include country)</span>
+          <input id="email" type="email" name="Email" value="" placeholder="" required>
         </div>
         <div class="input-field">
           <label for="phone">Phone number:</label>
           <input id="phone" type="number" name="Phone" value="" placeholder="">
-          <span class="more-detail">(required for international shipping)</span>
+          <span class="more-detail">Required information for international shipping.</span>
+        </div>
+        <div class="input-field">
+          <label for="mailing">Mailing address:</label>
+          <textarea name="mailing" rows="4" cols="80" id="mailing" value="" placeholder="" required></textarea>
+          <span class="more-detail">Please include your country — we need this information to ship some swag to you.</span>
         </div>
 
         <span class="separator"></span>
 
         <div class="input-field">
-          <label for="purpose">What are you hoping to do/learn/organize? :</label>
-          <textarea name="purpose" rows="6" cols="80" id="mailing" value="" placeholder=""></textarea>
+          <label for="purpose">What are you hoping to do/learn/organize?</label>
+          <textarea name="purpose" rows="6" cols="80" id="mailing" value="" placeholder="" required></textarea>
         </div>
         <div class="input-field">
           <label for="experience">Experience:</label>
-          <input id="experience" type="text" name="Name" value="" placeholder="It's my first meetup">
+          <input id="experience" type="text" name="Name" value="" placeholder="It's my first meetup" required>
+          <span class="more-detail">Just let us know how experienced in running meetups are you at the moment.</span>
         </div>
+
+        <div class="input-field checkbox">
+          <input type="checkbox" id="first-time" name="first-meetup">
+          <label for="first-time">Check this box if you have attended a JAMstack_meetup before</label>
+        </div>
+
+        <div class="input-field checkbox">
+          <input type="checkbox" id="codeofconduct" name="first-meetup" required>
+          <label for="codeofconduct">Check this box if you have read our <a href="https://jamstack.org/diversity/" target="_blank">Code of Conduct →</a></label>
+        </div>
+
         <button type="submit">Get in touch</button>
       </form>
     </div>
-  </div>
+
 </div>
 {{ end }}
