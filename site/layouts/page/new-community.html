@@ -1,0 +1,52 @@
+{{ define "main" }}
+<div class="community new-community">
+
+  <section class="hero">
+    <div class="contained">
+      <h1 class="community-headline">Let us know about your new community</h1>
+      <p>If you'd like to be featured on our community fill out the form below and we'll get in touch.</p>
+    </div>
+  </section>
+
+  <div class="main-content">
+    <div class="community-form">
+      <form name="New Community Request" netlify>
+        <div class="input-field">
+          <label for="name">Name:</label>
+          <input id="name" type="text" name="Name" value="" placeholder="">
+        </div>
+        <div class="input-field">
+          <label for="name">Address:</label>
+          <input id="address" type="text" name="Address" value="" placeholder="">
+        </div>
+        <div class="input-field">
+          <label for="email">Email:</label>
+          <input id="email" type="email" name="Email" value="" placeholder="">
+        </div>
+        <div class="input-field">
+          <label for="mailing">Mailing address:</label>
+          <textarea name="mailing" rows="6" cols="80" id="mailing" value="" placeholder=""></textarea>
+          <span class="more-detail">(please include country)</span>
+        </div>
+        <div class="input-field">
+          <label for="phone">Phone number:</label>
+          <input id="phone" type="number" name="Phone" value="" placeholder="">
+          <span class="more-detail">(required for international shipping)</span>
+        </div>
+
+        <span class="separator"></span>
+
+        <div class="input-field">
+          <label for="purpose">What are you hoping to do/learn/organize? :</label>
+          <textarea name="purpose" rows="6" cols="80" id="mailing" value="" placeholder=""></textarea>
+        </div>
+        <div class="input-field">
+          <label for="experience">Experience:</label>
+          <input id="experience" type="text" name="Name" value="" placeholder="It's my first meetup">
+        </div>
+        <button type="submit">Get in touch</button>
+      </form>
+    </div>
+  </div>
+</div>
+{{ end }}
