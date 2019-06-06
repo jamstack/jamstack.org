@@ -100,3 +100,9 @@
   background: #00C7B7;
   color: #fff;
 }
+
+@media (max-width: 900px) {
+  .new-community {
+    text-align: left;
+  }
+}
