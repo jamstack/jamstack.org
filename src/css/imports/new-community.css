@@ -5,6 +5,22 @@
   margin-bottom: 104px;
 }
 
+.community-form .two-columns {
+  display: flex;
+  justify-content: space-between;
+
+  .input-field {
+    width: 100%;
+
+    &:first-child {
+      margin-right: 8px;
+    }
+    &:last-child {
+      margin-left: 8px;
+    }
+  }
+}
+
 .new-community .input-field {
   display: flex;
   flex-direction: column;
@@ -53,6 +69,19 @@
     margin-top: 4px;
     margin-bottom: 24px;
   }
+
+  .radio-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-top: 8px;
+
+    input {
+      height: 24px;
+      width: auto;
+      margin-right: 8px;
+    }
+  }
 }
 
 .new-community .separator {
@@ -64,6 +93,7 @@
 }
 
 .new-community .input-field.checkbox {
+  display: flex;
   flex-direction: row;
   align-items: flex-start;
 

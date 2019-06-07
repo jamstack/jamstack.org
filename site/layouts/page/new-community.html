@@ -11,13 +11,15 @@
   <div class="main-content">
     <div class="community-form">
       <form name="New Community Request" netlify>
-        <div class="input-field">
-          <label for="name">Name:</label>
-          <input id="name" type="text" name="Name" value="" placeholder="" required>
-        </div>
-        <div class="input-field">
-          <label for="name">Address:</label>
-          <input id="address" type="text" name="Address" value="" placeholder="">
+        <div class="two-columns">
+          <div class="input-field">
+            <label for="name">First name:</label>
+            <input id="name" type="text" name="Name" value="" placeholder="" required>
+          </div>
+          <div class="input-field">
+            <label for="name">Last name:</label>
+            <input id="name" type="text" name="Name" value="" placeholder="" required>
+          </div>
         </div>
         <div class="input-field">
           <label for="email">Email:</label>
@@ -40,15 +42,33 @@
           <label for="purpose">What are you hoping to do/learn/organize?</label>
           <textarea name="purpose" rows="6" cols="80" id="mailing" value="" placeholder="" required></textarea>
         </div>
-        <div class="input-field">
-          <label for="experience">Experience:</label>
-          <input id="experience" type="text" name="Name" value="" placeholder="It's my first meetup" required>
-          <span class="more-detail">Just let us know how experienced in running meetups are you at the moment.</span>
+
+        <div class="input-field radios">
+          <label for="experience">Experience organizing meetups:</label>
+          <span class="radio-wrapper">
+            <input type="radio" id="xp-none" name="experience" value="none" checked>
+            <label for="none">None</label>
+          </span>
+          <span class="radio-wrapper">
+            <input type="radio" id="xp-some" name="experience" value="some">
+            <label for="some">Some</label>
+          </span>
+          <span class="radio-wrapper">
+            <input type="radio" id="xp-lots" name="experience" value="lots">
+            <label for="lots">Lots</label>
+          </span>
         </div>
 
-        <div class="input-field checkbox">
-          <input type="checkbox" id="first-time" name="first-meetup">
-          <label for="first-time">Check this box if you have attended a JAMstack_meetup before</label>
+        <div class="input-field radios">
+          <label for="first-time">Have you been to a JAMstack_meetup before?</label>
+          <span class="radio-wrapper">
+            <input type="radio" id="first-time" name="first-time" value="yes" checked>
+            <label for="first-time">No</label>
+          </span>
+          <span class="radio-wrapper">
+            <input type="radio" id="not-first-time" name="first-time" value="yes">
+            <label for="not-first-time">Yes</label>
+          </span>
         </div>
 
         <div class="input-field checkbox">
