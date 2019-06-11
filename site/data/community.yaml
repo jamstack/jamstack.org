@@ -115,6 +115,10 @@ chapters:
     artpath: /img/chapters/florence-art.svg
     btncopy: Join Now
     link: https://www.meetup.com/JAMstack_Florence/
+  - name: JAMstack Detroit
+    artpath: /img/chapters/placeholder-art.svg
+    btncopy: Join Now
+    link: https://www.meetup.com/JAMstack-Detroit/
 
 gitterurl: https://gitter.im/jamstack/community
 forumurl: https://community.netlify.com
