@@ -15,10 +15,6 @@ chapters:
     artpath: /img/chapters/porto-art.svg
     btncopy: Join Now
     link: https://www.meetup.com/JAMstack-Porto/
-  - name: JAMstack Oklahoma City
-    artpath: /img/chapters/okc-art.svg
-    btncopy: Join Now
-    link: https://www.meetup.com/JAMstack-OKC/
   - name: JAMstack NYC
     artpath: /img/chapters/nyc-art.svg
     btncopy: Join Now
