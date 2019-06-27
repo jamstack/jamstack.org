@@ -317,7 +317,7 @@ examples:
   - title: Ing. Erhard Einsiedler 
     description: Gatsby Development
     link: http://erhardeinsiedler.com
-    thumbnailurl: /img/examples/ee.png
+    thumbnailurl: /img/examples/ee.jpg
     tools:
       - tool: Gatsby
       - tool: GraphCMS
