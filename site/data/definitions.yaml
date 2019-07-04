@@ -1,5 +1,5 @@
 ---
-jamstack: "**JAMstack**: noun &#92;’jam-stak’&#92; <span><br></span>Modern web development architecture based on client-side JavaScript, reusable APIs, and prebuilt Markup."
+jamstack: "A modern architecture —<br/>Create fast and secure sites and dynamic apps with **J**avaScript, **A**PIs, and prerendered **M**arkup, served without web servers."
 explanation: When we talk about "The Stack," we no longer talk about operating systems, specific web servers, backend programming languages, or databases.<br><br>The JAMstack is not about specific technologies. It's a new way of building websites and apps that delivers better performance, higher security, lower cost of scaling, and a better developer experience.
 
 javascript: "Any dynamic programming during the request/response cycle is handled by JavaScript, running entirely on the client. This could be any frontend framework, library, or even vanilla JavaScript."
