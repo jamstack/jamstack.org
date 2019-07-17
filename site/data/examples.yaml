@@ -317,7 +317,7 @@ examples:
   - title: Education Lessons
     description: Education Made Easy
     link: https://educationlessons.co.in/
-    thumbnailurl: /img/examples/education-lessons.png
+    thumbnailurl: /img/examples/education-lessons.jpg
     tools:
       - tool: Gatsby
       - tool: Netlify
