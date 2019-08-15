@@ -1,5 +1,17 @@
 ---
 examples:
+  - title: Fullstack HQ
+    description: Get immediate access to a battle-tested team of designers and developers on a pay-as-you-go monthly subscription.
+    link: https://fullstackhq.com
+    thumbnailurl: /img/examples/fullstackhq.jpg
+    tools:
+      - tool: Gatsby
+      - tool: Netlify
+      - tool: Netlify CMS
+      - tool: Webpack
+      - tool: Bootstrap
+      - tool: Sass
+      - tool: Github
   - title: Flamingo
     description: E-commerce site for Flamingo, a women's body care brand
     link: https://www.shopflamingo.com
@@ -33,18 +45,6 @@ examples:
     description: On-demand Front-End Coding Service
     link: https://psdwizard.com
     thumbnailurl: /img/examples/psdwizard.png
-    tools:
-      - tool: Netlify
-      - tool: React-Static
-      - tool: Netlify CMS
-      - tool: Webpack
-      - tool: Bootstrap
-      - tool: Sass
-      - tool: Github
-  - title: Fullstack HQ
-    description: Web Design & Development Team in the Philippines
-    link: https://fullstackhq.com
-    thumbnailurl: /img/examples/fullstackhq.jpg
     tools:
       - tool: Netlify
       - tool: React-Static
