@@ -111,6 +111,10 @@ chapters:
     artpath: /img/chapters/placeholder-art.svg
     btncopy: Join Now
     link: https://www.meetup.com/JAMstack-Detroit/
+  - name: JAMstack Singapore
+    artpath: /img/chapters/placeholder-art.svg
+    btncopy: Join Now
+    link: https://www.meetup.com/JAMstack-Singapore/
 
 gitterurl: https://gitter.im/jamstack/community
 forumurl: https://community.netlify.com
