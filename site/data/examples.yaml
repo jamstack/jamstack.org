@@ -314,7 +314,6 @@ examples:
       - tool: GitHub
       - tool: Netlify
       - tool: Google Analytics
-
   - title: Syntac Studio
     description: We Bring Miracles to your Website & Mobile App.
     link: https://syntac.co/
@@ -326,4 +325,29 @@ examples:
       - tool: GitHub
       - tool: Netlify
       - tool: Netlify CMS
----
+  - title: Eden Yacht
+    description: Website for the Galapgos yacht Eden
+    link: http://galapagoseden.com/
+    thumbnailurl: /img/examples/galapagoseden.jpg
+    tools:
+      - tool: Nuxt.js
+      - tool: Vue-bootsrap
+      - tool: Flamelink.io
+      - tool: Firebase
+      - tool: Pm2
+      - tool: Nginx
+      - tool: Varnish
+      - tool: Github
+  - title: Education Lessons
+    description: Education Made Easy
+    link: https://educationlessons.co.in/
+    thumbnailurl: /img/examples/education-lessons.jpg
+    tools:
+      - tool: Gatsby
+      - tool: Netlify
+      - tool: Netlify Functions
+      - tool: Firebase
+      - tool: Google Analytics
+      - tool: Google Sheets API
+      - tool: YouTube API
+      - tool: GitLab
