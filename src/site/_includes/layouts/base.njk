@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>{{ title }}</title>
+  </head>
+  <body {% if bodyClass %}class="{{ bodyClass }}"{% endif %}>
+
+    <div class="container">
+      {% include "header.njk" %}
+      {{ content | safe }}
+      {% include "footer.njk" %}
+    </div>
+
+    {% set js %}
+      {% include "js/core.js" %}
+      {% include "js/hello.js" %}
+    {% endset %}
+    <script>{{ js | jsmin | safe }}</script>
+
+  </body>
+</html>
+
+
+

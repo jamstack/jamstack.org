@@ -1,0 +1,55 @@
+/*
+  Generic section defaults
+*/
+section {
+  margin-top: 5em;
+  margin-bottom: 5em;
+}
+
+
+
+/*
+  Brightly touted section
+*/
+section.tout {
+  padding: 2em 2em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  margin-left: -2em;
+  margin-right: -2em;
+
+  @media (min-width: $mid) {
+    font-size: 16px;
+    line-height: 1.6;
+    border-radius: 6px;
+  };
+
+}
+
+
+/*
+  Subtle touted section
+*/
+section.tout-subtle {
+  background-color:  mix($text-color, $page-color, 5%);
+  border-left: solid 1px $accent-color;
+}
+
+section.tout-bright {
+  background-color: $text-color;
+  color: mix($text-color, $page-color, 20%);
+  border-left: solid 1px $accent-color;
+  h1, h2, h3 {
+    color: $page-color;
+  }
+  a:link,
+  a:visited {
+    border-color: mix($text-color, $accent-color, 80%);
+    color: mix($text-color, $page-color, 20%);
+  }
+  a:hover,
+  a:focus {
+    color: $page-color;
+    border-color: $accent-color;
+  }
+}

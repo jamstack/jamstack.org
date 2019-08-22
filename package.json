@@ -1,0 +1,36 @@
+{
+  "name": "jamstackdotorg",
+  "version": "2.0.0",
+  "description": "Home page for the JAMstack community",
+  "author": "Phil Hawksworth",
+  "license": "MIT",
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "ELEVENTY_ENV=dev eleventy --serve",
+    "build": "ELEVENTY_ENV=prod eleventy",
+    "seed": "ELEVENTY_ENV=seed eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jamstack/jamstack.org"
+  },
+  "dependencies": {
+    "@11ty/eleventy": "^0.8.3",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^2.0.3",
+    "autoprefixer": "^9.6.0",
+    "axios": "^0.19.0",
+    "cssnano": "^4.1.10",
+    "dotenv": "^8.0.0",
+    "html-minifier": "^4.0.0",
+    "luxon": "^1.16.0",
+    "postcss": "^7.0.17",
+    "postcss-color-mix": "^1.1.0",
+    "postcss-comment": "^2.0.0",
+    "postcss-import": "^12.0.1",
+    "postcss-mixins": "^6.2.1",
+    "postcss-simple-vars": "^5.0.2",
+    "precss": "^4.0.0",
+    "uglify-js": "^3.6.0",
+    "xml2js": "^0.4.19"
+  }
+}

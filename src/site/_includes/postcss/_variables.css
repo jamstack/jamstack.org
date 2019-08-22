@@ -1,0 +1,12 @@
+/* breakpoints for media queries */
+$narrow: 400px;
+$mid: 740px;
+$wide: 1200px;
+
+/* colours */
+$page-color: #33334e;
+$text-color: #fff;
+$accent-color: #ffbb00;
+$busy-color: #f700ff;
+$dark-color: #000;
+
