@@ -6,3 +6,13 @@
 
 [dev]
   command = "npm run start"
+
+[[redirects]]
+  from = "/conference"
+  to = "https://jamstackconf.com/sf"
+  status = 302
+
+[[redirects]]
+  from = "/meetups*"
+  to = "/community/meetups:splat"
+  status = 302

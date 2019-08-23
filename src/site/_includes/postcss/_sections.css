@@ -53,9 +53,6 @@ section.tout-bright {
 }
 
 section.tout-shout {
-
-  width: 30vw;
-
   background-color: $busy-color;
   color: mix($text-color, $busy-color, 70%);
   h1, h2, h3 {
