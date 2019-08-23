@@ -21,7 +21,7 @@ section.tout {
   @media (min-width: $mid) {
     font-size: 16px;
     line-height: 1.6;
-    border-radius: 6px;
+    border-radius: 3px;
   };
 
 }
@@ -32,13 +32,13 @@ section.tout {
 */
 section.tout-subtle {
   background-color:  mix($text-color, $page-color, 5%);
-  border-left: solid 1px $accent-color;
+  border-top: solid 4px $accent-color;
 }
 
 section.tout-bright {
   background-color: $text-color;
   color: mix($text-color, $page-color, 20%);
-  border-left: solid 1px $accent-color;
+  border-top: solid 4px $accent-color;
   h1, h2, h3 {
     color: $page-color;
   }
@@ -51,5 +51,28 @@ section.tout-bright {
   a:focus {
     color: $page-color;
     border-color: $accent-color;
+  }
+}
+
+section.tout-shout {
+
+  width: 30vw;
+
+  background-color: $busy-color;
+  color: mix($text-color, $busy-color, 70%);
+  h1, h2, h3 {
+    color: $text-color;
+  }
+  a:link,
+  a:visited {
+    border-color: mix($text-color, $busy-color, 50%);
+    color: $text-color;
+  }
+  a:hover,
+  a:focus {
+    border-color: $text-color;
+  }
+  .subtitle {
+    color: mix($text-color, $busy-color, 50%);
   }
 }
