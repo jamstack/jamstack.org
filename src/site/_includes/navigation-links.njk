@@ -1,0 +1,5 @@
+  <ul class="nav">
+  {% for link in linkList %}
+    <li><a href="{{ link.url }}" {% if page.url.split("/")[1] == link.url.split("/")[1] %} class="active"{% endif %}>{{ link.text }}</a></li>
+  {% endfor %}
+  </ul>

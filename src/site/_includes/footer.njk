@@ -1,15 +1,20 @@
+
+{%
+  set linkList = [
+    { "url": "/" , "text": "JAMstack"},
+    { "url": "/resources/" , "text": "Resources"},
+    { "url": "/community/" , "text": "Community"},
+    { "url": "/conference/" , "text": "Conference"},
+    { "url": "/code-of-conduct/" , "text": "Code of Conduct"}
+  ]
+%}
+
 <footer>
-<ul class="nav">
-  <li><a href="/">JAMstack</a></li>
-  <li><a href="/resources">resources</a></li>
-  <li><a href="/community">community</a></li>
-  <li><a href="/conference">conference</a></li>
-  <li><a href="/code-of-conduct">code of conduct</a></li>
-</ul>
-<p>
-  There might be one or two legal discalimers in here
-</p>
-<p>
-  Contribute content and corrections to the <a href="{{ pkg.repository.url }}">repository on Github</a>.
-</p>
+  {% include "navigation-links.njk" %}
+  <p>
+    There might be one or two legal discalimers in here
+  </p>
+  <p>
+    Contribute content and corrections to the <a href="{{ pkg.repository.url }}">repository on Github</a>.
+  </p>
 </footer>

@@ -135,13 +135,19 @@ a.cta {
     text-align: left;
     color: mix($text-color, $accent-color, 80%);
     text-decoration: none;
+
+    &.active {
+      border-top-width: 2px;
+    }
+
   }
   a:hover,
   a:focus {
       color: $text-color;
       border-top-color: $text-color;
-      border-bottom-style: none;
   }
+
+x
 
   small {
     display: block;

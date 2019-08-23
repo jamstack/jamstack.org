@@ -32,13 +32,11 @@ section.tout {
 */
 section.tout-subtle {
   background-color:  mix($text-color, $page-color, 5%);
-  border-top: solid 4px $accent-color;
 }
 
 section.tout-bright {
   background-color: $text-color;
   color: mix($text-color, $page-color, 20%);
-  border-top: solid 4px $accent-color;
   h1, h2, h3 {
     color: $page-color;
   }
