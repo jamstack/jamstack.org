@@ -1,4 +1,4 @@
-# JAMtack.org
+# JAMstack.org
 
 https://jamstack.org
 
