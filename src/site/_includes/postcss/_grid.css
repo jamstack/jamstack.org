@@ -1,0 +1,14 @@
+.columns {
+  @media (min-width: $mid) {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    section {
+      width: 50%;
+      margin-right: 6em;
+    }
+    section:last-child{
+      margin-right: 0;
+    }
+  };
+}
