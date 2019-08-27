@@ -115,6 +115,10 @@ chapters:
     artpath: /img/chapters/placeholder-art.svg
     btncopy: Join Now
     link: https://www.meetup.com/JAMstack-Singapore/
+  - name: JAMstack Abuja
+    artpath: /img/chapters/placeholder-art.svg
+    btncopy: Join Now
+    link: https://www.meetup.com/JAMstack-Abuja/
 
 slackurl: https://jamstack.org/slack
 forumurl: https://community.netlify.com
