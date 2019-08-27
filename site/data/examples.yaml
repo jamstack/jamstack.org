@@ -314,6 +314,17 @@ examples:
       - tool: GitHub
       - tool: Netlify
       - tool: Google Analytics
+  - title: Syntac Studio
+    description: We Bring Miracles to your Website & Mobile App.
+    link: https://syntac.co/
+    thumbnailurl: /img/examples/syntac.png
+    tools:
+      - tool: Jekyll
+      - tool: Sass
+      - tool: Boostrap
+      - tool: GitHub
+      - tool: Netlify
+      - tool: Netlify CMS
   - title: Eden Yacht
     description: Website for the Galapgos yacht Eden
     link: http://galapagoseden.com/
@@ -340,4 +351,3 @@ examples:
       - tool: Google Sheets API
       - tool: YouTube API
       - tool: GitLab
-
