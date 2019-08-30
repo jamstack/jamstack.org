@@ -314,9 +314,9 @@ examples:
       - tool: GitHub
       - tool: Netlify
       - tool: Google Analytics
-  - title: Defiprime
+  - title: DeFiprime
     description: Curated list of the best DeFi products
-    link: http://defiprime.com/
+    link: https://defiprime.com/
     thumbnailurl: /img/examples/defiprime.png
     tools:
       - tool: Jekyll
