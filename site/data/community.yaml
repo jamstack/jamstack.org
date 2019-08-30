@@ -92,7 +92,7 @@ chapters:
     btncopy: Join Now
     link: https://www.meetup.com/JAMStack-Lagos/
   - name: JAMstack Denver
-    artpath: /img/chapters/placeholder-art.svg
+    artpath: /img/chapters/denver-art.svg
     btncopy: Join Now
     link: https://www.meetup.com/JAMstack-Denver/
   - name: JAMstack Israel
