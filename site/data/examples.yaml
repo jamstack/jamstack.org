@@ -358,7 +358,7 @@ examples:
     tools:
       - tool: Gatsby
       - tool: Netlify
-      - tool: Firebase Cloud Functions
+      - tool: Firebase Functions
       - tool: Firebase Firestore
       - tool: GitLab
       - tool: Vue.js
