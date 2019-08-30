@@ -4,7 +4,8 @@
   <h1 class="contained">Resources</h1>
   <p class="contained">
     <strong>Have a great JAMstack resource to share?</strong>
-    Submit a Pull Request with your JAMstack resource's information <a href="https://github.com/jamstack/jamstack.org">here</a>.
+    Submit a Pull Request with your JAMstack resource's information <a
+      href="https://github.com/jamstack/jamstack.org">here</a>.
   </p>
 
   <section class="videos contained">
@@ -12,27 +13,42 @@
     <h1>Videos</h1>
     <div id="videos-grid" class="grid">
       {{ range .Site.Data.resources.videos }}
-        <a class="video" href="{{ .link }}" data-lity data-lity-target="{{ .link }}" >
-          <div class="thumbnail-wrap">
-            <img src="{{ .thumbnailurl }}"/>
-          </div>
-          <h4>{{ .title }}</h4>
-          <p>{{ .description }}</p>
-        </a>
+      <a class="video" href="{{ .link }}" data-lity data-lity-target="{{ .link }}">
+        <div class="thumbnail-wrap">
+          <img src="{{ .thumbnailurl }}" />
+        </div>
+        <h4>{{ .title }}</h4>
+        <p>{{ .description }}</p>
+      </a>
       {{ end }}
     </div>
+  </section>
+  
+  <section class="contained">
+  	<h1>Modern Web Development on the JAMstack eBook</h1>
+  	<p>New Techniques for Ultra Fast Sites and Web Applications by Mathias Biilmann & Phil Hawksworth - <a href="https://www.netlify.com/oreilly-jamstack/" target="_blank" class="text-link">Get a free copy of eBook</a></p>
+
+  	<p>
+  		<strong>• Methods for solving web development challenges — from architecture to microservices</strong>
+  		<strong>• Why the JAMstack’s cleaner architecture eliminates the need to scale sites up front</strong>
+  		<strong>• Best practices for adopting the JAMstack in your organization</strong>
+  	</p>
+
+  	<a href="https://www.netlify.com/oreilly-jamstack/" target="_blank" class="text-link">
+  		<h2>Download the JAMstack eBook →</h2>
+  	</a>
   </section>
 
   <section class="articles">
     <h1 class="contained">Articles</h1>
     <ul class="articles-list contained">
       {{ range .Site.Data.resources.articles }}
-        <li>
-          <a href="{{ .link }}">
-            <h3>{{ .title }}</h3>
-            <span>→</span>
-          </a>
-        </li>
+      <li>
+        <a href="{{ .link }}" target="_blank">
+          <h3>{{ .title }}</h3>
+          <span>→</span>
+        </a>
+      </li>
       {{ end }}
     </ul>
   </section>
@@ -45,13 +61,14 @@
       </div>
       <div class="teaser">
         <h1>Tune into the Podcast</h1>
-        <p>Every week, Brian Douglas from Netlify talks with special guests about all things pertaining to the JAMstack.</p>
+        <p>Every week, Brian Douglas from Netlify talks with special guests about all things pertaining to the JAMstack.
+        </p>
       </div>
     </div>
   </section>
 
   <section class="chatter">
-    <h1>Spread the JAM by tweeting <span><img src="/img/twitter.svg"/>#JAMstack</span></h1>
+    <h1>Spread the JAM by tweeting <span><img src="/img/twitter.svg" />#JAMstack</span></h1>
     <div class="tweets">
       <div class="contained">
         <ul class="juicer-feed" data-feed-id="jamstack" data-pages="1" data-overlay="false" data-per="3"></ul>
@@ -63,16 +80,17 @@
 {{ end }}
 {{ define "page-scripts" }}
 <script>
-  $(document).ready(function(){
+  $(document).ready(function () {
     $.get(
-      "https://www.googleapis.com/youtube/v3/channels",{
-      part : 'contentDetails',
-      id : 'UCMzabFudT_ntxlueP9R-3Vg',
-      key: 'AIzaSyBKfalwfLyyEC2uy-cH_ab5mXjNbKz5oAA'},
-      function(data) {
-        $.each( data.items, function( i, item ) {
+      "https://www.googleapis.com/youtube/v3/channels", {
+        part: 'contentDetails',
+        id: 'UCMzabFudT_ntxlueP9R-3Vg',
+        key: 'AIzaSyBKfalwfLyyEC2uy-cH_ab5mXjNbKz5oAA'
+      },
+      function (data) {
+        $.each(data.items, function (i, item) {
           playlists = ['PLzlG0L9jlhEOwdVv4nJZW6c_MCLbmfs4z', 'PLzlG0L9jlhEN3-GX9s6kAAt_kJcWWrAU1'];
-          playlists.forEach(function(pid) {
+          playlists.forEach(function (pid) {
             getVids(pid);
           });
         });
@@ -80,24 +98,25 @@
     );
   });
 
-  function getVids(pid){
+  function getVids(pid) {
     $.get(
-      "https://www.googleapis.com/youtube/v3/playlistItems",{
-      part : 'snippet',
-      maxResults : 50,
-      playlistId : pid,
-      key: 'AIzaSyBKfalwfLyyEC2uy-cH_ab5mXjNbKz5oAA'},
-      function(data) {
+      "https://www.googleapis.com/youtube/v3/playlistItems", {
+        part: 'snippet',
+        maxResults: 50,
+        playlistId: pid,
+        key: 'AIzaSyBKfalwfLyyEC2uy-cH_ab5mXjNbKz5oAA'
+      },
+      function (data) {
         var results;
-        $.each( data.items, function( i, item ) {
+        $.each(data.items, function (i, item) {
           var fullDescription = item.snippet.description,
-              description = fullDescription.substring(0, 160);
+            description = fullDescription.substring(0, 160);
 
           if (fullDescription.length > 160) {
             description = description + '...';
           }
 
-          results = '<a class="video" href="https://www.youtube.com/watch?v='+item.snippet.resourceId.videoId+'" data-lity="" data-lity-target="https://www.youtube.com/watch?v='+item.snippet.resourceId.videoId+'"><div class="thumbnail-wrap imported"><img src="'+ item.snippet.thumbnails.high.url +'"></div><h4>'+ item.snippet.title +'</h4><p>'+ description +'</p></a>';
+          results = '<a class="video" href="https://www.youtube.com/watch?v=' + item.snippet.resourceId.videoId + '" data-lity="" data-lity-target="https://www.youtube.com/watch?v=' + item.snippet.resourceId.videoId + '"><div class="thumbnail-wrap imported"><img src="' + item.snippet.thumbnails.high.url + '"></div><h4>' + item.snippet.title + '</h4><p>' + description + '</p></a>';
 
           $('#videos-grid').append(results);
         });

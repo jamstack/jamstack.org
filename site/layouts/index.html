@@ -4,7 +4,7 @@
       <h1>{{ .Site.Data.definitions.jamstack | markdownify }}</h1>
     </div>
   </section>
-  
+
   <section class="intro">
     <div class="contained grid">
       <div>{{ .Site.Data.definitions.explanation | markdownify }}</div>
@@ -16,11 +16,16 @@
       </div>
     </div>
   </section>
-  
+
   <section id="what" class="jam-breakdown">
     <div class="contained intro">
       <h1>What is the JAMstack?</h1>
-      <p>Your project is built with the JAMstack if it meets three key criteria:</p>
+      <p>
+        You may have already seen or worked on a JAMstack site! They do not have to include <em>all</em> attributes of JavaScript, APIs, and Markup. They might be built using by hand, or with Jekyll, Hugo, Nuxt, Next, Gatsby, or another <a href="https://www.staticgen.com">static site generator</a>...
+      </p>
+      <p>
+        The thing that they all have in common is that they don’t depend on a web server.
+      </p>
     </div>
     <div class="letter-definition">
       <img class="letter" src="/img/j.svg"/>
@@ -38,7 +43,7 @@
       <p>{{ .Site.Data.definitions.markup | markdownify }}</p>
     </div>
   </section>
-  
+
   <section class="jam-disqualifications contained">
     <h1>When is your site <em>not</em> built with the JAMstack?</h1>
     <p>Any project that relies on a tight coupling between client and server is not built with the JAMstack. This would include:</p>
@@ -48,7 +53,7 @@
       {{ end }}
     </div>
   </section>
-  
+
   <section id="why" class="advantages contained">
     <h1>Why the JAMstack?</h1>
     <div class="advantages-grid">
@@ -60,7 +65,7 @@
       {{ end }}
     </div>
   </section>
-  
+
   <section id="how" class="bottom-cta contained">
     <h1>How do I get started?</h1>
     <a href="/best-practices"><h4>Learn About Best Practices →</h4></a>

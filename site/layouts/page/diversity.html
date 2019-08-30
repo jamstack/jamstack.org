@@ -1,0 +1,62 @@
+{{ define "main" }}
+<div class="best-practices">
+  <div class="contained">
+    <h1 class="headline">Diversity and Inclusion</h1>
+    <p class ="cta">We strive to create an inclusive, judgement- and harassment-free place for individuals of all backgrounds and levels of experience to learn, connect, and grow together at all of our events, be they conferences or satellite events organized by local groups. Social events that are independently organized by meetup attendees are also covered by this Code of Conduct. If you have concerns, please get in touch as outlined below - we are committed to protecting your privacy and dealing with any issues promptly and carefully.
+</p>
+    <div class="grid">
+      {{ range .Site.Data.diversity.mainpoints }}
+        <div class="best-practice">
+          <h4><img src="/img/thumbs-up.svg" /> {{ .title }}</h4>
+          <p>{{ .description | markdownify }}</p>
+        </div>
+      {{ end }}
+
+      <div class="contained">
+      <h4>Anti-Harassment Policy</h4>
+      JAMstack meetups are dedicated to providing a harassment-free experiences for everyone, regardless of gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, ethnicity, religion (or lack thereof), or technology choices. We do not tolerate harassment of participants in any form. Sexual language and imagery is not appropriate for any meetup venue, including talks, workshops, parties, Twitter and other online media. Conference participants violating these rules may be sanctioned or expelled from the conference without a refund at the discretion of the conference organisers.
+      <br>
+      <ul>
+        <li>Sponsors and speakers should not use sexualized images, activities, or other material. Booth staff (including volunteers) should not use sexualized clothing/uniforms/costumes, or otherwise create a sexualized environment.</li>
+      <li>Harassment includes, but is not limited to:
+        <ul>
+          <li>Verbal or written offensive comments related to gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, race, age, or religion </li>
+          <li>Sexual images in public spaces</li>
+          <li>Deliberate intimidation, stalking, or following </li>
+          <li>Harassing photography or recording</li>
+          <li>Sustained disruption of talks or other events</li>
+          <li>Inappropriate physical contact</li>
+          <li>Unwelcome sexual attention</li>
+          <li>Advocating for, or encouraging, any of the above behavior</li>
+          </ul>
+        </li>
+      <li>We will not act on complaints regarding:
+        <ul>
+          <li>‘Reverse’ -isms, including ‘reverse racism,’ ‘reverse sexism,’ and ‘cisphobia’ (because these things don’t exist)</li>
+          <li>Reasonable communication of boundaries, such as “leave me alone,” “go away,” or “I’m not discussing this with you.”</li>
+          <li>Refusal to explain or debate social justice concepts</li>
+          <li>Communicating in a ‘tone’ you don’t find congenial</li>
+          <li>Criticizing racist, sexist, cissexist, or otherwise oppressive behavior or assumptions</li>
+        </ul>
+      </li>
+    </ul>
+    <h4>Reporting</h4>
+      If you experience or witness unacceptable behavior—or have any other concerns—please report it by contacting the meetup organizer. Should you need more support or are not getting your concerns addressed locally, please reach out to Netlify Community Manager Perry Eising - perry@netlify.com.
+      All reports will be handled with discretion - we will not disclose your name or any other identifying information without prior consent. In your report please include:
+      <ul>
+        <li>Your contact information.</li>
+        <li>Names (real, nicknames, or pseudonyms) of any individuals involved, if they are known to you.</li>
+        <li>If there are additional witnesses, please include them as well, and let us know if they gave consent to be contacted.</li>
+        <li>Your account of what occurred, and if you believe the incident is ongoing.</li>
+        <li>Any additional information that may be helpful.</li>
+      </ul>
+      After filing a report, a representative will contact you personally, review the incident, follow up with any additional questions, and make a decision as to how to respond. If the person who is harassing you is part of the response team, they will recuse themselves from handling your incident. If the complaint originates from a member of the response team, it will be handled by a different member of the response team. We will respect confidentiality requests for the purpose of protecting victims of abuse.
+      <br><br>
+  <h4>Enforcement</h4>
+  Adherence to and acceptance of this Code of Conduct is a condition of entry to all JAMstack events. Participants asked to stop any harassing behavior are expected to comply immediately. This includes all attendees, sponsors, speakers, organizers, volunteers, and venue or vendor staff.
+  If a participant engages in harassing behaviour, event organizers retain the right to take any actions to keep the event a welcoming environment for all participants. This includes, but is not limited to, warning the offender, expulsion from the event with no refund, and a ban on attending future events.
+      <br><br>
+    </div>
+  </div>
+</div>
+{{ end }}
