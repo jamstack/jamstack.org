@@ -361,7 +361,8 @@ examples:
       - tool: BitBucket
       - tool: GitHub
       - tool: GitLab
-      - tool: Markdown/Showdown
+      - tool: Markdown
+      - tool: Showdown
       - tool: Google Analytics
       - tool: Google Code Prettify
       - tool: MathJax
