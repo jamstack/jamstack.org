@@ -351,3 +351,18 @@ examples:
       - tool: Google Sheets API
       - tool: YouTube API
       - tool: GitLab
+  - title: Official Nift Website
+    description: Cross-Platform Open Source Website Generator
+    link: https://www.nift.cc/
+    thumbnailurl: /img/examples/nift.png
+    tools:
+      - tool: Nift
+      - tool: Netlify
+      - tool: BitBucket
+      - tool: GitHub
+      - tool: GitLab
+      - tool: Google Analytics
+      - tool: Google Code Prettify
+      - tool: MathJax
+      - tool: FontAwesome
+
