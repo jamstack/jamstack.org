@@ -123,6 +123,10 @@ chapters:
     artpath: /img/chapters/philadelphia-art.svg
     btncopy: Join Now
     link: http://meetup.com/JAMstack-Philly/
+  - name: JAMstack Mongolia
+    artpath: /img/chapters/placeholder-art.svg
+    btncopy: Join Now
+    link: https://www.facebook.com/groups/JAMstackUlaanbaatar/
 
 slackurl: https://jamstack.org/slack
 forumurl: https://community.netlify.com
