@@ -1,5 +1,20 @@
 ---
 examples:
+  - title: Tim Benniks
+    description: The personal website of Tim Benniks. Director of front-end at Valtech and conference speaker.
+    link: https://timbenniks.nl
+    thumbnailurl: /img/examples/timbenniks.jpg
+    tools:
+      - tool: Nuxt
+      - tool: Vue
+      - tool: Service Workers
+      - tool: Cloudflare
+      - tool: Gitlab
+      - tool: Netlify
+      - tool: Netlify CMS
+      - tool: TwicPics
+      - tool: Sass
+      - tool: Google Analytics
   - title: Flamingo
     description: E-commerce site for Flamingo, a women's body care brand
     link: https://www.shopflamingo.com
