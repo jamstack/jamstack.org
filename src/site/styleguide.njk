@@ -1,0 +1,29 @@
+---
+title: Styleguide
+layout: default
+---
+
+<h1 class="my-4 text-3xl text-gray-600 font-bold">Components and styleguide</h1>
+
+<div class="p-8 pt-16 mt-16 bg-gray-100 rounded-lg">
+  <h2 class=" text-2xl text-gray-600 font-bold">Post teaser</h2>
+  <p class="text-gray-500">
+    components/post-teaser.njk
+  </p>
+</div>
+
+{# {% for item in collections.posts.slice(0,2) %}
+{% include "component/post-teaser.njk" %}
+{% endfor %} #}
+
+<div class="p-8 pt-16 mt-16 bg-gray-100 rounded-lg">
+  <h2 class="text-2xl text-gray-600 font-bold">Condensed post teaser</h2>
+  <p class="text-gray-500">
+    components/post-teaser.njk (option = "condensed")
+  </p>
+</div>
+
+{# {% for item in collections.posts.slice(3,6) %}
+{% set option = "condensed" %}
+{% include "component/post-teaser.njk" %}
+{% endfor %} #}

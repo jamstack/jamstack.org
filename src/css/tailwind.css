@@ -1,0 +1,43 @@
+/* purgecss start ignore */
+@tailwind  base;
+@tailwind  components;
+/* purgecss end ignore */
+
+@font-face {
+  font-family: Placard;
+  src: url('/fonts/placardmtstd-cond-webfont.woff2') format('woff2'),
+       url('/fonts/placardmtstd-cond-webfont.woff') format('woff');
+  font-display: swap;
+}
+
+body {
+  @apply text-gray-700;
+}
+
+a {
+  @apply whitespace-no-wrap;
+}
+.content-copy a:link,
+.content-copy a:visited {
+  @apply text-blue-700 border-b border-blue-400;
+}
+.content-copy a:hover,
+.content-copy a:focus {
+  @apply border-blue-700;
+}
+.link-on-dark:link,
+.link-on-dark:visited {
+  @apply text-white border-b border-gray-600;
+}
+.link-on-dark:hover,
+.link-on-dark:focus {
+  @apply border-white;
+}
+
+
+p+p {
+  @apply mt-2;
+}
+
+
+@tailwind utilities;

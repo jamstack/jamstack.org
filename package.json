@@ -4,33 +4,27 @@
   "description": "Home page for the JAMstack community",
   "author": "Phil Hawksworth",
   "license": "MIT",
-  "scripts": {
-    "start": "npm run dev",
-    "dev": "ELEVENTY_ENV=dev eleventy --serve",
-    "build": "ELEVENTY_ENV=prod eleventy",
-    "seed": "ELEVENTY_ENV=seed eleventy"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/jamstack/jamstack.org"
   },
+  "scripts": {
+    "build": "NODE_ENV=production npm run build:css & npm run build:html",
+    "build:css": "postcss src/css/tailwind.css -o dist/css/styles.css",
+    "build:html": "eleventy",
+    "watch:css": "postcss src/css/tailwind.css -o dist/css/styles.css --watch",
+    "watch:html": "eleventy --watch",
+    "watch": "npm run watch:css & npm run watch:html",
+    "serve": "live-server dist",
+    "start": "npm run watch & npm run serve"
+  },
   "dependencies": {
-    "@11ty/eleventy": "^0.8.3",
-    "@11ty/eleventy-plugin-syntaxhighlight": "^2.0.3",
-    "autoprefixer": "^9.6.0",
-    "axios": "^0.19.0",
+    "@11ty/eleventy": "^0.9.0",
+    "autoprefixer": "^9.7.2",
     "cssnano": "^4.1.10",
-    "dotenv": "^8.0.0",
-    "html-minifier": "^4.0.0",
-    "luxon": "^1.16.0",
-    "postcss": "^7.0.17",
-    "postcss-color-mix": "^1.1.0",
-    "postcss-comment": "^2.0.0",
-    "postcss-import": "^12.0.1",
-    "postcss-mixins": "^6.2.1",
-    "postcss-simple-vars": "^5.0.2",
-    "precss": "^4.0.0",
-    "uglify-js": "^3.6.0",
-    "xml2js": "^0.4.19"
+    "luxon": "^1.21.2",
+    "postcss-cli": "^6.1.3",
+    "tailwindcss": "^1.1.4",
+    "@fullhuman/postcss-purgecss": "^1.3.0"
   }
 }
