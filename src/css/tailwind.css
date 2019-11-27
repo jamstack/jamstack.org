@@ -4,19 +4,49 @@
 /* purgecss end ignore */
 
 
+section {
+  @apply p-8;
+}
+
+section a {
+  @apply text-white;
+  @apply border-b;
+  @apply border-yellow-400;
+}
+section a:hover,
+section a:focus {
+  @apply border-white;
+}
 
 p+p {
   @apply mt-4;
 }
 
 h2.heading {
-  @apply text-4xl;
-  @apply text-white;
-}
-h3.heading {
   @apply text-2xl;
   @apply text-white;
-  @apply mt-8
+  @apply leading-tight;
 }
+
+@screen md {
+  h2.heading {
+    @apply text-4xl;
+  }
+}
+
+
+h3.heading {
+  @apply mt-10;
+  @apply mb-2;
+  @apply text-xl;
+  @apply text-white;
+  @apply leading-tight;
+}
+@screen md {
+  h3.heading {
+    @apply text-2xl;
+  }
+}
+
 
 @tailwind utilities;

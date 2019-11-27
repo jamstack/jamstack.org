@@ -1,7 +1,7 @@
   <ul class="flex items-row px-8">
   {% for link in linkList %}
     <li class="pr-1">
-      <a href="{{ link.url }}" class="inline-block pr-16 py-6 text-yellow-200 border-yellow-400 text-left {% if page.url.split("/")[1] == link.url.split("/")[1] %} border-t-2 {% else  %} border-t {% endif %} hover:border-white hover:text-white">{{ link.text }}</a>
+      <a href="{{ link.url }}" class="inline-block pr-4 md:pr-8 lg:pr-16 py-6 text-yellow-200 border-yellow-400 text-left {% if page.url.split("/")[1] == link.url.split("/")[1] %} border-t-2 {% else  %} border-t {% endif %} hover:border-white hover:text-white">{{ link.text }}</a>
     </li>
   {% endfor %}
   </ul>
