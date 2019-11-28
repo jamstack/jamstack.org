@@ -6,6 +6,7 @@
 
 section {
   @apply p-8;
+  @apply pb-24;
 }
 
 section a {
@@ -45,6 +46,7 @@ h3.heading {
 @screen md {
   h3.heading {
     @apply text-2xl;
+    @apply mt-16;
   }
 }
 
