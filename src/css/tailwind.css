@@ -4,11 +4,13 @@
 /* purgecss end ignore */
 
 
+/*
+  Content sections conventions
+*/
 section {
   @apply p-8;
   @apply pb-24;
 }
-
 section a {
   @apply text-white;
   @apply border-b;
@@ -18,23 +20,24 @@ section a:hover,
 section a:focus {
   @apply border-white;
 }
-
 p+p {
   @apply mt-4;
 }
 
+
+/*
+  Global headings conventions
+*/
 h2.heading {
   @apply text-2xl;
   @apply text-white;
   @apply leading-tight;
 }
-
 @screen md {
   h2.heading {
     @apply text-4xl;
   }
 }
-
 
 h3.heading {
   @apply mt-10;
@@ -49,6 +52,33 @@ h3.heading {
     @apply mt-16;
   }
 }
+
+/*
+  Navigation links
+*/
+.nav-tab {
+  @apply inline-block;
+  @apply pr-4;
+  @apply text-yellow-200;
+  @apply border-yellow-400;
+  @apply text-left;
+  @apply py-6;
+}
+.nav-tab:hover {
+  @apply border-white;
+  @apply text-white;
+}
+@screen md {
+  .nav-tab {
+    @apply pr-8;
+  }
+}
+@screen lg {
+  .nav-tab {
+    @apply pr-16;
+  }
+}
+
 
 
 @tailwind utilities;
