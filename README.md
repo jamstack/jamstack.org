@@ -12,7 +12,7 @@ https://jamstack.org
 
 ```bash
 # install the dependencies
-yarn
+npm install
 
 # run the build and server locally
 netlify dev

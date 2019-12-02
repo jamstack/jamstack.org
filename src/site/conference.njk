@@ -1,6 +1,6 @@
 ---
-title: Resources
-layout: default
+title: JAMstackConf
+layout: conf
 ---
 
 
@@ -33,9 +33,24 @@ layout: default
     These are great presentations to help understand what the JAMstack is, and how it can be used to great effect.
   </p>
   <div class="mt-6 flex flex-wrap justify-around lg:justify-between">
-    {% for item in presentations | selectattr("featured") %}
-    {% include "components/video-link.njk" %}
-    {% endfor %}
+    <div class="md:w-1/2 lg:w-1/3">
+      <p class=" rounded inline-block bg-gray-700 py-16 px-12 mb-6 text-center hover:bg-gray-600">VIDEO PLACEHOLDER</p>
+    </div>
+    <div class="md:w-1/2 lg:w-1/3">
+      <p class=" rounded inline-block bg-gray-700 py-16 px-12 mb-6 text-center hover:bg-gray-600">VIDEO PLACEHOLDER</p>
+    </div>
+    <div class="md:w-1/2 lg:w-1/3">
+      <p class=" rounded inline-block bg-gray-700 py-16 px-12 mb-6 text-center hover:bg-gray-600">VIDEO PLACEHOLDER</p>
+    </div>
+    <div class="md:w-1/2 lg:w-1/3">
+      <p class=" rounded inline-block bg-gray-700 py-16 px-12 mb-6 text-center hover:bg-gray-600">VIDEO PLACEHOLDER</p>
+    </div>
+    <div class="md:w-1/2 lg:w-1/3">
+      <p class=" rounded inline-block bg-gray-700 py-16 px-12 mb-6 text-center hover:bg-gray-600">VIDEO PLACEHOLDER</p>
+    </div>
+    <div class="md:w-1/2 lg:w-1/3">
+      <p class=" rounded inline-block bg-gray-700 py-16 px-12 mb-6 text-center hover:bg-gray-600">VIDEO PLACEHOLDER</p>
+    </div>
   </div>
   <a href="/resources/presentations" class="mt-6 inline-block" >More presentations</a>
 </section>
@@ -60,11 +75,11 @@ layout: default
       There are regular meetups happening around the world. Here are a few of the recent talks from around the world
     </p>
     <ul class="mt-12">
-      {% for item in meetupTalks | selectattr("featured") %}
+      {% for item in presentations | selectattr("featured") %}
       {% include "components/resource-link.njk" %}
       {% endfor %}
     </ul>
-    <a href="/community/meetups" class="mt-12 inline-block" >More presentations from JAMstack Meetups</a>
+    <a href="/resources/presentations" class="mt-12 inline-block" >More presentations from JAMstack Meetups</a>
 </section>
 
 

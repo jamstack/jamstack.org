@@ -3,30 +3,21 @@ title: Glossary
 layout: default
 ---
 
-
 <section class="p-8 pb-12 mb-6 ">
   <h1 class="text-white font-bold text-5xl leading-tight">Glossary</h1>
   <p class="text-xl text-gray-500 leading-tight mb-6 ">
     Definitions of regularly used terms.
   </p>
   <p>
-    Technologies often include terminology which can be confusing. Help us to maintain this list of terms often used when talking about JAMstack and web development <a href="#">by creating an issue</a>.
+    Technologies often include confusing terminology. Help us to maintain this list of terms often used when talking about JAMstack and web development <a href="#">by creating an issue</a>.
   </p>
 </section>
 
 <section>
   <dl>
-    <dt class="text-xl font-bold text-white">CDN - Content Delivery Network</dt>
-    <dd class="mb-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis sint adipisci excepturi iure laborum maxime laudantium quam cum repellendus. Temporibus, facilis! Placeat, sunt architecto non doloremque quaerat ab quia maxime.</dd>
-    <dt class="text-xl font-bold text-white mt-6">Pre-render / Pre-generate</dt>
-    <dd class="mb-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis sint adipisci excepturi iure laborum maxime laudantium quam cum repellendus. Temporibus, facilis! Placeat, sunt architecto non doloremque quaerat ab quia maxime.</dd>
-    <dt class="text-xl font-bold text-white mt-6">Server render</dt>
-    <dd class="mb-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis sint adipisci excepturi iure laborum maxime laudantium quam cum repellendus. Temporibus, facilis! Placeat, sunt architecto non doloremque quaerat ab quia maxime.</dd>
+    {% for item in glossary %}
+    {% include "components/glossary-item.njk" %}
+    {% endfor %}
   </dl>
-
   <a href="#" class="mt-6 inline-block">Request a clarification or suggest an improvement</a>
 </section>
-
-
-
-

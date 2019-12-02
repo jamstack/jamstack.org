@@ -4,46 +4,50 @@ layout: default
 ---
 
 
+<section class="p-8 mb-16">
+  <h1 class="text-white font-bold text-5xl leading-tight">JAMstack Community</h1>
+  <p class="text-xl text-gray-500 leading-tight mb-6 ">
+    Connect with other JAMstackers
+  </p>
+  <p>
+    There are a growing number of JAMstack meetups and events happening around the world. Find out how to participate.
+  </p>
+</section>
+
+
+<section class="p-8 mb-12 bg-white md:rounded">
+    <h2 class="text-gray-800 font-bold text-3xl leading-tight">Join the conversation on Slack</h2>
+    <p class="text-lg text-gray-600">
+      Join other JAMstackers in Slack
+    <p class="text-md text-gray-600 leading-relaxed max-w-xl">
+      The conversation about JAMstack is happening right now. See what people are saying on Twitter or join <b>803</b> developers, vendors, and agencies who are already discussing JAMstack in the official JAMstack community Slack.
+    </p>
+    <a href="/slack" target="_BLANK" rel="noopener" class="mt-6 inline-block text-gray-700 font-bold">Join the JAMslack!</a>
+  </section>
+
 <section>
-  <h1>Community</h1>
+  <h2 class="heading">JAMstack meetups</h2>
   <p>
-    What / where / who / how to participate
+    People all around the world are gathering to talk about the JAMstack at meetups.
   </p>
+  <ul>
+    <li><a href="/community/meetups/organize">Organize a JAMstack Meetup</a></li>
+    <li><a href="/community/meetups">Find a JAMstack Meetup near you</a></li>
+  </ul>
 </section>
 
-
-<section class="tout tout-bright">
-  <h2>Join the conversation on Slack</h2>
-  <p class="subtitle">Join <b>252</b> other JAMstackers in Slack</p>
-  <p>Got a question or just want to chat? Speak with leaders in the space about all things JAMstack in the <a href="/slack" target="_BLANK" rel="noopener">JAMstack community Slack</a>.</p>
-  <p>
-    <a href="/slack" target="_BLANK" rel="noopener" class="cta">Join the JAMslack!</a>
-  </p>
-</section>
-
-<div class="columns">
-  <section>
-    <h2>JAMstack meetups</h2>
+<section>
+    <h2 class="heading">Fresh from the community</h2>
     <p>
-      People all around the world are gathering to talk about the JAMstack at meetups.
+      A few of the recent talks from meetups around the world
     </p>
-    <ul>
-      <li><a href="/community/meetups/organize">Organize a JAMstack Meetup</a></li>
-      <li><a href="/community/meetups">Find a JAMstack Meetup near you</a></li>
+    <ul class="mt-12">
+      {% for item in meetupTalks.slice(0,3) %}
+      {% include "components/resource-link.njk" %}
+      {% endfor %}
     </ul>
+    <a href="/community/meetups" class="mt-12 inline-block" >More presentations from JAMstack Meetups</a>
   </section>
-  <section>
-    <h2>JAMstack meetups</h2>
-    <p>
-      People all around the world are gathering to talk about the JAMstack at meetups.
-    </p>
-    <ul>
-      <li class=""><a href="/community/meetups/organize">Organize a JAMstack Meetup</a></li>
-      <li><a href="/community/meetups">Find a JAMstack Meetup near you</a></li>
-    </ul>
-  </section>
-</div>
 
-{% include 'touts/conference-deadline.njk' %}
-
+  {% include 'touts/next-conference.njk' %}
 

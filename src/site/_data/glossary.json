@@ -1,0 +1,23 @@
+[
+  {
+    "term": "CDN (Content Delivery Network)",
+    "definition": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis sint adipisci excepturi iure laborum maxime laudantium quam cum repellendus. Temporibus, facilis! Placeat, sunt architecto non doloremque quaerat ab quia maxime."
+  },
+  {
+    "term": "Pre-render / Pre-generate",
+    "definition": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis sint adipisci excepturi iure laborum maxime laudantium quam cum repellendus. Temporibus, facilis! Placeat, sunt architecto non doloremque quaerat ab quia maxime."
+  },
+  {
+    "term": "Server render",
+    "definition": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis sint adipisci excepturi iure laborum maxime laudantium quam cum repellendus. Temporibus, facilis! Placeat, sunt architecto non doloremque quaerat ab quia maxime."
+  },
+  {
+    "term": "Client render",
+    "definition": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis sint adipisci excepturi iure laborum maxime laudantium quam cum repellendus. Temporibus, facilis! Placeat, sunt architecto non doloremque quaerat ab quia maxime."
+  },
+  {
+    "term": "Hydration",
+    "definition": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis sint adipisci excepturi iure laborum maxime laudantium quam cum repellendus. Temporibus, facilis! Placeat, sunt architecto non doloremque quaerat ab quia maxime."
+  }
+
+]
