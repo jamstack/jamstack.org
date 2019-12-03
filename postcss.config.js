@@ -13,6 +13,10 @@ module.exports = {
   plugins: [
     require('tailwindcss'),
     require('autoprefixer'),
-    ...process.env.NODE_ENV !== 'local' ? [purgecss,  require('cssnano')] : []
+    require('cssnano')({
+      preset: 'default'
+    }),
+    purgecss
+    // ...process.env.NODE_ENV !== 'local' ? [purgecss,  require('cssnano')] : []
   ]
 };
