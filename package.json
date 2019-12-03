@@ -12,7 +12,7 @@
     "build": "npm run build:css & npm run build:html",
     "build:css": "postcss src/css/tailwind.css -o dist/css/styles.css",
     "build:html": "eleventy",
-    "watch:css": "postcss src/css/tailwind.css -o dist/css/styles.css --watch",
+    "watch:css": "NODE_ENV=local postcss src/css/tailwind.css -o dist/css/styles.css --watch",
     "watch:html": "eleventy --watch",
     "watch": "npm run watch:css & npm run watch:html",
     "serve": "live-server dist",
