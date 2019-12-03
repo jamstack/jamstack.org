@@ -9,7 +9,7 @@
     "url": "https://github.com/jamstack/jamstack.org"
   },
   "scripts": {
-    "build": "NODE_ENV=production npm run build:css & npm run build:html",
+    "build": "npm run build:css & npm run build:html",
     "build:css": "postcss src/css/tailwind.css -o dist/css/styles.css",
     "build:html": "eleventy",
     "watch:css": "postcss src/css/tailwind.css -o dist/css/styles.css --watch",
