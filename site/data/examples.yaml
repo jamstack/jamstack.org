@@ -1,5 +1,17 @@
 ---
 examples:
+  - title: Jarod Peachey
+    description: Portfolio website for Jarod Peachey
+    link: https://jarodpeachey.netlify.com
+    thumbnailurl: 
+    tools:
+      - tool: Gatsby
+      - tool: React
+      - tool: Netlify
+      - tool: Linaria CSS
+      - tool: Github
+      - tool: Webpack
+      - tool: Babel
   - title: Flamingo
     description: E-commerce site for Flamingo, a women's body care brand
     link: https://www.shopflamingo.com
