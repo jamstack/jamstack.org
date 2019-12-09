@@ -5,7 +5,7 @@
   NODE_ENV = "production"
 
 [dev]
-  command = "npm run start"
+  command = "npm run watch"
 
 [[redirects]]
   from = "/conference"
