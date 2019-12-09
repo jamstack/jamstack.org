@@ -14,7 +14,7 @@
     "build:html": "eleventy",
     "watch:css": "postcss src/css/tailwind.css -o dist/css/styles.css --watch",
     "watch:html": "eleventy --watch",
-    "watch": "npm-run-all --parallel watch:css watch:html",
+    "watch": "npm-run-all --parallel watch:css watch:html serve",
     "serve": "live-server dist",
     "start": "npm-run-all --parallel watch serve"
   },
