@@ -13,8 +13,8 @@ module.exports = {
   plugins: [
     require('tailwindcss'),
     require('autoprefixer'),
-    purgecss,
-    require('cssnano')
-    // ...process.env.NODE_ENV !== 'production' ? [purgecss,  require('cssnano')] : []
+    // purgecss,
+    // require('cssnano')
+    ...process.env.NODE_ENV !== 'production' ? [purgecss,  require('cssnano')] : []
   ]
 };
