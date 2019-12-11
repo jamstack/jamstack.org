@@ -116,7 +116,7 @@ examples:
       - tool: Progressive Web App
       - tool: Google Analytics
   - title: DUSK
-    description: DUSK is a creative collective agency for web design, development, strategy & branding built on jekyll using the JAMstack and Netlify CMS for content management.
+    description: DUSK is a creative collective agency for web design, development, strategy & branding built on jekyll using the Jamstack and Netlify CMS for content management.
     link: https://www.duskdigital.co/
     thumbnailurl: /img/examples/dusk.jpg
     tools:
