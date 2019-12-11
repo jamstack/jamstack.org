@@ -1,5 +1,5 @@
 ---
-jamstack: "Fast and secure sites and apps delivered by pre-rendering files erved directly from a CDN, removing the requirement to manage or run web servers."
+jamstack: "Fast and secure sites and apps delivered by pre-rendering files served directly from a CDN, removing the requirement to manage or run web servers."
 explanation: When we talk about "The Stack," we no longer talk about operating systems, specific web servers, backend programming languages, or databases.<br><br>The Jamstack is not about specific technologies. It's a new way of building websites and apps that delivers better performance, higher security, lower cost of scaling, and a better developer experience.<br><br>Pre-rendered sites can be enhanced with JavaScript and the growing capabilities of browsers and services available via APIs.
 
 javascript: "Any dynamic programming during the request/response cycle is handled by JavaScript, running entirely on the client. This could be any frontend framework, library, or even vanilla JavaScript."
