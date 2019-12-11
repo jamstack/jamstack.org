@@ -80,5 +80,9 @@ h3.heading {
 }
 
 
+:target {
+  @apply bg-gray-900;
+}
+
 
 @tailwind utilities;
