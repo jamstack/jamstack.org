@@ -18,7 +18,7 @@ examples:
     tools:
       - tool: Gatsby
       - tool: React
-      - tool: Kentico Cloud
+      - tool: Kentico Kontent
       - tool: Travis CI
       - tool: Sass
       - tool: Github
