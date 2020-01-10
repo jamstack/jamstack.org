@@ -382,7 +382,7 @@ examples:
       - tool: Azure Container Registry
       - tool: Azure Storage Static Website
       - tool: Docker
-  - title: A+ Saúde
+  - title: a+ Saúde
     description: An even better experience in using health services
     link: https://www.amaissaude.com.br/
     thumbnailurl: /img/examples/amaissaude.jpg
