@@ -382,3 +382,14 @@ examples:
       - tool: Azure Container Registry
       - tool: Azure Storage Static Website
       - tool: Docker
+  - title: Rye and Beyond Cottages
+    description: A holiday rental property site
+    link: https://ryeandbeyondcottages.co.uk/
+    thumbnailurl: /img/examples/ryeandbeyondcottages.png
+    tools:
+      - tool: Gridsome
+      - tool: Vue
+      - tool: NetlifyCMS
+      - tool: Netlify Functions
+      - tool: Netlify Large Media
+      - tool: Smoobu API
