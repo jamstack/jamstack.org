@@ -406,5 +406,14 @@ examples:
       - tool: GitHub
       - tool: Service Workers
       - tool: Tailwind CSS
-      - tool: PurgeCSS      
-      
+      - tool: PurgeCSS
+  - title: Rafart Music
+    description: Chapman Stick player Rafart music project website
+    link: https://www.rafartmusic.com
+    thumbnailurl: /img/examples/rafartmusic.jpg
+    tools:
+      - tool: Netlify
+      - tool: React
+      - tool: Solidity.io
+      - tool: NextJS
+      - tool: GitHub
