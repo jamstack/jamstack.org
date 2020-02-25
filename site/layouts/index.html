@@ -1,34 +1,41 @@
 {{ define "main" }}
 <section class="hero">
-    <div class="contained">
-      <h1>{{ .Site.Data.definitions.jamstack | markdownify }}</h1>
-    </div>
-  </section>
+  <div class="contained">
+    <h1>{{ .Site.Data.definitions.jamstack | markdownify }}</h1>
+  </div>
+</section>
 
-  <section class="intro">
-    <div class="contained grid">
-      <div>{{ .Site.Data.definitions.explanation | markdownify }}</div>
-      <div>
-        <h1>FAQ</h1>
-        <a class="text-link scrolling-link" href="#what"><h4>What is the Jamstack?</h4></a>
-        <a class="text-link scrolling-link" href="#why"><h4>Why the Jamstack?</h4></a>
-        <a class="text-link scrolling-link" href="#how"><h4>How do I get started?</h4></a>
-      </div>
+<section class="intro">
+  <div class="contained grid">
+    <div>{{ .Site.Data.definitions.explanation | markdownify }}</div>
+    <div>
+      <h1>FAQ</h1>
+      <a class="text-link scrolling-link" href="#what">
+        <h4>What is the Jamstack?</h4>
+      </a>
+      <a class="text-link scrolling-link" href="#why">
+        <h4>Why the Jamstack?</h4>
+      </a>
+      <a class="text-link scrolling-link" href="#how">
+        <h4>How do I get started?</h4>
+      </a>
     </div>
-  </section>
+  </div>
+</section>
 
-  <section id="what" class="jam-breakdown">
-    <div class="contained intro">
-      <h1>What is the Jamstack?</h1>
-      <p>
-        You may have already seen or worked on a Jamstack site! They might be built using by hand, or with Jekyll, Hugo, Nuxt, Next, Gatsby, or another <a href="https://www.staticgen.com">static site generator</a>...
-      </p>
-      <p>
-        The thing that they all have in common is that they don’t depend on a web server.
-      </p>
-    </div>
+<section id="what" class="jam-breakdown">
+  <div class="contained intro">
+    <h1>What is the Jamstack?</h1>
+    <p>
+      You may have already seen or worked on a Jamstack site! They might be built by hand, or by using Jekyll, Hugo,
+      Nuxt, Next, Gatsby, or another <a href="https://www.staticgen.com">static site generator</a>...
+    </p>
+    <p>
+      The thing that they all have in common is that they don’t depend on a web server.
+    </p>
+  </div>
 
-    <!--
+  <!--
       <div class="letter-definition">
       <img class="letter" src="/img/j.svg"/>
       <h1>JavaScript</h1>
@@ -45,33 +52,38 @@
       <p>{{ .Site.Data.definitions.markup | markdownify }}</p>
     </div>
     -->
-  </section>
+</section>
 
-  <section class="jam-disqualifications contained">
-    <h1>When is your site <em>not</em> built with the Jamstack?</h1>
-    <p>Any project that relies on a tight coupling between client and server is not built with the Jamstack. This would include:</p>
-    <div class="disqualifications">
-      {{ range .Site.Data.definitions.disqualifications }}
-        <h4 class="disqualification">{{ .disqualification | markdownify }}</h4>
-      {{ end }}
+<section class="jam-disqualifications contained">
+  <h1>When is your site <em>not</em> built with the Jamstack?</h1>
+  <p>Any project that relies on a tight coupling between client and server is not built with the Jamstack. This would
+    include:</p>
+  <div class="disqualifications">
+    {{ range .Site.Data.definitions.disqualifications }}
+    <h4 class="disqualification">{{ .disqualification | markdownify }}</h4>
+    {{ end }}
+  </div>
+</section>
+
+<section id="why" class="advantages contained">
+  <h1>Why the Jamstack?</h1>
+  <div class="advantages-grid">
+    {{ range .Site.Data.definitions.advantages }}
+    <div class="advantage">
+      <h4>{{ .advantage | markdownify }}</h4>
+      <p>{{ .description | markdownify }}</p>
     </div>
-  </section>
+    {{ end }}
+  </div>
+</section>
 
-  <section id="why" class="advantages contained">
-    <h1>Why the Jamstack?</h1>
-    <div class="advantages-grid">
-      {{ range .Site.Data.definitions.advantages }}
-        <div class="advantage">
-          <h4>{{ .advantage | markdownify }}</h4>
-          <p>{{ .description | markdownify }}</p>
-        </div>
-      {{ end }}
-    </div>
-  </section>
-
-  <section id="how" class="bottom-cta contained">
-    <h1>How do I get started?</h1>
-    <a href="/best-practices"><h4>Learn About Best Practices →</h4></a>
-    <a href="/resources"><h4>View Resources →</h4></a>
-  </section>
+<section id="how" class="bottom-cta contained">
+  <h1>How do I get started?</h1>
+  <a href="/best-practices">
+    <h4>Learn About Best Practices →</h4>
+  </a>
+  <a href="/resources">
+    <h4>View Resources →</h4>
+  </a>
+</section>
 {{ end }}
