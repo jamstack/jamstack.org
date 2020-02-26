@@ -406,5 +406,15 @@ examples:
       - tool: GitHub
       - tool: Service Workers
       - tool: Tailwind CSS
-      - tool: PurgeCSS      
-      
+      - tool: PurgeCSS
+  - title: Right From Basics
+    description: The best way to learn anything - right from basics. Learn about Python, Golang and how to land your next job in tech!
+    link: https://rightfrombasics.com/
+    thumbnailurl: /img/examples/rightfrombasics.jpg
+    tools:
+      - tool: Hugo
+      - tool: Markdown
+      - tool: Disqus
+      - tool: Google Analytics
+      - tool: Netlify
+      - tool: GitHub
