@@ -418,3 +418,15 @@ examples:
       - tool: Google Analytics
       - tool: Netlify
       - tool: GitHub
+  - title: Harish V
+    description: Personal website of Harish V, software engineer based in Singapore.
+    link: https://harishv.me/
+    thumbnailurl: /img/examples/harishv.jpg
+    tools:
+      - tool: React
+      - tool: Gatsby
+      - tool: Markdown
+      - tool: Disqus
+      - tool: Google Analytics
+      - tool: Netlify
+      - tool: GitHub
