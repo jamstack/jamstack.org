@@ -407,4 +407,12 @@ examples:
       - tool: Service Workers
       - tool: Tailwind CSS
       - tool: PurgeCSS      
-      
+  - title: Spendesk
+    description: Spendesk helps businesses spend smarter.
+    link: https://www.spendesk.com
+    thumbnailurl: /img/examples/spendesk.png
+    tools:
+      - tool: Nuxt.js
+      - tool: Contentful
+      - tool: Netlify
+      - tool: GitHub
