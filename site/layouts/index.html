@@ -10,8 +10,8 @@
       <div>{{ .Site.Data.definitions.explanation | markdownify }}</div>
       <div>
         <h1>FAQ</h1>
-        <a class="text-link scrolling-link" href="#what"><h4>What is the JAMstack?</h4></a>
-        <a class="text-link scrolling-link" href="#why"><h4>Why the JAMstack?</h4></a>
+        <a class="text-link scrolling-link" href="#what"><h4>What is the Jamstack?</h4></a>
+        <a class="text-link scrolling-link" href="#why"><h4>Why the Jamstack?</h4></a>
         <a class="text-link scrolling-link" href="#how"><h4>How do I get started?</h4></a>
       </div>
     </div>
@@ -19,7 +19,7 @@
 
   <section id="what" class="jam-breakdown">
     <div class="contained intro">
-      <h1>What is the JAMstack?</h1>
+      <h1>What is the Jamstack?</h1>
       <p>
         You may have already seen or worked on a JAMstack site! They do not have to include <em>all</em> attributes of JavaScript, APIs, and Markup. They might be built using sites built by hand, or with Jekyll, Hugo, Nuxt, Next, Gatsby, or another <a href="https://www.staticgen.com">static site generator</a>...
       </p>
@@ -27,7 +27,9 @@
         The thing that they all have in common is that they don’t depend on a web server.
       </p>
     </div>
-    <div class="letter-definition">
+
+    <!--
+      <div class="letter-definition">
       <img class="letter" src="/img/j.svg"/>
       <h1>JavaScript</h1>
       <p>{{ .Site.Data.definitions.javascript | markdownify }}</p>
@@ -42,11 +44,12 @@
       <h1>Markup</h1>
       <p>{{ .Site.Data.definitions.markup | markdownify }}</p>
     </div>
+    -->
   </section>
 
   <section class="jam-disqualifications contained">
-    <h1>When is your site <em>not</em> built with the JAMstack?</h1>
-    <p>Any project that relies on a tight coupling between client and server is not built with the JAMstack. This would include:</p>
+    <h1>When is your site <em>not</em> built with the Jamstack?</h1>
+    <p>Any project that relies on a tight coupling between client and server is not built with the Jamstack. This would include:</p>
     <div class="disqualifications">
       {{ range .Site.Data.definitions.disqualifications }}
         <h4 class="disqualification">{{ .disqualification | markdownify }}</h4>
@@ -55,7 +58,7 @@
   </section>
 
   <section id="why" class="advantages contained">
-    <h1>Why the JAMstack?</h1>
+    <h1>Why the Jamstack?</h1>
     <div class="advantages-grid">
       {{ range .Site.Data.definitions.advantages }}
         <div class="advantage">
