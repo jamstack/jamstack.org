@@ -116,7 +116,7 @@ examples:
       - tool: Progressive Web App
       - tool: Google Analytics
   - title: DUSK
-    description: DUSK is a creative collective agency for web design, development, strategy & branding built on jekyll using the JAMstack and Netlify CMS for content management.
+    description: DUSK is a creative collective agency for web design, development, strategy & branding built on jekyll using the Jamstack and Netlify CMS for content management.
     link: https://www.duskdigital.co/
     thumbnailurl: /img/examples/dusk.jpg
     tools:
@@ -323,4 +323,105 @@ examples:
       - tool: Contentful
       - tool: GitHub
       - tool: AWS S3
----
+  - title: Syntac Studio
+    description: We Bring Miracles to your Website & Mobile App.
+    link: https://syntac.co/
+    thumbnailurl: /img/examples/syntac.png
+    tools:
+      - tool: Jekyll
+      - tool: Sass
+      - tool: Boostrap
+      - tool: GitHub
+      - tool: Netlify
+      - tool: Netlify CMS
+  - title: Eden Yacht
+    description: Website for the Galapgos yacht Eden
+    link: http://galapagoseden.com/
+    thumbnailurl: /img/examples/galapagoseden.jpg
+    tools:
+      - tool: Nuxt.js
+      - tool: Vue-bootsrap
+      - tool: Flamelink.io
+      - tool: Firebase
+      - tool: Pm2
+      - tool: Nginx
+      - tool: Varnish
+      - tool: Github
+  - title: Education Lessons
+    description: Education Made Easy
+    link: https://educationlessons.co.in/
+    thumbnailurl: /img/examples/education-lessons.jpg
+    tools:
+      - tool: Gatsby
+      - tool: Netlify
+      - tool: Netlify Functions
+      - tool: Firebase
+      - tool: Google Analytics
+      - tool: Google Sheets API
+      - tool: YouTube API
+      - tool: GitLab
+  - title: Official Nift Website
+    description: Cross-Platform Open Source Website Generator
+    link: https://www.nift.cc/
+    thumbnailurl: /img/examples/nift.png
+    tools:
+      - tool: Nift
+      - tool: Netlify
+      - tool: BitBucket
+      - tool: GitHub
+      - tool: GitLab
+      - tool: Markdown
+      - tool: Showdown
+      - tool: Google Analytics
+      - tool: Google Code Prettify
+      - tool: MathJax
+      - tool: FontAwesome
+  - title: Developer for Life
+    description: A blog covering cloud and developer-related topics
+    link: https://blog.jeremylikness.com/
+    thumbnailurl: /img/examples/developerforlife.jpg
+    tools:
+      - tool: Hugo
+      - tool: Service Workers
+      - tool: Cloudflare
+      - tool: Disqus
+      - tool: Google Analytics
+      - tool: GitHub
+      - tool: Azure Pipelines
+      - tool: Azure Container Registry
+      - tool: Azure Storage Static Website
+      - tool: Docker
+  - title: Antonin Nhek Portfolio
+    description: The portfolio of Antonin Nhek, Visual Designer & Front-End Developer
+    link: https://anhek.dev
+    thumbnailurl: /img/examples/anhek.png
+    tools:
+      - tool: React
+      - tool: Gatsby
+      - tool: Netlify
+      - tool: GitHub
+      - tool: Service Workers
+      - tool: Tailwind CSS
+      - tool: Markdown
+      - tool: PurgeCSS
+  - title: Camilia Coiffure
+    description: Website for the Camilia Coiffure hair salon based in Lyon, France
+    link: https://camilia-coiffure.fr
+    thumbnailurl: /img/examples/camilia-coiffure.jpg
+    tools:
+      - tool: React
+      - tool: Gatsby
+      - tool: Netlify
+      - tool: GitHub
+      - tool: Service Workers
+      - tool: Tailwind CSS
+      - tool: PurgeCSS      
+  - title: Spendesk
+    description: Spendesk helps businesses spend smarter.
+    link: https://www.spendesk.com
+    thumbnailurl: /img/examples/spendesk.png
+    tools:
+      - tool: Nuxt.js
+      - tool: Contentful
+      - tool: Netlify
+      - tool: GitHub
