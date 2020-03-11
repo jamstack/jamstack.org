@@ -402,13 +402,14 @@ examples:
       - tool: GitHub
       - tool: Service Workers
       - tool: Tailwind CSS
-      - tool: PurgeCSS      
-  - title: Spendesk
-    description: Spendesk helps businesses spend smarter.
-    link: https://www.spendesk.com
-    thumbnailurl: /img/examples/spendesk.png
+      - tool: PurgeCSS
+  - title: Rafart Music
+    description: Chapman Stick player Rafart music project website
+    link: https://www.rafartmusic.com
+    thumbnailurl: /img/examples/rafartmusic.jpg
     tools:
-      - tool: Nuxt.js
-      - tool: Contentful
       - tool: Netlify
+      - tool: React
+      - tool: Solidity.io
+      - tool: NextJS
       - tool: GitHub
