@@ -116,7 +116,7 @@ examples:
       - tool: Progressive Web App
       - tool: Google Analytics
   - title: DUSK
-    description: DUSK is a creative collective agency for web design, development, strategy & branding built on jekyll using the JAMstack and Netlify CMS for content management.
+    description: DUSK is a creative collective agency for web design, development, strategy & branding built on jekyll using the Jamstack and Netlify CMS for content management.
     link: https://www.duskdigital.co/
     thumbnailurl: /img/examples/dusk.jpg
     tools:
@@ -288,19 +288,6 @@ examples:
       - tool: Travis
       - tool: Firebase
       - tool: Handlebars
-  - title: Story Breeding
-    description: Combines stories for inspiration.
-    link: http://storybreeding.surge.sh
-    thumbnailurl: /img/examples/story-breeding.png
-    tools:
-      - tool: Gulp
-      - tool: Sass
-      - tool: Surge
-      - tool: GitHub
-      - tool: Jasonbase
-      - tool: Coinhive
-      - tool: Critical CSS
-      - tool: Google style deferring script
   - title: VAS
     description: VAS - At the heart of your dairy
     link: http://web.vas.com/
@@ -314,6 +301,15 @@ examples:
       - tool: GitHub
       - tool: Netlify
       - tool: Google Analytics
+  - title: Postman
+    description: Postman Learning Center
+    link: https://learning.getpostman.com/
+    thumbnailurl: /img/examples/postman.jpg
+    tools:
+      - tool: Gatsby
+      - tool: Contentful
+      - tool: GitHub
+      - tool: AWS S3
   - title: Syntac Studio
     description: We Bring Miracles to your Website & Mobile App.
     link: https://syntac.co/
@@ -382,3 +378,37 @@ examples:
       - tool: Azure Container Registry
       - tool: Azure Storage Static Website
       - tool: Docker
+  - title: Antonin Nhek Portfolio
+    description: The portfolio of Antonin Nhek, Visual Designer & Front-End Developer
+    link: https://anhek.dev
+    thumbnailurl: /img/examples/anhek.png
+    tools:
+      - tool: React
+      - tool: Gatsby
+      - tool: Netlify
+      - tool: GitHub
+      - tool: Service Workers
+      - tool: Tailwind CSS
+      - tool: Markdown
+      - tool: PurgeCSS
+  - title: Camilia Coiffure
+    description: Website for the Camilia Coiffure hair salon based in Lyon, France
+    link: https://camilia-coiffure.fr
+    thumbnailurl: /img/examples/camilia-coiffure.jpg
+    tools:
+      - tool: React
+      - tool: Gatsby
+      - tool: Netlify
+      - tool: GitHub
+      - tool: Service Workers
+      - tool: Tailwind CSS
+      - tool: PurgeCSS      
+  - title: Spendesk
+    description: Spendesk helps businesses spend smarter.
+    link: https://www.spendesk.com
+    thumbnailurl: /img/examples/spendesk.png
+    tools:
+      - tool: Nuxt.js
+      - tool: Contentful
+      - tool: Netlify
+      - tool: GitHub
