@@ -288,19 +288,6 @@ examples:
       - tool: Travis
       - tool: Firebase
       - tool: Handlebars
-  - title: Story Breeding
-    description: Combines stories for inspiration.
-    link: http://storybreeding.surge.sh
-    thumbnailurl: /img/examples/story-breeding.png
-    tools:
-      - tool: Gulp
-      - tool: Sass
-      - tool: Surge
-      - tool: GitHub
-      - tool: Jasonbase
-      - tool: Coinhive
-      - tool: Critical CSS
-      - tool: Google style deferring script
   - title: VAS
     description: VAS - At the heart of your dairy
     link: http://web.vas.com/
