@@ -207,6 +207,14 @@ examples:
       - tool: Cloudinary
       - tool: instantsearch.js
       - tool: Sass (SCSS)
+  - title: Nico van Zyl
+    description: Freelance Interface Architect/Developer with a passion for Design Systems, JAMstack, PWAs, Vue.js, React Native and truly responsive interfaces.
+    link: https://www.nicovanzyl.com
+    thumbnailurl: /img/examples/nvz.png
+    tools:
+      - tool: Gridsome
+      - tool: Vue
+      - tool: Netlify
   - title: Julian Gaviria
     description: Front-end development and design blog with a focus on web performance, testing, and the modern web.
     link: https://julian.is
