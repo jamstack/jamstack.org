@@ -155,6 +155,16 @@ examples:
       - tool: GitHub
       - tool: Netlify
       - tool: Google Analytics
+  - title: Code Bushi
+    description: Web development tips and resources to elevate your coding journey.
+    link: https://codebushi.com
+    thumbnailurl: /img/examples/code-bushi.jpg
+    tools:
+      - tool: Gatsby.js
+      - tool: React
+      - tool: Webpack
+      - tool: Sass
+      - tool: Netlify
   - title: Sphero
     description: Sphero fuses physical robotic toys, digital apps, and entertainment experiences to unlock the true potential of play and inspire tomorrow’s creators.
     link: http://www.sphero.com/
@@ -394,6 +404,7 @@ examples:
       - tool: React
       - tool: Gatsby
       - tool: Netlify
+      - tool: Disqus
       - tool: GitHub
       - tool: Service Workers
       - tool: Tailwind CSS
