@@ -12,3 +12,6 @@ https://jam-stack.org/* https://jamstack.org/:splat 301!
 https://www.jam-stack.org/* https://jamstack.org/:splat 301!
 http://jam-stack.org/* https://jamstack.org/:splat 301!
 http://www.jam-stack.org/* https://jamstack.org/:splat 301!
+
+https://staticwebtech.com/* https://jamstack.org 301!
+https://www.staticwebtech.com/* https://jamstack.org 301!
