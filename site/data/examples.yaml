@@ -238,7 +238,7 @@ examples:
       - tool: GitHub
       - tool: Service Workers
       - tool: Web App Manifest
-   - title: Jake101
+  - title: Jake101
     description: API-powered design and front-end development portfolio with integrated links and tools sections.
     link: https://jake101.com
     thumbnailurl: /img/examples/jake101.jpg
@@ -336,6 +336,23 @@ examples:
       - tool: GitHub
       - tool: Netlify
       - tool: Google Analytics
+  - title: E-Com Plus Storefront
+    description: Open source PWA & JAMstack ecommerce template for E-Com Plus stores
+    link: https://storefront-demo.e-com.plus/
+    thumbnailurl: /img/examples/storefront.png
+    tools:
+      - tool: Webpack
+      - tool: Babel
+      - tool: Vue.js
+      - tool: EJS
+      - tool: Netlify CMS
+      - tool: Netlify
+      - tool: GitHub
+      - tool: Progressive Web App
+      - tool: Sass
+      - tool: Bootstrap
+      - tool: E-Com Plus platform APIs
+      - tool: Workbox
   - title: Postman
     description: Postman Learning Center
     link: https://learning.getpostman.com/
@@ -491,3 +508,4 @@ examples:
       - tool: Solidity.io
       - tool: NextJS
       - tool: GitHub
+
