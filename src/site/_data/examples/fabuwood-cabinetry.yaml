@@ -1,0 +1,12 @@
+
+title: Fabuwood Cabinetry
+description: Fabuwood Cabinetry official website.
+link: 'https://www.fabuwood.com'
+thumbnailurl: /img/examples/fabuwood.jpg
+tools:
+  - tool: Metalsmith
+  - tool: Webpack
+  - tool: Prismic.io
+  - tool: Netlify
+  - tool: Browser Sync
+

@@ -69,4 +69,28 @@ layout: default
 
 
 
+<section>
+  <h2 class="heading">Examples</h2>
+  <p>
+    There are examples from aroudn the community
+  </p>
+  <ul class="mt-12">
+{% for file, data in examples %}
+  <li class="mt-6">
+    <h4 class="text-lg font-bold"><a href="{{ data.link }}">{{ data.title }}</a></h4>
+    <time value="{{ data.date }}" class="text-gray-600">{{ data.date }}</time>
+    <p>{{ data.description }}</p>
+    <p>Using:
+    {% set comma = joiner(",") %}
+    {% for tool in data.tools -%}
+      {{ comma() }} {{ tool.tool }}
+    {%- endfor %}
+    </p>
+  </li>
+
+{% endfor %}
+  </ul>
+</section>
+
+
 

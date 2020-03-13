@@ -1,0 +1,14 @@
+
+title: Fullstack HQ
+description: Web Design & Development Team in the Philippines
+link: 'https://fullstackhq.com'
+thumbnailurl: /img/examples/fullstackhq.jpg
+tools:
+  - tool: Netlify
+  - tool: React-Static
+  - tool: Netlify CMS
+  - tool: Webpack
+  - tool: Bootstrap
+  - tool: Sass
+  - tool: Github
+

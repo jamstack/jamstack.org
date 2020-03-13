@@ -1,11 +1,12 @@
-const { DateTime }  = require('luxon');
-const util          = require('util');
+const { DateTime } = require('luxon');
+const util = require('util');
+const yaml = require("js-yaml");
 
 module.exports = function(eleventyConfig) {
 
 
-  // eleventyConfig.addCollection("posts", function(collection) {
-  //   return collection.getFilteredByGlob("src/site/blog/*.md").reverse();
+  // eleventyConfig.addCollection("examples", function(collection) {
+  //   return collection.getFilteredByGlob("src/site/_data/examples/*.md");
   // });
 
   // Layout aliases for convenience
@@ -34,6 +35,15 @@ module.exports = function(eleventyConfig) {
 
   // Static assets to pass through
   eleventyConfig.addPassthroughCopy("./src/site/fonts");
+
+  // Support yaml for data files
+  eleventyConfig.addDataExtension("yaml", contents => yaml.safeLoad(contents));
+
+  // convert json to yaml
+  eleventyConfig.addFilter('dumpasyaml', obj => {
+    return yaml.safeDump(obj)
+  });
+
 
   return  {
     dir: {

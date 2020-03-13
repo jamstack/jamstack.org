@@ -1,0 +1,15 @@
+
+title: Eden Yacht
+description: Website for the Galapgos yacht Eden
+link: 'http://galapagoseden.com/'
+thumbnailurl: /img/examples/galapagoseden.jpg
+tools:
+  - tool: Nuxt.js
+  - tool: Vue-bootsrap
+  - tool: Flamelink.io
+  - tool: Firebase
+  - tool: Pm2
+  - tool: Nginx
+  - tool: Varnish
+  - tool: Github
+

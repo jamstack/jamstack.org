@@ -1,0 +1,15 @@
+
+title: VAS
+description: VAS - At the heart of your dairy
+link: 'http://web.vas.com/'
+thumbnailurl: /img/examples/vas.png
+tools:
+  - tool: Roots
+  - tool: Stylus
+  - tool: Coffeescript
+  - tool: Jade (Pug)
+  - tool: Contentful
+  - tool: GitHub
+  - tool: Netlify
+  - tool: Google Analytics
+

@@ -1,0 +1,16 @@
+
+title: Lodash
+description: >-
+  A JavaScript utility library delivering consistency, modularity, performance,
+  & extras.
+link: 'https://lodash.com/'
+thumbnailurl: /img/examples/lodash.jpg
+tools:
+  - tool: Grunt
+  - tool: Babel
+  - tool: Jekyll
+  - tool: React
+  - tool: Sass
+  - tool: GitHub
+  - tool: Netlify
+

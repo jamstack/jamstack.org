@@ -1,0 +1,15 @@
+
+title: Sequoia Capital
+description: Sequoia Capital help the daring build legendary companies.
+link: 'https://www.sequoiacap.com/'
+thumbnailurl: /img/examples/sequoia.jpg
+tools:
+  - tool: Middleman
+  - tool: jQuery
+  - tool: Sass
+  - tool: Contentful
+  - tool: fuse.js
+  - tool: GitHub
+  - tool: Netlify
+  - tool: Google Analytics
+

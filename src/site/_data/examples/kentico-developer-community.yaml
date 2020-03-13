@@ -1,0 +1,20 @@
+
+title: Kentico Developer Community
+description: Official Kentico Developer Community site.
+link: 'https://kentico.github.io'
+thumbnailurl: /img/examples/devcommunitypage.png
+tools:
+  - tool: Gatsby
+  - tool: React
+  - tool: Kentico Kontent
+  - tool: Travis CI
+  - tool: Sass
+  - tool: Github
+  - tool: Github Pages
+  - tool: GitHub API
+  - tool: Azure Functions
+  - tool: Azure Table Storage
+  - tool: Google Analytics
+  - tool: Service Workers
+  - tool: Web App Manifest
+

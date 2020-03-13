@@ -1,0 +1,15 @@
+
+title: Skcript
+description: We build Artificial Intelligence powered products for today’s businesses.
+link: 'https://www.skcript.com/'
+thumbnailurl: /img/examples/skcript.jpg
+tools:
+  - tool: Middleman
+  - tool: Gulp
+  - tool: GitHub
+  - tool: Sass
+  - tool: Service Workers
+  - tool: S3
+  - tool: Progressive Web App
+  - tool: Google Analytics
+
