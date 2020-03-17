@@ -32,7 +32,7 @@
     }
   }
 
-  .gitter {
+  .slack {
     margin: $small auto;
 
     @media screen and (min-width: $tablet) {
