@@ -75,6 +75,33 @@ examples:
       - tool: Vanilla JS & CSS
       - tool: Google Analytics
       - tool: Git
+  - title: Leonardo DiCaprio Foundation
+    description: In 1998, Leonardo DiCaprio established his foundation with the mission of protecting the world’s last wild places.
+    link: https://www.leonardodicaprio.org/
+    thumbnailurl: /img/examples/leonardo-dicaprio-foundation.png
+    tools:
+      - tool: TakeShape.io
+      - tool: AWS S3
+      - tool: CloudFlare
+      - tool: Webpack
+  - title: JFK Terminal 4
+    description: T4 is the largest terminal at New York’s John F. Kennedy International Airport and the only privately operated terminal in the United States.
+    link: https://www.jfkt4.nyc/
+    thumbnailurl: /img/examples/jfkt4.png
+    tools:
+      - tool: TakeShape.io
+      - tool: AWS S3
+      - tool: AWS Lambda
+      - tool: Webpack
+  - title: TakeShape.io
+    description: Headless Cloud CMS + SSG
+    link: https://www.takeshape.io
+    thumbnailurl: /img/examples/takeshape.png
+    tools:
+      - tool: TakeShape.io
+      - tool: AWS s3
+      - tool: Webpack
+      - tool: Sass
   - title: Compare Ali
     description: Curated brand-name clothing on Ali Express.
     link: https://compareali.com
@@ -489,7 +516,7 @@ examples:
       - tool: Disqus
       - tool: Google Analytics
       - tool: Netlify
-      - tool: PurgeCSS      
+      - tool: PurgeCSS
   - title: SmokeyFro
     description: The personal portfolio of Chris Rault (aka SmokeyFro), a front-end designer and occasional entrepreneur working remotely from South Africa.
     link: https://smokeyfro.com
