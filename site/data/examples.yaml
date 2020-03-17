@@ -1,5 +1,16 @@
 ---
 examples:
+  - title: Gridhaus
+    description: Gridhaus is a branding and digital design consultancy based in Singapore and Melbourne.
+    link: https://www.gridhaus.com
+    thumbnailurl: /img/examples/gridhaus.jpg
+    tools:
+      - tool: Netlify
+      - tool: Prismic.io
+      - tool: React
+      - tool: Gitlab
+      - tool: Sass
+      - tool: Webpack
   - title: Bejamas.io
     description: Bejamas - JAM Stack experts for hire website.
     link: https://www.bejamas.io
