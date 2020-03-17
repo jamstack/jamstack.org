@@ -148,6 +148,13 @@ examples:
       - tool: Bootstrap
       - tool: Sass
       - tool: Github
+  - title: Bear Archery
+    description: A compound and traditional hunting bow brand.
+    link: https://beararchery.com
+    thumbnailurl: /img/examples/beararchery.jpg
+    tools:
+      - tool: Netlify
+      - tool: Next.js
   - title: William Oliveira Blog
     description: A blog about software development, career, communities and more.
     link: https://woliveiras.com.br/
