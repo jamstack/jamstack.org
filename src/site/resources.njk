@@ -70,24 +70,33 @@ layout: default
 
 
 <section>
-  <h2 class="heading">Examples</h2>
+  <h2 class="heading">Gallery and Examples</h2>
   <p>
-    There are examples from aroudn the community
+    There are examples from around the community and industry
   </p>
-  <ul class="mt-12">
-{% for file, data in examples %}
-  <li class="mt-6">
-    <h4 class="text-lg font-bold"><a href="{{ data.link }}">{{ data.title }}</a></h4>
-    <time value="{{ data.date }}" class="text-gray-600">{{ data.date }}</time>
-    <p>{{ data.description }}</p>
-    <p>Using:
-    {% set comma = joiner(",") %}
-    {% for tool in data.tools -%}
-      {{ comma() }} {{ tool.tool }}
-    {%- endfor %}
-    </p>
-  </li>
 
+  <div class="mt-6 flex flex-wrap justify-around lg:justify-between">
+    {% for file, data in examples %}
+    {% if data.featured %}
+    {{  data.title }}
+    {% endif %}
+    {% include "components/video-link.njk" %}
+    {% endfor %}
+  </div>
+
+  <ul class="mt-12">
+  {% for file, data in examples %}
+    <li class="mt-6">
+      <h4 class="text-lg font-bold"><a href="{{ data.link }}">{{ data.title }}</a></h4>
+      <time value="{{ data.date }}" class="text-gray-600">{{ data.date }}</time>
+      <p>{{ data.description }}</p>
+      <p>Using:
+      {% set comma = joiner(",") %}
+      {% for tool in data.tools -%}
+        {{ comma() }} {{ tool.tool }}
+      {%- endfor %}
+      </p>
+    </li>
 {% endfor %}
   </ul>
 </section>
