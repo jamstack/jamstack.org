@@ -1,5 +1,48 @@
 ---
 examples:
+  - title: Bejamas.io
+    description: Bejamas - JAM Stack experts for hire website.
+    link: https://www.bejamas.io
+    thumbnailurl: /img/examples/bejamas.jpg
+    tools:
+      - tool: Gatsby
+      - tool: Contentful
+      - tool: Webpack
+      - tool: Firebase
+  - title: ARMEX CNC
+    description: CNC machining company with headquarters in Poland.
+    link: https://www.armexcnc.com/en
+    thumbnailurl: /img/examples/armexcnc.jpg
+    tools:
+      - tool: DatoCMS
+      - tool: Next.js
+      - tool: Webpack
+      - tool: Netlify
+  - title: Rzuć Okiem
+    description: Polish web design & development agency
+    link: https://www.rzucokiem.pl
+    thumbnailurl: /img/examples/rzucokiem.jpg
+    tools:
+      - tool: Next.js
+      - tool: md + jsx
+      - tool: Webpack
+      - tool: Netlify
+  - title: LoggerMTS
+    description: International Transport company with headquarters in Poland.
+    link: https://www.loggermts.pl/en
+    thumbnailurl: /img/examples/loggermts.jpg
+    tools:
+      - tool: Hugo
+      - tool: Webpack
+      - tool: Netlify
+  - title: MAK - ADR Carriage
+    description: MAK International Transport of ADR Goods.
+    link: https://www.mak-kk.eu/en
+    thumbnailurl: /img/examples/mak.jpg
+    tools:
+      - tool: Next.js
+      - tool: Webpack
+      - tool: Netlify
   - title: Path to Product
     description: Discover over 1,000 product jobs at startups and tech companies
     link: https://www.pathtoproduct.com
