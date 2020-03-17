@@ -1,6 +1,9 @@
 .jam-breakdown {
 
   .intro {
+
+    padding-bottom: 20px;
+
     h1 {
       margin: $small 0 0 0;
 
@@ -10,10 +13,10 @@
     }
 
     p {
-      margin: 0 0 $medium 0;
+      margin: 0 0 $small 0;
 
       @media screen and (min-width: $tablet) {
-        margin: 13px 0 50px 0;
+        margin: 13px 0 30px 0;
       }
     }
   }
