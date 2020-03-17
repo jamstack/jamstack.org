@@ -1,5 +1,20 @@
 ---
 examples:
+  - title: Path to Product
+    description: Discover over 1,000 product jobs at startups and tech companies
+    link: https://www.pathtoproduct.com
+    thumbnailurl: /img/examples/pathtoproduct.jpg
+    tools:
+      - tool: Vue
+      - tool: Nuxt
+      - tool: Netlify
+      - tool: Google Maps API      
+      - tool: Internal Rails API       
+      - tool: GitHub
+      - tool: Service Workers
+      - tool: Tailwind CSS
+      - tool: Markdown
+      - tool: PurgeCSS
   - title: Norden Soft
     description: Nordensoft løsninger= En Moderne Arkitektur. JAMStack, Gatsby, Netlify, Netlify CMS, Sanity, Jekyll, Magento 2, Drupal, Wordpress design og udvikling.
     link: https://www.nordensoft.dk
@@ -476,11 +491,6 @@ examples:
       - tool: Gatsby
       - tool: Netlify
       - tool: Disqus
-      - tool: GitHub
-      - tool: Service Workers
-      - tool: Tailwind CSS
-      - tool: Markdown
-      - tool: PurgeCSS
   - title: Camilia Coiffure
     description: Website for the Camilia Coiffure hair salon based in Lyon, France
     link: https://camilia-coiffure.fr
