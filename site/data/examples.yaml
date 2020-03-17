@@ -1,5 +1,19 @@
 ---
 examples:
+  - title: Norden Soft
+    description: Nordensoft løsninger= En Moderne Arkitektur. JAMStack, Gatsby, Netlify, Netlify CMS, Sanity, Jekyll, Magento 2, Drupal, Wordpress design og udvikling.
+    link: https://www.nordensoft.dk
+    thumbnailurl: /img/examples/norden-soft.jpg
+    tools:
+      - tool: Gatsby
+      - tool: React
+      - tool: Sanity
+      - tool: Netlify
+      - tool: Github
+      - tool: Bootstrap
+      - tool: Git
+      - tool: npm
+      - tool: Google Analytics
   - title: Flamingo
     description: E-commerce site for Flamingo, a women's body care brand
     link: https://www.shopflamingo.com
@@ -18,7 +32,7 @@ examples:
     tools:
       - tool: Gatsby
       - tool: React
-      - tool: Kentico Cloud
+      - tool: Kentico Kontent
       - tool: Travis CI
       - tool: Sass
       - tool: Github
@@ -155,6 +169,16 @@ examples:
       - tool: GitHub
       - tool: Netlify
       - tool: Google Analytics
+  - title: Code Bushi
+    description: Web development tips and resources to elevate your coding journey.
+    link: https://codebushi.com
+    thumbnailurl: /img/examples/code-bushi.jpg
+    tools:
+      - tool: Gatsby.js
+      - tool: React
+      - tool: Webpack
+      - tool: Sass
+      - tool: Netlify
   - title: Sphero
     description: Sphero fuses physical robotic toys, digital apps, and entertainment experiences to unlock the true potential of play and inspire tomorrow’s creators.
     link: http://www.sphero.com/
@@ -207,6 +231,14 @@ examples:
       - tool: Cloudinary
       - tool: instantsearch.js
       - tool: Sass (SCSS)
+  - title: Nico van Zyl
+    description: Freelance Interface Architect/Developer with a passion for Design Systems, JAMstack, PWAs, Vue.js, React Native and truly responsive interfaces.
+    link: https://www.nicovanzyl.com
+    thumbnailurl: /img/examples/nvz.png
+    tools:
+      - tool: Gridsome
+      - tool: Vue
+      - tool: Netlify
   - title: Julian Gaviria
     description: Front-end development and design blog with a focus on web performance, testing, and the modern web.
     link: https://julian.is
@@ -218,6 +250,23 @@ examples:
       - tool: Sass
       - tool: Critical CSS
       - tool: GitHub
+      - tool: Service Workers
+      - tool: Web App Manifest
+  - title: Jake101
+    description: API-powered design and front-end development portfolio with integrated links and tools sections.
+    link: https://jake101.com
+    thumbnailurl: /img/examples/jake101.jpg
+    tools:
+      - tool: Nuxt.js
+      - tool: Webpack
+      - tool: Cloudinary
+      - tool: Anime.js
+      - tool: Sass
+      - tool: Netlify
+      - tool: Bitbucket
+      - tool: Google Analytics
+      - tool: Cockpit CMS
+      - tool: FeathersJS
       - tool: Service Workers
       - tool: Web App Manifest
   - title: Digital Continuum
@@ -288,19 +337,6 @@ examples:
       - tool: Travis
       - tool: Firebase
       - tool: Handlebars
-  - title: Story Breeding
-    description: Combines stories for inspiration.
-    link: http://storybreeding.surge.sh
-    thumbnailurl: /img/examples/story-breeding.png
-    tools:
-      - tool: Gulp
-      - tool: Sass
-      - tool: Surge
-      - tool: GitHub
-      - tool: Jasonbase
-      - tool: Coinhive
-      - tool: Critical CSS
-      - tool: Google style deferring script
   - title: VAS
     description: VAS - At the heart of your dairy
     link: http://web.vas.com/
@@ -314,6 +350,32 @@ examples:
       - tool: GitHub
       - tool: Netlify
       - tool: Google Analytics
+  - title: E-Com Plus Storefront
+    description: Open source PWA & JAMstack ecommerce template for E-Com Plus stores
+    link: https://storefront-demo.e-com.plus/
+    thumbnailurl: /img/examples/storefront.png
+    tools:
+      - tool: Webpack
+      - tool: Babel
+      - tool: Vue.js
+      - tool: EJS
+      - tool: Netlify CMS
+      - tool: Netlify
+      - tool: GitHub
+      - tool: Progressive Web App
+      - tool: Sass
+      - tool: Bootstrap
+      - tool: E-Com Plus platform APIs
+      - tool: Workbox
+  - title: Postman
+    description: Postman Learning Center
+    link: https://learning.getpostman.com/
+    thumbnailurl: /img/examples/postman.jpg
+    tools:
+      - tool: Gatsby
+      - tool: Contentful
+      - tool: GitHub
+      - tool: AWS S3
   - title: Syntac Studio
     description: We Bring Miracles to your Website & Mobile App.
     link: https://syntac.co/
@@ -394,3 +456,92 @@ examples:
       - tool: styled-components
       - tool: GitLab
       - tool: Cloudflare
+  - title: Rye and Beyond Cottages
+    description: A holiday rental property site
+    link: https://ryeandbeyondcottages.co.uk/
+    thumbnailurl: /img/examples/ryeandbeyondcottages.png
+    tools:
+      - tool: Gridsome
+      - tool: Vue
+      - tool: NetlifyCMS
+      - tool: Netlify Functions
+      - tool: Netlify Large Media
+      - tool: Smoobu API
+  - title: Antonin Nhek Portfolio
+    description: The portfolio of Antonin Nhek, Visual Designer & Front-End Developer
+    link: https://anhek.dev
+    thumbnailurl: /img/examples/anhek.png
+    tools:
+      - tool: React
+      - tool: Gatsby
+      - tool: Netlify
+      - tool: Disqus
+      - tool: GitHub
+      - tool: Service Workers
+      - tool: Tailwind CSS
+      - tool: Markdown
+      - tool: PurgeCSS
+  - title: Camilia Coiffure
+    description: Website for the Camilia Coiffure hair salon based in Lyon, France
+    link: https://camilia-coiffure.fr
+    thumbnailurl: /img/examples/camilia-coiffure.jpg
+    tools:
+      - tool: React
+      - tool: Gatsby
+      - tool: Netlify
+      - tool: GitHub
+      - tool: Service Workers
+      - tool: Tailwind CSS
+      - tool: PurgeCSS
+  - title: Right From Basics
+    description: The best way to learn anything - right from basics. Learn about Python, Golang and how to land your next job in tech!
+    link: https://rightfrombasics.com/
+    thumbnailurl: /img/examples/rightfrombasics.jpg
+    tools:
+      - tool: Hugo
+      - tool: Markdown
+      - tool: Disqus
+      - tool: Google Analytics
+      - tool: Netlify
+      - tool: GitHub
+  - title: Harish V
+    description: Personal website of Harish V, software engineer based in Singapore.
+    link: https://harishv.me/
+    thumbnailurl: /img/examples/harishv.jpg
+    tools:
+      - tool: React
+      - tool: Gatsby
+      - tool: Markdown
+      - tool: Disqus
+      - tool: Google Analytics
+      - tool: Netlify
+      - tool: PurgeCSS      
+  - title: SmokeyFro
+    description: The personal portfolio of Chris Rault (aka SmokeyFro), a front-end designer and occasional entrepreneur working remotely from South Africa.
+    link: https://smokeyfro.com
+    thumbnailurl: /img/examples/smokeyfro.jpg
+    tools:
+      - tool: Vue
+      - tool: Gridsome
+      - tool: Zeit Now
+      - tool: GitHub
+      - tool: Ghost
+      - tool: Cockpit
+      - tool: Tailwind CSS
+      - tool: PurgeCSS
+      - tool: PostCSS
+      - tool: Markdown
+      - tool: JustComments
+      - tool: Sendy
+      - tool: Matamo
+      - tool: PurgeCSS
+  - title: Rafart Music
+    description: Chapman Stick player Rafart music project website
+    link: https://www.rafartmusic.com
+    thumbnailurl: /img/examples/rafartmusic.jpg
+    tools:
+      - tool: Netlify
+      - tool: React
+      - tool: Solidity.io
+      - tool: NextJS
+      - tool: GitHub
