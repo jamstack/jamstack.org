@@ -1,5 +1,100 @@
 ---
 examples:
+  - title: Love, Nils
+    description: Love, Nils is a non-profit organisation providing support to children with cancer.
+    link: https://www.lovenils.org
+    thumbnailurl: /img/examples/lovenils.jpg
+    tools:
+      - tool: Netlify
+      - tool: Prismic.io
+      - tool: React
+      - tool: Redux
+      - tool: Gitlab
+      - tool: Sass
+      - tool: Webpack
+  - title: Gridhaus
+    description: Gridhaus is a branding and digital design consultancy based in Singapore and Melbourne.
+    link: https://www.gridhaus.com
+    thumbnailurl: /img/examples/gridhaus.jpg
+    tools:
+      - tool: Netlify
+      - tool: Prismic.io
+      - tool: React
+      - tool: Gitlab
+      - tool: Sass
+      - tool: Webpack      
+  - title: Bejamas.io
+    description: Bejamas - JAM Stack experts for hire website.
+    link: https://www.bejamas.io
+    thumbnailurl: /img/examples/bejamas.jpg
+    tools:
+      - tool: Gatsby
+      - tool: Contentful
+      - tool: Webpack
+      - tool: Firebase
+  - title: ARMEX CNC
+    description: CNC machining company with headquarters in Poland.
+    link: https://www.armexcnc.com/en
+    thumbnailurl: /img/examples/armexcnc.jpg
+    tools:
+      - tool: DatoCMS
+      - tool: Next.js
+      - tool: Webpack
+      - tool: Netlify
+  - title: Rzuć Okiem
+    description: Polish web design & development agency
+    link: https://www.rzucokiem.pl
+    thumbnailurl: /img/examples/rzucokiem.jpg
+    tools:
+      - tool: Next.js
+      - tool: md + jsx
+      - tool: Webpack
+      - tool: Netlify
+  - title: LoggerMTS
+    description: International Transport company with headquarters in Poland.
+    link: https://www.loggermts.pl/en
+    thumbnailurl: /img/examples/loggermts.jpg
+    tools:
+      - tool: Hugo
+      - tool: Webpack
+      - tool: Netlify
+  - title: MAK - ADR Carriage
+    description: MAK International Transport of ADR Goods.
+    link: https://www.mak-kk.eu/en
+    thumbnailurl: /img/examples/mak.jpg
+    tools:
+      - tool: Next.js
+      - tool: Webpack
+      - tool: Netlify
+  - title: Path to Product
+    description: Discover over 1,000 product jobs at startups and tech companies
+    link: https://www.pathtoproduct.com
+    thumbnailurl: /img/examples/pathtoproduct.jpg
+    tools:
+      - tool: Vue
+      - tool: Nuxt
+      - tool: Netlify
+      - tool: Google Maps API      
+      - tool: Internal Rails API       
+      - tool: GitHub
+      - tool: Service Workers
+      - tool: Tailwind CSS
+      - tool: Markdown
+      - tool: PurgeCSS
+  - title: Norden Soft
+    description: Nordensoft løsninger= En Moderne Arkitektur. JAMStack, Gatsby, Netlify, Netlify CMS, Sanity, Jekyll, Magento 2, Drupal, Wordpress design og udvikling.
+    link: https://www.nordensoft.dk
+    thumbnailurl: /img/examples/norden-soft.jpg
+    tools:
+      - tool: Gatsby
+      - tool: React
+      - tool: Sanity
+      - tool: Netlify
+      - tool: Github
+      - tool: Bootstrap
+      - tool: Git
+      - tool: npm
+      - tool: Google Analytics
   - title: Flamingo
     description: E-commerce site for Flamingo, a women's body care brand
     link: https://www.shopflamingo.com
@@ -53,6 +148,13 @@ examples:
       - tool: Bootstrap
       - tool: Sass
       - tool: Github
+  - title: Bear Archery
+    description: A compound and traditional hunting bow brand.
+    link: https://beararchery.com
+    thumbnailurl: /img/examples/beararchery.jpg
+    tools:
+      - tool: Netlify
+      - tool: Next.js
   - title: William Oliveira Blog
     description: A blog about software development, career, communities and more.
     link: https://woliveiras.com.br/
@@ -457,6 +559,18 @@ examples:
       - tool: Azure Container Registry
       - tool: Azure Storage Static Website
       - tool: Docker
+  - title: a+ Saúde
+    description: An even better experience in using health services
+    link: https://www.amaissaude.com.br/
+    thumbnailurl: /img/examples/amaissaude.jpg
+    tools:
+      - tool: Gatsby
+      - tool: React
+      - tool: Cosmic
+      - tool: Amazon S3
+      - tool: styled-components
+      - tool: GitLab
+      - tool: Cloudflare
   - title: Rye and Beyond Cottages
     description: A holiday rental property site
     link: https://ryeandbeyondcottages.co.uk/
@@ -477,11 +591,6 @@ examples:
       - tool: Gatsby
       - tool: Netlify
       - tool: Disqus
-      - tool: GitHub
-      - tool: Service Workers
-      - tool: Tailwind CSS
-      - tool: Markdown
-      - tool: PurgeCSS
   - title: Camilia Coiffure
     description: Website for the Camilia Coiffure hair salon based in Lyon, France
     link: https://camilia-coiffure.fr
