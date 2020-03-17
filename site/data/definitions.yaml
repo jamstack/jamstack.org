@@ -1,9 +1,8 @@
 ---
-jamstack: "**JAMstack**: noun &#92;’jam-stak’&#92; <span><br></span>Modern web development architecture based on client-side JavaScript, reusable APIs, and prebuilt Markup."
-explanation: When we talk about "The Stack," we no longer talk about operating systems, specific web servers, backend programming languages, or databases.<br><br>The JAMstack is not about specific technologies. It's a new way of building websites and apps that delivers better performance, higher security, lower cost of scaling, and a better developer experience.
-
+jamstack: "Fast and secure sites and apps delivered by pre-rendering files and serving them directly from a CDN, removing the requirement to manage or run web servers."
+explanation: When we talk about "The Stack", we no longer talk about operating systems, specific web servers, backend programming languages, or databases.<br><br>The Jamstack is not about specific technologies. It's a new way of building websites and apps that delivers better performance, higher security, lower cost of scaling, and a better developer experience.<br><br>Pre-rendered sites can be enhanced with JavaScript and the growing capabilities of browsers and services available via APIs.
 javascript: "Any dynamic programming during the request/response cycle is handled by JavaScript, running entirely on the client. This could be any frontend framework, library, or even vanilla JavaScript."
-apis: "All server-side processes or database actions are abstracted into reusable APIs, accessed over HTTP with JavaScript. These can be custom-built or leverage third-party services."
+apis: "All server-side processes or database actions are abstracted into reusable APIs, accessed over HTTPS with JavaScript. These can be custom-built or leverage third-party services."
 markup: "Templated markup should be prebuilt at deploy time, usually using a site generator for content sites, or a build tool for web apps.<br><br>[Want to see some examples?](/examples)"
 
 disqualifications:
