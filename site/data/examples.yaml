@@ -22,7 +22,7 @@ examples:
       - tool: React
       - tool: Gitlab
       - tool: Sass
-      - tool: Webpack      
+      - tool: Webpack
   - title: Bejamas.io
     description: Bejamas - JAM Stack experts for hire website.
     link: https://www.bejamas.io
@@ -74,8 +74,8 @@ examples:
       - tool: Vue
       - tool: Nuxt
       - tool: Netlify
-      - tool: Google Maps API      
-      - tool: Internal Rails API       
+      - tool: Google Maps API
+      - tool: Internal Rails API
       - tool: GitHub
       - tool: Service Workers
       - tool: Tailwind CSS
@@ -204,6 +204,16 @@ examples:
       - tool: AWS s3
       - tool: Webpack
       - tool: Sass
+  - title: Stackery
+    description: Build production-ready applications with Stackery's complete serverless toolkit.
+    link: https://www.stackery.io/
+    thumbnailurl: /img/examples/stackery.jpg
+    tools:
+      - tool: GitHub
+      - tool: Lambda
+      - tool: Jekyll
+      - tool: S3
+      - tool: jQuery
   - title: Compare Ali
     description: Curated brand-name clothing on Ali Express.
     link: https://compareali.com
@@ -407,6 +417,23 @@ examples:
       - tool: Google Analytics
       - tool: Algolia
       - tool: Netlify
+<<<<<<< HEAD
+=======
+  - title: Hyper Static
+    description: Prescriptive marketing agency with an exclusive focus on Hugo and Static Site Generators
+    link: https://www.gohyperstatic.com
+    thumbnailurl: /img/examples/hyperstatic.png
+    tools:
+      - tool: Hugo
+      - tool: WebPack 2
+      - tool: CloudFlare
+      - tool: Babel
+      - tool: Critical CSS
+      - tool: Gitlab
+      - tool: PostCSS
+      - tool: Disqus
+      - tool: Netlify
+>>>>>>> 1c065c42a71db3d459b8afeb7940aaffab575262
   - title: CiTA
     description: Creative Internet Technology Agency
     link: https://www.cita.hr
@@ -591,6 +618,7 @@ examples:
       - tool: Gatsby
       - tool: Netlify
       - tool: Disqus
+<<<<<<< HEAD
   - title: Camilia Coiffure
     description: Website for the Camilia Coiffure hair salon based in Lyon, France
     link: https://camilia-coiffure.fr
@@ -655,3 +683,6 @@ examples:
       - tool: Solidity.io
       - tool: NextJS
       - tool: GitHub
+=======
+---
+>>>>>>> 1c065c42a71db3d459b8afeb7940aaffab575262
