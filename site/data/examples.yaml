@@ -23,7 +23,7 @@ examples:
       - tool: Disqus
       - tool: Bootstrap
       - tool: Sass
-- title: PSD Wizard
+  - title: PSD Wizard
     description: On-demand Front-End Coding Service
     link: https://psdwizard.com
     thumbnailurl: /img/examples/psdwizard.png
@@ -784,6 +784,16 @@ examples:
       - tool: Vue.js
       - tool: Cloudflare
       - tool: nginx
+  - title: UICardio
+    description: A place where you can find beautifully designed and coded bootstrap templats, UI Kits, Admin Dashboards.
+    link: https://uicard.io/
+    thumbnailurl: /img/examples/uicardio.jpg
+    tools:
+      - tool: Hugo
+      - tool: Git
+      - tool: Netlify
+      - tool: Google Analytics
+      - tool: SASS      
   - title: Official Nift Website
     description: Cross-Platform Open Source Website Generator
     link: https://www.nift.cc/
@@ -960,3 +970,4 @@ examples:
       - tool: Solidity.io
       - tool: NextJS
       - tool: GitHub
+
