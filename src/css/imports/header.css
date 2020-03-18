@@ -64,8 +64,8 @@ header {
   font-family: $roboto;
   padding: $medium 0;
   position: fixed;
-  margin-top: 45px;
   text-align: center;
+  margin-top: 45px;
   transition: background .2s ease, padding .2s ease, box-shadow .2s ease;
   width: 100%;
   z-index: 100;
@@ -168,6 +168,15 @@ header {
     &.on-community {
       a:not(.slicknav_btn):not(.mobile-logo):not(.logo-link) {
         &.community-link {
+          &:before {
+            transform: translateY(0);
+          }
+        }
+      }
+    }
+    &.on-diversity-and-inclusion {
+      a:not(.slicknav_btn):not(.mobile-logo):not(.logo-link) {
+        &.diversity-and-inclusion-link {
           &:before {
             transform: translateY(0);
           }
