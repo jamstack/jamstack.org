@@ -627,6 +627,19 @@ examples:
       - tool: GraphQL
       - tool: GitHub
       - tool: Disqus
+  - title: Café Cuvée
+    description: French/Swedish restaurant in Stockholm.
+    link: https://www.cafecuvee.se
+    thumbnailurl: /img/examples/cafe-cuvee.jpg
+    tools:
+      - tool: Netlify
+      - tool: GitHub
+      - tool: Jekyll
+      - tool: JQuery
+      - tool: Sass
+      - tool: Zapier
+      - tool: Mailchimp
+      - tool: Google Analytics
   - title: Camilia Coiffure
     description: Website for the Camilia Coiffure hair salon based in Lyon, France
     link: https://camilia-coiffure.fr
