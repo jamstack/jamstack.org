@@ -4,3 +4,7 @@
 
 [context.deploy-preview]
   command = "yarn build-preview"
+
+[[redirects]]
+  from = "/slack"
+  to = "https://join.slack.com/t/jamstack/shared_invite/enQtNjc4OTI1NDk3NDI1LWIxZjk1YWRjOWVlMzM0MTVlMTg4YmY1OTBjZDc1M2I3N2NhODBlZDNmNjAzMGMwNzI5MTVlMWEwYjBiMTU2NzE"
