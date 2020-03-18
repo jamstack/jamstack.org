@@ -32,6 +32,16 @@ examples:
       - tool: Contentful
       - tool: Webpack
       - tool: Firebase
+  - title: DiscoverIT
+    description: Digital Agency in Reading, UK
+    link: https://discoverit.digital
+    thumbnailurl: /img/examples/discoverit.png
+    tools:
+      - tool: Vue.js
+      - tool: Nuxt.js
+      - tool: Kentico Cloud
+      - tool: Teamcity
+      - tool: Octopus Deploy      
   - title: ARMEX CNC
     description: CNC machining company with headquarters in Poland.
     link: https://www.armexcnc.com/en
