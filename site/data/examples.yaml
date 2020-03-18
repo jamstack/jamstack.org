@@ -627,6 +627,17 @@ examples:
       - tool: GraphQL
       - tool: GitHub
       - tool: Disqus
+  - title: TNTUX Digital Agency
+    description: We design and code websites.
+    link: https://www.tntux.com
+    thumbnailurl: /img/examples/tntux.jpg
+    tools:
+      - tool: Hugo
+      - tool: GitHub
+      - tool: Netlify
+      - tool: NetlifyCMS
+      - tool: Disqus
+      - tool: Crisp    
   - title: Café Cuvée
     description: French/Swedish restaurant in Stockholm.
     link: https://www.cafecuvee.se
