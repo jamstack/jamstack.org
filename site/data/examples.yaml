@@ -940,7 +940,7 @@ examples:
       - tool: Cloudflare
       - tool: Bootstrap
       - tool: Disqus      
-- title: Harish V
+  - title: Harish V
     description: Personal website of Harish V, software engineer based in Singapore.
     link: https://harishv.me/
     thumbnailurl: /img/examples/harishv.jpg
