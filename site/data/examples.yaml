@@ -69,6 +69,18 @@ examples:
       - tool: GitHub
       - tool: S3
       - tool: Google Analytics
+  - title: TriNet
+    description: HR expertise tailored to thousands of small and medium size businesses
+    link: https://www.trinet.com
+    thumbnailurl: /img/examples/trinet.jpg
+    tools:
+      - tool: Netlify
+      - tool: Vue.js
+      - tool: Nuxt
+      - tool: Contentstack
+      - tool: Gitlab
+      - tool: Sass
+      - tool: Vuetify      
   - title: Assortment
     description: Web Development blog for the practical developer
     link: https://assortment.io
