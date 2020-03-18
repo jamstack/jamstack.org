@@ -3,7 +3,7 @@
 
   <section class="hero">
     <div class="contained">
-      <h1 class="community-headline">Join your local JAMstack Chapter.</h1>
+      <h1 class="community-headline">Join your local Jamstack Chapter.</h1>
     </div>
   </section>
 
@@ -19,20 +19,21 @@
     </div>
   </div>
 
-  <section class="gitter grid contained">
+  <section class="slack grid contained">
     <div class="hook">
-      <h1>Chat on Gitter.</h1>
+      <h1>Chat on Slack.</h1>
       <p>
         <strong>Got a question or just want to chat?</strong>
-        Speak with leaders in the space on our community about all things JAMstack in our <a href="{{ .Site.Data.community.gitterurl }}" target="_blank" class="text-link">Gitter Chat</a>.
+        Speak with leaders in the space about all things Jamstack in the <a href="{{ .Site.Data.community.slackurl }}" target="_blank" class="text-link">Jamstack community Slack</a>.
       </p>
     </div>
-    <a href="{{ .Site.Data.community.gitterurl }}" target="_blank" class="event-card">
-      <h4>Join the Gitter Chat for...</h4>
+    <a href="{{ .Site.Data.community.slackurl }}" target="_blank" class="event-card">
+      <h4>Join the Jamstack Slack for...</h4>
       <p>
         <strong>• Expert advice on best practices</strong>
         <strong>• Resource recommendations</strong>
         <strong>• General discussion</strong>
+        <strong>• News about conferences and meetups</strong>
       </p>
     </a>
   </section>
@@ -83,7 +84,7 @@
       })
     </script>
 
-    <h1>Come hang out at the next JAMstack event.</h1>
+    <h1>Come hang out at the next Jamstack event.</h1>
     {{ range .Site.Data.events.events }}
       <a href='{{ if .link }}{{ .link }}{{ end }}' class='event-card{{ if .link }} with-link{{ end }}'>
         <div class="event-date">{{ dateFormat "Jan 02" .date }}</div>
@@ -116,7 +117,7 @@
   </div>
 
   <section class="chatter">
-    <h1>Spread the JAM by tweeting <span><img src="/img/twitter.svg"/>#JAMstack</span></h1>
+    <h1>Spread the JAM by tweeting <span><img src="/img/twitter.svg"/>#Jamstack</span></h1>
     <div class="tweets">
       <div class="contained">
         <ul class="juicer-feed" data-feed-id="jamstack" data-pages="1" data-overlay="false" data-per="3"></ul>
