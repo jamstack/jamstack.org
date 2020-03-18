@@ -637,6 +637,19 @@ examples:
       - tool: Azure Container Registry
       - tool: Azure Storage Static Website
       - tool: Docker
+  - title: Flying Colours
+    description: Website for Flying Colours Life financial advice services
+    link: https://www.flyingcolourslife.com
+    thumbnailurl: /img/examples/flyingcolourslife.jpg
+    tools:
+      - tool: Sculpin
+      - tool: Amazon S3
+      - tool: CloudFront CDN
+      - tool: Sass
+      - tool: Foundation
+      - tool: Mithril.js
+      - tool: Netlify CMS
+      - tool: Bitbucket
   - title: a+ Saúde
     description: An even better experience in using health services
     link: https://www.amaissaude.com.br/
