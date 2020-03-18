@@ -582,6 +582,17 @@ examples:
       - tool: GitHub
       - tool: Netlify
       - tool: Google Analytics
+  - title: AMZScout Blog
+    description: AMZScout - Instant Amazon product research in your browser
+    link: https://amzscout.net/blog/
+    thumbnailurl: /img/examples/amzscout-blog.jpg
+    tools:
+      - tool: Gatsby
+      - tool: React
+      - tool: Contentful
+      - tool: Styled Components
+      - tool: Webhooks
+      - tool: Disqus
   - title: GreenOrbit
     description: Cloud-based intranet software. Get your people going with everything you need, built in.
     link: https://www.greenorbit.com
