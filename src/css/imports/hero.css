@@ -5,7 +5,7 @@
 
   @media screen and (min-width: $tablet) {
     background-position: center;
-    padding: 156px 0 $xl 0;
+    padding: 196px 0 $xl 0;
   }
 
   .grid {
