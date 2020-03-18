@@ -1,5 +1,32 @@
 ---
 examples:
+  - title: Helenzys Inc.,
+    description: A digital solutions agency dedicated to help find solutions to all your business challenges
+    link: https://helenzys.com/
+    thumbnailurl: /img/examples/helenzys.jpg
+    tools:
+      - tool: React
+      - tool: Gatsby JS
+      - tool: Wordpress CMS
+      - tool: Webpack
+      - tool: Bootstrap
+      - tool: Less
+      - tool: GitHub
+      - tool: S3
+      - tool: Google Analytics
+  - title: Assortment
+    description: Web Development blog for the practical developer
+    link: https://assortment.io
+    thumbnailurl: /img/examples/assortment.png
+    tools:
+      - tool: Gatsby
+      - tool: React
+      - tool: Netify
+      - tool: Netlify CMS
+      - tool: Github
+      - tool: Lunr.js
+      - tool: Emotion
+      - tool: Prism.js
   - title: Binaria
     description: Digital product connecting technics & creativity
     link: https://binaria.com/en/
@@ -146,6 +173,18 @@ examples:
       - tool: Bootstrap
       - tool: Sass
       - tool: Github
+  - title: Winkt
+    description: Entertainment site for tattoo inspiration
+    link: https://www.winkt.io
+    thumbnailurl: /img/examples/winkt.jpg
+    tools:
+      - tool: Nextjs
+      - tool: React
+      - tool: Apollo
+      - tool: GraphQL
+      - tool: CSS Modules
+      - tool: Express
+      - tool: MongoDB
   - title: Flamingo
     description: E-commerce site for Flamingo, a women's body care brand
     link: https://www.shopflamingo.com
@@ -536,6 +575,67 @@ examples:
       - tool: GitHub
       - tool: Netlify
       - tool: Google Analytics
+  - title: AMZScout Blog
+    description: AMZScout - Instant Amazon product research in your browser
+    link: https://amzscout.net/blog/
+    thumbnailurl: /img/examples/amzscout-blog.jpg
+    tools:
+      - tool: Gatsby
+      - tool: React
+      - tool: Contentful
+      - tool: Styled Components
+      - tool: Webhooks
+      - tool: Disqus
+  - title: GreenOrbit
+    description: Cloud-based intranet software. Get your people going with everything you need, built in.
+    link: https://www.greenorbit.com
+    thumbnailurl: /img/examples/greenrobit.jpg
+    tools:
+      - tool: Serverless Framework
+      - tool: Amazon S3
+      - tool: Amazon CloudFront
+      - tool: Amazon API Gateway
+      - tool: AWS Lambda
+      - tool: AWS Lambda@Edge
+      - tool: Git
+      - tool: TeamCity
+      - tool: React
+      - tool: Gatsby
+      - tool: GraphQL
+      - tool: Sass
+      - tool: ESLint
+  - title: Hotmart - Máquina de Vídeos 
+    description: Contents chosen by experts that help users and break their objections regarding the process of transforming their digital content into video classes.
+    link: https://www.hotmart.com/maquinadevideos/
+    thumbnailurl: /img/examples/hotmart-maquinadevideos.jpg
+    tools:
+      - tool: Nuxt.js
+      - tool: Sass
+      - tool: Strapi.io
+      - tool: Github
+      - tool: Google Analytics
+      - tool: Yandex.Metrika
+      - tool: AWS ECS
+      - tool: AWS Cloudfront
+      - tool: AWS Route 53
+      - tool: AWS S3
+  - title: BolajiAyodeji
+    description: Articles on web and frontend development written by Bolaji Ayodeji.
+    link: https://www.bolajiayodeji.com/
+    thumbnailurl: /img/examples/bolajiayodeji.png
+    tools:
+      - tool: Hugo
+      - tool: Lunr.js
+      - tool: Bootstrap 4
+      - tool: Grunt
+      - tool: Workbox
+      - tool: CodeFund
+      - tool: TinyLetter
+      - tool: Disqus
+      - tool: Cloudinary
+      - tool: GitHub
+      - tool: Netlify
+      - tool: Google Analytics
   - title: E-Com Plus Storefront
     description: Open source PWA & JAMstack ecommerce template for E-Com Plus stores
     link: https://storefront-demo.e-com.plus/
@@ -599,6 +699,29 @@ examples:
       - tool: Google Sheets API
       - tool: YouTube API
       - tool: GitLab
+  - title: DeFiprime
+    description: Curated list of the best DeFi products
+    link: https://defiprime.com/
+    thumbnailurl: /img/examples/defiprime.png
+    tools:
+      - tool: Jekyll
+      - tool: Sass
+      - tool: GitHub
+      - tool: Netlify
+      - tool: Google Analytics
+  - title: Art of Memory
+    description: Learn powerful memory techniques
+    link: https://artofmemory.com/
+    thumbnailurl: /img/examples/art-of-memory.png
+    tools:
+      - tool: Gatsby
+      - tool: Netlify
+      - tool: Firebase Functions
+      - tool: Firebase Firestore
+      - tool: GitLab
+      - tool: Vue.js
+      - tool: Cloudflare
+      - tool: nginx
   - title: Official Nift Website
     description: Cross-Platform Open Source Website Generator
     link: https://www.nift.cc/
