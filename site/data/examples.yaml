@@ -161,6 +161,18 @@ examples:
       - tool: Git
       - tool: npm
       - tool: Google Analytics
+  - title: Fullstack HQ
+    description: Get immediate access to a battle-tested team of designers and developers on a pay-as-you-go monthly subscription.
+    link: https://fullstackhq.com
+    thumbnailurl: /img/examples/fullstackhq.jpg
+    tools:
+      - tool: Gatsby
+      - tool: Netlify
+      - tool: Netlify CMS
+      - tool: Webpack
+      - tool: Bootstrap
+      - tool: Sass
+      - tool: Github
   - title: Winkt
     description: Entertainment site for tattoo inspiration
     link: https://www.winkt.io
@@ -229,25 +241,6 @@ examples:
       - tool: Bootstrap
       - tool: Sass
       - tool: Github
-  - title: Fullstack HQ
-    description: Web Design & Development Team in the Philippines
-    link: https://fullstackhq.com
-    thumbnailurl: /img/examples/fullstackhq.jpg
-    tools:
-      - tool: Netlify
-      - tool: React-Static
-      - tool: Netlify CMS
-      - tool: Webpack
-      - tool: Bootstrap
-      - tool: Sass
-      - tool: Github
-  - title: Bear Archery
-    description: A compound and traditional hunting bow brand.
-    link: https://beararchery.com
-    thumbnailurl: /img/examples/beararchery.jpg
-    tools:
-      - tool: Netlify
-      - tool: Next.js
   - title: William Oliveira Blog
     description: A blog about software development, career, communities and more.
     link: https://woliveiras.com.br/
