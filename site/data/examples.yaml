@@ -153,6 +153,15 @@ examples:
       - tool: Kentico Cloud
       - tool: Teamcity
       - tool: Octopus Deploy
+  - title: Sharpen
+    description: A Visual Studio extension that intelligently introduces new C# features into your existing code base.
+    link: https://sharpen.rocks
+    thumbnailurl: /img/examples/sharpen.png
+    tools:
+      - tool: Hugo
+      - tool: Git
+      - tool: Netlify
+      - tool: Disqus      
   - title: Tim Benniks
     description: The personal website of Tim Benniks. Director of front-end at Valtech and conference speaker.
     link: https://timbenniks.nl
