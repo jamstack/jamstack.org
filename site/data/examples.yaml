@@ -23,6 +23,16 @@ examples:
       - tool: Disqus
       - tool: Bootstrap
       - tool: Sass
+  - title: Dev Podcasts
+    description: Programming podcast discovery service
+    link: https://devpodcasts.app/
+    thumbnailurl: /img/examples/devpodcasts.png
+    tools:
+      - tool: Netlify
+      - tool: Gatsby
+      - tool: Azure Search
+      - tool: Bootstrap
+      - tool: GitHub
   - title: PSD Wizard
     description: On-demand Front-End Coding Service
     link: https://psdwizard.com
