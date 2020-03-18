@@ -5,6 +5,7 @@ description: >-
   & extras.
 link: 'https://lodash.com/'
 thumbnailurl: /img/examples/lodash.jpg
+featured: true
 tools:
   - tool: Grunt
   - tool: Babel

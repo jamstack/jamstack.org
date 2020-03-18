@@ -77,27 +77,20 @@ layout: default
 
   <div class="mt-6 flex flex-wrap justify-around lg:justify-between">
     {% for file, data in examples %}
+    {% set item = data %}
     {% if data.featured %}
-    {{  data.title }}
+      {% include "components/thumbnail-link.njk" %}
     {% endif %}
-    {% include "components/video-link.njk" %}
     {% endfor %}
   </div>
 
   <ul class="mt-12">
-  {% for file, data in examples %}
-    <li class="mt-6">
-      <h4 class="text-lg font-bold"><a href="{{ data.link }}">{{ data.title }}</a></h4>
-      <time value="{{ data.date }}" class="text-gray-600">{{ data.date }}</time>
-      <p>{{ data.description }}</p>
-      <p>Using:
-      {% set comma = joiner(",") %}
-      {% for tool in data.tools -%}
-        {{ comma() }} {{ tool.tool }}
-      {%- endfor %}
-      </p>
-    </li>
-{% endfor %}
+    {% for file, data in examples %}
+    {% set item = data %}
+    {% if not data.featured %}
+      {% include "components/example-link.njk" %}
+    {% endif %}
+    {% endfor %}
   </ul>
 </section>
 
