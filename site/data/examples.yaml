@@ -623,6 +623,19 @@ examples:
       - tool: Google Sheets API
       - tool: YouTube API
       - tool: GitLab
+  - title: Art of Memory
+    description: Learn powerful memory techniques
+    link: https://artofmemory.com/
+    thumbnailurl: /img/examples/art-of-memory.png
+    tools:
+      - tool: Gatsby
+      - tool: Netlify
+      - tool: Firebase Functions
+      - tool: Firebase Firestore
+      - tool: GitLab
+      - tool: Vue.js
+      - tool: Cloudflare
+      - tool: nginx
   - title: Official Nift Website
     description: Cross-Platform Open Source Website Generator
     link: https://www.nift.cc/
