@@ -2,26 +2,28 @@
 <div class="examples">
   <div class="contained">
     <div class="cta grid">
-      <h1>If you can use it on the web, you can probably build it with the Jamstack. Millions already do. Check out the Jamstacks of these examples below:</h1>
+      <h1>If you can use it on the web, you can probably build it with the Jamstack. Millions already do. Check out the
+        JAMstacks of these examples below:</h1>
       <p>
         <strong>Want to get your site listed here?</strong>
-        Submit a Pull Request with your Jamstack project’s information <a href="https://github.com/jamstack/jamstack.org" class="text-link">here</a>.
+        Submit a Pull Request with your JAMstack project’s information <a
+          href="https://github.com/jamstack/jamstack.org" class="text-link">here</a>.
       </p>
     </div>
     <div class="grid">
       {{ range .Site.Data.examples.examples }}
-        <a class="example" href="{{ .link }}">
-          <div class="browser">
-            <div class="controls">•••</div>
-          </div>
-          <img src="{{ .thumbnailurl }}"/>
-          <h1>{{ .title }}</h1>
-          <ul class="tools">
-            {{ range .tools }}
-              <li>{{ .tool }}</li>
-            {{ end }}
-          </ul>
-        </a>
+      <a class="example" href="{{ .link }}" target="_blank">
+        <div class="browser">
+          <div class="controls">•••</div>
+        </div>
+        <img src="{{ .thumbnailurl }}" />
+        <h1>{{ .title }}</h1>
+        <ul class="tools">
+          {{ range .tools }}
+          <li>{{ .tool }}</li>
+          {{ end }}
+        </ul>
+      </a>
       {{ end }}
     </div>
   </div>

@@ -543,6 +543,23 @@ examples:
       - tool: GitHub
       - tool: Netlify
       - tool: Google Analytics
+  - title: BolajiAyodeji
+    description: Articles on web and frontend development written by Bolaji Ayodeji.
+    link: https://www.bolajiayodeji.com/
+    thumbnailurl: /img/examples/bolajiayodeji.png
+    tools:
+      - tool: Hugo
+      - tool: Lunr.js
+      - tool: Bootstrap 4
+      - tool: Grunt
+      - tool: Workbox
+      - tool: CodeFund
+      - tool: TinyLetter
+      - tool: Disqus
+      - tool: Cloudinary
+      - tool: GitHub
+      - tool: Netlify
+      - tool: Google Analytics
   - title: E-Com Plus Storefront
     description: Open source PWA & JAMstack ecommerce template for E-Com Plus stores
     link: https://storefront-demo.e-com.plus/
