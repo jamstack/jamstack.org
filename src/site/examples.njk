@@ -1,0 +1,31 @@
+---
+title: Examples
+layout: default
+---
+
+
+<section>
+  <h2 class="heading">Gallery and Examples</h2>
+  <p>
+    There are examples from around the community and industry
+  </p>
+
+  <div class="mt-6 flex flex-wrap justify-around lg:justify-between">
+    {% for file, data in examples %}
+    {% set item = data %}
+    {% if data.featured %}
+      {% include "components/thumbnail-link.njk" %}
+    {% endif %}
+    {% endfor %}
+  </div>
+
+  <h3 class="heading">More examples</h3>
+  <ul class="mt-12">
+    {% for file, data in examples %}
+    {% set item = data %}
+    {% if not data.featured %}
+      {% include "components/example-link.njk" %}
+    {% endif %}
+    {% endfor %}
+  </ul>
+</section>

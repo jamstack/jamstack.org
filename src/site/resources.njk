@@ -15,20 +15,10 @@ layout: default
 </section>
 
 
-<section class="p-8 mb-12 bg-white md:rounded">
-  <h1 class="text-gray-800 font-bold text-3xl leading-tight">Modern Web Development on the Jamstack</h1>
-  <p class="text-lg text-gray-600">
-    A report on the Jamstack from O'Reilly
-  </p>
-  <p class="text-md text-gray-600 leading-relaxed max-w-xl">
-    This practical report explains how to run your web projects—from simple sites to complex applications—on the Jamstack, a modern web architecture for deploying fast, secure and highly-scalable sites that don’t require a traditional origin server.
-  </p>
-  <a href="https://netlify.com/orielly-jamstack" target="_BLANK" rel="noopener" class="mt-6 inline-block text-gray-700 font-bold hover:border-gray-700">Download the ebook for free</a>
-</section>
 
 
 <section>
-  <h2 class="heading">Presentations</h2>
+  <h2 class="heading">Videos and Presentations</h2>
   <p>
     These are great presentations to help understand what the Jamstack is, and how it can be used to great effect.
   </p>
@@ -40,6 +30,7 @@ layout: default
   <a href="/resources/presentations" class="mt-6 inline-block" >More presentations</a>
 </section>
 
+
 <section>
   <h2 class="heading">Articles and case studies</h2>
   <p>
@@ -50,49 +41,26 @@ layout: default
     {% include "components/resource-link.njk" %}
     {% endfor %}
   </ul>
-  <a href="/resources/presentations" class="mt-12 inline-block" >More Articles and case studies</a>
+  <a href="/resources/articles" class="mt-12 inline-block" >More Articles and case studies</a>
 
 </section>
 
-<section>
-  <h2 class="heading">Fresh from the community</h2>
-  <p>
-      There are regular meetups happening around the world. Here are a few of the recent talks from around the world
-    </p>
-    <ul class="mt-12">
-      {% for item in meetupTalks | selectattr("featured") %}
-      {% include "components/resource-link.njk" %}
-      {% endfor %}
-    </ul>
-    <a href="/community/meetups" class="mt-12 inline-block" >More presentations from Jamstack Meetups</a>
-</section>
 
 
 
-<section>
-  <h2 class="heading">Gallery and Examples</h2>
-  <p>
-    There are examples from around the community and industry
+
+
+<section class="p-8 mb-12 bg-white md:rounded">
+  <h1 class="text-gray-800 font-bold text-3xl leading-tight">Modern Web Development on the Jamstack</h1>
+  <p class="text-lg text-gray-600">
+    A report on the Jamstack from O'Reilly
   </p>
-
-  <div class="mt-6 flex flex-wrap justify-around lg:justify-between">
-    {% for file, data in examples %}
-    {% set item = data %}
-    {% if data.featured %}
-      {% include "components/thumbnail-link.njk" %}
-    {% endif %}
-    {% endfor %}
-  </div>
-
-  <ul class="mt-12">
-    {% for file, data in examples %}
-    {% set item = data %}
-    {% if not data.featured %}
-      {% include "components/example-link.njk" %}
-    {% endif %}
-    {% endfor %}
-  </ul>
+  <p class="text-md text-gray-600 leading-relaxed max-w-xl">
+    This practical report explains how to run your web projects—from simple sites to complex applications—on the Jamstack, a modern web architecture for deploying fast, secure and highly-scalable sites that don’t require a traditional origin server.
+  </p>
+  <a href="https://netlify.com/orielly-jamstack" target="_BLANK" rel="noopener" class="mt-6 inline-block text-gray-700 font-bold hover:border-gray-700">Download the ebook for free</a>
 </section>
+
 
 
 

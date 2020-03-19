@@ -1,9 +1,7 @@
 
-title: 'Helenzys Inc.,'
-description: >-
-  A digital solutions agency dedicated to help find solutions to all your
-  business challenges
-link: 'https://helenzys.com/'
+title: Helenzys Inc
+description: A digital solutions agency dedicated to help find solutions to all your business challenges
+link: https://helenzys.com/
 thumbnailurl: /img/examples/helenzys.jpg
 tools:
   - tool: React

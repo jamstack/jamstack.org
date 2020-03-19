@@ -1,11 +1,10 @@
-    <li class="mt-6">
+    <li class="mt-2"><a href="{{ data.link }}">{{ data.title }}</a> - {{ data.tools | join(", ", "tool") }}</li>
+
+    {#
       <h4 class="text-lg font-bold"><a href="{{ data.link }}">{{ data.title }}</a></h4>
-      <time value="{{ data.date }}" class="text-gray-600">{{ data.date }}</time>
       <p>{{ data.description }}</p>
-      <p>Using:
-      {% set comma = joiner(",") %}
-      {% for tool in data.tools -%}
-        {{ comma() }} {{ tool.tool }}
-      {%- endfor %}
+      <p>
+        Using: {{ data.tools | join(", ", "tool") }}
       </p>
     </li>
+#}

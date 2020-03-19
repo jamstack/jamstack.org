@@ -5,9 +5,6 @@ const yaml = require("js-yaml");
 module.exports = function(eleventyConfig) {
 
 
-  // eleventyConfig.addCollection("examples", function(collection) {
-  //   return collection.getFilteredByGlob("src/site/_data/examples/*.md");
-  // });
 
   // Layout aliases for convenience
   eleventyConfig.addLayoutAlias('default', 'layouts/base.njk');
@@ -32,6 +29,7 @@ module.exports = function(eleventyConfig) {
 
   // Grab experpts and sections from a file
   eleventyConfig.addFilter("section", require("./src/filters/section.js") );
+  // eleventyConfig.addFilter("featured", require("./src/filters/featured.js") );
 
   // Static assets to pass through
   eleventyConfig.addPassthroughCopy("./src/site/fonts");
