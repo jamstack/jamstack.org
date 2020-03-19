@@ -1,0 +1,20 @@
+
+title: Hotmart - Máquina de Vídeos
+description: >-
+  Contents chosen by experts that help users and break their objections
+  regarding the process of transforming their digital content into video
+  classes.
+link: 'https://www.hotmart.com/maquinadevideos/'
+thumbnailurl: /img/examples/hotmart-maquinadevideos.jpg
+tools:
+  - tool: Nuxt.js
+  - tool: Sass
+  - tool: Strapi.io
+  - tool: Github
+  - tool: Google Analytics
+  - tool: Yandex.Metrika
+  - tool: AWS ECS
+  - tool: AWS Cloudfront
+  - tool: AWS Route 53
+  - tool: AWS S3
+

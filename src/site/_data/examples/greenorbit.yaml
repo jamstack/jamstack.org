@@ -1,0 +1,22 @@
+
+title: GreenOrbit
+description: >-
+  Cloud-based intranet software. Get your people going with everything you need,
+  built in.
+link: 'https://www.greenorbit.com'
+thumbnailurl: /img/examples/greenrobit.jpg
+tools:
+  - tool: Serverless Framework
+  - tool: Amazon S3
+  - tool: Amazon CloudFront
+  - tool: Amazon API Gateway
+  - tool: AWS Lambda
+  - tool: AWS Lambda@Edge
+  - tool: Git
+  - tool: TeamCity
+  - tool: React
+  - tool: Gatsby
+  - tool: GraphQL
+  - tool: Sass
+  - tool: ESLint
+

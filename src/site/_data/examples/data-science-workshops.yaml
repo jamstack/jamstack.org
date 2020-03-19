@@ -1,0 +1,12 @@
+
+title: Data Science Workshops
+description: Let's level up your skills and knowledge
+link: 'https://www.datascienceworkshops.com/'
+thumbnailurl: /img/examples/data-science-workshops.jpg
+tools:
+  - tool: Jekyll
+  - tool: Tailwind CSS
+  - tool: Gulp
+  - tool: Netlify
+  - tool: ImageMagick
+

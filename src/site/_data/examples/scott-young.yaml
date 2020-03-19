@@ -1,0 +1,14 @@
+
+title: Scott Young
+description: 'The portfolio site of Scott Young, Sound Designer & Front-End Developer'
+link: 'https://parodybiz.co.uk'
+thumbnailurl: /img/examples/scott-young.jpg
+tools:
+  - tool: React
+  - tool: Gatsby
+  - tool: Netlify
+  - tool: DatoCMS
+  - tool: GitHub
+  - tool: Matter.js
+  - tool: SASS
+

@@ -1,0 +1,18 @@
+
+title: 'Helenzys Inc.,'
+description: >-
+  A digital solutions agency dedicated to help find solutions to all your
+  business challenges
+link: 'https://helenzys.com/'
+thumbnailurl: /img/examples/helenzys.jpg
+tools:
+  - tool: React
+  - tool: Gatsby JS
+  - tool: Wordpress CMS
+  - tool: Webpack
+  - tool: Bootstrap
+  - tool: Less
+  - tool: GitHub
+  - tool: S3
+  - tool: Google Analytics
+

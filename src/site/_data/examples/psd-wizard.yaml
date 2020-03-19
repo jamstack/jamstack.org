@@ -4,11 +4,12 @@ description: On-demand Front-End Coding Service
 link: 'https://psdwizard.com'
 thumbnailurl: /img/examples/psdwizard.png
 tools:
+  - tool: Nuxt
+  - tool: Vue
+  - tool: Nuxtent
+  - tool: SCSS
+  - tool: BitBucket
+  - tool: HubSpot
   - tool: Netlify
-  - tool: React-Static
-  - tool: Netlify CMS
-  - tool: Webpack
-  - tool: Bootstrap
-  - tool: Sass
-  - tool: Github
+  - tool: Google Analytics
 

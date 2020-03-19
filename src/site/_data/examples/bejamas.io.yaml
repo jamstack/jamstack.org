@@ -1,0 +1,11 @@
+
+title: Bejamas.io
+description: Bejamas - JAM Stack experts for hire website.
+link: 'https://www.bejamas.io'
+thumbnailurl: /img/examples/bejamas.jpg
+tools:
+  - tool: Gatsby
+  - tool: Contentful
+  - tool: Webpack
+  - tool: Firebase
+

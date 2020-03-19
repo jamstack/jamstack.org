@@ -1,0 +1,17 @@
+
+title: FBA Catalog
+description: Handbook for amazon sellers
+link: 'https://www.fbacatalog.com'
+thumbnailurl: /img/examples/fbacatalog.png
+tools:
+  - tool: Middleman
+  - tool: Netlify
+  - tool: Google Sheets
+  - tool: Sheetsu
+  - tool: TailwindCSS
+  - tool: JQuery
+  - tool: Gulp
+  - tool: PostCss
+  - tool: Github
+  - tool: Yarn
+

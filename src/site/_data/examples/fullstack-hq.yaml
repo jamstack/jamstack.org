@@ -1,12 +1,13 @@
 
 title: Fullstack HQ
-description: Web Design & Development Team in the Philippines
+description: >-
+  Get immediate access to a battle-tested team of designers and developers on a
+  pay-as-you-go monthly subscription.
 link: 'https://fullstackhq.com'
 thumbnailurl: /img/examples/fullstackhq.jpg
-featured: true
 tools:
+  - tool: Gatsby
   - tool: Netlify
-  - tool: React-Static
   - tool: Netlify CMS
   - tool: Webpack
   - tool: Bootstrap

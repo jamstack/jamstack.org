@@ -8,9 +8,4 @@ tools:
   - tool: Gatsby
   - tool: Netlify
   - tool: Disqus
-  - tool: GitHub
-  - tool: Service Workers
-  - tool: Tailwind CSS
-  - tool: Markdown
-  - tool: PurgeCSS
 

@@ -1,0 +1,12 @@
+
+title: DeFiprime
+description: Curated list of the best DeFi products
+link: 'https://defiprime.com/'
+thumbnailurl: /img/examples/defiprime.png
+tools:
+  - tool: Jekyll
+  - tool: Sass
+  - tool: GitHub
+  - tool: Netlify
+  - tool: Google Analytics
+

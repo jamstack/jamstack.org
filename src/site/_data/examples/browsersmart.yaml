@@ -1,0 +1,14 @@
+
+title: BrowserSmart
+description: A pithy browser selection guide
+link: 'https://browsersmart.com'
+thumbnailurl: /img/examples/browsersmart.png
+tools:
+  - tool: Platframe
+  - tool: Gulp
+  - tool: Pug
+  - tool: Stylus
+  - tool: Platform.js
+  - tool: GitLab
+  - tool: Netlify
+

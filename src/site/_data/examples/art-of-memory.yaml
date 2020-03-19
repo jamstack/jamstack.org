@@ -1,0 +1,15 @@
+
+title: Art of Memory
+description: Learn powerful memory techniques
+link: 'https://artofmemory.com/'
+thumbnailurl: /img/examples/art-of-memory.png
+tools:
+  - tool: Gatsby
+  - tool: Netlify
+  - tool: Firebase Functions
+  - tool: Firebase Firestore
+  - tool: GitLab
+  - tool: Vue.js
+  - tool: Cloudflare
+  - tool: nginx
+

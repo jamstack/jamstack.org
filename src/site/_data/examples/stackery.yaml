@@ -1,0 +1,14 @@
+
+title: Stackery
+description: >-
+  Build production-ready applications with Stackery's complete serverless
+  toolkit.
+link: 'https://www.stackery.io/'
+thumbnailurl: /img/examples/stackery.jpg
+tools:
+  - tool: GitHub
+  - tool: Lambda
+  - tool: Jekyll
+  - tool: S3
+  - tool: jQuery
+
