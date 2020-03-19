@@ -29,6 +29,8 @@ articles:
     link: https://www.freecodecamp.org/news/what-is-the-jamstack-and-how-do-i-host-my-website-on-it/
   - title: "Jamstack.training - Free video courses on Jamstack technologies"
     link: https://jamstack.training
+  - title: "What is JAMstack and How Does it Work?"
+    link: https://buttercms.com/blog/what-is-jamstack
 videos:
   - title: Rise of the Jamstack
     description: The emergence of Git centered workflows, around modern build tools, static site generators, and modern browsers, have changed the way most front-enders work.
