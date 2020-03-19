@@ -27,6 +27,8 @@ articles:
     link: https://bolajiayodeji.com/an-introduction-to-the-jamstack-the-architecture-of-the-modern-web-c4a0d128d9ca
   - title: "What is the Jamstack and how do I get started?"
     link: https://www.freecodecamp.org/news/what-is-the-jamstack-and-how-do-i-host-my-website-on-it/
+  - title: "Jamstack.training - Free video courses on Jamstack technologies"
+    link: https://jamstack.training
 videos:
   - title: Rise of the Jamstack
     description: The emergence of Git centered workflows, around modern build tools, static site generators, and modern browsers, have changed the way most front-enders work.
