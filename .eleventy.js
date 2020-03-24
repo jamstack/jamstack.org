@@ -27,6 +27,13 @@ module.exports = function(eleventyConfig) {
     }).toFormat('y-MM-dd');
   });
 
+
+  eleventyConfig.addFilter('select', (array, clause) => {
+    const property = clause.split("=")[0];
+    const value = clause.split("=")[1];
+    return array.filter(item => item[property].includes(value));
+  });
+
   // Grab experpts and sections from a file
   eleventyConfig.addFilter("section", require("./src/filters/section.js") );
   // eleventyConfig.addFilter("featured", require("./src/filters/featured.js") );

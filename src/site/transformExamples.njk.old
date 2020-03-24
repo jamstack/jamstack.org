@@ -1,10 +1,10 @@
 ---
 title: data
 pagination:
-  data: sourceexamples.examples
+  data: resourcelist.articles
   size: 1
   alias: example
-permalink: /exampledata/{{ example.title | lower | slug }}.yaml
+permalink: /exampledata/resources/{{ example.title | lower | slug }}.yaml
 ---
 
 {{ example | dumpasyaml | safe }}
