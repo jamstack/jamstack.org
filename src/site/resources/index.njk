@@ -21,7 +21,7 @@ layout: default
   </p>
   <div class="mt-6 flex flex-wrap justify-around lg:justify-between">
     {% for item in resources | selectattr("featured") | select("type=video") | luckydip(3)  %}
-      {% include "components/video-link.njk" %}
+      {% include "components/thumbnail-link.njk" %}
     {% endfor %}
   </div>
   <a href="/resources/videos" class="mt-6 " >More videos and presentations →</a>
