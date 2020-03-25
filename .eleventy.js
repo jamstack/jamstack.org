@@ -34,13 +34,22 @@ module.exports = function(eleventyConfig) {
     return array.filter(item => item[property].includes(value));
   });
 
+  // Get a random selection of items from an array
   eleventyConfig.addFilter('luckydip', (array, number) => {
     if (number > array.length) {
       number = array.length;
     }
-    // shuffle the array array
     const shuffled = array.sort(() => 0.5 - Math.random());
     return shuffled.slice(0, number);
+  });
+
+  // Convert an associative array into an indexable, iterable array
+  eleventyConfig.addFilter('iterable', (obj) => {
+    var iterableArray = new Array();
+    for (var item in obj){
+      iterableArray.push( obj[item] );
+    }
+    return iterableArray
   });
 
 

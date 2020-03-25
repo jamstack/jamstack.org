@@ -20,7 +20,7 @@ layout: default
     These are great presentations to help understand what the Jamstack is, and how it can be used to great effect.
   </p>
   <div class="mt-6 flex flex-wrap justify-around lg:justify-between">
-    {% for item in resources | selectattr("featured") | select("type=video") | luckydip(3)  %}
+    {% for item in resources | iterable | selectattr("featured") | select("type=video") | luckydip(3)  %}
       {% include "components/thumbnail-link.njk" %}
     {% endfor %}
   </div>
@@ -34,7 +34,7 @@ layout: default
     Selected recent articles and case studies of Jamstack implementations.
   </p>
   <ul class="mt-12">
-  {% for item in resources | selectattr("featured") | select("type=article") | luckydip(6) %}
+  {% for item in resources | iterable | selectattr("featured") | select("type=article") | luckydip(6) %}
     {% include "components/resource-link.njk" %}
   {% endfor %}
   </ul>

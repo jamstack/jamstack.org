@@ -20,7 +20,7 @@ layout: default
     Selected recent articles and case studies of Jamstack implementations.
   </p>
   <ul class="mt-12">
-  {% for item in resources | selectattr("featured") | select("type=article") | luckydip(6) %}
+  {% for item in resources | iterable | selectattr("featured") | select("type=article") | luckydip(6) %}
     {% include "components/resource-link.njk" %}
   {% endfor %}
   </ul>
@@ -33,7 +33,7 @@ layout: default
     Selected recent articles and case studies of Jamstack implementations.
   </p>
   <ul class="mt-12">
-  {% for item in resources | select("type=article") %}
+  {% for item in resources | iterable | select("type=article") %}
     {% include "components/resource-link.njk" %}
   {% endfor %}
   </ul>

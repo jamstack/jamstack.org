@@ -1,7 +1,7 @@
 ---
 title: data
 pagination:
-  data: resourcelist.articles
+  data: resources
   size: 1
   alias: example
 permalink: /exampledata/resources/{{ example.title | lower | slug }}.yaml
