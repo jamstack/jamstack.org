@@ -11,6 +11,9 @@ layout: default
   <p>
     More and more people are talking about the Jamstack. We've curated some of our favorite resources here to help you get started, and to learn more about how people are using the Jamstack.
   </p>
+  <p>
+    Terminology can sometimes be confusing. Take a look at <a href="/glossary">the glossary</a> for if some of the lagugage being used needs some clarification.
+  </p>
 </section>
 
 
@@ -34,7 +37,7 @@ layout: default
     Selected recent articles and case studies of Jamstack implementations.
   </p>
   <ul class="mt-12">
-  {% for item in resources | iterable | selectattr("featured") | select("type=article") | luckydip(6) %}
+  {% for item in resources | iterable | selectattr("featured") | select("type=article") | luckydip(5) %}
     {% include "components/resource-link.njk" %}
   {% endfor %}
   </ul>

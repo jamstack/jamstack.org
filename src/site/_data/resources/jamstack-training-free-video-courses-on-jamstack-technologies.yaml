@@ -5,4 +5,6 @@ link: 'https://jamstack.training'
 featured: true
 type:
   - video
+  - training
+  - article
 

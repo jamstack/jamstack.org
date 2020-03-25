@@ -1,12 +1,8 @@
-<li class="mt-2">
-  <a href="{{ item.link }}">{{ item.title }}</a> - {{ item.tools | join(", ", "tool") }}
+<li class="mt-4">
+  <h4 class="text-lg font-bold"><a href="{{ item.link }}" rel="noopener" target="_BLANK">{{ item.title }}</a></h4>
+  <p class="text-gray-600 text-xs">{{ item.link }}</p>
+  <p class="text-gray-400 text-xs mt-0">Tools: {{ item.tools | join(", ", "tool") }}</p>
 </li>
 
-{#
-  <h4 class="text-lg font-bold"><a href="{{ data.link }}">{{ data.title }}</a></h4>
-  <p>{{ data.description }}</p>
-  <p>
-    Using: {{ data.tools | join(", ", "tool") }}
-  </p>
-</li>
-#}
+
+
