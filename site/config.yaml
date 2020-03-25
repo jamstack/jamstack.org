@@ -1,4 +1,4 @@
-baseurl: DEPLOY_PRIME_URL
+baseurl: https://jamstack.org
 languageCode: "en-us"
 title: "Jamstack | JavaScript, APIs, and Markup"
 disableKinds: ["404"]
