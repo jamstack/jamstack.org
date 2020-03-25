@@ -3,9 +3,6 @@ title: Resources
 layout: default
 ---
 
-
-
-
 <section class="p-8 pb-12 mb-6 ">
   <h1 class="text-white font-bold text-5xl leading-tight">Resources</h1>
   <p class="text-xl text-gray-500 leading-tight mb-6 ">
@@ -17,37 +14,32 @@ layout: default
 </section>
 
 
-
 <section>
   <h2 class="heading">Videos and Presentations</h2>
   <p>
     These are great presentations to help understand what the Jamstack is, and how it can be used to great effect.
   </p>
   <div class="mt-6 flex flex-wrap justify-around lg:justify-between">
-    {% for item in resources | selectattr("featured") | select("type=video") %}
+    {% for item in resources | selectattr("featured") | select("type=video") | luckydip(3)  %}
       {% include "components/video-link.njk" %}
     {% endfor %}
   </div>
-  <a href="/resources/presentations" class="mt-6 inline-block" >More presentations</a>
+  <a href="/resources/videos" class="mt-6 " >More videos and presentations...</a>
 </section>
 
 
 <section>
-  <h2 class="heading">Articles and case studies</h2>
+  <h2 class="heading">Articles and resources</h2>
   <p>
     Selected recent articles and case studies of Jamstack implementations.
   </p>
   <ul class="mt-12">
-  {% for item in resources | selectattr("featured") | select("type=article") %}
+  {% for item in resources | selectattr("featured") | select("type=article") | luckydip(6) %}
     {% include "components/resource-link.njk" %}
   {% endfor %}
   </ul>
-  <a href="/resources/articles" class="mt-12 inline-block" >More Articles and case studies</a>
+  <a href="/resources/articles" class="mt-12 inline-block" >More articles and resources...</a>
 </section>
-
-
-
-
 
 
 <section class="p-8 mb-12 bg-white md:rounded">
@@ -60,7 +52,3 @@ layout: default
   </p>
   <a href="https://netlify.com/orielly-jamstack" target="_BLANK" rel="noopener" class="mt-6 inline-block text-gray-700 font-bold hover:border-gray-700">Download the ebook for free</a>
 </section>
-
-
-
-

@@ -1,0 +1,41 @@
+---
+title: Resources / Articles
+layout: default
+---
+
+<section class="p-8 pb-12 mb-6 ">
+  <h1 class="text-white font-bold text-5xl leading-tight">Resources</h1>
+  <p class="text-xl text-gray-500 leading-tight mb-6 ">
+   Learn more about the architecture changing modern web development
+  </p>
+  <p>
+    More and more people are talking about the Jamstack. We've curated some of our favorite resources here to help you get started, and to learn more about how people are using the Jamstack.
+  </p>
+</section>
+
+
+<section>
+  <h2 class="heading">Featured articles and resources</h2>
+  <p>
+    Selected recent articles and case studies of Jamstack implementations.
+  </p>
+  <ul class="mt-12">
+  {% for item in resources | selectattr("featured") | select("type=article") | luckydip(6) %}
+    {% include "components/resource-link.njk" %}
+  {% endfor %}
+  </ul>
+</section>
+
+
+<section>
+  <h2 class="heading">More articles and resources</h2>
+  <p>
+    Selected recent articles and case studies of Jamstack implementations.
+  </p>
+  <ul class="mt-12">
+  {% for item in resources | select("type=article") %}
+    {% include "components/resource-link.njk" %}
+  {% endfor %}
+  </ul>
+</section>
+

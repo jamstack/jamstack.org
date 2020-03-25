@@ -8,7 +8,6 @@ module.exports = function(eleventyConfig) {
 
   // Layout aliases for convenience
   eleventyConfig.addLayoutAlias('default', 'layouts/base.njk');
-  eleventyConfig.addLayoutAlias('conf', 'layouts/conf.njk');
 
   // a debug utility
   eleventyConfig.addFilter('dump', obj => {
@@ -28,15 +27,23 @@ module.exports = function(eleventyConfig) {
   });
 
 
+  // filter a data array based on the value of a property
   eleventyConfig.addFilter('select', (array, clause) => {
     const property = clause.split("=")[0];
     const value = clause.split("=")[1];
     return array.filter(item => item[property].includes(value));
   });
 
-  // Grab experpts and sections from a file
-  eleventyConfig.addFilter("section", require("./src/filters/section.js") );
-  // eleventyConfig.addFilter("featured", require("./src/filters/featured.js") );
+  eleventyConfig.addFilter('luckydip', (array, number) => {
+    if (number > array.length) {
+      number = array.length;
+    }
+    // shuffle the array array
+    const shuffled = array.sort(() => 0.5 - Math.random());
+    return shuffled.slice(0, number);
+  });
+
+
 
   // Static assets to pass through
   eleventyConfig.addPassthroughCopy("./src/site/fonts");
