@@ -54,9 +54,6 @@ module.exports = function(eleventyConfig) {
 
 
 
-  // Static assets to pass through
-  eleventyConfig.addPassthroughCopy("./src/site/fonts");
-
   // Support yaml for data files
   eleventyConfig.addDataExtension("yaml", contents => yaml.safeLoad(contents));
 
