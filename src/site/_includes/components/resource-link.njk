@@ -1,5 +1,6 @@
 <li class="mt-6">
   <h4 class="text-lg font-bold"><a href="{{ item.link }}" rel="noopener" target="_BLANK">{{ item.title }}</a></h4>
-  <time value="{{ item.date | htmlDate }}" class="text-gray-600">{{ item.date | readableDate }}</time>
-  <p>{{ item.synopsis }}</p>
+  <time value="{{ item.date | htmlDate }}" class="text-gray-600 text-xs">{{ item.date | readableDate }}</time>
+  <p class="text-gray-600 text-xs">{{ item.link }}</p>
+  <p>{{ item.description }}</p>
 </li>
