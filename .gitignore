@@ -1,13 +1,8 @@
 # dependecies installed by npm
-/node_modules
+node_modules
 
 # build artefacts
-/dist
-/src/site/_includes/css
-
-# secrets and errors
-.env
-/yarn-error.log
+dist
 
 # macOS related files
 .DS_Store
