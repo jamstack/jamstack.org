@@ -5,10 +5,6 @@ const yaml = require("js-yaml");
 module.exports = function(eleventyConfig) {
 
 
-
-  // Layout aliases for convenience
-  eleventyConfig.addLayoutAlias('default', 'layouts/base.njk');
-
   // a debug utility
   eleventyConfig.addFilter('dump', obj => {
     return util.inspect(obj)
