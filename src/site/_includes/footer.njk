@@ -11,16 +11,16 @@
   ]
 %}
 
-<div class="mt-32 pb-16 text-xs bg-gray-900">
-<footer class="container max-w-4xl lg:max-w-5xl mx-auto py-8 md:px-16 leading-relaxed antialiased">
-  <section class="max-w-lg">
-  <p>
-    Contribute content and corrections by raising issues or submitting pull requests to the <a href="{{ pkg.repository.url }}">repository on Github</a>.
-  </p>
-  <p>
-    There might be one or two legal discalimers in here which we'll need to decide on and perhaps take some advice about.
-  </p>
-  </section>
-  {% include "navigation-links.njk" %}
-</footer>
+<div class="mt-20 py-16 text-xs bg-gray-900">
+  <footer class="container max-w-4xl lg:max-w-5xl mx-auto py-8 md:px-16 leading-relaxed antialiased">
+    {% include "navigation-links.njk" %}
+    <section class="max-w-lg">
+    <p>
+      Contribute content and corrections by raising issues or submitting pull requests to the <a href="{{ pkg.repository.url }}">repository on Github</a>.
+    </p>
+    <p>
+      There might be one or two legal discalimers in here which we'll need to decide on and perhaps take some advice about.
+    </p>
+    </section>
+  </footer>
 </div>
