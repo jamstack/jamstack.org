@@ -76,7 +76,7 @@ cd jamstack.org
 npm install
 
 # run the build and dev server locally
-npm run start
+npm start
 ```
 
 

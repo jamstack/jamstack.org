@@ -9,13 +9,13 @@
     "url": "https://github.com/jamstack/jamstack.org"
   },
   "scripts": {
-    "build": "npm-run-all build:css build:html",
-    "build:css": "postcss src/css/tailwind.css -o dist/css/styles.css",
+    "build": "npm-run-all build:html build:css",
     "build:html": "eleventy",
-    "watch:css": "postcss src/css/tailwind.css -o dist/css/styles.css --watch",
+    "build:css": "postcss src/css/tailwind.css -o dist/css/styles.css",
     "watch:html": "eleventy --watch",
+    "watch:css": "postcss src/css/tailwind.css -o dist/css/styles.css --watch",
     "serve": "live-server dist",
-    "start": "npm-run-all --parallel watch:css watch:html serve"
+    "start": "npm-run-all --parallel watch:html watch:css serve"
   },
   "dependencies": {
     "@11ty/eleventy": "^0.10.0",
