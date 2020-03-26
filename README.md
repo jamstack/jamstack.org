@@ -16,8 +16,8 @@ We accept contributions submitted as [pull requests](https://github.com/jamstack
 
 To contribute a site:
 
-1. Create a new yaml file in the [`src/site/_data/examples`](/tree/master/src/site/_data/examples) folder with a unique and descriptive name. Populate that file according to the structure shown below.
-1. Add a thumbnail image to the [`src/site/_data/examples`](/tree/master/src/site/images/examples) folder. (Image should be a jpeg 596px wide and 396px tall)
+1. Create a new yaml file in the [`src/site/_data/examples`](src/site/_data/examples) folder with a unique and descriptive name. Populate that file according to the structure shown below.
+1. Add a thumbnail image to the [`src/site/_data/examples`](src/site/images/examples) folder. (Image should be a jpeg 596px wide and 396px tall)
 1. Submit a pull request
 
 _example site yaml reference:_
@@ -39,8 +39,8 @@ tools:
 
 To contribute a link to a resource:
 
-1. Create a new yaml file in the [`src/site/_data/resources`](/tree/master/src/site/_data/resources) folder with a unique and descriptive name. Populate that file according to the structure shown below.
-1. For presentations and video, add an optional thumbnail image to the [`src/site/_data/resources`](/tree/master/src/site/images/resources) folder. (Image should be a jpeg 596px wide and 396px tall)
+1. Create a new yaml file in the [`src/site/_data/resources`](src/site/_data/resources) folder with a unique and descriptive name. Populate that file according to the structure shown below.
+1. For presentations and video, add an optional thumbnail image to the [`src/site/_data/resources`](src/site/images/resources) folder. (Image should be a jpeg 596px wide and 396px tall)
 1. Submit a pull request
 
 _resource yaml reference:_
