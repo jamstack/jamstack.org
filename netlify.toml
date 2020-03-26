@@ -10,7 +10,7 @@
 
 [[redirects]]
   from = "/conference"
-  to = "https://jamstackconf.com/sf"
+  to = "https://jamstackconf.com/"
   status = 302
 
 [[redirects]]

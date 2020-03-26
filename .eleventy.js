@@ -1,27 +1,19 @@
-const { DateTime } = require('luxon');
-const util = require('util');
-const yaml = require("js-yaml");
 
 module.exports = function(eleventyConfig) {
 
+  // Support yaml data files
+  const yaml = require("js-yaml");
+  eleventyConfig.addDataExtension("yaml", contents => yaml.safeLoad(contents));
 
-  // a debug utility
-  eleventyConfig.addFilter('dump', obj => {
-    return util.inspect(obj)
-  });
 
-  // Date helpers
-  eleventyConfig.addFilter('readableDate', dateObj => {
+  // Date helper
+  const { DateTime } = require('luxon');
+  eleventyConfig.addFilter('formatDate', (dateObj, formatStr) => {
+    const format = formatStr ? formatStr : 'LLLL d, y';
     return DateTime.fromJSDate(dateObj, {
       zone: 'utc'
-    }).toFormat('LLLL d, y');
+    }).toFormat(format);
   });
-  eleventyConfig.addFilter('htmlDate', dateObj => {
-    return DateTime.fromJSDate(dateObj, {
-      zone: 'utc'
-    }).toFormat('y-MM-dd');
-  });
-
 
   // filter a data array based on the value of a property
   eleventyConfig.addFilter('select', (array, clause) => {
@@ -31,12 +23,12 @@ module.exports = function(eleventyConfig) {
   });
 
   // Get a random selection of items from an array
-  eleventyConfig.addFilter('luckydip', (array, number) => {
-    if (number > array.length) {
-      number = array.length;
+  eleventyConfig.addFilter('luckydip', (array, count) => {
+    if (count > array.length) {
+      count = array.length;
     }
-    const shuffled = array.sort(() => 0.5 - Math.random());
-    return shuffled.slice(0, number);
+    const shuffled = array.sort( () => 0.5 - Math.random() );
+    return shuffled.slice(0, count);
   });
 
   // Convert an associative array into an indexable, iterable array
@@ -50,13 +42,19 @@ module.exports = function(eleventyConfig) {
 
 
 
-  // Support yaml for data files
-  eleventyConfig.addDataExtension("yaml", contents => yaml.safeLoad(contents));
 
   // convert json to yaml
   eleventyConfig.addFilter('dumpasyaml', obj => {
     return yaml.safeDump(obj)
   });
+
+  // a debug utility
+  const util = require('util');
+  eleventyConfig.addFilter('dump', obj => {
+    return util.inspect(obj)
+  });
+
+
 
 
   return  {
