@@ -1071,3 +1071,16 @@ examples:
       - tool: GitHub
       - tool: Matter.js
       - tool: SASS
+  - title: Andrew Zeller
+    description: The portfolio site of Andrew Zeller, a front-end engineer and designer from California
+    link: https://zeller.io
+    thumbnailurl: /img/examples/andrew-zeller.jpg
+    tools:
+      - tool: Gatsby
+      - tool: React
+      - tool: Sanity.io
+      - tool: Styled-Components
+      - tool: Framer Motion
+      - tool: GitHub
+      - tool: Netlify
+      - tool: Google Analytics
