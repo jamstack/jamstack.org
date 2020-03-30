@@ -1,5 +1,16 @@
 ---
 examples:
+  - title: Design Systems Repo
+    description: A frequently updated collection of Design System examples and resources.
+    link: https://designsystemsrepo.com
+    thumbnailurl: /img/examples/design-systems-repo.jpg
+    tools:
+      - tool: Netlify
+      - tool: Gridsome
+      - tool: GraphQL
+      - tool: Netlify CMS
+      - tool: Markdown
+      - tool: Github
   - title: Appristas
     description: Web and Mobile development team from Azerbaijan
     link: https://www.appristas.io
