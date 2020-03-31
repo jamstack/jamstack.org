@@ -1095,3 +1095,13 @@ examples:
       - tool: GitHub
       - tool: Netlify
       - tool: Google Analytics
+  - title: QuickChart
+    description: An API for rendering static chart images and PDFs.
+    link: https://quickchart.io
+    thumbnailurl: /img/examples/quickchart.png
+    tools:
+      - tool: Eleventy
+      - tool: Nunjucks
+      - tool: Markdown
+      - tool: GitHub
+      - tool: Netlify
