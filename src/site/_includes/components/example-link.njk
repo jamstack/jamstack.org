@@ -1,7 +1,11 @@
-<li class="mt-4">
+<li class="mt-4 mb-6">
   <h4 class="text-lg font-bold"><a href="{{ item.link }}" rel="noopener" target="_BLANK">{{ item.title }}</a></h4>
   <p class="text-gray-600 text-xs">{{ item.link }}</p>
-  <p class="text-gray-400 text-xs mt-0">Tools: {{ item.tools | join(", ", "tool") }}</p>
+  <p class="text-gray-400 text-xs mt-2">
+    {% for tool in item.tools %}
+    <span class="inline-block bg-blue-800 px-2 py-1 mb-1 rounded shadow">{{ tool.tool }}</span>
+    {% endfor %}
+  </p>
 </li>
 
 
