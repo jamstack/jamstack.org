@@ -4,19 +4,33 @@ layout: layouts/base.njk
 ---
 
 
-<section>
-  <h2 class="heading">Gallery and Examples</h2>
-  <p>
+<section class="mt-20">
+  <h1 class="text-white font-semi-bold text-6xl">Gallery and Examples</h1>
+  <p class="text-xl text-red-500 font-serif leading-relaxed max-w-l">
     There are examples from around the community and industry
   </p>
+  <p class="max-w-l">
+    Explore a selection of example Jamstack sites contributed by the community. You can also <a href="{{ pkg.repository.url }}/pulls">submit your own</a> to be included in this list.
+  </p>
+</section>
 
-  <div class="mt-6 flex flex-wrap justify-around lg:justify-between">
+<section class="mt-12">
+  <h2 class="text-white font-semi-bold text-4xl">Featured</h2>
+  <p class="text-xl text-red-500 font-serif leading-relaxed max-w-l">
+    Some great reference examples of Jamstack sites
+  </p>
+  <div class="mt-12 flex flex-wrap justify-around lg:justify-between">
     {% for item in examples | iterable | selectattr("featured") | luckydip(6) %}
       {% include "components/thumbnail-link.njk" %}
     {% endfor %}
   </div>
 
-  <h3 class="heading">More examples</h3>
+</section>
+<section class="mt-12">
+  <h2 class="text-white font-semi-bold text-4xl">More examples</h2>
+  <p class="text-xl text-red-500 font-serif leading-relaxed max-w-l">
+   Explore all the submitted examples, and sort them according to the tools used.
+  </p>
   <ul class="mt-12">
   {% for item in examples | iterable | rejectattr("featured") %}
     {% include "components/example-link.njk" %}
