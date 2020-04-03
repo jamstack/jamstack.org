@@ -59,4 +59,8 @@ h3.heading {
 }
 
 
+.columns-3 {
+  columns: 3;
+}
+
 @tailwind utilities;
