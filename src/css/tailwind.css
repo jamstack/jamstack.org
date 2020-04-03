@@ -53,10 +53,9 @@ h3.heading {
 }
 
 
-
-
 :target {
-  @apply bg-gray-900;
+  @apply bg-blue-800;
+  @apply rounded;
 }
 
 
