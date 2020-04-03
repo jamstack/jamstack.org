@@ -3,10 +3,11 @@ title: Resources
 layout: layouts/base.njk
 ---
 
-<section class="p-8 pb-12 mb-6 ">
-  <h1 class="text-white font-bold text-5xl leading-tight">Resources</h1>
-  <p class="text-xl text-gray-500 leading-tight mb-6 ">
-   Learn more about the architecture changing modern web development
+
+<section class="mt-20">
+  <h1 class="text-white font-semi-bold text-6xl">Resources</h1>
+  <p class="text-xl text-red-500 font-serif leading-relaxed max-w-xl">
+    Learn more about the architecture changing modern web development
   </p>
   <p>
     More and more people are talking about the Jamstack. We've curated some of our favorite resources here to help you get started, and to learn more about how people are using the Jamstack.
@@ -17,12 +18,13 @@ layout: layouts/base.njk
 </section>
 
 
-<section>
-  <h2 class="heading">Videos and Presentations</h2>
-  <p>
-    These are great presentations to help understand what the Jamstack is, and how it can be used to great effect.
+
+<section class="mt-12">
+  <h2 class="text-white font-semi-bold text-3xl">Videos and Presentations</h2>
+  <p class="text-xl text-red-500 font-serif leading-relaxed max-w-xl">
+   These are great presentations to help understand what the Jamstack is, and how it can be used to great effect.
   </p>
-  <div class="mt-6 flex flex-wrap justify-around lg:justify-between">
+  <div class="mt-12 mb-6 flex flex-wrap justify-around lg:justify-between">
     {% for item in resources | iterable | selectattr("featured") | select("type=video") | luckydip(3)  %}
       {% include "components/thumbnail-link.njk" %}
     {% endfor %}
@@ -30,10 +32,9 @@ layout: layouts/base.njk
   <a href="/resources/videos" class="mt-6 " >More videos and presentations →</a>
 </section>
 
-
-<section>
-  <h2 class="heading">Articles and resources</h2>
-  <p>
+<section class="mt-12">
+  <h2 class="text-white font-semi-bold text-3xl">Articles and resources</h2>
+  <p class="text-xl text-red-500 font-serif leading-relaxed max-w-xl">
     Selected recent articles and case studies of Jamstack implementations.
   </p>
   <ul class="mt-12">
@@ -45,7 +46,7 @@ layout: layouts/base.njk
 </section>
 
 
-<section class="p-8 mb-12 bg-white md:rounded">
+<section class="mt-20 p-8 mb-12 bg-white md:rounded">
   <h1 class="text-gray-800 font-bold text-3xl leading-tight">Modern Web Development on the Jamstack</h1>
   <p class="text-lg text-gray-600">
     A report on the Jamstack from O'Reilly
