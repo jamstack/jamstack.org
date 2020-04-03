@@ -9,12 +9,11 @@
 */
 section {
   @apply p-8;
-  @apply pb-24;
 }
 section a {
   @apply text-white;
   @apply border-b;
-  @apply border-yellow-400;
+  @apply border-red-500;
 }
 section a:hover,
 section a:focus {
@@ -53,31 +52,7 @@ h3.heading {
   }
 }
 
-/*
-  Navigation links
-*/
-.nav-tab {
-  @apply inline-block;
-  @apply pr-4;
-  @apply text-yellow-200;
-  @apply border-yellow-400;
-  @apply text-left;
-  @apply py-6;
-}
-.nav-tab:hover {
-  @apply border-white;
-  @apply text-white;
-}
-@screen md {
-  .nav-tab {
-    @apply pr-8;
-  }
-}
-@screen lg {
-  .nav-tab {
-    @apply pr-16;
-  }
-}
+
 
 
 :target {

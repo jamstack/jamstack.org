@@ -67,7 +67,7 @@ Before submitting a pull request, or if you are suggesting/contributing code or 
 
 ```bash
 # Clone this repository to your local environment
-git clone https://github.com/jamstack/jamstack.org
+git clone git@github.com:jamstack/jamstack.org.git
 
 # move in to your local site folder
 cd jamstack.org

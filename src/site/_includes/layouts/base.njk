@@ -6,13 +6,17 @@
     <link rel="stylesheet" href="/css/styles.css">
     <title>{{ title }}</title>
   </head>
-  <body class="bg-gray-800 text-gray-400 ">
+  <body class="bg-blue-900 text-blue-100 ">
     {% include "banner.njk" %}
     <div class="container max-w-4xl lg:max-w-5xl mx-auto py-8 md:px-16 leading-relaxed antialiased">
       {% include "header.njk" %}
       {{ content | safe }}
     </div>
-    {% include "footer.njk" %}
+    <div class="mt-24 bg-white pt-12 pb-12">
+      <div class="container max-w-4xl lg:max-w-5xl mx-auto py-8 md:px-16 leading-relaxed antialiased">
+      {% include "footer.njk" %}
+      </div>
+    </div>
   </body>
 </html>
 

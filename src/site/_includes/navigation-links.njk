@@ -1,7 +1,10 @@
-  <ul class="flex items-row px-8">
+  <ul class="inline-block">
   {% for link in linkList %}
-    <li class="pr-1">
-      <a href="{{ link.url }}" class="nav-tab {% if page.url.split("/")[1] == link.url.split("/")[1] %} border-t-2 {% else  %} border-t {% endif %}">{{ link.text }}</a>
+    <li class="inline mr-12">
+      <a href="{{ link.url }}"
+        class="font-semibold {% if page.url.split("/")[1] == link.url.split("/")[1] %} text-red-500 {% endif %}">
+        {{ link.text }}
+      </a>
     </li>
   {% endfor %}
   </ul>

@@ -3,37 +3,28 @@ title: Jamstack
 layout: layouts/base.njk
 ---
 
-<section class="p-8 pb-12 mb-12 bg-gray-700 md:rounded">
-  <h1 class="text-white font-bold text-5xl">Jamstack</h1>
-  <p class="text-xl leading-relaxed max-w-2xl">
-    Create fast and secure sites and dynamic apps with <span class="text-white font-bold">pre-rendered</span> resources served directly from a <a href="/glossary#cdn" title="Glossary: Content Delivery Network">CDN</a>, removing the requirement to manage or run web servers.
+<section class="mt-20">
+  <h1 class="text-white font-semi-bold text-6xl">Jamstack</h1>
+  <p class="text-xl text-red-500 font-serif leading-relaxed max-w-2xl">
+    Create fast and secure sites and dynamic apps with pre-rendered resources served directly from a <a href="/glossary#cdn" title="Glossary: Content Delivery Network" class="text-red-200 border-red-200">CDN</a>, removing the requirement to manage or run web servers.
+  </p>
+  <p>
+    You may have already seen or worked on Jamstack sites. They might be built using tools like Gatsby | Vue | Next | Nuxt | Jekyll | Hugo...
+  </p>
+  <p>
+    The thing that they all have in common is that they don’t depend on a web server.
   </p>
 </section>
 
 
-<section>
-  <h2 class="heading">What would be considered Jamstack?</h2>
-  <p>
-    You may have already seen or worked on a Jamstack site! They do not have to include all attributes of JavaScript, APIs, and Markup.
-  </p>
-  <p>
-    They might be built using Gatsby | Vue | Next | Nuxt | Jekyll | Hugo...
-  </p>
-  <p>
-    <em>
-      The thing that they all have in common is that they don’t depend on a web server.
-    </em>
-  </p>
-</section>
-
-<section class="lg:px-0">
-  <h2 class="heading lg:px-8 lg:text-center">What are the benefits of Jamstack?</h2>
-  <p class="heading lg:px-8 lg:mb-6 lg:text-center">
+<section class="mt-12">
+  <h2 class="text-white font-semi-bold text-3xl">What are the benefits of Jamstack?</h2>
+  <p class="text-xl text-red-500 font-serif leading-relaxed max-w-2xl">
     There are many benefits to this approach to web development, such as:
   </p>
 
   <div class="flex flex-wrap justify-between">
-    <div class="lg:w-5/12 lg:text-center">
+    <div class="lg:w-5/12">
       <h3 class="heading"> Security</h3>
       <p>
         The Jamstack removes multiple moving parts and systems from the hosting infrastructure resulting in fewer servers and systems to harden against attack.
@@ -42,7 +33,7 @@ layout: layouts/base.njk
         Serving pages and assets as pre-generated files allows read-only hosting reducing attack vectors even further. Meanwhile dynamic tools and services can be provided by vendors with teams dedicated to securing their specific systems and providing high levels of service.
       </p>
     </div>
-    <div class="lg:w-5/12 lg:text-center">
+    <div class="lg:w-5/12">
       <h3 class="heading"> Scale</h3>
       <p>
         Popular architectures deal with heavy traffic loads by adding logic to cache popular views and resources. The Jamstack provides this by default. When sites can be served entirely from a <a href="/glossary#cdn" title="Glossary: Content Delivery Network">CDN</a> there is no complex logic or workflow to determine what assets can be cached and when.
@@ -51,14 +42,14 @@ layout: layouts/base.njk
         With Jamstack sites everything can be cached in a content delivery network. With simpler deployments, built-in redundancy and incredible load capacity.
       </p>
     </div>
-    <div class="lg:w-5/12 lg:text-center">
+    <div class="lg:w-5/12">
       <h3 class="heading"> Performance</h3>
       <p>
         Page loading speeds have an impact on user experience and conversion. Jamstack sites remove the need to generate page views on a server at request time by instead generating pages ahead of time during a build.
       </p>
       <p>With all the pages are already available on a CDN close to the user and ready to serve, very high performance is possible without introducing expensive or complex infrastructure.</p>
     </div>
-    <div class="lg:w-5/12 lg:text-center">
+    <div class="lg:w-5/12">
       <h3 class="heading"> Maintainability</h3>
       <p>
         When hosting complexity is reduced, so are maintenance tasks. A pre-generated site, being served directly from a simple host or directly from a CDN doesn't need a team of experts to "keep the lights on".
@@ -67,7 +58,7 @@ layout: layouts/base.njk
         The work was done during the build, so now the generated site is stable and can be hosted without servers which might require patching, updating and maintain.
     </p>
     </div>
-    <div class="lg:w-5/12 lg:text-center">
+    <div class="lg:w-5/12">
       <h3 class="heading"> Portability</h3>
       <p>
         Jamstack sites are pre-generated. That means that you can host them from a wide variety of hosting services and have greater ability to move them to your preferred host. Any simple static hosting solution should be able to serve a Jamstack site.
@@ -76,57 +67,76 @@ layout: layouts/base.njk
         Bye-bye infrastructure lock-in.
       </p>
     </div>
-    <div class="lg:w-5/12 lg:text-center">
+    <div class="lg:w-5/12">
       <h3 class="heading"> Developer Experience</h3>
       <p>
-        Jamstack sites can be built with a wide variety of tools. They do not depend on the proprietary technologies or exotic and little known frameworks. Instead, they build on widely available tools and conventions. As a result, it's not hard to find enthusiastic and talented developers who have the right skills to build with the Jamstack. Efficiency and effectiveness can soar. Just take a look at what developers are saying about working with the Jamstack.
+        Jamstack sites can be built with a wide variety of tools. They do not depend on the proprietary technologies or exotic and little known frameworks. Instead, they build on widely available tools and conventions. As a result, it's not hard to find enthusiastic and talented developers who have the right skills to build with the Jamstack. Efficiency and effectiveness can soar.
       </p>
     </div>
-
-  </div>
+</div>
 </section>
 
 
-<section>
-  <h2 class="heading">Learn more about Jamstack</h2>
-  <p>
-    Looking to learn more? These resources are a good place to start:
+
+<section class="mt-12">
+  <h2 class="text-white font-semi-bold text-4xl">Learn more about Jamstack</h2>
+  <p class="text-xl text-red-500 font-serif leading-relaxed max-w-2xl">
+    You can find <a href="/examples" class="text-red-200 border-red-200">examples</a> and <a href="/resources" class="text-red-200 border-red-200">resources</a> on this site.
   </p>
-  <p>{ 3 or 4 videos/decks/articles selected as a good primer }.</p>
   <p>
-    More people are learning about the Jamstack every day and sharing their expertise. Explore <a href="/resources">the resources section</a> for much more.
+    These were recently added:
+  </p>
+  <ul class="mt-10 mb-8">
+  {% for item in (resources | iterable | sort(true, false, 'date')).slice(0,5) %}
+    <li class="pb-4">
+      <p class="text-xs">{{ item.date | formatDate('MMM dd, yyyy')  }} </p>
+      <a href="{{ item.link}}" target="_BLANK" rel="noopener">{{ item.title }}</a>
+    </li>
+  {% endfor %}
+  </ul>
+  <p>
+    Explore <a href="/resources">the resources section</a> for much more.
   </p>
 </section>
 
-<section class="flex flex-wrap justify-between">
-  <h2 class="heading">Jamstack IRL</h2>
-  <p>
-    Jamstack meetups are springing up all over the world. Find one near you (or start your own?) to join the community.
+<section class="mt-12 ">
+  <h2 class="text-white font-semi-bold text-4xl">Jamstack in real life</h2>
+  <p class="text-xl text-red-500 font-serif leading-relaxed max-w-2xl">
+    Jamstack meetups are springing up all over the world.
   </p>
-  <div class="lg:w-5/12 pr-8 lg:pr-0">
-    <h3 class="heading">Upcoming Jamstack meetups</h3>
-    <p>
-        { 1 - 3 scheduled meetups from an API }
+  <p>
+    Find one near you (or start your own) to join the community.
+  </p>
+  <div class="flex flex-wrap justify-between">
+    <div class="lg:w-5/12 pr-8 lg:pr-0">
+      <h3 class="heading">Upcoming Jamstack meetups</h3>
+      <p>
+          { 1 - 3 scheduled meetups from an API }
+        </p>
+      <p>
+        <a href="/cmmunity/meetups">Explore the community of Jamstack meetups</a>
       </p>
-    <p>
-      <a href="/cmmunity/meetups">Explore the community of Jamstack meetups</a>
-    </p>
-  </div>
-  <div class="lg:w-5/12">
-    <h3 class="heading"> Recently at a Jamstack meetup</h3>
-    <p>
-        { 3-6 recent talks at meetups from an API }
-    </p>
-    <p>
-      <a href="/cmmunity/meetups">See more talks from Jamstack meetups</a>
-    </p>
+    </div>
+    <div class="lg:w-5/12">
+      <h3 class="heading"> Recently at a Jamstack meetup</h3>
+      <p>
+          { 3-6 recent talks at meetups from an API }
+      </p>
+      <p>
+        <a href="/cmmunity/meetups">See more talks from Jamstack meetups</a>
+      </p>
+    </div>
   </div>
 </section>
 
-<section>
-  <h2 class="heading">Join the conversation</h2>
+
+<section class="mt-12 ">
+  <h2 class="text-white font-semi-bold text-4xl">Join the conversation</h2>
+  <p class="text-xl text-red-500 font-serif leading-relaxed max-w-2xl">
+    The conversation about Jamstack is happening right now.
+  </p>
   <p>
-      The conversation about Jamstack is happening right now. See what people are saying on Twitter or join <b>803</b> developers, vendors, and agencies who are already discussing Jamstack in the official <a href="/slack" target="_BLANK" rel="noopener">Jamstack community Slack</a>.
+    See what people are saying <a href="https://twitter.com/search?q=%23jamstack&f=live" target="_BLANK" rel="noopener">on Twitter</a> or join <b>1205</b> developers, vendors, and agencies who are already discussing Jamstack in the official <a href="/slack" target="_BLANK" rel="noopener">Jamstack community Slack</a>.
   </p>
 </section>
 
