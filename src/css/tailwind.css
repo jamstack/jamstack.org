@@ -13,11 +13,11 @@ section {
 section a {
   @apply text-white;
   @apply border-b;
-  @apply border-red-500;
+  @apply border-blue-100;
 }
 section a:hover,
 section a:focus {
-  @apply border-white;
+  @apply border-red-500;
 }
 p+p {
   @apply mt-4;
