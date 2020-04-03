@@ -18,18 +18,17 @@ layout: layouts/base.njk
 </section>
 
 
-
 <section class="mt-12">
   <h2 class="text-white font-semi-bold text-3xl">Videos and Presentations</h2>
   <p class="text-xl text-red-500 font-serif leading-relaxed max-w-xl">
    These are great presentations to help understand what the Jamstack is, and how it can be used to great effect.
   </p>
+  <p><a href="/resources/videos" class="mt-6">More videos and presentations →</a></p>
   <div class="mt-12 mb-6 flex flex-wrap justify-around lg:justify-between">
     {% for item in resources | iterable | selectattr("featured") | select("type=video") | luckydip(3)  %}
       {% include "components/thumbnail-link.njk" %}
     {% endfor %}
   </div>
-  <a href="/resources/videos" class="mt-6 " >More videos and presentations →</a>
 </section>
 
 <section class="mt-12">
@@ -37,12 +36,12 @@ layout: layouts/base.njk
   <p class="text-xl text-red-500 font-serif leading-relaxed max-w-xl">
     Selected recent articles and case studies of Jamstack implementations.
   </p>
+  <p><a href="/resources/articles" class="mt-6">More articles and resources →</a></p>
   <ul class="mt-12">
   {% for item in resources | iterable | selectattr("featured") | select("type=article") | luckydip(5) %}
     {% include "components/resource-link.njk" %}
   {% endfor %}
   </ul>
-  <a href="/resources/articles" class="mt-12 inline-block" >More articles and resources →</a>
 </section>
 
 

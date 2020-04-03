@@ -3,10 +3,9 @@ title: Examples
 layout: layouts/base.njk
 ---
 
-
 <section class="mt-20">
   <h1 class="text-white font-semi-bold text-6xl">Gallery and Examples</h1>
-  <p class="text-xl text-red-500 font-serif leading-relaxed max-w-l">
+  <p class="text-xl text-red-500 font-serif leading-relaxed max-w-lg">
     There are examples from around the community and industry
   </p>
   <p class="max-w-l">
@@ -16,7 +15,7 @@ layout: layouts/base.njk
 
 <section class="mt-12">
   <h2 class="text-white font-semi-bold text-4xl">Featured</h2>
-  <p class="text-xl text-red-500 font-serif leading-relaxed max-w-l">
+  <p class="text-xl text-red-500 font-serif leading-relaxed max-w-lg">
     Some great reference examples of Jamstack sites
   </p>
   <div class="mt-12 flex flex-wrap justify-around lg:justify-between">
@@ -24,11 +23,11 @@ layout: layouts/base.njk
       {% include "components/thumbnail-link.njk" %}
     {% endfor %}
   </div>
-
 </section>
+
 <section class="mt-12">
   <h2 class="text-white font-semi-bold text-4xl">More examples</h2>
-  <p class="text-xl text-red-500 font-serif leading-relaxed max-w-l">
+  <p class="text-xl text-red-500 font-serif leading-relaxed max-w-lg">
    Explore all the submitted examples, and sort them according to the tools used.
   </p>
   <ul class="mt-12">
@@ -37,3 +36,11 @@ layout: layouts/base.njk
   {% endfor %}
   </ul>
 </section>
+
+<section class="mt-12">
+  <h2 class="text-white font-semi-bold text-3xl">Contribute</h2>
+  <p>
+    Should your site be featuired here in this gallery? Let us know about it by <a href="{{ pkg.repository.url }}" target="_BLANK" rel="noopener">opening a pull request</a>.
+  </p>
+</section>
+

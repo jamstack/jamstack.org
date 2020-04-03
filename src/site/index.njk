@@ -91,12 +91,9 @@ layout: layouts/base.njk
   <p>
     These were recently added:
   </p>
-  <ul class="mt-10 mb-8">
+  <ul class="my-12">
   {% for item in (resources | iterable | sort(true, false, 'date')).slice(0,5) %}
-    <li class="pb-4">
-      <p class="text-xs">{{ item.date | formatDate('MMM dd, yyyy')  }} </p>
-      <a href="{{ item.link}}" target="_BLANK" rel="noopener">{{ item.title }}</a>
-    </li>
+    {% include "components/resource-link.njk" %}
   {% endfor %}
   </ul>
   <p>
