@@ -1,6 +1,6 @@
   <ul class="inline-block">
   {% for link in linkList %}
-    <li class="inline mr-12">
+    <li class="block py-1 md:inline md:mr-12">
       <a href="{{ link.url }}"
         class="font-semibold {% if page.url.split("/")[1] == link.url.split("/")[1] %} text-red-500 {% endif %}">
         {{ link.text }}

@@ -26,29 +26,69 @@ p+p {
 
 /*
   Global headings conventions
-*/
-h2.heading {
-  @apply text-2xl;
+  h2.heading {
+    @apply text-2xl;
+    @apply text-white;
+    @apply leading-tight;
+  }
+  @screen md {
+    h2.heading {
+      @apply text-4xl;
+    }
+  }
+  */
+
+
+h1.heading {
   @apply text-white;
-  @apply leading-tight;
+  @apply text-5xl;
+  @apply leading-snug;
+}
+@screen md {
+  h1.heading {
+    @apply text-6xl;
+    @apply mt-12;
+  }
+}
+
+h2.heading {
+  @apply text-3xl;
+  @apply mt-0;
+  @apply text-white;
+  @apply leading-snug;
 }
 @screen md {
   h2.heading {
     @apply text-4xl;
+    @apply mt-12;
   }
 }
-
 h3.heading {
+  @apply text-white;
   @apply mt-10;
   @apply mb-2;
   @apply text-xl;
-  @apply text-white;
-  @apply leading-tight;
+  @apply leading-snug;
 }
 @screen md {
   h3.heading {
     @apply text-2xl;
     @apply mt-16;
+  }
+}
+
+.section-lede {
+  @apply text-lg;
+  @apply text-red-500;
+  @apply font-serif;
+  @apply leading-normal;
+  @apply max-w-2xl;
+  @apply mb-4;
+ }
+ @screen md {
+  .section-lede {
+    @apply text-xl;
+    @apply leading-relaxed;
   }
 }
 
