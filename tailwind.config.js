@@ -10,7 +10,7 @@ module.exports = {
         },
         red : {
           700 : '#ff2b98',
-          500 : '#ff7a9c',
+          500 : '#ff54ac',
           200 : '#ffb1c5',
           100 : '#ffb1d9'
         }
