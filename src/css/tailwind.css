@@ -23,34 +23,22 @@ p+p {
   @apply mt-4;
 }
 
-
 /*
   Global headings conventions
-  h2.heading {
-    @apply text-2xl;
-    @apply text-white;
-    @apply leading-tight;
-  }
-  @screen md {
-    h2.heading {
-      @apply text-4xl;
-    }
-  }
-  */
-
-
+*/
 h1.heading {
   @apply text-white;
   @apply text-5xl;
-  @apply leading-snug;
+  @apply leading-none;
+  @apply mb-2;
 }
 @screen md {
   h1.heading {
     @apply text-6xl;
     @apply mt-12;
+    @apply mb-4;
   }
 }
-
 h2.heading {
   @apply text-3xl;
   @apply mt-0;
