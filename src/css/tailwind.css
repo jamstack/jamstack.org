@@ -70,7 +70,7 @@ h3.heading {
   @apply text-red-500;
   @apply font-serif;
   @apply leading-normal;
-  @apply max-w-2xl;
+  @apply max-w-lg;
   @apply mb-4;
  }
  @screen md {

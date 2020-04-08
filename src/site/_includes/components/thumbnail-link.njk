@@ -1,6 +1,8 @@
 <div class="md:w-1/2 lg:w-1/3 text-left mb-8 pr-10">
   <p class="rounded inline-block bg-gray-700 py-16 px-20 text-center hover:bg-gray-600">THUMBNAIL</p>
   <p><a href="{{ item.link }}" target="_BLANK" rel="noopener">{{ item.title }} →</a></p>
-  <time value="{{ item.date | formatDate('y-MM-dd') }}" class="text-gray-400 text-xs">{{ item.date | formatDate }}</time>
-  <p class="text-gray-600 text-xs">{{ item.link }}</p>
+  {% if item.date %}
+  <time value="{{ item.date | formatDate('y-MM-dd') }}" class="text-gray-400 text-xs">{{ item.date | formatDate }} </time>
+  {% endif %}
+  <p class="mt-0 text-gray-600 text-xs">{{ item.link }}</p>
 </div>
