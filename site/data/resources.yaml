@@ -8,28 +8,28 @@ articles:
     link: https://www.hawksworx.com/blog/isomorphic-rendering-on-the-jam-stack/
   - title: Dynamic product management in a static e-commerce workflow
     link: https://www.contentful.com/blog/2016/02/10/snipcart-middleman-contentful
-  - title: "The JAMstack in 2019: Why (and How) to Get Started"
+  - title: "The Jamstack in 2019: Why (and How) to Get Started"
     link: https://snipcart.com/blog/jamstack
-  - title: "Go static: 5 reasons to try JAMstack on your next project"
+  - title: "Go static: 5 reasons to try Jamstack on your next project"
     link: https://builtvisible.com/go-static-try-jamstack/
   - title: "Zero to HTTP/2 with AWS and Hugo"
     description: A step-by-step guide to creating your own Jamstack site using Amazon Web Services and the Hugo static site generator.
     link: https://habd.as/zero-to-http-2-aws-hugo/
   - title: "Static Websites + Jamstack = <3"
     link: https://julian.is/article/static-websites-and-jamstack/
-  - title: "Going JAMstack with Netlify and Nuxt"
+  - title: "Going Jamstack with Netlify and Nuxt"
     link: https://blog.lichter.io/posts/going-jamstack-with-netlify-and-nuxt/
   - title: "JAMStack: Modern Web Architecture in Digestible Terms"
     link: https://www.gridhaus.com/blog/jamstack-modern-web-architecture-in-digestible-terms
   - title: "What is Jamstack and why you should try it"
     link: https://www.giftegwuenu.com/what-is-jamstack-and-why-you-should-try-it/
-  - title: "Introducing JAMstack: The Modern Web Architecture"
+  - title: "Introducing Jamstack: The Modern Web Architecture"
     link: https://bolajiayodeji.com/an-introduction-to-the-jamstack-the-architecture-of-the-modern-web-c4a0d128d9ca
   - title: "What is the Jamstack and how do I get started?"
     link: https://www.freecodecamp.org/news/what-is-the-jamstack-and-how-do-i-host-my-website-on-it/
   - title: "Jamstack.training - Free video courses on Jamstack technologies"
     link: https://jamstack.training
-  - title: "What is JAMstack and How Does it Work?"
+  - title: "What is Jamstack and How Does it Work?"
     link: https://buttercms.com/blog/what-is-jamstack
 videos:
   - title: Rise of the Jamstack

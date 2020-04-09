@@ -204,7 +204,7 @@ header {
       margin-left: 0;
 
       &:before {
-        content: 'The JAMstack';
+        content: 'The Jamstack';
 
         @media screen and (min-width: 900px) {
           content: '';
