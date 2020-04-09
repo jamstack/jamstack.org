@@ -4,5 +4,5 @@
   {% if item.date %}
   <time value="{{ item.date | formatDate('y-MM-dd') }}" class="text-gray-400 text-xs">{{ item.date | formatDate }} </time>
   {% endif %}
-  <p class="mt-0 text-gray-600 text-xs">{{ item.link }}</p>
+  <p class="mt-0 text-gray-600 text-xs">{{ item.link | domain}}</p>
 </div>

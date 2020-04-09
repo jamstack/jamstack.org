@@ -40,6 +40,12 @@ module.exports = function(eleventyConfig) {
     return iterableArray
   });
 
+  // format a url for display
+  eleventyConfig.addFilter('domain', (str) => {
+    var url = new URL(str);
+    return url.hostname;
+  });
+
 
 
 
