@@ -8,5 +8,5 @@ We actively welcome your pull requests!
 
 ## License
 
-By contributing to [JAMstack](https://jamstack.org/), you agree that your contributions will be licensed
+By contributing to [Jamstack](https://jamstack.org/), you agree that your contributions will be licensed
 under its [MIT license](LICENSE).
