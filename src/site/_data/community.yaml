@@ -2,54 +2,67 @@
     themecolor: '#000'
     btncopy: Join Now
     link: https://www.meetup.com/Jamstack-sf/
+    feed: https://api.meetup.com/Jamstack-sf/events
   - name: Austin
     themecolor: '#000'
     btncopy: Join Now
     link: https://www.meetup.com/Jamstack-Austin/
+    feed: https://api.meetup.com/Jamstack-Austin/events
   - name: Boston
     themecolor: '#000'
     btncopy: Join Now
     link: https://www.meetup.com/Jamstack-Boston/
+    feed: https://api.meetup.com/Jamstack-Boston/events
   - name: Porto
     themecolor: '#000'
     btncopy: Join Now
     link: https://www.meetup.com/Jamstack-Porto/
+    feed: https://api.meetup.com/Jamstack-Porto/events
   - name: New York city
     themecolor: '#000'
     btncopy: Join Now
     link: https://www.meetup.com/Jamstack-nyc/
+    feed: https://api.meetup.com/Jamstack-nyc/events
   - name: London
     themecolor: '#000'
     btncopy: Join Now
     link: https://www.meetup.com/Jamstack-London/
+    feed: https://api.meetup.com/Jamstack-London/events
   - name: Berlin
     themecolor: '#000'
     btncopy: Join Now
     link: https://www.meetup.com/Jamstack_berlin/
+    feed: https://api.meetup.com/Jamstack_berlin/events
   - name: Wrocław
     themecolor: '#000'
     btncopy: Join Now
     link: https://www.meetup.com/Jamstack-Wroclaw/
+    feed: https://api.meetup.com/Jamstack-Wroclaw/events
   - name: Portland
     themecolor: '#000'
     btncopy: Join Now
     link: https://www.meetup.com/Jamstack-Portland/
+    feed: https://api.meetup.com/Jamstack-Portland/events
   - name: Hamburg
     themecolor: '#000'
     btncopy: Join Now
     link: https://www.meetup.com/Jamstack-Hamburg/
+    feed: https://api.meetup.com/Jamstack-Hamburg/events
   - name: Bengaluru
     themecolor: '#000'
     btncopy: Join Now
     link: https://www.meetup.com/Jamstack-Bengaluru/
+    feed: https://api.meetup.com/Jamstack-Bengaluru/events
   - name: Paris
     themecolor: '#000'
     btncopy: Join Now
     link: https://www.meetup.com/fr-FR/Jamstack-paris/
+    feed: https://api.meetup.com/Jamstack-paris/events
   - name: Seattle
     themecolor: '#000'
     btncopy: Join Now
     link: https://www.meetup.com/Jamstack-seattle/
+    feed: https://api.meetup.com/Jamstack-seattle/events
   - name: Tokyo
     themecolor: '#000'
     btncopy: Join Now
@@ -58,6 +71,7 @@
     themecolor: '#000'
     btncopy: Join Now
     link: https://www.meetup.com/Jamstack-Lisbon/
+    feed: https://api.meetup.com/Jamstack-Lisbon/events
   - name: Istanbul
     themecolor: '#000'
     btncopy: Join Now
@@ -66,38 +80,47 @@
     themecolor: '#000'
     btncopy: Join Now
     link: https://www.meetup.com/Jamstack-Oslo/
+    feed: https://api.meetup.com/Jamstack-Oslo/events
   - name: Atlanta
     themecolor: '#000'
     btncopy: Join Now
     link: https://www.meetup.com/Jamstack-Atlanta/
+    feed: https://api.meetup.com/Jamstack-Atlanta/events
   - name: Cincinnati
     themecolor: '#000'
     btncopy: Join Now
     link: https://www.meetup.com/Jamstack-Cincinnati/
+    feed: https://api.meetup.com/Jamstack-Cincinnati/events
   - name: Phoenix
     themecolor: '#000'
     btncopy: Join Now
     link: https://www.meetup.com/Jamstack_PHX/
+    feed: https://api.meetup.com/Jamstack_PHX/events
   - name: Minsk
     themecolor: '#000'
     btncopy: Join Now
     link: https://www.meetup.com/ru-RU/Jamstack-Minsk/
+    feed: https://api.meetup.com/Jamstack-Minsk/events
   - name: Chicago
     themecolor: '#000'
     btncopy: Join Now
     link: https://www.meetup.com/Jamstack-Chicago/
+    feed: https://api.meetup.com/Jamstack-Chicago/events
   - name: Lagos
     themecolor: '#000'
     btncopy: Join Now
     link: https://www.meetup.com/Jamstack-Lagos/
+    feed: https://api.meetup.com/Jamstack-Lagos/events
   - name: Denver
     themecolor: '#000'
     btncopy: Join Now
     link: https://www.meetup.com/Jamstack-Denver/
+    feed: https://api.meetup.com/Jamstack-Denver/events
   - name: Israel
     themecolor: '#000'
     btncopy: Join Now
     link: https://www.meetup.com/Jamstack-IL/
+    feed: https://api.meetup.com/Jamstack-IL/events
   - name: Yemen
     themecolor: '#000'
     btncopy: Join Now
@@ -106,22 +129,27 @@
     themecolor: '#000'
     btncopy: Join Now
     link: https://www.meetup.com/Jamstack_Florence/
+    feed: https://api.meetup.com/Jamstack_Florence/events
   - name: Detroit
     themecolor: '#000'
     btncopy: Join Now
     link: https://www.meetup.com/Jamstack-Detroit/
+    feed: https://api.meetup.com/Jamstack-Detroit/events
   - name: Singapore
     themecolor: '#000'
     btncopy: Join Now
     link: https://www.meetup.com/Jamstack-Singapore/
+    feed: https://api.meetup.com/Jamstack-Singapore/events
   - name: Abuja
     themecolor: '#000'
     btncopy: Join Now
     link: https://www.meetup.com/Jamstack-Abuja/
+    feed: https://api.meetup.com/Jamstack-Abuja/events
   - name: Philadelphia
     themecolor: '#000'
     btncopy: Join Now
-    link: http://meetup.com/Jamstack-Philly/
+    link: http://www.meetup.com/Jamstack-Philly/
+    feed: http://api.meetup.com/Jamstack-Philly/events
   - name: Ulaanbaatar
     themecolor: '#000'
     btncopy: Join Now

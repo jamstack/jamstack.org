@@ -4,10 +4,10 @@ description: 'https://hanhanxue.com/info/'
 link: 'https://hanhanxue.com'
 thumbnailurl: /img/examples/hanhanxue.png
 tools:
-  - tool: Middleman
-  - tool: Sass
-  - tool: Gulp
-  - tool: Critical CSS
-  - tool: Bitbucket
-  - tool: Netlify
+  - Middleman
+  - Sass
+  - Gulp
+  - Critical CSS
+  - BitBucket
+  - Netlify
 

@@ -6,9 +6,9 @@ description: >-
 link: 'https://uicard.io/'
 thumbnailurl: /img/examples/uicardio.jpg
 tools:
-  - tool: Hugo
-  - tool: Git
-  - tool: Netlify
-  - tool: Google Analytics
-  - tool: SASS
+  - Hugo
+  - Git
+  - Netlify
+  - Google Analytics
+  - Sass
 

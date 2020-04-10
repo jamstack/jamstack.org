@@ -4,11 +4,11 @@ description: "A guilt-free place for us to confess our tech sins \U0001F64F"
 link: 'https://confessions.tech'
 thumbnailurl: /img/examples/techconfessions.jpg
 tools:
-  - tool: Gatsby
-  - tool: Netlify
-  - tool: Contentful
-  - tool: Styled Components
-  - tool: GraphQL
-  - tool: GitHub
-  - tool: Disqus
+  - Gatsby.js
+  - Netlify
+  - Contentful
+  - Styled Components
+  - GraphQL
+  - GitHub
+  - Disqus
 

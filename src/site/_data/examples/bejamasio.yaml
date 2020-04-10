@@ -4,8 +4,8 @@ link: https://www.bejamas.io
 thumbnailurl: /img/examples/bejamas.jpg
 featured: true
 tools:
-  - tool: Gatsby
-  - tool: Contentful
-  - tool: Webpack
-  - tool: Firebase
+  - Gatsby.js
+  - Contentful
+  - Webpack
+  - Firebase
 

@@ -6,10 +6,10 @@ description: >-
 link: 'https://www.digitalcontinuum.com/'
 thumbnailurl: /img/examples/digital-continuum.jpg
 tools:
-  - tool: Hexo
-  - tool: Contentful
-  - tool: Sass
-  - tool: Google Analytics
-  - tool: Algolia
-  - tool: Netlify
+  - Hexo
+  - Contentful
+  - Sass
+  - Google Analytics
+  - Algolia
+  - Netlify
 

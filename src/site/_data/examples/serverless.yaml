@@ -6,14 +6,14 @@ description: >-
 link: 'http://www.serverless.com/'
 thumbnailurl: /img/examples/serverless.jpg
 tools:
-  - tool: Webpack
-  - tool: Babel
-  - tool: Phenomic
-  - tool: React
-  - tool: CSS modules
-  - tool: PostCSS
-  - tool: Disqus
-  - tool: Auth0
-  - tool: GitHub
-  - tool: Netlify
+  - Webpack
+  - Babel
+  - Phenomic
+  - React
+  - CSS Modules
+  - PostCSS
+  - Disqus
+  - Auth0
+  - GitHub
+  - Netlify
 

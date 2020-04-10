@@ -4,8 +4,8 @@ description: Headless Cloud CMS + SSG
 link: 'https://www.takeshape.io'
 thumbnailurl: /img/examples/takeshape.png
 tools:
-  - tool: TakeShape.io
-  - tool: AWS s3
-  - tool: Webpack
-  - tool: Sass
+  - TakeShape.io
+  - AWS Amazon S3
+  - Webpack
+  - Sass
 

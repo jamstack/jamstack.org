@@ -7,10 +7,9 @@ description: >-
 link: 'https://www.duskdigital.co/'
 thumbnailurl: /img/examples/dusk.jpg
 tools:
-  - tool: Jekyll
-  - tool: GitHub
-  - tool: Netlify
-  - tool: Sass
-  - tool: npm
-  - tool: Google Analytics
+  - Jekyll
+  - GitHub
+  - Netlify
+  - Sass
+  - Google Analytics
 

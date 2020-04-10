@@ -7,11 +7,11 @@ link: 'https://www.lovenils.org'
 thumbnailurl: /img/examples/lovenils.jpg
 featured: true
 tools:
-  - tool: Netlify
-  - tool: Prismic.io
-  - tool: React
-  - tool: Redux
-  - tool: Gitlab
-  - tool: Sass
-  - tool: Webpack
+  - Netlify
+  - Prismic.io
+  - React
+  - Redux
+  - GitLab
+  - Sass
+  - Webpack
 

@@ -6,9 +6,9 @@ description: >-
 link: 'https://www.stackery.io/'
 thumbnailurl: /img/examples/stackery.jpg
 tools:
-  - tool: GitHub
-  - tool: Lambda
-  - tool: Jekyll
-  - tool: S3
-  - tool: jQuery
+  - GitHub
+  - Lambda
+  - Jekyll
+  - Amazon S3
+  - jQuery
 

@@ -6,11 +6,11 @@ description: >-
 link: 'http://www.universalmind.com/'
 thumbnailurl: /img/examples/universalmind.jpg
 tools:
-  - tool: Hexo
-  - tool: Contentful
-  - tool: Sass
-  - tool: S3
-  - tool: Google Analytics
-  - tool: Algolia
-  - tool: Netlify
+  - Hexo
+  - Contentful
+  - Sass
+  - Amazon S3
+  - Google Analytics
+  - Algolia
+  - Netlify
 

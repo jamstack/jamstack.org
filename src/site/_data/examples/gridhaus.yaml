@@ -6,10 +6,10 @@ description: >-
 link: 'https://www.gridhaus.com'
 thumbnailurl: /img/examples/gridhaus.jpg
 tools:
-  - tool: Netlify
-  - tool: Prismic.io
-  - tool: React
-  - tool: Gitlab
-  - tool: Sass
-  - tool: Webpack
+  - Netlify
+  - Prismic.io
+  - React
+  - GitLab
+  - Sass
+  - Webpack
 

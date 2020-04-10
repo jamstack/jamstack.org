@@ -7,8 +7,8 @@ link: 'https://www.jfkt4.nyc/'
 thumbnailurl: /img/examples/jfkt4.png
 featured: true
 tools:
-  - tool: TakeShape.io
-  - tool: AWS S3
-  - tool: AWS Lambda
-  - tool: Webpack
+  - TakeShape.io
+  - AWS Amazon S3azon S3azon S3
+  - AWS Lambda
+  - Webpack
 

@@ -4,9 +4,9 @@ description: Programming podcast discovery service
 link: 'https://devpodcasts.app/'
 thumbnailurl: /img/examples/devpodcasts.png
 tools:
-  - tool: Netlify
-  - tool: Gatsby
-  - tool: Azure Search
-  - tool: Bootstrap
-  - tool: GitHub
+  - Netlify
+  - Gatsby.js
+  - Azure Search
+  - Bootstrap
+  - GitHub
 

@@ -4,14 +4,14 @@ description: 'Discover over 1,000 product jobs at startups and tech companies'
 link: 'https://www.pathtoproduct.com'
 thumbnailurl: /img/examples/pathtoproduct.jpg
 tools:
-  - tool: Vue
-  - tool: Nuxt
-  - tool: Netlify
-  - tool: Google Maps API
-  - tool: Internal Rails API
-  - tool: GitHub
-  - tool: Service Workers
-  - tool: Tailwind CSS
-  - tool: Markdown
-  - tool: PurgeCSS
+  - Vue
+  - Nuxt
+  - Netlify
+  - Google Maps API
+  - Internal Rails API
+  - GitHub
+  - Service Workers
+  - Tailwind CSS
+  - Markdown
+  - PurgeCSS
 

@@ -4,16 +4,16 @@ description: Articles on web and frontend development written by Bolaji Ayodeji.
 link: 'https://www.bolajiayodeji.com/'
 thumbnailurl: /img/examples/bolajiayodeji.png
 tools:
-  - tool: Hugo
-  - tool: Lunr.js
-  - tool: Bootstrap 4
-  - tool: Grunt
-  - tool: Workbox
-  - tool: CodeFund
-  - tool: TinyLetter
-  - tool: Disqus
-  - tool: Cloudinary
-  - tool: GitHub
-  - tool: Netlify
-  - tool: Google Analytics
+  - Hugo
+  - Lunr.js
+  - Bootstrap
+  - Grunt
+  - Workbox
+  - CodeFund
+  - TinyLetter
+  - Disqus
+  - Cloudinary
+  - GitHub
+  - Netlify
+  - Google Analytics
 

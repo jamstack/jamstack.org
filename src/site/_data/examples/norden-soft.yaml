@@ -1,18 +1,17 @@
 
 title: Norden Soft
 description: >-
-  Nordensoft løsninger= En Moderne Arkitektur. JAMStack, Gatsby, Netlify,
+  Nordensoft løsninger= En Moderne Arkitektur. JAMStack, Gatsby.js, Netlify,
   Netlify CMS, Sanity, Jekyll, Magento 2, Drupal, Wordpress design og udvikling.
 link: 'https://www.nordensoft.dk'
 thumbnailurl: /img/examples/norden-soft.jpg
 tools:
-  - tool: Gatsby
-  - tool: React
-  - tool: Sanity
-  - tool: Netlify
-  - tool: Github
-  - tool: Bootstrap
-  - tool: Git
-  - tool: npm
-  - tool: Google Analytics
+  - Gatsby.js
+  - React
+  - Sanity
+  - Netlify
+  - GitHub
+  - Bootstrap
+  - Git
+  - Google Analytics
 

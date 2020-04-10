@@ -6,11 +6,11 @@ description: >-
 link: 'https://fullstackhq.com'
 thumbnailurl: /img/examples/fullstackhq.jpg
 tools:
-  - tool: Gatsby
-  - tool: Netlify
-  - tool: Netlify CMS
-  - tool: Webpack
-  - tool: Bootstrap
-  - tool: Sass
-  - tool: Github
+  - Gatsby.js
+  - Netlify
+  - Netlify CMS
+  - Webpack
+  - Bootstrap
+  - Sass
+  - GitHub
 

@@ -4,8 +4,8 @@ description: 'The portfolio of Antonin Nhek, Visual Designer & Front-End Develop
 link: 'https://anhek.dev'
 thumbnailurl: /img/examples/anhek.png
 tools:
-  - tool: React
-  - tool: Gatsby
-  - tool: Netlify
-  - tool: Disqus
+  - React
+  - Gatsby.js
+  - Netlify
+  - Disqus
 

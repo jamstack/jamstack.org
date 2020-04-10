@@ -4,8 +4,8 @@ description: CNC machining company with headquarters in Poland.
 link: 'https://www.armexcnc.com/en'
 thumbnailurl: /img/examples/armexcnc.jpg
 tools:
-  - tool: DatoCMS
-  - tool: Next.js
-  - tool: Webpack
-  - tool: Netlify
+  - DatoCMS
+  - Next.js
+  - Webpack
+  - Netlify
 

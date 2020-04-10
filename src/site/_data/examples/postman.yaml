@@ -4,8 +4,8 @@ description: Postman Learning Center
 link: 'https://learning.getpostman.com/'
 thumbnailurl: /img/examples/postman.jpg
 tools:
-  - tool: Gatsby
-  - tool: Contentful
-  - tool: GitHub
-  - tool: AWS S3
+  - Gatsby.js
+  - Contentful
+  - GitHub
+  - AWS Amazon S3
 

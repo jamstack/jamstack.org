@@ -6,14 +6,14 @@ description: >-
 link: 'https://timbenniks.nl'
 thumbnailurl: /img/examples/timbenniks.jpg
 tools:
-  - tool: Nuxt
-  - tool: Vue
-  - tool: Service Workers
-  - tool: Cloudflare
-  - tool: Gitlab
-  - tool: Netlify
-  - tool: Netlify CMS
-  - tool: TwicPics
-  - tool: Sass
-  - tool: Google Analytics
+  - Nuxt
+  - Vue
+  - Service Workers
+  - Cloudflare
+  - GitLab
+  - Netlify
+  - Netlify CMS
+  - TwicPics
+  - Sass
+  - Google Analytics
 

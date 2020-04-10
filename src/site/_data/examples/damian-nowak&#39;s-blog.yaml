@@ -4,12 +4,12 @@ description: Blog & Resume
 link: 'https://www.nowaker.net/'
 thumbnailurl: /img/examples/nowaker.png
 tools:
-  - tool: Middleman
-  - tool: Slim
-  - tool: Sprockets
-  - tool: Sass (SCSS)
-  - tool: Bootstrap
-  - tool: jQuery
-  - tool: GitLab
-  - tool: Firebase
+  - Middleman
+  - Slim
+  - Sprockets
+  - Sass (Sass)
+  - Bootstrap
+  - jQuery
+  - GitLab
+  - Firebase
 

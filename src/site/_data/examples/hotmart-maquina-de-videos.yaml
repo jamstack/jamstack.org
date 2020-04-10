@@ -7,14 +7,14 @@ description: >-
 link: 'https://www.hotmart.com/maquinadevideos/'
 thumbnailurl: /img/examples/hotmart-maquinadevideos.jpg
 tools:
-  - tool: Nuxt.js
-  - tool: Sass
-  - tool: Strapi.io
-  - tool: Github
-  - tool: Google Analytics
-  - tool: Yandex.Metrika
-  - tool: AWS ECS
-  - tool: AWS Cloudfront
-  - tool: AWS Route 53
-  - tool: AWS S3
+  - Nuxt
+  - Sass
+  - Strapi.io
+  - GitHub
+  - Google Analytics
+  - Yandex.Metrika
+  - AWS ECS
+  - AWS Cloudfront
+  - AWS Route 53
+  - AWS Amazon S3azon S3
 

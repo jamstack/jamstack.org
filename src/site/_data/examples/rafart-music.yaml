@@ -4,9 +4,9 @@ description: Chapman Stick player Rafart music project website
 link: 'https://www.rafartmusic.com'
 thumbnailurl: /img/examples/rafartmusic.jpg
 tools:
-  - tool: Netlify
-  - tool: React
-  - tool: Solidity.io
-  - tool: NextJS
-  - tool: GitHub
+  - Netlify
+  - React
+  - Solidity.io
+  - Next.js
+  - GitHub
 

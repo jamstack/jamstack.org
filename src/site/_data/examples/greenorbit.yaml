@@ -6,17 +6,17 @@ description: >-
 link: 'https://www.greenorbit.com'
 thumbnailurl: /img/examples/greenrobit.jpg
 tools:
-  - tool: Serverless Framework
-  - tool: Amazon S3
-  - tool: Amazon CloudFront
-  - tool: Amazon API Gateway
-  - tool: AWS Lambda
-  - tool: AWS Lambda@Edge
-  - tool: Git
-  - tool: TeamCity
-  - tool: React
-  - tool: Gatsby
-  - tool: GraphQL
-  - tool: Sass
-  - tool: ESLint
+  - Serverless Framework
+  - Amazon S3azon S3
+  - Amazon CloudFront
+  - Amazon API Gateway
+  - AWS Lambda
+  - AWS Lambda@Edge
+  - Git
+  - TeamCity
+  - React
+  - Gatsby.js
+  - GraphQL
+  - Sass
+  - ESLint
 

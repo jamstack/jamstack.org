@@ -4,10 +4,10 @@ description: Programcidan Programciya.
 link: 'https://enginpolat.com/'
 thumbnailurl: /img/examples/enginpolat.png
 tools:
-  - tool: Github
-  - tool: GitHub Pages
-  - tool: Jekyll
-  - tool: Cloudflare
-  - tool: Bootstrap
-  - tool: Disqus
+  - GitHub
+  - GitHub Pages
+  - Jekyll
+  - Cloudflare
+  - Bootstrap
+  - Disqus
 

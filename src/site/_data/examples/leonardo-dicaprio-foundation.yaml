@@ -6,8 +6,8 @@ description: >-
 link: 'https://www.leonardodicaprio.org/'
 thumbnailurl: /img/examples/leonardo-dicaprio-foundation.png
 tools:
-  - tool: TakeShape.io
-  - tool: AWS S3
-  - tool: CloudFlare
-  - tool: Webpack
+  - TakeShape.io
+  - AWS Amazon S3azon S3azon S3
+  - Cloudflare
+  - Webpack
 

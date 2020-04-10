@@ -6,10 +6,10 @@ description: >-
 link: 'https://rightfrombasics.com/'
 thumbnailurl: /img/examples/rightfrombasics.jpg
 tools:
-  - tool: Hugo
-  - tool: Markdown
-  - tool: Disqus
-  - tool: Google Analytics
-  - tool: Netlify
-  - tool: GitHub
+  - Hugo
+  - Markdown
+  - Disqus
+  - Google Analytics
+  - Netlify
+  - GitHub
 

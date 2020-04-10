@@ -4,10 +4,9 @@ description: 'A blog about movies, series and pop culture'
 link: 'https://rebelonline.nl'
 thumbnailurl: /img/examples/rebelonline.jpg
 tools:
-  - tool: Hugo
-  - tool: Github
-  - tool: Netlify
-  - tool: Disqus
-  - tool: Vanilla JS & CSS
-  - tool: Google Analytics
+  - Hugo
+  - GitHub
+  - Netlify
+  - Disqus
+  - Google Analytics
 

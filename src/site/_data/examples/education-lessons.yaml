@@ -4,12 +4,12 @@ description: Education Made Easy
 link: 'https://educationlessons.co.in/'
 thumbnailurl: /img/examples/education-lessons.jpg
 tools:
-  - tool: Gatsby
-  - tool: Netlify
-  - tool: Netlify Functions
-  - tool: Firebase
-  - tool: Google Analytics
-  - tool: Google Sheets API
-  - tool: YouTube API
-  - tool: GitLab
+  - Gatsby.js
+  - Netlify
+  - Netlify Functions
+  - Firebase
+  - Google Analytics
+  - Google Sheets API
+  - YouTube API
+  - GitLab
 

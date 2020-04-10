@@ -6,18 +6,18 @@ description: >-
 link: 'https://smokeyfro.com'
 thumbnailurl: /img/examples/smokeyfro.jpg
 tools:
-  - tool: Vue
-  - tool: Gridsome
-  - tool: Zeit Now
-  - tool: GitHub
-  - tool: Ghost
-  - tool: Cockpit
-  - tool: Tailwind CSS
-  - tool: PurgeCSS
-  - tool: PostCSS
-  - tool: Markdown
-  - tool: JustComments
-  - tool: Sendy
-  - tool: Matamo
-  - tool: PurgeCSS
+  - Vue
+  - Gridsome
+  - Zeit Now
+  - GitHub
+  - Ghost
+  - Cockpit
+  - Tailwind CSS
+  - PurgeCSS
+  - PostCSS
+  - Markdown
+  - JustComments
+  - Sendy
+  - Matamo
+  - PurgeCSS
 

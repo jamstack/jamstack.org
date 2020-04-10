@@ -4,14 +4,12 @@ description: Web Hosting with Purpose
 link: 'https://www.dreamhost.com/'
 thumbnailurl: /img/examples/dreamhost.png
 tools:
-  - tool: Jekyll
-  - tool: Sprockets
-  - tool: Sass (SCSS)
-  - tool: Bootstrap
-  - tool: DreamHost.css
-  - tool: jQuery
-  - tool: GitLab
-  - tool: Google Analytics
-  - tool: Locize
-  - tool: Fastly
-
+  - Jekyll
+  - Sprockets
+  - Sass
+  - Bootstrap
+  - jQuery
+  - GitLab
+  - Google Analytics
+  - Locize
+  - Fastly

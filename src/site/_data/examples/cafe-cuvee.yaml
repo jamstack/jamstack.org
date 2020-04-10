@@ -4,12 +4,12 @@ description: French/Swedish restaurant in Stockholm.
 link: 'https://www.cafecuvee.se'
 thumbnailurl: /img/examples/cafe-cuvee.jpg
 tools:
-  - tool: Netlify
-  - tool: GitHub
-  - tool: Jekyll
-  - tool: JQuery
-  - tool: Sass
-  - tool: Zapier
-  - tool: Mailchimp
-  - tool: Google Analytics
+  - Netlify
+  - GitHub
+  - Jekyll
+  - jQuery
+  - Sass
+  - Zapier
+  - Mailchimp
+  - Google Analytics
 

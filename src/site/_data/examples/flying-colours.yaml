@@ -4,12 +4,12 @@ description: Website for Flying Colours Life financial advice services
 link: 'https://www.flyingcolourslife.com'
 thumbnailurl: /img/examples/flyingcolourslife.jpg
 tools:
-  - tool: Sculpin
-  - tool: Amazon S3
-  - tool: CloudFront CDN
-  - tool: Sass
-  - tool: Foundation
-  - tool: Mithril.js
-  - tool: Netlify CMS
-  - tool: Bitbucket
+  - Sculpin
+  - Amazon S3
+  - CloudFront CDN
+  - Sass
+  - Foundation
+  - Mithril.js
+  - Netlify CMS
+  - BitBucket
 

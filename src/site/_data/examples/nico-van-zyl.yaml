@@ -6,7 +6,7 @@ description: >-
 link: 'https://www.nicovanzyl.com'
 thumbnailurl: /img/examples/nvz.png
 tools:
-  - tool: Gridsome
-  - tool: Vue
-  - tool: Netlify
+  - Gridsome
+  - Vue
+  - Netlify
 

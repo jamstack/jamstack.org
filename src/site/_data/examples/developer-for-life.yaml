@@ -4,14 +4,14 @@ description: A blog covering cloud and developer-related topics
 link: 'https://blog.jeremylikness.com/'
 thumbnailurl: /img/examples/developerforlife.jpg
 tools:
-  - tool: Hugo
-  - tool: Service Workers
-  - tool: Cloudflare
-  - tool: Disqus
-  - tool: Google Analytics
-  - tool: GitHub
-  - tool: Azure Pipelines
-  - tool: Azure Container Registry
-  - tool: Azure Storage Static Website
-  - tool: Docker
+  - Hugo
+  - Service Workers
+  - Cloudflare
+  - Disqus
+  - Google Analytics
+  - GitHub
+  - Azure Pipelines
+  - Azure Container Registry
+  - Azure Storage Static Website
+  - Docker
 

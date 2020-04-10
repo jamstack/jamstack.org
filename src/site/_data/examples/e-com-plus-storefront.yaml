@@ -4,16 +4,16 @@ description: Open source PWA & JAMstack ecommerce template for E-Com Plus stores
 link: 'https://storefront-demo.e-com.plus/'
 thumbnailurl: /img/examples/storefront.png
 tools:
-  - tool: Webpack
-  - tool: Babel
-  - tool: Vue.js
-  - tool: EJS
-  - tool: Netlify CMS
-  - tool: Netlify
-  - tool: GitHub
-  - tool: Progressive Web App
-  - tool: Sass
-  - tool: Bootstrap
-  - tool: E-Com Plus platform APIs
-  - tool: Workbox
+  - Webpack
+  - Babel
+  - Vue.js
+  - EJS
+  - Netlify CMS
+  - Netlify
+  - GitHub
+  - Progressive Web App
+  - Sass
+  - Bootstrap
+  - E-Com Plus platform APIs
+  - Workbox
 

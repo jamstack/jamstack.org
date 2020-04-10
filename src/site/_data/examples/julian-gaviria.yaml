@@ -6,12 +6,12 @@ description: >-
 link: 'https://julian.is'
 thumbnailurl: /img/examples/julian.jpg
 tools:
-  - tool: Jekyll
-  - tool: Grunt
-  - tool: CloudFlare
-  - tool: Sass
-  - tool: Critical CSS
-  - tool: GitHub
-  - tool: Service Workers
-  - tool: Web App Manifest
+  - Jekyll
+  - Grunt
+  - Cloudflare
+  - Sass
+  - Critical CSS
+  - GitHub
+  - Service Workers
+  - Web App Manifest
 

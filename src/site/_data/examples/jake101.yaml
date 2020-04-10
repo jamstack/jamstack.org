@@ -6,16 +6,16 @@ description: >-
 link: 'https://jake101.com'
 thumbnailurl: /img/examples/jake101.jpg
 tools:
-  - tool: Nuxt.js
-  - tool: Webpack
-  - tool: Cloudinary
-  - tool: Anime.js
-  - tool: Sass
-  - tool: Netlify
-  - tool: Bitbucket
-  - tool: Google Analytics
-  - tool: Cockpit CMS
-  - tool: FeathersJS
-  - tool: Service Workers
-  - tool: Web App Manifest
+  - Nuxt
+  - Webpack
+  - Cloudinary
+  - Anime.js
+  - Sass
+  - Netlify
+  - BitBucket
+  - Google Analytics
+  - Cockpit
+  - FeathersJS
+  - Service Workers
+  - Web App Manifest
 

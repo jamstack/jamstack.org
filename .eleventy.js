@@ -3,7 +3,9 @@ module.exports = function(eleventyConfig) {
 
   // Support yaml data files
   const yaml = require("js-yaml");
-  eleventyConfig.addDataExtension("yaml", contents => yaml.safeLoad(contents));
+  eleventyConfig.addDataExtension("yaml", contents => yaml.safeLoad(contents))
+
+
 
 
   // Date helper

@@ -4,7 +4,7 @@ description: MAK International Transport of ADR Goods.
 link: 'https://www.mak-kk.eu/en'
 thumbnailurl: /img/examples/mak.jpg
 tools:
-  - tool: Next.js
-  - tool: Webpack
-  - tool: Netlify
+  - Next.js
+  - Webpack
+  - Netlify
 

@@ -4,7 +4,7 @@ description: International Transport company with headquarters in Poland.
 link: 'https://www.loggermts.pl/en'
 thumbnailurl: /img/examples/loggermts.jpg
 tools:
-  - tool: Hugo
-  - tool: Webpack
-  - tool: Netlify
+  - Hugo
+  - Webpack
+  - Netlify
 

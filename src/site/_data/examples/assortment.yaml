@@ -5,12 +5,12 @@ link: 'https://assortment.io'
 thumbnailurl: /img/examples/assortment.png
 featured: true
 tools:
-  - tool: Gatsby
-  - tool: React
-  - tool: Netify
-  - tool: Netlify CMS
-  - tool: Github
-  - tool: Lunr.js
-  - tool: Emotion
-  - tool: Prism.js
+  - Gatsby.js
+  - React
+  - Netlify
+  - Netlify CMS
+  - GitHub
+  - Lunr.js
+  - Emotion
+  - Prism.js
 

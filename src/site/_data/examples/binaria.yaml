@@ -4,16 +4,16 @@ description: Digital product connecting technics & creativity
 link: 'https://binaria.com/en/'
 thumbnailurl: /img/examples/binaria.png
 tools:
-  - tool: Gatsby
-  - tool: React
-  - tool: Wordpress
-  - tool: WPML
-  - tool: Netlify
-  - tool: Google Analytics
-  - tool: React-spring
-  - tool: GSAP
-  - tool: Google Analytics
-  - tool: GitLab
-  - tool: styled-components
-  - tool: Web App Manifest
+  - Gatsby.js
+  - React
+  - Wordpress
+  - WPML
+  - Netlify
+  - Google Analytics
+  - React-spring
+  - GSAP
+  - Google Analytics
+  - GitLab
+  - styled-components
+  - Web App Manifest
 

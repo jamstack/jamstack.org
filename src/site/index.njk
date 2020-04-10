@@ -9,7 +9,7 @@ layout: layouts/base.njk
     Create fast and secure sites and dynamic apps with pre-rendered resources served directly from a <a href="/glossary#cdn" title="Glossary: Content Delivery Network" class="text-red-200 border-red-200">CDN</a>, removing the requirement to manage or run web servers.
   </p>
   <p>
-    You may have already seen or worked on Jamstack sites. They might be built using tools like Gatsby | Vue | Next | Nuxt | Jekyll | Hugo...
+    You may have already seen or worked on Jamstack sites. They might be built using tools like Gatsby.js| Vue | Next | Nuxt | Jekyll | Hugo...
   </p>
   <p>
     The thing that they all have in common is that they don’t depend on a web server.
@@ -112,9 +112,34 @@ layout: layouts/base.njk
   <div class="flex flex-wrap justify-between">
     <div class="lg:w-5/12 pr-8 lg:pr-0">
       <h3 class="heading">Upcoming Jamstack meetups</h3>
-      <p>
-          { 1 - 3 scheduled meetups from an API }
-        </p>
+      <ul>
+      {% for meetup, data in meetups %}
+      <li class="mb-6">
+         <h4 class="text-white">{{ meetup.group.name }}</h4>
+         <p>{{ meetup.venue.name }}</p>
+         <time>{{ meetup.local_date }}</time> starting at <time>{{ meetup.local_time }}</time>
+         <p><a href="{{ meetup.link }}">{{ meetup.name }}</a></p>
+      </li>
+
+      {% endfor %}
+
+      {#
+
+              var event           = events.data[i],
+            meetupDate      = moment(event.time).format('MMM DD'),
+            meetupTime      = moment(event.time).format('h:mm a'),
+            meetupLink      = event.link,
+            meetupLocation  = event.venue ? event.venue.name : 'Location TBA',
+            meetupEventName = event.name;
+
+
+
+
+       #}
+
+
+
+      </ul>
       <p>
         <a href="/cmmunity/meetups">Explore the community of Jamstack meetups</a>
       </p>

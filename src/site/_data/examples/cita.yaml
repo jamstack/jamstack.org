@@ -4,10 +4,10 @@ description: Creative Internet Technology Agency
 link: 'https://www.cita.hr'
 thumbnailurl: /img/examples/cita.png
 tools:
-  - tool: Sass
-  - tool: WebPack 2
-  - tool: Gulp
-  - tool: Critical CSS
-  - tool: Bitbucket
-  - tool: Netlify
+  - Sass
+  - WebPack 2
+  - Gulp
+  - Critical CSS
+  - BitBucket
+  - Netlify
 

@@ -27,11 +27,11 @@ description: A short description of the site.
 link: The URL of this site
 thumbnailurl: /images/examples/this-site-thumbnail.jpg
 tools:
-  - tool: List
-  - tool: of
-  - tool: notable
-  - tool: tools
-  - tool: used
+  - List
+  - of
+  - notable
+  - tools
+  - used
 ```
 
 

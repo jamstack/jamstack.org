@@ -1,0 +1,42 @@
+const fetch = require('node-fetch');
+const yaml = require('js-yaml');
+const fs   = require('fs');
+
+
+module.exports = async () => {
+
+  try {
+    const groups = yaml.safeLoad(fs.readFileSync('./src/site/_data/community.yaml', 'utf8'));
+    let promises = [];
+    let events = [];
+
+    groups.forEach(group => {
+      if(group.feed) {
+        promises.push(
+          fetch(group.feed)
+          .then(res => res.json())
+          .catch(err => {
+            console.log('Error fetching meetup data:', err);
+          })
+        );
+      }
+    });
+
+    return Promise.all(promises)
+      .then((data) => {
+        data.forEach(event => {
+          console.log('event.length :', event);
+          events.push(event)
+        });
+      })
+      .then(() => {
+        return events;
+      });
+
+  } catch (err) {
+    console.log( err);
+  }
+
+}
+
+

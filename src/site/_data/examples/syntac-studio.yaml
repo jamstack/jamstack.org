@@ -4,10 +4,10 @@ description: We Bring Miracles to your Website & Mobile App.
 link: 'https://syntac.co/'
 thumbnailurl: /img/examples/syntac.png
 tools:
-  - tool: Jekyll
-  - tool: Sass
-  - tool: Boostrap
-  - tool: GitHub
-  - tool: Netlify
-  - tool: Netlify CMS
+  - Jekyll
+  - Sass
+  - Bootstrap
+  - GitHub
+  - Netlify
+  - Netlify CMS
 

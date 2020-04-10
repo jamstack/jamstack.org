@@ -30,6 +30,7 @@ layout: layouts/base.njk
   <p class="section-lede">
    Explore all the submitted examples, and sort them according to the tools used.
   </p>
+
   <ul class="mt-12">
   {% for item in examples | iterable | rejectattr("featured") %}
     {% include "components/example-link.njk" %}

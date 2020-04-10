@@ -7,12 +7,12 @@ description: >-
 link: 'http://www.sphero.com/'
 thumbnailurl: /img/examples/sphero.jpg
 tools:
-  - tool: Angular
-  - tool: Jekyll
-  - tool: Grunt
-  - tool: Contentful
-  - tool: Vero API
-  - tool: Sass
-  - tool: GitHub
-  - tool: Netlify
+  - Angular
+  - Jekyll
+  - Grunt
+  - Contentful
+  - Vero API
+  - Sass
+  - GitHub
+  - Netlify
 

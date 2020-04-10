@@ -5,10 +5,10 @@ link: 'https://www.shopflamingo.com'
 thumbnailurl: /img/examples/flamingo.png
 featured: true
 tools:
-  - tool: Gatsby
-  - tool: React
-  - tool: Contentful
-  - tool: Fastly
-  - tool: Amazon S3
-  - tool: styled-components
+  - Gatsby.js
+  - React
+  - Contentful
+  - Fastly
+  - Amazon S3
+  - styled-components
 

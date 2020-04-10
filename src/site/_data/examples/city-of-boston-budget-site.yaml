@@ -5,7 +5,7 @@ link: 'https://budget.boston.gov'
 thumbnailurl: /img/examples/boston-budget.jpg
 featured: true
 tools:
-  - tool: Jekyll
-  - tool: Gulp
-  - tool: Chart.js
+  - Jekyll
+  - Gulp
+  - Chart.js
 

@@ -4,11 +4,10 @@ description: 'Hugo status page. Fast, IE8+, and customizable.'
 link: 'https://github.com/mistermantas/cstate'
 thumbnailurl: /img/examples/cstate.jpg
 tools:
-  - tool: Netlify
-  - tool: Hugo
-  - tool: Netlify CMS
-  - tool: GitHub
-  - tool: Vanilla JS & CSS
-  - tool: Google Analytics
-  - tool: Git
+  - Netlify
+  - Hugo
+  - Netlify CMS
+  - GitHub
+  - Google Analytics
+  - Git
 
