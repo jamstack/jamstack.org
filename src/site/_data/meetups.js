@@ -22,11 +22,13 @@ module.exports = async () => {
       }
     });
 
+    // Return data about any upcoming events
     return Promise.all(promises)
       .then((data) => {
         data.forEach(event => {
-          console.log('event.length :', event);
-          events.push(event)
+          if (event[0]) {
+            events.push(event)
+          }
         });
       })
       .then(() => {

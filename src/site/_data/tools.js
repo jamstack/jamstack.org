@@ -12,7 +12,6 @@ module.exports = () => {
       tools = [...tools, ...example.tools];
     });
     let filteredTools = [...new Set(tools)];
-    console.log('tools :', filteredTools.sort());
     return filteredTools.sort();
   } catch (err) {
     console.log(err);
