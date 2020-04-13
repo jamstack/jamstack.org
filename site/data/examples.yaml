@@ -1116,3 +1116,18 @@ examples:
       - tool: GitHub
       - tool: Bootstrap
       - tool: Disqus
+  - title: Hue Action
+    description: Trigger your Philips Hue lights from your Github builds workflows.
+    link: https://hueaction.dev
+    thumbnailurl: /img/examples/hueaction.png
+    tools:
+      - tool: Angular
+      - tool: Angular CLI
+      - tool: PWA
+      - tool: Netlify
+      - tool: Github
+      - tool: Azure Functions
+      - tool: Azure Cosmos DB
+      - tool: Azure Table Storage
+      - tool: Azure App Insights
+      - tool: Azure Blob Storage
