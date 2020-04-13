@@ -52,7 +52,7 @@ examples:
       - tool: Netlify
       - tool: Jekyll
       - tool: GitHub
-      - tool: Jamalytics      
+      - tool: Jamalytics
   - title: PSD Wizard
     description: On-demand Front-End Coding Service
     link: https://psdwizard.com
@@ -75,7 +75,7 @@ examples:
       - tool: Tailwind CSS
       - tool: Gulp
       - tool: Netlify
-      - tool: ImageMagick      
+      - tool: ImageMagick
   - title: Helenzys Inc.,
     description: A digital solutions agency dedicated to help find solutions to all your business challenges
     link: https://helenzys.com/
@@ -101,7 +101,7 @@ examples:
       - tool: Contentstack
       - tool: Gitlab
       - tool: Sass
-      - tool: Vuetify      
+      - tool: Vuetify
   - title: Assortment
     description: Web Development blog for the practical developer
     link: https://assortment.io
@@ -175,7 +175,7 @@ examples:
       - tool: Stylus
       - tool: Platform.js
       - tool: GitLab
-      - tool: Netlify      
+      - tool: Netlify
   - title: DiscoverIT
     description: Digital Agency in Reading, UK
     link: https://discoverit.digital
@@ -194,7 +194,7 @@ examples:
       - tool: Hugo
       - tool: Git
       - tool: Netlify
-      - tool: Disqus      
+      - tool: Disqus
   - title: Tim Benniks
     description: The personal website of Tim Benniks. Director of front-end at Valtech and conference speaker.
     link: https://timbenniks.nl
@@ -209,7 +209,7 @@ examples:
       - tool: Netlify CMS
       - tool: TwicPics
       - tool: Sass
-      - tool: Google Analytics      
+      - tool: Google Analytics
   - title: ARMEX CNC
     description: CNC machining company with headquarters in Poland.
     link: https://www.armexcnc.com/en
@@ -295,7 +295,7 @@ examples:
       - tool: Netlify
       - tool: Disqus
       - tool: Vanilla JS & CSS
-      - tool: Google Analytics      
+      - tool: Google Analytics
   - title: Winkt
     description: Entertainment site for tattoo inspiration
     link: https://www.winkt.io
@@ -351,7 +351,7 @@ examples:
       - tool: Gulp
       - tool: PostCss
       - tool: Github
-      - tool: Yarn      
+      - tool: Yarn
   - title: PSD Wizard
     description: On-demand Front-End Coding Service
     link: https://psdwizard.com
@@ -566,7 +566,7 @@ examples:
       - tool: instantsearch.js
       - tool: Sass (SCSS)
   - title: Nico van Zyl
-    description: Freelance Interface Architect/Developer with a passion for Design Systems, JAMstack, PWAs, Vue.js, React Native and truly responsive interfaces.
+    description: Freelance Interface Architect/Developer with a passion for Design Systems, Jamstack, PWAs, Vue.js, React Native and truly responsive interfaces.
     link: https://www.nicovanzyl.com
     thumbnailurl: /img/examples/nvz.png
     tools:
@@ -626,19 +626,19 @@ examples:
       - tool: Google Analytics
       - tool: Algolia
       - tool: Netlify
-  - title: Hyper Static	
-    description: Prescriptive marketing agency with an exclusive focus on Hugo and Static Site Generators	
-    link: https://www.gohyperstatic.com	
-    thumbnailurl: /img/examples/hyperstatic.png	
-    tools:	
-      - tool: Hugo	
-      - tool: WebPack 2	
-      - tool: CloudFlare	
-      - tool: Babel	
-      - tool: Critical CSS	
-      - tool: Gitlab	
-      - tool: PostCSS	
-      - tool: Disqus	
+  - title: Hyper Static
+    description: Prescriptive marketing agency with an exclusive focus on Hugo and Static Site Generators
+    link: https://www.gohyperstatic.com
+    thumbnailurl: /img/examples/hyperstatic.png
+    tools:
+      - tool: Hugo
+      - tool: WebPack 2
+      - tool: CloudFlare
+      - tool: Babel
+      - tool: Critical CSS
+      - tool: Gitlab
+      - tool: PostCSS
+      - tool: Disqus
       - tool: Netlify
   - title: CiTA
     description: Creative Internet Technology Agency
@@ -727,7 +727,7 @@ examples:
       - tool: GraphQL
       - tool: Sass
       - tool: ESLint
-  - title: Hotmart - Máquina de Vídeos 
+  - title: Hotmart - Máquina de Vídeos
     description: Contents chosen by experts that help users and break their objections regarding the process of transforming their digital content into video classes.
     link: https://www.hotmart.com/maquinadevideos/
     thumbnailurl: /img/examples/hotmart-maquinadevideos.jpg
@@ -760,7 +760,7 @@ examples:
       - tool: Netlify
       - tool: Google Analytics
   - title: E-Com Plus Storefront
-    description: Open source PWA & JAMstack ecommerce template for E-Com Plus stores
+    description: Open source PWA & Jamstack ecommerce template for E-Com Plus stores
     link: https://storefront-demo.e-com.plus/
     thumbnailurl: /img/examples/storefront.png
     tools:
@@ -882,7 +882,7 @@ examples:
       - tool: Git
       - tool: Netlify
       - tool: Google Analytics
-      - tool: SASS      
+      - tool: SASS
   - title: Official Nift Website
     description: Cross-Platform Open Source Website Generator
     link: https://www.nift.cc/
@@ -958,7 +958,7 @@ examples:
       - tool: React
       - tool: Gatsby
       - tool: Netlify
-      - tool: Disqus   
+      - tool: Disqus
   - title: Tech Confessions
     description: A guilt-free place for us to confess our tech sins 🙏
     link: https://confessions.tech
@@ -981,7 +981,7 @@ examples:
       - tool: Netlify
       - tool: NetlifyCMS
       - tool: Disqus
-      - tool: Crisp    
+      - tool: Crisp
   - title: Café Cuvée
     description: French/Swedish restaurant in Stockholm.
     link: https://www.cafecuvee.se
@@ -1028,7 +1028,7 @@ examples:
       - tool: Jekyll
       - tool: Cloudflare
       - tool: Bootstrap
-      - tool: Disqus      
+      - tool: Disqus
   - title: Harish V
     description: Personal website of Harish V, software engineer based in Singapore.
     link: https://harishv.me/
@@ -1129,3 +1129,19 @@ examples:
       - tool: Azure SQL Database
       - tool: Azure App Insights
       - tool: Twitter
+  - title: Hue Action
+    description: Trigger your Philips Hue lights from your Github builds workflows.
+    link: https://hueaction.dev
+    thumbnailurl: /img/examples/hueaction.png
+    tools:
+      - tool: Angular
+      - tool: Angular CLI
+      - tool: PWA
+      - tool: Netlify
+      - tool: Github
+      - tool: Azure Functions
+      - tool: Azure Cosmos DB
+      - tool: Azure Table Storage
+      - tool: Azure App Insights
+      - tool: Azure Blob Storage
+
