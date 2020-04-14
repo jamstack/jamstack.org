@@ -5,6 +5,13 @@ const fs   = require('fs');
 
 module.exports = async () => {
 
+  // if we are in dev mode, don;t request data from an API
+  // just return previously captured data instead.
+  if(process.env.ELEVENTY_ENV == 'dev') {
+    return require('./meetups.mocked.json');
+  }
+
+
   try {
     const groups = yaml.safeLoad(fs.readFileSync('./src/site/_data/community.yaml', 'utf8'));
     let promises = [];
@@ -32,6 +39,7 @@ module.exports = async () => {
         });
       })
       .then(() => {
+        console.log(events);
         return events;
       });
 

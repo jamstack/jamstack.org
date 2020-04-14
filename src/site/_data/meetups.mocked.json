@@ -1,0 +1,11 @@
+[
+ {
+  "name": "Event name",
+  "link": "https://event.url",
+  "local_time": "14:37:51",
+  "local_date": "2020-04-14",
+   "group": {
+     "name": "Meetup group name"
+   }
+ }
+]
