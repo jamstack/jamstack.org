@@ -42,6 +42,7 @@ h1.heading {
 h2.heading {
   @apply text-3xl;
   @apply mt-0;
+  @apply mb-2;
   @apply text-white;
   @apply leading-snug;
 }
