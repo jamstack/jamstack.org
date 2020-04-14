@@ -7,7 +7,6 @@ module.exports = function(eleventyConfig) {
 
 
 
-
   // Date helper
   const { DateTime } = require('luxon');
   eleventyConfig.addFilter('formatDate', (dateObj, formatStr) => {
@@ -47,8 +46,6 @@ module.exports = function(eleventyConfig) {
     var url = new URL(str);
     return url.hostname;
   });
-
-
 
 
   // convert json to yaml
