@@ -5,7 +5,8 @@ module.exports = function(eleventyConfig) {
   const yaml = require("js-yaml");
   eleventyConfig.addDataExtension("yaml", contents => yaml.safeLoad(contents))
 
-
+  // pass images directly through to the output
+  eleventyConfig.addPassthroughCopy("src/site/img");
 
   // Date helper
   const { DateTime } = require('luxon');

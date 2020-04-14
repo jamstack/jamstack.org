@@ -1,9 +1,13 @@
-<li class="mt-4 mb-6">
-  <h4 class="text-lg font-bold"><a href="{{ item.link }}" rel="noopener" target="_BLANK">{{ item.title }}</a></h4>
-  <p class="text-gray-600 text-xs">{{ item.link }}</p>
-  <p class="text-gray-400 text-xs mt-2">
-    {% for tool in item.tools %}
-    <span class="inline-block bg-blue-800 px-2 py-1 mb-1 rounded shadow">{{ tool }}</span>
+
+  <img src="{{ item.thumbnailurl }}" loading="lazy" alt="" class="mb-4">
+  <h3><a href="{{ item.link }}" target="_BLANK" rel="noopener">{{ item.title }} →</a></h3>
+  {% if item.date %}
+  <time value="{{ item.date | formatDate('y-MM-dd') }}" class="text-gray-400 text-xs">{{ item.date | formatDate }} </time>
+  {% endif %}
+  <p class="mt-0 text-gray-600 text-xs">{{ item.link | domain}}</p>
+  <ul class="text-gray-400 text-xs mt-2">
+    {% for tool in item.tools | sort %}
+    <li>{{ tool }}</li>
     {% endfor %}
-  </p>
-</li>
+  </ul>
+
