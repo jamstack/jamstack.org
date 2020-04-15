@@ -20,7 +20,9 @@ layout: layouts/base.njk
   </p>
   <div class="mt-6 flex flex-wrap justify-around lg:justify-between">
     {% for item in resources | iterable | selectattr("featured") | select("type=video") | luckydip(3)  %}
+      <div class="md:w-1/2 text-left mb-8 pr-10">
       {% include "components/thumbnail-link.njk" %}
+      </div>
     {% endfor %}
   </div>
 </section>
@@ -31,8 +33,10 @@ layout: layouts/base.njk
     These are great presentations to help understand what the Jamstack is, and how it can be used to great effect.
   </p>
   <div class="mt-6 flex flex-wrap justify-around lg:justify-between">
-    {% for item in resources | iterable | select("type=video") %}
+    {% for item in resources | iterable | selectattr("featured") | select("type=video") %}
+      <div class="md:w-1/2 lg:w-1/3 text-left mb-8 pr-10">
       {% include "components/thumbnail-link.njk" %}
+      </div>
     {% endfor %}
   </div>
 </section>
