@@ -14,3 +14,13 @@
   from = "/conference"
   to = "https://jamstackconf.com/"
   status = 302
+
+[[redirects]]
+  from = "/best-practices"
+  to = "/resources"
+  status = 301
+
+[[redirects]]
+  from = "/diversity"
+  to = "/code-of-conduct"
+  status = 301

@@ -10,13 +10,16 @@
 section {
   @apply p-8;
 }
-section a {
+section a,
+dd a {
   @apply text-white;
   @apply border-b;
   @apply border-blue-100;
 }
 section a:hover,
-section a:focus {
+section a:focus,
+dd a:hover,
+dd a:focus {
   @apply border-red-500;
 }
 p+p {
