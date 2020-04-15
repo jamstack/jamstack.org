@@ -1,0 +1,6 @@
+    <li class="mt-4 mb-8">
+    <h4 class="text-white text-lg font-bold">{{ item.group.name }}</h4>
+    <p>{{ item.venue.name }}</p>
+    <time>{{ item.local_date | formatDate }}</time> starting at <time>{{ item.local_time }}</time>
+    <p><a href="{{ item.link }}">{{ item.name }}</a></p>
+    </li>

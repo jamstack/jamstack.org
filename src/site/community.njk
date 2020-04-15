@@ -32,12 +32,8 @@ layout: layouts/base.njk
   <h2 class="heading">Upcoming community events</h2>
   <ul>
   {% for meetup, data in meetups %}
-  <li class="my-6">
-    <h4 class="text-white text-lg">{{ meetup.group.name }}</h4>
-    <p>Location: {{ meetup.venue.name }}</p>
-    <time>{{ meetup.local_date }}</time> starting at <time>{{ meetup.local_time }}</time>
-    <p><a href="{{ meetup.link }}">{{ meetup.name }}</a></p>
-  </li>
+    {% set item = meetup%}
+    {% include "components/meetup-link.njk" %}
   {% endfor %}
   </ul>
 </section>

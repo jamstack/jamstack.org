@@ -11,11 +11,25 @@ module.exports = function(eleventyConfig) {
   // Date helper
   const { DateTime } = require('luxon');
   eleventyConfig.addFilter('formatDate', (dateObj, formatStr) => {
+
+    // convert any date strings to read dates
+    if(typeof(dateObj) == "string") {
+      dateObj = new Date(dateObj);
+    }
     const format = formatStr ? formatStr : 'LLLL d, y';
     return DateTime.fromJSDate(dateObj, {
       zone: 'utc'
     }).toFormat(format);
   });
+
+  eleventyConfig.addFilter('convertFromEpoc', (time) => {
+    let date = new Date(0);
+
+
+    return date.setUTCSeconds(time);
+  });
+
+
 
   // filter a data array based on the value of a property
   eleventyConfig.addFilter('select', (array, clause) => {

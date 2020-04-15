@@ -5,7 +5,7 @@ const fs   = require('fs');
 
 module.exports = async () => {
 
-  // if we are in dev mode, don;t request data from an API
+  // if we are in dev mode, don't request data from an API
   // just return previously captured data instead.
   if(process.env.ELEVENTY_ENV == 'dev') {
     return require('./meetups.mocked.json');

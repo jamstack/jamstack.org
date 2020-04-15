@@ -23,7 +23,6 @@ layout: layouts/base.njk
   <p class="section-lede">
    These are great presentations to help understand what the Jamstack is, and how it can be used to great effect.
   </p>
-  <p><a href="/resources/videos" class="mt-6">More videos and presentations →</a></p>
   <div class="mt-12 mb-6 flex flex-wrap justify-around lg:justify-between">
     {% for item in resources | iterable | selectattr("featured") | select("type=video") | luckydip(3)  %}
       <div class="md:w-1/2 lg:w-1/3 text-left mb-8 pr-10">
@@ -31,6 +30,7 @@ layout: layouts/base.njk
       </div>
     {% endfor %}
   </div>
+  <p class="mt-6"><a href="/resources/videos" >More videos and presentations →</a></p>
 </section>
 
 <section class="mt-12">
@@ -38,12 +38,12 @@ layout: layouts/base.njk
   <p class="section-lede">
     Selected recent articles and case studies of Jamstack implementations.
   </p>
-  <p><a href="/resources/articles" class="mt-6">More articles and resources →</a></p>
   <ul class="mt-12">
   {% for item in resources | iterable | selectattr("featured") | select("type=article") | luckydip(5) %}
     {% include "components/resource-link.njk" %}
   {% endfor %}
   </ul>
+  <p class="mt-12"><a href="/resources/articles">More articles and resources →</a></p>
 </section>
 
 
