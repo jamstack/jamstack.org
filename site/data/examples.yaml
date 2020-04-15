@@ -1157,3 +1157,15 @@ examples:
       - tool: Azure Table Storage
       - tool: Azure App Insights
       - tool: Azure Blob Storage
+  - title: "#compraaospequenos"
+    description: Helping local stores survive and thrive during the Covid-19 crisis.
+    link: https://compraaospequenos.pt/
+    thumbnailurl: /img/examples/compra-aos-pequenos.png
+    tools:
+      - tool: React
+      - tool: Gatsby
+      - tool: Netlify
+      - tool: Google Sheets
+      - tool: Typeform
+      - tool: GitHub Actions
+      - tool: Material UI
