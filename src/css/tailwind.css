@@ -26,6 +26,21 @@ p+p {
   @apply mt-4;
 }
 
+
+/*
+  Footer links
+*/
+footer p a {
+  @apply border-b;
+  @apply border-blue-100;
+  @apply whitespace-no-wrap;
+}
+footer p a:hover,
+footer p a:focus {
+  @apply border-red-500;
+}
+
+
 /*
   Global headings conventions
 */
