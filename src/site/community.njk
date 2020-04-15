@@ -13,7 +13,6 @@ layout: layouts/base.njk
   </p>
 </section>
 
-
 <section class="mt-12">
   <h2 class="heading">Jamstack meetups</h2>
   <p class="section-lede">
@@ -29,11 +28,19 @@ layout: layouts/base.njk
   </ul>
 </section>
 
+<section class="mt-12 ">
+  <h2 class="heading">Upcoming community events</h2>
+  <ul>
+  {% for meetup, data in meetups %}
+  <li class="my-6">
+    <h4 class="text-white text-lg">{{ meetup.group.name }}</h4>
+    <p>Location: {{ meetup.venue.name }}</p>
+    <time>{{ meetup.local_date }}</time> starting at <time>{{ meetup.local_time }}</time>
+    <p><a href="{{ meetup.link }}">{{ meetup.name }}</a></p>
+  </li>
+  {% endfor %}
+  </ul>
+</section>
+
 {% include "slack-tout.njk" %}
-
-
-
-
-
-
 
