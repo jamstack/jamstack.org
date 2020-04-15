@@ -1,5 +1,6 @@
-
-  <img src="{{ item.thumbnailurl }}" loading="lazy" alt="" class="mb-4">
+  <a href="{{ item.link }}" target="_BLANK" rel="noopener" class="mb-4 border-grey-200 border-solid border-2 rounded pt-2 bg-gray-600 block">
+    <img src="{{ item.thumbnailurl }}" loading="lazy" alt="Screenshot of {{ item.title}}" class="border-t-2">
+  </a>
   <h3><a href="{{ item.link }}" target="_BLANK" rel="noopener">{{ item.title }} →</a></h3>
   {% if item.date %}
   <time value="{{ item.date | formatDate('y-MM-dd') }}" class="text-gray-400 text-xs">{{ item.date | formatDate }} </time>
