@@ -1,13 +1,13 @@
-# JAMstack
+# Jamstack
 
 This is the repo for https://jamstack.org
 
-An entry-point for learning about this architectural model. A place to learn what JAMstack is, for sharing tools, tips, examples and articles. This is also a place to find a local community meetup, or to seek support in starting one of your own.
+An entry-point for learning about this architectural model. A place to learn what Jamstack is, for sharing tools, tips, examples and articles. This is also a place to find a local community meetup, or to seek support in starting one of your own.
 
 
 ## Contributing resources
 
-The site includes a showcase of JAMstack examples sites. You can submit a site to be included in this list. We've also collected a set of videos, presentation, articles and other learning resources about JAMstack. You can contribute content to that pool of resources too.
+The site includes a showcase of Jamstack examples sites. You can submit a site to be included in this list. We've also collected a set of videos, presentation, articles and other learning resources about Jamstack. You can contribute content to that pool of resources too.
 
 We accept contributions submitted as [pull requests](https://github.com/jamstack/jamstack.org/pulls).
 
@@ -40,7 +40,7 @@ tools:
 To contribute a link to a resource:
 
 1. Create a new yaml file in the [`src/site/_data/resources`](src/site/_data/resources) folder with a unique and descriptive name. Populate that file according to the structure shown below.
-1. For presentations and video, add an optional thumbnail image to the [`src/site/_data/resources`](src/site/images/resources) folder. (Image should be a jpeg 596px wide and 396px tall)
+1. For presentations and video, add an optional thumbnail image to the [`src/site/_data/resources`](src/site/images/resources) folder. (Image should be a jpeg 600px wide and 400px tall)
 1. Submit a pull request
 
 _resource yaml reference:_
