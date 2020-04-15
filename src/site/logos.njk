@@ -38,3 +38,31 @@ layout: layouts/base.njk
     It is recommended to use the Jamstack pink as seen below. If another background color is desired, please use the all-white Jamstack logo.
   </p>
 </section>
+
+
+{% set names = [
+  "Jamstack_Logo_Black",
+  "Jamstack_Logo_DarkBG",
+  "Jamstack_Logo_Grey",
+  "Jamstack_Logo_Original",
+  "Jamstack_Logo_White",
+  "Jamstack_Icon_Black",
+  "Jamstack_Icon_Grey",
+  "Jamstack_Icon_Original",
+  "Jamstack_Icon_White"
+  ]
+%}
+
+<section>
+  {% for name in names %}
+  <div class="block mb-20 ">
+    <img class="mb-4" src="/img/logo/svg/{{ name }}.svg" alt="Jamstack image: {{ name }}">
+    <ul>
+      <li><a class="bg-blue-800 hover:bg-red-500 hover:text-gray-800 text-white text-xs my-2 mr-1 font-semibold p-1 rounded-sm border-none shadow" href="/img/logo/svg/{{ name }}.svg" download title="Download image file">&darr; svg</a></li>
+      <li><a class="bg-blue-800 hover:bg-red-500 hover:text-gray-800 text-white text-xs my-2 mr-1 font-semibold p-1 rounded-sm border-none shadow" href="/img/logo/solid/{{ name }}_Solid.png" download title="Download image file">&darr; solid png</a></li>
+      <li><a class="bg-blue-800 hover:bg-red-500 hover:text-gray-800 text-white text-xs my-2 mr-1 font-semibold p-1 rounded-sm border-none shadow" href="/img/logo/transparent/{{ name }}_Transparent.png" download title="Download image file">&darr; transparent png</a></li>
+    </ul>
+  </div>
+  {% endfor %}
+</section>
+
