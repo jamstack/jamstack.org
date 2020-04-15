@@ -1,11 +1,26 @@
 [
- {
-  "name": "Event name",
-  "link": "https://event.url",
-  "local_time": "14:37:51",
-  "local_date": "2020-04-14",
-   "group": {
-     "name": "Meetup group name"
-   }
- }
+  [
+    {
+      "created": 1585342923000,
+      "duration": 7200000,
+      "id": "269697699",
+      "name": "JAMstack SF Meetup - April - VIRTUAL MEETUP!",
+      "date_in_series_pattern": false,
+      "status": "upcoming",
+      "time": 1587603600000,
+      "local_date": "2020-04-22",
+      "local_time": "18:00",
+      "updated": 1585343679000,
+      "utc_offset": -25200000,
+      "waitlist_count": 0,
+      "yes_rsvp_count": 39,
+      "venue": "foo",
+      "is_online_event": false,
+      "group": {"name": "Meetup group name"},
+      "link": "https://www.meetup.com/jamstack-sf/events/269697699/",
+      "description": "<p>Hello! Welcome to the JAMstack SF meetup!</p> <p>Sponsors: None at the moment! Ping me on meetup for inquiries.</p> ",
+      "visibility": "public",
+      "member_pay_fee": false
+    }
+  ]
 ]
