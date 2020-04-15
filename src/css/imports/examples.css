@@ -39,6 +39,7 @@
   .grid {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
   }
 
   .example {
@@ -50,18 +51,6 @@
 
     @media screen and (min-width: $desktop) {
       width: 30%;
-    }
-
-    &:nth-child(2n) {
-      @media screen and (min-width: $tablet) and (max-width: 959px) {
-        margin: 0 0 0 4%;
-      }
-    }
-
-    &:nth-child(3n - 1) {
-      @media screen and (min-width: $desktop) {
-        margin: 0 5%;
-      }
     }
 
     &:hover {

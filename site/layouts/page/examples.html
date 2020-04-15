@@ -26,6 +26,20 @@
       </a>
       {{ end }}
     </div>
+    <script>
+      (function() {
+        var examples = document.getElementsByClassName("example");
+        var l = examples.length;
+        var order = Array.apply(null, {length: l}).map(Number.call, Number);
+        while (l--) {
+          var newPos = Math.floor(Math.random() * (l + 1));
+          var temp = order[l];
+          order[l] = order[newPos];
+          order[newPos] = temp;
+        }
+        for (var i = 0, j = examples.length; i < j; ++i) examples[i].style.order = order[i];
+      })();
+    </script>
   </div>
 </div>
 {{ end }}
