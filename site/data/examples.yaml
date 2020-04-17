@@ -1,5 +1,16 @@
 ---
 examples:
+  - title: Portfolio of Naga Chaitanya Konada
+    description: A portfolio site of Frontend Developer Naga Chaitanya Konada.
+    link: https://thebestdeveloper.me
+    thumbnailurl: /img/examples/thebestdeveloper.png
+    tools:
+      - tool: Gatsby
+      - tool: GraphQL
+      - tool: Netlify CMS
+      - tool: Netlify
+      - tool: Markdown
+      - tool: Github
   - title: Design Systems Repo
     description: A frequently updated collection of Design System examples and resources.
     link: https://designsystemsrepo.com
@@ -1123,9 +1134,9 @@ examples:
     tools:
       - tool: Azure Storage
       - tool: Azure Functions
-      - tool: Azure Cosmos DB 
-      - tool: Azure Front Door 
-      - tool: Vue 
+      - tool: Azure Cosmos DB
+      - tool: Azure Front Door
+      - tool: Vue
       - tool: .NET Core
       - tool: TypeScript
       - tool: Bulma
