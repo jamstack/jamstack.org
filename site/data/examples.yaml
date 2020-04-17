@@ -1157,3 +1157,11 @@ examples:
       - tool: Azure Table Storage
       - tool: Azure App Insights
       - tool: Azure Blob Storage
+  - title: Ayush Sharma
+    description: Technical blog of Ayush Sharma, a Developer/SRE/Architect from New Delhi, India.
+    link: https://ayushsharma.in
+    thumbnailurl: /img/examples/ayushsharma.in.jpg
+    tools:
+      - tool: Jekyll
+      - tool: Netlify
+      - tool: Github
