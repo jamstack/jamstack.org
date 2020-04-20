@@ -53,6 +53,16 @@ examples:
       - tool: Jekyll
       - tool: GitHub
       - tool: Jamalytics
+  - title: Flamelink.io
+    description: Official website for Flamelink - A Firebase CMS
+    link: https://flamelink.io
+    thumbnailurl: /img/examples/flamelink-website.jpg
+    tools:
+      - tool: Gatsby
+      - tool: Flamelink
+      - tool: Firebase Hosting
+      - tool: TailwindCSS
+      - tool: GitHub
   - title: PSD Wizard
     description: On-demand Front-End Coding Service
     link: https://psdwizard.com
