@@ -1157,3 +1157,17 @@ examples:
       - tool: Azure Table Storage
       - tool: Azure App Insights
       - tool: Azure Blob Storage
+  - title: Thevueguy
+    description: VueJS tutorials, courses and tips.
+    link: https://thevueguy.com
+    thumbnailurl: /img/examples/thevueguy.png
+    tools:
+      - tool: VueJS
+      - tool: Gridsome
+      - tool: Netlify
+      - tool: Github
+      - tool: Tailwind CSS
+      - tool: PurgeCSS
+      - tool: PostCSS
+      - tool: Markdown
+      - tool: GraphQL
