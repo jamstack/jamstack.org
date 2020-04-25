@@ -889,7 +889,7 @@ examples:
     thumbnailurl: /img/examples/nift.png
     tools:
       - tool: Nift
-      - tool: Netlify
+      - tool: Vercel
       - tool: BitBucket
       - tool: GitHub
       - tool: GitLab
