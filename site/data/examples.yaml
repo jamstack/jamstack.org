@@ -1157,3 +1157,15 @@ examples:
       - tool: Azure Table Storage
       - tool: Azure App Insights
       - tool: Azure Blob Storage
+  - title: Castrum Doloris Design
+    description: Agency specialized in designing and engineering solutions for artists and their digital needs.
+    link: https://castrum-doloris.design
+    thumbnailurl: /img/examples/castrum-doloris.png
+    tools:
+      - tool: Middleman
+      - tool: Netlify
+      - tool: Netlify CMS
+      - tool: Github
+      - tool: Azure Functions
+      - tool: SCSS
+      - tool: Vanilla JS
