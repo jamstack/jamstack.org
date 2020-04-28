@@ -1166,6 +1166,5 @@ examples:
       - tool: Netlify
       - tool: Netlify CMS
       - tool: Github
-      - tool: Azure Functions
       - tool: SCSS
       - tool: Vanilla JS
