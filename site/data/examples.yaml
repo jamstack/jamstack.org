@@ -1160,7 +1160,7 @@ examples:
   - title: Natural Language .Pro
     description: Use Natural Language Processing Tools from the browser
     link: https://naturallanguage.pro
-    thumbnailurl: /img/examples/naturallanguagepro.png
+    thumbnailurl: /img/examples/naturallanguagepro.jpg
     tools:
       - tool: Vanilla JS
       - tool: GitLab CI/CD
