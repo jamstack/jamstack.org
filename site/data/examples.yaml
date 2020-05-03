@@ -1157,3 +1157,12 @@ examples:
       - tool: Azure Table Storage
       - tool: Azure App Insights
       - tool: Azure Blob Storage
+  - title: Natural Language .Pro
+    description: Use Natural Language Processing Tools from the browser
+    link: https://naturallanguage.pro
+    thumbnailurl: /img/examples/naturallanguagepro.png
+    tools:
+      - tool: Vanilla JS
+      - tool: GitLab CI/CD
+      - tool: Mustache
+      - tool: Home made build process
