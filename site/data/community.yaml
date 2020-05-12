@@ -131,6 +131,10 @@ chapters:
     artpath: /img/chapters/placeholder-art.svg
     btncopy: Join Now
     link: https://m.facebook.com/groups/473905470150140
+  - name: Jamstack Denmark
+    artpath: /img/chapters/placeholder-art.svg
+    btncopy: Join Now
+    link: https://www.meetup.com/JAMstack-Danmark/
 
 slackurl: https://Jamstack.org/slack
 forumurl: https://community.netlify.com
