@@ -4,11 +4,11 @@
 
 - term: "Pre-render / Pre-generate"
   id: "pre-render"
-  definition: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis sint adipisci excepturi iure laborum maxime laudantium quam cum repellendus. Temporibus, facilis! Placeat, sunt architecto non doloremque quaerat ab quia maxime."
+  definition: "To genb"
 
 - term: "Server render"
   id: "server-render"
-  definition: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis sint adipisci excepturi iure laborum maxime laudantium quam cum repellendus. Temporibus, facilis! Placeat, sunt architecto non doloremque quaerat ab quia maxime."
+  definition: "To generate markup on the server rather than on the client. Server render usually refers to the process happening at request time, rather than at build time. Some do use this term as a catch all for any rendering taking place on a server, and so disambiguation is often sensible."
 
 - term: "Static site generator"
   id: "ssg"
