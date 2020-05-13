@@ -39,7 +39,7 @@ module.exports = async () => {
         });
       })
       .then(() => {
-        console.log(events);
+
         return events;
       });
 
