@@ -8,3 +8,6 @@ dist
 .DS_Store
 .AppleDouble
 .LSOverride
+
+# Local Netlify folder
+.netlify
