@@ -3,119 +3,180 @@ title: For fast and secure sites
 layout: layouts/base.njk
 ---
 
-<section class="md:mt-20">
-  <h1 class="heading">Jamstack</h1>
-  <p class="section-lede">
-    Create fast and secure sites and dynamic apps with pre-rendered resources served directly from a <a href="/glossary#cdn" title="Glossary: Content Delivery Network" class="text-red-200 border-red-200">CDN</a>, removing the requirement to manage or run web servers.
-  </p>
-  <p>
-    You may have already seen or worked on Jamstack sites. They might be built using tools like Jekyll, Hugo, Nuxt, Next, Gatsby, or another <a href="/glossary/#ssg">static site generator</a>.
-  </p>
-  <p>
-    The thing that they all have in common is that they don’t depend on a web server.
-  </p>
-</section>
+{% import "components/section-heading.njk" as section %}
 
-<section class="mt-12">
+<div class="bg-blue-800">
+  <section class="md:mt-20 flex flex-row flex-wrap justify-between">
+    <div class="w-2/5">
+      <h1 class="text-4xl text-bold leading-tight mb-6">Security.<br />Speed.<br />Scale.</h1>
+      <p class="text-md font-bold inline bg-pink-900 text-white leading-none p-2">
+        Create fast and secure sites and dynamic apps with pre-rendered resources served directly from a <a href="/glossary#cdn" title="Glossary: Content Delivery Network" class="text-red-200 border-red-200">CDN</a>, removing the requirement to manage or run web servers.
+      </p>
+      <p>
+        You may have already seen or worked on Jamstack sites. They might be built using tools like Jekyll, Hugo, Nuxt, Next, Gatsby, or another <a href="/glossary/#ssg">static site generator</a>.
+      </p>
+      <p>
+        The thing that they all have in common is that they don’t depend on a web server.
+      </p>
+    </div>
+    <img src="/img/svg/device-scene.svg" alt="Devices" class="w-1/2">
+  </section>
+</div>
+
+{# <section class="mt-12">
   <img src="/img/svg/diagram.svg" alt="Jamstack logical diagram" class="w-full">
-</section>
+</section> #}
 
-<section class="mt-0 md:mt-12">
-  <h2 class="heading">Benefits of Jamstack</h2>
-  <p class="section-lede mb-0">
-    There are many benefits to this approach to web development.
-  </p>
+<div class="bg-blue-900 ">
+  <section class="mt-0 md:mt-12">
 
-  <div class="flex flex-wrap justify-between">
-    <div class="lg:w-5/12">
-      <h3 class="heading">Security</h3>
-      <p>
-        The Jamstack removes multiple moving parts and systems from the hosting infrastructure resulting in fewer servers and systems to harden against attack.
-      </p>
-      <p>
-        Serving pages and assets as pre-generated files allows read-only hosting reducing attack vectors even further. Meanwhile dynamic tools and services can be provided by vendors with teams dedicated to securing their specific systems and providing high levels of service.
-      </p>
-    </div>
-    <div class="lg:w-5/12">
-      <h3 class="heading">Scale</h3>
-      <p>
-        Popular architectures deal with heavy traffic loads by adding logic to cache popular views and resources. The Jamstack provides this by default. When sites can be served entirely from a <a href="/glossary#cdn" title="Glossary: Content Delivery Network">CDN</a> there is no complex logic or workflow to determine what assets can be cached and when.
-      </p>
-      <p>
-        With Jamstack sites everything can be cached in a content delivery network. With simpler deployments, built-in redundancy and incredible load capacity.
-      </p>
-    </div>
-    <div class="lg:w-5/12">
-      <h3 class="heading"> Performance</h3>
-      <p>
-        Page loading speeds have an impact on user experience and conversion. Jamstack sites remove the need to generate page views on a server at request time by instead generating pages ahead of time during a build.
-      </p>
-      <p>With all the pages are already available on a CDN close to the user and ready to serve, very high performance is possible without introducing expensive or complex infrastructure.</p>
-    </div>
-    <div class="lg:w-5/12">
-      <h3 class="heading"> Maintainability</h3>
-      <p>
-        When hosting complexity is reduced, so are maintenance tasks. A pre-generated site, being served directly from a simple host or directly from a CDN doesn't need a team of experts to "keep the lights on".
-      </p>
-      <p>
-        The work was done during the build, so now the generated site is stable and can be hosted without servers which might require patching, updating and maintain.
-    </p>
-    </div>
-    <div class="lg:w-5/12">
-      <h3 class="heading">Portability</h3>
-      <p>
+    {{ section.heading(
+        "Benefits of Jamstack",
+        "icon-star.svg",
+        "There are many benefits to this approach to web development." )
+    }}
+
+
+    <div class="text-blue-100 flex flex-rows flex-wrap items-start justify-start mt-8">
+
+    {{ section.benefit(
+        "Security",
+        "icon-disc-security.svg",
+        "<p>
+          The Jamstack removes multiple moving parts and systems from the hosting infrastructure resulting in fewer servers and systems to harden against attack.
+        </p>
+        <p>
+          Serving pages and assets as pre-generated files allows read-only hosting reducing attack vectors even further. Meanwhile dynamic tools and services can be provided by vendors with teams dedicated to securing their specific systems and providing high levels of service.
+        </p>" )
+    }}
+
+
+    {{ section.benefit(
+        "Scale",
+        "icon-disc-scale.svg",
+        '<p>
+          Popular architectures deal with heavy traffic loads by adding logic to cache popular views and resources. The Jamstack provides this by default. When sites can be served entirely from a <a href="/glossary#cdn" title="Glossary: Content Delivery Network">CDN</a> there is no complex logic or workflow to determine what assets can be cached and when.
+        </p>
+        <p>
+          With Jamstack sites everything can be cached in a content delivery network. With simpler deployments, built-in redundancy and incredible load capacity.
+        </p>' )
+    }}
+
+
+    {{ section.benefit(
+        "Performance",
+        "icon-disc-performance.svg",
+        '<p>
+          Page loading speeds have an impact on user experience and conversion. Jamstack sites remove the need to generate page views on a server at request time by instead generating pages ahead of time during a build.
+        </p>
+        <p>With all the pages are already available on a CDN close to the user and ready to serve, very high performance is possible without introducing expensive or complex infrastructure.</p>' )
+    }}
+
+
+    {{ section.benefit(
+        "Maintainability",
+        "icon-disc-maintain.svg",
+        ' <p>
+          When hosting complexity is reduced, so are maintenance tasks. A pre-generated site, being served directly from a simple host or directly from a CDN does not need a team of experts to "keep the lights on".
+        </p>
+        <p>
+          The work was done during the build, so now the generated site is stable and can be hosted without servers which might require patching, updating and maintain.
+      </p>' )
+    }}
+
+    {{ section.benefit(
+        "Portability",
+        "icon-disc-portable.svg",
+        "<p>
         Jamstack sites are pre-generated. That means that you can host them from a wide variety of hosting services and have greater ability to move them to your preferred host. Any simple static hosting solution should be able to serve a Jamstack site.
       </p>
       <p>
         Bye-bye infrastructure lock-in.
-      </p>
-    </div>
-    <div class="lg:w-5/12">
-      <h3 class="heading">Developer Experience</h3>
-      <p>
-        Jamstack sites can be built with a wide variety of tools. They do not depend on the proprietary technologies or exotic and little known frameworks. Instead, they build on widely available tools and conventions. As a result, it's not hard to find enthusiastic and talented developers who have the right skills to build with the Jamstack. Efficiency and effectiveness can soar.
-      </p>
-    </div>
+      </p>" )
+    }}
+
+
+    {{ section.benefit(
+        "Developer Experience",
+        "icon-disc-dx.svg",
+        "<p>
+        Jamstack sites can be built with a wide variety of tools. They do not depend on the proprietary technologies or exotic and little known frameworks. Instead, they build on widely available tools and conventions. As a result, it's not hard to find enthusiastic and talented developers who have the right skills to build with the Jamstack. Efficiency and effectiveness can " )
+    }}
+
+
+
+  </section>
 </div>
-</section>
+
+<div class="bg-blue-800 ">
+  <section class="mt-12">
+
+    {{ section.heading(
+      "Learn more about Jamstack",
+      "icon-learn.svg",
+      "You can find <a href='/examples' class='text-red-200 border-red-200'>examples</a> and <a href='/resources' class='text-red-200 border-red-200'>resources</a> on this site." )
+    }}
+
+    <p>
+      These were recently added:
+    </p>
+    <ul class="my-12">
+    {% for item in (resources | iterable | sort(true, false, 'date')).slice(0,5) %}
+      {% include "components/resource-link.njk" %}
+    {% endfor %}
+    </ul>
+    <p>
+      Explore <a href="/resources">the resources section</a> for much more.
+    </p>
+  </section>
+</div>
 
 
+<div class="bg-blue-900 ">
+  <section class="mt-12 ">
+    {{ section.heading(
+      "Jamstack in real life",
+      "icon-pa.svg",
+      "Jamstack meetups are springing up all over the world." )
+    }}
+    <p>
+      <a href="/community">Find one near you</a> (or start your own) to join the community.
+    </p>
+    <h3 class="heading">Upcoming community events</h3>
+    <ul>
+    {% for meetup, data in meetups %}
+      {% set item = meetup%}
+      {% include "components/meetup-link.njk" %}
+    {% endfor %}
+    </ul>
+  </section>
+</div>
 
-<section class="mt-12">
-  <h2 class="heading">Learn more about Jamstack</h2>
-  <p class="section-lede">
-    You can find <a href="/examples" class="text-red-200 border-red-200">examples</a> and <a href="/resources" class="text-red-200 border-red-200">resources</a> on this site.
-  </p>
-  <p>
-    These were recently added:
-  </p>
-  <ul class="my-12">
-  {% for item in (resources | iterable | sort(true, false, 'date')).slice(0,5) %}
-    {% include "components/resource-link.njk" %}
-  {% endfor %}
-  </ul>
-  <p>
-    Explore <a href="/resources">the resources section</a> for much more.
-  </p>
-</section>
 
-<section class="mt-12 ">
-  <h2 class="heading">Jamstack in real life</h2>
-  <p class="section-lede">
-    Jamstack meetups are springing up all over the world.
-  </p>
-  <p>
-    <a href="/community">Find one near you</a> (or start your own) to join the community.
-  </p>
+<div class="bg-blue-9800 ">
+  <section class="mb-20">
 
-  <h3 class="heading">Upcoming community events</h3>
-  <ul>
-  {% for meetup, data in meetups %}
-    {% set item = meetup%}
-    {% include "components/meetup-link.njk" %}
-  {% endfor %}
-  </ul>
-</section>
+    {{ section.heading(
+      "Join the conversation",
+      "icon-chat.svg",
+      "Join other Jamstackers in Slack" )
+    }}
 
-{% include "slack-tout.njk" %}
+    <p class="max-w-2xl">
+      The conversation about Jamstack is happening right now. See what people are saying on Twitter or join the many developers, vendors, and agencies who are already discussing Jamstack in the official Jamstack community Slack.
+    </p>
+    <a href="https://jamstack.org/slack" target="_BLANK" rel="noopener" class="mt-6 inline-block font-bold border-0 hover:text-red-200">
+      <svg class="inline-block mr-2" width="60px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+          <g class="fill-current ">
+            <path d="M50,0 C77.5957031,0 100,22.4042969 100,50 C100,77.5957031 77.5957031,100 50,100 C22.4042969,100 0,77.5957031 0,50 C0,22.4042969 22.4042969,0 50,0 Z M57.9875,67.5527344 C61.4880859,67.5527344 64.3478516,70.4123047 64.3478516,73.9130859 C64.3478516,77.4136719 61.4880859,80.2734375 57.9875,80.2734375 C54.4867188,80.2734375 51.6271484,77.4136719 51.6271484,73.9130859 L51.6271484,67.5527344 L57.9875,67.5527344 Z M35.6521484,57.9875 C35.6521484,54.4867188 38.5119141,51.6271484 42.0125,51.6271484 C45.5132813,51.6271484 48.3728516,54.4867188 48.3728516,57.9875 L48.3728516,73.9130859 C48.3728516,77.4136719 45.5132813,80.2734375 42.0125,80.2734375 C38.5119141,80.2734375 35.6521484,77.4136719 35.6521484,73.9130859 L35.6521484,57.9875 Z M32.4472656,57.9875 C32.4472656,61.4880859 29.5876953,64.3478516 26.0869141,64.3478516 C22.5863281,64.3478516 19.7265625,61.4880859 19.7265625,57.9875 C19.7265625,54.4867188 22.5863281,51.6271484 26.0869141,51.6271484 L32.4472656,51.6271484 L32.4472656,57.9875 Z M73.9130859,64.3478516 C77.4138672,64.3476563 80.2734375,61.4880859 80.2734375,57.9875 C80.2734375,54.4867188 77.4136719,51.6271484 73.9130859,51.6271484 L57.9875,51.6271484 C54.4867188,51.6271484 51.6271484,54.4867188 51.6271484,57.9875 C51.6271484,61.4880859 54.4867188,64.3478516 57.9875,64.3478516 L73.9130859,64.3478516 Z M73.9130859,48.3728516 C77.4138672,48.3728516 80.2734375,45.5130859 80.2734375,42.0125 C80.2734375,38.5119141 77.4136719,35.6521484 73.9130859,35.6521484 C70.4123047,35.6521484 67.5527344,38.5119141 67.5527344,42.0125 L67.5527344,48.3728516 L73.9130859,48.3728516 Z M64.3478516,42.0125 C64.3478516,45.5132813 61.4880859,48.3728516 57.9875,48.3728516 C54.4867188,48.3728516 51.6271484,45.5132813 51.6271484,42.0125 L51.6271484,26.0869141 C51.6271484,22.5863281 54.4867188,19.7265625 57.9875,19.7265625 C61.4880859,19.7265625 64.3478516,22.5863281 64.3478516,26.0869141 L64.3478516,42.0125 Z M42.0125,48.3728516 C45.5132813,48.3728516 48.3728516,45.5130859 48.3728516,42.0125 C48.3728516,38.5119141 45.5132813,35.6521484 42.0125,35.6521484 L26.0869141,35.6521484 C22.5863281,35.6521484 19.7265625,38.5119141 19.7265625,42.0125 C19.7265625,45.5132813 22.5863281,48.3728516 26.0869141,48.3728516 L42.0125,48.3728516 Z M48.3728516,32.4472656 L48.3728516,26.0869141 C48.3728516,22.5863281 45.5132813,19.7265625 42.0125,19.7265625 C38.5119141,19.7265625 35.6521484,22.5863281 35.6521484,26.0869141 C35.6521484,29.5876953 38.5119141,32.4472656 42.0125,32.4472656 L48.3728516,32.4472656 Z" id="Shape"></path>
+          </g>
+        </g>
+      </svg>
+      Join the Jamslack →
+    </a>
+  </section>
+</div>
+
+
 

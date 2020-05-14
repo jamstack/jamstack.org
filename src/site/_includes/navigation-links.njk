@@ -1,8 +1,8 @@
-  <ul class="inline-block">
+  <ul class="inline-block pb-6">
   {% for link in linkList %}
-    <li class="block py-1 mr-6 md:inline md:mr-10">
+    <li class="block py-2 mr-4 md:inline md:ml-6 md:mr-0">
       <a href="{{ link.url }}"
-        class="font-semibold {% if page.url.split("/")[1] == link.url.split("/")[1] %} text-red-500 {% endif %}">
+        class="font-bold p-1 {% if page.url.split("/")[1] == link.url.split("/")[1] %} bg-pink-900 text-white hover:text-white {% else %}hover:text-pink-900 {% endif %}  ">
         {{ link.text }}
       </a>
     </li>

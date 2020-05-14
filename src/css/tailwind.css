@@ -9,7 +9,11 @@
 */
 section {
   @apply p-8;
+  @apply max-w-4xl;
+  @apply mx-auto;
 }
+
+
 section a,
 dd a {
   @apply text-white;
@@ -20,7 +24,7 @@ section a:hover,
 section a:focus,
 dd a:hover,
 dd a:focus {
-  @apply border-red-500;
+  @apply border-pink-500;
 }
 p+p {
   @apply mt-4;
@@ -57,19 +61,8 @@ h1.heading {
     @apply mb-4;
   }
 }
-h2.heading {
-  @apply text-3xl;
-  @apply mt-0;
-  @apply mb-2;
-  @apply text-white;
-  @apply leading-snug;
-}
-@screen md {
-  h2.heading {
-    @apply text-4xl;
-    @apply mt-12;
-  }
-}
+
+/*
 h3.heading {
   @apply text-white;
   @apply mt-10;
@@ -83,22 +76,7 @@ h3.heading {
     @apply mt-16;
   }
 }
-
-.section-lede {
-  @apply text-lg;
-  @apply text-red-500;
-  @apply font-serif;
-  @apply leading-normal;
-  @apply max-w-lg;
-  @apply mb-4;
- }
- @screen md {
-  .section-lede {
-    @apply text-xl;
-    @apply leading-relaxed;
-  }
-}
-
+*/
 
 :target {
   @apply bg-blue-800;
