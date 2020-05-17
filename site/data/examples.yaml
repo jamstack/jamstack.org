@@ -1157,3 +1157,15 @@ examples:
       - tool: Azure Table Storage
       - tool: Azure App Insights
       - tool: Azure Blob Storage
+  - title: Shell Tips!
+    description: Technology Blog about shell scripting, Linux, and more
+    link: https://www.shell-tips.com
+    thumbnailUrl: /img/examples/shell-tips.png
+    tools:
+      - tool: Vue
+      - tool: Vuepress
+      - tool: Vuetify
+      - tool: AWS S3
+      - tool: AWS CloudFront
+      - tool: AWS Lambda
+      - tool: AWS CodeCommit
