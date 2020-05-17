@@ -1165,6 +1165,7 @@ examples:
       - tool: Vue
       - tool: Vuepress
       - tool: Vuetify
+      - tool: PWA
       - tool: AWS S3
       - tool: AWS CloudFront
       - tool: AWS Lambda
