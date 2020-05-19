@@ -1123,9 +1123,9 @@ examples:
     tools:
       - tool: Azure Storage
       - tool: Azure Functions
-      - tool: Azure Cosmos DB 
-      - tool: Azure Front Door 
-      - tool: Vue 
+      - tool: Azure Cosmos DB
+      - tool: Azure Front Door
+      - tool: Vue
       - tool: .NET Core
       - tool: TypeScript
       - tool: Bulma
@@ -1157,3 +1157,12 @@ examples:
       - tool: Azure Table Storage
       - tool: Azure App Insights
       - tool: Azure Blob Storage
+  - title: Agility CMS
+      description: The fastest headless CMS.
+      link: https://agilitycms.com
+      thumbnailurl: /img/examples/agilitycms.jpg
+      tools:
+        - tool: Gatsby
+        - tool: Netlify
+        - tool: Agility CMS
+        - tool: Stackpath
