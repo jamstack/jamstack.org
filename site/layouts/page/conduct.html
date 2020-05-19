@@ -1,11 +1,11 @@
 {{ define "main" }}
 <div class="best-practices">
   <div class="contained">
-    <h1 class="headline">Diversity and Inclusion</h1>
+    <h1 class="headline">Code of Conduct</h1>
     <p class ="cta">We strive to create an inclusive, judgement- and harassment-free place for individuals of all backgrounds and levels of experience to learn, connect, and grow together at all of our events, be they conferences or satellite events organized by local groups. Social events that are independently organized by meetup attendees are also covered by this Code of Conduct. If you have concerns, please get in touch as outlined below - we are committed to protecting your privacy and dealing with any issues promptly and carefully.
 </p>
     <div class="grid">
-      {{ range .Site.Data.diversity.mainpoints }}
+      {{ range .Site.Data.conduct.mainpoints }}
         <div class="best-practice">
           <h4><img src="/img/thumbs-up.svg" /> {{ .title }}</h4>
           <p>{{ .description | markdownify }}</p>

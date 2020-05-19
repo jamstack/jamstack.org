@@ -174,9 +174,9 @@ header {
         }
       }
     }
-    &.on-diversity-and-inclusion {
+    &.on-code-of-conduct {
       a:not(.slicknav_btn):not(.mobile-logo):not(.logo-link) {
-        &.diversity-and-inclusion-link {
+        &.code-of-conduct-link {
           &:before {
             transform: translateY(0);
           }
