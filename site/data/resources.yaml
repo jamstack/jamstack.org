@@ -31,6 +31,8 @@ articles:
     link: https://jamstack.training
   - title: "What is Jamstack and How Does it Work?"
     link: https://buttercms.com/blog/what-is-jamstack
+  - title: "Bring user-generated content to Jamstack with GitHub Actions"
+    link: https://www.codegram.com/blog/kill-the-back-end-bring-user-generated-content-to-jamstack-with-github-actions/
 videos:
   - title: Rise of the Jamstack
     description: The emergence of Git centered workflows, around modern build tools, static site generators, and modern browsers, have changed the way most front-enders work.
