@@ -1157,3 +1157,14 @@ examples:
       - tool: Azure Table Storage
       - tool: Azure App Insights
       - tool: Azure Blob Storage
+  - title: Minimalist Blog
+    description: Blog site built with Gridsome, Contentful, and Tailwindcss.
+    link: https://connorreilly.netlify.app
+    thumbnailurl: /img/examples/connor-reilly.png
+    tools:
+      - tool: Gridsome
+      - tool: Contentful
+      - tool: Tailwindcss
+      - tool: Netlify
+      - tool: Github
+      - tool: Disqus
