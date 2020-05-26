@@ -1,5 +1,15 @@
 ---
 examples:
+  - title: DUDOS
+    description: Web design and development agency UK.
+    link: https://dudos.co.uk
+    thumbnailurl: /img/examples/dudos.jpg
+    tools:
+      - tool: Netlify
+      - tool: Gatsby
+      - tool: Prismic.io
+      - tool: Tailwind CSS
+      - tool: Github
   - title: Design Systems Repo
     description: A frequently updated collection of Design System examples and resources.
     link: https://designsystemsrepo.com
