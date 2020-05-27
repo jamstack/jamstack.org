@@ -1159,7 +1159,7 @@ examples:
       - tool: Azure Blob Storage
   - title: Foundation Starter
     description: A starter to launch your blazing fast personal website and a blog, Built with Gatsby and Netlify CMS.
-    link: foundation.stackrole.com/
+    link: https://foundation.stackrole.com/
     thumbnailurl: /img/examples/foundation.png
     tools:
       - tool: React
