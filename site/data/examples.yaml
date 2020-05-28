@@ -1,5 +1,16 @@
 ---
 examples:
+  - title: Digital Nature
+    description: JAMstack Web Development Studio in Beautiful British Columbia
+    link: https://www.digitalnature.io/
+    thumbnailurl: /img/examples/digital-nature.png
+    tools:
+      - tool: Vue.js
+      - tool: Gridsome
+      - tool: Commento
+      - tool: Github
+      - tool: Netlify
+      - tool: Netlify CMS
   - title: Design Systems Repo
     description: A frequently updated collection of Design System examples and resources.
     link: https://designsystemsrepo.com
