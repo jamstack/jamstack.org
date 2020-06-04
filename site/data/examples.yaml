@@ -1157,3 +1157,15 @@ examples:
       - tool: Azure Table Storage
       - tool: Azure App Insights
       - tool: Azure Blob Storage
+  - title: Remote Setups
+    description: Remote work desk setup inspiration, gear lists, guides, and tips.
+    link: https://remotesetups.com
+    thumbnailurl: /img/examples/remotesetups.jpg
+    tools:
+      - tool: Gatsby
+      - tool: React
+      - tool: Sanity.io
+      - tool: Styled-Components
+      - tool: GitHub
+      - tool: Netlify
+      - tool: Google Analytics
