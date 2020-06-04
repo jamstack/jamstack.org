@@ -1123,9 +1123,9 @@ examples:
     tools:
       - tool: Azure Storage
       - tool: Azure Functions
-      - tool: Azure Cosmos DB 
-      - tool: Azure Front Door 
-      - tool: Vue 
+      - tool: Azure Cosmos DB
+      - tool: Azure Front Door
+      - tool: Vue
       - tool: .NET Core
       - tool: TypeScript
       - tool: Bulma
@@ -1157,3 +1157,21 @@ examples:
       - tool: Azure Table Storage
       - tool: Azure App Insights
       - tool: Azure Blob Storage
+  - title: 5 Pages A Day
+      description: I read five pages from a book that interests me every day and then write about interesting tidbits from the book..
+      link: https://5pagesaday.com/
+      thumbnailurl: /img/examples/5pages.jpg
+      tools:
+        - tool: Hugo
+        - tool: Google Book API
+        - tool: Amazon Related Products
+        - tool: Amazon Native Ads
+        - tool: PWA
+        - tool: Netlify
+        - tool: Netlify Functions
+        - tool: Netlify Plugins (Image Optim)
+        - tool: GitHub
+        - tool: Forestry Headless CMS
+        - tool: Markdown
+        - tool: Google Analytics
+        - tool: SEO
