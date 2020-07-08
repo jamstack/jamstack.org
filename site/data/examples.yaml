@@ -1,5 +1,16 @@
 ---
 examples:
+- title: Rohith's Tech Blog | I write about tech
+    description: A tech blog about everything I'm currently working on.
+    link: https://www.rkpblog.tech
+    thumbnailurl: /img/examples/rkpblog.jpg
+    tools:
+      - tool: Netlify
+      - tool: Hugo
+      - tool: Cloudflare
+      - tool: Netlify CMS
+      - tool: Markdown
+      - tool: Github
   - title: Design Systems Repo
     description: A frequently updated collection of Design System examples and resources.
     link: https://designsystemsrepo.com
