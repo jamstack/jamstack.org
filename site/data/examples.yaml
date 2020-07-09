@@ -1048,7 +1048,7 @@ examples:
     tools:
       - tool: Vue
       - tool: Gridsome
-      - tool: Zeit Now
+      - tool: Vercel
       - tool: GitHub
       - tool: Ghost
       - tool: Cockpit
