@@ -1157,3 +1157,14 @@ examples:
       - tool: Azure Table Storage
       - tool: Azure App Insights
       - tool: Azure Blob Storage
+  - title: T2 Media
+    description: We leverage modern web technologies to create blazing fast websites.
+    link: https://www.t2.ca
+    thumbnailurl: /img/examples/t2-media.png
+    tools:
+      - tool: Gatsby
+      - tool: React
+      - tool: Netlify
+      - tool: Google Maps API
+      - tool: GitHub
+      - tool: Tailwind CSS
