@@ -8,6 +8,7 @@ examples:
       - tool: Gatsby
       - tool: WordPress
       - tool: WooCommerce
+      - tool: WPGraphQL
       - tool: GraphQL
       - tool: React
   - title: Design Systems Repo
