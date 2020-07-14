@@ -1,5 +1,15 @@
 ---
 examples:
+  - title: MobileUI
+    description: Framework for cross-platform app development in Java and Kotlin.
+    link: https://mobileui.dev
+    thumbnailurl: /img/examples/mobileui.jpg
+    tools:
+      - tool: Gatsby
+      - tool: WordPress
+      - tool: WooCommerce
+      - tool: GraphQL
+      - tool: React
   - title: Design Systems Repo
     description: A frequently updated collection of Design System examples and resources.
     link: https://designsystemsrepo.com
@@ -1123,9 +1133,9 @@ examples:
     tools:
       - tool: Azure Storage
       - tool: Azure Functions
-      - tool: Azure Cosmos DB 
-      - tool: Azure Front Door 
-      - tool: Vue 
+      - tool: Azure Cosmos DB
+      - tool: Azure Front Door
+      - tool: Vue
       - tool: .NET Core
       - tool: TypeScript
       - tool: Bulma
