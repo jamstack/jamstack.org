@@ -1123,9 +1123,9 @@ examples:
     tools:
       - tool: Azure Storage
       - tool: Azure Functions
-      - tool: Azure Cosmos DB 
-      - tool: Azure Front Door 
-      - tool: Vue 
+      - tool: Azure Cosmos DB
+      - tool: Azure Front Door
+      - tool: Vue
       - tool: .NET Core
       - tool: TypeScript
       - tool: Bulma
@@ -1157,3 +1157,20 @@ examples:
       - tool: Azure Table Storage
       - tool: Azure App Insights
       - tool: Azure Blob Storage
+  - title: Creative Designs Guru
+    description: Beautiful Themes & Templates. A collection of the best free and premium themes.
+    link: https://creativedesignsguru.com
+    thumbnailurl: /img/examples/creativedesignsguru.png
+    tools:
+      - tool: Eleventy
+      - tool: Webpack
+      - tool: Tailwind CSS
+      - tool: Git
+      - tool: Markdown
+      - tool: PurgeCSS
+      - tool: PostCSS
+      - tool: EJS
+      - tool: npm
+      - tool: Cloudflare
+      - tool: Google Analytics
+      - tool: Zeit Now
