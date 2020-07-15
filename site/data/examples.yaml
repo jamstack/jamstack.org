@@ -1167,6 +1167,4 @@ examples:
       - tool: Netlify CDN
       - tool: Netlify CMS
       - tool: Netlify Function
-      - tool: Github API
- 
-      
+      - tool: Github API    
