@@ -1157,14 +1157,14 @@ examples:
       - tool: Azure Table Storage
       - tool: Azure App Insights
       - tool: Azure Blob Storage
-   - title: Ahaquiz
-     description: Play free quizzes, learn new things everyday
-     link: https://ahaquiz.com
-     thumbnailurl: /img/examples/ahaquiz.jpg
-     tools:
+  - title: Ahaquiz
+    description: Play free quizzes, learn new things everyday
+    link: https://ahaquiz.com
+    thumbnailurl: /img/examples/ahaquiz.jpg
+    tools:
       - tool: ReactJS/Boostrap 4/SCSS
       - tool: Hugo
       - tool: Netlify CDN
       - tool: Netlify CMS
       - tool: Netlify Function
-      - tool: Github API    
+      - tool: Github API
