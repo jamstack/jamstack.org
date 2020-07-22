@@ -1157,3 +1157,12 @@ examples:
       - tool: Azure Table Storage
       - tool: Azure App Insights
       - tool: Azure Blob Storage
+  - title: RavSam
+    description: The portfolio website of RavSam Web Solutions.
+    link: https://www.ravsam.in/
+    thumbnailurl: /img/examples/ravsam.png
+    tools:
+      - tool: Jekyll
+      - tool: Bootstrap
+      - tool: Netlify
+      - tool: Github
