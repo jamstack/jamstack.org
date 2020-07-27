@@ -6,21 +6,35 @@ Over time this will hopefully grow into a useful entry-point for learning about 
 
 ## Usage
 
-Be sure that you have the latest node, yarn, and [Hugo](https://gohugo.io/) installed. If you need to install hugo, run:
+Be sure that you have the latest node, yarn, and [Hugo](https://gohugo.io/) installed. If you need to install hugo, you can install it using a package manager. 
+
+On MacOS, you can use [Homebrew](http://brew.sh):
 
 ```bash
 brew install hugo
 ```
 
-Next, clone this repository and run:
+On Linux, use `apt` on [Debian](http://debian.org) or `dnf` on [Fedora](http://getfedora.org). For instance:
+
+```bash
+dnf install hugo
+```
+
+Next, clone this repository:
+
+```bash
+git clone git@github.com:jamstack/jamstack.org.git
+```
+
+Change directory into the repository and run:
 
 ```bash
 yarn
 yarn start
 ```
 
-Then visit http://localhost:3000/ - BrowserSync will automatically reload CSS or
-refresh the page when stylesheets or content changes.
+Then visit http://localhost:3000/ - BrowserSync automatically reloads CSS or
+refreshes the page when stylesheets or content changes.
 
 To build your static output to the `/dist` folder, use:
 
@@ -30,11 +44,11 @@ yarn build
 
 ## Contribute Resources (Videos & Articles)
 
-To contribute resources to the Jamstack community, simply clone this branch and edit the `resources.yaml` in the `/site/data` directory. Just add another item (following the the prexisting syntax) and submit a pull request. If you are adding a video resource, please upload a thumbnail of the video to the `/img/videos` directory (image should be a jpeg 600px wide and 400px tall) before submitting your pull request. We will review these regularly and likely merge the addition shortly.
+To contribute resources to the Jamstack community, simply clone this branch and edit the `resources.yaml` in the `/site/data` directory. Just add another item (following the the prexisting syntax) and submit a pull request. If you are adding a video resource, please upload a thumbnail of the video to the `/img/videos` directory (image should be a jpeg 600px wide and 400px tall) before submitting your pull request. We review these regularly and will likely merge the addition shortly.
 
 ## Contribute Examples
 
-To contribute examples to the Jamstack community, simply clone this branch and edit the `examples.yaml` in the `/site/data` directory. Just add another item (following the the prexisting syntax). Lastly, upload a thumbnail of the site to the `/img/examples` directory (image should be a jpeg 596px wide and 396px tall) and submit a pull request. We will review these regularly and likely merge the addition shortly.
+To contribute examples to the Jamstack community, clone this branch and edit the `examples.yaml` in the `/site/data` directory. Add another item (following the the prexisting syntax). Lastly, upload a thumbnail of the site to the `/img/examples` directory (image should be a jpeg 596px wide and 396px tall) and submit a pull request. We review these regularly and will likely merge the addition shortly.
 
 ## Contribute Events
 
@@ -44,4 +58,4 @@ To contribute events to the Jamstack community, we recommend just adding the eve
 2. Add your event (following the the prexisting syntax)
 3. Submit a pull request
 
-*We will review these regularly and likely merge the addition shortly.
+*We review these regularly and will likely merge the addition shortly.
