@@ -1157,3 +1157,15 @@ examples:
       - tool: Azure Table Storage
       - tool: Azure App Insights
       - tool: Azure Blob Storage
+ - title: Webplace Digital Agency
+    description: An Australian digital agency specialising in open source CMS and static site generation with GatsbyJS
+    link: https://www.webplace.com.au
+    thumbnailurl: /img/examples/webplace.jpg
+    tools:
+      - tool: React
+      - tool: Gatsby JS
+      - tool: Wordpress CMS
+      - tool: Webpack
+      - tool: Bootstrap
+      - tool: Google Analytics
+      
