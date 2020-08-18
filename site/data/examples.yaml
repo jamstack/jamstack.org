@@ -1157,3 +1157,17 @@ examples:
       - tool: Azure Table Storage
       - tool: Azure App Insights
       - tool: Azure Blob Storage
+  - title: Jason Hill Rocks
+    description: Personal site for Jason Hill. Software Engineer, chilled dude, life long learner.
+    link: https://jasonhill.rocks/
+    thumbnailurl: /img/examples/jasonhillrocks.jpg
+    tools:
+      - tool: React
+      - tool: Gatsby
+      - tool: Netlify
+      - tool: Github
+      - tool: TypeScript
+      - tool: Google Analytics
+      - tool: GraphQL
+      - tool: ESLint
+      - tool: CSS-in-JS
