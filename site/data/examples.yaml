@@ -1157,3 +1157,19 @@ examples:
       - tool: Azure Table Storage
       - tool: Azure App Insights
       - tool: Azure Blob Storage
+  - title: IMOclub Blog
+    description: Website Development & Digital Marketing Services
+    link: https://imoclub.id
+    thumbnailurl: /img/examples/imoclub-blog.png
+    tools:
+      - tool: Hexo
+      - tool: Self Hosting
+      - tool: Stylus CSS
+      - tool: Google Analitycs
+      - tool: Facebook Pixel
+      - tool: Facebook Comment
+      - tool: Disqus
+      - tool: PUG
+      - tool: Lazyload
+      - tool: Google Adsense
+    
