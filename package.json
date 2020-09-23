@@ -18,7 +18,7 @@
     "start": "npm-run-all --parallel watch:html watch:css serve"
   },
   "dependencies": {
-    "@11ty/eleventy": "^0.10.0",
+    "@11ty/eleventy": "^0.11.0",
     "@fullhuman/postcss-purgecss": "^1.3.0",
     "autoprefixer": "^9.7.6",
     "cssnano": "^4.1.10",

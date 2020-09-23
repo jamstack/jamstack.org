@@ -119,8 +119,9 @@ layout: layouts/base.njk
       These were recently added:
     </p>
     <ul class="my-12">
-    {% for item in (resources | iterable | sort(true, false, 'date')).slice(0,5) %}
-      {% include "components/resource-link.njk" %}
+    {% for item in collections.resources %}
+      {# {% include "components/resource-link.njk" %} #}
+      {{ item.name }}
     {% endfor %}
     </ul>
     <p>

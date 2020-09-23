@@ -7,7 +7,7 @@
   NODE_ENV = "production"
 
 [dev]
-  command = "npm run watch"
+  command = "npm run start"
   publish = "dist"
 
 [[redirects]]

@@ -1,6 +1,6 @@
-<a href="{{ item.link }}" target="_BLANK" rel="noopener" class="mb-4 border-solid border-2 rounded block text-gray-300 hover:text-red-500">
-  {% if item.thumbnailurl %}
-  <img src="{{ item.thumbnailurl }}" loading="lazy" alt="{{ item.title }}">
+<a href="{{ item.data.link }}" target="_BLANK" rel="noopener" class="mb-4 border-solid border-2 rounded block text-gray-300 hover:text-red-500">
+  {% if item.data.thumbnailurl %}
+  <img src="{{ item.data.thumbnailurl }}" loading="lazy" alt="{{ item.data.title }}">
   {% else %}
   <svg  class="w-full" viewBox="0 0 600 400" fill="none" xmlns="http://www.w3.org/2000/svg">
     <rect width="600" height="400" fill="white"/>
@@ -9,9 +9,9 @@
   {% endif %}
 </a>
 <h3>
-  <a href="{{ item.link }}" target="_BLANK" rel="noopener">{{ item.title }} →</a>
+  <a href="{{ item.data.link }}" target="_BLANK" rel="noopener">{{ item.data.title }} →</a>
 </h3>
-{% if item.date %}
-<time value="{{ item.date | formatDate('y-MM-dd') }}" class="text-gray-400 text-xs">{{ item.date | formatDate }} </time>
+{% if item.data.date %}
+<time value="{{ item.data.date | formatDate('y-MM-dd') }}" class="text-gray-400 text-xs">{{ item.data.date | formatDate }} </time>
 {% endif %}
-<p class="mt-0 text-gray-600 text-xs">{{ item.link | domain}}</p>
+<p class="mt-0 text-gray-600 text-xs">{{ item.data.link | domain}}</p>

@@ -11,7 +11,6 @@ module.exports = function(eleventyConfig) {
   // Date helper
   const { DateTime } = require('luxon');
   eleventyConfig.addFilter('formatDate', (dateObj, formatStr) => {
-
     // convert any date strings to read dates
     if(typeof(dateObj) == "string") {
       dateObj = new Date(dateObj);
@@ -24,10 +23,21 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addFilter('convertFromEpoc', (time) => {
     let date = new Date(0);
-
-
     return date.setUTCSeconds(time);
   });
+
+
+  eleventyConfig.addCollection("generators", function(collectionApi) {
+    return collectionApi.getFilteredByGlob("src/site/generators/*.md");
+  });
+
+
+  eleventyConfig.addCollection("resources", function(collectionApi) {
+    return collectionApi.getFilteredByGlob("src/site/resources/*.md");
+  });
+
+
+
 
 
 
@@ -53,7 +63,7 @@ module.exports = function(eleventyConfig) {
     for (var item in obj){
       iterableArray.push( obj[item] );
     }
-    return iterableArray
+    return iterableArray;
   });
 
   // format a url for display
@@ -67,13 +77,6 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addFilter('dumpasyaml', obj => {
     return yaml.safeDump(obj)
   });
-
-  // a debug utility
-  const util = require('util');
-  eleventyConfig.addFilter('dump', obj => {
-    return util.inspect(obj)
-  });
-
 
 
 
