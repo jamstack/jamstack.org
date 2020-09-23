@@ -37,6 +37,22 @@ module.exports = function(eleventyConfig) {
   });
 
 
+  // Filter a collection based on items flagged as "featured"
+  eleventyConfig.addFilter('featured', (items) => {
+    return items.filter(item => item.data.featured);
+  });
+
+  // Filter a collection based on items flagged as "featured"
+  eleventyConfig.addFilter('dataAttr', (items, attr, value) => {
+    return items.filter(item => item.data[attr] == value);
+  });
+
+  // Filter a collection based on items flagged as "featured"
+  eleventyConfig.addFilter('whereData', (items, expression) => {
+    let key = expression.split('=')[0];
+    let val = expression.split('=')[1];
+    return items.filter(item => item.data[key] == val);
+  });
 
 
 

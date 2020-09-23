@@ -39,7 +39,6 @@ module.exports = async () => {
         });
       })
       .then(() => {
-
         return events;
       });
 
@@ -48,5 +47,3 @@ module.exports = async () => {
   }
 
 }
-
-

@@ -6,25 +6,20 @@ layout: layouts/base.njk
 <section class="md:mt-20">
   <h1 class="heading">Site Generators</h1>
   <p class="section-lede">
-    There are examples from around the community and industry
+    A NEW HOME FOR STATICGEN CONTENT
   </p>
   <p class="max-w-l">
-    Explore a selection of example Jamstack sites contributed by the community. You can also <a href="{{ pkg.repository.url }}/pulls">submit your own</a> to be included in this list.
+    About this data...
   </p>
 </section>
 
 <section class="mt-12">
-  <h2 class="heading">More examples</h2>
-  <p class="section-lede">
-   Explore all the submitted examples
-  </p>
   <div class="mt-12 flex flex-wrap justify-around lg:justify-between">
-
-
-
   {% for item in collections.generators %}
     <div class="w-1/2 md:w-1/3 lg:w-1/4 text-left mb-16 pr-10">
-    {{ item.data.title }}
+    <a href="{{ item.data.title | slug}}">
+      {{ item.data.title }}
+    </a>
     </div>
   {% endfor %}
   </div>
