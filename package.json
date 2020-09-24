@@ -15,7 +15,8 @@
     "watch:html": "ELEVENTY_ENV=dev eleventy --watch --quiet",
     "watch:css": "postcss src/css/tailwind.css -o dist/css/styles.css --watch",
     "serve": "live-server dist",
-    "start": "npm-run-all --parallel watch:html watch:css serve"
+    "start": "npm-run-all --parallel watch:html watch:css serve",
+    "clean": "rm -rf dist"
   },
   "dependencies": {
     "@11ty/eleventy": "^0.11.0",
