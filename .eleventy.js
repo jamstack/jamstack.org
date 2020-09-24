@@ -27,11 +27,6 @@ module.exports = function(eleventyConfig) {
   });
 
 
-  eleventyConfig.addCollection("generators", function(collectionApi) {
-    return collectionApi.getFilteredByGlob("src/site/generators/*.md");
-  });
-
-
   eleventyConfig.addCollection("resources", function(collectionApi) {
     return collectionApi.getFilteredByGlob("src/site/resources/*.md");
   });
