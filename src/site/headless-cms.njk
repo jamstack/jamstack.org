@@ -13,13 +13,9 @@ layout: layouts/base.njk
 </section>
 
 <section class="mt-12">
-  <div class="mt-12 flex flex-wrap justify-around lg:justify-between">
+    <div class="grid gap-4 grid-cols-2 md:grid-cols-3 lg:grid-cols-4 ">
   {% for item in collections.cms %}
-    <div class="w-1/2 md:w-1/3 lg:w-1/4 text-left mb-16 pr-10">
-    <a href="{{ item.data.title | slug}}">
-      {{ item.data.title }}
-    </a>
-    </div>
+    {% include "components/cms-card.njk" %}
   {% endfor %}
   </div>
 </section>

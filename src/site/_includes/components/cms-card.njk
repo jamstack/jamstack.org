@@ -1,0 +1,28 @@
+<div id="{{item.id}}" class="cms-card text-left p-4 mb-8 text-gray-700 bg-white rounded">
+  <h3 class="text-xl font-bold bg-orange-500">
+    <a href="{{ item.data.title | slug}}" >{{ item.data.title }}</a>
+  </h3>
+  <div class="text-xs">
+    <div class="stats">
+      GitHub data to add
+    </div>
+    <div class="description">
+      {{ item.data.decription | safe }}
+    </div>
+    <dl>
+      <dt>Langauge</dt>
+      <dd>{{ item.data.language }}</dd>
+      {% if item.data.templates %}
+      <dt>Templates</dt>
+      <dd>{{ item.data.templates | join(", ") }}</dd>
+      {% endif %}
+      <dt>License</dt>
+      <dd>{{ item.data.license }}</dd>
+    </dl>
+  </div>
+  {% if item.data.startertemplaterepo %}
+    <a class="dtn" href="https://app.netlify.com/start/deploy?repository={{ item.data.startertemplaterepo}}">Deploy to Netlify</a>
+  {% endif %}
+</div>
+
+
