@@ -12,13 +12,12 @@
 
 
 {% macro benefit(title, icon, description ) %}
-
-  <img src="/img/svg/{{ icon }}" class="pr-6 " alt="{{ title }}" />
-  <div class="w-5/6 mb-12">
-    <h3 class="text-xl text-bold mt-0 mb-2 text-white text-bold md:text-3xl">
+  <div class="w-3/5 my-10">
+    <h3 class="text-xl text-bold text-white text-bold md:text-3xl">
+    <img src="/img/svg/{{ icon }}" class="pr-2 inline-block " alt="{{ title }}" />
       {{ title }}
     </h3>
-    <div class="text-blue-100">
+    <div class="text-blue-100 mt-6">
       {{ description | safe }}
     </div>
   </div>
