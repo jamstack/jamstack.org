@@ -32,6 +32,28 @@ p+p {
 
 
 /*
+  CTA links
+*/
+a.cta:link,
+a.cta:visited {
+  @apply inline-block;
+  @apply bg-pink-900;
+  @apply text-white;
+  @apply rounded-full;
+  @apply text-xs;
+  @apply font-semibold;
+  @apply px-4;
+  @apply py-2;
+  @apply border-none;
+  @apply my-4;
+}
+a.cta:hover,
+a.cta:focus {
+  @apply bg-pink-500;
+}
+
+
+/*
   Footer links
 */
 footer p a {

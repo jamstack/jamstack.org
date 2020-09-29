@@ -5,130 +5,102 @@ layout: layouts/base.njk
 
 {% import "components/section-heading.njk" as section %}
 
-<div class="bg-blue-800">
-  <section class="md:mt-20 flex flex-row flex-wrap justify-between">
-    <div class="w-2/5">
-      <h1 class="text-4xl text-bold leading-tight mb-6">Security.<br />Speed.<br />Scale.</h1>
-      <p class="text-md font-bold inline bg-pink-900 text-white leading-none py-1 whitespace-pre-wrap">Create fast and secure sites and dynamic apps with pre-rendered resources served directly from a <a href="/glossary#cdn" title="Glossary: Content Delivery Network" class="text-red-200 border-red-200">CDN</a>, removing the requirement to manage or run web servers. </p>
-      <p>
-        You may have already seen or worked on Jamstack sites. They might be built using tools like Jekyll, Hugo, Nuxt, Next, Gatsby, or another <a href="/glossary/#ssg">static site generator</a>.
-      </p>
-      <p>
-        The thing that they all have in common is that they don’t depend on a web server.
-      </p>
+<section>
+  <p>Comprehensive guide for building Jamstack sites and home of the global Jamstack community.</p>
+  <h1>The modern way to build <span>websites and apps</span> that delivers better performance</h1>
+  <a href="/community" class="cta">Join the global community</a>
+</section>
+
+<section>
+  <p>Maximze efficiency with the tools you love</p>
+  <div class="logos-ticker">
+    <div class="logos-ticker-container">
+      <span>Netlify</span>
+      <span>Gatsby</span>
+      <span>Angular</span>
+      <span>VueJS</span>
+      <span>React</span>
+      <span>Hugo</span>
+      <span>Eleventy</span>
     </div>
-    <img src="/img/svg/device-scene.svg" alt="Devices" class="w-1/2">
-  </section>
-</div>
+  </div>
+</section>
 
-{# <section class="mt-12">
-  <img src="/img/svg/diagram.svg" alt="Jamstack logical diagram" class="w-full">
-</section> #}
+<section>
+  <h2>Why Jamstack</h2>
+  <p>
+    The Jamstack architecture has many benefits, whether you’re building a large e-commerce site, SaaS application or personal blog.
+  </p>
+  {{ section.benefit(
+      "Better Performance",
+      "icon-disc-security.svg",
+      "<p>
+        Why wait for pages to build on the fly when you can generate them at deploy time? When it comes to minimizing the time to first byte, nothing beats pre-built files served over a CDN.
+      </p>")
+  }}
+  {{ section.benefit(
+      "Higher Security",
+      "icon-disc-security.svg",
+      "<p>
+        With server-side processes abstracted into microservice APIs, surface areas for attacks are reduced. You can also leverage the domain expertise of specialist third-party services.
+      </p>")
+  }}
+  {{ section.benefit(
+    "Cheaper, Easier Scaling",
+    "icon-disc-security.svg",
+    "<p>
+      When your deployment amounts to a stack of files that can be served anywhere, scaling is a matter of serving those files in more places. CDNs are perfect for this, and often include scaling in all of their plans.
+    </p>")
+  }}
+  {{ section.benefit(
+    "Better Developer Experience",
+    "icon-disc-security.svg",
+    "<p>
+      Loose coupling and separation of controls allow for more targeted development and debugging, and the expanding selection of CMS options for site generators remove the need to maintain a separate stack for content and marketing.
+    </p>")
+  }}
+  <a href="/why-jamstack" class="cta">Read more about the benefits of Jamstack</a>
+</section>
 
-<div class="bg-blue-900 ">
-  <section class="mt-0 md:mt-12">
+<section>
+  <h2>the future us highly distributed</h2>
+  <p>
+    Jamstack is the new standard architecture for the web. Using Git workflows and modern build tools, pre-rendered   content is served to a CDN and made dynamic through APIs and serverless functions.Technologies in the stack include JavaScript frameworks, Static Site Generators, Headless CMSs, and CDNs.
+  </p>
+  <div> [DIAGRAM: architecture comparison] </div>
+</section>
 
-    {{ section.heading(
-        "Benefits of Jamstack",
-        "icon-star.svg",
-        "There are many benefits to this approach to web development." )
-    }}
+<section>
+  <h2>Rise of the Jamstack</h2>
+  <div> [VIDEO] </div>
+  <p>
+    Matt Biilmann took the concept of Jamstack mainstream with his presentation at Smashing Conf 2016. Watch the quintessential introduction to the Jamstack.
+  </p>
+  <a href="/" class="cta">See more videos and resources</a>
+</section>
 
-
-    <div class="text-blue-100 flex flex-rows flex-wrap items-start justify-start mt-8">
-
-    {{ section.benefit(
-        "Security",
-        "icon-disc-security.svg",
-        "<p>
-          The Jamstack removes multiple moving parts and systems from the hosting infrastructure resulting in fewer servers and systems to harden against attack.
-        </p>
-        <p>
-          Serving pages and assets as pre-generated files allows read-only hosting reducing attack vectors even further. Meanwhile dynamic tools and services can be provided by vendors with teams dedicated to securing their specific systems and providing high levels of service.
-        </p>" )
-    }}
-
-
-    {{ section.benefit(
-        "Scale",
-        "icon-disc-scale.svg",
-        '<p>
-          Popular architectures deal with heavy traffic loads by adding logic to cache popular views and resources. The Jamstack provides this by default. When sites can be served entirely from a <a href="/glossary#cdn" title="Glossary: Content Delivery Network">CDN</a> there is no complex logic or workflow to determine what assets can be cached and when.
-        </p>
-        <p>
-          With Jamstack sites everything can be cached in a content delivery network. With simpler deployments, built-in redundancy and incredible load capacity.
-        </p>' )
-    }}
-
-
-    {{ section.benefit(
-        "Performance",
-        "icon-disc-performance.svg",
-        '<p>
-          Page loading speeds have an impact on user experience and conversion. Jamstack sites remove the need to generate page views on a server at request time by instead generating pages ahead of time during a build.
-        </p>
-        <p>With all the pages are already available on a CDN close to the user and ready to serve, very high performance is possible without introducing expensive or complex infrastructure.</p>' )
-    }}
-
-
-    {{ section.benefit(
-        "Maintainability",
-        "icon-disc-maintain.svg",
-        ' <p>
-          When hosting complexity is reduced, so are maintenance tasks. A pre-generated site, being served directly from a simple host or directly from a CDN does not need a team of experts to "keep the lights on".
-        </p>
-        <p>
-          The work was done during the build, so now the generated site is stable and can be hosted without servers which might require patching, updating and maintain.
-      </p>' )
-    }}
-
-    {{ section.benefit(
-        "Portability",
-        "icon-disc-portable.svg",
-        "<p>
-        Jamstack sites are pre-generated. That means that you can host them from a wide variety of hosting services and have greater ability to move them to your preferred host. Any simple static hosting solution should be able to serve a Jamstack site.
-      </p>
-      <p>
-        Bye-bye infrastructure lock-in.
-      </p>" )
-    }}
-
-
-    {{ section.benefit(
-        "Developer Experience",
-        "icon-disc-dx.svg",
-        "<p>
-        Jamstack sites can be built with a wide variety of tools. They do not depend on the proprietary technologies or exotic and little known frameworks. Instead, they build on widely available tools and conventions. As a result, it's not hard to find enthusiastic and talented developers who have the right skills to build with the Jamstack." )
-    }}
-
-
-
-  </section>
-</div>
-
-<div class="bg-blue-800 ">
-  <section class="mt-12">
-
-    {{ section.heading(
-      "Learn more about Jamstack",
-      "icon-learn.svg",
-      "You can find <a href='/examples' class='text-red-200 border-red-200'>examples</a> and <a href='/resources' class='text-red-200 border-red-200'>resources</a> on this site." )
-    }}
-
-    <p>
-      These were recently added:
-    </p>
-    <ul class="my-12">
-    {% for item in collections.resources %}
-      {# {% include "components/resource-link.njk" %} #}
-      {{ item.name }}
+<section>
+  <h2>Jamstack-Powered Projects</h2>
+  <p>
+    You have likely visited —and may have even worked on— a Jamstack site, which is commonly built using a static site generator like Gatsby, Next, Jekyll, Hugo, 11ty or Nuxt.
+  </p>
+  <div class="mt-12 flex flex-wrap justify-around lg:justify-between">
+    {% for item in examples | iterable | selectattr("featured") | luckydip(6) %}
+      <div class="md:w-1/2 lg:w-1/3 text-left mb-16 pr-10">
+      {% include "components/example-link.njk" %}
+      </div>
     {% endfor %}
-    </ul>
-    <p>
-      Explore <a href="/resources">the resources section</a> for much more.
-    </p>
-  </section>
-</div>
+  </div>
+  <a href="/examples" class="cta">More examples</a>
+</section>
+
+
+<section>
+  <h2>Join the Movement</h2>
+  <p>
+    The conversation about Jamstack is happening right now. Join thousands of developers on Twitter, in global meetup groups and in the official Jamstack community slack.
+  </p>
+</section>
 
 
 <div class="bg-blue-900 ">
