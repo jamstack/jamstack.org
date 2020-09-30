@@ -2,7 +2,8 @@ const purgecss = require('@fullhuman/postcss-purgecss')({
 
   // Specify the paths to all of the template files in the project
   content: [
-    './src/site/**/*.njk'
+    './src/site/**/*.njk',
+    './src/site/**/*.md'
   ],
 
   // Include any special characters
