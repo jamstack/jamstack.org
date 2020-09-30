@@ -1,20 +1,10 @@
 ---
-title: Glossary
 layout: layouts/base.njk
 ---
 
-
 <section class="mt-16">
-  <h1 class="font-bold text-5xl leading-tight my-4">Glossary</h1>
+  <h1 class="font-bold text-3xl leading-tight my-4">Glossary</h1>
   <p class="w-2/3"><a href="/glossary">A collection of terms</a> often used when talking about Jamstack and associated web technologies.</p>
-</section>
-
-<section>
-  <ul>
-    {% for item in glossary %}
-    <li class="my-2"><a href="/glossary/{{ item.id }}">{{ item.term }}</a></li>
-    {% endfor %}
-  </ul>
 </section>
 
 <section>

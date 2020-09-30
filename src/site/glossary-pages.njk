@@ -1,0 +1,11 @@
+---
+pagination:
+  data: glossary
+  size: 1
+  alias: item
+permalink: "glossary/{{ item.id }}/index.html"
+layout: layouts/glossary.njk
+---
+
+<h2 class="text-5xl font-semi-bold">{{ item.term }}</h2>
+<div class="mt-8 border-l border-gray-400 pl-4">{{ item.definition | safe }}</div>
