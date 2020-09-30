@@ -24,7 +24,6 @@ module.exports = {
     }
   },
   variants: {
-    fill: ["hover"]
   },
   plugins: []
 }

@@ -7,6 +7,9 @@ module.exports = function(eleventyConfig) {
 
   // pass images directly through to the output
   eleventyConfig.addPassthroughCopy("src/site/img");
+  eleventyConfig.addPassthroughCopy({
+    "src/js": "js"
+  });
 
   // Date helper
   const { DateTime } = require('luxon');
