@@ -124,23 +124,18 @@ h3.heading {
   @apply rounded;
 }
 
-.bg-gradient-jams {
-  background: #E7017A linear-gradient(91.78deg, #E7017A 2.57%, #DF4A1F 96.33%);
-}
-
-
 .columns-3 {
   columns: 3;
 }
 
 @tailwind utilities;
 
-@layer utilities {
+@layer base {
   .bg-gradient-jams {
     background: #D1036F linear-gradient(91.78deg, #D1036F 2.57%, #B6005F 96.33%);
   }
-  .hover\:bg-gradient-jams:hover,
-  .hover\:bg-gradient-jams:focus {
+  .hover\:bg-gradient-jams-active:hover,
+  .hover\:bg-gradient-jams-active:focus {
     background: #E7017A linear-gradient(91.78deg, #E7017A 2.57%, #DF4A1F 96.33%);
   }
   .list-jams-logo > li,
