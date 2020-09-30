@@ -17,6 +17,10 @@
 - term: "Client render"
   id: "client-render"
   definition: "To generate the view of content in the browser using JavaScript. This often involves transmitting data to the browser rather than markup which is ready for the browser to display, and then using JavaScript to transform that data into a view by modifuing the DOM"
+  
+  - term: "Headless Technology"
+  id: "headless-technology"
+  definition: "The term 'headless' refers to removing the dependency of knowing where data will be displayed and instead just holding the data to be used wherever the developer chooses. This is often used to describe a CMS where content can be entered, held, then where and how that content is displayed is decided separately."
 
 - term: "Hydration"
   id: "hydration"
