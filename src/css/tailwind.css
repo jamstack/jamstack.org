@@ -130,7 +130,8 @@ h3.heading {
 
 @tailwind utilities;
 
-@layer base {
+/* purgecss start ignore */
+@layer utilities {
   .bg-gradient-jams {
     background: #D1036F linear-gradient(91.78deg, #D1036F 2.57%, #B6005F 96.33%);
   }
@@ -182,3 +183,4 @@ h3.heading {
     display: none;
   }
 }
+/* purgecss end ignore */
