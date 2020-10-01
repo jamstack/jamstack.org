@@ -3,6 +3,7 @@ title: For fast and secure sites
 layout: layouts/base.njk
 ---
 
+{% import "components/ticker.njk" as ticker %}
 {% import "components/section-heading.njk" as section %}
 
 <section class="mt-16">
@@ -11,19 +12,10 @@ layout: layouts/base.njk
   <a href="/community" class="cta">Join the global community</a>
 </section>
 
-<section class="mb-20">
-  <p>Maximze efficiency with the tools you love</p>
-  <div class="logos-ticker">
-    <div class="logos-ticker-container">
-      <span>Netlify</span>
-      <span>Gatsby</span>
-      <span>Angular</span>
-      <span>VueJS</span>
-      <span>React</span>
-      <span>Hugo</span>
-      <span>Eleventy</span>
-    </div>
-  </div>
+<section class="mb-20 p-0">
+  <p class="px-8">Maximize efficiency with the tools you love</p>
+  {{ ticker.icons() }}
+  {{ ticker.main() }}
 </section>
 
 <section class="mb-20">

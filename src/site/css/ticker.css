@@ -1,0 +1,39 @@
+.logos-ticker {
+  --speed: 90s;
+
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: hidden;
+  position: relative;
+}
+
+.logos-ticker-fade {
+  background: linear-gradient(to right, rgba(14, 24, 42, 1) 0%, rgba(14, 24, 42, .01) 20%, rgba(14, 24, 42, .01) 80%, rgba(14, 24, 42, 1) 100%);
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+.logos-ticker-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: slide var(--speed) linear infinite;
+}
+.logos-ticker-container svg {
+  fill: #646E73;
+  margin: 0 1.5em;
+}
+
+@keyframes slide {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+
+  100% {
+    transform: translate3d(-100%, 0, 0);
+  }
+}
