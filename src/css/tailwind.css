@@ -119,11 +119,6 @@ h3.heading {
 }
 */
 
-:target {
-  @apply bg-blue-800;
-  @apply rounded;
-}
-
 .columns-3 {
   columns: 3;
 }
@@ -136,6 +131,14 @@ h3.heading {
 .hover\:bg-gradient-jams-active:focus {
   background: #E7017A linear-gradient(91.78deg, #E7017A 2.57%, #DF4A1F 96.33%);
 }
+.bg-gradient-pink-orange {
+  background: #E7017A linear-gradient(91.78deg, #E7017A 2.57%, #DF4A1F 96.33%);
+}
+.bg-gradient-blue-green {
+  background: #0090CA linear-gradient(101.87deg, #0090CA 0%, #00BFAD 105.55%);
+}
+
+
 .list-jams-logo > li,
 .list-jams-logo-pink > li,
 .list-jams-logo-border > li {
