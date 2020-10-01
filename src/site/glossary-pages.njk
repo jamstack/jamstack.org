@@ -3,8 +3,8 @@ pagination:
   data: glossary
   size: 1
   alias: item
-title: "{{ item.term }}"
-description: "What is {{ item.term }}? {{ item.definition }}"
+title: {{ item.term }}
+description: What is {{ item.term }}? {{ item.definition }}
 permalink: "glossary/{{ item.id }}/index.html"
 layout: layouts/glossary.njk
 ---
