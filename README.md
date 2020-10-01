@@ -1,6 +1,6 @@
 # Jamstack
 
-This is the small start of something. The Jamstack homepage with a few lines about the concepts and the philosophy.
+This is the small start of something amazing. The Jamstack homepage with a few lines about the concepts and the philosophy.
 
 Over time this will hopefully grow into a useful entry-point for learning about this new stack, sharing tools, tips and best practices as well as spreading the word.
 
