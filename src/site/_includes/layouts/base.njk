@@ -1,10 +1,14 @@
+---
+title: Jamstack | JavaScript, APIs, and Markup
+description: What is the Jamstack? Why use the Jamstack? How do I get started? Learn what the Jamstack is all about and why it's the best approach for building faster, more secure websites.
+---
 <!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/styles.css">
-    <title>{{ title }} | Jamstack</title>
+    <title>{% if title %}{{ title }} | Jamstack{% else %}{{ site.title }}{% endif %}</title>
     <meta name="description" content="">
     <meta property="og:title" content="{{ title }} | Jamstack">
     <meta property="og:site_name" content="Jamstack.org">
