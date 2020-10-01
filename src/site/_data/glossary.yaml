@@ -20,6 +20,10 @@
   id: 'ssg'
   definition: "A tool which can be run as part of a build to transform content, data, and templates into files which can be deployed to a hosting environment as a ready-to-serve web site. Find a more detailed description in this article: <a href='https://www.netlify.com/blog/2020/04/14/what-is-a-static-site-generator-and-3-ways-to-find-the-best-one/?utm_source=jamstackorg&utm_medium=what-are-ssg-pnh&utm_campaign=devex'>What is a Static Site Generator? And 3 ways to find the best one</a>."
 
+- term: 'Headless Technology'
+  id: 'headless-technology'
+  definition: 'The term "headless" refers to removing the dependency of knowing where data will be displayed and instead just holding the data to be used wherever the developer chooses. This is often used to describe a CMS where content can be entered, held, then where and how that content is displayed is decided separately.'
+
 - term: 'Client render'
   id: 'client-render'
   definition: 'To generate the view of content in the browser using JavaScript. This often involves transmitting data to the browser rather than markup which is ready for the browser to display, and then using JavaScript to transform that data into a view by modifying the DOM'
