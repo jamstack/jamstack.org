@@ -17,21 +17,36 @@
   <a href="/" class="block text-white hover:text-pink-900 mx-8 py-8">
     <svg role="img" aria-label="Jamstack" aria-hidden="true" focusable="false" width="163" height="31"><use xlink:href="#logo-jamstack"></use></svg>
   </a>
-  {% include "navigation-links.njk" %}
+  <details open data-force-state
+    data-force-state-closed="(max-width: 39.9375em)">
+    <summary class="summary-no-arrow sm:hidden absolute top-0 right-0 p-8">
+      <svg width="22" height="31" viewBox="0 0 22 21" fill="none" class="summary-swap-closed">
+        <rect width="22" height="3" fill="white"/>
+        <rect y="18" width="22" height="3" fill="white"/>
+        <rect y="9" width="22" height="3" fill="white"/>
+      </svg>
+      <svg width="22" height="31" viewBox="0 0 18 19" fill="none" class="summary-swap-open">
+        <rect y="16.7217" width="22" height="3" transform="rotate(-48.3434 0 16.7217)" fill="white"/>
+        <rect width="22" height="3" transform="matrix(0.664665 0.747142 0.747142 -0.664665 0.431641 1.9939)" fill="white"/>
+      </svg>
 
-  <a href="https://jamstackconf.com/" class="block p-4 mt-16 mb-4 bg-gradient-jams hover:bg-gradient-jams font-bold text-center">Jamstack Conference</a>
+      <span class="sr-only">Menu</span>
+    </summary>
+    {% include "navigation-links.njk" %}
 
-  <div class="text-center text-sm mb-4">Connect with us</div>
-  <div class="grid grid-cols-3 divide-x divide-gray-700">
-    <a href="#" class="flex items-center justify-center p-4 hover:text-pink-500">
-      <svg role="img" aria-label="Slack" aria-hidden="true" focusable="false" width="30" height="30" class="fill-current"><use xlink:href="#logo-slack"></use></svg>
-    </a>
-    <a href="#" class="flex items-center justify-center p-4 hover:text-pink-500">
-      <svg role="img" aria-label="Twitter" aria-hidden="true" focusable="false" width="34" height="28" class="fill-current"><use xlink:href="#logo-twitter"></use></svg>
-    </a>
-    <a href="#" class="flex items-center justify-center p-4 hover:text-pink-500">
-      <svg role="img" aria-label="GitHub" aria-hidden="true" focusable="false" width="36" height="36" class="fill-current"><use xlink:href="#logo-github"></use></svg>
-    </a>
-  </div>
+    <a href="https://jamstackconf.com/" class="block p-4 my-4 bg-gradient-jams hover:bg-gradient-jams-active font-bold text-center">Jamstack Conference</a>
 
+    <div class="text-center text-sm mb-4">Connect with us</div>
+    <div class="grid grid-cols-3 divide-x divide-gray-700">
+      <a href="#" class="flex items-center justify-center p-4 hover:text-pink-500">
+        <svg role="img" aria-label="Slack" aria-hidden="true" focusable="false" width="30" height="30" class="fill-current"><use xlink:href="#logo-slack"></use></svg>
+      </a>
+      <a href="#" class="flex items-center justify-center p-4 hover:text-pink-500">
+        <svg role="img" aria-label="Twitter" aria-hidden="true" focusable="false" width="34" height="28" class="fill-current"><use xlink:href="#logo-twitter"></use></svg>
+      </a>
+      <a href="#" class="flex items-center justify-center p-4 hover:text-pink-500">
+        <svg role="img" aria-label="GitHub" aria-hidden="true" focusable="false" width="36" height="36" class="fill-current"><use xlink:href="#logo-github"></use></svg>
+      </a>
+    </div>
+  </details>
 </header>

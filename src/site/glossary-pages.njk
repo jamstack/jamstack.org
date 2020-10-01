@@ -8,4 +8,8 @@ layout: layouts/glossary.njk
 ---
 
 <h2 class="text-5xl font-semi-bold">{{ item.term }}</h2>
-<div class="mt-8 border-l border-gray-400 pl-4">{{ item.definition | safe }}</div>
+<div class="mt-8 border-l border-gray-400 pl-4">
+{% markdown %}
+  {{- item.definition | safe }}
+{% endmarkdown %}
+</div>
