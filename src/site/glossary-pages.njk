@@ -4,7 +4,7 @@ pagination:
   size: 1
   alias: item
 title: {{ item.term }}
-description: What is {{ item.term }}? {{ item.definition }}
+description: What is {{ item.term }}? {{- item.definition | safe }}
 permalink: "glossary/{{ item.id }}/index.html"
 layout: layouts/glossary.njk
 ---
