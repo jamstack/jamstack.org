@@ -102,9 +102,6 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addFilter('dumpasyaml', obj => {
     return yaml.safeDump(obj)
   });
-  
-  // add site alias for base layout
-  eleventyConfig.addLayoutAlias('site', 'layouts/base.njk');
 
 
 
