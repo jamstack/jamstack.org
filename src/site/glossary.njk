@@ -11,7 +11,7 @@ layout: layouts/base.njk
 
 <section>
   <ul>
-    {% for item in glossary %}
+    {% for item in glossary | selectattr("definition") %}
     <li class="my-2"><a href="/glossary/{{ item.id }}">{{ item.term }}</a></li>
     {% endfor %}
   </ul>
