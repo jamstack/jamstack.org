@@ -24,6 +24,17 @@ module.exports = function(eleventyConfig) {
     }).toFormat(format);
   });
 
+  // A handy markdown shortcode for blocks of markdown
+  // coming from our data sources
+  const markdownIt = require('markdown-it');
+  const md = new markdownIt({
+    html: true
+  });
+  eleventyConfig.addPairedShortcode('markdown', (content) => {
+    return md.render(content);
+  });
+
+
   eleventyConfig.addFilter('convertFromEpoc', (time) => {
     let date = new Date(0);
     return date.setUTCSeconds(time);

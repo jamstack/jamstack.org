@@ -8,10 +8,6 @@
 - term: 'Serverless'
   id: 'serverless'
 
-- term: 'Hawking'
-  id: 'hawking'
-  definition: 'To dance [like this](https://res.cloudinary.com/jlengstorf/image/upload/q_auto,f_auto/trolls/phil-dance.gif)'
-
 - term: 'Pre-render / Pre-generate'
   id: 'pre-render'
   definition: 'To generate the markup which represents a view in advance of when it is required. This happens during a build rather than on-demand so that web servers do not need to perform this activity for each request recieved.'
