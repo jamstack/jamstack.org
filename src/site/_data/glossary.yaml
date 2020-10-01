@@ -1,22 +1,33 @@
-- term: "CDN (Content Delivery Network)"
-  id: "cdn"
-  definition: "A distributed network optimized for serving assets to users. By being geographically distributed, a CDN can provide redundancy adn also improve delovery performance as a result of servicing requests from the infrastructure closest to the user making the request."
+- term: 'CDN (Content Delivery Network)'
+  id: 'cdn'
+  definition: 'A distributed network optimized for serving assets to users. By being geographically distributed, a CDN can provide redundancy adn also improve delovery performance as a result of servicing requests from the infrastructure closest to the user making the request.'
 
-- term: "Pre-render / Pre-generate"
-  id: "pre-render"
-  definition: "To generate the markup which represents a view in advance of when it is required. This happens during a build rather than on-demand so that web servers do not need to perform this activity for each request recieved."
+- term: 'Edge Network'
+  id: 'edge-network'
 
-- term: "Server render"
-  id: "server-render"
-  definition: "To generate markup on the server rather than on the client. Server render usually refers to the process happening at request time, rather than at build time. Some do use this term as a catch all for any rendering taking place on a server, and so disambiguation is often sensible."
+- term: 'Serverless'
+  id: 'serverless'
 
-- term: "Static site generator"
-  id: "ssg"
+- term: 'Hawking'
+  id: 'hawking'
+  definition: 'To dance [like this](https://res.cloudinary.com/jlengstorf/image/upload/q_auto,f_auto/trolls/phil-dance.gif)'
+
+- term: 'Pre-render / Pre-generate'
+  id: 'pre-render'
+  definition: 'To generate the markup which represents a view in advance of when it is required. This happens during a build rather than on-demand so that web servers do not need to perform this activity for each request recieved.'
+
+- term: 'Server render'
+  id: 'server-render'
+  definition: 'To generate markup on the server rather than on the client. Server render usually refers to the process happening at request time, rather than at build time. Some do use this term as a catch all for any rendering taking place on a server, and so disambiguation is often sensible.'
+
+- term: 'Static site generator'
+  id: 'ssg'
   definition: "A tool which can be run as part of a build to transform content, data, and templates into files which can be deployed to a hosting environment as a ready-to-serve web site. Find a more detailed description in this article: <a href='https://www.netlify.com/blog/2020/04/14/what-is-a-static-site-generator-and-3-ways-to-find-the-best-one/?utm_source=jamstackorg&utm_medium=what-are-ssg-pnh&utm_campaign=devex'>What is a Static Site Generator? And 3 ways to find the best one</a>."
 
-- term: "Client render"
-  id: "client-render"
-  definition: "To generate the view of content in the browser using JavaScript. This often involves transmitting data to the browser rather than markup which is ready for the browser to display, and then using JavaScript to transform that data into a view by modifuing the DOM"
+- term: 'Client render'
+  id: 'client-render'
+  definition: 'To generate the view of content in the browser using JavaScript. This often involves transmitting data to the browser rather than markup which is ready for the browser to display, and then using JavaScript to transform that data into a view by modifying the DOM'
 
-- term: "Hydration"
-  id: "hydration"
+- term: 'Hydration'
+  id: 'hydration'
+
