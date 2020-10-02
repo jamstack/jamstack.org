@@ -2,20 +2,19 @@
 title: Headless CMS
 layout: layouts/base.njk
 ---
+{% import "components/cards.njk" as cards %}
+
 <section class="md:mt-20">
   <h1 class="heading">Headless CMS</h1>
   <p class="section-lede">
-    A NEW HOME FOR HEADLESSCMS.ORG CONTENT
-  </p>
-  <p class="max-w-l">
-    About this data...
+    A List of Content Management Systems for Jamstack Sites
   </p>
 </section>
 
-<section class="mt-12">
-    <div class="grid gap-4 grid-cols-2 md:grid-cols-3 lg:grid-cols-4 ">
+<section class="cards mt-12">
+  <div class="grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
   {% for item in collections.cms %}
-    {% include "components/cms-card.njk" %}
+    {{ cards.repo(item, loop.index0, github) }}
   {% endfor %}
   </div>
 </section>

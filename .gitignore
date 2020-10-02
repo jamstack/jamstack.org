@@ -13,3 +13,6 @@ dist
 
 # Local Netlify folder
 .netlify
+
+# Eleventy Assets
+.cache

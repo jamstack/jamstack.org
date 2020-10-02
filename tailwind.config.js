@@ -37,6 +37,7 @@ module.exports = {
     }
   },
   variants: {
+    borderRadius: ["last"]
   },
   plugins: []
 }

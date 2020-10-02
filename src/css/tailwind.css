@@ -23,8 +23,8 @@ dd a {
   @apply border-b;
   @apply border-blue-100;
 }
-section a:hover,
-section a:focus,
+section:not(.cards) a:hover,
+section:not(.cards) a:focus,
 dd a:hover,
 dd a:focus {
   @apply border-pink-500;
@@ -151,7 +151,18 @@ h3.heading {
 .bg-gradient-blue-green {
   background: #0090CA linear-gradient(101.87deg, #0090CA 0%, #00BFAD 105.55%);
 }
-
+.bg-gradient-card-sunrise {
+  --gradient-color-stops: #F0047F 0%, #FC814A 100%;
+}
+.bg-gradient-card-blue {
+  --gradient-color-stops: #04A2DD 0%, #4FF3EA 100%;
+}
+.bg-gradient-card-seafoam {
+  --gradient-color-stops: #88F9ED 0%, #00FFB2 100%;
+}
+.bg-gradient-card-gold {
+  --gradient-color-stops: #FFC803 0%, #FC814A 100%;
+}
 
 .list-jams-logo > li,
 .list-jams-logo-pink > li,
@@ -216,6 +227,12 @@ details[open] .summary-swap-open {
   .sm\:page-layout {
     grid-template-columns: 16.875em minmax(0, 1fr);
   }
+}
+
+.text-ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 /* purgecss end ignore */
 

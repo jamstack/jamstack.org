@@ -1,6 +1,6 @@
 ---
 title: WP2Static
-repo: wp2static/wp2static
+repo: leonstafford/wp2static
 homepage: https://wp2static.com
 language:
   - PHP
