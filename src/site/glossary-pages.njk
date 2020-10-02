@@ -4,12 +4,23 @@ pagination:
   size: 1
   alias: item
 permalink: "glossary/{{ item.id }}/index.html"
-layout: layouts/glossary.njk
+layout: layouts/base.njk
 ---
 
-<h2 class="text-5xl font-semi-bold">{{ item.term }}</h2>
-<div class="mt-8 border-l border-gray-400 pl-4">
-{% markdown %}
-  {{- item.definition | safe }}
-{% endmarkdown %}
-</div>
+
+<section class="mt-16">
+  <h1 class="font-bold text-3xl leading-tight my-4">Glossary</h1>
+  <p class="w-2/3"><a href="/glossary">A collection of terms</a> often used when talking about Jamstack and associated web technologies.</p>
+</section>
+
+<section>
+  <h2 class="text-5xl font-semi-bold">{{ item.term }}</h2>
+  <div class="mt-8 border-l border-gray-400 pl-4">
+  {% markdown %}
+    {{- item.definition | safe }}
+  {% endmarkdown %}
+  </div>
+  <p class="mt-12 mb-20">You can help us to expand and improve this glossary <a href="#">by creating an issue</a>.</p>
+</section>
+
+{% include "components/join-the-movement.njk" %}
