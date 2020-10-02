@@ -4,6 +4,15 @@ module.exports = {
     './src/site/**/*.md'
   ],
   theme: {
+
+    borderRadius: {
+      'none': '0',
+      'sm': '.125rem',
+      default: '.25rem',
+      'lg': '.5rem',
+      'xl': '1rem',
+      'full': '9999px',
+    },
     extend: {
       colors: {
         blue : {
