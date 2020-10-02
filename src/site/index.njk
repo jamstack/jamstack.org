@@ -6,13 +6,15 @@ layout: layouts/base.njk
 {% import "components/ticker.njk" as ticker %}
 {% import "components/section-heading.njk" as section %}
 
-<section class="mt-16">
-  <p class="w-1/2">Comprehensive guide for building Jamstack sites and home of the global Jamstack community.</p>
+
+
+<section class="my-16 text-center">
+  <p class="w-1/2 mx-auto">Comprehensive guide for building Jamstack sites and home of the global Jamstack community.</p>
   <h1 class="font-bold text-4xl md:text-5xl leading-tight my-8">The modern way to build <span>websites and apps</span> that delivers better performance</h1>
   <a href="/community" class="cta">Join the global community</a>
 </section>
 
-<section class="mb-20 p-0 max-w-6xl">
+<section class="mb-20 p-0 max-w-6xl  text-center">
   <p class="px-8 mx-auto max-w-4xl">Maximize efficiency with the tools you love</p>
   {{ ticker.icons() }}
   {{ ticker.main() }}
@@ -20,33 +22,36 @@ layout: layouts/base.njk
 
 <section class="mb-20">
   <h2>Why Jamstack</h2>
-  <p>
+  <p class="w-2/3 mb-12">
     The Jamstack architecture has many benefits, whether you’re building a large e-commerce site, SaaS application or personal blog.
   </p>
+
+  {{ section.icons() }}
+
   {{ section.benefit(
       "Better Performance",
-      "icon-disc-security.svg",
+      "#pink_lightning",
       "<p>
         Why wait for pages to build on the fly when you can generate them at deploy time? When it comes to minimizing the time to first byte, nothing beats pre-built files served over a CDN.
       </p>")
   }}
   {{ section.benefit(
       "Higher Security",
-      "icon-disc-security.svg",
+      "#blue_shield",
       "<p>
         With server-side processes abstracted into microservice APIs, surface areas for attacks are reduced. You can also leverage the domain expertise of specialist third-party services.
       </p>")
   }}
   {{ section.benefit(
     "Cheaper, Easier Scaling",
-    "icon-disc-security.svg",
+    "#orange_coins",
     "<p>
       When your deployment amounts to a stack of files that can be served anywhere, scaling is a matter of serving those files in more places. CDNs are perfect for this, and often include scaling in all of their plans.
     </p>")
   }}
   {{ section.benefit(
     "Better Developer Experience",
-    "icon-disc-security.svg",
+    "#teal_browser",
     "<p>
       Loose coupling and separation of controls allow for more targeted development and debugging, and the expanding selection of CMS options for site generators remove the need to maintain a separate stack for content and marketing.
     </p>")
