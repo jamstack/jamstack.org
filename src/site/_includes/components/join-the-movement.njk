@@ -1,0 +1,24 @@
+{% import "components/zinger-cta.njk" as zinger %}
+
+<section class="text-center mb-20">
+  <h2 class="font-bold text-3xl">Join the Movement</h2>
+  <p class="md:w-8/12 mx-auto mt-6 mb-8">
+    The conversation about Jamstack is happening right now. Join thousands of developers on Twitter, in global meetup groups and in the official Jamstack community slack.
+  </p>
+  <div class="lg:w-2/3 mx-auto md:grid md:grid-cols-2 md:gap-6 lg:gap-8">
+    {{ zinger.cta(
+        "Join the Slack",
+        "https://jamstack.org/slack",
+        "bg-gradient-pink-orange",
+        "#logo-slack"
+        )
+    }}
+    {{ zinger.cta(
+        "Join Upcoming Events",
+        "/community",
+        "bg-gradient-blue-green",
+        "#gem-jamstack"
+        )
+    }}
+  </div>
+</section>

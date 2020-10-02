@@ -3,58 +3,55 @@ title: For fast and secure sites
 layout: layouts/base.njk
 ---
 
+{% import "components/ticker.njk" as ticker %}
 {% import "components/section-heading.njk" as section %}
 
-<section class="mt-16">
+
+
+<section class="my-16 ">
   <p class="w-1/2">Comprehensive guide for building Jamstack sites and home of the global Jamstack community.</p>
   <h1 class="font-bold text-4xl md:text-5xl leading-tight my-8">The modern way to build <span>websites and apps</span> that delivers better performance</h1>
   <a href="/community" class="cta">Join the global community</a>
 </section>
 
-<section class="mb-20">
-  <p>Maximze efficiency with the tools you love</p>
-  <div class="logos-ticker">
-    <div class="logos-ticker-container">
-      <span>Netlify</span>
-      <span>Gatsby</span>
-      <span>Angular</span>
-      <span>VueJS</span>
-      <span>React</span>
-      <span>Hugo</span>
-      <span>Eleventy</span>
-    </div>
-  </div>
+<section class="mb-20 p-0">
+  <p class="px-8">Maximize efficiency with the tools you love</p>
+  {{ ticker.icons() }}
+  {{ ticker.main() }}
 </section>
 
 <section class="mb-20">
   <h2>Why Jamstack</h2>
-  <p>
+  <p class="w-2/3 mb-12">
     The Jamstack architecture has many benefits, whether you’re building a large e-commerce site, SaaS application or personal blog.
   </p>
+
+  {{ section.icons() }}
+
   {{ section.benefit(
       "Better Performance",
-      "icon-disc-security.svg",
+      "#pink_lightning",
       "<p>
         Why wait for pages to build on the fly when you can generate them at deploy time? When it comes to minimizing the time to first byte, nothing beats pre-built files served over a CDN.
       </p>")
   }}
   {{ section.benefit(
       "Higher Security",
-      "icon-disc-security.svg",
+      "#blue_shield",
       "<p>
         With server-side processes abstracted into microservice APIs, surface areas for attacks are reduced. You can also leverage the domain expertise of specialist third-party services.
       </p>")
   }}
   {{ section.benefit(
     "Cheaper, Easier Scaling",
-    "icon-disc-security.svg",
+    "#orange_coins",
     "<p>
       When your deployment amounts to a stack of files that can be served anywhere, scaling is a matter of serving those files in more places. CDNs are perfect for this, and often include scaling in all of their plans.
     </p>")
   }}
   {{ section.benefit(
     "Better Developer Experience",
-    "icon-disc-security.svg",
+    "#teal_browser",
     "<p>
       Loose coupling and separation of controls allow for more targeted development and debugging, and the expanding selection of CMS options for site generators remove the need to maintain a separate stack for content and marketing.
     </p>")
@@ -98,13 +95,5 @@ layout: layouts/base.njk
   <a href="/examples" class="cta">More examples</a>
 </section>
 
-<section class="text-center mb-20">
-  <h2 class="font-bold text-3xl">Join the Movement</h2>
-  <p class="md:w-8/12 mx-auto mt-6 mb-8">
-    The conversation about Jamstack is happening right now. Join thousands of developers on Twitter, in global meetup groups and in the official Jamstack community slack.
-  </p>
-  <div class="lg:w-2/3 mx-auto md:grid md:grid-cols-2 md:gap-4 lg:gap-8">
-    {% include "components/cta-zinger-jamslack.njk" %}
-    {% include "components/cta-zinger-events.njk" %}
-  </div>
-</section>
+{% include "components/join-the-movement.njk" %}
+

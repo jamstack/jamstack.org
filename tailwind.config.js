@@ -4,6 +4,15 @@ module.exports = {
     './src/site/**/*.md'
   ],
   theme: {
+
+    borderRadius: {
+      'none': '0',
+      'sm': '.125rem',
+      default: '.25rem',
+      'lg': '.5rem',
+      'xl': '1rem',
+      'full': '9999px',
+    },
     extend: {
       colors: {
         blue : {
@@ -17,7 +26,8 @@ module.exports = {
           900: "#0D0F18",
           700: "#2D3247",
           400: "#5A5F75",
-          200: "#DEDEDE"
+          200: "#DEDEDE",
+          100: "#10121E"
         },
         pink : {
           900 : '#D81467', // old

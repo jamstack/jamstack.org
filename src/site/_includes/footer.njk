@@ -1,25 +1,10 @@
-
-{# An abstraction to ease management of links the navigation-links component #}
-{%
-  set linkList = [
-    { "url": "/resources/" , "text": "Resources"},
-    { "url": "/community/" , "text": "Community"},
-    { "url": "/glossary/" , "text": "Glossary"},
-    { "url": "/logos/" , "text": "Logos"},
-    { "url": "https://jamstackconf.com" , "text": "Conference"},
-    { "url": "/code-of-conduct/" , "text": "Code of Conduct"}
-  ]
-%}
-
-<div class="container max-w-4xl lg:max-w-5xl mx-auto py-8 md:px-16">
-  <footer class="px-8 text-blue-800">
-    <div class="mt-12 max-w-lg">
-      <p>
-        Contribute content and corrections by opening <a href="{{ pkg.repository.url }}/issues">issues</a> or submitting <a href="{{ pkg.repository.url }}/pulls">pull requests</a> to the <a href="{{ pkg.repository.url }}">repository</a> on GitHub.
-      </p>
-      <p>
-        Site hosting and deployments by <a href="https://netlify.com">Netlify</a>.
-      </p>
-    </div>
+<section>
+  <footer class="py-20 text-blue-300">
+    <ul class="text-left md:flex justify-between">
+      <li class="p-2">&copy; {{ page.date | formatDate('yyyy') }}  Netlify </li>
+      <li class="p-2"><a href="https://jamstack.org/slack">Chat on Slack</a></li>
+      <li class="p-2"><a href="">Netlify Support</a></li>
+      <li class="p-2"><a href="{{ pkg.repository.url }}">Code on GitHub</a></li>
+    </ul>
   </footer>
-</div>
+</section>

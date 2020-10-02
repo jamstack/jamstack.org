@@ -1,3 +1,6 @@
+/* import via postcss */
+@import "../site/css/ticker.css";
+
 /* purgecss start ignore */
 @tailwind  base;
 @tailwind  components;
@@ -140,11 +143,9 @@ h3.heading {
 .bg-gradient-jams {
   background: #D1036F linear-gradient(91.78deg, #D1036F 2.57%, #B6005F 96.33%);
 }
-.hover\:bg-gradient-jams-active:hover,
-.hover\:bg-gradient-jams-active:focus {
-  background: #E7017A linear-gradient(91.78deg, #E7017A 2.57%, #DF4A1F 96.33%);
-}
-.bg-gradient-pink-orange {
+.bg-gradient-pink-orange,
+.hover\:bg-gradient-pink-orange:hover,
+.hover\:bg-gradient-pink-orange:focus {
   background: #E7017A linear-gradient(91.78deg, #E7017A 2.57%, #DF4A1F 96.33%);
 }
 .bg-gradient-blue-green {
@@ -209,6 +210,12 @@ details[open] .summary-swap-closed {
 details .summary-swap-closed,
 details[open] .summary-swap-open {
   display: block;
+}
+
+@media (min-width: 640px) {
+  .sm\:page-layout {
+    grid-template-columns: 16.875em minmax(0, 1fr);
+  }
 }
 /* purgecss end ignore */
 

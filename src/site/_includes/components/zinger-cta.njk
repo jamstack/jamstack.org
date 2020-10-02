@@ -1,0 +1,9 @@
+
+{% macro cta(text, url, theme, icon ) %}
+  <a href="{{ url }}" target="_BLANK" rel="noopener" class="block mb-4 md:inline-block {{ theme }} border-none py-6 rounded-xl rounded-tr-none text-center hover:text-black">
+    <svg role="img" aria-label="{{ text }}" aria-hidden="true" focusable="false" width="40" height="40" class="mx-auto"><use xlink:href="{{ icon }}"></use></svg>
+    <p class="font-bold text-lg mt-2">
+      {{ text }}
+    </p>
+  </a>
+{% endmacro %}
