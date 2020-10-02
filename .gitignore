@@ -16,3 +16,6 @@ dist
 
 # Eleventy Assets
 .cache
+
+# Environment variables
+.env

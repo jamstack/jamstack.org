@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 const CacheAsset = require("@11ty/eleventy-cache-assets");
 const fastglob = require("fast-glob");
 const graymatter = require("gray-matter");
@@ -43,8 +45,7 @@ async function githubRequest(user, repo) {
   const fetchOptions = {
     method: "POST",
     headers: {
-      // TODO don’t commit this
-      "Authorization": "bearer 7480e38690cdc60e334f54a7bdbbd6c8c3071c57"
+      "Authorization": `bearer ${process.env.GITHUB_READ_TOKEN}`
     },
     body: JSON.stringify({ query })
   };
