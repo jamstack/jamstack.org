@@ -17,7 +17,12 @@
     }
   }
   h2 {
-    @apply text-xl;
+      @apply text-white text-3xl font-bold leading-none mb-8;
+  }
+  @screen md {
+    h2 {
+      @apply text-4xl;
+    }
   }
 }
 
