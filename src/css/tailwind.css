@@ -7,6 +7,23 @@
 /* purgecss end ignore */
 
 
+@layer base {
+  h1 {
+    @apply font-bold text-4xl leading-tight my-8;
+  }
+  @screen md {
+    h1 {
+      @apply text-5xl;
+    }
+  }
+  h2 {
+    @apply text-xl;
+  }
+}
+
+
+
+
 /*
   Content sections conventions
 */
@@ -72,28 +89,28 @@ footer p a:focus {
 
 /*
   Global headings conventions
-*/
-h1.heading {
-  @apply text-white;
-  @apply text-5xl;
-  @apply leading-none;
-  @apply mb-2;
-}
-@screen md {
   h1.heading {
-    @apply text-6xl;
-    @apply mt-12;
-    @apply mb-4;
+    @apply text-white;
+    @apply text-5xl;
+    @apply leading-none;
+    @apply mb-2;
   }
-}
+  @screen md {
+    h1.heading {
+      @apply text-6xl;
+      @apply mt-12;
+      @apply mb-4;
+    }
+  }
 
-h2 {
-  @apply text-white;
-  @apply text-2xl;
-  @apply font-bold;
-  @apply leading-none;
-  @apply mb-2;
-}
+  h2 {
+    @apply text-white;
+    @apply text-2xl;
+    @apply font-bold;
+    @apply leading-none;
+    @apply mb-2;
+  }
+  */
 
 
 /*
