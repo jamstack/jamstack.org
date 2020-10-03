@@ -100,7 +100,7 @@ During a production build, the CSS pipeline includes a step to remove all unused
 npm run build
 
 # Serve the build locally
-npm run serve
+npm run start
 ```
 
 ## One-click clone and deploy
