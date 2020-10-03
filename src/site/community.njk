@@ -6,23 +6,24 @@ layout: layouts/base.njk
 
 
 {% import "components/zinger-cta.njk" as zinger %}
+{% import "components/cards-meetup.njk" as meetup %}
 
 <section class="my-16 text-center">
-  <h1 class="mx-auto">Join the global community</h1>
+  <h1>Join the global community</h1>
   <p class="w-4/5 mx-auto ">Our community members gather in many channels, online and in-person around the world, to learn about modern web development techniques and emerging technologies. Join the community to exchange ideas, find new opportunities and help build a better web.</p>
 
   <div class="lg:w-2/3 mx-auto md:grid md:grid-cols-2 md:gap-6 lg:gap-8 my-12">
     {{ zinger.cta(
         "Join the Slack",
         "https://jamstack.org/slack",
-        "bg-gradient-pink-orange",
+        "bg-gradient-card-sunrise",
         "#logo-slack"
         )
     }}
     {{ zinger.cta(
         "JamstackConf Twitter",
         "https://twitter.com/jamstackconf",
-        "bg-gradient-blue-green",
+        "bg-gradient-card-blue",
         "#logo-twitter"
         )
     }}
@@ -34,7 +35,7 @@ layout: layouts/base.njk
 
 
 <section>
-  <h2 class="text-2xl md:text-3xl mb-8">Community Mission</h2>
+  <h2>Community Mission</h2>
   <p class="mb-2">
    Jamstack community members have a common mission to promote a web that is:
   </p>
@@ -48,7 +49,7 @@ layout: layouts/base.njk
 
 
 <section>
-  <h2 class="text-2xl md:text-3xl mb-8">Upcoming Events</h2>
+  <h2>Upcoming Events</h2>
   <ul>
   {% for meetup, data in meetups %}
     {% set item = meetup%}
@@ -59,25 +60,29 @@ layout: layouts/base.njk
 
 
 <section>
-  <h2 class="text-2xl md:text-3xl mb-12">Find a Local User Group</h2>
+  <h2 class="mb-12">Find a Local User Group</h2>
   <ul class="grid grid-cols-2 lg:grid-cols-3 gap-8">
+
+
+    {% set themes = [
+      "bg-gradient-card-sunrise",
+      "bg-gradient-card-blue",
+      "bg-gradient-card-seafoam",
+      "bg-gradient-card-gold"]
+    %}
     {%- for item in community | sort(false, false, 'name') %}
+
+    {# chose a pseudorandom theme based on the city name #}
+    {% set theme =  item.name.length % 4 %}
     <li>
-        <a href="{{ item.link }}" target="_BLANK" rel="noopener" class="block bg-gradient-pink-orange mb-4 border-gray-400 border rounded-xl rounded-tr-none text-center">
-
-          <div class="bg-gray-100 mt-3 py-8 rounded-xl rounded-t-none ">
-            <svg role="img" aria-label="Jamstack Group" aria-hidden="true" focusable="false" width="20" height="20" class="inline"><use xlink:href="#gem-jamstack" ></use></svg>
-            <span class="font-bold ml-1">{{ item.name }} &rarr;</span>
-          </div>
-        </a>
-
-      </li>
+      {{ meetup.card( item.name, item.link, themes[theme] ) }}
+    </li>
     {%- endfor %}
   </ul>
 </section>
 
 <section>
-  <h2 class="text-2xl md:text-3xl mb-8">Start a Jamstack User Group</h2>
+  <h2>Start a Jamstack User Group</h2>
   <p class="mb-4 w-3/4">
     Don’t see a group near you? We love to support new user group leaders and help grow the community. We can connect you with other user group leaders to share content ideas, provide stickers and swag, and get you listed on the user group page.
   </p>

@@ -93,32 +93,6 @@ footer p a:focus {
 
 
 /*
-  Global headings conventions
-  h1.heading {
-    @apply text-white;
-    @apply text-5xl;
-    @apply leading-none;
-    @apply mb-2;
-  }
-  @screen md {
-    h1.heading {
-      @apply text-6xl;
-      @apply mt-12;
-      @apply mb-4;
-    }
-  }
-
-  h2 {
-    @apply text-white;
-    @apply text-2xl;
-    @apply font-bold;
-    @apply leading-none;
-    @apply mb-2;
-  }
-  */
-
-
-/*
   left/right flip-flopping lists
 */
 @screen md {
@@ -128,25 +102,6 @@ footer p a:focus {
   }
 }
 
-/*
-h3.heading {
-  @apply text-white;
-  @apply mt-10;
-  @apply mb-2;
-  @apply text-xl;
-  @apply leading-snug;
-}
-@screen md {
-  h3.heading {
-    @apply text-2xl;
-    @apply mt-16;
-  }
-}
-*/
-
-.columns-3 {
-  columns: 3;
-}
 
 .videowrapper {
   position: relative;
@@ -173,6 +128,7 @@ h3.heading {
 .bg-gradient-blue-green {
   background: #0090CA linear-gradient(101.87deg, #0090CA 0%, #00BFAD 105.55%);
 }
+
 .bg-gradient-card-sunrise {
   --gradient-color-stops: #F0047F 0%, #FC814A 100%;
 }
