@@ -13,10 +13,13 @@
 
 {% macro benefit(title, icon, description ) %}
   <div class="flex content-start space-x-8 my-12">
+
+    {% if icon %}
     <svg role="img" aria-label="{{ title }}" aria-hidden="true" focusable="false" width="60" height="60" class="flex-none mt-2">
       <use xlink:href="{{ icon }}"></use>
     </svg>
-    <div class="">
+    {% endif %}
+    <div>
       <h3 class="font-bold text-white mb-2">
         {{ title }}
       </h3>
