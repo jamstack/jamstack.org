@@ -24,6 +24,16 @@ Sample return data:
 }
 */
 async function githubRequest(user, repo) {
+  let errorData = {
+    stars: "",
+    forks: "",
+    issues: "",
+  };
+
+  if(process.env.ELEVENTY_ENV == 'dev') {
+    return errorData;
+  }
+
   const query = `
   query {
     repository(owner: "${user}", name: "${repo}") {
@@ -55,11 +65,6 @@ async function githubRequest(user, repo) {
     fetchOptions
   };
 
-  let errorData = {
-    stars: "",
-    forks: "",
-    issues: "",
-  };
   let req;
   try {
     req = await CacheAsset(url, opts);
