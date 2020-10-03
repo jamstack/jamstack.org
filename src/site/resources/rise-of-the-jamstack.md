@@ -9,5 +9,5 @@ link: 'https://www.youtube.com/watch?v=uWTMEDEPw8c'
 thumbnailurl: /img/videos/mathias-active-ingredients.jpg
 type:
   - video
-
+featured: true
 ---
