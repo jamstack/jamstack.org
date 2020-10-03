@@ -6,9 +6,9 @@ layout: layouts/base.njk
 
 
 <section class="md:mt-20">
-  <h1 class="heading">Resources</h1>
-  <p class="section-lede">
-    Learn more about the architecture changing modern web development
+  <h1>Resources</h1>
+  <p>
+    Learn more about the architecture changing modern web development.
   </p>
   <p>
     More and more people are talking about the Jamstack. We've curated some of our favorite resources here to help you get started, and to learn more about how people are using the Jamstack.
@@ -20,42 +20,33 @@ layout: layouts/base.njk
 
 
 <section class="mt-12">
-  <h2 class="heading">Videos and Presentations</h2>
-  <p class="section-lede">
+  <h2>Videos and Presentations</h2>
+  <p>
    These are great presentations to help understand what the Jamstack is, and how it can be used to great effect.
   </p>
   <div class="mt-12 mb-6 flex flex-wrap justify-around lg:justify-between">
 
-    {% for item in collections.resources | featured | whereData("type=video") | luckydip(3)  %}
+    {% for item in collections.resources | featured | whereData("type=video") | luckydip(6)  %}
       <div class="md:w-1/2 lg:w-1/3 text-left mb-8 pr-10">
       {% include "components/thumbnail-link.njk" %}
       </div>
     {% endfor %}
   </div>
-  <p class="mt-6"><a href="/resources/videos/" >More videos and presentations →</a></p>
+  <a href="/resources/videos/" class="cta">More videos and presentations</a>
 </section>
 
-<section class="mt-12">
+<section class="my-12 border-gray-400 border-b pb-20">
   <h2 class="heading">Articles and resources</h2>
-  <p class="section-lede">
-    Selected recent articles and case studies of Jamstack implementations.
+  <p>
+    Selected articles and case studies of Jamstack implementations.
   </p>
-  <ul class="mt-12">
-  {% for item in collections.resources | featured | whereData("type=article") | luckydip(3)  %}
+  <ul class="my-12">
+  {% for item in collections.resources | featured | whereData("type=article") | luckydip(6)  %}
     {% include "components/resource-link.njk" %}
   {% endfor %}
   </ul>
-  <p class="mt-12"><a href="/resources/articles/">More articles and resources →</a></p>
+  <a class="cta" href="/resources/articles/">More articles and resources</a>
 </section>
 
 
-<section class="mt-20 p-8 mb-12 bg-white md:rounded">
-  <h1 class="text-gray-800 font-bold text-3xl leading-tight">Modern Web Development on the Jamstack</h1>
-  <p class="text-lg text-gray-600">
-    A report on the Jamstack from O'Reilly
-  </p>
-  <p class="text-md text-gray-600 leading-relaxed max-w-xl">
-    This practical report explains how to run your web projects—from simple sites to complex applications—on the Jamstack, a modern web architecture for deploying fast, secure and highly-scalable sites that don’t require a traditional origin server.
-  </p>
-  <a href="https://netlify.com/orielly-jamstack/" target="_BLANK" rel="noopener" class="mt-6 inline-block text-gray-700 font-bold hover:border-gray-700">Download the ebook for free →</a>
-</section>
+{% include "components/join-the-movement.njk" %}
