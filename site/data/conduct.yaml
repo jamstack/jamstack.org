@@ -1,5 +1,8 @@
 ---
 mainpoints:
+  art:
+    path: /img/thumbs-up.svg
+    alt: Main point
   - title: Be considerate
     description: Approach your interactions with thoughtfulness and care. Do not dismiss someone because they have a different level of experience, are of a different background, or have a difference of opinion. Be kind to others.
   - title: Be respectful

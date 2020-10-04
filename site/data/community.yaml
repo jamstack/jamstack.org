@@ -140,7 +140,9 @@ slackurl: https://Jamstack.org/slack
 forumurl: https://community.netlify.com
 
 bottomcta:
-  artpath: /img/chapters/meetup-map.svg
+  art:
+    path: /img/chapters/meetup-map.svg
+    alt: World map with markers around California, Texas, and Great Britain
   headline: Start a Jamstack Meetup
   ctacopy: Contact Us
   ctalink: mailto:community@netlify.com

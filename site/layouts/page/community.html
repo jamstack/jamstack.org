@@ -11,7 +11,7 @@
     <div class="grid">
       {{ range .Site.Data.community.chapters }}
         <a class="chapter {{ .name | urlize }}" href="{{ .link }}">
-          <img src="{{ .artpath }}" class="art"/>
+          <img src="{{ .artpath }}" class="art" role="presentation" />
           <h1>{{ .name }}</h1>
           <div class="button{{ if .teaser }} greyed{{ end }}">{{ .btncopy }}</div>
         </a>
@@ -110,14 +110,14 @@
 
   <div class="bottom-cta">
     <div class="contained">
-      <img src="{{ .Site.Data.community.bottomcta.artpath }}" class="art"/>
+      <img src="{{ .Site.Data.community.bottomcta.art.path }}" class="art" alt="{{ .Site.Data.community.bottomcta.art.alt }}" />
       <h1>{{ .Site.Data.community.bottomcta.headline }}</h1>
       <a href="{{ .Site.Data.community.bottomcta.ctalink }}" class="button">{{ .Site.Data.community.bottomcta.ctacopy }}</a>
     </div>
   </div>
 
   <section class="chatter">
-    <h1>Spread the JAM by tweeting <span><img src="/img/twitter.svg"/>#Jamstack</span></h1>
+    <h1>Spread the JAM by tweeting <span><img src="/img/twitter.svg" role="presentation" />#Jamstack</span></h1>
     <div class="tweets">
       <div class="contained">
         <ul class="juicer-feed" data-feed-id="jamstack" data-pages="1" data-overlay="false" data-per="3"></ul>

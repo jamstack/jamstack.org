@@ -1,5 +1,8 @@
 ---
 bestpractices:
+  art:
+    path: /img/thumbs-up.svg
+    alt: Best Practice
   - title: Entire Project on a CDN
     description: Because Jamstack projects don’t rely on server-side code, they can be distributed instead of living on a single server. Serving directly from a CDN unlocks speeds and performance that can't be beat. The more of your app you can push to the edge, the better the user experience.
   - title: Everything Lives in Git
