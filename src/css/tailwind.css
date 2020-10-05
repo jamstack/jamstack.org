@@ -141,6 +141,21 @@ footer p a:focus {
 .bg-gradient-card-gold {
   --gradient-color-stops: #FFC803 0%, #FC814A 100%;
 }
+.bg-gradient-card-blue-seafoam.bg-gradient-card-blue-seafoam {
+  background: linear-gradient(101.87deg, #0090CA 0%, #00BFAD 105.55%), linear-gradient(180deg, #009DDC 0%, #58FCEC 100%);
+}
+
+.card-shadow {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.hover\:card-shadow-blue-seafoam:hover,
+.hover\:card-shadow-blue-seafoam:active {
+  box-shadow: 0px 3px 20px rgba(1, 159, 220, 0.6);
+}
+.hover\:card-shadow-sunrise:hover,
+.hover\:card-shadow-sunrise:active {
+  box-shadow: 0px 3px 20px rgba(246, 62, 103, 0.6);
+}
 
 .list-jams-logo > li,
 .list-jams-logo-pink > li,
