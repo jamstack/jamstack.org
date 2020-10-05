@@ -253,6 +253,7 @@ details[open] .summary-swap-open {
 /* special text treatment on home page */
 .hero-text {
   height: 1.244444444em;
+  margin-top: -0.1111111111111em; /* -4px /36 */
 }
 
 .rounded-xl-embed {
