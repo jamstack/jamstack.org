@@ -31,3 +31,18 @@
 - term: 'Hydration'
   id: 'hydration'
 
+- term: 'Decoupling'
+  id: 'decoupling'
+
+- term: 'Dynamic server'
+  id: 'dynamic-server'
+
+- term: 'Markup'
+  id: 'Markup'
+
+- term: 'Markdown'
+  id: 'Markdown'
+
+- term: 'API'
+  id: 'api'
+
