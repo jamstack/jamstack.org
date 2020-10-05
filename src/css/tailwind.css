@@ -213,6 +213,7 @@ details[open] .summary-swap-open {
   text-overflow: ellipsis;
 }
 
+/* Desktop sticky nav */
 @media (min-width: 640px) and (min-height: 41.25em) { /* 660px */
   .page-header {
     position: sticky;
@@ -226,6 +227,10 @@ details[open] .summary-swap-open {
   }
 }
 
+/* special text treatment on home page */
+.hero-text {
+  height: 1.244444444em;
+}
 /* purgecss end ignore */
 
 @tailwind utilities;
