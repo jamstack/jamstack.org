@@ -58,7 +58,7 @@
         {%- endif %}
         {%- if item.data.supportedgenerators %}
         <dt class="col-span-2 font-bold">Supported Site Generators:</dt>
-        <dd class="col-span-3">{{ item.data.supportedgenerators | join(", ") }}</dd>
+        <dd class="col-span-3 flex items-end">{{ item.data.supportedgenerators | join(", ") }}</dd>
         {%- endif %}
       </dl>
     </div>
