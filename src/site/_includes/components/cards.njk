@@ -10,7 +10,7 @@
       {{ item.data.title }}
     </div>
     <div class="p-4">
-      {%- if githubData[item.data.repo] %}
+      {%- if githubData[item.data.repo] and githubData[item.data.repo].stars !== "" and githubData[item.data.repo].forks !== "" and githubData[item.data.repo].issues !== "" %}
       <div class="flex justify-center mb-4">
         {%- if githubData[item.data.repo].stars !== "" %}
         <div class="flex flex-col items-center font-bold text-sm mr-6">
@@ -35,18 +35,31 @@
         {%- endif %}
       </div>
       {%- endif %}
+
       <div class="text-sm mb-4">
         {{ item.data.description | safe }}
       </div>
       <dl class="grid grid-cols-5 gap-2 text-sm">
-        <dt class="col-span-2 font-bold">Language</dt>
+        {%- if item.data.language %}
+        <dt class="col-span-2 font-bold">Language:</dt>
         <dd class="col-span-3">{{ item.data.language }}</dd>
-        {% if item.data.templates %}
-        <dt class="col-span-2 font-bold">Templates</dt>
+        {%- endif %}
+        {%- if item.data.templates %}
+        <dt class="col-span-2 font-bold">Templates:</dt>
         <dd class="col-span-3">{{ item.data.templates | join(", ") }}</dd>
-        {% endif %}
-        <dt class="col-span-2 font-bold">License</dt>
+        {%- endif %}
+        {%- if item.data.license %}
+        <dt class="col-span-2 font-bold">License:</dt>
         <dd class="col-span-3">{{ item.data.license }}</dd>
+        {%- endif %}
+        {%- if item.data.typeofcms %}
+        <dt class="col-span-2 font-bold">Type:</dt>
+        <dd class="col-span-3">{{ item.data.typeofcms }}</dd>
+        {%- endif %}
+        {%- if item.data.supportedgenerators %}
+        <dt class="col-span-2 font-bold">Supported Site Generators:</dt>
+        <dd class="col-span-3">{{ item.data.supportedgenerators | join(", ") }}</dd>
+        {%- endif %}
       </dl>
     </div>
   </a>
