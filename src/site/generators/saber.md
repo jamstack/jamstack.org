@@ -1,6 +1,5 @@
 ---
 title: Saber
-repo: egoist/saber
 homepage: https://saber.land/
 language:
   - JavaScript
