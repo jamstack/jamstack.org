@@ -9,7 +9,7 @@ supportedgenerators:
   - All
 description: A scalable platform and CMS to build applications. Keystone 5 has first-class GraphQL API, extensible architecture and Admin UI.
 images:
-  - path: /images/keystone-5-adminUI.png
+  - path: /img/cms/keystone-5-adminUI.png
 ---
 
 [Keystone 5](https://v5.keystonejs.com/) is a scalable platform that allows you to create a highly customised CMS and API in minutes.

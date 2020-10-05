@@ -10,9 +10,9 @@ supportedgenerators:
 description: Universal Content Management System(CMS) framework using React & Apollo GraphQL. Support Prisma, GraphQL, Firebase and Restful API 
 startertemplaterepo: Canner/canner-demo
 images:
-  - path: /images/canner-1.png
-  - path: /images/canner-2.png
-  - path: /images/canner-3.png
+  - path: /img/cms/canner-1.png
+  - path: /img/cms/canner-2.png
+  - path: /img/cms/canner-3.png
 ---
 ## CannerIO CMS
 

@@ -9,8 +9,8 @@ supportedgenerators:
   - All
 description: Strapi is an open sourced Headless CMS Front-End Developers Love. It's more than a Node.js Framework and more than a Headless CMS, it saves API development time through a beautiful admin panel anyone can use.
 images:
-  - path: /images/strapi-content-type-builder.png
-  - path: /images/strapi-content-manager.png
+  - path: /img/cms/strapi-content-type-builder.png
+  - path: /img/cms/strapi-content-manager.png
 ---
 ## Building self-hosted, customizable and performant Content APIs has never been easier.
 

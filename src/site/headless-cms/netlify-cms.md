@@ -10,9 +10,9 @@ supportedgenerators:
 description: A different kind of CMS. It's a single page app written in React. It's an npm package. It's a script running on a static page that lives in your repo. Built for static site generators.
 startertemplaterepo: netlify-templates/one-click-hugo-cms
 images:
-  - path: /images/netlify-cms1.png
-  - path: /images/netlify-cms2.png
-  - path: /images/netlify-cms3.png
+  - path: /img/cms/netlify-cms1.png
+  - path: /img/cms/netlify-cms2.png
+  - path: /img/cms/netlify-cms3.png
 ---
 ## Netlify CMS
 

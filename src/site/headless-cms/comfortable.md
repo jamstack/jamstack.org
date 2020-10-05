@@ -8,9 +8,9 @@ supportedgenerators:
   - All
 description: Comfortable is an cloud-based headless CMS, dedicated to simplicity, structure and speed.
 images:
-  - path: /images/comfortable-1.jpg
-  - path: /images/comfortable-2.jpg
-  - path: /images/comfortable-3.png
+  - path: /img/cms/comfortable-1.jpg
+  - path: /img/cms/comfortable-2.jpg
+  - path: /img/cms/comfortable-3.png
 ---
 ## Comfortable
 

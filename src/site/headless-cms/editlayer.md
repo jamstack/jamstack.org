@@ -9,9 +9,9 @@ supportedgenerators:
   - All
 description: Editlayer is headless CMS that saves content as JSON. Editlayer is build to work easily on Google's development platform - Firebase.
 images:
-  - path: /images/editlayer-1.png
-  - path: /images/editlayer-2.png
-  - path: /images/editlayer-3.png
+  - path: /img/cms/editlayer-1.png
+  - path: /img/cms/editlayer-2.png
+  - path: /img/cms/editlayer-3.png
 ---
 
 ## Editlayer

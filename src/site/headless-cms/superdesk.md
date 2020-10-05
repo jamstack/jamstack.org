@@ -9,7 +9,7 @@ supportedgenerators:
   - All
 description: Superdesk is an end-to-end, api-driven open source headless CMS for news agencies, newspapers and corporate publishers.
 images:
-  - path: /images/superdesk-ui.png
+  - path: /img/cms/superdesk-ui.png
 ---
 ## Superdesk: Your digital newsroom
 

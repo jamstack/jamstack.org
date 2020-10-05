@@ -8,7 +8,7 @@ supportedgenerators:
   - All
 description: An API-based CMS that combines powerful content scheduling capabilities with a clean and modern content editing experience.
 images:
-  - path: /images/lexascms-1.jpg
+  - path: /img/cms/lexascms-1.jpg
 ---
 ## LexasCMS
 

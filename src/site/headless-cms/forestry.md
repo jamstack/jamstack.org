@@ -8,9 +8,9 @@ supportedgenerators:
   - All
 description: A custom Content Manager with a clean, clutter-free UI that commits automatically to your repo.
 images:
-  - path: /images/forestry-ui.png
-  - path: /images/forestry-ui-2.png
-  - path: /images/forestry-ui-3.png
+  - path: /img/cms/forestry-ui.png
+  - path: /img/cms/forestry-ui-2.png
+  - path: /img/cms/forestry-ui-3.png
 ---
 ## Forestry.io
 

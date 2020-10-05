@@ -9,7 +9,7 @@ supportedgenerators:
   - All
 description: Flotiq is an effortless headless Content Management System, offering developers powerful SDKs and integrations.
 images:
-  - path: /images/flotiq-create-content-type-definition.png
+  - path: /img/cms/flotiq-create-content-type-definition.png
 ---
 ## Flotiq
 
@@ -51,12 +51,12 @@ If you're not feeling like building your own Content type, you can always use on
 
 Don't take our word on it - check yourself.
 
-![Boilerplate content type definitions have their Github repositories with demo projects](/images/flotiq-create-content-type-definition.png)
+![Boilerplate content type definitions have their Github repositories with demo projects](/img/cms/flotiq-create-content-type-definition.png)
 
 ### Generate packages in language/framework you like and start coding!
 Once you have defined your data model - you can start working with your content. You don't need to learn Flotiq's API, because there isn't any. Flotiq lets you define your API yourself, so you can feel comfortable with the models and properties you define. To simplify your Developer Experience we provide SDKs that fully integrate with your IDE, so you will get all the auto-complete magic you'd ever need!
 
-![The generated SDK packages provide powerful integration of Flotiq-based content types in your IDE](/images/flotiq-sdk-benefits.gif)
+![The generated SDK packages provide powerful integration of Flotiq-based content types in your IDE](/img/cms/flotiq-sdk-benefits.gif)
 
 The languages and frameworks we support at the moment are:
 - C#
@@ -67,12 +67,12 @@ The languages and frameworks we support at the moment are:
 - Python
 - Angular
 
-![Generated SDK packages are automatically synced with your data model](/images/flotiq-download-sdks.png)
+![Generated SDK packages are automatically synced with your data model](/img/cms/flotiq-download-sdks.png)
 
 
 and an extremely well accepted automatically-generated [Postman](https://getpostman.com) package.
 
-![Flotiq called ingenious by Postman!](/images/flotiq-postman-linkedin.png)
+![Flotiq called ingenious by Postman!](/img/cms/flotiq-postman-linkedin.png)
 
 
 Unleash your imagination and build something creative!
@@ -81,12 +81,12 @@ Unleash your imagination and build something creative!
 
 Another benefit you'll see is the beautiful API documentation, which you can share with your peers when integrating your content in other systems. 
 
-![Automatically generated API docs are perfect for sharing your API with other developers](/images/flotiq-api-docs.png)
+![Automatically generated API docs are perfect for sharing your API with other developers](/img/cms/flotiq-api-docs.png)
 
 ### Scoped API keys
 
 The recently added scoped API keys are a perfect way to keep your API secure. You can create keys for individual endpoints or group them by use case, whatever works for you.
-![Flotiq provides scoped API keys to improve security of your content](/images/flotiq-api-keys.png)
+![Flotiq provides scoped API keys to improve security of your content](/img/cms/flotiq-api-keys.png)
 
 
 ### Powerful search API
@@ -95,7 +95,7 @@ Unlike other headless CMS systems - we believe that developers need efficient ac
 
 You can aggregate your search results by given conditions and also rank them by giving weight to a specific field. Be sure to check our [Search API Deep Dive](https://flotiq.com/docs/Deep-Dives/search-api-deepdive/) to read more about it.
 
-![Flotiq's search API offers powerful features, like filtering, aggregation and boosting](/images/flotiq-search-aggregations.png)
+![Flotiq's search API offers powerful features, like filtering, aggregation and boosting](/img/cms/flotiq-search-aggregations.png)
 
 ## Interested? 
 Try [Flotiq](https://editor.flotiq.com) now, it's free to start.

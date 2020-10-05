@@ -9,9 +9,9 @@ supportedgenerators:
   - All
 description: Webiny is a developer-friendly serverless CMS powered by Node, React and a GraphQL API.
 images:
-  - path: /images/webiny-page-builder.gif
-  - path: /images/webiny-form-builder.gif
-  - path: /images/webiny-file-manager.gif
+  - path: /img/cms/webiny-page-builder.gif
+  - path: /img/cms/webiny-form-builder.gif
+  - path: /img/cms/webiny-file-manager.gif
 ---
 ## CMS for Serverless Web Development
 

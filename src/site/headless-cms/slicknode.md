@@ -9,7 +9,7 @@ supportedgenerators:
   - All
 description: Slicknode is a GraphQL based headless CMS + application framework for advanced digital experiences
 images:
-  - path: /images/slicknode-1.png
+  - path: /img/cms/slicknode-1.png
 ---
 ## Slicknode
 

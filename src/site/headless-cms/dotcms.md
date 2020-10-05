@@ -9,9 +9,9 @@ supportedgenerators:
   - All
 description: dotCMS is a cloud-based Hybrid Headless CMS for managing content and content-driven web sites and applications.
 images:
-  - path: /images/dotcms-hydrid-cms.jpg
-  - path: /images/dotcms-page-editing.png
-  - path: /images/dotcms-layout-designer.png
+  - path: /img/cms/dotcms-hydrid-cms.jpg
+  - path: /img/cms/dotcms-page-editing.png
+  - path: /img/cms/dotcms-layout-designer.png
 ---
 ## Why dotCMS
 dotCMS makes it easy to deliver content anywhere and everywhere: IoT devices, mobile apps, voice assistants, digital signage, Smart TVs, streaming devices, or whatever comes next. Our Hybrid CMS approach goes beyond the traditional headless CMS to give you API access not only to content, but templates, modules, pages, and workflows.

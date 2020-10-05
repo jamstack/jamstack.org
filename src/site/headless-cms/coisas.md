@@ -8,9 +8,9 @@ supportedgenerators:
   - All
 description: A client-side CMS for static sites hosted on GitHub.
 images:
-  - path: /images/coisas-basic.png
-  - path: /images/coisas-preview.png
-  - path: /images/coisas-expanded.png
+  - path: /img/cms/coisas-basic.png
+  - path: /img/cms/coisas-preview.png
+  - path: /img/cms/coisas-expanded.png
 ---
 
 ## Coisas

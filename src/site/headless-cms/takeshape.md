@@ -9,9 +9,9 @@ supportedgenerators:
 description: "TakeShape is a GraphQL API-first Content-as-a-Service platform with an integrated Static Content Generator."
 startertemplaterepo: takeshape/takeshape-demo
 images:
-  - path: /images/takeshape-project-list.png
-  - path: /images/takeshape-dashboard.png
-  - path: /images/takeshape-add-content-type.png
+  - path: /img/cms/takeshape-project-list.png
+  - path: /img/cms/takeshape-dashboard.png
+  - path: /img/cms/takeshape-add-content-type.png
 ---
 ## TakeShape
 

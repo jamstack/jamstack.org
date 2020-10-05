@@ -9,7 +9,7 @@ supportedgenerators:
   - All
 description: Sanity is the fully customizable, headless CMS.
 images:
-  - path: /images/sanity-studio.png
+  - path: /img/cms/sanity-studio.png
 ---
 
 Sanity.io is the platform for structured content. It comes with an open-source editing environment called [Sanity Studio](https://www.sanity.io/studio) that you can customize with JavaScript, and a real-time hosted data store. Sanity has generous included quotas – so [getting started](https://www.sanity.io/create) is free.

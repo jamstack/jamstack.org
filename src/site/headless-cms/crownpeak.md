@@ -8,8 +8,6 @@ typeofcms: "API Driven"
 supportedgenerators:
   - All
 description:  The lowest cost to operate, fastest-to-implement CMS. Build scalable, secure, world-class websites and digital experiences in record time.
-images:
-  - path: /images/crownpeak_headless_diagram.jpg
 ---
 
 ## Crownpeak
@@ -21,8 +19,6 @@ Crownpeak DXM is a cloud-native platform, built for agility and extensibility, a
   - Content modeling
   - Component-based design
   - API and microservice architecture 
-
-![crownpeak headless diagram](/public/images/crownpeak_headless_diagram.jpg)
 
 [Request a Demo](https://www.crownpeak.com/about/demo-request)
 

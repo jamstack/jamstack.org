@@ -8,7 +8,7 @@ supportedgenerators:
   - All
 description: Open-source headless CMS without compomising on the authoring experience. No more form-based content management. Powerful APIs to consume from any client like React or Angular.
 images:
-  - path: /images/bloomreach_headless_cms.png
+  - path: /img/cms/bloomreach_headless_cms.png
 ---
 ## Headless. Open-Source. Bloomreach Experience Manager.
 
@@ -24,7 +24,7 @@ Keep your existing powerful architecture and avoid the additional costs of chang
 
 Every site has different needs. brXM offers the full spectrum of delivery, from "owning the glass" to headless delivery, and anything in between. For even more flexibility Bloomreach offers a hybrid approach where you can pick and choose various delivery models for different parts of the site.
 
-<img class="simple" src="/images/bloomreach_delivery_options.png" alt="Bloomreach Delivery Options" />
+<img class="simple" src="/img/cms/bloomreach_delivery_options.png" alt="Bloomreach Delivery Options" />
 
 ### Enterprise-grade
 

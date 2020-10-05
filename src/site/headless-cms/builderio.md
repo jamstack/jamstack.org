@@ -9,7 +9,7 @@ supportedgenerators:
   - All
 description: Builder is the only headless CMS with a visual editor that allows users to drag and drop to create pages and content with your code components
 images:
-  - path: /images/builder-editor.png
+  - path: /img/cms/builder-editor.png
 ---
 
 ## Builder.io

@@ -8,10 +8,10 @@ supportedgenerators:
   - All
 description: GraphCMS is the original GraphQL native Headless CMS with both read and write support to deliver digital projects at scale.
 images:
-  - path: /images/graphcms-intro.png
-  - path: /images/graphcms-features.png
-  - path: /images/graphcms-api.png
-  - path: /images/graphcms-jamstack.png
+  - path: /img/cms/graphcms-intro.png
+  - path: /img/cms/graphcms-features.png
+  - path: /img/cms/graphcms-api.png
+  - path: /img/cms/graphcms-jamstack.png
 ---
 ## About GraphCMS
 As the first GraphQL native Headless CMS, our mission is to remove traditional content management pain points by using the power of GraphQL, and take the idea of a Headless CMS to the next level.

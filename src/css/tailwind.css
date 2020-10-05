@@ -301,6 +301,9 @@ details[open] .summary-swap-open {
   list-style: disc;
   padding-left: 1.5em;
 }
+.tool-content img {
+  @apply my-8;
+}
 /* purgecss end ignore */
 
 @tailwind utilities;

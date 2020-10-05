@@ -8,9 +8,9 @@ supportedgenerators:
   - All
 description: Turn Trello into a CMS
 images:
-  - path: /images/troglio-1.png
-  - path: /images/troglio-2.gif
-  - path: /images/troglio-3.gif
+  - path: /img/cms/troglio-1.png
+  - path: /img/cms/troglio-2.gif
+  - path: /img/cms/troglio-3.gif
 ---
 
 # Power your apps and websites from Trello

@@ -8,14 +8,14 @@ supportedgenerators:
   - All
 description: Flamelink is an easy to use, headless CMS specifically developed to add & manage content in Firebase
 images:
-  - path: /images/flamelink-slide.png
+  - path: /img/cms/flamelink-slide.png
 ---
 
 ## Flamelink CMS
 
 [Flamelink](https://flamelink.io) is a realtime, headless CMS for Firebase. Flamelink offers Coders and Content Managers an easy-to-use interface to add, manage and update content seamlessly integrated with their Firebase project. This lets Developers do what they do best — write white-hot code, while Content Managers can play around with content to their hearts desire.
 
-<img src="/images/flamelink-navigation.png" title="Flamelink Navigation">
+<img src="/img/cms/flamelink-navigation.png" title="Flamelink Navigation">
 
 ## Powered by Google's Firebase
 
@@ -43,4 +43,4 @@ Easily [integrate](https://flamelink.github.io/flamelink) with your Flamelink CM
 
 > If you want to know more, check our [explainer video](https://youtu.be/8Cw5ktNADBQ) by clicking below.
 
-[![FLAMELINK EXPLAINER](/images/flamelink-explainer.jpg)](https://youtu.be/8Cw5ktNADBQ)
+[![FLAMELINK EXPLAINER](/img/cms/flamelink-explainer.jpg)](https://youtu.be/8Cw5ktNADBQ)

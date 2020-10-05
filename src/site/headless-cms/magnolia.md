@@ -9,8 +9,8 @@ supportedgenerators:
   - All
 description: A headless CMS that’s as great for content authors as it is for developers. The Visual SPA Editor gives authors creative control, fully headlessly, for React, Angular & Vue.
 images:
-  - path: /images/magnolia-admincentral.png
-  - path: /images/magnolia-devs-and-marketers.png
+  - path: /img/cms/magnolia-admincentral.png
+  - path: /img/cms/magnolia-devs-and-marketers.png
 
 
 ---
@@ -37,13 +37,13 @@ Magnolia is not an over-packed suite, it's modular. Just use the parts you need.
 
 The __Visual SPA Editor__ is a great collaboration system for devs and authors. It brings the components concept of _CMS_ together with the component concept of _Frontend Frameworks_ in a neat way. And it lets authors do more then just fill in disconnected forms, like most headless CMS.
 
-<img class="simple" src="/images/magnolia-spa-editing.jpg" alt="Visual SPA Editor - WYSIWYG page editing for marketers" />
+<img class="simple" src="/img/cms/magnolia-spa-editing.jpg" alt="Visual SPA Editor - WYSIWYG page editing for marketers" />
 
 You can look at it as the developer putting '_handles_' and '_knobs_' on frontend components - so that marketers and content authors can move them around and tune them with custom content.
 
 Once a developer provisions them, authors can go to town. And since the SPA is now way more flexible, developers don't need to constantly maintain it after launch. Authors and marketers can do that themselves now.
 
-<img class="simple" src="/images/magnolia-component.png" alt="A frontend component, with 'handles and knobs' for marketers." />
+<img class="simple" src="/img/cms/magnolia-component.png" alt="A frontend component, with 'handles and knobs' for marketers." />
 
 ### Enterprise-class
 
@@ -57,7 +57,7 @@ Run your smaller projects for free on our flexible Community edition.
 
 Companies who want to truly own their stack choose us. Like Atlassian, Virgin Holidays, Fendi, The New York Times, Tesco, Avis, Generali, Adyen, Allianz and [many more](https://www.magnolia-cms.com/clients.html).
 
-<img class="simple" src="/images/magnolia-component-sheet.png" alt="A frontend component, with 'handles and knobs' for marketers." />
+<img class="simple" src="/img/cms/magnolia-component-sheet.png" alt="A frontend component, with 'handles and knobs' for marketers." />
 
 ### Try Magnolia
 
