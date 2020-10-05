@@ -212,6 +212,20 @@ details[open] .summary-swap-open {
   overflow: hidden;
   text-overflow: ellipsis;
 }
+
+@media (min-width: 640px) and (min-height: 41.25em) { /* 660px */
+  .page-header {
+    position: sticky;
+    top: 0;
+  }
+  .page-nav {
+    justify-content: space-between;
+    /* Warning: this is the height of the logo */
+    /* Workaround for an issue with <details> and `flex` */
+    height: calc(100vh - 95px);
+  }
+}
+
 /* purgecss end ignore */
 
 @tailwind utilities;
