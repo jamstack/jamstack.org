@@ -16,7 +16,7 @@ images:
 
 Ghost is an open source, professional publishing platform built on a modern Node.js technology stack — designed for teams who need power, flexibility and performance. Every day Ghost powers some of the most-read stories on the internet, serving hundreds of millions of requests across tens of thousands of sites.
 
-<img class="simple" src="/img/cms/ghost-product.png" alt="Ghost product" />
+<img src="/img/cms/ghost-product.png" alt="Ghost product" />
 
 ### Architecture
 
@@ -24,7 +24,7 @@ At its core Ghost is a self-consuming, RESTful JSON API with decoupled admin cli
 
 For editors, Ghost has the rich editor which every writer wants, but under the hood it delivers far more power than you would expect. All content is stored in a standardised JSON-based document storage format called MobileDoc, which includes support for extensible rich media objects called Cards.
 
-<img class="simple" src="/img/cms/ghost-architecture.png" alt="Ghost architecture" />
+<img src="/img/cms/ghost-architecture.png" alt="Ghost architecture" />
 
 Because Ghost is completely open source, built as a JSON API, has webhooks, and gives you full control over the front-end: It essentially integrates with absolutely everything. Browse a [large directory of integrations](https://docs.ghost.org/integrations/) with instructions, or build any manner of custom integration yourself by writing a little JavaScript and Markup to do whatever you want.
 
@@ -34,7 +34,7 @@ Ghost ships with the [Bookshelf.js ORM](http://bookshelfjs.org/) layer by defaul
 
 Additionally, while Ghost uses local file storage by default it's also possible to use custom storage adapters to make your filesystem completely external. There are fairly wide range of [pre-made storage adapters](https://docs.ghost.org/concepts/storage-adapters/) for Ghost already available for use.
 
-<img class="simple" style="width:calc(100%+40px);margin-left:-20px;margin-right:-20px;" src="/img/cms/ghost-examples.png" alt="Ghost examples" />
+<img src="/img/cms/ghost-examples.png" alt="Ghost examples" />
 
 ### Example Customers
 
