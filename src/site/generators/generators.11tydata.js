@@ -1,4 +1,4 @@
 module.exports = {
-  layout: "layouts/base.njk",
+  layout: "layouts/tool.njk",
   tags: ["generators"]
 }

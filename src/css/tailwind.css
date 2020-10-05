@@ -274,6 +274,33 @@ details[open] .summary-swap-open {
 .rounded-xl-embed {
   border-radius: 0.9375rem; /* 15px /16 */
 }
+
+/* Tool layout */
+.tool-content h1,
+.tool-content h2,
+.tool-content h3 {
+  margin: .5em 0;
+}
+.tool-content h1,
+.tool-content h2,
+.tool-content h3 {
+  font-size: 1.5em;
+  font-weight: 700;
+}
+.tool-content h1 ~ h2 {
+  font-size: 1.25em;
+}
+.tool-content h2 ~ h3 {
+  font-size: 1em;
+}
+
+.tool-content a[href] {
+  text-decoration: underline;
+}
+.tool-content ul {
+  list-style: disc;
+  padding-left: 1.5em;
+}
 /* purgecss end ignore */
 
 @tailwind utilities;
