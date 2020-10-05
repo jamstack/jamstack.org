@@ -36,6 +36,24 @@
 
 - term: 'Dynamic server'
   id: 'dynamic-server'
+  
+- term: 'API'
+  id: 'api'
+  definition: 'API is the acronym for Application Programming Interface. It defines interactions that allows two applications to talk to each other.'
+  
+- term: 'API Economy'
+  id: 'api-economy'
+  definition: 'A term that has come to mean the depth and breadth of APIs that are available for developers to use in the current landscape.'
+
+- term: 'Microservice'
+  id: 'microservice'
+  definition: 'A programming paradigm where many parts of a large application are broken down into various units that have smaller responsibility. We can use Serverless or APIs for this, but it's not that APIs or Serverless are necessarily Microservices, it's that we have split apart what we want to access, and that modularity is what we call Microservices.'
+
+- term: 'Monolith'
+  id: 'monolith'
+
+- term: 'Monorepo'
+  id: 'monorepo'  
 
 - term: 'Markup'
   id: 'Markup'
@@ -43,6 +61,4 @@
 - term: 'Markdown'
   id: 'Markdown'
 
-- term: 'API'
-  id: 'api'
-
+  
