@@ -148,21 +148,28 @@ footer p a:focus {
 .card-shadow {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.hover\:card-shadow-blue-seafoam:hover,
-.hover\:card-shadow-blue-seafoam:active {
-  box-shadow: 0px 3px 20px rgba(1, 159, 220, 0.6);
-}
-.hover\:card-shadow-seafoam:hover,
-.hover\:card-shadow-seafoam:active {
-  box-shadow: 0px 3px 20px rgba(135, 249, 237, 0.7);
-}
-.hover\:card-shadow-sunrise:hover,
-.hover\:card-shadow-sunrise:active {
-  box-shadow: 0px 3px 20px rgba(246, 62, 103, 0.6);
-}
-.hover\:card-shadow-gold:hover,
-.hover\:card-shadow-gold:active {
-  box-shadow: 0px 3px 20px rgba(255, 199, 4, 0.6);
+
+@supports (outline: none) {
+  .hover\:card-shadow-blue-seafoam:hover,
+  .hover\:card-shadow-blue-seafoam:focus {
+    outline: none;
+    box-shadow: 0px 3px 20px rgba(1, 159, 220, 0.6);
+  }
+  .hover\:card-shadow-seafoam:hover,
+  .hover\:card-shadow-seafoam:focus {
+    outline: none;
+    box-shadow: 0px 3px 20px rgba(135, 249, 237, 0.7);
+  }
+  .hover\:card-shadow-sunrise:hover,
+  .hover\:card-shadow-sunrise:focus {
+    outline: none;
+    box-shadow: 0px 3px 20px rgba(246, 62, 103, 0.6);
+  }
+  .hover\:card-shadow-gold:hover,
+  .hover\:card-shadow-gold:focus {
+    outline: none;
+    box-shadow: 0px 3px 20px rgba(255, 199, 4, 0.6);
+  }
 }
 
 .list-jams-logo > li,
