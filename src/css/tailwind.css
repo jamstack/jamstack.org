@@ -152,9 +152,17 @@ footer p a:focus {
 .hover\:card-shadow-blue-seafoam:active {
   box-shadow: 0px 3px 20px rgba(1, 159, 220, 0.6);
 }
+.hover\:card-shadow-seafoam:hover,
+.hover\:card-shadow-seafoam:active {
+  box-shadow: 0px 3px 20px rgba(135, 249, 237, 0.7);
+}
 .hover\:card-shadow-sunrise:hover,
 .hover\:card-shadow-sunrise:active {
   box-shadow: 0px 3px 20px rgba(246, 62, 103, 0.6);
+}
+.hover\:card-shadow-gold:hover,
+.hover\:card-shadow-gold:active {
+  box-shadow: 0px 3px 20px rgba(255, 199, 4, 0.6);
 }
 
 .list-jams-logo > li,
@@ -245,6 +253,10 @@ details[open] .summary-swap-open {
 /* special text treatment on home page */
 .hero-text {
   height: 1.244444444em;
+}
+
+.rounded-xl-embed {
+  border-radius: 0.9375rem; /* 15px /16 */
 }
 /* purgecss end ignore */
 

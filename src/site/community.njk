@@ -58,16 +58,16 @@ layout: layouts/base.njk
 </section>
 
 
-<section>
+<section class="cards">
   <h2 class="mb-12">Find a Local User Group</h2>
   <ul class="grid grid-cols-2 lg:grid-cols-3 gap-8">
 
 
     {% set themes = [
-      "bg-gradient-card-sunrise",
-      "bg-gradient-card-blue",
-      "bg-gradient-card-seafoam",
-      "bg-gradient-card-gold"]
+      "bg-gradient-card-sunrise hover:card-shadow-sunrise",
+      "bg-gradient-card-blue hover:card-shadow-blue-seafoam",
+      "bg-gradient-card-seafoam hover:card-shadow-seafoam",
+      "bg-gradient-card-gold hover:card-shadow-gold"]
     %}
     {%- for item in community | sort(false, false, 'name') %}
 
