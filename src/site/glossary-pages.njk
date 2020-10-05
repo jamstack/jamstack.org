@@ -3,8 +3,10 @@ pagination:
   data: glossary
   size: 1
   alias: item
+  addAllPagesToCollections: true
 permalink: "glossary/{{ item.id }}/index.html"
 layout: layouts/base.njk
+
 eleventyComputed:
   title: "{{ item.term }}"
   description: "What is {{ item.term }}? {{ item.definition }}"

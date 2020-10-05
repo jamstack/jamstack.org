@@ -7,6 +7,7 @@ description: >-
   work.
 link: 'https://www.youtube.com/watch?v=uWTMEDEPw8c'
 thumbnailurl: /img/videos/mathias-active-ingredients.jpg
+excludeFromSitemap: true
 type:
   - video
 featured: true

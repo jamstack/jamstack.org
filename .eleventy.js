@@ -103,6 +103,9 @@ module.exports = function(eleventyConfig) {
     return yaml.safeDump(obj)
   });
 
+  // favicons files
+  eleventyConfig.addPassthroughCopy("src/site/browserconfig.xml");
+  eleventyConfig.addPassthroughCopy("src/site/site.webmanifest");
 
 
   return  {
