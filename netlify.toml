@@ -25,6 +25,18 @@
   to = "/code-of-conduct"
   status = 301
 
+[[redirects]]
+  from = "/benefits"
+  to = "/why-jamstack"
+  status = 301
+
+
+[[redirects]]
+  from = "/glossary/*"
+  to = "/glossary/contribute/index.html"
+  status = 404
+
+
 
 # Config for the Netlify Build Plugin: netlify-plugin-minify-html
 [[plugins]]
