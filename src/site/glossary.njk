@@ -10,7 +10,7 @@ layout: layouts/base.njk
   <p class="w-2/3">A collection of terms often used when talking about Jamstack and associated web technologies.</p>
 </section>
 
-<section>
+<section class="no-underline">
   <ul>
     {% for item in glossary | selectattr("definition") %}
     <li class="my-2"><a href="/glossary/{{ item.id }}">{{ item.term }}</a></li>

@@ -45,8 +45,8 @@ dd a {
   @apply border-b;
   @apply border-blue-100;
 }
-section:not(.cards) a:hover,
-section:not(.cards) a:focus,
+section:not(.cards):not(.no-underline) a:hover,
+section:not(.cards):not(.no-underline) a:focus,
 dd a:hover,
 dd a:focus {
   @apply border-pink-500;
