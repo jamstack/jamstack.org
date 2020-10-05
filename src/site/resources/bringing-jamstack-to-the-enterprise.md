@@ -9,6 +9,7 @@ description: >-
 link: 'https://www.infoq.com/presentations/jamstack-enterprise/'
 thumbnailurl: /img/videos/bringing-jamstack-to-the-enterprise.jpg
 featured: true
+excludeFromSitemap: true
 type:
   - video
 ---

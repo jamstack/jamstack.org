@@ -6,6 +6,7 @@ description: >-
   web sites and web apps are built.
 link: 'https://vimeo.com/163522126'
 thumbnailurl: /img/videos/mathias-smashing-conf.png
+excludeFromSitemap: true
 featured: true
 type:
   - video

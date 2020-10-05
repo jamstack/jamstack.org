@@ -1,0 +1,21 @@
+---
+permalink: /sitemap.xml
+excludeFromSitemap: true
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  {%- for item in collections.all %}
+    {%- if item.data.excludeFromSitemap !== true %}
+      <url>
+        <loc>https://www.jamstack.org{{ item.url }}</loc>
+        <lastmod>{{ item.data.lastmod or item.date | formatDate('yyyy-MM-dd')  }}</lastmod>
+        {%- if item.data.changefreq %}
+          <changefreq>{{ item.data.changefreq }}</changefreq>
+        {%- endif %}
+        {%- if item.data.priority %}
+          <priority>{{ item.data.priority }}</priority>
+        {%- endif %}
+      </url>
+    {%- endif %}
+  {%- endfor %}
+</urlset>

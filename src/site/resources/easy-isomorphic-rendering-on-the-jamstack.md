@@ -7,6 +7,7 @@ description: >-
 link: 'https://www.youtube.com/watch?v=lRg99MH6rhw'
 thumbnailurl: /img/videos/isomorphic.jpg
 featured: true
+excludeFromSitemap: true
 type:
   - video
 ---
