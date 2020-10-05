@@ -75,8 +75,8 @@ a.cta:visited {
 }
 a.cta:hover,
 a.cta:focus {
-  @apply bg-pink-500;
-  box-shadow: 0px 3px 15px rgba(240, 4, 127, 0.1);
+  @apply bg-orange-500;
+  box-shadow: 0px 3px 15px rgba(241, 86, 77, 0.6);
 }
 
 
