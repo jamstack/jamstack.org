@@ -49,12 +49,22 @@ layout: layouts/base.njk
 
 <section>
   <h2>Upcoming Events</h2>
-  <ul>
+  <table>
+    <thead class="hidden md:table-header-group">
+      <tr>
+        <th class="text-left p-4">Group</th>
+        <th class="text-left p-4">Name</th>
+        <th class="text-left p-4">Venue</th>
+        <th class="text-left p-4">Date/Time</th>
+      </tr>
+    </thead>
+    <tbody>
   {% for meetup, data in meetups %}
-    {% set item = meetup%}
+    {% set item = meetup %}
     {% include "components/meetup-link.njk" %}
   {% endfor %}
-  </ul>
+    </tbody>
+  </table>
 </section>
 
 
