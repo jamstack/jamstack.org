@@ -260,8 +260,14 @@ details[open] .summary-swap-open {
 }
 
 /* special text treatment on home page */
-.hero-text {
+@media (min-width: 64em) { /* 1024px */
+  .hero-text {
+    font-size: 4em; /* 64px /16 */
+  }
+}
+.hero-text-img {
   height: 1.244444444em;
+  width: auto;
   margin-top: -0.1111111111111em; /* -4px /36 */
 }
 
