@@ -12,7 +12,7 @@
       {%- for childlink in link.children %}
         <li>
           <a href="{{ childlink.url }}"
-            class="block text-sm text-white hover:underline py-2 pl-12 pr-8{% if page.url.split("/")[1] == childlink.url.split("/")[1] %} bg-gray-900 font-bold{% endif %}">
+            class="block text-sm text-white hover:underline py-2 pl-16 pr-8{% if page.url.split("/")[1] == childlink.url.split("/")[1] %} bg-gray-900 font-bold{% endif %}">
             {{ childlink.text }}
           </a>
         </li>
