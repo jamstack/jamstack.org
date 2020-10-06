@@ -38,8 +38,8 @@
   
 [[redirects]]
   from = "/slack"
-  to = "https://jamstack.slack.com"
-  status = 301
+  to = "https://join.slack.com/t/jamstack/shared_invite/zt-fpqaceec-SZuiLEa7YdLUXHAXrWPWgQ"
+  status = 302
 
 
 # Config for the Netlify Build Plugin: netlify-plugin-minify-html
