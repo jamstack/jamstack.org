@@ -1,0 +1,12 @@
+title: About Monica
+description: Monica Powell's digital playground
+link: 'https://www.aboutmonica.com'
+thumbnailurl: /img/examples/aboutmonica.png
+tools:
+  - React
+  - Gatsby
+  - Netlify
+  - Markdown
+  - MDX
+  - Webmention
+  - GitHub
