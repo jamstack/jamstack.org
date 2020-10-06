@@ -19,6 +19,11 @@
   from = "/best-practices"
   to = "/resources"
   status = 301
+  
+[[redirects]]
+  from = "/slack"
+  to = "https://join.slack.com/t/jamstack/shared_invite/zt-fpqaceec-SZuiLEa7YdLUXHAXrWPWgQ"
+  status = 302
 
 [[redirects]]
   from = "/diversity"
@@ -35,11 +40,8 @@
   from = "/glossary/*"
   to = "/glossary/contribute/index.html"
   status = 404
-  
-[[redirects]]
-  from = "/slack"
-  to = "https://join.slack.com/t/jamstack/shared_invite/zt-fpqaceec-SZuiLEa7YdLUXHAXrWPWgQ"
-  status = 302
+
+
 
 
 # Config for the Netlify Build Plugin: netlify-plugin-minify-html
