@@ -54,7 +54,9 @@ dd a:focus {
 p+p {
   @apply mt-4;
 }
-
+section.cards {
+  max-width: 66rem;
+}
 
 /*
   CTA links

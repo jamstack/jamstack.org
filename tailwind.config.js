@@ -4,7 +4,6 @@ module.exports = {
     './src/site/**/*.md'
   ],
   theme: {
-
     borderRadius: {
       'none': '0',
       'sm': '.125rem',
@@ -14,6 +13,9 @@ module.exports = {
       'full': '9999px',
     },
     extend: {
+      fontSize: {
+        xxs: "0.625rem",
+      },
       colors: {
         orange: {
           500: "#DF4A1F",
