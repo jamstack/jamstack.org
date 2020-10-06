@@ -54,7 +54,7 @@ layout: layouts/base.njk
     {%- endif %}
   </dl>
   <dl class="inline-block mb-4">
-    {%- if opensource %}
+    {%- if opensource === "Yes" or opensource === "YES" or opensource === "yes" %}
     <dt class="inline-block font-bold mr-6">Open Source</dt>
     <dd class="inline-block sr-only">Yes</dd>
     {%- endif %}
