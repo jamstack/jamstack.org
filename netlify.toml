@@ -16,6 +16,11 @@
   status = 302
 
 [[redirects]]
+  from = "/slack"
+  to = "https://jamstack.slack.com/"
+  status = 302
+
+[[redirects]]
   from = "/best-practices"
   to = "/resources"
   status = 301
