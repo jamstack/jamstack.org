@@ -28,6 +28,7 @@
     "fast-glob": "^3.2.4",
     "gray-matter": "^4.0.2",
     "js-yaml": "^3.13.1",
+    "lodash": "^4.17.20",
     "luxon": "^1.23.0",
     "markdown-it": "^11.0.1",
     "netlify-plugin-minify-html": "^0.2.2",
