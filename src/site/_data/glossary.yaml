@@ -33,14 +33,15 @@
 
 - term: 'Decoupling'
   id: 'decoupling'
+  definition: 'Decoupling is the process of creating a clean separation between systems or services. By decoupling the services needed to operate a site, each component part can become easier to reason about, can by independantly swapped out or upgraded, and can be designated the purvue of dedicated specialsts either within an organisation, or as a third party.'
 
 - term: 'Dynamic server'
   id: 'dynamic-server'
-  
+
 - term: 'API'
   id: 'api'
   definition: 'API is the acronym for Application Programming Interface. It defines interactions that allows two applications to talk to each other.'
-  
+
 - term: 'API Economy'
   id: 'api-economy'
   definition: 'A term that has come to mean the depth and breadth of APIs that are available for developers to use in the current landscape.'
@@ -53,7 +54,7 @@
   id: 'monolith'
 
 - term: 'Monorepo'
-  id: 'monorepo'  
+  id: 'monorepo'
 
 - term: 'Markup'
   id: 'Markup'
@@ -61,4 +62,4 @@
 - term: 'Markdown'
   id: 'Markdown'
 
-  
+
