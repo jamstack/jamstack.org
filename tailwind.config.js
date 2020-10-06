@@ -4,7 +4,6 @@ module.exports = {
     './src/site/**/*.md'
   ],
   theme: {
-
     borderRadius: {
       'none': '0',
       'sm': '.125rem',
@@ -14,6 +13,9 @@ module.exports = {
       'full': '9999px',
     },
     extend: {
+      fontSize: {
+        xxs: "0.625rem",
+      },
       colors: {
         orange: {
           500: "#DF4A1F",
@@ -29,11 +31,12 @@ module.exports = {
           900: "#0D0F18",
           700: "#2D3247",
           400: "#5A5F75",
+          300: "#9AA0B6",
           200: "#DEDEDE",
           100: "#10121E"
         },
         pink : {
-          900 : '#D81467', // old
+          900 : '#D1036F', // old
           500 : '#F0047F',
           100 : '#FFB1C5' // old
         }
@@ -42,7 +45,7 @@ module.exports = {
   },
   variants: {
     borderRadius: ["last"],
-    textDecoration: ["group-hover"]
+    textDecoration: ["group-hover", "hover"]
   },
   plugins: []
 }

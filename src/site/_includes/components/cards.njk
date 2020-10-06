@@ -7,6 +7,11 @@
     {%- elseif loopIndex % 4 === 2 %} bg-gradient-card-seafoam
     {%- elseif loopIndex % 4 === 3 %} bg-gradient-card-gold
     {%- endif -%}">
+      {%- if item.data.opensource -%}
+      <div class="text-xxs mb-2">
+        <span class="inline-block uppercase bg-black text-white leading-5 px-2 rounded">Open Source</span>
+      </div>
+      {% endif %}
       {{ item.data.title }}
     </div>
     <div class="p-4">

@@ -14,7 +14,7 @@ layout: layouts/base.njk
 
 <section class="cards mt-12">
   <div class="grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-  {% for item in collections.cms %}
+  {% for item in collections.cms | sortTools(github) %}
     {{ cards.repo(item, loop.index0, github) }}
   {% endfor %}
   </div>

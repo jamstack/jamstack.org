@@ -1,3 +1,4 @@
+const lodashGet = require("lodash/get");
 
 module.exports = function(eleventyConfig) {
 
@@ -102,6 +103,36 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addFilter('dumpasyaml', obj => {
     return yaml.safeDump(obj)
   });
+
+  // sort an array of objects by one object key value
+  // can also get fancy and do a lodash.get selector string too
+  // see https://lodash.com/docs/4.17.15#get
+  eleventyConfig.addFilter('sortKey', (arr, selector) => {
+    return arr.sort((a, b) => {
+      let aKey = lodashGet(a, selector).toLowerCase();
+      let bKey = lodashGet(b, selector).toLowerCase();
+      if(aKey < bKey) {
+        return -1;
+      } else if(aKey > bKey) {
+        return 1;
+      }
+      return 0;
+    });
+  });
+
+  eleventyConfig.addFilter('sortTools', (arr, githubData) => {
+    return arr.sort((a, b) => {
+      let aKey = githubData[a.data.repo] ? (githubData[a.data.repo].stars || 0) : 0;
+      let bKey = githubData[b.data.repo] ? (githubData[b.data.repo].stars || 0) : 0;
+      if(aKey < bKey) {
+        return 1;
+      } else if(aKey > bKey) {
+        return -1;
+      }
+      return 0;
+    });
+  });
+
 
   // favicons files
   eleventyConfig.addPassthroughCopy("src/site/browserconfig.xml");

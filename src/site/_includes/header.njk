@@ -15,7 +15,8 @@
 
 <header class="page-header sm:flex sm:flex-col sm:h-screen">
   <a href="/" class="block text-white hover:text-pink-900 mx-8 py-8">
-    <svg role="img" aria-label="Jamstack" aria-hidden="true" focusable="false" width="163" height="31"><use xlink:href="#logo-jamstack"></use></svg>
+    <svg role="img" aria-hidden="true" focusable="false" width="163" height="31"><use xlink:href="#logo-jamstack"></use></svg>
+    <span class="sr-only">Jamstack</span>
   </a>
   <details open data-force-state
     data-force-state-closed="(max-width: 39.9375em)"
@@ -39,20 +40,19 @@
       {% include "navigation-links.njk" %}
 
       <div>
-        <a href="https://jamstackconf.com/" class="block p-4 my-4 bg-gradient-jams hover:bg-gradient-pink-orange font-bold text-center">Jamstack Conf</a>
-
-        <div class="text-center text-sm mb-4">Connect with us</div>
-        <div class="grid grid-cols-3 divide-x divide-gray-700">
+        <div class="text-center text-sm mb-4 text-gray-300">Connect with us</div>
+        <div class="grid grid-cols-3 divide-x divide-gray-700 text-gray-300">
           <a href="https://jamstack.org/slack" target="_BLANK" rel="noopener" class="flex items-center justify-center p-4 hover:text-pink-500">
             <svg role="img" aria-label="Slack" focusable="false" width="30" height="30" class="fill-current"><use xlink:href="#logo-slack"></use></svg>
           </a>
           <a href="https://twitter.com/jamstackconf" target="_BLANK" rel="noopener"  class="flex items-center justify-center p-4 hover:text-pink-500">
             <svg role="img" aria-label="Twitter" focusable="false" width="34" height="28" class="fill-current"><use xlink:href="#logo-twitter"></use></svg>
           </a>
-          <a href="{{ pkg.repository.url }}" target="_BLANK" rel="noopener"  class="flex items-center justify-center p-4 hover:text-pink-500">
+          <a href="https://github.com/jamstack/jamstack.org" target="_BLANK" rel="noopener"  class="flex items-center justify-center p-4 hover:text-pink-500">
             <svg role="img" aria-label="GitHub" focusable="false" width="36" height="36" class="fill-current"><use xlink:href="#logo-github"></use></svg>
           </a>
         </div>
+        <a href="https://jamstackconf.com/" class="block p-4 mt-4 bg-gradient-jams hover:bg-gradient-pink-orange font-bold text-center">Jamstack Conf</a>
       </div>
     </nav>
   </details>
