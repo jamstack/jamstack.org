@@ -2,7 +2,7 @@
   {% for link in linkList %}
     <li>
       <a href="{{ link.url }}"
-        class="block font-bold text-sm text-white hover:underline py-2 px-8 {% if page.url.split("/")[1] == link.url.split("/")[1] %} bg-gray-900{% endif %}">
+        class="block font-bold text-sm text-white hover:underline py-2 px-10 {% if page.url.split("/")[1] == link.url.split("/")[1] %} bg-gray-900{% endif %}">
         {{ link.text }}
       </a>
     </li>
