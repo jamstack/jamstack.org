@@ -44,7 +44,7 @@ module.exports = {
   },
   variants: {
     borderRadius: ["last"],
-    textDecoration: ["group-hover"]
+    textDecoration: ["group-hover", "hover"]
   },
   plugins: []
 }
