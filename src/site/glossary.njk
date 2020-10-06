@@ -20,7 +20,7 @@ layout: layouts/base.njk
 
 <section class="border-gray-400 border-b mb-10">
   {{ content | safe }}
-  <p class="mt-12 mb-20">You can help us to expand and improve this glossary <a href="#">by creating an issue</a>.</p>
+  <p class="mt-12 mb-20">You can help us to expand and improve this glossary <a href="{{ pkg.repository.url }}/issues">by creating an issue</a>.</p>
 </section>
 
 {% include "components/join-the-movement.njk" %}
