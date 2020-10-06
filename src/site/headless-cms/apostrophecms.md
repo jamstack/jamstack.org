@@ -11,7 +11,7 @@ description: As a full-featured JavaScript CMS with both headless capabilities a
 ---
 
 ## ApostropheCMS
-Apostrophe is a globally-minded technology company focused on creating incredible open source content management tools for organizations—from small businesses to the enterprise. Our products empower our customers to take ownership over their digital experiences. As a full-featured JavaScript CMS with both headless capabilities in-context editing, our tools appeal to both developers and content editors, not only because of how flexible they are, but because they feel good to use. Our customers’ success in their digital experiences is a result of the impact of our products.
+Apostrophe is a globally-minded technology company focused on creating incredible open source content management tools for organizations—from small businesses to the enterprise. Our products empower our customers to take ownership over their digital experiences. As a full-featured JavaScript CMS with both headless capabilities through the [headless module](https://github.com/apostrophecms/apostrophe-headless) and core in-context editing, our tools appeal to both developers and content editors, not only because of how flexible they are, but because they feel good to use. Our customers’ success in their digital experiences is a result of the impact of our products.
 
 ### Headless
 Run Apostrophe in the JAMstack. Add REST APIs to your Apostrophe content, powering your React/Vue/etc. apps with a headless CMS.
