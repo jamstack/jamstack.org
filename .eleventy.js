@@ -103,6 +103,20 @@ module.exports = function(eleventyConfig) {
     return yaml.safeDump(obj)
   });
 
+  // sort an array of objects by one object key value
+  eleventyConfig.addFilter('sortKey', (arr, key) => {
+    return arr.sort((a, b) => {
+      let aKey = a[key].toLowerCase();
+      let bKey = b[key].toLowerCase();
+      if(aKey < bKey) {
+        return -1;
+      } else if(aKey > bKey) {
+        return 1;
+      }
+      return 0;
+    })
+  })
+
   // favicons files
   eleventyConfig.addPassthroughCopy("src/site/browserconfig.xml");
   eleventyConfig.addPassthroughCopy("src/site/site.webmanifest");
