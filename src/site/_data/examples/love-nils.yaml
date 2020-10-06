@@ -5,7 +5,6 @@ description: >-
   cancer.
 link: 'https://www.lovenils.org'
 thumbnailurl: /img/examples/lovenils.jpg
-featured: true
 tools:
   - Netlify
   - Prismic.io

@@ -1,0 +1,9 @@
+
+title: COVID Tracking Project
+link: 'https://covidtracking.com/'
+thumbnailurl: /img/examples/covid-tracking-project.jpg
+featured: true
+tools:
+  - Google Sheets 
+  - Contentful headless CMS
+  - Gatsby

@@ -3,7 +3,6 @@ title: Assortment
 description: Web Development blog for the practical developer
 link: 'https://assortment.io'
 thumbnailurl: /img/examples/assortment.png
-featured: true
 tools:
   - Gatsby.js
   - React
