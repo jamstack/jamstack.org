@@ -1,12 +1,6 @@
 {% include "components/example-thumbnail.njk" %}
-<h3><a href="{{ item.link }}" target="_BLANK" rel="noopener">{{ item.title }} →</a></h3>
-{% if item.date %}
-<time value="{{ item.date | formatDate('y-MM-dd') }}" class="text-gray-400 text-xs">{{ item.date | formatDate }} </time>
-{% endif %}
-<p class="mt-0 text-gray-600 text-xs">{{ item.link | domain}}</p>
 <ul class="text-gray-400 text-sm mt-2">
   {% for tool in item.tools | sort %}
   <li>{{ tool }}</li>
   {% endfor %}
 </ul>
-
