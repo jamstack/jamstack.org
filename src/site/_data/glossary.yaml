@@ -47,7 +47,7 @@
 
 - term: 'Microservice'
   id: 'microservice'
-  definition: 'A programming paradigm where many parts of a large application are broken down into various units that have smaller responsibility. We can use Serverless or APIs for this, but it's not that APIs or Serverless are necessarily Microservices, it's that we have split apart what we want to access, and that modularity is what we call Microservices.'
+  definition: 'A programming paradigm where many parts of a large application are broken down into various units that have smaller responsibility. We can use Serverless or APIs for this, but it''s not that APIs or Serverless are necessarily Microservices, it''s that we have split apart what we want to access, and that modularity is what we call Microservices.'
 
 - term: 'Monolith'
   id: 'monolith'
