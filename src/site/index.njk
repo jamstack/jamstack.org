@@ -6,14 +6,13 @@ layout: layouts/base.njk
 {% import "components/ticker.njk" as ticker %}
 {% import "components/section-heading.njk" as section %}
 
-<section class="my-16 ">
+<section class="mt-16">
   <p class="w-1/2">Comprehensive guide for building Jamstack sites and home of the global Jamstack community.</p>
   <h1 class="hero-text">The modern way to&nbsp;build <img src="/img/svg/websites-and-apps.svg" width="545" height="88" alt="Websites and Apps" class="inline-block mr-2 hero-text-img"> that delivers better performance</h1>
   <a href="/community" class="cta">Join the global community</a>
 </section>
 
 <section class="mb-20 p-0">
-  <p class="px-8">Maximize efficiency with the tools you love</p>
   {{ ticker.icons() }}
   {{ ticker.main() }}
 </section>
@@ -57,13 +56,15 @@ layout: layouts/base.njk
   <a href="/why-jamstack" class="cta">Read more about the benefits of Jamstack</a>
 </section>
 
-<section class="mb-20">
-  <h2 class="text-2xl">The future is highly distributed</h2>
-  <p class="mt-6 mb-8">
-    Jamstack is the new standard architecture for the web. Using Git workflows and modern build tools, pre-rendered   content is served to a CDN and made dynamic through APIs and serverless functions. Technologies in the stack include JavaScript frameworks, Static Site Generators, Headless CMSs, and CDNs.
-  </p>
-  <img src="/img/svg/architecture.svg" alt="Jamstack architecture diagram, Bidirectional arrows between Client and CDN, Client and Microservices">
-</section>
+<div class="bg-gray-100 mb-20">
+  <section>
+    <h2 class="text-2xl">The future is highly distributed</h2>
+    <p class="mt-6 mb-8">
+      Jamstack is the new standard architecture for the web. Using Git workflows and modern build tools, pre-rendered   content is served to a CDN and made dynamic through APIs and serverless functions. Technologies in the stack include JavaScript frameworks, Static Site Generators, Headless CMSs, and CDNs.
+    </p>
+    <img src="/img/svg/architecture.svg" alt="Jamstack architecture diagram, Bidirectional arrows between Client and CDN, Client and Microservices">
+  </section>
+</div>
 
 <section class="text-center mb-20">
   <div class="md:w-8/12 mx-auto">

@@ -54,6 +54,10 @@ layout: layouts/base.njk
     {%- endif %}
   </dl>
   <dl class="inline-block mb-4">
+    {%- if opensource %}
+    <dt class="inline-block font-bold mr-6">Open Source</dt>
+    <dd class="inline-block sr-only">Yes</dd>
+    {%- endif %}
     {%- if language %}
     <dt class="inline-block font-bold">Language:</dt>
     <dd class="inline-block mr-6">{{ language }}</dd>
