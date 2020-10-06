@@ -7,7 +7,7 @@ thumbnailurl: /img/examples/smokeyfro.jpg
 tools:
   - Vue
   - Gridsome
-  - Zeit Now
+  - Vercel
   - GitHub
   - Ghost
   - Cockpit
