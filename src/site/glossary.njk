@@ -13,7 +13,7 @@ layout: layouts/base.njk
 <section class="no-underline">
   <ul>
     {% for item in glossary | selectattr("definition") | sortKey("term") %}
-    <li class="my-2"><a href="/glossary/{{ item.id }}">{{ item.term }}</a></li>
+    <li class="my-2"><a href="/glossary/{{ item.id }}/">{{ item.term }}</a></li>
     {% endfor %}
   </ul>
 </section>
