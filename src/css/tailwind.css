@@ -67,7 +67,7 @@ a.cta:visited {
   @apply bg-pink-900;
   @apply text-white;
   @apply rounded-full;
-  @apply text-xs;
+  @apply text-sm;
   @apply font-semibold;
   @apply px-4;
   @apply py-2;
@@ -195,7 +195,7 @@ footer p a:focus {
 }
 .list-jams-logo > li:after {
   background-image: url("data:image/svg+xml,%3Csvg width='8' viewBox='0 0 12 13' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M6 0C2.68226 0 0 2.90578 0 6.5C0 10.0942 2.68226 13 6 13C9.31774 13 12 10.0942 12 6.5V0H6Z' fill='%235A5F75'/%3E%3C/svg%3E%0A");
-  left: 2em;
+  left: 3em;
 }
 .list-jams-logo-pink > li:after {
   background-image: url("data:image/svg+xml,%3Csvg width='8' viewBox='0 0 12 13' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M6 0C2.68226 0 0 2.90578 0 6.5C0 10.0942 2.68226 13 6 13C9.31774 13 12 10.0942 12 6.5V0H6Z' fill='%23F0047F'/%3E%3C/svg%3E%0A");
@@ -205,7 +205,7 @@ footer p a:focus {
   @apply text-gray-400;
   content: "";
   position: absolute;
-  left: 2.25em; /* 36px /16 */
+  left: 3.25em; /* 36px /16 */
   top: 0;
   bottom: 0;
   border-left: 1px solid;
