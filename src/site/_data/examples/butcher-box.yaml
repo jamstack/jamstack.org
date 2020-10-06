@@ -1,0 +1,12 @@
+
+title: Butcher Box
+link: 'https://www.butcherbox.com/'
+thumbnailurl: /img/examples/butcherbox.jpg
+featured: true
+tools:
+  - Headless Shopify
+  - Contentful
+  - Laravel Nova
+  - Gatsby 
+  - TypeScript
+  - Netlify

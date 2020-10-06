@@ -1,0 +1,9 @@
+
+title: Victoria Beckham Beauty
+link: 'https://www.victoriabeckhambeauty.com/'
+thumbnailurl: /img/examples/victoria-beckham-beauty.jpg
+featured: true
+tools:
+  - Shopify headless storefront API
+  - Gridsome
+  - Vue.js

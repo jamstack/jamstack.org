@@ -1,0 +1,9 @@
+
+title: Nexxus
+link: 'https://www.nexxus.com/us'
+thumbnailurl: /img/examples/nexxus.jpg
+featured: true
+tools:
+  - Gridsome
+  - Sanity
+  - Netlify

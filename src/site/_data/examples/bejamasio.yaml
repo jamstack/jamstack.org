@@ -2,7 +2,6 @@ title: Bejamas.io
 description: "Bejamas - JAM Stack experts for hire website."
 link: https://www.bejamas.io
 thumbnailurl: /img/examples/bejamas.jpg
-featured: true
 tools:
   - Gatsby.js
   - Contentful

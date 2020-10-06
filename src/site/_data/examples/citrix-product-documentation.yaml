@@ -1,0 +1,12 @@
+
+title: Citrix product documentation
+link: 'https://docs.citrix.com/'
+thumbnailurl: /img/examples/citrix-product-documentation.jpg
+featured: true
+tools:
+  - Visual Studio
+  - Markdown
+  - Bitbucket
+  - Jekyll 
+  - Jenkins
+  - Netlify
