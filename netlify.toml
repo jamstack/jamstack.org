@@ -42,6 +42,8 @@
   status = 404
 
 
+[[plugins]]
+  package = "./plugins/keep-dot-cache-folder"
 
 # Config for the Netlify Build Plugin: netlify-plugin-minify-html
 [[plugins]]

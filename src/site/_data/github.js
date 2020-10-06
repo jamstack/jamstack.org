@@ -69,7 +69,10 @@ async function githubRequest(user, repo) {
   try {
     req = await CacheAsset(url, opts);
     if(req.errors && req.errors.length) {
-      console.log( "Error", req.errors );
+      console.log( "GitHub Data Source Error from API", req.errors );
+      if(req.errors.filter(e => e.type === "RATE_LIMITED").length > 0) {
+        throw new Error("Failing the build due to GitHub API rate limiting.");
+      }
       return errorData;
     }
 
@@ -79,7 +82,8 @@ async function githubRequest(user, repo) {
       issues: req.data.repository.issues.totalCount,
     }
   } catch(e) {
-    console.log( "Error", e );
+    console.log( "GitHub Data Source Error", e );
+
     return errorData;
   }
 }
