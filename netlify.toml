@@ -16,11 +16,6 @@
   status = 302
 
 [[redirects]]
-  from = "/slack"
-  to = "https://jamstack.slack.com/"
-  status = 302
-
-[[redirects]]
   from = "/best-practices"
   to = "/resources"
   status = 301
@@ -40,7 +35,11 @@
   from = "/glossary/*"
   to = "/glossary/contribute/index.html"
   status = 404
-
+  
+[[redirects]]
+  from = "/slack"
+  to = "https://jamstack.slack.com"
+  status = 301
 
 
 # Config for the Netlify Build Plugin: netlify-plugin-minify-html
