@@ -3,7 +3,7 @@
   link: https://ayushsharma.in
   thumbnailurl: /img/examples/ayushsharma.in.jpg
   tools:
-    - tool: Jekyll
-    - tool: Netlify
-    - tool: GitLab
-    - tool: Bootstrap
+    - Jekyll
+    - Netlify
+    - GitLab
+    - Bootstrap
