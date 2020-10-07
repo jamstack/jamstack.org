@@ -158,3 +158,8 @@
     themecolor: '#000'
     btncopy: Join Now
     link: https://m.facebook.com/groups/473905470150140
+  - name: Mexico City
+    themecolor: "#000"
+    btncopy: Join Now
+    link: https://www.meetup.com/JAMstack-Mexico-City/
+    feed: https://www.meetup.com/JAMstack-Mexico-City/events
