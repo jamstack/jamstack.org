@@ -1,0 +1,11 @@
+title: FTPiHole
+description: A wide range of original ad blocking lists for the Pi Hole and many more platforms as well as instructions on setting up and installing a Pi Hole on your network and a detailed FAQ.
+link: https://ftpihole.com
+thumbnailurl: /img/examples/ftpihole-thumb.jpg
+tools:
+  - MkDocs
+  - AWS S3
+  - AWS Cloudfront
+  - Markdown
+  - Python
+  - GitHub
