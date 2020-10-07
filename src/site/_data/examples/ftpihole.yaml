@@ -3,9 +3,9 @@ description: A wide range of original ad blocking lists for the Pi Hole and many
 link: https://ftpihole.com
 thumbnailurl: /img/examples/ftpihole-thumb.jpg
 tools:
-  - tool: MkDocs
-  - tool: AWS S3
-  - tool: AWS Cloudfront
-  - tool: Markdown
-  - tool: Python
-  - tool: GitHub
+  - MkDocs
+  - AWS S3
+  - AWS Cloudfront
+  - Markdown
+  - Python
+  - GitHub
