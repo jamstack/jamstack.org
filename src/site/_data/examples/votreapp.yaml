@@ -1,0 +1,14 @@
+title: VotreApp
+description: An app development and consulting company in Morocco.
+link: https://www.votreapp.com
+thumbnailurl: /img/examples/votreapp.png
+tools:
+  - Netlify
+  - Netlify Pages
+  - Netlify Functions
+  - FaunaDB
+  - GraphQL
+  - Github
+  - Bootstrap
+  - Sass
+  - Webpack
