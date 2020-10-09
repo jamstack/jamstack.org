@@ -1,0 +1,9 @@
+title: AhaQuiz Vietnam
+description: Ahaquiz - Learn new things everyday by quizzes
+link: 'https://ahaquiz.com'
+thumbnailurl: /img/examples/ahaquiz.jpg
+tools:
+  - ReactJS/Boostrap 4/SCSS/MobX
+  - Hugo
+  - Netlify CDN
+  - Netlify CMS
