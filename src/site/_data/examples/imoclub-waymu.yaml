@@ -1,0 +1,17 @@
+
+title: IMOclub Blog
+description: >-
+  Website Development & Digital Marketing Services
+link: 'https://imoclub.id'
+thumbnailurl: /img/examples/jamstack-new-imoclub-blog.jpg
+tools:
+  - Hexo
+  - Self Hosting
+  - Stylus CSS
+  - Google Analytics
+  - Facebook Pixel
+  - Facebook Comment
+  - Disqus
+  - PUG
+  - Lazyload
+  - Google Adsense
