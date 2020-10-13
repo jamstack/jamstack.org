@@ -3,10 +3,10 @@ description: Wedbio - Elegant Wedding Website, Online RSVP, Guests Reporting.
 link: https://wedbio.com
 thumbnailurl: /img/examples/wedbio.png
 tools:
-  - tool: Next.js
-  - tool: ReactJS
-  - tool: Webpack
-  - tool: Github
-  - tool: Bootstrap
-  - tool: Google-Analytics
-  - tool: Sass
+  - Next.js
+  - ReactJS
+  - Webpack
+  - Github
+  - Bootstrap
+  - Google Analytics
+  - Sass
