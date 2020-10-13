@@ -17,7 +17,7 @@ We accept contributions submitted as [pull requests](https://github.com/jamstack
 To contribute a site:
 
 1. Create a new yaml file in the [`src/site/_data/examples`](src/site/_data/examples) folder with a unique and descriptive name. Populate that file according to the structure shown below.
-1. Add a thumbnail image to the [`src/site/_data/examples`](src/site/img/cms/examples) folder. (Image should be a jpeg 596px wide and 396px tall)
+1. Add a thumbnail image to the [`src/site/img/examples`](src/site/img/examples) folder. (Image should be a jpeg 596px wide and 396px tall)
 1. Submit a pull request
 
 _example site yaml reference:_
