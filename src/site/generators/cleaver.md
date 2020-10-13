@@ -1,7 +1,7 @@
 ---
 title: Cleaver
 repo: aschmelyun/cleaver
-homepage: https://usecleaver.com
+homepage: https://usecleaver.com/
 language:
   - PHP
 license:
