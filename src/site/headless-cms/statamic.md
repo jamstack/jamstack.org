@@ -1,6 +1,6 @@
 ---
 title: Statamic
-homepage: https://statamic.com.com/
+homepage: https://statamic.com/
 repo: https://github.com/statamic/cms
 twitter: statamic
 opensource: "Yes"
