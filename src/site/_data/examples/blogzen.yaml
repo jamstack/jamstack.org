@@ -1,0 +1,9 @@
+title: Blog Zen
+description: Personal blog of Zen. Written in Indonesian.
+link: https://blogzen.js.org
+thumbnailurl: /img/examples/blogzen.jpg
+tools:
+  - Svelte
+  - JSON Server
+  - Node JS
+  - Bootstrap
