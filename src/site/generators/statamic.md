@@ -1,7 +1,7 @@
 ---
 title: Statamic
-homepage: https://statamic.com.com/
-repo: https://github.com/statamic/ssg
+homepage: https://statamic.com/
+repo: statamic/ssg
 twitter: statamic
 language:
   - PHP
