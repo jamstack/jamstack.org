@@ -21,8 +21,9 @@ twitter: hexojs
 startertemplaterepo: hexojs/hexo-starter
 ---
 
-A fast, simple & powerful blog framework, powered by [Node.js](https://nodejs.org) and NPM.
+A fast, simple & powerful blog framework, powered by [Node.js](https://nodejs.org) and [NPM](https://www.npmjs.com/).
 
+- [Hexo Official website](https://hexo.io/)
 - [Themes](https://hexo.io/themes)
 - [Plugins](https://hexo.io/plugins)
 - [Deploy to Netlify ⭐️](https://hexo.io/docs/one-command-deployment#Netlify)
@@ -32,14 +33,14 @@ A fast, simple & powerful blog framework, powered by [Node.js](https://nodejs.or
 
 We want to solve issues **fast**! [Please contribute](https://github.com/hexojs/hexo/issues) by answering questions or providing peer review on PRs! Thank you 🤗
 
-** Blazing Fast **
+**Blazing Fast**
 
 Hexo is powered by Node.js and supports multi-thread generating. Hundreds of files take only seconds to generate.
 
-** Easy Writing **
+**Easy Writing**
 
 Hexo supports GitHub Flavored Markdown and all Octopress plugins and highly Jekyll/Octopress compatible.
 
-** Extensibility **
+**Extensibility**
 
 Hexo supports most of the popular template languages and CSS preprocessors. You can install [plugins](https://hexo.io/plugins) for Haml, Pug, Less, Stylus, Sass, AsciiDoc, or anything. The community is writing new plugins every day.

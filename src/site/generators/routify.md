@@ -10,6 +10,7 @@ templates:
   - Svelte
 description: Routes for Svelte, automated by your file structure.
 startertemplaterepo: roxiness/routify-starter
+twitter: routifyjs
 ---
 
 Routify offers a great developer experience to build the routes for your Svelte app.
