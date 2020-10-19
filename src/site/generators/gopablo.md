@@ -1,7 +1,7 @@
 ---
 title: GoPablo
 repo: luangjokaj/gopablo
-homepage: hhttps://www.gopablo.co
+homepage: https://www.gopablo.co
 language:
   - JavaScript
 license:
