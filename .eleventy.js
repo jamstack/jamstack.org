@@ -145,7 +145,9 @@ module.exports = function(eleventyConfig) {
       inludes: "_includes",
       output: "dist"
     },
-    passthroughFileCopy: true
+    passthroughFileCopy: true,
+    markdownTemplateEngine: false,
+    htmlTemplateEngine: "njk"
   };
 
 };
