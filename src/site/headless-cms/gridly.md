@@ -31,5 +31,3 @@ Gridly has a forever [free plan](https://www.gridly.com/pricing/?utm_medium=jams
 Here are a few quick links to get started:
 
 [Gridly.com](https://www.gridly.com/?utm_medium=jamstack&utm_source=jamstack) | [For developers](https://www.gridly.com/for-developers/?utm_medium=jamstack&utm_source=jamstack) | [For localization teams](https://www.gridly.com/for-localization-teams/?utm_medium=jamstack&utm_source=jamstack) | [For producers](https://www.gridly.com/for-producers/?utm_medium=jamstack&utm_source=jamstack) | [Blog](https://www.gridly.com/blog/?utm_medium=jamstack&utm_source=jamstack) | [API documentation](https://www.gridly.com/docs/api/?utm_medium=jamstack&utm_source=jamstack#introduction) | [Support](https://gridlyhelp.zendesk.com/hc/en-us)
-
-<style>.images{display:none}</style>
