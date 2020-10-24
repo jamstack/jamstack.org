@@ -9,7 +9,7 @@ license:
 templates:
   - Markdown
 description: Beautiful static documentation for your API
-startertemplaterepo: slatedocs/slate
+startertemplaterepo: https://github.com/slatedocs/slate
 ---
 
 **Slate** helps you create beautiful, intelligent, responsive API documentation.

@@ -9,7 +9,7 @@ license:
 templates:
   - EJS
 description: A minimalist static site generator in Node.js.
-startertemplaterepo: doug2k1/nanogen-template
+startertemplaterepo: https://github.com/doug2k1/nanogen-template
 ---
 
 Minimalist static site generator written in Node.js.

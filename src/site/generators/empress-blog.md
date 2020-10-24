@@ -10,7 +10,7 @@ templates:
   - Ember
   - Markdown
 description: Fully-functional, SEO friendly static site implementation of a blog system built on Ember
-startertemplaterepo: empress/empress-blog-netlify-casper-template
+startertemplaterepo: https://github.com/empress/empress-blog-netlify-casper-template
 ---
 
 This project is designed to be a fully-functional, static site implementation of a blog system that is mostly compatible with [Ghost](https://ghost.org/) and is built on EmberJS with fully working out of the box SEO friendly output.

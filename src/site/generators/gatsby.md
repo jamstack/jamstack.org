@@ -9,7 +9,7 @@ license:
 templates:
   - React
 description: Build blazing fast, modern apps and websites with React
-startertemplaterepo: gatsbyjs/gatsby-starter-default
+startertemplaterepo: https://github.com/gatsbyjs/gatsby-starter-default
 twitter: gatsbyjs
 ---
 

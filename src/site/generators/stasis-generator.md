@@ -9,7 +9,7 @@ license:
 templates:
   - Handlebars
 description: A static site generator that is simple and easy to use.
-startertemplaterepo: Gioni06/stasis-basic-example
+startertemplaterepo: https://github.com/Gioni06/stasis-basic-example
 ---
 
 Stasis is a simple and easy to use static site generator. It aims to provide production ready tools to create static website projects.

@@ -9,7 +9,7 @@ license:
 templates:
   - React
 description: Use modern tools to build fast, mostly-just-HTML websites with islands of rich client-side behaviour.
-startertemplaterepo: bensmithett/tropical
+startertemplaterepo: https://github.com/bensmithett/tropical
 ---
 
 Tropical is a flexible, component-first static site generator that lets you use modern tools to build fast, mostly-just-HTML websites with islands of rich client-side behaviour.

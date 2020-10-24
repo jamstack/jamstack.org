@@ -13,7 +13,7 @@ templates:
   - Blade
   - Twig
   - Markdown
-startertemplaterepo: statamic/starter-kit-starters-creek
+startertemplaterepo: https://github.com/statamic/starter-kit-starters-creek
 description: A Laravel-powered, flat-first CMS that can run headless, as a full PHP stack, or generate and deploy static sites.
 ---
 

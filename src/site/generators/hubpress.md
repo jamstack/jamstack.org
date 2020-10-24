@@ -9,7 +9,7 @@ license:
 templates:
   - Handlebars
 description: A web application to build your Blog on GitHub.
-startertemplaterepo: HubPress/hubpress.io
+startertemplaterepo: https://github.com/HubPress/hubpress.io
 twitter: HubPressIO
 ---
 

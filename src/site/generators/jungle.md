@@ -9,7 +9,7 @@ license:
 templates:
   - Svelte
 description: JungleJS is a new static site generator that uses Svelte and GraphQL.
-startertemplaterepo: junglejs/template
+startertemplaterepo: https://github.com/junglejs/template
 twitter: jungle_js
 ---
 

@@ -9,7 +9,7 @@ license:
 templates:
   - HTML
 description: The little static site generator
-startertemplaterepo: trys/sergey-netlify
+startertemplaterepo: https://github.com/trys/sergey-netlify
 ---
 
 Sergey is a tiny lil’ static site generator. It’s a progressive tool designed to sit atop your already brilliant HTML. In essence, Sergey is HTML + partials with slots (named and default) & opt-in Markdown thrown in for good measure.

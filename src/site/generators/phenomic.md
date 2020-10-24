@@ -9,7 +9,7 @@ license:
 templates:
   - React
 description: A modern static website generator to create dynamic website using React components.
-startertemplaterepo: capriosa/phenomic-cms
+startertemplaterepo: https://github.com/capriosa/phenomic-cms
 twitter: Phenomic_app
 ---
 

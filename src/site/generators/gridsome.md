@@ -9,7 +9,7 @@ license:
 templates:
   - Vue
 description: Build blazing fast websites for any CMS or data with Vue.js
-startertemplaterepo: gridsome/gridsome-starter-default
+startertemplaterepo: https://github.com/gridsome/gridsome-starter-default
 twitter: gridsome
 ---
 

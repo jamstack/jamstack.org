@@ -8,7 +8,7 @@ license:
   - BSD-3-Clause
 templates:
   - Elm
-startertemplaterepo: lucamug/elm-starter
+startertemplaterepo: https://github.com/lucamug/elm-starter
 description: An Elm-based bootstrapper for Elm applications that supports server side rendering
 ---
 

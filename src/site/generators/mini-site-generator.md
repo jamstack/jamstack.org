@@ -9,7 +9,7 @@ license:
 templates:
   - JavaScript
 description: It's just javascript!
-startertemplaterepo: ijmccallum/msg-starter
+startertemplaterepo: https://github.com/ijmccallum/msg-starter
 ---
 
 MSG is used in the food industry as a flavor enhancer with an umami taste that intensifies the meaty, savory flavor of - jkjkjk! I kid. It's literally just JavaScript.

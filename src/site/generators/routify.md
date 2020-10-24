@@ -9,7 +9,7 @@ license:
 templates:
   - Svelte
 description: Routes for Svelte, automated by your file structure.
-startertemplaterepo: roxiness/routify-starter
+startertemplaterepo: https://github.com/roxiness/routify-starter
 twitter: routifyjs
 ---
 

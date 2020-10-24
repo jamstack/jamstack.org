@@ -9,7 +9,7 @@ license:
 templates:
   - Jinja2
 description: Project documentation with Markdown.
-startertemplaterepo: netlify-templates/mkdocs-base
+startertemplaterepo: https://github.com/netlify-templates/mkdocs-base
 twitter: MkDocsProject
 ---
 

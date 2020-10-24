@@ -9,7 +9,7 @@ license:
 templates:
   - Elm
 description: Build fast, modern sites with Elm's delightful type system to help you! 📚
-startertemplaterepo: dillonkearns/elm-pages-starter
+startertemplaterepo: https://github.com/dillonkearns/elm-pages-starter
 twitter: elm_pages
 ---
 

@@ -10,7 +10,7 @@ templates:
   - HTML
   - Jingoo
 description: Website generator based on HTML rewriting instead of template processing. Single binary, extensible with Lua plugins.
-startertemplaterepo: dmbaturin/soupault-sample-blog
+startertemplaterepo: https://github.com/dmbaturin/soupault-sample-blog
 ---
 
 ## Based on element tree rewriting

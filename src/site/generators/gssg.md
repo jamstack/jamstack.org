@@ -10,7 +10,7 @@ templates:
   - HTML
 description: This is a Generic Static Site Generator, It is written in JavaScript, It can be used to create static websites
 twitter: Generic_SSG
-startertemplaterepo: theabbie/Generic-Static-Site-Generator
+startertemplaterepo: https://github.com/theabbie/Generic-Static-Site-Generator
 ---
 
 # Generic Static Site Generator

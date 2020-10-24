@@ -9,7 +9,7 @@ license:
 templates:
   - Custom
 description: Optimized for generating technical documentation and educational websites from Markdown text.
-startertemplaterepo: MarkBind/init-typical-netlify
+startertemplaterepo: https://github.com/MarkBind/init-typical-netlify
 ---
 
 MarkBind is a website generator that can generate a website from markdown documents. While there are other markdown-to-html website generators around, MarkBind can generate more dynamic websites, as opposed to one-size-fits-all static content. MarkBind is particularly suitable to create content-heavy websites e.g., eLearning websites, online instruction manuals, project documentation etc. that aim for self-directed consumption.

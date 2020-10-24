@@ -9,7 +9,7 @@ license:
 templates:
   - PHP
 description: One word, TextToWebsite. Sasige will generate static html files and a combination of these is your website.
-startertemplaterepo: brainfoolong/sasige-starter
+startertemplaterepo: https://github.com/brainfoolong/sasige-starter
 ---
 
 In one word: `TextToWebsite`. Sasige will generate static html files and a combination of these is your website. We give you the tools to make a blog alike website, to make a documentation website, to make what every you can imagine. This documentation website you currently read is, for sure, generated with Sasige.

@@ -9,7 +9,7 @@ license:
 templates:
   - Scala
 description: Render Scala objects into files
-startertemplaterepo: sake92/hepek-starter
+startertemplaterepo: https://github.com/sake92/hepek-starter
 ---
 
 Hepek is a tool that turns Scala `object`s into files.  

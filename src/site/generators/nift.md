@@ -10,7 +10,7 @@ templates:
   - Custom
 description: A cross-platform open source git-like and LaTeX-like site manager.
 twitter: nifty_site_man
-startertemplaterepo: nsm-templates/basic-site
+startertemplaterepo: https://github.com/nsm-templates/basic-site
 ---
 
 Nift, short for nifty site manager, is a cross-platform open source git-like and LaTeX-like site manager. You should be able to create any site you want (both static and non-static/dynamic) using Nift, though will need some kind of web server such as Apache, NGinx, a LAMP stack, etc. to host non-static/dynamic sites, whereas static sites can easily be hosted with platforms like BitBucket, GitHub, GitLab and Netlify.
