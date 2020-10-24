@@ -33,7 +33,7 @@
 
 - term: 'Decoupling'
   id: 'decoupling'
-  definition: 'Decoupling is the process of creating a clean separation between systems or services. By decoupling the services needed to operate a site, each component part can become easier to reason about, can by independantly swapped out or upgraded, and can be designated the purvue of dedicated specialsts either within an organisation, or as a third party.'
+  definition: 'Decoupling is the process of creating a clean separation between systems or services. By decoupling the services needed to operate a site, each component part can become easier to reason about, can be independently swapped out or upgraded, and can be designated the purview of dedicated specialists either within an organization, or as a third party.'
 
 - term: 'Dynamic server'
   id: 'dynamic-server'
