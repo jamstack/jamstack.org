@@ -9,7 +9,7 @@ license:
 templates:
   - Bash
 description: Efficient Static Site Generator
-startertemplaterepo: mkws-1/netlify-blank
+startertemplaterepo: https://github.com/mkws-1/netlify-blank
 twitter: mkws_1
 ---
 

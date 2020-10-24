@@ -9,7 +9,7 @@ license:
 templates:
   - Nunjucks
 description: An extremely simple, pluggable static site generator.
-startertemplaterepo: LotusTM/Kotsu
+startertemplaterepo: https://github.com/LotusTM/Kotsu
 ---
 
 Static site generator and opinionated advanced web starter kit. Silently powers both large and small commercial projects.

@@ -9,7 +9,7 @@ license:
 templates:
   - lit-html
 description: Create pages, layouts, partials, and contextual data using lit-html
-startertemplaterepo: megazear7/orison-netlify-starter-kit
+startertemplaterepo: https://github.com/megazear7/orison-netlify-starter-kit
 ---
 
 OrisonJS is a static site generator built on top of lit-html.

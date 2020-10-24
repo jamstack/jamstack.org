@@ -9,7 +9,7 @@ license:
 templates:
   - Pug
 description: Starter Package is a package with the latest best practices for your HTML (pug), CSS (Sass), JavaScript (es6), graphic, font, and favicon files.
-startertemplaterepo: maliMirkec/starter-project
+startertemplaterepo: https://github.com/maliMirkec/starter-project
 twitter: malimirkeccita
 ---
 

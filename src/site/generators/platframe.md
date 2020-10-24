@@ -10,7 +10,7 @@ templates:
   - Pug
   - Jade
 description: A structured, scalable and modular platform for web and frontend development.
-startertemplaterepo: platframe/platframe
+startertemplaterepo: https://github.com/platframe/platframe
 twitter: platframe
 ---
 

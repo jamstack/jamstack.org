@@ -11,7 +11,7 @@ templates:
   - Tilt
   - Haml
 description: Hand-crafted, modern frontend development.
-startertemplaterepo: wallin/middleman-template
+startertemplaterepo: https://github.com/wallin/middleman-template
 twitter: middlemanapp
 ---
 

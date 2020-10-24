@@ -9,7 +9,7 @@ license:
 templates:
   - Vue
 description: Vue-powered Static Site Generator based on vite
-startertemplaterepo: anishkny/vitepress-starter
+startertemplaterepo: https://github.com/anishkny/vitepress-starter
 twitter: vuejs
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Yellow
 repo: datenstrom/yellow
-startertemplaterepo: datenstrom/yellow
+startertemplaterepo: https://github.com/datenstrom/yellow
 homepage: https://datenstrom.se/yellow/
 twitter: datenstromse
 language:

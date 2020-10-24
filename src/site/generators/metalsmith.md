@@ -10,7 +10,7 @@ templates:
   - Handlebars
   - Any JS
 description: An extremely simple, pluggable static site generator.
-startertemplaterepo: andreasvirkus/metalsmith-boilerplate
+startertemplaterepo: https://github.com/andreasvirkus/metalsmith-boilerplate
 ---
 
 An extremely simple, _pluggable_ static site generator.

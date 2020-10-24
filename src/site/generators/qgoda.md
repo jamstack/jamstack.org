@@ -9,7 +9,7 @@ license:
 templates:
   - Template Toolkit 2
 description: A sophisticated, blog-aware static site generator with unprecedented multi-language features
-startertemplaterepo: gflohr/qgoda-multilang
+startertemplaterepo: https://github.com/gflohr/qgoda-multilang
 ---
 
 Qgoda is a sophisticated static site generator following the Do-The-Right-Thing&trade; philosophy. Micro-sites require zero-configuration, a blog is easily started with one of the sample themes, but you can always grow with your needs and create arbitrarily complex sites with Qgoda.

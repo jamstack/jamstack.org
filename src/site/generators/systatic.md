@@ -9,7 +9,7 @@ license:
 templates:
   - PHP
 description: Simple, Modern and Flexible
-startertemplaterepo: damcclean/systatic-demo
+startertemplaterepo: https://github.com/damcclean/systatic-demo
 twitter: systaticssg
 ---
 

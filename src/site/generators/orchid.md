@@ -10,7 +10,7 @@ license:
 templates:
   - Pebble
 description: A beautiful and truly unique documentation engine and static site generator.
-startertemplaterepo: JavaEden/OrchidStarter
+startertemplaterepo: https://github.com/JavaEden/OrchidStarter
 twitter: OrchidSSG
 ---
 

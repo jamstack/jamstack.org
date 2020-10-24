@@ -9,7 +9,7 @@ license:
 templates:
   - Django
 description: Static site generator for designers.
-startertemplaterepo: netlify-templates/cactus-base
+startertemplaterepo: https://github.com/netlify-templates/cactus-base
 ---
 
 Cactus is a simple but powerful [static website generator](https://davidwalsh.name/introduction-static-site-generators) using Python and the [Django template system](http://docs.djangoproject.com/en/dev/topics/templates/). Cactus also makes it easy to develop locally and deploy your site to S3 directly. It works great for company, portfolio, personal, support websites and blogs.

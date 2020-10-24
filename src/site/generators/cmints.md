@@ -9,7 +9,7 @@ license:
 templates:
   - EJS
 description: CMS and Static Site Generator for single and multi-language websites creation.
-startertemplaterepo: cmints/multi-lang-starter
+startertemplaterepo: https://github.com/cmints/multi-lang-starter
 ---
 
 [CMintS](https://cmints.io/) is a CMS and Static Site Generator for single and

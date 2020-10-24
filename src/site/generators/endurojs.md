@@ -9,7 +9,7 @@ license:
 templates:
   - Handlebars
 description: 'Minimalistic, lean & mean, node.js static page generator'
-startertemplaterepo: gottwik/enduro_mirror
+startertemplaterepo: https://github.com/gottwik/enduro_mirror
 ---
 
 ## Built for speed

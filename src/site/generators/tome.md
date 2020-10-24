@@ -9,7 +9,7 @@ license:
 templates:
   - Twig
 description: A static site generator lovingly crafted with Drupal 8.
-startertemplaterepo: drupal-tome/netlify-template
+startertemplaterepo: https://github.com/drupal-tome/netlify-template
 ---
 
 Tome is a static site generator built in Drupal 8. If you're a fan of Drupal,

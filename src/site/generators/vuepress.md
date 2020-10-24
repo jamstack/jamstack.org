@@ -9,7 +9,7 @@ license:
 templates:
   - Vue
 description: Vue-powered Static Site Generator
-startertemplaterepo: capriosa/vuepress-deploy
+startertemplaterepo: https://github.com/capriosa/vuepress-deploy
 twitter: vuepress
 ---
 

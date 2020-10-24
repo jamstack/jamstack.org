@@ -9,7 +9,7 @@ license:
 templates:
   - React
 description: The react static site generator that separates editing and code concerns
-startertemplaterepo: cuttlebelle/website
+startertemplaterepo: https://github.com/cuttlebelle/website
 ---
 
 > The react static site generator that separates editing and code concerns

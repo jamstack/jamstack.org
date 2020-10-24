@@ -9,7 +9,7 @@ license:
 templates:
   - React
 description: A progressive static-site framework for React.
-startertemplaterepo: tannerlinsley/react-static-starter
+startertemplaterepo: https://github.com/tannerlinsley/react-static-starter
 ---
 
 React-Static is a fast, lightweight, and powerful toolkit for building static-progressive React applications and websites. Inspired by create-react-app, it's been carefully designed to meet the highest standards of **SEO, site performance, and user/developer experience**. [**Read the introduction article on Medium**](https://medium.com/@tannerlinsley/%EF%B8%8F-introducing-react-static-a-progressive-static-site-framework-for-react-3470d2a51ebc)

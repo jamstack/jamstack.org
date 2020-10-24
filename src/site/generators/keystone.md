@@ -8,7 +8,7 @@ license:
   - ISC
 templates:
   - Custom
-startertemplaterepo: CTNicholas/keystone-ssg-example
+startertemplaterepo: https://github.com/CTNicholas/keystone-ssg-example
 description: Zero config static-site generator & dev server. Templates, partials, routing, Babel, SCSS/SASS, Markdown, bundling, minifying, dynamic linking, search indexing.
 ---
 
