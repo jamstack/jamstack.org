@@ -1,0 +1,11 @@
+
+title: Webplace Digital Agency
+description: Jamstack Digital Agency
+link: 'https://www.webplace.com.au'
+thumbnailurl: /img/examples/webplace-digital-agency.jpg
+tools:
+  - Gatsby.js
+  - React
+  - GraphQL
+  - WordPress
+  - Netlify
