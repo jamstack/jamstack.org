@@ -27,7 +27,7 @@ duplicating navigation or footer code. Here's generally how it works:
    files called "partials".
 
 2. Replace each duplicated code snippet with a special placeholder tag. The tag
-   looks like: `{% raw %}{% include mypartial.html %}{% endraw %}`. This is where the content from a
+   looks like: `{% include mypartial.html %}`. This is where the content from a
    partial will be injected.
 
 3. Run the `tags build` command to assemble the website from your source code.
