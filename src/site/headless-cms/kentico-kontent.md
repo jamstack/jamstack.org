@@ -26,4 +26,4 @@ Manage your content from planning through creation up to publishing and optimiza
 
 ### Static Site Generators
 
-See examples of [static site generators using Kentico Kontent for Content as a Service](https://docs.kontent.ai/tutorials/develop-apps/get-started/getting-development-resources?tech=graphql#a-gatsby).
+See examples of [static site generators using Kentico Kontent for Content as a Service](https://docs.kontent.ai/tutorials/develop-apps/optimize-your-app/static-sites).
