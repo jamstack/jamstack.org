@@ -5,7 +5,7 @@ opensource: "No"
 typeofcms: "API Driven"
 supportedgenerators:
   - All
-description: Cloud CMS brought to you by IBM
+description: Cloud CMS brought to you by Acoustic
 ---
 ## Acoustic Content
 
