@@ -1,0 +1,12 @@
+title: Delaney Hardware
+description: "One of the largest manufacturers of high-quality door hardware in the United States."
+link: 'https://delaneyhardware.com'
+thumbnailurl: /img/examples/delaney.jpg
+tools:
+  - Jekyll
+  - Prismic
+  - Algolia
+  - Vue.js
+  - Gulp
+  - SCSS
+  - AWS CloudFront
