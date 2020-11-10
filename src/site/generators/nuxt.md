@@ -34,7 +34,7 @@ Nuxt will help you generate and deploy a Vue.js Web Application faster than befo
 It's called Isomorphic/ Universal rendering.
 
 Then you can run `nuxt generate` to generate your static website into a ./dist forlder and deploy it everywhere:
-Netlify, Githup pages, Gitlab, AWS3, etc.
+Netlify, GitHub Pages, Gitlab, AWS3, etc.
 
 ## Setup a project in a minute
 
