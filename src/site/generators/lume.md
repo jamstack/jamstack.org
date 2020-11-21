@@ -1,7 +1,7 @@
 ---
 title: Lume
-repo: oscarotero/lume
-homepage: https://oscarotero.github.io/lume/
+repo: lumeland/lume
+homepage: https://lumeland.github.io/
 language:
   - JavaScript (Deno)
 license:
