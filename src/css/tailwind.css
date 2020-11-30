@@ -88,7 +88,7 @@ a.cta:focus {
 footer p a {
   @apply border-b;
   @apply border-blue-100;
-  @apply whitespace-no-wrap;
+  @apply whitespace-nowrap;
 }
 footer p a:hover,
 footer p a:focus {
