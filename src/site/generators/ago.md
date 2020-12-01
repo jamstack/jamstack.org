@@ -6,7 +6,7 @@ language:
   - Go
 license:
   - MIT
-templates:
+templates: []
 description: A static blog generator script without any fuzz
 ---
 

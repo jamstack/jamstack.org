@@ -6,7 +6,7 @@ language:
   - Python
 license:
   - MIT
-templates:
+templates: []
 description: 'QPage or QuickPage is a free project for creating academic homepage without any code'
 ---
 

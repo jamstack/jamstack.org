@@ -6,7 +6,7 @@ language:
   - C
 license:
   - ISC
-templates:
+templates: []
 description: simple off-line blog utility
 ---
 

@@ -4,7 +4,7 @@
   {%- if githubData[item.data.repo].stars !== "" %} data-sort-githubstars-numeric-descending="{{ githubData[item.data.repo].stars }}"{% endif %}
   {%- if item.data.typeofcms %} data-filter-typeofcms="{{ item.data.typeofcms | lower }}"{% endif %}
   {%- if item.data.opensource %} data-filter-opensource="{{ item.data.opensource | lower }}"{% endif %}
-  {%- if item.data.templates %} data-filter-template="{{ item.data.templates | join(",") | lower }}"{% endif %}
+  data-filter-template="{{ (item.data.templates or []) | join(",") | lower }}"
   {%- if item.data.language %} data-filter-language="{{ item.data.language | join(",") | lower }}"{% endif %}
   {%- if item.data.license %} data-filter-license="{{ item.data.license | join(",") | lower }}"{% endif %}>
   <a href="{{ item.url }}" class="flex-grow block border-0 bg-white text-gray-700 rounded-t-lg last:rounded-b-lg">

@@ -6,6 +6,7 @@ language:
   - PHP
 license:
   - Unlicense
+templates: []
 description: Leverage WordPress as a great CMS, but benefit from the speed, security and portability that a static website provides
 ---
 

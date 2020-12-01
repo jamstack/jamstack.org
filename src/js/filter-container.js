@@ -80,7 +80,7 @@ class FilterContainer extends HTMLElement {
   }
 
   elementIsValid(element, attributeName, value, delimiter) {
-    if(!value) {
+    if(!value && element.hasAttribute(attributeName)) {
       return true;
     }
     let attrValue = element.getAttribute(attributeName);
