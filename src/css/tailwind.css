@@ -134,16 +134,16 @@ footer p a:focus {
 }
 
 .bg-gradient-card-sunrise {
-  --gradient-color-stops: #F0047F 0%, #FC814A 100%;
+  --tw-gradient-stops: #F0047F 0%, #FC814A 100%;
 }
 .bg-gradient-card-blue {
-  --gradient-color-stops: #04A2DD 0%, #4FF3EA 100%;
+  --tw-gradient-stops: #04A2DD 0%, #4FF3EA 100%;
 }
 .bg-gradient-card-seafoam {
-  --gradient-color-stops: #88F9ED 0%, #00FFB2 100%;
+  --tw-gradient-stops: #88F9ED 0%, #00FFB2 100%;
 }
 .bg-gradient-card-gold {
-  --gradient-color-stops: #FFC803 0%, #FC814A 100%;
+  --tw-gradient-stops: #FFC803 0%, #FC814A 100%;
 }
 .bg-gradient-card-blue-seafoam.bg-gradient-card-blue-seafoam {
   background: linear-gradient(101.87deg, #0090CA 0%, #00BFAD 105.55%), linear-gradient(180deg, #009DDC 0%, #58FCEC 100%);
