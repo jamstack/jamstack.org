@@ -7,7 +7,6 @@ language:
 license:
   - GPL-3.0-only
 templates:
-  - None
 description: A single Bash script to create blogs.
 ---
 

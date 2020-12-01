@@ -1,7 +1,10 @@
 {% macro repo(item, loopIndex, githubData) %}
-<div id="{{item.id}}" class="generator-card flex flex-col h-full">
+<div id="{{item.id}}" class="generator-card flex flex-col h-full"
+  data-filter-template="{%- if item.data.templates %}{{ item.data.templates | join(",") | lower }}{% endif %}"
+  data-filter-language="{%- if item.data.language %}{{ item.data.language | join(",") | lower }}{% endif %}"
+  data-filter-license="{%- if item.data.license %}{{ item.data.license | join(",") | lower }}{% endif %}">
   <a href="{{ item.url }}" class="flex-grow block border-0 bg-white text-gray-700 rounded-t-lg last:rounded-b-lg">
-    <div class="text-xl md:text-2xl lg:text-3xl font-bold text-ellipsis text-black bg-gradient-to-b border-b rounded-t-lg p-4
+    <div class="text-xl md:text-2xl lg:text-3xl font-bold text-ellipsis text-black bg-gradient-to-b border-b border-black rounded-t-lg p-4
     {%- if loopIndex % 4 === 0 %} bg-gradient-card-sunrise
     {%- elseif loopIndex % 4 === 1 %} bg-gradient-card-blue
     {%- elseif loopIndex % 4 === 2 %} bg-gradient-card-seafoam
@@ -69,7 +72,7 @@
     </div>
   </a>
   {% if item.data.startertemplaterepo %}
-  <a href="https://app.netlify.com/start/deploy?repository={{ item.data.startertemplaterepo}}" class="block px-4 py-3 text-gray-700 bg-white rounded-b-lg text-center md:text-lg whitespace-no-wrap border-t">
+  <a href="https://app.netlify.com/start/deploy?repository={{ item.data.startertemplaterepo}}" class="block px-4 py-3 text-gray-700 bg-white rounded-b-lg text-center md:text-lg whitespace-nowrap border-t">
     <svg role="img" aria-hidden="true" focusable="false" width="30" height="30" viewBox="0 0 40 40" class="inline-block mr-1" fill="#36b0bb"><use xlink:href="#logo-netlify-gem"/></svg>
     Deploy to Netlify
   </a>

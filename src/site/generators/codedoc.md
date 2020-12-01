@@ -7,7 +7,9 @@ language:
 license:
   - MIT
 templates:
-  - Markdown, JSX/TSX
+  - Markdown
+  - JSX
+  - TSX
 description: Beautiful, component-based JAMStack sites for software docs/wiki
 ---
 

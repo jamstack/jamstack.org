@@ -13,11 +13,46 @@ layout: layouts/base.njk
 </section>
 
 <section class="cards mt-12">
-  <div class="grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-  {% for item in collections.generators | sortTools(github) %}
-    {{ cards.repo(item, loop.index0, github) }}
-  {% endfor %}
-  </div>
+  <filter-container>
+    <form class="pb-4">
+      <div class="pb-2">
+        <strong class="pr-4">Filter</strong>
+        <span data-filter-results></span>
+      </div>
+      <label class="inline-flex pr-4 pb-2">
+        <span class="sr-only">Language</span>
+        <select data-filter-bind="language" data-filter-delimiter="," class="text-white py-1 rounded border border-white bg-transparent">
+          <option selected value="">All Languages</option>
+          {%- for language in collections.generators | select("data.language") | flatten | unique | sort(false, false) %}
+          <option value="{{ language | lower }}">{{ language }}</option>
+          {%- endfor %}
+        </select>
+      </label>
+      <label class="inline-flex pr-4 pb-2">
+        <span class="sr-only">Template</span>
+        <select data-filter-bind="template" data-filter-delimiter="," class="text-white py-1 rounded border border-white bg-transparent">
+          <option selected value="">All Templates</option>
+          {%- for template in collections.generators | select("data.templates") | flatten | unique | sort(false, false) %}
+          <option value="{{ template | lower }}">{{ template }}</option>
+          {%- endfor %}
+        </select>
+      </label>
+      <label class="inline-flex pr-4 pb-2">
+        <span class="sr-only">License</span>
+        <select data-filter-bind="license" data-filter-delimiter="," class="text-white py-1 rounded border border-white bg-transparent">
+          <option selected value="">All Licenses</option>
+          {%- for license in collections.generators | select("data.license") | flatten | unique | sort(false, false) %}
+          <option value="{{ license | lower }}">{{ license }}</option>
+          {%- endfor %}
+        </select>
+      </label>
+    </form>
+    <div class="grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+    {% for item in collections.generators | sortTools(github) %}
+      {{ cards.repo(item, loop.index0, github) }}
+    {% endfor %}
+    </div>
+  </filter-container>
 </section>
 
 <section class="mt-12">

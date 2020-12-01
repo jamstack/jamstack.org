@@ -7,7 +7,6 @@ language:
 license:
   - ISC
 templates:
-  - None
 description: simple off-line blog utility
 ---
 

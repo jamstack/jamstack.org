@@ -5,9 +5,8 @@ homepage: https://github.com/dvwallin/ago
 language:
   - Go
 license:
-  - MIT License
+  - MIT
 templates:
-  - None
 description: A static blog generator script without any fuzz
 ---
 

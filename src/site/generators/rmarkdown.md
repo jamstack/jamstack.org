@@ -7,7 +7,8 @@ language:
 license:
   - GPL-3
 templates:
-  - R, R Markdown
+  - R
+  - R Markdown
 description: Dynamic Documents for R
 ---
 

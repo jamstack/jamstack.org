@@ -7,7 +7,6 @@ language:
 license:
   - MIT
 templates:
-  - None
 description: Static photo &amp; video gallery generator
 ---
 

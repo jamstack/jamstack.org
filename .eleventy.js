@@ -1,9 +1,8 @@
 const lodashGet = require("lodash/get");
+const yaml = require("js-yaml");
 
 module.exports = function(eleventyConfig) {
-
   // Support yaml data files
-  const yaml = require("js-yaml");
   eleventyConfig.addDataExtension("yaml", contents => yaml.safeLoad(contents))
 
   // pass images directly through to the output
@@ -69,9 +68,31 @@ module.exports = function(eleventyConfig) {
 
   // filter a data array based on the value of a property
   eleventyConfig.addFilter('select', (array, clause) => {
-    const property = clause.split("=")[0];
-    const value = clause.split("=")[1];
-    return array.filter(item => item[property].includes(value));
+    if(clause.indexOf("=") > -1) {
+      const property = clause.split("=")[0];
+      const value = clause.split("=")[1];
+      return array.filter(item => lodashGet(item, property).includes(value));
+    } else {
+      return array.map(item => lodashGet(item, clause));
+    }
+  });
+
+  eleventyConfig.addFilter('flatten', (array) => {
+    let results = [];
+    for(let result of array) {
+      if(result) {
+        if(Array.isArray(result)) {
+          results = [...results, ...result];
+        } else {
+          results.push(result);
+        }
+      }
+    }
+    return results;
+  });
+
+  eleventyConfig.addFilter('unique', (array) => {
+    return [...new Set(array)];
   });
 
   // Get a random selection of items from an array

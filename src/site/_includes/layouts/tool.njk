@@ -33,21 +33,21 @@ layout: layouts/base.njk
   <dl class="inline-block mt-4 mb-4">
     {%- if homepage %}
     <dt class="sr-only">Home page</dt>
-    <dd class="inline-block mr-6 whitespace-no-wrap">
+    <dd class="inline-block mr-6 whitespace-nowrap">
       <svg role="img" aria-hidden="true" focusable="false" width="20" height="20" class="fill-current inline-block mr-1"><use xlink:href="#icon-home"/></svg>
       <a href="{{ homepage }}" target="_blank" rel="noopener">{{ homepage }}</a>
     </dd>
     {%- endif %}
     {%- if repo %}
     <dt class="sr-only">Repository</dt>
-    <dd class="inline-block mr-6 whitespace-no-wrap">
+    <dd class="inline-block mr-6 whitespace-nowrap">
       <svg role="img" aria-hidden="true" focusable="false" width="20" height="20" class="fill-current inline-block mr-1"><use xlink:href="#icon-github"/></svg>
       <a href="{% if not repohost or repohost == "github" %}https://github.com/{% endif %}{% if repohost == "gitlab" %}https://gitlab.com/{% endif %}{{ repo }}" target="_blank" rel="noopener">{{ repo }}</a>
     </dd>
     {%- endif %}
     {%- if twitter %}
     <dt class="sr-only">Twitter</dt>
-    <dd class="inline-block mr-6 whitespace-no-wrap">
+    <dd class="inline-block mr-6 whitespace-nowrap">
       <svg role="img" aria-hidden="true" focusable="false" width="20" height="20" class="fill-current inline-block mr-1"><use xlink:href="#icon-twitter"/></svg>
       <a href="https://twitter.com/{{ twitter }}/" target="_blank" rel="noopener">@{{ twitter }}</a>
     </dd>
@@ -89,7 +89,7 @@ layout: layouts/base.njk
   
   
   {% if startertemplaterepo %}
-  <a href="https://app.netlify.com/start/deploy?repository={{ startertemplaterepo }}" class="inline-block my-8 px-4 py-3 text-gray-700 bg-white rounded-lg text-center md:text-lg whitespace-no-wrap border-t">
+  <a href="https://app.netlify.com/start/deploy?repository={{ startertemplaterepo }}" class="inline-block my-8 px-4 py-3 text-gray-700 bg-white rounded-lg text-center md:text-lg whitespace-nowrap border-t">
     <svg role="img" aria-hidden="true" focusable="false" width="30" height="30" viewBox="0 0 40 40" class="inline-block mr-1" fill="#36b0bb"><use xlink:href="#logo-netlify-gem"/></svg>
     Deploy to Netlify
   </a>
