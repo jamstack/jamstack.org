@@ -316,6 +316,8 @@ details[open] .summary-swap-open {
 }
 
 /* Filters */
+.filter-opensource--hide,
+.filter-typeofcms--hide,
 .filter-language--hide,
 .filter-template--hide,
 .filter-license--hide {

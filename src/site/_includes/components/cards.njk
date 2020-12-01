@@ -1,8 +1,10 @@
 {% macro repo(item, loopIndex, githubData) %}
 <div id="{{item.id}}" class="generator-card flex flex-col h-full"
-  data-filter-template="{%- if item.data.templates %}{{ item.data.templates | join(",") | lower }}{% endif %}"
-  data-filter-language="{%- if item.data.language %}{{ item.data.language | join(",") | lower }}{% endif %}"
-  data-filter-license="{%- if item.data.license %}{{ item.data.license | join(",") | lower }}{% endif %}">
+  {%- if item.data.typeofcms %} data-filter-typeofcms="{{ item.data.typeofcms | lower }}"{% endif %}
+  {%- if item.data.opensource %} data-filter-opensource="{{ item.data.opensource | lower }}"{% endif %}
+  {%- if item.data.templates %} data-filter-template="{{ item.data.templates | join(",") | lower }}"{% endif %}
+  {%- if item.data.language %} data-filter-language="{{ item.data.language | join(",") | lower }}"{% endif %}
+  {%- if item.data.license %} data-filter-license="{{ item.data.license | join(",") | lower }}"{% endif %}>
   <a href="{{ item.url }}" class="flex-grow block border-0 bg-white text-gray-700 rounded-t-lg last:rounded-b-lg">
     <div class="text-xl md:text-2xl lg:text-3xl font-bold text-ellipsis text-black bg-gradient-to-b border-b border-black rounded-t-lg p-4
     {%- if loopIndex % 4 === 0 %} bg-gradient-card-sunrise

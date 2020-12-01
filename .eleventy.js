@@ -92,7 +92,13 @@ module.exports = function(eleventyConfig) {
   });
 
   eleventyConfig.addFilter('unique', (array) => {
-    return [...new Set(array)];
+    let caseInsensitive = {};
+    for(let val of array) {
+      if(typeof val === "string") {
+        caseInsensitive[val.toLowerCase()] = val;
+      }
+    }
+    return Object.values(caseInsensitive);
   });
 
   // Get a random selection of items from an array
