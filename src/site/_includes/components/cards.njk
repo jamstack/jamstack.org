@@ -1,5 +1,7 @@
 {% macro repo(item, loopIndex, githubData) %}
 <div id="{{item.id}}" class="generator-card flex flex-col h-full"
+  data-sort-name="{{ item.data.title | lower }}"
+  {%- if githubData[item.data.repo].stars !== "" %} data-sort-githubstars-numeric-descending="{{ githubData[item.data.repo].stars }}"{% endif %}
   {%- if item.data.typeofcms %} data-filter-typeofcms="{{ item.data.typeofcms | lower }}"{% endif %}
   {%- if item.data.opensource %} data-filter-opensource="{{ item.data.opensource | lower }}"{% endif %}
   {%- if item.data.templates %} data-filter-template="{{ item.data.templates | join(",") | lower }}"{% endif %}

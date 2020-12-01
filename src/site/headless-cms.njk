@@ -13,37 +13,55 @@ layout: layouts/base.njk
 </section>
 
 <section class="cards mt-12">
-  <filter-container>
-    <form class="pb-4">
-      <div class="pb-2">
-        <strong class="pr-4">Filter</strong>
-        <span data-filter-results></span>
+  <sort-container>
+    <filter-container>
+      <form class="pb-4">
+        <div class="flex flex-wrap">
+          <div>
+            <div class="pb-2">
+              <strong class="pr-4">Filter</strong>
+              <span data-filter-results></span>
+            </div>
+            <label class="inline-flex pr-4 pb-2">
+              <span class="sr-only">CMS Type</span>
+              <select data-filter-bind="typeofcms" class="text-white py-1 px-2 rounded-default border border-white bg-transparent">
+                <option selected value="">Any CMS Type</option>
+                {%- for template in collections.cms | select("data.typeofcms") | unique | sort(false, false) %}
+                <option value="{{ template | lower }}">{{ template }}</option>
+                {%- endfor %}
+              </select>
+            </label>
+            <label class="inline-flex pr-4 pb-2">
+              <span class="sr-only">License</span>
+              <select data-filter-bind="opensource" class="text-white py-1 px-2 rounded-default border border-white bg-transparent">
+                <option selected value="">Any License</option>
+                {%- for opensource in collections.cms | select("data.opensource") | unique | sort(true, false) %}
+                <option value="{{ opensource | lower }}">{% if opensource == "No" %}Closed{% else %}Open{% endif %} source</option>
+                {%- endfor %}
+              </select>
+            </label>
+          </div>
+          <div>
+            <div class="pb-2">
+              <strong class="pr-4">Sort</strong>
+            </div>
+            <label class="inline-flex pr-4 pb-2">
+              <span class="sr-only">Sort by</span>
+              <select data-sort class="text-white py-1 px-2 rounded-default border border-white bg-transparent">
+                <option selected value="githubstars-numeric-descending">GitHub Stars</option>
+                <option value="name">Name</option>
+              </select>
+            </label>
+          </div>
+        </div>
+      </form>
+      <div class="grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3" data-sort-children>
+      {% for item in collections.cms | sortTools(github) %}
+        {{ cards.repo(item, loop.index0, github) }}
+      {% endfor %}
       </div>
-      <label class="inline-flex pr-4 pb-2">
-        <span class="sr-only">CMS Type</span>
-        <select data-filter-bind="typeofcms" class="text-white py-1 px-2 rounded-default border border-white bg-transparent">
-          <option selected value="">Any CMS Type</option>
-          {%- for template in collections.cms | select("data.typeofcms") | unique | sort(false, false) %}
-          <option value="{{ template | lower }}">{{ template }}</option>
-          {%- endfor %}
-        </select>
-      </label>
-      <label class="inline-flex pr-4 pb-2">
-        <span class="sr-only">License</span>
-        <select data-filter-bind="opensource" class="text-white py-1 px-2 rounded-default border border-white bg-transparent">
-          <option selected value="">Any License</option>
-          {%- for opensource in collections.cms | select("data.opensource") | unique | sort(true, false) %}
-          <option value="{{ opensource | lower }}">{% if opensource == "No" %}Closed{% else %}Open{% endif %} source</option>
-          {%- endfor %}
-        </select>
-      </label>
-    </form>
-    <div class="grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-    {% for item in collections.cms | sortTools(github) %}
-      {{ cards.repo(item, loop.index0, github) }}
-    {% endfor %}
-    </div>
-  </filter-container>
+    </filter-container>
+  </sort-container>
 </section>
 
 <section class="mt-12">
