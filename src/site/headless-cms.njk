@@ -21,7 +21,7 @@ layout: layouts/base.njk
       </div>
       <label class="inline-flex pr-4 pb-2">
         <span class="sr-only">CMS Type</span>
-        <select data-filter-bind="typeofcms" class="text-white py-1 rounded border border-white bg-transparent">
+        <select data-filter-bind="typeofcms" class="text-white py-1 px-2 rounded-default border border-white bg-transparent">
           <option selected value="">Any CMS Type</option>
           {%- for template in collections.cms | select("data.typeofcms") | unique | sort(false, false) %}
           <option value="{{ template | lower }}">{{ template }}</option>
@@ -30,7 +30,7 @@ layout: layouts/base.njk
       </label>
       <label class="inline-flex pr-4 pb-2">
         <span class="sr-only">License</span>
-        <select data-filter-bind="opensource" class="text-white py-1 rounded border border-white bg-transparent">
+        <select data-filter-bind="opensource" class="text-white py-1 px-2 rounded-default border border-white bg-transparent">
           <option selected value="">Any License</option>
           {%- for opensource in collections.cms | select("data.opensource") | unique | sort(true, false) %}
           <option value="{{ opensource | lower }}">{% if opensource == "No" %}Closed{% else %}Open{% endif %} source</option>
