@@ -56,13 +56,13 @@
         <dt class="col-span-2 font-bold">Language:</dt>
         <dd class="col-span-3">{{ item.data.language }}</dd>
         {%- endif %}
-        {%- if item.data.templates %}
+        {%- if item.data.templates and item.data.templates.length > 0 %}
         <dt class="col-span-2 font-bold">Templates:</dt>
         <dd class="col-span-3">{{ item.data.templates | join(", ") }}</dd>
         {%- endif %}
-        {%- if item.data.license %}
+        {%- if item.data.license and item.data.license.length > 0 %}
         <dt class="col-span-2 font-bold">License:</dt>
-        <dd class="col-span-3">{{ item.data.license }}</dd>
+        <dd class="col-span-3">{{ item.data.license | join(", ") }}</dd>
         {%- endif %}
         {%- if item.data.typeofcms %}
         <dt class="col-span-2 font-bold">Type:</dt>

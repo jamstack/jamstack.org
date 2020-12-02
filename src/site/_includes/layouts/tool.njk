@@ -62,11 +62,11 @@ layout: layouts/base.njk
     <dt class="inline-block font-bold">Language:</dt>
     <dd class="inline-block mr-6">{{ language }}</dd>
     {%- endif %}
-    {%- if license %}
+    {%- if license and license.length > 0 %}
     <dt class="inline-block font-bold">License:</dt>
-    <dd class="inline-block mr-6">{{ license }}</dd>
+    <dd class="inline-block mr-6">{{ license | join(", ") }}</dd>
     {%- endif %}
-    {%- if templates %}
+    {%- if templates and templates.length > 0 %}
     <dt class="inline-block font-bold">Templates:</dt>
     <dd class="inline mr-6">{{ templates | join(", ") }}</dd>
     {%- endif %}
