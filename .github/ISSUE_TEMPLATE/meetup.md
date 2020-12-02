@@ -1,7 +1,7 @@
 ---
 name: Start a meetup
 about: Talk to us about starting an official Jamstack meetup
-title: 'Starting a meetup group in [this beautful city]'
+title: 'Starting a meetup group in [this beautiful city]'
 labels: 'community: new'
 assignees: 'philhawksworth'
 ---
