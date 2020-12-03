@@ -5,8 +5,7 @@ repo: statamic/ssg
 twitter: statamic
 language:
   - PHP
-license:
-  - Custom
+license: []
 templates:
   - Antlers
   - HTML

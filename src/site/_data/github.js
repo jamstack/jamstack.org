@@ -102,11 +102,13 @@ async function getReposFromMarkdown(glob) {
       let split = fullRepo.split("/");
       let user = split[0];
       let repo = split[1];
-      if(!matter.data.repohost || matter.data.repohost === "github")
-      repos.push({ user, repo });
-    } else {
-      // TODO maybe just log this in production?
-      // console.log( "GitHub full repo not found for", ssg );
+      
+      if(!matter.data.repohost || matter.data.repohost === "github") {
+        if(matter.data.disabled) {
+          continue;
+        }
+        repos.push({ user, repo });
+      }
     }
   }
 

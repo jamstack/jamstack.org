@@ -6,6 +6,7 @@ language:
   - Scala
 license:
   - MIT
+templates: []
 description: Dead simple static blog generator written in Scala.
 ---
 

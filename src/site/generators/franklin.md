@@ -6,7 +6,7 @@ language:
   - Julia
 license:
   - MIT
-templates:
+templates: []
 description: A simple, customisable static site generator oriented towards technical blogging and light, fast-loading pages.
 ---
 

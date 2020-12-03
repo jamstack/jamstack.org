@@ -6,6 +6,7 @@ language:
   - Racket
 license:
   - LGPL-3.0-only
+templates: []
 description: A web book-publishing system written in Racket with static html as default output target.
 ---
 

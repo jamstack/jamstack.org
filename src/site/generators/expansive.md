@@ -7,7 +7,7 @@ language:
   - Ejscript
 license:
   - GPL-2.0-only
-  - Commercial
+  - Embedthis Commercial
 templates:
   - Ejscript
 description: Expansive is a static site generator. It is written in Ejscript, and is blazing fast.

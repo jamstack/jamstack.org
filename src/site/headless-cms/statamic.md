@@ -1,7 +1,7 @@
 ---
 title: Statamic
 homepage: https://statamic.com/
-repo: https://github.com/statamic/cms
+repo: statamic/cms
 twitter: statamic
 opensource: "Yes"
 typeofcms: "Git-based"

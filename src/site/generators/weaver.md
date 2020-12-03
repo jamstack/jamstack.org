@@ -1,13 +1,12 @@
 ---
 title: Weaver
 repo: davidsiaw/weaver
-homepage: http://davidsiaw.github.io/weaver-docs
+homepage: https://davidsiaw.github.io/weaver-docs
 language:
   - Ruby
 license:
   - MIT
 templates:
-  - None
 description: A simple DSL-based web generator
 ---
 

@@ -1,4 +1,7 @@
 ---
+disabled: true
+# Repo no longer exists, overriding the tags will opt out of listing
+tags: []
 title: simple-website
 repo: alexanderte/simple-website
 homepage: https://github.com/alexanderte/simple-website

@@ -1,4 +1,7 @@
 ---
+disabled: true
+# Repo no longer exists, overriding the tags will opt out of listing
+tags: []
 title: Systatic
 repo: damcclean/systatic
 homepage: https://systatic.co

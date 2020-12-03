@@ -314,6 +314,15 @@ details[open] .summary-swap-open {
 .tool-content img {
   @apply my-8;
 }
+
+/* Filters */
+.filter-opensource--hide,
+.filter-typeofcms--hide,
+.filter-language--hide,
+.filter-template--hide,
+.filter-license--hide {
+  display: none !important;
+}
 /* purgecss end ignore */
 
 @tailwind utilities;
