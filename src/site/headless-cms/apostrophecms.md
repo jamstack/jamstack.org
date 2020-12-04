@@ -29,4 +29,4 @@ Editing has never been easier. Users can edit content directly on the page, via 
 Bring your favorites tools to your CMS experience. Whether it's Hubspot, Salesforce, Google Analytics, or another platform of choice, Apostrophe can integrate with your tools for a comprehensive management experience.
 
 ### Get Started
-[Apostrophe](https://apostrophecms.com/) | [Features](https://apostrophecms.com/features) | [Community](https://apostrophecms.com/community) | [Github](https://github.com/apostrophecms/apostrophe) | [Blog](https://github.com/apostrophecms/apostrophe) | [Documentation](https://docs.apostrophecms.org/) | [Demo](dashboard.apostrophecmsdemo.org)
+[Apostrophe](https://apostrophecms.com/) | [Features](https://apostrophecms.com/features) | [Community](https://apostrophecms.com/get-involved) | [Github](https://github.com/apostrophecms/apostrophe) | [Blog](https://apostrophecms.com/blog) | [Documentation](https://docs.apostrophecms.org/) | [Demo](http://demo.apostrophecms.org/)
