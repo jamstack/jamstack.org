@@ -1,5 +1,6 @@
 ---
 title: Saber
+repo: saberland/saber
 homepage: https://saber.land/
 language:
   - JavaScript
