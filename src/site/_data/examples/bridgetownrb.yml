@@ -1,7 +1,7 @@
 title: Bridgetown
 description: Ruby and javascript based static site generator
 link: https://www.bridgetownrb.com/
-thumbnailurl: /img/cms/examples/bridgetown.png
+thumbnailurl: /img/examples/bridgetown.png
 tools:
   - Ruby
   - Javascript
