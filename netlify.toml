@@ -47,7 +47,7 @@
 
 # Config for the Netlify Build Plugin: netlify-plugin-minify-html
 [[plugins]]
-  package = "netlify-plugin-minify-html"
+  # package = "netlify-plugin-minify-html"
 
   # Specify which deploy contexts we'll minify HTML in.
   # Supports any Deploy Contexts available in Netlify.
