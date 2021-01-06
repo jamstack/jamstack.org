@@ -46,7 +46,7 @@ layout: layouts/base.njk
   </ul>
 </section>
 
-
+{% if meetups %}
 <section>
   <h2>Upcoming Events</h2>
   <table>
@@ -66,7 +66,7 @@ layout: layouts/base.njk
     </tbody>
   </table>
 </section>
-
+{% endif %}
 
 <section class="cards">
   <h2 class="mb-12">Find a Local User Group</h2>
