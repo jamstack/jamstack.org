@@ -109,3 +109,7 @@
 - name: Amsterdam
   link: https://www.meetup.com/jamstack-amsterdam/
   feed: https://api.meetup.com/jamstack-amsterdam/events
+
+- name: Toronto
+  link: https://www.meetup.com/JAMstack-Toronto/
+  feed: https://api.meetup.com/JAMstack-Toronto/events
