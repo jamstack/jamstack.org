@@ -16,7 +16,7 @@
   status = 302
 
 [[redirects]]
-  from = "/"
+  from = "/slack"
   to = "https://join.slack.com/t/jamstack/shared_invite/zt-kp3asm76-~0QDRYOeBjnd1Hk9tMTAtA"
   status = 302
 
