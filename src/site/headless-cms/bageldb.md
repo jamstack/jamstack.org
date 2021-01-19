@@ -26,4 +26,4 @@ BagelDB has a broad range of features including:
  
 ## Get Started
 
-Signup to BagelDB [here](app.bageldb.com/signup)
+Signup to BagelDB [here](https://app.bageldb.com/signup)
