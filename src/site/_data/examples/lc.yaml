@@ -1,0 +1,14 @@
+title: LC
+description: Luca Cattide's website.
+link: https://lucacattide.dev
+thumbnailurl: /img/examples/lc.jpg
+tools:
+  - Compass
+  - NodeJS
+  - NextJS
+  - jQuery
+  - Workbox
+  - Apollo GraphQL
+  - MongoDB
+  - Jest
+  - Docker
