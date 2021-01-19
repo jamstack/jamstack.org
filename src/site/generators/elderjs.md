@@ -5,7 +5,7 @@ homepage: https://elderguide.com/tech/elderjs/
 language:
   - JavaScript
 license:
-  - MIT License
+  - MIT
 templates:
   - Svelte
 description: An opinionated, SEO focused, static site generator for Svelte.

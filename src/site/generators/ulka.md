@@ -3,7 +3,7 @@ title: Ulka
 repo: ulkajs/ulka
 homepage: https://ulka.js.org
 language:
-  - Javascript
+  - JavaScript
 license:
   - MIT
 templates:

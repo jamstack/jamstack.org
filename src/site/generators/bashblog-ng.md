@@ -6,8 +6,7 @@ language:
   - Bash
 license:
   - GPL-3.0-only
-templates:
-  - None
+templates: []
 description: Bash script to create and manage blogs.
 ---
 

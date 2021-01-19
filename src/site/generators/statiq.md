@@ -5,7 +5,7 @@ homepage: https://statiq.dev/web/
 language:
   - .Net
 license:
-  - Prosperity Public License 3.0.0
+  - Prosperity Public License
 templates:
   - Razor
   - Markdown

@@ -7,6 +7,7 @@ language:
   - Make
 license:
   - BSD-2-Clause
+templates: []
 description: Web Page With Make and M4
 ---
 

@@ -6,8 +6,7 @@ language:
   - JavaScript
 license:
   - MIT
-templates:
-  - None
+templates: []
 description: Static photo &amp; video gallery generator
 ---
 

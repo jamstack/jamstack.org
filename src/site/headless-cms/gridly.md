@@ -5,6 +5,7 @@ twitter: GridlyCMS
 typeofcms: "API Driven"
 supportedgenerators:
   - All
+opensource: No
 description: A collaborative headless CMS for multilingual games-as-a-service projects with a powerful API, browser-based spreadsheet UI, and built-in functions to handle localization and frequent updates.
 
 ---

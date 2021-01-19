@@ -6,8 +6,7 @@ language:
   - JavaScript
 license:
   - MIT
-templates:
-  - None
+templates: []
 description: A fast, simple yet powerful JavaScript-driven static site generator.
 twitter: gettriossg
 ---
