@@ -1,0 +1,10 @@
+title: Duet Design System
+description: Duet work as the foundation for LocalTapiola and Turva digital products and experiences.
+link: 'https://www.duetds.com'
+thumbnailurl: /img/examples/duet.png
+tools:
+  - Stencil.js
+  - Eleventy
+  - Markdown
+  - Sass
+  - Azure
