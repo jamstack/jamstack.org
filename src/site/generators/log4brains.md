@@ -21,22 +21,23 @@ It performs Static Site Generation from markdown files thanks to [Next.js](https
 From your project's root directory:
 
 ```sh
-npx init-log4brains
+npm install -g log4brains
+log4brains init
 ```
 
 ## Local preview
 
 ```sh
-npm run log4brains-preview
+log4brains preview
 ```
 
 ## Build and deploy
 
 ```sh
-npm run log4brains-build
+log4brains build
 ```
 
-See [Log4brains documentation](https://thomvaill.github.io/log4brains/adr/) for more information.
+See [Log4brains documentation](https://github.com/thomvaill/log4brains) for more information.
 
 ## Example
 
