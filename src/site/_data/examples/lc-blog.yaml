@@ -1,7 +1,7 @@
 title: LC <> Blog
 description: Luca Cattide's blog.
 link: https://blog.lucacattide.dev
-thumbnailurl: /img/cms/examples/lc-blog.jpg
+thumbnailurl: /img/examples/lc-blog.jpg
 tools:
   - Compass
   - NodeJS
