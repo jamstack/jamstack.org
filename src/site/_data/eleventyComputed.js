@@ -20,7 +20,7 @@ function getCountryName(countryCode) {
 }
 
 module.exports = {
-  communityWithCountries: async function(data) {
+  community: async function(data) {
     let community = data.community.filter(e => true);
     for(let meetup of community) {
       // sry for await in loop
