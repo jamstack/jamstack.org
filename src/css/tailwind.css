@@ -314,6 +314,14 @@ details[open] .summary-swap-open {
 }
 
 /* Filters */
+.filter-form {
+  opacity: .4;
+  pointer-events: none;
+}
+.filter-container--js .filter-form {
+  opacity: 1;
+  pointer-events: auto;
+}
 .filter-opensource--hide,
 .filter-typeofcms--hide,
 .filter-language--hide,
