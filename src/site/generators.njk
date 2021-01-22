@@ -14,13 +14,13 @@ layout: layouts/base.njk
 
 <section class="cards mt-12">
   <sort-container>
-    <filter-container>
+    <filter-container data-oninit>
       <form class="pb-4">
         <div class="flex flex-wrap">
           <div>
             <div class="pb-2">
               <strong class="pr-4">Filter</strong>
-              <span data-filter-results></span>
+              <span data-filter-results aria-live="polite"></span>
             </div>
             <label class="inline-flex pr-4 pb-2">
               <span class="sr-only">Language</span>
