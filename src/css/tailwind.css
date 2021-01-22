@@ -318,7 +318,8 @@ details[open] .summary-swap-open {
 .filter-typeofcms--hide,
 .filter-language--hide,
 .filter-template--hide,
-.filter-license--hide {
+.filter-license--hide,
+.filter-country--hide {
   display: none !important;
 }
 /* purgecss end ignore */
