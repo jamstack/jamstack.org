@@ -70,24 +70,40 @@ layout: layouts/base.njk
 
 <section class="cards">
   <h2 class="mb-12">Find a Local User Group</h2>
-  <ul class="grid grid-cols-2 lg:grid-cols-3 gap-8">
+  <filter-container>
+    <form class="pb-4">
+      <div class="pb-2">
+        <strong class="pr-4">Filter</strong>
+        <span data-filter-results></span>
+      </div>
+      <label class="inline-flex pr-4 pb-2">
+        <span class="sr-only">Country</span>
+        <select data-filter-bind="country" class="text-black py-1 px-2 rounded-default border border-white bg-white">
+          <option selected value="">All Countries</option>
+          {%- for country in community | select("country") | flatten | unique | sort(false, false) %}
+          <option value="{{ country | lower }}">{{ country }}</option>
+          {%- endfor %}
+        </select>
+      </label>
+    </form>
+    <ul class="grid grid-cols-2 lg:grid-cols-3 gap-8">
+      {% set themes = [
+        "bg-gradient-card-sunrise hover:card-shadow-sunrise",
+        "bg-gradient-card-blue hover:card-shadow-blue-seafoam",
+        "bg-gradient-card-seafoam hover:card-shadow-seafoam",
+        "bg-gradient-card-gold hover:card-shadow-gold"]
+      %}
+      {%- for item in community | sort(false, false, 'name') %}
 
-
-    {% set themes = [
-      "bg-gradient-card-sunrise hover:card-shadow-sunrise",
-      "bg-gradient-card-blue hover:card-shadow-blue-seafoam",
-      "bg-gradient-card-seafoam hover:card-shadow-seafoam",
-      "bg-gradient-card-gold hover:card-shadow-gold"]
-    %}
-    {%- for item in community | sort(false, false, 'name') %}
-
-    {# chose a pseudorandom theme based on the city name #}
-    {% set theme =  item.name.length % 4 %}
-    <li>
-      {{ meetup.card( item.name, item.link, themes[theme] ) }}
-    </li>
-    {%- endfor %}
-  </ul>
+      {# chose a pseudorandom theme based on the city name #}
+      {% set theme =  item.name.length % 4 %}
+      <li
+      {%- if item.country %} data-filter-country="{{ item.country | lower }}"{% endif %}>
+        {{ meetup.card( item.name, item.link, themes[theme] ) }}
+      </li>
+      {%- endfor %}
+    </ul>
+  </filter-container>
 </section>
 
 <section>
