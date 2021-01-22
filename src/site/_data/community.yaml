@@ -9,6 +9,7 @@
 - name: Boston
   link: https://www.meetup.com/Jamstack-Boston/
   feed: https://api.meetup.com/Jamstack-Boston/events
+  country: United States of America
 
 - name: Porto
   link: https://www.meetup.com/Jamstack-Porto/

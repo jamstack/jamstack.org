@@ -80,7 +80,7 @@ layout: layouts/base.njk
         <span class="sr-only">Country</span>
         <select data-filter-bind="country" class="text-black py-1 px-2 rounded-default border border-white bg-white">
           <option selected value="">All Countries</option>
-          {%- for country in community | select("countryName") | flatten | unique | sort(false, false) %}
+          {%- for country in community | select("country") | flatten | unique | sort(false, false) %}
           <option value="{{ country | lower }}">{{ country }}</option>
           {%- endfor %}
         </select>
@@ -98,7 +98,7 @@ layout: layouts/base.njk
       {# chose a pseudorandom theme based on the city name #}
       {% set theme =  item.name.length % 4 %}
       <li
-      {%- if item.countryName %} data-filter-country="{{ item.countryName | lower }}"{% endif %}>
+      {%- if item.country %} data-filter-country="{{ item.country | lower }}"{% endif %}>
         {{ meetup.card( item.name, item.link, themes[theme] ) }}
       </li>
       {%- endfor %}

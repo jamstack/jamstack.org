@@ -23,10 +23,15 @@ module.exports = {
   community: async function(data) {
     let community = data.community.filter(e => true);
     for(let meetup of community) {
+      // skip if populated in the YAML file
+      if(meetup.country) {
+        continue;
+      }
+
       // sry for await in loop
       let countryCode = await getCountryCode(meetup.name);
       if(countryCode) {
-        meetup.countryName = getCountryName(countryCode);
+        meetup.country = getCountryName(countryCode);
       }
     }
 
