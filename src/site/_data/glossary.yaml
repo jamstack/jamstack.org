@@ -1,3 +1,18 @@
+- term: 'Atomic deployment'
+  id: 'atomic'
+  definition: 'The word "atomic" is used to describe deployments which include no interim state or maintenance window. With atomic deploys, all of the code, assets and configuration of a site are updated at once so that a website cannot be be served in a partially updated state. 
+  
+
+  While deploying and updating sites via FTP was once popular this would result in some updated files being present on the server and ready to serve while others were still in transit. Modern platforms avoid this situation by providing atomic deployments where the new version of the site only begins receiving request when all assets and configurations are available. See also [Immutable builds](/glossary/immutable).'
+
+- term: 'Immutable builds'
+  id: 'immutable'
+  definition: 'While a "mutable" item can change (be mutated) over time, an "immutable" item cannot. Once created, an immutable build of a website becomes an artefact which will not change. Instead, deployments result in new versions or instances of the site, and traffic is routed to them accordingly. 
+  
+  
+  When paired with [atomic deployments](/glossary/atomic), immutable builds make it possible for sites to enjoy abilities such as instant rollbacks and versioning, and help to ensure that the code and assets of a website can be maintained in a known state.' 
+
+
 - term: 'CDN (Content Delivery Network)'
   id: 'cdn'
   definition: 'A distributed network optimized for serving assets to users. By being geographically distributed, a CDN can provide redundancy and also improve delivery performance as a result of servicing requests from the infrastructure closest to the user making the request.'
@@ -6,6 +21,10 @@
   id: 'edge-network'
 
 - term: 'Serverless'
+  definition: '"Serverless" or "serverless functions" are a means of providing a run-time environment for code without the need for knowledge of, or control over, the underlying environment. [It allows event-driven logic on the server without setting up infrastructure](https://twitter.com/sarah_edo/status/1361692489384517634). 
+  
+  
+  Common confusion over the term stems from the observation that "there is still a server somewhere", which is true, but no servers are present in the problem space of those working with serverless functions. In a similar way, a wireless router will have wires for power and connectivity, but no wires exist in the domain of the devices utilizing a wireless router to connect to the internet.'
   id: 'serverless'
 
 - term: 'Pre-render / Pre-generate'
@@ -20,7 +39,7 @@
   id: 'ssg'
   definition: "A tool which can be run as part of a build to transform content, data, and templates into files which can be deployed to a hosting environment as a ready-to-serve web site. Find a more detailed description in this article: <a href='https://www.netlify.com/blog/2020/04/14/what-is-a-static-site-generator-and-3-ways-to-find-the-best-one/?utm_source=jamstackorg&utm_medium=what-are-ssg-pnh&utm_campaign=devex'>What is a Static Site Generator? And 3 ways to find the best one</a>."
 
-- term: 'Headless Technology'
+- term: 'Headless technology'
   id: 'headless-technology'
   definition: 'The term "headless" refers to removing the dependency of knowing where data will be displayed and instead just holding the data to be used wherever the developer chooses. This is often used to describe a CMS where content can be entered, held, then where and how that content is displayed is decided separately.'
 
