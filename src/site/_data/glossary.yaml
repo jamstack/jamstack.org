@@ -1,16 +1,16 @@
-- term: 'Atomic deployment'
+- term: 'Atomic deploys'
   id: 'atomic'
-  definition: 'The word "atomic" is used to describe deployments which include no interim state or maintenance window. With atomic deploys, all of the code, assets and configuration of a site are updated at once so that a website cannot be be served in a partially updated state. 
+  definition: 'The word "atomic" is used to describe deploys which include no interim state or maintenance window. With atomic deploys, all of the code, assets and configuration of a site are updated at once so that a website cannot be be served in a partially updated state. 
   
 
-  While deploying and updating sites via FTP was once popular this would result in some updated files being present on the server and ready to serve while others were still in transit. Modern platforms avoid this situation by providing atomic deployments where the new version of the site only begins receiving request when all assets and configurations are available. See also [Immutable builds](/glossary/immutable).'
+  While deploying and updating sites via FTP was once popular this would result in some updated files being present on the server and ready to serve while others were still in transit. Modern platforms avoid this situation by providing atomic deploys where the new version of the site only begins receiving request when all assets and configurations are available. See also [Immutable builds](/glossary/immutable).'
 
-- term: 'Immutable builds'
+- term: 'Immutable deploys'
   id: 'immutable'
-  definition: 'While a "mutable" item can change (be mutated) over time, an "immutable" item cannot. Once created, an immutable build of a website becomes an artefact which will not change. Instead, deployments result in new versions or instances of the site, and traffic is routed to them accordingly. 
+  definition: 'While a "mutable" item can change (be mutated) over time, an "immutable" item cannot. Once created, an immutable build of a website becomes an artefact which will not change. Instead, deploys result in new versions or instances of the site, and traffic is routed to them accordingly. 
   
   
-  When paired with [atomic deployments](/glossary/atomic), immutable builds make it possible for sites to enjoy abilities such as instant rollbacks and versioning, and help to ensure that the code and assets of a website can be maintained in a known state.' 
+  When paired with [atomic deploys](/glossary/atomic), immutable builds make it possible for sites to enjoy abilities such as instant rollbacks and versioning, and help to ensure that the code and assets of a website can be maintained in a known state.' 
 
 
 - term: 'CDN (Content Delivery Network)'
