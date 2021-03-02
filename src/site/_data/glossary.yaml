@@ -1,13 +1,21 @@
+
+# Summary and term values are used in both the page meta tags and also the auto generated
+# open graph and twitter card images. Those 2 fields should not exceed the following character counts:
+# term: 30
+# summary: 250
+
 - term: 'Atomic deploys'
   id: 'atomic'
+  summary: 'Contained and complete deploys, which begin being served only when all of their assets and config are complete and totally in place.'
   definition: 'The word "atomic" is used to describe deploys which include no interim state or maintenance window. With atomic deploys, all of the code, assets and configuration of a site are updated at once so that a website cannot be be served in a partially updated state. 
   
 
-  While deploying and updating sites via FTP was once popular this would result in some updated files being present on the server and ready to serve while others were still in transit. Modern platforms avoid this situation by providing atomic deploys where the new version of the site only begins receiving request when all assets and configurations are available. See also [Immutable builds](/glossary/immutable).'
+  While deploying and updating sites via FTP was once popular this would result in some updated files being present on the server and ready to serve while others were still in transit. Modern platforms avoid this situation by providing atomic deploys where the new version of the site only begins receiving request when all assets and configurations are available. See also [Immutable deploys](/glossary/immutable).'
 
 - term: 'Immutable deploys'
   id: 'immutable'
-  definition: 'While a "mutable" item can change (be mutated) over time, an "immutable" item cannot. Once created, an immutable build of a website becomes an artefact which will not change. Instead, deploys result in new versions or instances of the site, and traffic is routed to them accordingly. 
+  summary: 'Once created, an immutable deploy of a website becomes an artifact which will not change. It is a known version of the site which can be redeployed with ease.'
+  definition: 'While a "mutable" item can change (be mutated) over time, an "immutable" item cannot. Once created, an immutable deploy of a website becomes an artifact which will not change. Instead, deploys result in new versions or instances of the site, and traffic is routed to them accordingly.
   
   
   When paired with [atomic deploys](/glossary/atomic), immutable builds make it possible for sites to enjoy abilities such as instant rollbacks and versioning, and help to ensure that the code and assets of a website can be maintained in a known state.' 
@@ -15,12 +23,14 @@
 
 - term: 'CDN (Content Delivery Network)'
   id: 'cdn'
+  summary: 'A network of optimized for serving assets to users. A CDN can provide redundancy and also improve delivery performance as a result of being geographically distributed.'
   definition: 'A distributed network optimized for serving assets to users. By being geographically distributed, a CDN can provide redundancy and also improve delivery performance as a result of servicing requests from the infrastructure closest to the user making the request.'
 
 - term: 'Edge Network'
   id: 'edge-network'
 
 - term: 'Serverless'
+  summary: 'Serverless functions are a means of providing a run-time environment for code without the need for knowledge of, or control over, the underlying environment.'
   definition: '"Serverless" or "serverless functions" are a means of providing a run-time environment for code without the need for knowledge of, or control over, the underlying environment. [It allows event-driven logic on the server without setting up infrastructure](https://twitter.com/sarah_edo/status/1361692489384517634). 
   
   
@@ -29,22 +39,27 @@
 
 - term: 'Pre-render / Pre-generate'
   id: 'pre-render'
+  summary: 'To generate the markup which represents a view of in advance of when it is required instead of just-in-time in response to requests.'
   definition: 'To generate the markup which represents a view in advance of when it is required. This happens during a build rather than on-demand so that web servers do not need to perform this activity for each request recieved.'
 
 - term: 'Server render'
   id: 'server-render'
+  summary: 'To generate markup on the server rather than on the client. Server render usually refers to the process happening at request time, rather than in advance at build time.'
   definition: 'To generate markup on the server rather than on the client. Server render usually refers to the process happening at request time, rather than at build time. Some do use this term as a catch all for any rendering taking place on a server, and so disambiguation is often sensible.'
 
 - term: 'Static site generator'
   id: 'ssg'
+  summary: 'A tool which can transform content, data, and templates into files that can be deployed to a hosting environment as a ready-to-serve web site.'
   definition: "A tool which can be run as part of a build to transform content, data, and templates into files which can be deployed to a hosting environment as a ready-to-serve web site. Find a more detailed description in this article: <a href='https://www.netlify.com/blog/2020/04/14/what-is-a-static-site-generator-and-3-ways-to-find-the-best-one/?utm_source=jamstackorg&utm_medium=what-are-ssg-pnh&utm_campaign=devex'>What is a Static Site Generator? And 3 ways to find the best one</a>."
 
 - term: 'Headless technology'
   id: 'headless-technology'
+  summary: 'Often referring to decoupled content management systems, headless tools have no responsibility for generating the view or presentation of content, but instead focus on the management of and access to content via APIs.'
   definition: 'The term "headless" refers to removing the dependency of knowing where data will be displayed and instead just holding the data to be used wherever the developer chooses. This is often used to describe a CMS where content can be entered, held, then where and how that content is displayed is decided separately.'
 
 - term: 'Client render'
   id: 'client-render'
+  summary: 'To generate the view of content, or update user interface elements, in the browser using JavaScript.'
   definition: 'To generate the view of content in the browser using JavaScript. This often involves transmitting data to the browser rather than markup which is ready for the browser to display, and then using JavaScript to transform that data into a view by modifying the DOM'
 
 - term: 'Hydration'
@@ -52,6 +67,7 @@
 
 - term: 'Decoupling'
   id: 'decoupling'
+  summary: 'Creating a distinct separation between systems or services. By decoupling the services needed to operate a site, each component part can be more easily swapped out, upgraded, and understood.'
   definition: 'Decoupling is the process of creating a clean separation between systems or services. By decoupling the services needed to operate a site, each component part can become easier to reason about, can be independently swapped out or upgraded, and can be designated the purview of dedicated specialists either within an organization, or as a third party.'
 
 - term: 'Dynamic server'
@@ -59,14 +75,17 @@
 
 - term: 'API'
   id: 'api'
+  summary: 'API is the acronym for Application Programming Interface. It defines interactions that allows two applications to talk to each other.'
   definition: 'API is the acronym for Application Programming Interface. It defines interactions that allows two applications to talk to each other.'
 
 - term: 'API Economy'
   id: 'api-economy'
+  summary: 'A term that has come to mean the depth and breadth of APIs that are available for developers to use in the current landscape.'
   definition: 'A term that has come to mean the depth and breadth of APIs that are available for developers to use in the current landscape.'
 
 - term: 'Microservice'
   id: 'microservice'
+  summary: 'A programming paradigm where many parts of a large application are broken down into various units that have smaller responsibility.'
   definition: 'A programming paradigm where many parts of a large application are broken down into various units that have smaller responsibility. We can use Serverless or APIs for this, but it''s not that APIs or Serverless are necessarily Microservices, it''s that we have split apart what we want to access, and that modularity is what we call Microservices.'
 
 - term: 'Monolith'
