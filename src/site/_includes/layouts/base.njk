@@ -20,7 +20,7 @@ ogimage: "/img/og/default-og-image.png"
     <meta property="og:url" content="https://jamstack.org/">
     <meta property="og:description" content="{{ description }}">
     <meta property="og:type" content="website">
-    <meta property="og:image" content="https://jamstack.org{{ ogimage }}">
+    <meta property="og:image" content="{{ netlify.deployUrl }}{{ ogimage }}">
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://jamstack.org/">
     <meta property="twitter:title" content="{{ title }} | Jamstack">
