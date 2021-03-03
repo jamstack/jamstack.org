@@ -163,7 +163,6 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addFilter("replace", (str, from, to) => {
     if (str) {
-      // return str.replace(/from/g, to);
       return str.replace(new RegExp(from, "g"), to);
     }
   });

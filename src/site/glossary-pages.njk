@@ -9,15 +9,15 @@ layout: layouts/base.njk
 
 eleventyComputed:
   title: "{{ item.term }}"
-  description: "What is {{ item.term }}? {{ item.summary }}"
-  ogimage: "/img/og/glossary/{{ item.term }}/{{ item.summary | replace(',','%252C') }}"
+  description: "What is {{ item.term }}? {{ item.summary}}"
+  ogimage: "/img/og/glossary/{{ item.term | replace(',','%252C') | replace('/', '%252F')  }}/{{ item.summary | replace(',','%252C') | replace('/', '%252F') }}"
 
 ---
 
 
 <section class="mt-16">
   <h1 class="text-3xl">Glossary</h1>
-  <p class="w-2/3"><a href="/glossary">A collection of terms</a> often used when talking about Jamstack and associated web technologies.</p>
+  <p class="w-2/3"><a href="/glossary/">A collection of terms</a> often used when talking about Jamstack and associated web technologies.</p>
 </section>
 
 <section class="border-gray-400 border-b mb-10">
