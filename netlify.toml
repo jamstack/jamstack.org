@@ -37,7 +37,7 @@
 
 [[redirects]]
   from = "/img/og/glossary/:term/:summary"
-  to = "https://res.cloudinary.com/netlify/image/fetch/l_text:Roboto_65_bold::term,co_rgb:FFFFFF,g_north_west,y_75,x_100/l_text:Roboto_34_light::summary,co_rgb:FFFFFF,g_north_west,y_200,x_160/https://jamstack.org/img/og/glossary-card-bg.png"
+  to = "https://res.cloudinary.com/netlify/image/fetch/l_text:Roboto_65_bold::term,co_rgb:FFFFFF,g_north_west,y_75,x_100,w_1000/l_text:Roboto_34_light::summary,co_rgb:FFFFFF,g_north_west,y_200,x_160,w_885,c_fit/https://jamstack.org/img/og/glossary-card-bg.png"
   status = 200
 
 [[redirects]]
