@@ -161,6 +161,14 @@ module.exports = function(eleventyConfig) {
   });
 
 
+  eleventyConfig.addFilter("replace", (str, from, to) => {
+    if (str) {
+      // return str.replace(/from/g, to);
+      return str.replace(new RegExp(from, "g"), to);
+    }
+  });
+
+
   // favicons files
   eleventyConfig.addPassthroughCopy("src/site/browserconfig.xml");
   eleventyConfig.addPassthroughCopy("src/site/site.webmanifest");
