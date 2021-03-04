@@ -23,7 +23,7 @@
 
 - term: 'CDN (Content Delivery Network)'
   id: 'cdn'
-  summary: 'A network of optimized for serving assets to users. A CDN can provide redundancy and also improve delivery performance as a result of being geographically distributed.'
+  summary: 'A network optimized for serving assets to users. A CDN can provide redundancy and also improve delivery performance as a result of being geographically distributed.'
   definition: 'A distributed network optimized for serving assets to users. By being geographically distributed, a CDN can provide redundancy and also improve delivery performance as a result of servicing requests from the infrastructure closest to the user making the request.'
 
 - term: 'Edge Network'
