@@ -10,7 +10,7 @@ layout: layouts/base.njk
 eleventyComputed:
   title: "{{ item.term }}"
   description: "What is {{ item.term }}? {{ item.summary}}"
-  ogimage: "/img/og/glossary/{{ item.term | replace(',','%252C') | replace('/', '%252F')  }}/{{ item.summary | replace(',','%252C') | replace('/', '%252F') }}"
+  ogimage: "/img/og/glossary/{{ item.term | cloudinaryifyPath  }}/{{ item.summary | cloudinaryifyPath }}"
 
 ---
 
