@@ -161,11 +161,23 @@ module.exports = function(eleventyConfig) {
   });
 
 
-  eleventyConfig.addFilter("replace", (str, from, to) => {
-    if (str) {
-      return str.replace(new RegExp(from, "g"), to);
+  // Format a path to avoid any Cloudinary URL API miss-steps.
+  eleventyConfig.addFilter("cloudinaryifyPath", (str) => {
+
+    if(str) { 
+      
+      // add generic url encoding 
+      str = encodeURI(str);
+      
+      // we also need to double escape some characters which might appear in text
+      // but are meaningful in cloudinary URLs
+      str = str.replace(/,/g, '%252C');
+      str = str.replace(/\//g, '%252F');
+
     }
+    return str;
   });
+
 
 
   // favicons files
