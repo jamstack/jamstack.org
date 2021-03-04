@@ -165,13 +165,15 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addFilter("cloudinaryifyPath", (str) => {
 
     if(str) { 
-      // we need to double escape some characters which might appear in text
+      
+      // add generic url encoding 
+      str = encodeURI(str);
+      
+      // we also need to double escape some characters which might appear in text
       // but are meaningful in cloudinary URLs
       str = str.replace(/,/g, '%252C');
       str = str.replace(/\//g, '%252F');
 
-      // add generic url encoding 
-      str = encodeURI(str);
     }
     return str;
   });
