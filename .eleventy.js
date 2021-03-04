@@ -8,7 +8,8 @@ module.exports = function(eleventyConfig) {
   // pass images directly through to the output
   eleventyConfig.addPassthroughCopy("src/site/img");
   eleventyConfig.addPassthroughCopy({
-    "src/js": "js"
+    "src/js": "js",
+    "node_modules/@zachleat/filter-container/*.js": "js",
   });
 
   // Date helper
