@@ -17,12 +17,12 @@ ogimage: "/img/og/default-og-image.png"
     <link rel="icon" type="image/png" sizes="16x16" href="/img/favicons/favicon-16x16.png">
     <meta property="og:title" content="{{ title }} | Jamstack">
     <meta property="og:site_name" content="Jamstack.org">
-    <meta property="og:url" content="https://jamstack.org/">
+    <meta property="og:url" content="https://jamstack.org{{ page.url }}">
     <meta property="og:description" content="{{ description }}">
     <meta property="og:type" content="website">
     <meta property="og:image" content="{{ netlify.deployUrl }}{{ ogimage }}">
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://jamstack.org/">
+    <meta property="twitter:url" content="https://jamstack.org{{ page.url }}">
     <meta property="twitter:title" content="{{ title }} | Jamstack">
     <meta property="twitter:description" content="{{ description }}">
     <meta property="twitter:image" content="{{ netlify.deployUrl }}{{ ogimage }}">
