@@ -9,7 +9,9 @@ supportedgenerators:
   - All
 description: A headless CMS without limitations, built for the digital team.
 images:
-  - path: /img/cms/<image>
+  - path: /img/cms/enonic-xp-login.png
+  - path: /img/cms/enonic-xp-content-studio-content.png
+  - path: /img/cms/enonic-xp-content-studio-hierarchy.png
 ---
 
 Create, curate, and distribute content to any channel. Enonic strives
