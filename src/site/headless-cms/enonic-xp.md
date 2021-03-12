@@ -11,7 +11,7 @@ description: A headless CMS without limitations, built for the digital team.
 images:
   - path: /img/cms/enonic-xp-login.png
   - path: /img/cms/enonic-xp-content-studio-content.png
-  - path: /img/cms/enonic-xp-content-studio-hierarchy.png
+  - path: /img/cms/enonic-xp-graphql.png
 ---
 
 Create, curate, and distribute content to any channel. Enonic strives
