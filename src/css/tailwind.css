@@ -17,7 +17,7 @@
     }
   }
   h2 {
-      @apply text-white text-3xl font-bold leading-none mb-8;
+    @apply text-white text-3xl font-bold leading-none mb-8;
   }
   @screen md {
     h2 {
@@ -329,6 +329,23 @@ details[open] .summary-swap-open {
 .filter-license--hide,
 .filter-country--hide {
   display: none !important;
+}
+
+/* Jamstack TV */
+.ais-SearchBox-input {
+  @apply bg-blue-900;
+  @apply text-white;
+  @apply p-4;
+  @apply my-8;
+  @apply mx-auto;
+  @apply border-blue-100;
+  @apply border;
+  @apply rounded-full;
+  @apply block;
+  @apply w-full;
+}
+.aspect-ratio-youtube {
+  padding-top: 74.9295775%;
 }
 /* purgecss end ignore */
 

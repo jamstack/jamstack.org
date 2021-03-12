@@ -1,0 +1,78 @@
+---
+title: Jamstack TV
+layout: layouts/base.njk
+---
+
+{# <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/instantsearch.css@7.3.1/themes/reset-min.css" integrity="sha256-t2ATOGCtAIZNnzER679jwcFcKYfLlw01gli6F6oszk8=" crossorigin="anonymous"> #}
+{# <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/instantsearch.css@7.4.5/themes/satellite-min.css" integrity="sha256-TehzF/2QvNKhGQrrNpoOb2Ck4iGZ1J/DI4pkd2oUsBc=" crossorigin="anonymous"> #}
+<div class="p-8">
+  <div id="searchbox"></div>
+  <div id="hits"></div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/algoliasearch@4.5.1/dist/algoliasearch-lite.umd.js" integrity="sha256-EXPXz4W6pQgfYY3yTpnDa3OH8/EPn16ciVsPQ/ypsjk=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/instantsearch.js@4.8.3/dist/instantsearch.production.min.js" integrity="sha256-LAGhRRdtVoD6RLo2qDQsU2mp+XVSciKRC8XPOBWmofM=" crossorigin="anonymous"></script>
+<script>
+const searchClient = algoliasearch('{{ algolia.appId }}', '{{ algolia.searchOnlyApiKey }}');
+
+const search = instantsearch({
+  indexName: '{{ algolia.indexName }}',
+  searchClient,
+});
+
+{% raw %}
+search.addWidgets([
+  instantsearch.widgets.searchBox({
+    container: '#searchbox',
+  }),
+
+  instantsearch.widgets.hits({
+    snippetEllipsisText: '…',
+    container: '#hits',
+    cssClasses: {
+      root: "bg-blue-900 text-blue-100",
+      //item: "bg-blue-900 text-blue-100",
+    },
+    transformItems(items) {
+      return items.map(item => {
+        let start = item.caption.start;
+
+        let obj = {
+          ...item,
+          url: `https://www.youtube.com/watch?v=${item.video.id}}&t=${start}s`,
+        };
+        if(start > 0) {
+          let secondsInOne = {
+            hour: 60*60,
+            minute: 60
+          }
+          function pad(num) { return num < 10 ? `0${num}` : num; }
+          let hours = Math.floor(start / secondsInOne.hour);
+          let minutes = Math.floor((start % secondsInOne.hour) / secondsInOne.minute);
+          let seconds = Math.floor(start % secondsInOne.minute);
+          obj.displayStart = `(at ${hours ? `${pad(hours)}:`: ""}${pad(minutes)}:${pad(seconds)}) `;
+          //obj._highlightResult.caption.content = `…${obj._highlightResult.caption.content}`;
+        }
+        return obj;
+      });
+    },
+    templates: {
+      item: `
+        <a href="{{ url }}" class="grid grid-cols-4 gap-4 mb-4">
+          <div class="aspect-ratio-youtube relative">
+            <img src="{{ video.thumbnails.medium }}" alt="{{ video.title }}" class="absolute top-0">
+          </div>
+          <div class="col-span-3">
+            <div>{{#helpers.highlight}}{ "attribute": "playlist.title" }{{/helpers.highlight}}: {{#helpers.highlight}}{ "attribute": "video.title" }{{/helpers.highlight}}</div>
+            <span class="text-2xl">{{ displayStart }}</span>
+            <strong class="text-2xl">{{#helpers.highlight}}{ "attribute": "caption.content" }{{/helpers.highlight}}</strong>
+            <div></div>
+          </div>
+        </div>
+      `,
+    },
+  })
+]);
+
+search.start();
+{% endraw %}
+</script>
