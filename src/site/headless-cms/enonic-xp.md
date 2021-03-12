@@ -43,7 +43,7 @@ requirements.
 
 The image handling tools make it easy to insert, edit and share images
 across every platform and device. Scale, crop, and set focal points to
-make your images pop in every situation.
+[make your images pop in every situation](https://enonic.com/blog/enonic-simplifies-image-problems).
 
 ## Managed or self-hosted, on-prem or in the cloud
 
