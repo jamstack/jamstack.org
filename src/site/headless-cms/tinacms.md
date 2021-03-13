@@ -1,5 +1,5 @@
 ---
-title: TinaCMS
+title: Tina
 repo: tinacms/tinacms
 homepage: https://tina.io
 twitter: tina_cms
