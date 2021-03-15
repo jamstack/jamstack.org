@@ -15,7 +15,7 @@
     "build": "npm-run-all build:html build:css",
     "build:html": "eleventy",
     "build:css": "postcss src/css/tailwind.css -o dist/css/styles.css",
-    "data:jamstacktv": "youtinx pull",
+    "data:jamstacktv": "youtinx pull && youtinx push",
     "watch:html": "ELEVENTY_ENV=dev eleventy --watch --quiet",
     "watch:css": "postcss src/css/tailwind.css -o dist/css/styles.css --watch",
     "serve": "live-server dist --quiet --port=8090",

@@ -1,10 +1,22 @@
 [build]
-  command = "npm run build:production"
+  command = "npm run build"
   publish = "dist"
 
 [build.environment]
   NODE_VERSION = "12.16.2"
   NODE_ENV = "production"
+
+# This requires YOUTUBE_API_KEY and ALGOLIA_API_KEY
+[context.production]
+  command = "npm run build:production"
+
+# TODO remove this, this is just for testing
+[context.deploy-preview]
+  command = "npm run build:production"
+
+# TODO remove this, this is just for testing
+[context.branch-deploy]
+  command = "npm run build:production"
 
 [dev]
   command = "npm run start"
