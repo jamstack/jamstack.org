@@ -347,6 +347,16 @@ details[open] .summary-swap-open {
 .aspect-ratio-youtube {
   padding-top: 74.9295775%;
 }
+.jamstacktv-time {
+  display: inline-block;
+  font-size: .75em;
+  border: 1px solid #eee;
+  padding: 0 .5em;
+  margin-right: .5em;
+  border-radius: .25em;
+  word-spacing: 0.25em; /* 4px /16 */
+  font-weight: 700;
+}
 /* purgecss end ignore */
 
 @tailwind utilities;
