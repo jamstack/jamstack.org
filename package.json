@@ -15,13 +15,11 @@
     "build": "npm-run-all build:html build:css",
     "build:html": "eleventy",
     "build:css": "postcss src/css/tailwind.css -o dist/css/styles.css",
-    "data:jamstacktv": "youtinx pull && youtinx push",
     "watch:html": "ELEVENTY_ENV=dev eleventy --watch --quiet",
     "watch:css": "postcss src/css/tailwind.css -o dist/css/styles.css --watch",
     "serve": "live-server dist --quiet --port=8090",
     "start": "npm-run-all --parallel watch:html watch:css serve",
-    "clean": "rm -rf dist",
-    "build:production": "npm run data:jamstacktv && npm run build"
+    "clean": "rm -rf dist"
   },
   "dependencies": {
     "@11ty/eleventy": "^0.11.1",
@@ -47,8 +45,7 @@
     "postcss-cli": "^8.3.1",
     "postcss-import": "^13.0.0",
     "spdx-correct": "^3.1.1",
-    "tailwindcss": "^2.0.3",
-    "youtinx": "^0.4.1"
+    "tailwindcss": "^2.0.3"
   },
   "devDependencies": {
     "live-server": "^1.2.1"

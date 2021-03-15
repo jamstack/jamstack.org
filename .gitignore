@@ -19,6 +19,3 @@ dist
 
 # Environment variables
 .env
-
-# Captions Metadata from Jamstack TV
-data/

@@ -1,6 +1,6 @@
 const algoliaConfig = require("../../../algolia.config.js");
 
-// make sure we don’t leak algoliaConfig.apiKey
+// don’t hardcode anything here, make the config variables opt-in
 module.exports = {
   appId: algoliaConfig.appId,
   indexName: algoliaConfig.indexName,
