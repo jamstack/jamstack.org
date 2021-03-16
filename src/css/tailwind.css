@@ -451,6 +451,20 @@ details[open] .summary-swap-open {
 .js .jamstacktv-js {
   display: none;
 }
+.jamstacktv-scrubber {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  height: 1em;
+  border-radius: 0 0 1em 1em;
+  overflow: hidden;
+}
+.jamstacktv-scrubber > div {
+  height: 4px;
+  background-color: red;
+}
 /* purgecss end ignore */
 
 @tailwind utilities;
