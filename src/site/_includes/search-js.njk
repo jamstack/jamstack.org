@@ -34,6 +34,20 @@ search.addWidgets([
     showSubmit: false,
   }),
 
+  instantsearch.widgets.sortBy({
+    container: '#sort-by',
+    items: [
+      { label: 'Newest', value: 'jamstack' },
+      { label: 'Popular', value: 'popular' },
+    ],
+    cssClasses: {
+      //root: 'MyCustomSortBy',
+      select: [
+        'text-black py-1 px-2 rounded-default border border-white bg-white',
+      ],
+    },
+  }),
+
   instantsearch.widgets.hits({
     snippetEllipsisText: '…',
     container: '#hits',
