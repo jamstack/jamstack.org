@@ -3,9 +3,9 @@ title: Jamstack TV
 layout: layouts/base.njk
 ---
 {# This search index data is populated by the code at https://github.com/netlify/jamstack-tv-search-data #}
-{# <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/instantsearch.css@7.3.1/themes/reset-min.css" integrity="sha256-t2ATOGCtAIZNnzER679jwcFcKYfLlw01gli6F6oszk8=" crossorigin="anonymous"> #}
-{# <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/instantsearch.css@7.4.5/themes/satellite-min.css" integrity="sha256-TehzF/2QvNKhGQrrNpoOb2Ck4iGZ1J/DI4pkd2oUsBc=" crossorigin="anonymous"> #}
-<div class="p-8">
+
+<div class="p-8 max-w-6xl mx-auto">
+  <h1 class="text-center">{{ title }}</h1>
   <div id="searchbox"></div>
   <div id="hits"></div>
 </div>
@@ -21,10 +21,25 @@ const search = instantsearch({
 });
 
 {% raw %}
+function pad(num) { return num < 10 ? `0${num}` : num; }
+
+function getDurationString(duration) {
+  let secondsInOne = {
+    hour: 60*60,
+    minute: 60
+  };
+
+  let hours = Math.floor(duration / secondsInOne.hour);
+  let minutes = Math.floor((duration % secondsInOne.hour) / secondsInOne.minute);
+  let seconds = Math.floor(duration % secondsInOne.minute);
+
+  return `${hours ? `${hours}:`: ""}${hours ? pad(minutes) : minutes}:${pad(seconds)}`;
+}
+
 search.addWidgets([
   instantsearch.widgets.searchBox({
     container: '#searchbox',
-    placeholder: 'Search Video Content',
+    //placeholder: 'Search Video Content',
     showReset: false,
     showSubmit: false,
   }),
@@ -43,20 +58,11 @@ search.addWidgets([
         let obj = {
           ...item,
           url: `https://www.youtube.com/watch?v=${item.video.id}}&t=${start}s`,
+          displayDuration: getDurationString(item.video.duration),
         };
 
         if(start > 10) { // only show for deep links > 10 seconds
-          let secondsInOne = {
-            hour: 60*60,
-            minute: 60
-          }
-
-          function pad(num) { return num < 10 ? `0${num}` : num; }
-          let hours = Math.floor(start / secondsInOne.hour);
-          let minutes = Math.floor((start % secondsInOne.hour) / secondsInOne.minute);
-          let seconds = Math.floor(start % secondsInOne.minute);
-
-          obj.displayStart = `<span class="jamstacktv-time"><b></b><b></b>${hours ? `${pad(hours)}:`: ""}${hours ? pad(minutes) : minutes}:${pad(seconds)}</span>`;
+          obj.displayStartInline = `<span class="jamstacktv-time"><b></b><b></b>${getDurationString(start)} /</span>`;
           //obj._highlightResult.caption.content = `…${obj._highlightResult.caption.content}`;
         } else {
           obj.wrapperClass = "jamstacktv-no-skip";
@@ -66,16 +72,17 @@ search.addWidgets([
     },
     templates: {
       item: `
-        <a href="{{ url }}" class="grid grid-cols-4 gap-4 mb-4 group">
-          <div class="aspect-ratio-youtube relative bg-gradient-card-sunrise card-shadow group-hover:card-shadow-sunrise jamstacktv-card">
-            <img src="{{ video.thumbnails.medium }}" alt="{{ video.title }}" class="absolute top-0 jamstacktv-img">
+        <a href="{{ url }}" class="grid grid-cols-3 gap-4 mb-4 group">
+          <div class="aspect-ratio-youtube relative jamstacktv-card">
+            <img src="{{ video.thumbnails.medium }}" alt="{{ video.title }}" class="jamstacktv-img absolute top-0 card-shadow bg-gradient-card-sunrise group-hover:card-shadow-sunrise">
+            <span class="jamstacktv-duration">{{{ displayStartInline }}}{{ displayDuration }}</span>
           </div>
-          <div class="col-span-3 jamstacktv-item {{ wrapperClass }}">
+          <div class="col-span-2 jamstacktv-item {{ wrapperClass }}">
             <div class="jamstacktv-meta mb-1">
               <span class="jamstacktv-category">{{#helpers.highlight}}{ "attribute": "playlist.title" }{{/helpers.highlight}}</span>
               <span class="jamstacktv-title">{{#helpers.highlight}}{ "attribute": "video.title" }{{/helpers.highlight}}</span>
             </div>
-            <strong class="jamstacktv-caption">{{{ displayStart }}}<span class="jamstacktv-caption-quote">{{#helpers.highlight}}{ "attribute": "caption.content" }{{/helpers.highlight}}</span></strong>
+            <strong class="jamstacktv-caption"><span class="jamstacktv-caption-quote">{{#helpers.highlight}}{ "attribute": "caption.content" }{{/helpers.highlight}}</span></strong>
           </div>
         </div>
       `,
