@@ -8,7 +8,7 @@ license:
   - MIT
 templates:
   - React
-startertemplaterepo: https://github.com/netlify-templates/next-starter-jamstack
+startertemplaterepo: https://github.com/cassidoo/next-netlify-starter
 description: A framework for statically-exported React apps (supports server side rendering)
 ---
 
