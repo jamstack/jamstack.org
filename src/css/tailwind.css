@@ -344,14 +344,27 @@ details[open] .summary-swap-open {
   @apply bg-blue-900;
   @apply text-white;
   @apply font-bold;
-  @apply p-4;
-  @apply my-8;
+  @apply p-3;
+  @apply pl-14;
   @apply mx-auto;
   @apply border;
   border-color: #5A5F75;
   @apply rounded-full;
   @apply block;
   @apply w-full;
+  background-image: url(/img/svg/icon-search.svg);
+  background-repeat: no-repeat;
+  background-position: 1em 50%;
+  position: relative;
+}
+.ais-SearchBox-input:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 3em;
+  background-color: #2b3350;
 }
 @supports (box-shadow: none) {
   .ais-SearchBox-input:focus {
@@ -376,8 +389,8 @@ details[open] .summary-swap-open {
   @apply text-sm;
   @apply font-bold;
   position: absolute;
-  right: .25em;
-  bottom: .25em;
+  right: .4em;
+  bottom: .4em;
 }
 .jamstacktv-time {
   display: inline-block;
@@ -433,6 +446,9 @@ details[open] .summary-swap-open {
   @apply font-bold;
 }
 .jamstacktv-no-skip .jamstacktv-caption {
+  display: none;
+}
+.js .jamstacktv-js {
   display: none;
 }
 /* purgecss end ignore */

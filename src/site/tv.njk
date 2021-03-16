@@ -5,9 +5,16 @@ layout: layouts/base.njk
 {# This search index data is populated by the code at https://github.com/netlify/jamstack-tv-search-data #}
 
 <div class="p-8 max-w-6xl mx-auto">
-  <h1 class="text-center">{{ title }}</h1>
-  <div id="searchbox"></div>
-  <div id="hits"></div>
+  <div class="md:mt-20">
+    <h1 class="text-center">{{ title }}</h1>
+  </div>
+  <div class="flex flex-wrap items-center justify-center my-8 max-w-2xl mx-auto">
+    <div id="searchbox" class="flex-grow my-2">
+      <span class="jamstacktv-js">The search functionality on Jamstack TV requires JavaScript to operate.</span>
+    </div>
+    <div class="ml-4 my-2"><img src="/img/svg/search-by-algolia-dark-background.svg" alt="Search by Algolia" width="168" height="24" class="w-auto"/></div>
+  </div>
+  <div id="hits" class="mt-20"></div>
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/algoliasearch@4.5.1/dist/algoliasearch-lite.umd.js" integrity="sha256-EXPXz4W6pQgfYY3yTpnDa3OH8/EPn16ciVsPQ/ypsjk=" crossorigin="anonymous"></script>
@@ -62,7 +69,7 @@ search.addWidgets([
         };
 
         if(start > 10) { // only show for deep links > 10 seconds
-          obj.displayStartInline = `<span class="jamstacktv-time"><b></b><b></b>${getDurationString(start)} /</span>`;
+          obj.displayStartInline = `<span class="jamstacktv-time"><b></b><b></b>${getDurationString(start)} of</span>`;
           //obj._highlightResult.caption.content = `…${obj._highlightResult.caption.content}`;
         } else {
           obj.wrapperClass = "jamstacktv-no-skip";
