@@ -15,6 +15,9 @@ ogimage: "/img/og/default-og-image.png"
     <link rel="apple-touch-icon" sizes="180x180" href="/img/favicons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/img/favicons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/img/favicons/favicon-16x16.png">
+{%- for url in preconnect %}
+    <link rel="preconnect" href="{{ url }}">
+{%- endfor %}
     <meta property="og:title" content="{{ title }} | Jamstack">
     <meta property="og:site_name" content="Jamstack.org">
     <meta property="og:url" content="https://jamstack.org{{ page.url }}">
@@ -28,6 +31,7 @@ ogimage: "/img/og/default-og-image.png"
     <meta property="twitter:image" content="{{ netlify.deployUrl }}{{ ogimage }}">
     <meta name="google-site-verification" content="i5IheizQ6X_M4jNqb_b7vbJrT34i_gvEg8Gxkq9IY_w" />
     <meta name="google-site-verification" content="WDIQ_1X8K7XIpPJ5G1Z8KnOqdSeYetPQB4EgoTLfIsc" />
+    <script type="module">document.documentElement.classList.add("js");</script>
   </head>
   <body class="bg-blue-900 text-blue-100 leading-relaxed antialiased">
     <svg width="0" height="0" aria-hidden="true" style="position: absolute;">
@@ -96,5 +100,8 @@ ogimage: "/img/og/default-og-image.png"
     <script type="module" src="/js/filter-container.js"></script>
     <script type="module" src="/js/sort-container.js"></script>
     <script type="module" src="/js/lazyiframe.js"></script>
+    {%- for path in javascriptIncludes %}
+    {% include path %}
+    {%- endfor %}
   </body>
 </html>
