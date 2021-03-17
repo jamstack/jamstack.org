@@ -78,13 +78,13 @@ search.addWidgets([
     },
     templates: {
       item: `
-        <a href="{{ url }}" class="grid grid-cols-3 gap-4 mb-4 group">
-          <div class="aspect-ratio-youtube relative jamstacktv-card">
-            <img src="{{ video.thumbnails.medium }}" alt="{{ video.title }}" class="jamstacktv-img absolute top-0 card-shadow bg-gradient-card-sunrise group-hover:card-shadow-sunrise">
+        <a href="{{ url }}" class="mb-4 group jamstacktv-link">
+          <div class="relative jamstacktv-card">
+            <img src="{{ video.thumbnails.medium }}" alt="{{ video.title }}" class="jamstacktv-img card-shadow bg-gradient-card-sunrise group-hover:card-shadow-sunrise" width="480" height="360">
             <span class="jamstacktv-duration">{{{ displayStartInline }}}{{ displayDuration }}</span>
             {{{ scrubberHtml }}}
           </div>
-          <div class="col-span-2 jamstacktv-item {{ wrapperClass }}">
+          <div class="jamstacktv-item {{ wrapperClass }}">
             <div class="jamstacktv-meta mb-1">
               <span class="jamstacktv-category">{{#helpers.highlight}}{ "attribute": "playlist.title" }{{/helpers.highlight}}</span>
               <span class="jamstacktv-title">{{#helpers.highlight}}{ "attribute": "video.title" }{{/helpers.highlight}}</span>

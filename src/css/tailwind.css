@@ -372,8 +372,17 @@ details[open] .summary-swap-open {
     box-shadow: 0 0 1px 4px #E7017A;
   }
 }
-.aspect-ratio-youtube {
-  padding-top: 74.9295775%;
+
+.jamstacktv-link {
+  display: flex;
+  flex-wrap: wrap;
+}
+.jamstacktv-card {
+  flex-basis: 18.75em; /* 300px /16 */
+}
+.jamstacktv-item {
+  flex-basis: 18.75em; /* 300px /16 */
+  flex-grow: 3;
 }
 .jamstacktv-card,
 .jamstacktv-img {
@@ -390,7 +399,7 @@ details[open] .summary-swap-open {
   @apply font-bold;
   position: absolute;
   right: .4em;
-  bottom: .4em;
+  top: .4em;
 }
 .jamstacktv-time {
   display: inline-block;
@@ -408,6 +417,7 @@ details[open] .summary-swap-open {
   margin-right: 3px;
 }
 .jamstacktv-item {
+  @apply p-4;
   display: flex;
   flex-direction: column;
   justify-content: center;
