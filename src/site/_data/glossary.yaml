@@ -7,7 +7,7 @@
 - term: 'Atomic deploys'
   id: 'atomic'
   summary: 'Contained and complete deploys, which begin being served only when all of their assets and config are complete and totally in place.'
-  definition: 'The word "atomic" is used to describe deploys which include no interim state or maintenance window. With atomic deploys, all of the code, assets and configuration of a site are updated at once so that a website cannot be be served in a partially updated state. 
+  definition: 'The word "atomic" is used to describe deploys which include no interim state or maintenance window. With atomic deploys, all of the code, assets and configuration of a site are updated at once so that a website cannot be served in a partially updated state. 
   
 
   While deploying and updating sites via FTP was once popular this would result in some updated files being present on the server and ready to serve while others were still in transit. Modern platforms avoid this situation by providing atomic deploys where the new version of the site only begins receiving request when all assets and configurations are available. See also [Immutable deploys](/glossary/immutable).'
