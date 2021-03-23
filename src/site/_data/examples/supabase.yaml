@@ -3,7 +3,7 @@ description: The Open Source Firebase Alternative
 link: https://supabase.io
 thumbnailurl: /img/examples/supabase.png
 tools:
-  - Netlify
+  - Vercel
   - TailwindCSS
   - Styled Components
   - Supabase
