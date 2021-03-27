@@ -91,7 +91,7 @@
 - term: 'Markdown'
   id: 'markdown'
   summary: 'A markup language for clean and simple text formatting that is closely associated with static site generators and the Jamstack.'
-  definition: 'Markdown is (confusingly) a markup language that is commonly used with [static site generators](/glossary/ssg/).
+  definition: 'Markdown is a markup language that is commonly used with [static site generators](/glossary/ssg/).
   
   
   This plain-text formatting syntax is so closely associated with SSGs like Jekyll that it is sometimes mistaken as the M in Jamstack (which actually stands for the more general term [markup](/glossary/markup/)).
