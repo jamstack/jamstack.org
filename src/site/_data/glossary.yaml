@@ -10,13 +10,13 @@
   definition: 'API is an acronym for Application Programming Interface. It defines interactions that allow two applications to talk to each other.
   
 
-  The "A" in Jamstack stands for APIs. Jamstack sites rely heavily on reusable APIs and the emergent [API Economy](/glossary/api-economy/) to add dynamic content and interactivity to otherwise [static sites](/glossary/ssg/).'
+  The "A" in Jamstack stands for APIs. Jamstack sites rely heavily on reusable APIs and the emergent [API economy](/glossary/api-economy/) to add dynamic content and interactivity to otherwise [static sites](/glossary/ssg/).'
 
 
-- term: 'API Economy'
+- term: 'API economy'
   id: 'api-economy'
   summary: 'The growing ecosystem of third-party [APIs](/glossary/api/) that are available for developers to use.'
-  definition: 'The API Economy describes the ever-growing ecosystem of third-party APIs that are available for developers to use.
+  definition: 'The API economy describes the ever-growing ecosystem of third-party APIs that are available for developers to use.
   
   
   Further reading: ["What is the API Economy and How Brands Can Benefit From It" by Richard Yao](https://medium.com/ipg-media-lab/what-is-the-api-economy-and-how-brands-can-benefit-from-it-b46210d0434d)'
@@ -49,7 +49,7 @@
 - term: 'Client render'
   id: 'client-render'
   summary: 'To generate the view of content, or update user interface elements, in the browser using JavaScript.'
-  definition: 'To generate the view of content in the browser using JavaScript. This often involves transmitting data to the browser rather than markup which is ready for the browser to display, and then using JavaScript to transform that data into a view by modifying the DOM. See also: [Server render](/glossary/server-render/); [Pre-render](/glossary/pre-render/).'
+  definition: 'To generate the view of content in the browser using JavaScript. This often involves transmitting data to the browser rather than markup which is ready for the browser to display, and then using JavaScript to transform that data into a view by modifying the DOM. See also: [Server render](/glossary/server-render/), [Pre-render](/glossary/pre-render/).'
 
 
 - term: 'Decoupling'
@@ -88,6 +88,39 @@
   When paired with [atomic deploys](/glossary/atomic/), immutable builds make it possible for sites to enjoy abilities such as instant rollbacks and versioning, and help to ensure that the code and assets of a website can be maintained in a known state.' 
 
 
+- term: 'Markdown'
+  id: 'markdown'
+  summary: 'A markup language for clean and simple text formatting that is closely associated with static site generators and the Jamstack.'
+  definition: 'Markdown is (confusingly) a markup language that is commonly used with static site generators.
+  
+  
+  This plain-text formatting syntax has been such a key features of SSGs like Jekyll that it is sometimes mistaken as the M in Jamstack (which actually stands for the more general term [markup](/glossary/markup/).
+
+
+  Further reading: ["What is Markdown and Why Does it Matter to the Jamstack?" by Brian Rinaldi](https://www.stackbit.com/blog/what-is-markdown/)
+  '
+
+- term: 'Markup'
+  id: 'markup'
+  summary: 'The pre-rendered HTML that defines the M in Jamstack, often compiled by a static site generator.'
+  definition: 'In the most general sense, a markup language provides a set of instructions to a web browser about how to process the structure of a site.
+  
+
+  As the "M" in Jamstack, markup typically refers specifically to [pre-rendered](/glossary/pre-render/) HTML.
+  
+  
+  Jamstack sites are usually built with [static site generators](/glossary/ssg/) that may use JavaScript or templating languages like Handlebars and Nunjucks. Regardless of how they are assembled, these sites are compiled down to HTML at build time.
+
+
+  Not to be confused with [Markdown](/glossary/markdown/), a plain text formatting syntax that converts to HTML.
+
+
+  In React-based apps, JSX can be incorporated into Markdown using the [MDX format](https://mdxjs.com/).
+
+
+  Further reading: ["Markdown is Markup and Other Confusions Around Jamstack" by Brian Rinaldi](https://remotesynthesis.com/blog/m-is-for-markup)'
+
+
 - term: 'Microservice'
   id: 'microservice'
   summary: 'A software design style that structures an app around loosely coupled, independently deployable modules.'
@@ -124,7 +157,10 @@
   definition: '"Serverless" or "serverless functions" are a means of providing a runtime environment for code without the need for, knowledge of, or control over, the underlying environment. This [allows for event-driven logic on the server without setting up infrastructure](https://twitter.com/sarah_edo/status/1361692489384517634). 
   
   
-  Common confusion over the term stems from the observation that "there is still a server somewhere." This may be true, but no servers are present in the problem space of those working with serverless functions. In a similar way, a wireless router will have wires for power and connectivity, but no wires exist in the domain of the devices utilizing a wireless router to connect to the internet.'
+  Common confusion over the term stems from the observation that "there is still a server somewhere." This may be true, but no servers are present in the problem space of those working with serverless functions. 
+  
+  
+  In a similar way, a wireless router will have wires for power and connectivity, but no wires exist in the domain of the devices utilizing a wireless router to connect to the internet.'
 
 
 - term: 'Static site generator'
@@ -141,12 +177,6 @@
 
 - term: 'Edge Network'
   id: 'edge-network'
-
-- term: 'Markdown'
-  id: 'markdown'
-
-- term: 'Markup'
-  id: 'markup'
 
 - term: 'Monolith'
   id: 'monolith'
