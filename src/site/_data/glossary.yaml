@@ -10,7 +10,7 @@
   definition: 'API is an acronym for Application Programming Interface. It defines interactions that allow two applications to talk to each other.
   
 
-  The "A" in Jamstack stands for APIs. Jamstack sites rely heavily on reusable APIs and the emergent [API economy](/glossary/api-economy/) to add dynamic content and interactivity to otherwise [static sites](/glossary/ssg/).'
+  The A in Jamstack stands for APIs. Jamstack sites rely heavily on reusable APIs and the emergent [API economy](/glossary/api-economy/) to add dynamic content and interactivity to otherwise [static sites](/glossary/ssg/).'
 
 
 - term: 'API economy'
@@ -91,10 +91,10 @@
 - term: 'Markdown'
   id: 'markdown'
   summary: 'A markup language for clean and simple text formatting that is closely associated with static site generators and the Jamstack.'
-  definition: 'Markdown is (confusingly) a markup language that is commonly used with static site generators.
+  definition: 'Markdown is (confusingly) a markup language that is commonly used with [static site generators](/glossary/ssg/).
   
   
-  This plain-text formatting syntax has been such a key features of SSGs like Jekyll that it is sometimes mistaken as the M in Jamstack (which actually stands for the more general term [markup](/glossary/markup/).
+  This plain-text formatting syntax has been such a key features of SSGs like Jekyll that it is sometimes mistaken as the M in Jamstack (which actually stands for the more general term [markup](/glossary/markup/)).
 
 
   Further reading: ["What is Markdown and Why Does it Matter to the Jamstack?" by Brian Rinaldi](https://www.stackbit.com/blog/what-is-markdown/)
@@ -106,13 +106,13 @@
   definition: 'In the most general sense, a markup language provides a set of instructions to a web browser about how to process the structure of a site.
   
 
-  As the "M" in Jamstack, markup typically refers specifically to [pre-rendered](/glossary/pre-render/) HTML.
+  As the M in Jamstack, markup typically refers specifically to [pre-rendered](/glossary/pre-render/) HTML.
   
   
   Jamstack sites are usually built with [static site generators](/glossary/ssg/) that may use JavaScript or templating languages like Handlebars and Nunjucks. Regardless of how they are assembled, these sites are compiled down to HTML at build time.
 
 
-  Not to be confused with [Markdown](/glossary/markdown/), a plain text formatting syntax that converts to HTML.
+  Not to be confused with [Markdown](/glossary/markdown/), a plain-text formatting syntax that converts to HTML.
 
 
   In React-based apps, JSX can be incorporated into Markdown using the [MDX format](https://mdxjs.com/).
