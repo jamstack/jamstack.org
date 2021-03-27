@@ -30,12 +30,12 @@
   id: 'edge-network'
 
 - term: 'Serverless'
+  id: 'serverless'
   summary: 'Serverless functions are a means of providing a run-time environment for code without the need for knowledge of, or control over, the underlying environment.'
-  definition: '"Serverless" or "serverless functions" are a means of providing a run-time environment for code without the need for knowledge of, or control over, the underlying environment. [It allows event-driven logic on the server without setting up infrastructure](https://twitter.com/sarah_edo/status/1361692489384517634). 
+  definition: '"Serverless" or "serverless functions" are a means of providing a runtime environment for code without the need for, knowledge of, or control over, the underlying environment. [It allows for event-driven logic on the server without setting up infrastructure](https://twitter.com/sarah_edo/status/1361692489384517634). 
   
   
   Common confusion over the term stems from the observation that "there is still a server somewhere", which is true, but no servers are present in the problem space of those working with serverless functions. In a similar way, a wireless router will have wires for power and connectivity, but no wires exist in the domain of the devices utilizing a wireless router to connect to the internet.'
-  id: 'serverless'
 
 - term: 'Pre-render / Pre-generate'
   id: 'pre-render'
@@ -64,6 +64,8 @@
 
 - term: 'Hydration'
   id: 'hydration'
+  summary: 'Hydration is the process of using client-side rendering to add interactivity to to server-rendered apps.'
+  definition: 'Hydration is the process of using client-side rendering to add interactivity to server-rendered apps. In effect, the browser "picks up" where the server "left off" creating the app. Hydration is a feature of React that enables us to add dynamic features and content to sites built with SSGs like Gatsby.'
 
 - term: 'Decoupling'
   id: 'decoupling'
@@ -83,10 +85,16 @@
   summary: 'A term that has come to mean the depth and breadth of APIs that are available for developers to use in the current landscape.'
   definition: 'A term that has come to mean the depth and breadth of APIs that are available for developers to use in the current landscape.'
 
-- term: 'Microservice'
-  id: 'microservice'
-  summary: 'A programming paradigm where many parts of a large application are broken down into various units that have smaller responsibility.'
-  definition: 'A programming paradigm where many parts of a large application are broken down into various units that have smaller responsibility. We can use Serverless or APIs for this, but it''s not that APIs or Serverless are necessarily Microservices, it''s that we have split apart what we want to access, and that modularity is what we call Microservices.'
+- term: 'Microservices'
+  id: 'microservices'
+  summary: 'A software design style that structures an app around loosely coupled, independently deployable modules.'
+  definition: 'Microservice architecture is a software design style that structures an app around loosely coupled, independently deployable modules. 
+  
+  In the context of the Jamstack, this means that we primarily rely on external distributed services - [the API economy](/glossary/api-economy) and [serverless functions](/glossary/serverless) - for our app functionality. 
+
+  The microservice paradigm is an extension of Service-Oriented Architecture (SOA), and an alternative to [monolithic architecture](/glossary/monolith). 
+
+  Further reading: ["What are Microservices?" By Sarah Dresner](https://www.netlify.com/blog/2019/11/18/what-are-microservices/)'
 
 - term: 'Monolith'
   id: 'monolith'
