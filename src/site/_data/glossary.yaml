@@ -31,27 +31,30 @@
   With atomic deploys, all of the code, assets and configuration of a site are updated at once so that a website cannot be served in a partially updated state. 
   
 
-  While deploying and updating sites via FTP was once popular this would result in some updated files being present on the server and ready to serve while others were still in transit. Modern platforms avoid this situation by providing atomic deploys where the new version of the site only begins receiving request when all assets and configurations are available. See also [Immutable deploys](/glossary/immutable).
+  While deploying and updating sites via FTP was once popular this would result in some updated files being present on the server and ready to serve while others were still in transit. Modern platforms avoid this situation by providing atomic deploys where the new version of the site only begins receiving request when all assets and configurations are available. See also: [Immutable deploys](/glossary/immutable).
   
-  
-  Further reading: ["Terminology explained: Atomic and immutable deploys" by Phil Hawksworth]()'
+
+  Further reading: ["Terminology explained: Atomic and immutable deploys" by Phil Hawksworth](https://www.netlify.com/blog/2021/02/23/terminology-explained-atomic-and-immutable-deploys/)'
 
 
 - term: 'CDN (Content Delivery Network)'
   id: 'cdn'
   summary: 'A network optimized for serving assets to users. A CDN can provide redundancy and also improve delivery performance as a result of being geographically distributed.'
-  definition: 'A distributed network optimized for serving assets to users. By being geographically distributed, a CDN can provide redundancy and also improve delivery performance as a result of servicing requests from the infrastructure closest to the user making the request.'
+  definition: 'A distributed network optimized for serving assets to users. By being geographically distributed, a CDN can provide redundancy and also improve delivery performance as a result of servicing requests from the infrastructure closest to the user making the request.
+  
+  
+  Further reading: ["What is a CDN? How do CDNs work?" from Cloudflare Documentation](https://www.cloudflare.com/learning/cdn/what-is-a-cdn/)'
 
 
 - term: 'Client render'
   id: 'client-render'
   summary: 'To generate the view of content, or update user interface elements, in the browser using JavaScript.'
-  definition: 'To generate the view of content in the browser using JavaScript. This often involves transmitting data to the browser rather than markup which is ready for the browser to display, and then using JavaScript to transform that data into a view by modifying the DOM'
+  definition: 'To generate the view of content in the browser using JavaScript. This often involves transmitting data to the browser rather than markup which is ready for the browser to display, and then using JavaScript to transform that data into a view by modifying the DOM. See also: [Server render](/glossary/server-render/); [Pre-render](/glossary/pre-render/)'
 
 
 - term: 'Decoupling'
   id: 'decoupling'
-  summary: 'Creating a distinct separation between systems or services. By decoupling the services needed to operate a site, each component part can be more easily swapped out, upgraded, and understood.'
+  summary: 'To create a distinct separation between systems or services. By decoupling the services needed to operate a site, each component part can be more easily swapped out, upgraded, and understood.'
   definition: 'Decoupling is the process of creating a clean separation between systems or services. By decoupling the services needed to operate a site, each component part can become easier to reason about, can be independently swapped out or upgraded, and can be designated the purview of dedicated specialists either within an organization, or as a third party.'
 
 
@@ -63,8 +66,8 @@
 
 - term: 'Hydration'
   id: 'hydration'
-  summary: 'Hydration is the process of using client-side rendering to add interactivity to server-rendered apps.'
-  definition: 'Hydration is the process of using client-side rendering to add interactivity to server-rendered apps. In effect, the browser "picks up" where the server "left off" creating the app. Hydration is a feature of React that enables us to add dynamic content to sites built with [static site generators](/glossary/ssg/) (SSGs) like [Gatsby](/generators/gatsby/).
+  summary: 'The process of using client-side rendering to add interactivity to server-rendered apps.'
+  definition: 'Hydration is the process of using [client-side rendering](/glossary/client-render/) to add interactivity to server-rendered(/glossary/server-render/) apps. In effect, the browser "picks up" where the server "left off" creating the app. Hydration is a feature of React that enables us to add dynamic content to sites built with [static site generators](/glossary/ssg/) (SSGs) like [Gatsby](/generators/gatsby/).
   
   
   Further reading: ["Hydration" from Gatsby Documentation](https://www.gatsbyjs.com/docs/glossary/hydration/)'
@@ -77,6 +80,21 @@
   
   
   When paired with [atomic deploys](/glossary/atomic), immutable builds make it possible for sites to enjoy abilities such as instant rollbacks and versioning, and help to ensure that the code and assets of a website can be maintained in a known state.' 
+
+
+- term: 'Microservices'
+  id: 'microservices'
+  summary: 'A software design style that structures an app around loosely coupled, independently deployable modules.'
+  definition: 'Microservice architecture is a software design style that structures an app around loosely coupled, independently deployable modules. 
+  
+
+  In the context of the Jamstack, this means that we primarily rely on external distributed services - [the API economy](/glossary/api-economy) and [serverless functions](/glossary/serverless) - for our app functionality. 
+
+
+  The microservice paradigm is an extension of Service-Oriented Architecture (SOA), and an alternative to the more traditional [monolithic architecture](/glossary/monolith). 
+
+
+  Further reading: ["What are Microservices?" By Sarah Drasner](https://www.netlify.com/blog/2019/11/18/what-are-microservices/)'
 
 
 - term: 'Pre-render / Pre-generate'
@@ -105,20 +123,6 @@
   summary: 'A tool which can transform content, data, and templates into files that can be deployed to a hosting environment as a ready-to-serve web site.'
   definition: "A tool which can be run as part of a build to transform content, data, and templates into files which can be deployed to a hosting environment as a ready-to-serve web site. Find a more detailed description in this article: <a href='https://www.netlify.com/blog/2020/04/14/what-is-a-static-site-generator-and-3-ways-to-find-the-best-one/?utm_source=jamstackorg&utm_medium=what-are-ssg-pnh&utm_campaign=devex'>What is a Static Site Generator? And 3 ways to find the best one</a>."
 
-
-- term: 'Microservices'
-  id: 'microservices'
-  summary: 'A software design style that structures an app around loosely coupled, independently deployable modules.'
-  definition: 'Microservice architecture is a software design style that structures an app around loosely coupled, independently deployable modules. 
-  
-
-  In the context of the Jamstack, this means that we primarily rely on external distributed services - [the API economy](/glossary/api-economy) and [serverless functions](/glossary/serverless) - for our app functionality. 
-
-
-  The microservice paradigm is an extension of Service-Oriented Architecture (SOA), and an alternative to the more traditional [monolithic architecture](/glossary/monolith). 
-
-
-  Further reading: ["What are Microservices?" By Sarah Drasner](https://www.netlify.com/blog/2019/11/18/what-are-microservices/)'
 
 - term: 'Dynamic server'
   id: 'dynamic-server'
