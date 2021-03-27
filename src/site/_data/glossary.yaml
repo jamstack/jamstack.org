@@ -178,8 +178,14 @@
 - term: 'Edge Network'
   id: 'edge-network'
 
+- term: 'GraphQL'
+  id: 'graphql'
+
 - term: 'Monolith'
   id: 'monolith'
 
 - term: 'Monorepo'
   id: 'monorepo'
+
+- term: 'REST API'
+  id: 'rest-api'
