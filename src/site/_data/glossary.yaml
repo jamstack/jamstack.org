@@ -90,11 +90,16 @@
   summary: 'A software design style that structures an app around loosely coupled, independently deployable modules.'
   definition: 'Microservice architecture is a software design style that structures an app around loosely coupled, independently deployable modules. 
   
+
   In the context of the Jamstack, this means that we primarily rely on external distributed services - [the API economy](/glossary/api-economy) and [serverless functions](/glossary/serverless) - for our app functionality. 
 
-  The microservice paradigm is an extension of Service-Oriented Architecture (SOA), and an alternative to [monolithic architecture](/glossary/monolith). 
 
-  Further reading: ["What are Microservices?" By Sarah Dresner](https://www.netlify.com/blog/2019/11/18/what-are-microservices/)'
+  The microservice paradigm is an extension of Service-Oriented Architecture (SOA), and an alternative to the more traditional [monolithic architecture](/glossary/monolith). 
+
+
+  Further reading: ["What are Microservices?" By Sarah Drasner](https://www.netlify.com/blog/2019/11/18/what-are-microservices/)'
+
+
 
 - term: 'Monolith'
   id: 'monolith'
