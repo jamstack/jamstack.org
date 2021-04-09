@@ -1,6 +1,6 @@
 ---
 title: Enonic XP
-repo: enonic/xp-distro
+repo: enonic/xp
 homepage: https://enonic.com/
 twitter: EnonicHQ
 opensource: "Yes"
