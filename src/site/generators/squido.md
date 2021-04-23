@@ -13,7 +13,6 @@ templates:
   - Yaml
   - Markdown
 description: 'A dead simple static HTML website builder which can be hosted anywhere for super fast websites and very little effort.'
-twitter: hexojs
 startertemplaterepo: https://github.com/mrvautin/squido-blog
 ---
 
