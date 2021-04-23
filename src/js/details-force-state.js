@@ -8,9 +8,12 @@
     base: "data-force-state",
     forceState: "data-force-state-closed",
   };
+  var classes = {
+    init: "details-enhanced"
+  };
 
-  function forceState(detail, isOpen) {
-    if( isOpen ) {
+  function forceState(detail, setOpen) {
+    if( setOpen ) {
       detail.setAttribute("open", "open");
     } else {
       detail.removeAttribute("open");
@@ -18,16 +21,17 @@
   }
 
   function getMatchMedia(detail) {
-    if(!detail) return;
+    if(!detail || !("matchMedia" in window)) return;
 
     let forceClosed = detail.getAttribute(attr.forceState);
-    if(forceClosed && "matchMedia" in window) {
+    if(forceClosed) {
       return window.matchMedia(forceClosed);
     }
   }
 
   let details = Array.from(document.querySelectorAll(`details[${attr.base}]`));
   for(let detail of details) {
+    detail.classList.add(classes.init);
     let mm = getMatchMedia(detail);
 
     if( mm ) {
