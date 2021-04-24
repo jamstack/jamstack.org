@@ -12,7 +12,7 @@ templates:
   - Handlebars
   - Yaml
   - Markdown
-description: 'A dead simple static HTML website builder which can be hosted anywhere for super fast websites and very little effort.'
+description: 'A dead simple static HTML website builder which can be hosted anywhere for super fast websites and very little effort. Create your Blog or Documentation using our boilerplate examples.'
 twitter: squido_app
 startertemplaterepo: https://github.com/mrvautin/squido-blog
 ---
