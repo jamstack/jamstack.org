@@ -40,7 +40,7 @@
 - term: 'Pre-render / Pre-generate'
   id: 'pre-render'
   summary: 'To generate the markup which represents a view of in advance of when it is required instead of just-in-time in response to requests.'
-  definition: 'To generate the markup which represents a view in advance of when it is required. This happens during a build rather than on-demand so that web servers do not need to perform this activity for each request recieved.'
+  definition: 'To generate the markup which represents a view in advance of when it is required. This happens during a build rather than on-demand so that web servers do not need to perform this activity for each request received.'
 
 - term: 'Server render'
   id: 'server-render'
