@@ -8,8 +8,8 @@ typeofcms: "API Driven"
 supportedgenerators:
   - All
 description: |
-  Airship CMS is a cloud-hosted headless CMS that integrates with your local development workflow.
-  Use the Airship templating system (based on handlebars) for classic server rendering or use the public API to build single page apps, static site generators, and custom applications.
+  Airship is a cloud-hosted headless CMS that integrates with your local development workflow.
+  Use Airship templating (based on handlebars) for classic server rendering or use the API to build single page apps, statically generated sites, and custom applications.
 images:
   - path: /img/cms/airship-cms1.jpg
   - path: /img/cms/airship-cms2.jpg
