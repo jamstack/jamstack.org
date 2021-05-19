@@ -1,0 +1,9 @@
+title: HaroldJS - Static Sites Generator
+description: With Harold, it is much simpler and quicker to create your static sites! Blogs, landing pages, portfolios, documentation sites - start with ready-to-use templates.
+link: https://www.haroldjs.com
+thumbnailurl: /img/examples/haroldjs.jpg
+tools:
+  - handlebars
+  - lunr
+  - scss
+  - markdown
