@@ -1,0 +1,11 @@
+title: Enea Xharja
+description: 'My Own Little Corner of the Web'
+link: 'https://eneaxharja.com/'
+thumbnailurl: /img/examples/eneaxharja.jpg
+tools:
+  - React
+  - Gatsby.js
+  - styled-components
+  - Markdown
+  - GitHub
+  - Netlify
