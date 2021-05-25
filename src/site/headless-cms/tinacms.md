@@ -14,7 +14,7 @@ description: An open-source editor focused on visual editing
 
 Tina is a toolkit for building visual editing into your site. By creating a custom editing experience with Tina instead of opting for a conventional CMS, developers can give their teams a contextual, intuitive editing experience without sacrificing code quality.
 
-To see Tina in action just go to [tina.io](https://tina.io)!
+To see Tina in action go to [tina.io](https://tina.io) or [try the demo](https://tina-demo-two.vercel.app/)
 
 ## The Next Generation of Content Management
 
