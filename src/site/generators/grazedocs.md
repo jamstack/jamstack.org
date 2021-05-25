@@ -3,7 +3,7 @@ title: GrazeDocs
 repo: mikoskinen/GrazeDocs
 homepage: https://grazedocs.io/
 language:
-  - CSharp
+  - C#
 license:
   - MIT
 templates:
