@@ -94,6 +94,7 @@
 - name: Florence
   link: https://www.meetup.com/Jamstack_Florence/
   feed: https://api.meetup.com/Jamstack_Florence/events
+  country: Italy
 
 - name: Detroit
   link: https://www.meetup.com/Jamstack-Detroit/
