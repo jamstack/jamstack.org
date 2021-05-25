@@ -33,7 +33,7 @@ Nuxt will help you generate and deploy a Vue.js Web Application faster than befo
 [Vue SSR](https://vuejs.org/v2/guide/ssr.html) is used to generate pages for both client and server;
 It's called Isomorphic/ Universal rendering.
 
-Then you can run `nuxt generate` to generate your static website into a ./dist forlder and deploy it everywhere:
+Then you can run `nuxt generate` to generate your static website into a ./dist folder and deploy it everywhere:
 
 Netlify, GitHub Pages, GitLab, AWS3, etc.
 
