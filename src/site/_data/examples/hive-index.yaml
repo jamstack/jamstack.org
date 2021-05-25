@@ -1,0 +1,10 @@
+title: Hive Index
+description: Discover online communities, across all platforms, for any topic.
+link: https://thehiveindex.com/
+thumbnailurl: /img/examples/hive-index.jpg
+tools:
+  - Gatsby
+  - React
+  - Google Sheets
+  - Algolia
+  - Netlify
