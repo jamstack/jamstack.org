@@ -1,0 +1,13 @@
+
+title: OpenGraph
+description: Check how search engines and social medias such as Google, Facebook, Twitter display your website.
+link: 'https://www.opengraph.xyz/'
+thumbnailurl: /img/examples/opengraph.jpg
+tools:
+  - NuxtJs
+  - VueJs
+  - Tailwind CSS
+  - Prismic
+  - Airtable
+  - Netlify
+
