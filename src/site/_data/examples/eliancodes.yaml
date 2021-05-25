@@ -1,0 +1,10 @@
+title: Elian Codes
+description: Personal Website, Blog and Portfolio of Elian Van Cutsem
+link: https://www.elian.codes
+thumbnailurl: /img/examples/eliancodes.jpg
+tools:
+  - Nuxtjs
+  - TypeScript
+  - TailwindCSS
+  - Netlify
+  - Nuxt Content
