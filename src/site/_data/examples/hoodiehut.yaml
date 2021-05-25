@@ -1,0 +1,11 @@
+title: HoodieHut
+description: Printed hoodies for schools, colleges, and universities.
+link: https://www.hoodiehut.co.uk
+thumbnailurl: /img/examples/hoodiehut.png
+tools:
+  - GatsbyJS
+  - NetlifyCMS
+  - Styled Components
+  - Netlify
+  - Embla Carousel
+  - GraphQL
