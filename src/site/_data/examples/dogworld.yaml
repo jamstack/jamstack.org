@@ -1,0 +1,11 @@
+title: Dog World
+description: The best way to find your new puppy
+link: 'https://dogworld.io/'
+thumbnailurl: /img/examples/dog-world.png
+tools:
+  - NextJs
+  - TailwindCSS
+  - Tailwind UI
+  - Storyblok CMS
+  - Firebase
+  - Vercel
