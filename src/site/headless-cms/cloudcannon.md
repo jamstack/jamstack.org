@@ -9,7 +9,7 @@ supportedgenerators:
   - Hugo
 description: The Cloud CMS for Jekyll and Hugo - build Jekyll or Hugo static websites, make updates inline.
 ---
-## Cloud Cannon
+## CloudCannon
 The Cloud CMS for Jekyll or Hugo - build Jekyll or Hugo static websites, have your team and clients update inline.
 
 ### Easy Editing
