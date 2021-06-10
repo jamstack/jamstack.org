@@ -41,6 +41,11 @@
   status = 200
 
 [[redirects]]
+  from = "/conf/cfp"
+  to = "https://forms.gle/VcR5oagRhcpYcUT66"
+  status = 302
+
+[[redirects]]
   from = "/glossary/*"
   to = "/glossary/contribute/index.html"
   status = 404
