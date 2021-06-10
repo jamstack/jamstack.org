@@ -119,3 +119,7 @@
 - name: Nuremberg
   link: https://www.meetup.com/jamstack-nuremberg/
   feed: https://api.meetup.com/jamstack-nuremberg/events
+
+- name: Yerevan
+  link: https://www.meetup.com/jamstack-armenia/
+  feed: https://api.meetup.com/jamstack-armenia/events
