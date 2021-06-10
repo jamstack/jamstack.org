@@ -41,6 +41,11 @@
   status = 200
 
 [[redirects]]
+  from = "/conf/"
+  to = "https://jamstackconf.com/"
+  status = 302
+
+[[redirects]]
   from = "/conf/cfp"
   to = "https://forms.gle/VcR5oagRhcpYcUT66"
   status = 302
