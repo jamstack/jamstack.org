@@ -80,8 +80,8 @@
   feed: https://api.meetup.com/Jamstack-Minsk/events
 
 - name: Chicago
-  link: https://www.meetup.com/Jamstack-Chicago/
-  feed: https://api.meetup.com/Jamstack-Chicago/events
+  link: https://www.meetup.com/b4974f5c-3d26-4bfb-8e24-6b670605fa9e/
+  feed: https://api.meetup.com/b4974f5c-3d26-4bfb-8e24-6b670605fa9e/events
 
 - name: Lagos
   link: https://www.meetup.com/Jamstack-Lagos/
