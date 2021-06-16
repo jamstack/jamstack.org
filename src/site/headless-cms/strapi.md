@@ -15,7 +15,7 @@ images:
 
 ## Get started
 
-Get started with Stapi using yarn or npx:
+Get started with Strapi using yarn or npx:
 
 <br />
 
