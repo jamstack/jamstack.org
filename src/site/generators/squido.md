@@ -14,7 +14,7 @@ templates:
   - Markdown
 description: 'A dead simple static HTML website builder which can be hosted anywhere for super fast websites and very little effort. Create your Blog or Documentation using our boilerplate examples.'
 twitter: squido_app
-startertemplaterepo: https://github.com/mrvautin/squido-blog
+startertemplaterepo: https://github.com/mrvautin/squido-blog-example
 ---
 
 <img src="https://raw.githubusercontent.com/mrvautin/squido/main/docs/images/squido.svg" width="200px" height="200px">
