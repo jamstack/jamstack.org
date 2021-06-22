@@ -44,12 +44,18 @@
 
 .survey-form .hs-form {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   grid-gap: 1em;
+}
+
+@media (min-width: 40em) { /* 640px */
+  .survey-form .hs-form {
+    grid-template-columns: repeat(auto-fit, minmax(17em, 1fr));
+  }
 }
 
 .survey-form .hs_email,
 .survey-form .hs_jamstack_survey_promo,
 .survey-form .hs_address {
-  grid-column: span 2;
+  grid-column: 1 / -1;
 }
