@@ -1,5 +1,6 @@
 /* import via postcss */
 @import "../site/css/ticker.css";
+@import "../site/css/hubspot-form.css";
 
 /* purgecss start ignore */
 @tailwind  base;
