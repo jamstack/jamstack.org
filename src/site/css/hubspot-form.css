@@ -43,8 +43,8 @@
 }
 
 .survey-form .hs-form {
-  display: grid;
-  grid-template-columns: 1fr;
+  @apply grid;
+  @apply grid-cols-1;
   grid-gap: 1em;
 }
 
@@ -57,5 +57,5 @@
 .survey-form .hs_email,
 .survey-form .hs_jamstack_survey_promo,
 .survey-form .hs_address {
-  grid-column: 1 / -1;
+  @apply col-span-full;
 }
