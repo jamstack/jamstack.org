@@ -1,0 +1,11 @@
+title: FinewayTravel
+description: FinewayTravel is a travel agencey in Sri Lanka, specialized in Tailor-made tours and holidays.
+link: "https://finewaytravel.com"
+thumbnailurl: /img/examples/fineway-travel-thumb.jpg
+tools:
+  - NuxtJS
+  - Strapi CMS
+  - Squoosh
+  - Gulp
+  - AWS S3
+  - AWS CloudFront
