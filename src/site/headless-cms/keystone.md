@@ -7,7 +7,7 @@ opensource: "Yes"
 typeofcms: "API Driven"
 supportedgenerators:
   - All
-description: The the programmable backend that allows you to create a highly customised CMS and API in minutes.
+description: The programmable backend that allows you to create a highly customised CMS and API in minutes.
 images:
   - path: /img/cms/keystone-hero.png
   - path: /img/cms/keystone-js-schema-example.png
