@@ -1,0 +1,22 @@
+---
+title: Jamstack Sticker Giveaway
+description: Share the survey with your network and we’ll share some sticker love!
+layout: layouts/base.njk
+excludeFromSitemap: true
+---
+
+{% import "components/zinger-cta.njk" as zinger %}
+
+<section class="my-20">
+  <h1>Thanks for filling out the Jamstack community survey</h1>
+  {{ zinger.cta(
+    "Share the survey",
+    "https://twitter.com/intent/tweet?text=%F0%9F%8E%89I%20completed%20the%20Jamstack%20Community%20Survey.%20Share%20your%20feedback%20and%20unlock%20a%20special%20edition%20Jamstack%20sticker!&url=https%3A%2F%2Fwww.surveymonkey.com%2Fr%2Fjamstack-share-survey",
+    "bg-gradient-card-sunrise card-shadow hover:card-shadow-sunrise mb-9"
+    )
+  }}
+  <h2>Jamstack Sticker Giveaway</h2>
+  <p class="font-semibold">Oh no! We’ve maxed out on our sticker giveaway.</p>
+  <p>Thank you for taking the time to complete the survey. Please continue to share with your network, communities, and teams.</p>
+  <p>Ready to connect with others in the Jamstack Community? Join the <a href="https://join.slack.com/t/jamstack/shared_invite/zt-qkent5tv-0D0Nu3M1rJEHhVHE4zUMBw">Jamstack Slack</a>!</p>
+</section>

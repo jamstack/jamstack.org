@@ -55,6 +55,11 @@
   to = "/glossary/contribute/index.html"
   status = 404
 
+[[redirects]]
+  from = "/survey"
+  to = "https://www.surveymonkey.com/r/jamstack-survey"
+  status = 302
+
 
 [[plugins]]
   package = "./plugins/keep-dot-cache-folder"

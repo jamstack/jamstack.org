@@ -1,0 +1,61 @@
+.hs-form .hs-input {
+  @apply mb-3;
+  @apply p-2;
+  @apply bg-gray-400;
+  @apply w-full;
+
+  color: white;
+}
+
+.hs-form .hs-form-required {
+  @apply hidden;
+}
+
+.hs-form .hs-form-field label {
+  @apply block;
+  @apply mb-1;
+  @apply font-bold;
+}
+
+.hs-form .hs-form-field label.hs-error-msg {
+  @apply text-red-300;
+  @apply text-sm;
+  @apply font-normal;
+}
+
+.hs-form .hs-button {
+  @apply inline-block;
+  @apply bg-pink-900;
+  @apply text-white;
+  @apply rounded-full;
+  @apply font-semibold;
+  @apply px-4;
+  @apply py-2;
+  @apply border-none;
+  @apply my-4;
+  @apply card-shadow;
+}
+
+.hs-form .hs-button:hover,
+.hs-form .hs-button:focus {
+  @apply bg-orange-500;
+  box-shadow: 0px 3px 15px rgba(241, 86, 77, 0.6);
+}
+
+.survey-form .hs-form {
+  @apply grid;
+  @apply grid-cols-1;
+  grid-gap: 1em;
+}
+
+@media (min-width: 40em) { /* 640px */
+  .survey-form .hs-form {
+    grid-template-columns: repeat(auto-fit, minmax(17em, 1fr));
+  }
+}
+
+.survey-form .hs_email,
+.survey-form .hs_jamstack_survey_promo,
+.survey-form .hs_address {
+  @apply col-span-full;
+}
