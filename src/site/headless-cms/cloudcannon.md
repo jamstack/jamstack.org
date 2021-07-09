@@ -6,10 +6,11 @@ opensource: "No"
 typeofcms: "Git-based"
 supportedgenerators:
   - Jekyll
-description: The Cloud CMS for Jekyll - build Jekyll or static websites, make updates inline.
+  - Hugo
+description: The Cloud CMS for Jekyll and Hugo - build Jekyll or Hugo static websites, make updates inline.
 ---
-## Cloud Cannon
-The Cloud CMS for Jekyll - build Jekyll or static websites, have your team and clients update inline.
+## CloudCannon
+The Cloud CMS for Jekyll or Hugo - build Jekyll or Hugo static websites, have your team and clients update inline.
 
 ### Easy Editing
 Update content directly on the page. There's no guessing how changes appear on the live site.
@@ -30,7 +31,7 @@ Content changes made on CloudCannon also sync back to your repository or Dropbox
 
 ### Editable Hydra
 The tools you love
-Build sites using Jekyll, Liquid, Sass and any CSS or JavaScript frameworks you like.
+Build sites using Hugo, Jekyll, Liquid, Sass and any CSS or JavaScript frameworks you like.
 
 Write your own Ruby to extend Jekyll with CloudCannon Jekyll plugin support.
 
