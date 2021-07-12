@@ -13,7 +13,7 @@ description: A streaming static site generator for Gulp
 
 A tool for building static sites with Gulp. Inspired by wintersmith.
 
-Written by [William Riley-Land](http://kun.io/wprl).
+Written by [William Riley-Land](https://kun.io/wprl).
 
 ### About
 

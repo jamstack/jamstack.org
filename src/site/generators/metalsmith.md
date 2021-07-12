@@ -1,7 +1,7 @@
 ---
 title: Metalsmith
 repo: segmentio/metalsmith
-homepage: http://www.metalsmith.io/
+homepage: https://www.metalsmith.io/
 language:
   - JavaScript
 license:

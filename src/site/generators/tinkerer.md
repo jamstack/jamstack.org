@@ -1,7 +1,7 @@
 ---
 title: Tinkerer
 repo: vladris/tinkerer
-homepage: http://tinkerer.me
+homepage: https://tinkerer.me
 language:
   - Python
 license:

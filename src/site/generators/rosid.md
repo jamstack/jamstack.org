@@ -1,7 +1,7 @@
 ---
 title: Rosid
 repo: electerious/Rosid
-homepage: http://rosid.electerious.com/
+homepage: https://rosid.electerious.com/
 language:
   - JavaScript
 license:
@@ -24,7 +24,7 @@ Rosid is a framework that focus on two features:
 
 - It doesn't force you to use a defined directory structure
 - It's build on popular modules like [Browsersync](https://www.browsersync.io)
-- It integrates nicely with tools you are are already using to transform your files (e.g. [Gulp](http://gulpjs.com), [Grunt](http://gruntjs.com) or Vanilla JS)
+- It integrates nicely with tools you are are already using to transform your files (e.g. [Gulp](https://gulpjs.com), [Grunt](https://gruntjs.com) or Vanilla JS)
 - It's lightweight and only includes what it really needs
 - Transformed files don't need to be saved along their source files
 - It lets you compile code to static files to host them anywhere

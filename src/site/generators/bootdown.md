@@ -1,7 +1,7 @@
 ---
 title: BootDown
 repo: interstar/bootdown
-homepage: http://project.geekweaver.com/
+homepage: https://project.geekweaver.com/
 language:
   - Python
 license:

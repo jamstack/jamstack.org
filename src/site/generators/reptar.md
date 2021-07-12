@@ -1,7 +1,7 @@
 ---
 title: Reptar
 repo: reptar/reptar
-homepage: http://reptar.github.io/
+homepage: https://reptar.github.io/
 language:
   - JavaScript
 license:

@@ -1,7 +1,7 @@
 ---
 title: OpenRat
 repo: dankert/openrat-cms
-homepage: http://www.openrat.de
+homepage: https://www.openrat.de
 language:
   - PHP
 license:

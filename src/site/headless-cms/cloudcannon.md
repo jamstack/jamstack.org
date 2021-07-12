@@ -1,6 +1,6 @@
 ---
 title: CloudCannon
-homepage: http://cloudcannon.com
+homepage: https://cloudcannon.com
 twitter: cloudcannon
 opensource: "No"
 typeofcms: "Git-based"

@@ -1,7 +1,7 @@
 ---
 title: Bookdown (PHP)
 repo: bookdown/Bookdown.Bookdown
-homepage: http://bookdown.io/
+homepage: https://bookdown.io/
 language:
   - PHP
 license:
@@ -11,8 +11,8 @@ templates:
 description: Bookdown generates DocBook-like HTML output using CommonMark and JSON files.
 ---
 
-Bookdown generates [DocBook](http://docbook.org)-like HTML output using [Markdown](http://daringfireball.net/projects/markdown/) and JSON files instead of XML.
+Bookdown generates [DocBook](https://docbook.org)-like HTML output using [Markdown](https://daringfireball.net/projects/markdown/) and JSON files instead of XML.
 
 Bookdown is especially well-suited for publishing project documentation to GitHub Pages.
 
-Read more about it at <http://bookdown.io>.
+Read more about it at <https://bookdown.io>.

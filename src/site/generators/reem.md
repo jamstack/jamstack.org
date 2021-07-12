@@ -1,7 +1,7 @@
 ---
 title: Reem
 repo: andrejewski/reem
-homepage: http://github.com/andrejewski/reem
+homepage: https://github.com/andrejewski/reem
 language:
   - JavaScript
 license:

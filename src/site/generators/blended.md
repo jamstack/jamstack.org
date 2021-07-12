@@ -1,7 +1,7 @@
 ---
 title: Blended
 repo: BlendedSiteGenerator/Blended
-homepage: http://jmroper.com/blended/
+homepage: https://jmroper.com/blended/
 language:
   - Python
 license:

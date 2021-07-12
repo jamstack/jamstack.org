@@ -1,7 +1,7 @@
 ---
 title: Jigsaw
 repo: tightenco/jigsaw
-homepage: http://jigsaw.tighten.co/
+homepage: https://jigsaw.tighten.co/
 language:
   - PHP
 license:

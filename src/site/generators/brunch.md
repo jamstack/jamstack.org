@@ -1,7 +1,7 @@
 ---
 title: Brunch
 repo: brunch/brunch
-homepage: http://brunch.io/
+homepage: https://brunch.io/
 language:
   - JavaScript
 license:

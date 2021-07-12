@@ -1,7 +1,7 @@
 ---
 title: Prose
 repo: prose/prose
-homepage: http://prose.io
+homepage: https://prose.io
 opensource: "Yes"
 typeofcms: "Git-based"
 supportedgenerators:

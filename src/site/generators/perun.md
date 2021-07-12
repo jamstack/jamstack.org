@@ -11,7 +11,7 @@ templates:
 description: Composable static site generator build with Clojure and Boot
 ---
 
-Simple, composable static site generator inspired by [Boot](http://boot-clj.com/) task model and [Metalsmith](http://www.metalsmith.io/).
+Simple, composable static site generator inspired by [Boot](https://boot-clj.com/) task model and [Metalsmith](https://www.metalsmith.io/).
 Perun is a collection of Boot tasks/plugins that you can chain together and build something custom that suits your needs.
 
 ## Plugins system
@@ -40,8 +40,8 @@ But if you want to make permalinks, generate sitemap and rss feed, hide unfinish
         (permalink)
         (render :renderer renderer)
         (sitemap :filename "sitemap.xml")
-        (rss :title "Hashobject" :description "Hashobject blog" :link "http://blog.hashobject.com")
-        (atom-feed :title "Hashobject" :subtitle "Hashobject blog" :link "http://blog.hashobject.com")
+        (rss :title "Hashobject" :description "Hashobject blog" :link "https://blog.hashobject.com")
+        (atom-feed :title "Hashobject" :subtitle "Hashobject blog" :link "https://blog.hashobject.com")
         (notify)))
 ```
 

@@ -24,7 +24,7 @@ No configuration is needed, just write your Application with Vue.js components.
 
 If you want to write you content in markdown files, its super easy with the [vue markdown filter](https://vuejs.org/v2/examples/)
 
-You can extend your Application, Blog or Website with some packages on the [NPM ecosystem](http://npmjs.org/).
+You can extend your Application, Blog or Website with some packages on the [NPM ecosystem](https://npmjs.org/).
 
 Nuxt will help you generate and deploy a Vue.js Web Application faster than before.
 
@@ -40,4 +40,4 @@ Netlify, GitHub Pages, GitLab, AWS3, etc.
 ## Setup a project in a minute
 
 Creating a website based on Nuxt only takes a minute.
-[Quick introduction of Nuxt : 1 minute](http://nuxtjs.org/examples)
+[Quick introduction of Nuxt : 1 minute](https://nuxtjs.org/examples)

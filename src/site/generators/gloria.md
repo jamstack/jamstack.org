@@ -19,7 +19,7 @@ This project aims to be a substitute for jekyll, to help you create static websi
 
 We have a slack team, there are channels to talk about contributing, support, updates, meta and everything.
 
-Request an invite [here](http://slack.gloriajs.com/).
+Request an invite [here](https://slack.gloriajs.com/).
 
 ## Philosophy
 

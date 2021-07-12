@@ -52,4 +52,4 @@ madoko mydoc.mdk
 madoko --pdf --odir=out mydoc
 ```
 
-[reference manual]: http://madoko.org/reference.html
+[reference manual]: https://madoko.org/reference.html

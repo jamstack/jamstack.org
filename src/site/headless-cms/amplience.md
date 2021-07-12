@@ -75,5 +75,5 @@ Bring all your content together in one platform with:
 
 
 Find out more at: https://www.amplience.com
-Visit our docs at: http://docs.amplience.net
+Visit our docs at: https://docs.amplience.net
 And our product blog at: https://productblog.amplience.com

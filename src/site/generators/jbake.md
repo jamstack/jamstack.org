@@ -1,7 +1,7 @@
 ---
 title: JBake
 repo: jbake-org/jbake
-homepage: http://jbake.org/
+homepage: https://jbake.org/
 language:
   - Java
 license:

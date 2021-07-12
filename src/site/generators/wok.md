@@ -1,7 +1,7 @@
 ---
 title: wok
 repo: mythmon/wok
-homepage: http://wok.mythmon.com/
+homepage: https://wok.mythmon.com/
 language:
   - Python
 license:

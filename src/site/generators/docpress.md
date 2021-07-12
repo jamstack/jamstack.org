@@ -1,7 +1,7 @@
 ---
 title: Docpress
 repo: docpress/docpress
-homepage: http://docpress.github.io
+homepage: https://docpress.github.io
 language:
   - JavaScript
 license:
@@ -12,7 +12,7 @@ description: Painless Markdown publishing
 ---
 
 Docpress generates websites from your project's basic documentation; that is, at the very least, a README.md file.
-It also supports multiple Markdown pages in `docs/`. Checkout our [Homepage](http://docpress.github.io) for a quick example.
+It also supports multiple Markdown pages in `docs/`. Checkout our [Homepage](https://docpress.github.io) for a quick example.
 
 ## Examples
 
@@ -21,7 +21,7 @@ Check out the [Docpress Showcase](https://github.com/docpress/docpress/blob/mast
 ## Usage
 
 Still under heavy development, consider this a preview.
-See the [Getting Started](http://docpress.github.io/getting-started/quickstart.html) guide for more details.
+See the [Getting Started](https://docpress.github.io/getting-started/quickstart.html) guide for more details.
 
 ```sh
 $ npm install -g docpress
@@ -46,20 +46,20 @@ $ docpress serve
 
 ## Support
 
-- [Documentation](http://docpress.github.io/)
+- [Documentation](https://docpress.github.io/)
 - [Gitter chat](https://gitter.im/docpress/Lobby)
 
 Let's build our first Docpress site.
-[Quickstart guide →](http://docpress.github.io/getting-started/quickstart.html)
+[Quickstart guide →](https://docpress.github.io/getting-started/quickstart.html)
 
 ## Thanks
 
 **docpress** © 2015+, Rico Sta. Cruz. Released under the [MIT] License.<br>
 Authored and maintained by Rico Sta. Cruz with help from contributors ([list][contributors]).
 
-> [ricostacruz.com](http://ricostacruz.com) &nbsp;&middot;&nbsp;
+> [ricostacruz.com](https://ricostacruz.com) &nbsp;&middot;&nbsp;
 > GitHub [@rstacruz](https://github.com/rstacruz) &nbsp;&middot;&nbsp;
 > Twitter [@rstacruz](https://twitter.com/rstacruz)
 
-[mit]: http://mit-license.org/
-[contributors]: http://github.com/rstacruz/docpress/contributors
+[mit]: https://mit-license.org/
+[contributors]: https://github.com/rstacruz/docpress/contributors

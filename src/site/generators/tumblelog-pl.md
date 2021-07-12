@@ -1,7 +1,7 @@
 ---
 title: tumblelog
 repo: john-bokma/tumblelog
-homepage: http://johnbokma.com/articles/tumblelog/
+homepage: https://johnbokma.com/articles/tumblelog/
 language:
   - Perl
 license:

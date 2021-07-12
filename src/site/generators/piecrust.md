@@ -1,7 +1,7 @@
 ---
 title: PieCrust2
 repo: ludovicchabant/PieCrust2
-homepage: http://bolt80.com/piecrust
+homepage: https://bolt80.com/piecrust
 language:
   - Python
 license:

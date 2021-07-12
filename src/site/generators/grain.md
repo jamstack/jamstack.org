@@ -1,7 +1,7 @@
 ---
 title: Grain
 repo: sysgears/grain
-homepage: http://sysgears.com/grain
+homepage: https://sysgears.com/grain
 language:
   - Groovy
 license:

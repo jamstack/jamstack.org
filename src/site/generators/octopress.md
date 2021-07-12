@@ -1,7 +1,7 @@
 ---
 title: Octopress
 repo: octopress/octopress
-homepage: http://octopress.org
+homepage: https://octopress.org
 language:
   - Ruby
 license:

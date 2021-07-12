@@ -1,7 +1,7 @@
 ---
 title: MkDocs
 repo: mkdocs/mkdocs
-homepage: http://www.mkdocs.org/
+homepage: https://www.mkdocs.org/
 language:
   - Python
 license:

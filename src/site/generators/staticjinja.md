@@ -1,7 +1,7 @@
 ---
 title: staticjinja
 repo: Ceasar/staticjinja
-homepage: http://staticjinja.readthedocs.org/en/latest/
+homepage: https://staticjinja.readthedocs.org/en/latest/
 language:
   - Python
 license:

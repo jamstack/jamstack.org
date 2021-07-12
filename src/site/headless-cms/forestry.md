@@ -26,13 +26,13 @@ Write front-end code and push to your Git repo. We'll handle the rest. The updat
 
 **Our Support**
 
-If you or your team has any questions we're happy to help you from within the interface or if we are temporarily unavailable you can ask the community to help. <a href="http://bit.ly/2oZBstD" style="color: #20c997;">Join our Slack Channel!</a>
+If you or your team has any questions we're happy to help you from within the interface or if we are temporarily unavailable you can ask the community to help. <a href="https://bit.ly/2oZBstD" style="color: #20c997;">Join our Slack Channel!</a>
 
 ## Get Started for Free
 
 To have you try our Content Manager out you can either jump right in and let us set up the Content Manager for your existing site on GitHub or we can build a starter page. It only takes a minute!
 
-<a href="http://bit.ly/2DbXpL4" class="button primary big" style="padding: 1.25rem 2rem; background-color: #20c997; color: #fff; text-decoration: none;     border: 1px solid transparent; border-radius: 0.15em; cursor: pointer; display: inline-block; font-size: 16px; font-weight: 500; line-height: 1em;">Start building now</a>
+<a href="https://bit.ly/2DbXpL4" class="button primary big" style="padding: 1.25rem 2rem; background-color: #20c997; color: #fff; text-decoration: none;     border: 1px solid transparent; border-radius: 0.15em; cursor: pointer; display: inline-block; font-size: 16px; font-weight: 500; line-height: 1em;">Start building now</a>
 
 <a href="mailto:support@forestry.io" style="font-size: 0.8em; color: #20c997;">*Tell us what you think.*</a>
 

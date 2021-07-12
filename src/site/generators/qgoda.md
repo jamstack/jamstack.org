@@ -1,7 +1,7 @@
 ---
 title: Qgoda
 repo: gflohr/qgoda
-homepage: http://www.qgoda.net/
+homepage: https://www.qgoda.net/
 language:
   - Perl
 license:
@@ -35,7 +35,7 @@ Development web server or build system is completely up to you. The Qgoda defaul
 
 ## The Ideal Project Portal
 
-The [Qgoda website](http://www.qgoda.net/) is an open-source, multi-lingual portal site for the open source project Qgoda, containing a [landing page](http://www.qgoda.net/), a [multi-lingual blog](http://www.qgoda.net/en/news/), and [extensive software documentation](http://www.qgoda.net/en/docs/). Qgoda is the ideal software for your open source project or community.
+The [Qgoda website](https://www.qgoda.net/) is an open-source, multi-lingual portal site for the open source project Qgoda, containing a [landing page](https://www.qgoda.net/), a [multi-lingual blog](https://www.qgoda.net/en/news/), and [extensive software documentation](https://www.qgoda.net/en/docs/). Qgoda is the ideal software for your open source project or community.
 
 ## Pronunciation
 
@@ -43,7 +43,7 @@ It is pronounced "yagoda" and it means strawberry in Bulgarian and other Slavic 
 
 ## Getting Started
 
-After [installing Qgoda](http://www.qgoda.net/en/docs/installation/) or getting the [Docker image](https://github.com/gflohr/qgoda#user-content-run-qgoda-in-docker-container) going, try one of the following inside an empty(!) directory of your choice:
+After [installing Qgoda](https://www.qgoda.net/en/docs/installation/) or getting the [Docker image](https://github.com/gflohr/qgoda#user-content-run-qgoda-in-docker-container) going, try one of the following inside an empty(!) directory of your choice:
 
 - `qgoda init gflohr/essential`: a complete blog without any styling
 - `qgoda init gflohr/default`: same as above but with development web server, webpack, ...

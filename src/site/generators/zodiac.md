@@ -1,7 +1,7 @@
 ---
 title: Zodiac
 repo: nuex/zodiac
-homepage: http://github.com/nuex/zodiac
+homepage: https://github.com/nuex/zodiac
 language:
   - Awk
 license:

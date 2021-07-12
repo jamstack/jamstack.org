@@ -12,7 +12,7 @@ description: A static websites and blog generator engine written in Go
 ---
 
 Transform your plain text into static websites and blogs.
-**Gor** is a [Ruhoh](http://ruhoh.com/)-like websites and blog generator engine written in [Go](http://golang.org/). It’s almost compatible to ruhoh 1.x specification. You can treat Gor as a replacement of the official implementation that is written in [Ruby](http://www.ruby-lang.org/en/).
+**Gor** is a [Ruhoh](https://ruhoh.com/)-like websites and blog generator engine written in [Go](https://golang.org/). It’s almost compatible to ruhoh 1.x specification. You can treat Gor as a replacement of the official implementation that is written in [Ruby](https://www.ruby-lang.org/en/).
 
 Why reinvent the wheel? Gor has the following awesome benefits:
 

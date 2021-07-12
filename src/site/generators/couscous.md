@@ -1,7 +1,7 @@
 ---
 title: Couscous
 repo: CouscousPHP/Couscous
-homepage: http://couscous.io/
+homepage: https://couscous.io/
 language:
   - PHP
 license:

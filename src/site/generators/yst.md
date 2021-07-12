@@ -12,8 +12,8 @@ description: Static websites from YAML and string templates
 ---
 
 `yst` is a tool for generating a static website by filling [string
-template](http://www.stringtemplate.org/)s with data taken from [YAML](http://www.yaml.org/) or [CSV](http://en.wikipedia.org/wiki/Comma-separated_values) text files or
-[SQLite3](http://www.sqlite.org/) file based databases. This approach
+template](https://www.stringtemplate.org/)s with data taken from [YAML](https://www.yaml.org/) or [CSV](https://en.wikipedia.org/wiki/Comma-separated_values) text files or
+[SQLite3](https://www.sqlite.org/) file based databases. This approach
 combines the speed, security, and ease of deployment of a static
 website with the flexibility and maintainability of a dynamic site that
 separates presentation and data.
