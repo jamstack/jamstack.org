@@ -1,7 +1,7 @@
 ---
 title: PyKwiki
 repo: nullism/pykwiki
-homepage: http://pykwiki.nullism.com
+homepage: https://pykwiki.nullism.com
 language:
   - Python
 license:

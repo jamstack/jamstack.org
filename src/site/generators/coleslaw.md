@@ -17,11 +17,11 @@ Coleslaw aims to be flexible blog software suitable for replacing a single-user 
 
 - Git for storage
 - RSS and Atom feeds!
-- Markdown Support with Code Highlighting provided by [colorize](http://www.cliki.net/colorize).
+- Markdown Support with Code Highlighting provided by [colorize](https://www.cliki.net/colorize).
   - Currently supports: Common Lisp, Emacs Lisp, Scheme, C, C++, Java, Python, Erlang, Haskell, Obj-C, Diff.
-- [Multi-site publishing](http://rmoritz.github.io/articles/coleslaw-multi-site/) support.
+- [Multi-site publishing](https://rmoritz.github.io/articles/coleslaw-multi-site/) support.
 
-- A [Plugin API](http://github.com/redline6561/coleslaw/blob/master/docs/plugin-api.md) and [**plugins**](http://github.com/redline6561/coleslaw/blob/master/docs/plugin-use.md) for...
+- A [Plugin API](https://github.com/redline6561/coleslaw/blob/master/docs/plugin-api.md) and [**plugins**](https://github.com/redline6561/coleslaw/blob/master/docs/plugin-use.md) for...
 
   - Comments via Disqus
   - Analytics via Google
@@ -33,7 +33,7 @@ Coleslaw aims to be flexible blog software suitable for replacing a single-user 
   - Importing posts from wordpress
 
 - There is also a [Heroku buildpack](https://github.com/jsmpereira/coleslaw-heroku) maintained by Jose Pereira.
-- Example sites: [redlinernotes](http://redlinernotes.com/blog/), [kenan-bolukbasi.log](http://kenanb.com/), and [Nothing Really Matters](http://ironhead.xs4all.nl/).
+- Example sites: [redlinernotes](https://redlinernotes.com/blog/), [kenan-bolukbasi.log](https://kenanb.com/), and [Nothing Really Matters](https://ironhead.xs4all.nl/).
 
 ### Hacking
 
@@ -41,4 +41,4 @@ A core goal of _coleslaw_ is to be both pleasant to read and easy to hack on and
 
 ### Theming
 
-Two themes are provided: hyde and readable (based on [bootswatch readable](http://bootswatch.com/readable/)). Hyde is the default. A guide to creating themes for coleslaw lives [here](https://github.com/redline6561/coleslaw/blob/master/docs/themes.md).
+Two themes are provided: hyde and readable (based on [bootswatch readable](https://bootswatch.com/readable/)). Hyde is the default. A guide to creating themes for coleslaw lives [here](https://github.com/redline6561/coleslaw/blob/master/docs/themes.md).

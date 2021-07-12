@@ -1,7 +1,7 @@
 ---
 title: Hyde
 repo: hyde/hyde
-homepage: http://hyde.github.io/
+homepage: https://hyde.github.io/
 language:
   - Python
 license:

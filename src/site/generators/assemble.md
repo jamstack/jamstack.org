@@ -1,7 +1,7 @@
 ---
 title: Assemble
 repo: assemble/assemble
-homepage: http://assemble.io/
+homepage: https://assemble.io/
 language:
   - JavaScript
 license:
@@ -21,8 +21,8 @@ Static site generator for Grunt.js, Yeoman and Node.js. Used by Zurb Foundation,
 1. "Pages" can either be defined as HTML/templates, JSON or YAML, or directly inside the Gruntfile.
 1. It's awesome. Lol just kidding. But seriously, Assemble... is... awesome! and it's fun to use.
 
-...and of course, we use Assemble to build the project's own documentation [http://assemble.io](http://assemble.io):
+...and of course, we use Assemble to build the project's own documentation [https://assemble.io](https://assemble.io):
 
-**For more:** hear Jon Schlinkert and Brian Woodward discuss Assemble on **Episode 98 of the [Javascript Jabber Podcast](http://javascriptjabber.com/098-jsj-assemble-io-with-brian-woodward-and-jon-schlinkert/)**.
+**For more:** hear Jon Schlinkert and Brian Woodward discuss Assemble on **Episode 98 of the [Javascript Jabber Podcast](https://javascriptjabber.com/098-jsj-assemble-io-with-brian-woodward-and-jon-schlinkert/)**.
 
 ![image](https://f.cloud.github.com/assets/383994/1463257/f031bcfe-4525-11e3-9a03-89a17eee7518.png)

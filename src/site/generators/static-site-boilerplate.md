@@ -1,7 +1,7 @@
 ---
 title: Static Site Boilerplate
 repo: ericalli/static-site-boilerplate
-homepage: http://staticsiteboilerplate.com
+homepage: https://staticsiteboilerplate.com
 language:
   - JavaScript
 license:

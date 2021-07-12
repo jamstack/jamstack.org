@@ -13,7 +13,7 @@ description: Static site generator written in Go and "compatible" with Jekyll & 
 
 polo is a static blog rendering tool created with Golang.
 
-I'm happily using it on my blog: http://agonzalezro.github.io, which means that
+I'm happily using it on my blog: https://agonzalezro.github.io, which means that
 works fine :)
 
 Yes, I know that there a lot of them out there but I just want mine to learn a
@@ -30,13 +30,13 @@ little bit of Go coding.
 - Share this support as well
 - Cool & easy way to re-template it, check
   [the documentation](https://github.com/agonzalezro/polo#templating) or
-  [my blog post about it](http://agonzalezro.github.io/polo-supports-theming-now.html)
+  [my blog post about it](https://agonzalezro.github.io/polo-supports-theming-now.html)
 - Quick!
 
 ### Quickstart
 
 1. Download your version from
-   [Gobuild](http://gobuild.io/github.com/agonzalezro/polo)
+   [Gobuild](https://gobuild.io/github.com/agonzalezro/polo)
 2. Get a JSON config
    [from here](https://github.com/agonzalezro/polo/blob/master/config.json)
 3. Run

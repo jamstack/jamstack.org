@@ -1,7 +1,7 @@
 ---
 title: Nikola
 repo: getnikola/nikola
-homepage: http://www.getnikola.com
+homepage: https://www.getnikola.com
 language:
   - Python
 license:

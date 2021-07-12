@@ -1,7 +1,7 @@
 ---
 title: Griffin
 repo: pawandubey/griffin
-homepage: http://github.com/pawandubey/griffin
+homepage: https://github.com/pawandubey/griffin
 language:
   - Java
 license:

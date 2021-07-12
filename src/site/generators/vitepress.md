@@ -13,6 +13,6 @@ startertemplaterepo: https://github.com/anishkny/vitepress-starter
 twitter: vuejs
 ---
 
-[VuePress](http://vuepress.vuejs.org/)' little brother, built on top of [vite](https://github.com/vuejs/vite)
+[VuePress](https://vuepress.vuejs.org/)' little brother, built on top of [vite](https://github.com/vuejs/vite)
 
 See details at: https://github.com/vuejs/vitepress

@@ -1,7 +1,7 @@
 ---
 title: Cabin
 repo: CabinJS/Cabin
-homepage: http://www.cabinjs.com/
+homepage: https://www.cabinjs.com/
 language:
   - JavaScript
 license:

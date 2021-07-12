@@ -13,11 +13,11 @@ description: Static sites for PHP developers
 
 ## About Tapestry
 
-Tapestry is a static site generator that uses the [plates](http://platesphp.com/) template system by the league of extraordinary packages. Tapestry aims to be fast, easy to use and easy to extend. It has been inspired by similar generators [Sculpin](https://sculpin.io/) and [Jigsaw](http://jigsaw.tighten.co/). Tapestry is designed for developers who prefer to use native PHP templates over compiled template languages such as Twig or Blade.
+Tapestry is a static site generator that uses the [plates](https://platesphp.com/) template system by the league of extraordinary packages. Tapestry aims to be fast, easy to use and easy to extend. It has been inspired by similar generators [Sculpin](https://sculpin.io/) and [Jigsaw](https://jigsaw.tighten.co/). Tapestry is designed for developers who prefer to use native PHP templates over compiled template languages such as Twig or Blade.
 
 ### Highlights
 
-- Native PHP templates with the use of the [plates](http://platesphp.com/) template system
+- Native PHP templates with the use of the [plates](https://platesphp.com/) template system
 - [Blog aware](https://www.tapestry.cloud/documentation/your-content/) out of the box
 - Built to be extendable with [plugins](https://www.tapestry.cloud/documentation/working-examples/#plugins)
 

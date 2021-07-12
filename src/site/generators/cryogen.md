@@ -1,7 +1,7 @@
 ---
 title: Cryogen
 repo: cryogen-project/cryogen
-homepage: http://cryogenweb.org/
+homepage: https://cryogenweb.org/
 language:
   - Clojure
 license:
@@ -36,10 +36,10 @@ It then spits out a ready-to-publish website complete with a sitemap and RSS fee
 
 ### Samples
 
-- [Cryogen Documentation Site](http://cryogenweb.org/)
-- [Carmen LA Blog](http://carmenla.me/blog/index.html)
-- [(iterate think thoughts)](http://yogthos.net/)
-- [dl1ely.github.io](http://dl1ely.github.io/)
-- [nil/recur](http://jonase.github.io/nil-recur/)
-- [on the clojure move](http://tangrammer.github.io/)
-- [cognizance](http://blog.jethrokuan.com/)
+- [Cryogen Documentation Site](https://cryogenweb.org/)
+- [Carmen LA Blog](https://carmenla.me/blog/index.html)
+- [(iterate think thoughts)](https://yogthos.net/)
+- [dl1ely.github.io](https://dl1ely.github.io/)
+- [nil/recur](https://jonase.github.io/nil-recur/)
+- [on the clojure move](https://tangrammer.github.io/)
+- [cognizance](https://blog.jethrokuan.com/)

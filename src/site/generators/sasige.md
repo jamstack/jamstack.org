@@ -1,7 +1,7 @@
 ---
 title: Sasige
 repo: brainfoolong/sasige
-homepage: http://sasige.0x.at
+homepage: https://sasige.0x.at
 language:
   - PHP
 license:

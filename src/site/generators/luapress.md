@@ -1,7 +1,7 @@
 ---
 title: Luapress
 repo: Fizzadar/Luapress
-homepage: http://luapress.org/
+homepage: https://luapress.org/
 language:
   - Lua
 license:

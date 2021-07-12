@@ -1,7 +1,7 @@
 ---
 title: WPWMM4
 repo: uzsolt/wpwmm4
-homepage: http://git.uzsolt.hu/wpwmm4/
+homepage: https://git.uzsolt.hu/wpwmm4/
 language:
   - M4
   - Make
@@ -33,7 +33,7 @@ Nutshell:
 - create items of ${VIRTUALS}: use templates from ${VIRT_DIR}
 - can call scripts from scripts/ directory and use their outputs
 
-Example web page is [uzsolt.hu](http://uzsolt.hu/) (only hungarian language). It has multi-level menu (without Javascript,
-only pure HTML), automatically generated pages (for example [galleries](http://uzsolt.hu/pict/personal/summer2014/)
+Example web page is [uzsolt.hu](https://uzsolt.hu/) (only hungarian language). It has multi-level menu (without Javascript,
+only pure HTML), automatically generated pages (for example [galleries](https://uzsolt.hu/pict/personal/summer2014/)
 with `next` and `prev` buttons). Its source is available at [github](https://github.com/uzsolt/wpwmm4-uzsolt.hu)
-or [own git repo](http://git.uzsolt.hu/wpwmm4-uzsolt.hu/).
+or [own git repo](https://git.uzsolt.hu/wpwmm4-uzsolt.hu/).

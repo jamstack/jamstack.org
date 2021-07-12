@@ -21,4 +21,4 @@ Blogo will scan your folder only once , then only the modified file will be scan
 
 You can insert a html fragment into md file.
 
-DEMO : [http://kevin14.github.io](http://kevin14.github.io)
+DEMO : [https://kevin14.github.io](https://kevin14.github.io)

@@ -1,7 +1,7 @@
 ---
 title: jus
 repo: jus/jus
-homepage: http://jus.js.org
+homepage: https://jus.js.org
 language:
   - JavaScript
 license:
@@ -11,13 +11,13 @@ templates:
 description: dev server and build tool with no configuration and no boilerplate code
 ---
 
-jus is a development server and build tool for making static websites with no configuration and no boilerplate code. It has built-in support for [browserify](https://github.com/substack/browserify-handbook#readme), ES6 and ES2015 with [Babel](http://babeljs.io/), [React JSX](http://babeljs.io/docs/plugins/preset-react/), GitHub Flavored markdown, syntax highlighting, [Sass](http://sass-lang.com/), [Less](http://lesscss.org/), [Stylus](http://stylus-lang.com/), [Myth](http://www.myth.io/), [Handlebars](http://handlebarsjs.com/), [browsersync](https://browsersync.io/) and more.
+jus is a development server and build tool for making static websites with no configuration and no boilerplate code. It has built-in support for [browserify](https://github.com/substack/browserify-handbook#readme), ES6 and ES2015 with [Babel](https://babeljs.io/), [React JSX](https://babeljs.io/docs/plugins/preset-react/), GitHub Flavored markdown, syntax highlighting, [Sass](https://sass-lang.com/), [Less](https://lesscss.org/), [Stylus](https://stylus-lang.com/), [Myth](https://www.myth.io/), [Handlebars](https://handlebarsjs.com/), [browsersync](https://browsersync.io/) and more.
 
 ## Why?
 
 The year is 2016 and you're building a new website. At first you just create a single HTML file with some inline scripts and style tags. This works for a bit, but soon your code grows and you decide to extract the styles and scripts into standalone files. This is slightly better, but eventually you want to do something more sophisticated, like writing your stylesheets in Sass, or concatenating and minifying assets, or using npm dependencies with [browserify](https://github.com/substack/browserify-handbook). These conveniences are essential to building a website of any magnitude, but setting them up is tedious and time-consuming. It's at this point in the project that your attention turns from the creative to the mundane. Rather than building, you're now configuring.
 
-In this day and age, most developers would turn to [Gulp](http://gulpjs.com/), [npm scripts](http://substack.net/task_automation_with_npm_run), [Jekyll](https://www.staticgen.com/jekyll) or one of [dozens of static site tools](https://www.staticgen.com). This is where jus comes in as an alternative.
+In this day and age, most developers would turn to [Gulp](https://gulpjs.com/), [npm scripts](https://substack.net/task_automation_with_npm_run), [Jekyll](https://www.staticgen.com/jekyll) or one of [dozens of static site tools](https://www.staticgen.com). This is where jus comes in as an alternative.
 
 There is no setup with jus. It has just two commands: `serve` and `build`. Run `jus serve` in your project directory and you've got a live develpment server running, watching for file changes, autorefreshing your browser with [browsersync](https://browsersync.io/), and serving your content with [clean URLs](#clean-urls). Write a `foo.sass` file and it'll be served at `/foo.css`. Use an npm-style `require` statement in your script, and jus will serve it up as a browserified bundle. Write React's JSX syntax and it'll be transpiled to javascript on the fly. Write a GitHub-flavored `/markdown/file.md` and it'll be served as syntax-highlighted HTML at `/markdown/file`.
 
@@ -40,7 +40,7 @@ If you like to learn by example, check out the repos of [sites using jus](#sites
 
 Pages are written in Markdown, HTML, Handlebars, or any combination thereof. At render time each page is passed a [Handlebars context object](#context) containing metadata about all the files in the directory.
 
-- Markdown parsing with [marky-markdown](http://npm.im/marky-markdown), the battle-tested [commonmark](http://commonmark.org/)-compliant parser used by [npmjs.com](https://npmjs.com).
+- Markdown parsing with [marky-markdown](https://npm.im/marky-markdown), the battle-tested [commonmark](https://commonmark.org/)-compliant parser used by [npmjs.com](https://npmjs.com).
 - GitHub-flavored Markdown support, including [fenced code blocks](https://help.github.com/articles/creating-and-highlighting-code-blocks/)
 - Syntax Highlighting powered by [Atom](https://atom.io)'s [highlights](https://npm.im/highlights) package.
 - Markdown headings (`H1`, `H2`, etc) are automatically converted to anchored hyperlinks.
@@ -56,12 +56,12 @@ All javascript files in your project are automatically [browserified](https://gi
 You can use node-style `require` statements to include node and npm modules in your code:
 
 ```js
-const url = require('url').parse('https://example.com')
+const url = require('url').parse('http://example.com')
 
 console.log(`the domain is ${url.host}`)
 ```
 
-You can also use [ES6-style imports](http://babeljs.io/docs/learn-es2015/#modules), if you prefer:
+You can also use [ES6-style imports](https://babeljs.io/docs/learn-es2015/#modules), if you prefer:
 
 ```js
 import React from 'react'
@@ -81,11 +81,11 @@ Extensions: `js|jsx|es|es6`
 ## Stylesheets
 
 Stylesheets can be written in
-[Sass](http://sass-lang.com/),
-[SCSS](http://sass-lang.com/),
-[Less](http://lesscss.org/),
-[Stylus](http://stylus-lang.com/),
-[Myth](http://www.myth.io/),
+[Sass](https://sass-lang.com/),
+[SCSS](https://sass-lang.com/),
+[Less](https://lesscss.org/),
+[Stylus](https://stylus-lang.com/),
+[Myth](https://www.myth.io/),
 or plain old CSS. Use whatever preprocessor suits your fancy.
 
 Extensions: `css|less|sass|scss|styl`
@@ -228,7 +228,7 @@ Extensions: `json|yaml|yml`
 ## Clean URLs
 
 jus uses a clean URL strategy that is compatible with
-[GitHub Pages](http://aseemk.github.io/gh-pages-test/)
+[GitHub Pages](https://aseemk.github.io/gh-pages-test/)
 and
 [surge.sh](https://surge.sh/help/using-clean-urls-automatically).
 In essence, [pages](#pages) get their extension lopped off,
@@ -289,7 +289,7 @@ Add the following to your package.json:
     "build": "jus build . dist",
     "commit": "git add dist && git commit -m 'update dist'",
     "push": "git subtree push --prefix dist origin gh-pages",
-    "open": "open http://zeke.sikelianos.com"
+    "open": "open https://zeke.sikelianos.com"
   }
 }
 ```
@@ -340,9 +340,9 @@ npm run deploy
 
 jus was inspired by a number of existing tools:
 
-- [Harp](http://harpjs.com/): The main inspiration for jus. It was the first static site tool to introduce the concept of an [in-place asset pipeline](http://harpjs.com/docs/development/rules).
-- [Jekyll](http://jekyllrb.com/): A blog-aware static site generator in Ruby. jus borrows the concept of frontmatter from Jekyll, but uses [HTML frontmatter](https://github.com/zeke/html-frontmatter#readme), unlike Jekyll's YAML frontmatter.
-- [Brunch](http://brunch.io/#why): A lightweight tool for building HTML5 applications with emphasis on elegance and simplicity. The jus development server uses the [chokidar](https://www.npmjs.com/package/chokidar) module from Brunch to watch the filesystem.
+- [Harp](https://harpjs.com/): The main inspiration for jus. It was the first static site tool to introduce the concept of an [in-place asset pipeline](https://harpjs.com/docs/development/rules).
+- [Jekyll](https://jekyllrb.com/): A blog-aware static site generator in Ruby. jus borrows the concept of frontmatter from Jekyll, but uses [HTML frontmatter](https://github.com/zeke/html-frontmatter#readme), unlike Jekyll's YAML frontmatter.
+- [Brunch](https://brunch.io/#why): A lightweight tool for building HTML5 applications with emphasis on elegance and simplicity. The jus development server uses the [chokidar](https://www.npmjs.com/package/chokidar) module from Brunch to watch the filesystem.
 - Ruby on Rails: The web development framework that helped popularize [Convention over Configuration](https://en.wikipedia.org/wiki/Convention_over_configuration)
 
 ## Sites using jus
@@ -350,5 +350,5 @@ jus was inspired by a number of existing tools:
 Sometimes real examples are the easiest way to learn. Check out these open-source sites built with jus:
 
 - [jus.js.org](https://github.com/zeke/jus.js.org), the site you're looking at now.
-- [zeke.sikelianos.com](http://github.com/zeke/zeke.sikelianos.com), a personal portfolio site.
+- [zeke.sikelianos.com](https://github.com/zeke/zeke.sikelianos.com), a personal portfolio site.
 - [acrophony](https://github.com/zeke/acrophony#readme), an experimental React GUI for acrophonic alphabets.

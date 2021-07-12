@@ -1,7 +1,7 @@
 
 title: Eden Yacht
 description: Website for the Galapgos yacht Eden
-link: 'http://galapagoseden.com/'
+link: 'https://www.galapagoseden.com/'
 thumbnailurl: /img/examples/galapagoseden.jpg
 tools:
   - Nuxt

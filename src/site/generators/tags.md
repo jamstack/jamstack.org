@@ -1,7 +1,7 @@
 ---
 title: Tags
 repo: braceio/tags
-homepage: http://tags.brace.io/
+homepage: https://tags.brace.io/
 language:
   - Python
 license:

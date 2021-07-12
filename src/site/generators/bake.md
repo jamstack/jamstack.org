@@ -1,7 +1,7 @@
 ---
 title: Bake
 repo: felipetavares/bake
-homepage: http://ctrl-c.club/~philips/90s/
+homepage: https://ctrl-c.club/~philips/90s/
 language:
   - C++
 license:

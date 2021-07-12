@@ -1,7 +1,7 @@
 ---
 title: Harp
 repo: sintaxi/harp
-homepage: http://harpjs.com/
+homepage: https://harpjs.com/
 language:
   - JavaScript
 license:
@@ -35,12 +35,12 @@ Pre-compilers are becoming extremely powerful and shipping front-ends as static 
 
 |                | Language Superset                                                 | Whitespace Sensitive                                                                    |
 | -------------- | ----------------------------------------------------------------- | --------------------------------------------------------------------------------------- |
-| **HTML**       | [EJS](http://embeddedjs.com/)                                     | [Jade](http://jade-lang.com/), [Markdown](http://daringfireball.net/projects/markdown/) |
-| **CSS**        | [LESS](http://lesscss.org/), [Sass (SCSS)](http://sass-lang.com/) | [Stylus](http://learnboost.github.io/stylus/)                                           |
-| **JavaScript** | (TBD)                                                             | [CoffeeScript](http://coffeescript.org/)                                                |
+| **HTML**       | [EJS](https://embeddedjs.com/)                                     | [Jade](https://jade-lang.com/), [Markdown](https://daringfireball.net/projects/markdown/) |
+| **CSS**        | [LESS](https://lesscss.org/), [Sass (SCSS)](https://sass-lang.com/) | [Stylus](https://learnboost.github.io/stylus/)                                           |
+| **JavaScript** | (TBD)                                                             | [CoffeeScript](https://coffeescript.org/)                                                |
 
 ### Resources
 
-- **Server Documentation** - [harpjs.com/docs/](http://harpjs.com/docs/)
+- **Server Documentation** - [harpjs.com/docs/](https://harpjs.com/docs/)
 - **Platform Documentation** - [harp.io/docs](https://harp.io/docs)
 - **Source Code** - [github.com/sintaxi/harp](https://github.com/sintaxi/harp)

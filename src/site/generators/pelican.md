@@ -1,7 +1,7 @@
 ---
 title: Pelican
 repo: getpelican/pelican
-homepage: http://blog.getpelican.com/
+homepage: https://blog.getpelican.com/
 language:
   - Python
 license:

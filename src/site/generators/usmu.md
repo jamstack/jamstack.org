@@ -1,7 +1,7 @@
 ---
 title: Usmu
 repo: usmu/usmu
-homepage: http://usmu.io
+homepage: https://usmu.io
 language:
   - Ruby
 license:
