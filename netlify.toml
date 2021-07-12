@@ -60,6 +60,10 @@
   to = "https://www.surveymonkey.com/r/jamstack-survey"
   status = 302
 
+[[redirects]]
+  from = "/headless-cms/keystone-5/"
+  to = "/headless-cms/keystone/"
+  status = 301
 
 [[plugins]]
   package = "./plugins/keep-dot-cache-folder"
