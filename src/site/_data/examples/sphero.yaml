@@ -4,7 +4,7 @@ description: >-
   Sphero fuses physical robotic toys, digital apps, and entertainment
   experiences to unlock the true potential of play and inspire tomorrow’s
   creators.
-link: 'http://www.sphero.com/'
+link: 'https://www.sphero.com/'
 thumbnailurl: /img/examples/sphero.jpg
 tools:
   - Angular
