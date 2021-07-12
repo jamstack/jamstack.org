@@ -20,10 +20,10 @@ Luapress is _yet another_ static blog generator, written in Lua, with posts in m
 
     #
     # Luapress v1.1.0
-    # Usage: ./press.lua <optional url: "https://example.com">
+    # Usage: ./press.lua <optional url: "http://example.com">
     # Example: ./press.lua
-    # Example: ./press.lua https://example.com
-    # Example: ./press.lua nocache https://example.com
-    # Example: ./press.lua clean https://example.com
+    # Example: ./press.lua http://example.com
+    # Example: ./press.lua nocache http://example.com
+    # Example: ./press.lua clean http://example.com
     # For more details: https://github.com/Fizzadar/Luapress
     #
