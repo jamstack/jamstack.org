@@ -1,0 +1,8 @@
+title: Gridly
+description: Gridly is a collaborative headless CMS for multilingual games-as-a-service projects with a powerful API, browser-based spreadsheet UI, and built-in functions to handle localization and frequent updates.
+link: https://www.gridly.com/
+thumbnailurl: 
+tools:
+  - GitHub
+  - jQuery
+  - Amazon S3
