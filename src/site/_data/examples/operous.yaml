@@ -6,7 +6,6 @@ description: >-
   your infrastructure as code CI/CD pipeline.
 link: 'https://operous.dev/'
 thumbnailurl: /img/examples/operous.jpg
-featured: true
 tools:
   - Vue.js
   - Nuxt.js
