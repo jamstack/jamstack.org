@@ -1,0 +1,13 @@
+
+title: RobErskine.com
+description: Personal portfolio for designer and developer, Rob Erskine
+link: 'https://roberskine.com'
+thumbnailurl: /img/examples/roberskine.jpg
+tools:
+  - Netlify
+  - Craft CMS
+  - GraphQL
+  - Nuxt
+  - Vue
+  - Webpack
+
