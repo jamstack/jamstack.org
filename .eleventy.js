@@ -8,7 +8,8 @@ module.exports = function(eleventyConfig) {
   // pass images directly through to the output
   eleventyConfig.addPassthroughCopy("src/site/img");
   eleventyConfig.addPassthroughCopy({
-    "src/js": "js"
+    "src/js": "js",
+    "node_modules/@zachleat/filter-container/*.js": "js",
   });
 
   // Date helper
@@ -159,6 +160,25 @@ module.exports = function(eleventyConfig) {
       return 0;
     });
   });
+
+
+  // Format a path to avoid any Cloudinary URL API miss-steps.
+  eleventyConfig.addFilter("cloudinaryifyPath", (str) => {
+
+    if(str) { 
+      
+      // add generic url encoding 
+      str = encodeURI(str);
+      
+      // we also need to double escape some characters which might appear in text
+      // but are meaningful in cloudinary URLs
+      str = str.replace(/,/g, '%252C');
+      str = str.replace(/\//g, '%252F');
+
+    }
+    return str;
+  });
+
 
 
   // favicons files

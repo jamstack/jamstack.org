@@ -1,0 +1,10 @@
+title: Hungry AF?
+description: Easy quick recipes made just for you. Explore and eat tasty and healthy food at home.
+link: https://www.hungryaf.in/
+thumbnailurl: /img/examples/hungryafin.jpg
+tools:
+  - Hugo
+  - Netlify
+  - Github
+  - Forestry
+  - PWA

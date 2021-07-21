@@ -25,7 +25,7 @@ _example site yaml reference:_
 title: Your site title
 description: A short description of the site.
 link: The URL of this site
-thumbnailurl: /img/cms/examples/this-site-thumbnail.jpg
+thumbnailurl: /img/examples/this-site-thumbnail.jpg
 tools:
   - List
   - of

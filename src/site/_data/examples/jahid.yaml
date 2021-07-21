@@ -1,0 +1,13 @@
+title: Jahid
+description: Jahid - a JAMSTACK blog and portfolio crafted using Nuxt.js.
+link: 'https://jahid.dev'
+thumbnailurl: /img/examples/jahid.jpg
+tools:
+  - Nuxt.js
+  - Vue
+  - Tailwind CSS
+  - WordPress
+  - Github
+  - Netlify
+
+  

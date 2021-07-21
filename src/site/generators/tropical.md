@@ -8,14 +8,12 @@ license:
   - MIT
 templates:
   - React
-description: Use modern tools to build fast, mostly-just-HTML websites with islands of rich client-side behaviour.
+description: Use modern tools to build fast, mostly-just-HTML websites with islands of client-side JS.
 startertemplaterepo: https://github.com/bensmithett/tropical
 ---
 
-Tropical is a flexible, component-first static site generator that lets you use modern tools to build fast, mostly-just-HTML websites with islands of rich client-side behaviour.
+Tropical is a modern static site generator without complex magic.
 
-Tropical gives you modern tools like React and Storybook, but acknowledges that content-heavy sites often don't need the truckload of extra client-side features that are often included in a React project. Sometimes a simple HTML file for each page is all you need!
+It's just [Vite](https://vitejs.dev/) plus a layer of **familiar, industry-standard tools & conventions** (like React, Storybook, MDX & Fela) for building *fast*, mostly-just-HTML websites with [islands](https://jasonformat.com/islands-architecture/) of targeted client-side JS.
 
-When you do need client-side behaviour, Tropical makes it easy to progressively enhance your prerendered HTML with anything from a sprinkling of vanilla JS up to targeted rehydration of prerendered isomorphic React components.
-
-It's also written as a template repo by default. Rather than hiding the framework and Webpack configuration in an NPM package black box, the simple core files of Tropical are intended to be changed, learned from and hacked to suit your needs!
+It's also **just a [template repo](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-on-github/creating-a-repository-from-a-template)**. There's no library to install or configure. You're not stuck with these features. If [Vite can do it](https://vitejs.dev/guide/features.html), so can your Tropical site.

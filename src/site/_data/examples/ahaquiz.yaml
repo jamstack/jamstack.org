@@ -4,7 +4,7 @@ link: 'https://ahaquiz.com'
 thumbnailurl: /img/examples/ahaquiz.jpg
 tools:
   - ReactJS
-  - Boostrap 4
+  - Bootstrap 4
   - SCSS
   - MobX 5
   - Hugo

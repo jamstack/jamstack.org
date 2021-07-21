@@ -30,7 +30,7 @@ async function githubRequest(user, repo) {
     issues: "",
   };
 
-  if(process.env.ELEVENTY_ENV == 'dev') {
+  if(process.env.ELEVENTY_ENV == 'dev' || !process.env.GITHUB_READ_TOKEN) {
     return errorData;
   }
 

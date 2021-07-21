@@ -1,5 +1,6 @@
 /* import via postcss */
 @import "../site/css/ticker.css";
+@import "../site/css/hubspot-form.css";
 
 /* purgecss start ignore */
 @tailwind  base;
@@ -17,7 +18,7 @@
     }
   }
   h2 {
-      @apply text-white text-3xl font-bold leading-none mb-8;
+    @apply text-white text-3xl font-bold leading-none mb-8;
   }
   @screen md {
     h2 {
@@ -54,9 +55,7 @@ dd a:focus {
 p+p {
   @apply mt-4;
 }
-section.cards {
-  max-width: 66rem;
-}
+
 
 /*
   CTA links
@@ -154,21 +153,29 @@ footer p a:focus {
 }
 
 @supports (outline: none) {
+  .group:hover .group-hover\:card-shadow-blue-seafoam,
+  .group:focus .group-hover\:card-shadow-blue-seafoam,
   .hover\:card-shadow-blue-seafoam:hover,
   .hover\:card-shadow-blue-seafoam:focus {
     outline: none;
     box-shadow: 0px 3px 20px rgba(1, 159, 220, 0.6);
   }
+  .group:hover .group-hover\:card-shadow-seafoam,
+  .group:focus .group-hover\:card-shadow-seafoam,
   .hover\:card-shadow-seafoam:hover,
   .hover\:card-shadow-seafoam:focus {
     outline: none;
     box-shadow: 0px 3px 20px rgba(135, 249, 237, 0.7);
   }
+  .group:hover .group-hover\:card-shadow-sunrise,
+  .group:focus .group-hover\:card-shadow-sunrise,
   .hover\:card-shadow-sunrise:hover,
   .hover\:card-shadow-sunrise:focus {
     outline: none;
     box-shadow: 0px 3px 20px rgba(246, 62, 103, 0.6);
   }
+  .group:hover .group-hover\:card-shadow-gold,
+  .group:focus .group-hover\:card-shadow-gold,
   .hover\:card-shadow-gold:hover,
   .hover\:card-shadow-gold:focus {
     outline: none;
@@ -316,12 +323,158 @@ details[open] .summary-swap-open {
 }
 
 /* Filters */
+.filter-form {
+  opacity: .4;
+  pointer-events: none;
+}
+.filter-container--js .filter-form {
+  opacity: 1;
+  pointer-events: auto;
+}
 .filter-opensource--hide,
 .filter-typeofcms--hide,
 .filter-language--hide,
 .filter-template--hide,
-.filter-license--hide {
+.filter-license--hide,
+.filter-country--hide {
   display: none !important;
+}
+
+/* Jamstack TV */
+.ais-SearchBox-input {
+  @apply bg-blue-900;
+  @apply text-white;
+  @apply font-bold;
+  @apply p-3;
+  @apply pl-14;
+  @apply mx-auto;
+  @apply border;
+  border-color: #5A5F75;
+  @apply rounded-full;
+  @apply block;
+  @apply w-full;
+  background-image: url(/img/svg/icon-search.svg);
+  background-repeat: no-repeat;
+  background-position: 1em 50%;
+  position: relative;
+}
+.ais-SearchBox-input:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 3em;
+  background-color: #2b3350;
+}
+@supports (box-shadow: none) {
+  .ais-SearchBox-input:focus {
+    outline: none;
+    box-shadow: 0 0 1px 4px #E7017A;
+  }
+}
+
+.jamstacktv-link {
+  display: flex;
+  flex-wrap: wrap;
+}
+.jamstacktv-card {
+  flex-basis: 18.75em; /* 300px /16 */
+}
+.jamstacktv-item {
+  flex-basis: 18.75em; /* 300px /16 */
+  flex-grow: 3;
+}
+.jamstacktv-card,
+.jamstacktv-img {
+  border-radius: 1em 0 1em 1em;
+}
+.jamstacktv-img {
+  width: 100%;
+}
+.jamstacktv-duration {
+  @apply inline-block;
+  @apply px-1;
+  @apply bg-black;
+  @apply text-sm;
+  @apply font-bold;
+  position: absolute;
+  right: .4em;
+  top: .4em;
+}
+.jamstacktv-time {
+  display: inline-block;
+  margin-right: 0.25em; /* 4px /16 */
+}
+.jamstacktv-time > b {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 7px solid currentColor;
+}
+.jamstacktv-time > b + b {
+  margin-right: 3px;
+}
+.jamstacktv-item {
+  @apply p-4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.jamstacktv-item mark {
+  @apply bg-pink-900;
+  @apply text-white;
+}
+.jamstacktv-meta {
+  @apply leading-normal;
+}
+.jamstacktv-category:after {
+  content: ": ";
+}
+.jamstacktv-no-skip .jamstacktv-category:after {
+  content: "";
+}
+.jamstacktv-no-skip .jamstacktv-category {
+  display: block;
+}
+.jamstacktv-caption {
+  @apply text-xl;
+  @apply font-normal;
+}
+.jamstacktv-caption-quote {
+  @apply italic;
+}
+.jamstacktv-caption-quote:before {
+  content: "“"
+}
+.jamstacktv-caption-quote:after {
+  content: "”"
+}
+.jamstacktv-no-skip .jamstacktv-title {
+  @apply text-2xl;
+  @apply font-bold;
+}
+.jamstacktv-no-skip .jamstacktv-caption {
+  display: none;
+}
+.js .jamstacktv-js {
+  display: none;
+}
+.jamstacktv-scrubber {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  height: 1em;
+  border-radius: 0 0 1em 1em;
+  overflow: hidden;
+}
+.jamstacktv-scrubber > div {
+  height: 4px;
+  background-color: red;
 }
 /* purgecss end ignore */
 

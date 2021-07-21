@@ -42,7 +42,7 @@ Hitting the right balance of needs has led Ghost to be used in production by org
 
 ### Try Ghost
 
-Ghost is completely free an open source, released under the MIT license, stewarded by a non-profit foundation. It can be downloaded and self-hosted just about anywhere, or spun up in a few moments using the **[Ghost(Pro)](https://ghost.org/pricing/)** managed PaaS, which comes with a 14 day free trial. Here are a few quick links to get started:
+Ghost is completely free and open source, released under the MIT license, stewarded by a non-profit foundation. It can be downloaded and self-hosted just about anywhere, or spun up in a few moments using the **[Ghost(Pro)](https://ghost.org/pricing/)** managed PaaS, which comes with a 14 day free trial. Here are a few quick links to get started:
 
 [Ghost.org](https://ghost.org) | [Features](https://ghost.org/features) | [Showcase](https://ghost.org/customers) | [Github](https://github.com/tryghost/ghost) | [Forum](https://forum.ghost.org/) | [Documentation](https://docs.ghost.org/) | [Demo](https://demo.ghost.io)
 

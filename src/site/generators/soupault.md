@@ -1,7 +1,7 @@
 ---
 title: soupault
 repo: dmbaturin/soupault
-homepage: https://soupault.neocities.org
+homepage: https://soupault.app
 language:
   - OCaml
 license:
@@ -18,8 +18,8 @@ startertemplaterepo: https://github.com/dmbaturin/soupault-sample-blog
 Soupault is an automated HTML _editor_ rather than a just _generator_. It can parse HTML into an element tree,
 manipulate it and save to a file. Like DOM manipulation, but without a browser.
 
-You can use it as a website generator (insert different content into a "template"—an empty page), or a postprocessor
-for a hand-written website or for output of another HTML generator.
+You can use it as a website generator and insert different content into a "template"—an empty page.
+However, it can also be a post-processor for a hand-written website or for output of another HTML generator.
 
 ## Static binary, extensible with plugins
 
@@ -34,9 +34,9 @@ you could do with JavaScript and more, but statically.
 Soupault can pipe the content of HTML elements through external programs and read the output. You have options
 to replace the original element with that output or just add the output to the page.
 
-For example, you can statically render equations with KaTeX, do syntax highligting with any tool of your choice.
+For example, you can statically render equations with KaTeX, or do syntax highligting with any tool of your choice.
 
-You can also set preprocessors for certain file extensions. For example, pipe `.md` files through a Markdown
+You can also set preprocessors for specific file extensions. For example, pipe `.md` files through a Markdown
 to HTML convertor of your choice before parsing and processing.
 
 ## No front matter
@@ -52,7 +52,7 @@ or an external script. You can also export the site index to JSON for further pr
 Some things soupault can do out of the box:
 
 * Create a (fully static) ToC from the page headings.
-* Insert external files or outputs of programs into pages.
+* Insert external files or external program outputs into pages.
 * Create footnotes, LaTeX style.
 * Add breadcrumbs.
 

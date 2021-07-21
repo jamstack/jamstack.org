@@ -1,0 +1,9 @@
+title: Monogram
+description: "Digital product design & development agency from Atlanta. Prismic & Vercel partner. Proponents of JAMstack!"
+link: 'https://monogram.io'
+thumbnailurl: /img/examples/monogram.jpg
+tools:
+  - Nuxt
+  - Prismic
+  - Tailwind CSS
+  - Vercel

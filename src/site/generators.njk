@@ -14,17 +14,17 @@ layout: layouts/base.njk
 
 <section class="cards mt-12">
   <sort-container>
-    <filter-container>
-      <form class="pb-4">
+    <filter-container data-oninit>
+      <form class="pb-4 filter-form">
         <div class="flex flex-wrap">
           <div>
             <div class="pb-2">
               <strong class="pr-4">Filter</strong>
-              <span data-filter-results></span>
+              <span data-filter-results="Generator/Generators" aria-live="polite"></span>
             </div>
             <label class="inline-flex pr-4 pb-2">
               <span class="sr-only">Language</span>
-              <select data-filter-bind="language" data-filter-delimiter="," class="text-white py-1 px-2 rounded-default border border-white bg-transparent">
+              <select data-filter-bind="language" data-filter-delimiter="," class="text-black py-1 px-2 rounded-default border border-white bg-white">
                 <option selected value="">All Languages</option>
                 {%- for language in collections.generators | select("data.language") | flatten | unique | sort(false, false) %}
                 <option value="{{ language | lower }}">{{ language }}</option>
@@ -33,7 +33,7 @@ layout: layouts/base.njk
             </label>
             <label class="inline-flex pr-4 pb-2">
               <span class="sr-only">Template</span>
-              <select data-filter-bind="template" data-filter-delimiter="," class="text-white py-1 px-2 rounded-default border border-white bg-transparent">
+              <select data-filter-bind="template" data-filter-delimiter="," class="text-black py-1 px-2 rounded-default border border-white bg-white">
                 <option selected value="">All Templates</option>
                 {%- for template in collections.generators | select("data.templates") | flatten | unique | sort(false, false) %}
                 <option value="{{ template | lower }}">{{ template }}</option>
@@ -42,7 +42,7 @@ layout: layouts/base.njk
             </label>
             <label class="inline-flex pr-4 pb-2">
               <span class="sr-only">License</span>
-              <select data-filter-bind="license" data-filter-delimiter="," class="text-white py-1 px-2 rounded-default border border-white bg-transparent">
+              <select data-filter-bind="license" data-filter-delimiter="," class="text-black py-1 px-2 rounded-default border border-white bg-white">
                 <option selected value="">All Licenses</option>
                 {%- for license in collections.generators | select("data.license") | flatten | unique | sort(false, false) %}
                 <option value="{{ license | lower }}">{{ license }}</option>
@@ -56,7 +56,7 @@ layout: layouts/base.njk
             </div>
             <label class="inline-flex pr-4 pb-2">
               <span class="sr-only">Sort by</span>
-              <select data-sort class="text-white py-1 px-2 rounded-default border border-white bg-transparent">
+              <select data-sort class="text-black py-1 px-2 rounded-default border border-white bg-white">
                 <option selected value="githubstars-numeric-descending">GitHub Stars</option>
                 <option value="name">Name</option>
               </select>

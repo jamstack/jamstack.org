@@ -1,0 +1,13 @@
+title: Operous
+description: >-
+  Operous is a cloud instance testing tool that helps you
+  understand configuration issues by suggesting improvements
+  after running a comprehensive set of test-suites as part of
+  your infrastructure as code CI/CD pipeline.
+link: 'https://operous.dev/'
+thumbnailurl: /img/examples/operous.jpg
+tools:
+  - Vue.js
+  - Nuxt.js
+  - Sass
+  - Netlify

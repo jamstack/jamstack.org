@@ -1,0 +1,30 @@
+---
+title: Jamstack TV
+subtitle:  Jamstack TV is a searchable collection of video resources. Interested in a topic? Looking for a specific talk? Search here and we’ll find that talk or topic timestamp within the videos for you.
+layout: layouts/base.njk
+preconnect:
+  - https://cdn.jsdelivr.net
+javascriptIncludes:
+  - search-js.njk
+---
+{# This search index data is populated by the code at https://github.com/netlify/jamstack-tv-search-data #}
+
+<section class="md:mt-20">
+  <h1 class="text-center">{{ title }}</h1>
+  <p class="text-center">{{ subtitle }}</p>
+</section>
+
+<div class="px-8 max-w-6xl mx-auto">
+  <div class="flex flex-wrap items-center justify-center max-w-2xl mx-auto">
+    <div id="searchbox" class="flex-grow my-2">
+      <span class="jamstacktv-js">The search functionality on Jamstack TV requires JavaScript to operate.</span>
+    </div>
+    <div class="mx-4 my-2"><a href="https://www.algolia.com/"><img src="/img/svg/search-by-algolia-dark-background.svg" alt="Search by Algolia" width="168" height="24" class="w-auto"/></a></div>
+  </div>
+  <div class="flex items-center justify-end mt-20">
+    <div class="mr-4">Sort by</div>
+    <div id="sort-by"></div>
+  </div>
+  <div id="hits" class="mt-4"></div>
+</div>
+
