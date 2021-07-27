@@ -9,7 +9,7 @@ license:
 templates:
   - Vue
 description: A minimalistic framework for serverless Vue.js applications.
-startertemplaterepo: https://github.com/martinx3/nuxt-starter
+startertemplaterepo: https://github.com/lukeocodes/nuxt-starter-netlify-cms
 twitter: nuxt_js
 ---
 
