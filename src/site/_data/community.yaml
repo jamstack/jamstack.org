@@ -123,3 +123,8 @@
 - name: Yerevan
   link: https://www.meetup.com/jamstack-armenia/
   feed: https://api.meetup.com/jamstack-armenia/events
+
+- name: Stuttgart
+  link: https://www.meetup.com/jamstack-stuttgart/
+  feed: https://api.meetup.com/jamstack-stuttgart/events
+  
