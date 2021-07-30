@@ -16,13 +16,13 @@ images:
 ## Why dotCMS
 dotCMS makes it easy to deliver content anywhere and everywhere: IoT devices, mobile apps, voice assistants, digital signage, Smart TVs, streaming devices, or whatever comes next. Our Hybrid CMS approach goes beyond the traditional headless CMS to give you API access not only to content, but templates, modules, pages, and workflows.
 ​
-##Get Started
+## Get Started
 - **Docker** - Running dotCMS in Docker is the simplest way to get started with dotCMS on any platform. [Learn More](https://dotcms.com/download/)
 - **Sandbox** - The quickest and easiest way to explore dotCMS is our online demo (admin|admin@dotcms.com). [Learn More](https://demo.dotcms.com/dotAdmin/#/public/login)
 - **Demo** - Schedule time with a dotCMS expert for a personalized demo, tailored to meet your requirements. [Learn More](https://dotcms.com/demo/demo-request)
 - **Online Training** - Free online video training from dotCMS experts who will walk you through building sites in dotCMS. [Learn More](https://dotcms.com/courses/)
 
-##Key Features
+## Key Features
 - [API First Architecture](https://dotcms.com/product/technology/api-first-cms) - create once, deliver anywhere
 - [Structured Content](https://dotcms.com/product/features/content-management-system) - centralize and future-proof your content
 - [Personalization](https://dotcms.com/product/features/hyper-personalization) - track and analyze customer journeys 
