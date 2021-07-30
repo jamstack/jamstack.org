@@ -35,9 +35,9 @@
   Since the pages rendered on demand become part of the latest deployment, key Jamstack principals and advantages such as [Immutable deploys](/glossary/immutable) and [atomic deploys](/glossary/atomic) are preserved.
 
 
-  This approach can also populate pages with content not available at the time of the site build. Such as content contributed by users.
-
+  This approach, [discussed in this RFC](https://github.com/jamstack/jamstack.org/discussions/549), can also populate pages with content not available at the time of the site build. Such as content contributed by users.
   
+
   Read more details about [DPR in this post on the Netlify blog](https://www.netlify.com/blog/2021/04/14/distributed-persistent-rendering-a-new-jamstack-approach-for-faster-builds/?utm_source=jamstackorg&utm_medium=define-dpr&utm_campaign=devex-ph)'
 
 
