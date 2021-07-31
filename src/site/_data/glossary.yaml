@@ -26,6 +26,22 @@
   summary: 'A network optimized for serving assets to users. A CDN can provide redundancy and also improve delivery performance as a result of being geographically distributed.'
   definition: 'A distributed network optimized for serving assets to users. By being geographically distributed, a CDN can provide redundancy and also improve delivery performance as a result of servicing requests from the infrastructure closest to the user making the request.'
 
+- term: 'DPR (Distributed Persistent Rendering)'
+  id: 'dpr'
+  summary: 'An approach to sharing the work of rendering page views and persisting them as part of the latest deploy. Some pages are rendered as part of a build, others are rendered when first requested via their URL'
+  definition: 'An approach to sharing the work of rendering page views and persisting them as part of the latest deploy. Some pages are rendered as part of a build, others are rendered on demand when first requested via their URL. In this way, build times can be kept manageable for even very large sites as nominated pages can have their rendering deferred until first requested.
+  
+  
+  Since the pages rendered on demand become part of the latest deployment, key Jamstack principals and advantages such as [Immutable deploys](/glossary/immutable) and [atomic deploys](/glossary/atomic) are preserved.
+
+
+  This approach, [discussed in this RFC](https://github.com/jamstack/jamstack.org/discussions/549), can also populate pages with content not available at the time of the site build. Such as content contributed by users.
+  
+
+  Read more details about [DPR in this post on the Netlify blog](https://www.netlify.com/blog/2021/04/14/distributed-persistent-rendering-a-new-jamstack-approach-for-faster-builds/?utm_source=jamstackorg&utm_medium=define-dpr&utm_campaign=devex-ph)'
+
+
+
 - term: 'Edge Network'
   id: 'edge-network'
 
