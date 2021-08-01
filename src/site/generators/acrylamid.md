@@ -1,7 +1,7 @@
 ---
 title: Acrylamid
 repo: posativ/acrylamid
-homepage: http://posativ.org/acrylamid/
+homepage: https://posativ.org/acrylamid/
 language:
   - Python
 license:

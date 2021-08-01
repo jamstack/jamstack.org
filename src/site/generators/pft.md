@@ -1,7 +1,7 @@
 ---
 title: PFT
 repo: dacav/App-PFT
-homepage: http://dacav.roundhousecode.com/pages/pft.html
+homepage: https://dacav.roundhousecode.com/pages/pft.html
 language:
   - Perl
 license:
@@ -118,9 +118,9 @@ requests.
 [dapper]: https://www.staticgen.com/dapper
 [alloy]: https://metacpan.org/pod/Template::Alloy
 [markdown]: https://daringfireball.net/projects/markdown/
-[yaml]: http://yaml.org/
+[yaml]: https://yaml.org/
 [rsync]: https://rsync.samba.org/
-[ssh]: http://www.openssh.com/
-[cpan]: http://cpan.org/
+[ssh]: https://www.openssh.com/
+[cpan]: https://cpan.org/
 [github_pft]: https://github.com/dacav/pft
 [github_app_pft]: https://github.com/dacav/app-pft

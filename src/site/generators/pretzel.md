@@ -1,7 +1,7 @@
 ---
 title: pretzel
 repo: Code52/pretzel
-homepage: http://code52.org/pretzel.html
+homepage: https://code52.org/pretzel.html
 language:
   - .Net
 license:

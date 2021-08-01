@@ -40,7 +40,7 @@ convince you to try **Kulfon**
 |          | Language Superset | Whitespace Sensitive                          |
 | -------- | ----------------- | --------------------------------------------- |
 | **HTML** | [Nunjucks][1]     | [Markdown][15]                                |
-| **CSS**  | [Sass (SCSS)][2]  | [Stylus](http://learnboost.github.io/stylus/) |
+| **CSS**  | [Sass (SCSS)][2]  | [Stylus](https://learnboost.github.io/stylus/) |
 
 ### Resources
 
@@ -48,11 +48,11 @@ convince you to try **Kulfon**
 - **Source Code** - [github.com/zaiste/kulfon](https://github.com/zaiste/kulfon/)
 
 [1]: https://mozilla.github.io/nunjucks/
-[2]: http://sass-lang.com/
+[2]: https://sass-lang.com/
 [3]: https://gohugo.io/
 [4]: https://yarnpkg.com/
 [6]: https://en.wikipedia.org/wiki/JavaScript
-[7]: http://rollupjs.org/
+[7]: https://rollupjs.org/
 [8]: https://www.wired.com/2016/04/average-webpage-now-size-original-doom/
 [11]: https://www.npmjs.com/
 [13]: https://unpkg.com/#/

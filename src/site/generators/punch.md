@@ -1,7 +1,7 @@
 ---
 title: Punch
 repo: laktek/punch
-homepage: http://laktek.github.io/punch/
+homepage: https://laktek.github.io/punch/
 language:
   - JavaScript
 license:

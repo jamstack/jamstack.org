@@ -1,7 +1,7 @@
 ---
 title: Awestruct
 repo: awestruct/awestruct
-homepage: http://awestruct.org/
+homepage: https://awestruct.org/
 language:
   - Ruby
 license:

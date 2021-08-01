@@ -1,7 +1,7 @@
 ---
 title: Techy
 repo: krasimir/techy
-homepage: http://krasimir.github.io/techy/
+homepage: https://krasimir.github.io/techy/
 language:
   - JavaScript
 license:

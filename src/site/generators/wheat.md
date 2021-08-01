@@ -15,4 +15,4 @@ Wheat is a blogging engine that reads a git repo full of markdown articles and p
 
 Checkout the wheat branch of howtonode.org for an example of how to use the library.
 
-http://github.com/creationix/howtonode.org
+https://github.com/creationix/howtonode.org

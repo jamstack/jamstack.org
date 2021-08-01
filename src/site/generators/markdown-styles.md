@@ -28,6 +28,6 @@ Converts Markdown files to HTML, with over a dozen builtin themes.
 - Support for custom logic for rendering code blocks via `--highlight-*`; this can be used to implement custom blocks that render the content of the code block in some interesting way.
 - Automatically detects the document title from the first heading in the Markdown markup.
 - Create your own layout based on an existing layout via `--layout` with:
-  - Full [Handlebars](http://handlebarsjs.com/) support for layouts, helpers and partials
+  - Full [Handlebars](https://handlebarsjs.com/) support for layouts, helpers and partials
   - Fully customizable table of contents template via the `toc` partial
   - Support for relative path generation via the `{{asset 'path'}}` helper

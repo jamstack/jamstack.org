@@ -1,7 +1,7 @@
 ---
 title: pub-server
 repo: jldec/pub-server
-homepage: http://jldec.github.io/pub-doc/
+homepage: https://jldec.github.io/pub-doc/
 language:
   - JavaScript
 license:
@@ -19,10 +19,10 @@ The generator+editor can run in-browser, providing a serverless-CMS for non-tech
 
 When you publish onto a static hosting service like [**netlify**](https://www.netlify.com/), you can include the generator+editor together with the published HTML.
 
-To see this in action, check out the docs at http://jldec.github.io/pub-doc/. The editor appears when you click on the [edit](http://jldec.github.io/pub-doc/pub/?page=%2F) button at the top right.
+To see this in action, check out the docs at https://jldec.github.io/pub-doc/. The editor appears when you click on the [edit](https://jldec.github.io/pub-doc/pub/?page=%2F) button at the top right.
 Feel free to play around - in this instance, your changes will not be recorded.
 
-Other examples include a [presentation theme](https://github.com/jldec/pub-sample-deck), a [flexbox design](https://github.com/jldec/pub-theme-brief), and a [blog](http://blog.pubblz.com/).
+Other examples include a [presentation theme](https://github.com/jldec/pub-sample-deck), a [flexbox design](https://github.com/jldec/pub-theme-brief), and a [blog](https://blog.pubblz.com/).
 
 ### installation
 

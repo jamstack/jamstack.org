@@ -1,7 +1,7 @@
 ---
 title: Lingon
 repo: spotify/lingon
-homepage: http://www.lingon.io/
+homepage: https://www.lingon.io/
 language:
   - JavaScript
 license:

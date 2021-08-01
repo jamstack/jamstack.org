@@ -1,7 +1,7 @@
 ---
 title: Zas
 repo: imdario/zas
-homepage: http://github.com/imdario/zas
+homepage: https://github.com/imdario/zas
 language:
   - Go
 license:
@@ -25,7 +25,7 @@ Yes, it is another NIH but... I think Zas is a different kind of beast. I admit 
 
 ### Where is the difference?
 
-1. Gophers. Yes, there is [Hugo](http://gohugo.io/) (kudos!) but... Who wants to learn another directory layout? There is also [Hastie](https://github.com/mkaz/hastie) too. If you want a blog.
+1. Gophers. Yes, there is [Hugo](https://gohugo.io/) (kudos!) but... Who wants to learn another directory layout? There is also [Hastie](https://github.com/mkaz/hastie) too. If you want a blog.
 2. Markdown only. And HTML, if you want.
 3. Just a loop. Zas just loops over all .md and .html files in current directory (and subdirectories), ignoring all any other file (including dot-files).
 4. Your imagination as limit. Zas has a simple extension mechanism based in subcommands. Do you really need to handle a blog with Zas? Install/create a new extension and do it!

@@ -12,7 +12,7 @@ templates:
 description: Static Site Generator written in Elixir.
 ---
 
-Obelisk is a static site generator written in [Elixir Programming Language](http://elixir-lang.org).
+Obelisk is a static site generator written in [Elixir Programming Language](https://elixir-lang.org).
 
 #### Goals
 

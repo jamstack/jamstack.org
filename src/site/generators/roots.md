@@ -1,7 +1,7 @@
 ---
 title: Roots
 repo: jescalan/roots
-homepage: http://roots.netlify.com
+homepage: https://roots.netlify.com
 language:
   - CoffeeScript
 license:

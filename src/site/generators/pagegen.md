@@ -1,7 +1,7 @@
 ---
 title: Pagegen
 repo: oliverfields/pagegen_v2
-homepage: http://pagegen.phnd.net
+homepage: https://pagegen.phnd.net
 language:
   - Python
 license:

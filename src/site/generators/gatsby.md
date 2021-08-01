@@ -1,7 +1,7 @@
 ---
 title: Gatsby
 repo: gatsbyjs/gatsby
-homepage: http://gatsbyjs.org
+homepage: https://gatsbyjs.org
 language:
   - JavaScript
 license:

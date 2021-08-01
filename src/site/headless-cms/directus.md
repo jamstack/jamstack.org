@@ -56,7 +56,7 @@ Directus allows you to manage multilingual content in as many languages as your 
 
 ## Resources
 
-Directus is released under the GPLv3 license and is managed by [RANGER Studio LLC](http://rangerstudio.com). It's easy to self-host your own instance of Directus, below are a few links to help you get started:
+Directus is released under the GPLv3 license and is managed by [RANGER Studio LLC](https://rangerstudio.com). It's easy to self-host your own instance of Directus, below are a few links to help you get started:
 
 [Directus.io](https://directus.io) • [GitHub](https://github.com/directus/directus) • [Docs](https://docs.directus.io) • [API Reference](https://docs.directus.io/api/reference.html) • [User Guide](https://docs.directus.io/guides/user-guide.html) • [Demo](https://directus.app) • [Contribute](https://docs.directus.io/getting-started/supporting-directus.html) • [Slack](https://slack.directus.io) • [Twitter](https://twitter.com/directus)
 

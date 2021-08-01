@@ -19,11 +19,11 @@ twitter: Phenomic_app
 ## Easy to use
 
 Write your content in [Markdown](https://en.wikipedia.org/wiki/Markdown) files.
-Implement your design with JavaScript files, using [React](http://facebook.github.io/react/).
+Implement your design with JavaScript files, using [React](https://facebook.github.io/react/).
 
 **No template language to learn. Just JavaScript** (and JSX if you like it).
 
-You can just grab some packages on the [NPM ecosystem](http://npmjs.org/)
+You can just grab some packages on the [NPM ecosystem](https://npmjs.org/)
 to help you build your website, blog or even a small app.
 
 _Phenomic_ will help you generate and deploy a website in a heartbeat.

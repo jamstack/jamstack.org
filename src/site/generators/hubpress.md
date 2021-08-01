@@ -1,7 +1,7 @@
 ---
 title: HubPress
 repo: HubPress/hubpress.io
-homepage: http://hubpress.github.io/
+homepage: https://hubpress.github.io/
 language:
   - JavaScript
 license:
@@ -35,7 +35,7 @@ Learn more about your readers with Google Analytics, you just have to set your t
 
 #### Demo - Take a closer look in more detail (YouTube)
 
-[![Demo - Take a closer look in more detail](https://img.youtube.com/vi/7gP3i4tHlRM/0.jpg)](http://www.youtube.com/watch?v=7gP3i4tHlRM)
+[![Demo - Take a closer look in more detail](https://img.youtube.com/vi/7gP3i4tHlRM/0.jpg)](https://www.youtube.com/watch?v=7gP3i4tHlRM)
 
 #### How To Create A Free Blog With HubPress And Netlify (YouTube)
 

@@ -1,7 +1,7 @@
 ---
 title: Blogofile
 repo: enigmacurry/blogofile
-homepage: http://blogofile.com
+homepage: https://blogofile.com
 language:
   - Python
 license:

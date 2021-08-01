@@ -1,7 +1,7 @@
 ---
 title: Broccoli Taco
 repo: moudy/broccoli-taco
-homepage: http://broccoli-taco.com/
+homepage: https://broccoli-taco.com/
 language:
   - JavaScript
 license:
@@ -15,4 +15,4 @@ Broccoli Taco is designed to create data-driven sites with no database. Pages ca
 
 Thanks to [Broccoli](https://github.com/broccolijs/broccoli), re-generating the site is super fast. This makes for a really nice development process, especially when paired with livereload.
 
-Check out the docs at http://broccoli-taco.com/ for more details.
+Check out the docs at https://broccoli-taco.com/ for more details.

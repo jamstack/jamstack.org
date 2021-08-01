@@ -1,7 +1,7 @@
 ---
 title: s2gen
 repo: denisftw/s2gen
-homepage: http://appliedscala.com/s2gen/
+homepage: https://appliedscala.com/s2gen/
 language:
   - Scala
 license:
@@ -13,7 +13,7 @@ description: A dead-simple Scala-based site generator
 
 **s2gen** is a simple static site generator written in Scala. It assumes that you write the content in Markdown and use Freemarker as a template engine. The generator supports watching for file changes and is completely unopinionated about organizing front-end assets.
 
-Check out [the home page](http://appliedscala.com/s2gen/) for more information about the project including the motivation behind it. You can find the latest documentation [on GitHub](https://github.com/denisftw/s2gen).
+Check out [the home page](https://appliedscala.com/s2gen/) for more information about the project including the motivation behind it. You can find the latest documentation [on GitHub](https://github.com/denisftw/s2gen).
 
 ### Features
 

@@ -1,7 +1,7 @@
 ---
 title: Gustav
 repo: futape/gustav
-homepage: http://gustav.futape.de
+homepage: https://gustav.futape.de
 language:
   - PHP
 templates:

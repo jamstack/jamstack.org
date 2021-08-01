@@ -1,7 +1,7 @@
 ---
 title: Webby
 repo: TwP/webby
-homepage: http://webby.rubyforge.org/
+homepage: https://webby.rubyforge.org/
 language:
   - Ruby
 license:

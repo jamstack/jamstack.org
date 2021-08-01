@@ -1,7 +1,7 @@
 ---
 title: CopperSmith
 repo: charlgottschalk/coppersmith
-homepage: http://charlgottschalk.co.za/projects/coppersmith
+homepage: https://charlgottschalk.co.za/projects/coppersmith
 language:
   - JavaScript
 license:
@@ -19,8 +19,8 @@ Once built, the site can be hosted anywhere static HTML content is supported, li
 
 CopperSmith also comes with a simple FTP publisher, allowing you to easily upload your generated site to your plain FTP server.
 
-Templating is supported and allows you to easily change the layout and styling with your own custom layouts and partials using the [handlebars](http://handlebarsjs.com/) templating engine.
+Templating is supported and allows you to easily change the layout and styling with your own custom layouts and partials using the [handlebars](https://handlebarsjs.com/) templating engine.
 
-Read the [templating docs](http://charlgottschalk.co.za/projects/coppersmith/docs/master/templates-setup) for more info.
+Read the [templating docs](https://charlgottschalk.co.za/projects/coppersmith/docs/master/templates-setup) for more info.
 
-View the [project page](http://charlgottschalk.co.za/projects/coppersmith) for [documentation](http://charlgottschalk.co.za/projects/coppersmith/docs).
+View the [project page](https://charlgottschalk.co.za/projects/coppersmith) for [documentation](https://charlgottschalk.co.za/projects/coppersmith/docs).
