@@ -1,6 +1,6 @@
 ---
 title: Keystone
-repo: /keystonejs/keystone
+repo: keystonejs/keystone
 homepage: https://keystonejs.com/
 twitter: KeystoneJS
 opensource: "Yes"
