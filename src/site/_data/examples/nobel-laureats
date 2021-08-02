@@ -1,0 +1,10 @@
+title: Nobel Prize Laureats
+description: Faceted search with AMP demo
+link: https://www.nobelprize.ru/
+thumbnailurl: /img/examples/Nobel-laureates.jpg
+tools:
+  - NextJs
+  - AMP (Accelerated Mobile Pages)
+  - Wikidata Sparql
+  - Vercel
+  - ItemsJS
