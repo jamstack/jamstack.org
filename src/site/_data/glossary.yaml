@@ -1,7 +1,7 @@
 
 # Summary and term values are used in both the page meta tags and also the auto generated
 # open graph and twitter card images. Those 2 fields should not exceed the following character counts:
-# term: 30
+# term: 35
 # summary: 250
 
 - term: 'Atomic deploys'
@@ -103,6 +103,11 @@
   id: 'microservice'
   summary: 'A programming paradigm where many parts of a large application are broken down into various units that have smaller responsibility.'
   definition: 'A programming paradigm where many parts of a large application are broken down into various units that have smaller responsibility. We can use Serverless or APIs for this, but it''s not that APIs or Serverless are necessarily Microservices, it''s that we have split apart what we want to access, and that modularity is what we call Microservices.'
+
+- term: 'Jamstack'
+  id: 'jamstack'
+  summary: 'A way of thinking about how to build for the web. The UI is compiled, the frontend is decoupled, and data is pulled in as needed.'
+  definition: 'A way of thinking about how to build for the web. The UI is [compiled](/glossary/pre-render), the frontend is [decoupled](/glossary/decoupling), and data is pulled in as needed.'
 
 - term: 'Monolith'
   id: 'monolith'
