@@ -1,0 +1,14 @@
+title: JSON API APP
+description: Single repository for everything you need to build better products as a developer
+link: "https://www.jsonapi.co/"
+thumbnailurl: /img/examples/jsonapiapp.png
+tools:
+  - Next.js
+  - Vercel
+  - GitHub
+  - React
+  - Chakra UI
+  - Airtable
+  - MailChimp
+  - Google Analytics
+  - Visual Studio
