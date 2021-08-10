@@ -1,7 +1,7 @@
 ---
 title: CopperSmith
 repo: charlgottschalk/coppersmith
-homepage: http://charlgottschalk.co.za/projects/coppersmith
+homepage: https://charlgottschalk.github.io/coppersmith/docs/
 language:
   - JavaScript
 license:

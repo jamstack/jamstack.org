@@ -1,7 +1,7 @@
 ---
 title: Templer
 repo: skx/templer
-homepage: http://steve.org.uk/Software/templer/
+homepage: https://steve.fi/software/templer/
 language:
   - Perl
 license:

@@ -1,7 +1,7 @@
 ---
 title: INTUITION.DEV
 repo: intuition-dev/INTUITION
-homepage: https://www.INTUITION.DEV
+homepage: https://intuition-dev.github.io/intuDocs/#/
 language:
   - TypeScript
 license:

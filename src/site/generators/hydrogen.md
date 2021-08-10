@@ -1,7 +1,7 @@
 ---
 title: Hydrogen
 repo: ShailenNaidoo/hydrogen
-homepage: https://hydrogen-cli.netlify.com
+homepage: https://hydrogen-js.netlify.app/
 language:
   - TypeScript
 license:

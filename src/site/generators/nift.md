@@ -1,7 +1,7 @@
 ---
 title: Nift
 repo: nifty-site-manager/nsm
-homepage: https://nift.cc
+homepage: https://nift.dev
 language:
   - C++
 license:
