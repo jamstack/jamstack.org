@@ -1,7 +1,7 @@
 ---
 title: PFT
 repo: dacav/App-PFT
-homepage: http://dacav.roundhousecode.com/pages/pft.html
+homepage: https://dacav.roundhousecode.com/tags/pft.html
 language:
   - Perl
 license:

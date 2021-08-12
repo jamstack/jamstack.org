@@ -1,7 +1,7 @@
 ---
 title: HashBrown
 repo: Putaitu/hashbrown-cms
-homepage: http://hashbrown.rocks
+homepage: https://hashbrowncms.org/
 opensource: "Yes"
 typeofcms: "API Driven"
 supportedgenerators:
