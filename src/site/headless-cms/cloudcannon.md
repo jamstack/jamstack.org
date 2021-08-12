@@ -7,34 +7,23 @@ typeofcms: "Git-based"
 supportedgenerators:
   - Jekyll
   - Hugo
-description: The Cloud CMS for Jekyll and Hugo - build Jekyll or Hugo static websites, make updates inline.
+  - 11ty
+description: The Git-based CMS for Jekyll, Hugo and 11ty sites. Take control of your content with visual editing, publishing and reusable components. 
 ---
 ## CloudCannon
-The Cloud CMS for Jekyll or Hugo - build Jekyll or Hugo static websites, have your team and clients update inline.
+The Git-based CMS for Jekyll, Hugo and 11ty sites. Take control of your content with visual editing, publishing and reusable components. 
 
-### Easy Editing
-Update content directly on the page. There's no guessing how changes appear on the live site.
+### Sync Workflow
+Develop your unique site and sync files with your favourite Git provider, GitHub, Bitbucket or GitLab. 
 
-Developers control what clients update by adding a class of editable to HTML elements.
+### Build Workflow
+Gain a competitive edge with Jekyll, Hugo or 11ty building your site. 
 
-### Editable Hydra
-Structure content
-Build smart structures with front matter to make even the most complex data updatable.
+### Edit Workflow
+Take full control of your content with intuitive visual editing, publishing, and reusable components.
 
-Photo galleries, background images and metadata are all powerful ways to use front matter.
+### Host Workflow
+Deliver the fastest sites on the internet with Cloudflare and AWS. 
 
-### Editable Hydra
-Sync with Git
-Work in your local environment then sync files using GitHub, Bitbucket or Dropbox.
-
-Content changes made on CloudCannon also sync back to your repository or Dropbox.
-
-### Editable Hydra
-The tools you love
-Build sites using Hugo, Jekyll, Liquid, Sass and any CSS or JavaScript frameworks you like.
-
-Write your own Ruby to extend Jekyll with CloudCannon Jekyll plugin support.
-
-### Editable Hydra
-Live, scalable and secure
-CloudCannon builds your sites, optimises assets to ensure peak performance, then publishes them live on CloudCannon hosting.
+### Community
+Plenty of [Jamstack resources to help the community](https://cloudcannon.com/community/), including the Jamstack ecosystem, themes, showcases and more. 
