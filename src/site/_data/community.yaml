@@ -128,3 +128,7 @@
   link: https://www.meetup.com/jamstack-stuttgart/
   feed: https://api.meetup.com/jamstack-stuttgart/events
   
+- name: Barcelona
+  link: https://www.meetup.com/jamstack-barcelona/
+  feed: https://api.meetup.com/jamstack-barcelona/events
+  
