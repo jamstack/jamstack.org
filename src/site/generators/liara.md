@@ -7,7 +7,8 @@ language:
 license:
   - BSD
 templates:
-  - Jinja2, Mako
+  - Jinja2
+  - Mako
 description: A fast, easy to use static site generator.
 ---
 
