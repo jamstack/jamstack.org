@@ -1,9 +1,13 @@
 title: Ayush Sharma
-description: Technical blog of Ayush Sharma, a Developer/SRE/Architect from New Delhi, India.
+description: "I'm Ayush Sharma - a writer and Cloud Systems Architect. This is my digital garden."
 link: https://ayushsharma.in
 thumbnailurl: /img/examples/ayushsharma.in.jpg
 tools:
+  - Bootstrap
+  - FontAwesome
+  - GitLab
+  - Google Analytics
+  - Google Fonts
   - Jekyll
   - Netlify
-  - GitLab
-  - Bootstrap
+  - Sass
