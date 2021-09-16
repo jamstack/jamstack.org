@@ -8,7 +8,7 @@
 }
 
 .logos-ticker-fade {
-  background: linear-gradient(to right, rgba(14, 24, 42, 1) 0%, rgba(14, 24, 42, .01) 20%, rgba(14, 24, 42, .01) 80%, rgba(14, 24, 42, 1) 100%);
+  background: linear-gradient(to right, rgba(22, 26, 43, 1) 0%, rgba(22, 26, 43, .01) 20%, rgba(22, 26, 43, .01) 80%, rgba(22, 26, 43, 1) 100%);
   height: 100%;
   left: 0;
   position: absolute;
