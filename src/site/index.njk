@@ -5,6 +5,7 @@ layout: layouts/base.njk
 
 {% import "components/ticker.njk" as ticker %}
 {% import "components/section-heading.njk" as section %}
+{% import "components/zinger-cta.njk" as zinger %}
 
 <section class="mt-16">
   <p class="w-1/2">Comprehensive guide for building Jamstack sites and home of the global Jamstack community.</p>
@@ -12,10 +13,24 @@ layout: layouts/base.njk
   <a href="/community" class="cta">Join the global community</a>
 </section>
 
-<section class="mb-20 p-0">
+<section class="mb-10 p-0">
   {{ ticker.icons() }}
   {{ ticker.main() }}
 </section>
+
+<section class="mb-10">
+  <a href="https://jamstackconf.com" class="border-2 border-white block rounded-xl shadow-lg text-center ">
+    <img src="/img/conf-2021-tout.png" alt="Jamstack Conf 2021" class="rounded-xl w-2/3 mx-auto my-8">
+    <p class="font-bold text-3xl my-0">
+      October 6-7, 2021
+    </p>
+    <p class="font-bold text-lg md:text-xl mb-10 w-2/3 md:w-1/2 mx-auto">
+      Join 20,000+ web developers to learn how it started, how it's going, and what's next!
+    </p>
+  </a>
+</section>
+
+
 
 <section class="mb-20">
   <h2>Why Jamstack</h2>
@@ -24,6 +39,8 @@ layout: layouts/base.njk
   </p>
 
   {{ section.icons() }}
+
+
 
   {{ section.benefit(
       "Better Performance",
