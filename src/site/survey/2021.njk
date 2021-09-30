@@ -7,6 +7,10 @@ javascripts:
   - https://d3js.org/d3.v7.min.js
   - /js/d3chart.js
   - /js/d3chart-survey.js
+gradientColors:
+  sunrise: [ "#F0047F", "#FC814A" ]
+  blue: [ "#0090c9", "#00c0ad" ]
+  sun: [ "#FFC803", "#FC814A" ]
 ---
 
 <svg style="position: absolute; left: -9999px">
@@ -19,23 +23,16 @@ javascripts:
       </feMerge>
     </filter>
 
-    <linearGradient id="gradient-sunrise-h">
-      <stop offset="0%" stop-color="#F0047F"/>
-      <stop offset="100%" stop-color="#FC814A"/>
+    {%- for key, entry in gradientColors %}
+    <linearGradient id="gradient-{{key}}-h">
+      <stop offset="0%" stop-color="{{entry[0]}}"/>
+      <stop offset="100%" stop-color="{{entry[1]}}"/>
     </linearGradient>
-    <linearGradient id="gradient-sunrise-v" x1="0" x2="0" y1="0" y2="1">
-      <stop offset="0%" stop-color="#F0047F"/>
-      <stop offset="100%" stop-color="#FC814A"/>
+    <linearGradient id="gradient-{{key}}-v" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="{{entry[0]}}"/>
+      <stop offset="100%" stop-color="{{entry[1]}}"/>
     </linearGradient>
-
-    <linearGradient id="gradient-blue-h">
-      <stop offset="100%" stop-color="#4FF3EA"/>
-      <stop offset="0%" stop-color="#04A2DD"/>
-    </linearGradient>
-    <linearGradient id="gradient-blue-v" x1="0" x2="0" y1="0" y2="1">
-      <stop offset="100%" stop-color="#4FF3EA"/>
-      <stop offset="0%" stop-color="#04A2DD"/>
-    </linearGradient>
+    {%- endfor %}
   </defs>
 </svg>
 

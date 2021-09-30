@@ -11,12 +11,18 @@ class D3Chart {
       colors: [
         "#F0047F",
         "#00BFAD",
-        "#029cc1", "#66e581", "#ffb21a", "#946dfd", "#d00b71"],
+        "#FFC803",
+        "#78ECC2",
+
+        "#ffb21a", "#946dfd", "#d00b71"],
       // only applies when `showInlineBarValues: "inside"`
       labelColors: [
         "#fff",
         "#000",
-        "#fff", "#000", "#000", "#fff", "#000"],
+        "#000",
+        "#000",
+
+        "#000", "#fff", "#000"],
       inlineLabelPad: 5,
     }, options);
   }
