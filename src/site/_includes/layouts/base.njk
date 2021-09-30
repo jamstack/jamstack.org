@@ -10,6 +10,9 @@ ogimage: "/img/og/default-og-image.png"
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/styles.css">
+{%- for url in stylesheets %}
+    <link rel="stylesheet" href="{{ url }}">
+{%- endfor %}
     <title>{{ title }} | Jamstack</title>
     <meta name="description" content="{{ description }}">
     <link rel="apple-touch-icon" sizes="180x180" href="/img/favicons/apple-touch-icon.png">
@@ -89,6 +92,9 @@ ogimage: "/img/og/default-og-image.png"
     <script type="module" src="/js/lazyiframe.js"></script>
     {%- for path in javascriptIncludes %}
     {% include path %}
+    {%- endfor %}
+    {%- for url in javascripts %}
+    <script defer src="{{ url }}"></script>
     {%- endfor %}
   </body>
 </html>

@@ -10,6 +10,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy({
     "src/js": "js",
     "node_modules/@zachleat/filter-container/*.js": "js",
+    "src/css": "css",
   });
 
   // Date helper

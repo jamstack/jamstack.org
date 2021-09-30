@@ -1,0 +1,107 @@
+.d3chart-placeholder {
+	width: 100%;
+	height: 450px;
+}
+
+.d3chart {
+	position: relative;
+}
+.d3chart > .d3chart-legend {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.d3chart-legend {
+	display: flex;
+	justify-content: center;
+	gap: .5em;
+	margin: .5em 0 1em;
+	font-size: 0.8125em; /* 13px /16 */
+	font-weight: 600;
+}
+.d3chart-legend > * {
+	border-radius: .25em;
+	padding: .25em .5em;
+}
+
+.d3chart .tick line {
+	shape-rendering: crispEdges;
+	stroke: rgba(255,255,255,.15);
+}
+.d3chart-bubble .tick:nth-child(2n) line {
+	stroke: rgba(255,255,255,.22);
+}
+.d3chart-bubble .tick:nth-child(2n+1) line {
+	stroke: rgba(255,255,255,.1);
+}
+.d3chart-bubble .tick:first-child line,
+.d3chart-bubble .tick:last-child line {
+	stroke: #737680;
+	stroke-width: 2px;
+}
+.d3chart-hbar .d3chart-xaxis .tick:first-child line,
+.d3chart-vbar .d3chart-yaxis .tick:first-child line {
+	stroke: #c5c5c9;
+	stroke-width: 2px;
+}
+.d3chart-hbar .d3chart-xaxis .tick:first-child line {
+	transform: translateX(-1px);
+}
+.d3chart-vbar .d3chart-yaxis .tick:first-child line {
+	transform: translateY(1px);
+}
+.d3chart-vbar .d3chart-xaxis text,
+.d3chart-hbar .d3chart-yaxis text {
+	--d3chart-label-clamp: 2vw;
+	font-size: 12px;
+	font-size: clamp(12px, var(--d3chart-label-clamp), 14px);
+	font-weight: 600;
+}
+
+
+.d3chart-inlinebarvalue {
+	--d3chart-label-clamp: 2vw;
+	font-size: 12px;
+	font-size: clamp(11px, var(--d3chart-label-clamp), 16px);
+	font-weight: 600;
+	text-anchor: middle;
+}
+.d3chart-inlinebarvalue-h {
+	font-size: 16px;
+	font-weight: 600;
+	text-anchor: start;
+}
+.d3chart-inlinebarvalue-h.inside {
+	text-anchor: end;
+}
+#yoe-stack .d3chart-inlinebarvalue {
+	--d3chart-label-clamp: 1.5vw;
+}
+@media (max-width: 40.5625em) { /* 649px */
+	#yoe-stack .d3chart-inlinebarvalue {
+		display: none;
+	}
+}
+
+/* Bubble charts */
+.d3chart-bubblelabel {
+	text-anchor: middle;
+	dominant-baseline: central;
+	font-size: 12px;
+	font-weight: 600;
+}
+.d3chart-bubblelabel.offset-l,
+.d3chart-bubblelabel.offset-r {
+	font-weight: 700;
+	text-shadow: none;
+}
+.d3chart-bubblelabel.offset-l {
+	text-anchor: end;
+}
+.d3chart-bubblelabel.offset-r {
+	text-anchor: start;
+}
+.d3chart-bubblelabelbg.offset {
+	background-color: rgba(255,255,255,.4);
+}
