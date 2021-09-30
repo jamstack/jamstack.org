@@ -2,6 +2,9 @@
 	width: 100%;
 	height: 450px;
 }
+.d3chart-legend-placeholder {
+	min-height: 2.125em; /* 34px /16 */
+}
 
 .d3chart {
 	position: relative;
@@ -14,11 +17,14 @@
 
 .d3chart-legend {
 	display: flex;
-	justify-content: center;
+	justify-content: flex-end;
 	gap: .5em;
-	margin: .5em 0 1em;
+	padding: .5em 0 0;
 	font-size: 0.8125em; /* 13px /16 */
 	font-weight: 600;
+}
+.d3chart + .d3chart-legend-placeholder .d3chart-legend {
+	justify-content: center;
 }
 .d3chart-legend > * {
 	border-radius: .25em;
@@ -128,6 +134,18 @@
 .d3chart-hbar .d3chart-color-2 {
 	fill: url(#gradient-sun-h);
 }
+.d3chart-color-3 {
+	fill: url(#gradient-seamist-v);
+}
+.d3chart-hbar .d3chart-color-3 {
+	fill: url(#gradient-seamist-h);
+}
+.d3chart-color-4 {
+	fill: url(#gradient-hallows-v);
+}
+.d3chart-hbar .d3chart-color-4 {
+	fill: url(#gradient-hallows-h);
+}
 
 
 /* Legend gradients */
@@ -142,4 +160,7 @@
 }
 .d3chart-legend-3 {
 	background: linear-gradient(180deg, #78ECC2 0%, #00FFB2 100%);
+}
+.d3chart-legend-4 {
+	background: linear-gradient(108.82deg, #DF4A1F 0%, #FFA278 90.74%);
 }

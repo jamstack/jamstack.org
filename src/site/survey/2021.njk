@@ -11,9 +11,11 @@ gradientColors:
   sunrise: [ "#F0047F", "#FC814A" ]
   blue: [ "#0090c9", "#00c0ad" ]
   sun: [ "#FFC803", "#FC814A" ]
+  seamist: [ "#78ECC2", "#00FFB2" ]
+  hallows: [ "#DF4A1F", "#FFA278" ]
 ---
 
-<svg style="position: absolute; left: -9999px">
+<svg style="position: absolute; left: -9999px; width: 1px; height: 1px; overflow: hidden;">
   <defs>
     <filter x="0" y="0" width="1" height="1" id="offset-label-bg">
       <feFlood flood-color="#161a2c" result="bg" />
@@ -36,6 +38,45 @@ gradientColors:
   </defs>
 </svg>
 
+<section class="leading-normal">
+  <h1>{{ title }}</h1>
+
+  <p>This year we saw Jamstack go mainstream, with big changes in working patterns for Jamstack developers in every region. From an influx in new students to changes in how and where members of the Jamstack community are working, we’ve learned that the move to remote work has remained particularly significant among web developers.</p>
+  <p>Netlify sits at the center of the Jamstack community, and we conduct our annual survey so we can understand our community of developers. This helps us tailor our products and services to our community. In sharing our survey results, we also want to help developers better understand themselves and one another. Working as a developer often means working in a vacuum, without a sense of what’s happening in the broader community. Our survey data can help provide a sense of best practices as well as an idea of what else is happening in the community.</p>
+  <p>This year, for example, you told us that content management systems Sanity and Strapi are having a moment, and that security is a rising concern for all devs. You also offered a lot of insight about new developers, from which specific devs have moved to remote work to the (obvious and less obvious) reasons why.</p>
+  <p>To get a better picture of the full developer landscape, we surveyed people who build websites in general, regardless of whether they build Jamstack sites, though our analysis focuses on active Jamstack developers.</p>
+  <p>We ran this year’s survey from June 22nd to August 10th and received over 7,000 responses, more than twice as many as last year’s survey. You can review our methodology document for a detailed breakdown of the demographics and accuracy of the survey sample and results.</p>
+  <p>To the developers who took the time to respond to our survey to help us learn more about the Jamstack and our community: Thank you. We hope you walk away from this report learning something about yourselves and the expanding Jamstack community. </p>
+
+  <nav class="overflow-hidden my-8">
+    <ol class="list-decimal float-left p-4 bg-gray-900 rounded-default">
+      <li class="py-1 px-2 ml-4"><a href="#demographics">Demographics</a></li>
+      <li class="py-1 px-2 ml-4"><a href="#adoption">Jamstack adoption</a></li>
+      <li class="py-1 px-2 ml-4"><a href="#workflows">Workflows</a></li>
+      <li class="py-1 px-2 ml-4"><a href="#choices">Technology choices</a></li>
+      <li class="py-1 px-2 ml-4"><a href="#conclusion">Conclusion</a></li>
+      <li class="py-1 px-2 ml-4"><a href="#additional">Additional resources</a></li>
+    </ol>
+  </nav>
+
+</section>
+
+<section id="demographics">
+  <h2>Demographics</h2>
+
+  <h3>Jobs</h3>
+
+  <h4>2021 saw an influx in students, as the Jamstack community continues to grow and thrive.</h4>
+
+  <p>Between 2020 and 2021, we didn’t see much change in our mix of developer and non-developer respondents. That’s good news—it means we’re sampling the same population both years, and the changes we’re noticing in other parts of the survey are real changes, and not just statistical noise.</p>
+
+
+</section>
+
+
+<!-- samples -->
+
+<hr>
 <section>
   <h2>Years of Experience (2020)</h2>
 
@@ -210,6 +251,7 @@ gradientColors:
     </table>
   </details>
 
+  <div class="d3chart-legend-placeholder"></div>
   <div id="yoe-stack" class="d3chart-placeholder"></div>
 </section>
 
@@ -411,6 +453,7 @@ gradientColors:
   </details>
 
   <div id="sua" class="d3chart-placeholder"></div>
+  <div class="d3chart-legend-placeholder"></div>
 </section>
 
 <!--
