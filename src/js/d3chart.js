@@ -7,9 +7,16 @@ class D3Chart {
       showInlineBarValues: "inside", // inside and outside supported
       showLegend: true,
       margin: {},
-      colors: ["#77ecc1", "#ef1675", "#029cc1", "#66e581", "#ffb21a", "#946dfd", "#d00b71"],
+      // colors: ["#77ecc1", "#ef1675", "#029cc1", "#66e581", "#ffb21a", "#946dfd", "#d00b71"],
+      colors: [
+        "#F0047F",
+        "#00BFAD",
+        "#029cc1", "#66e581", "#ffb21a", "#946dfd", "#d00b71"],
       // only applies when `showInlineBarValues: "inside"`
-      labelColors: ["#000", "#fff", "#fff", "#000", "#000", "#fff", "#000"],
+      labelColors: [
+        "#fff",
+        "#000",
+        "#fff", "#000", "#000", "#fff", "#000"],
       inlineLabelPad: 5,
     }, options);
   }
@@ -111,7 +118,7 @@ class D3Chart {
 
     let html = [];
     for(let j = 0; j < labels.length; j++) {
-      html.push(`<div style="background-color: ${this.options.colors[j]}; color: ${this.options.labelColors[j]}">${labels[j] || ""}</div>`);
+      html.push(`<div class="d3chart-legend-${j}" style="background-color: ${this.options.colors[j]}; color: ${this.options.labelColors[j]}">${labels[j] || ""}</div>`);
     }
 
     container.innerHTML = html.join("");
@@ -259,7 +266,8 @@ class D3VerticalBarChart extends D3Chart {
         .attr("y", d => d.top)
         .attr("width", d => d.width)
         .attr("height", d => d.height)
-        .attr("fill", d => colors(d.key));
+        .attr("fill", d => colors(d.key))
+        .attr("class", (d, j) => `d3chart-color-${j}`);
 
     if(options.showInlineBarValues) {
       svg.append("g")
@@ -398,7 +406,8 @@ class D3HorizontalBarChart extends D3Chart {
         .attr("y", d => d.top)
         .attr("width", d => d.width)
         .attr("height", d => d.height)
-        .attr("fill", d => colors(d.key));
+        .attr("fill", d => colors(d.key))
+        .attr("class", (d, j) => `d3chart-color-${j}`);
 
     if(options.showInlineBarValues) {
       svg.append("g")
@@ -556,6 +565,7 @@ class D3BubbleChart extends D3Chart {
           return rRange(d.r);
         })
         .attr("fill", d => colors(d))
+        .attr("class", (d, j) => `d3chart-color-${j}`)
         .on("mouseover", function(event, d) {
           d3.select(`#${getSlug(d)}`).raise(); 
         })

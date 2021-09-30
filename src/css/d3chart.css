@@ -108,3 +108,20 @@
 .d3chart-bubblelabelbg.offset {
 	background-color: rgba(255,255,255,.4);
 }
+
+/* Color gradients */
+.d3chart-color-0 {
+	fill: url(#gradient-sunrise-v);
+}
+.d3chart-legend-1 {
+	
+}
+.d3chart-hbar .d3chart-color-0 {
+	fill: url(#gradient-sunrise-h);
+}
+.d3chart-color-1 {
+	fill: url(#gradient-blue-v);
+}
+.d3chart-hbar .d3chart-color-1 {
+	fill: url(#gradient-blue-h);
+}
