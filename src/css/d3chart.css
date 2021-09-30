@@ -25,6 +25,9 @@
 	padding: .25em .5em;
 }
 
+.d3chart .tick text {
+	font-size: 1.3em; /* 13px /10 */
+}
 .d3chart .tick line {
 	shape-rendering: crispEdges;
 	stroke: rgba(255,255,255,.15);
