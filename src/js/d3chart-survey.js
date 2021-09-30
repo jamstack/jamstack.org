@@ -13,9 +13,13 @@ new D3VerticalBarChart("yoe-2021-vert", "yoe-2021-vert-table", {
 new D3HorizontalBarChart("yoe-2021", "yoe-2021-table", {
 });
 
-new D3VerticalBarChart("yoe-stack-vert", "yoe-stack-vert-table");
+new D3VerticalBarChart("yoe-stack-vert", "yoe-stack-vert-table", {
+  showInlineBarValues: "outside",
+});
 
-new D3HorizontalBarChart("yoe-stack", "yoe-stack-table");
+new D3HorizontalBarChart("yoe-stack", "yoe-stack-table", {
+  showInlineBarValues: "outside",
+});
 
 new D3HorizontalBarChart("yoe-usercount-stacked", "yoe-usercount-stacked-table", {
   mode: "stacked",
