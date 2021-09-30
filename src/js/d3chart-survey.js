@@ -1,3 +1,8 @@
+new D3VerticalBarChart("demographics-jobs-chart", "demographics-jobs-table", {
+  showInlineBarValues: "outside",
+});
+
+// --- samples
 new D3VerticalBarChart("yoe-2020-vert", "yoe-2020-vert-table", {
   showInlineBarValues: "outside",
 });

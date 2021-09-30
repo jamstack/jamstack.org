@@ -111,7 +111,11 @@ class D3Chart {
     for(let tr of bodyRows) {
       row = [];
       for(let child of tr.children) {
-        row.push(child.textContent);
+        let value = child.textContent;
+        if(value.endsWith("%")) {
+          value = parseFloat(value) / 100;
+        }
+        row.push(value);
       }
       output.push(row.join(","));
     }
@@ -205,7 +209,7 @@ class D3VerticalBarChart extends D3Chart {
     let x0 = d3.scaleBand()
       .domain(groups)
       .rangeRound([margin.left, width - margin.right])
-      .paddingInner(0.1);
+      .paddingInner(.2);
 
     let x1 = d3.scaleBand()
       .domain(keys)

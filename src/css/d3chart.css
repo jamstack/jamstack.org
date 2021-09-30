@@ -3,7 +3,7 @@
 	height: 450px;
 }
 .d3chart-legend-placeholder {
-	min-height: 2.125em; /* 34px /16 */
+	min-height: 1.71875em; /* 27.5px /16 */
 }
 
 .d3chart {
@@ -19,7 +19,6 @@
 	display: flex;
 	justify-content: flex-end;
 	gap: .5em;
-	padding: .5em 0 0;
 	font-size: 0.8125em; /* 13px /16 */
 	font-weight: 600;
 }
