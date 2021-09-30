@@ -65,5 +65,15 @@
   to = "/headless-cms/keystone/"
   status = 301
 
+[[redirects]]
+  from = "/survey/"
+  to = "/survey/2021/"
+  status = 302
+
+[[redirects]]
+  from = "/survey/2020/"
+  to = "https://www.netlify.com/blog/2020/05/27/state-of-the-jamstack-survey-2020-first-results/"
+  status = 301
+
 [[plugins]]
   package = "./plugins/keep-dot-cache-folder"
