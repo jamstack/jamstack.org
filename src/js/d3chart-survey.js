@@ -2,6 +2,15 @@ new D3VerticalBarChart("demographics-jobs-chart", "demographics-jobs-table", {
   showInlineBarValues: "outside",
 });
 
+// TODO fix ticks
+new D3HorizontalBarChart("demographics-jobtitle-chart", "demographics-jobtitle-table", {
+  showInlineBarValues: "outside",
+  margin: {
+    left: 150
+  },
+  colorMod: 2
+});
+
 // --- samples
 new D3VerticalBarChart("yoe-2020-vert", "yoe-2020-vert-table", {
   showInlineBarValues: "outside",

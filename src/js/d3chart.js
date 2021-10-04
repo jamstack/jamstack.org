@@ -23,8 +23,26 @@ class D3Chart {
         "#000",
 
         "#000", "#fff", "#000"],
+      colorMod: 0,
       inlineLabelPad: 5,
     }, options);
+
+    this.options.colors = this.normalizeColors(this.options.colors, this.options.colorMod);
+    this.options.labelColors = this.normalizeColors(this.options.labelColors, this.options.colorMod);
+  }
+
+  normalizeColors(colors = [], mod = 0) {
+    if(mod) {
+      let c = [];
+      let len = colors.length;
+      let k = len + mod;
+      for(let j = mod || 0; j < k; j++) {
+        c.push(colors[j % len]);
+      }
+      return c;
+    }
+
+    return colors;
   }
 
   get margin() {
@@ -97,19 +115,19 @@ class D3Chart {
     target.appendChild(node);
   }
 
-  parseDataToCsv(tableId) {
+  parseDataToCsv(tableId, reverse) {
     let table = document.getElementById(tableId);
     let headerCells = table.querySelectorAll(":scope thead th");
     let bodyRows = table.querySelectorAll(":scope tbody tr");
 
-    let row = [];
+    let headerOutput = [];
     for(let th of headerCells) {
-      row.push(th.textContent);
+      headerOutput.push(th.textContent);
     }
 
-    let output = [row.join(",")];
+    let output = [];
     for(let tr of bodyRows) {
-      row = [];
+      let row = [];
       for(let child of tr.children) {
         let value = child.textContent;
         if(value.endsWith("%")) {
@@ -119,7 +137,11 @@ class D3Chart {
       }
       output.push(row.join(","));
     }
-    return output.join("\n");
+    if(reverse) {
+      return [headerOutput.join(","), ...output.reverse()].join("\n");
+    }
+    return [headerOutput.join(","), ...output].join("\n");
+
   }
 
   generateLegend(labels = []) {
@@ -128,7 +150,7 @@ class D3Chart {
 
     let html = [];
     for(let j = 0; j < labels.length; j++) {
-      html.push(`<div class="d3chart-legend-${j}" style="background-color: ${this.options.colors[j]}; color: ${this.options.labelColors[j]}">${labels[j] || ""}</div>`);
+      html.push(`<div class="d3chart-legend-${j + this.options.colorMod}" style="background-color: ${this.options.colors[j]}; color: ${this.options.labelColors[j]}">${labels[j] || ""}</div>`);
     }
 
     container.innerHTML = html.join("");
@@ -145,15 +167,13 @@ class D3Chart {
     }
 
     let keys = this.getKeys(data);
-    if(keys.length > 1) { // only matters when more than one key
-      let legend = this.generateLegend(keys, this.options.colors);
-      let legendAnchor = this.target.parentNode.querySelector(":scope .d3chart-legend-placeholder");
-      if(legendAnchor) {
-        legendAnchor.appendChild(legend)
-      } else {
-        // inside
-        this.target.appendChild(legend);
-      }
+    let legend = this.generateLegend(keys, this.options.colors);
+    let legendAnchor = this.target.previousElementSibling.querySelector(":scope .d3chart-legend-placeholder");
+    if(legendAnchor) {
+      legendAnchor.appendChild(legend)
+    } else {
+      // inside
+      this.target.appendChild(legend);
     }
   }
 }
@@ -273,7 +293,7 @@ class D3VerticalBarChart extends D3Chart {
         .attr("width", d => d.width)
         .attr("height", d => d.height)
         .attr("fill", d => colors(d.key))
-        .attr("class", (d, j) => `d3chart-color-${j}`);
+        .attr("class", (d, j) => `d3chart-color-${j + this.options.colorMod}`);
 
     if(options.showInlineBarValues) {
       svg.append("g")
@@ -297,16 +317,15 @@ class D3VerticalBarChart extends D3Chart {
 
 class D3HorizontalBarChart extends D3Chart {
   constructor(target, tableId, optionOverrides = {}) {
-    optionOverrides.margin = {
+    optionOverrides.margin = Object.assign({
       top: 20,
       right: 50,
       bottom: 20,
       left: 120
-    };
+    }, optionOverrides.margin);
 
     let chart = super(target, optionOverrides, "d3chart-hbar");
-
-    let csvData = chart.parseDataToCsv(tableId);
+    let csvData = chart.parseDataToCsv(tableId, true);
     let data = Object.assign(d3.csvParse(csvData, d3.autoType));
 
     this.render(chart, data);
@@ -413,7 +432,7 @@ class D3HorizontalBarChart extends D3Chart {
         .attr("width", d => d.width)
         .attr("height", d => d.height)
         .attr("fill", d => colors(d.key))
-        .attr("class", (d, j) => `d3chart-color-${j}`);
+        .attr("class", (d, j) => `d3chart-color-${j + this.options.colorMod}`);
 
     if(options.showInlineBarValues) {
       svg.append("g")
@@ -571,7 +590,7 @@ class D3BubbleChart extends D3Chart {
           return rRange(d.r);
         })
         .attr("fill", d => colors(d))
-        .attr("class", (d, j) => `d3chart-color-${j}`)
+        .attr("class", (d, j) => `d3chart-color-${j + this.options.colorMod}`)
         .on("mouseover", function(event, d) {
           d3.select(`#${getSlug(d)}`).raise(); 
         })
