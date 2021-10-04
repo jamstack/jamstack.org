@@ -90,10 +90,31 @@ new D3HorizontalBarChart("adoption-titles-chart", "adoption-titles-table", {
   scale: "proportional"
 });
 
+new D3VerticalBarChart("adoption-frequency-chart", "adoption-frequency-table", {
+  showInlineBarValues: "inside",
+  margin: {
+    left: 90,
+    top: 30,
+  },
+  mode: "stacked"
+});
 
+new D3HorizontalBarChart("adoption-industries-chart", "adoption-industries-table", {
+  showInlineBarValues: "outside",
+  showLegend: false,
+  margin: {
+    left: 300
+  },
+  colorMod: 3,
+  labelPrecision: 0,
+});
+
+new D3BubbleChart("adoption-serverside-chart", "adoption-serverside-table");
 
 
 // --- samples
+
+/*
 new D3VerticalBarChart("yoe-2020-vert", "yoe-2020-vert-table", {
   showInlineBarValues: "outside",
 });
@@ -126,3 +147,4 @@ new D3VerticalBarChart("yoe-usercount-vert-stacked", "yoe-usercount-vert-stacked
 });
 
 new D3BubbleChart("sua", "sua-table");
+*/

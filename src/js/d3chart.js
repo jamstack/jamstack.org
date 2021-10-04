@@ -34,6 +34,8 @@ class D3Chart {
       ],
       colorMod: 0,
       inlineLabelPad: 5,
+      labelPrecision: 0,
+      sortLegend: false,
     }, options);
 
     this.options.colors = this.normalizeColors(this.options.colors, this.options.colorMod);
@@ -77,7 +79,7 @@ class D3Chart {
         height: 450
       },
       max: {
-        height: 660
+        height: 750
       },
     };
   }
@@ -154,15 +156,44 @@ class D3Chart {
 
   }
 
+  retrieveLabelId(label) {
+    let match = label.match(/^(\d*)\./);
+    if(match && match[1]) {
+      return match[1];
+    }
+  }
+
+  slugify(slug, prefix) {
+    return `${prefix}${slug.toLowerCase().replace(/[\s\.]/g, "")}`;
+  }
+
   generateLegend(labels = []) {
     let container = document.createElement("div");
     container.classList.add("d3chart-legend");
 
-    let html = [];
+    let entries = [];
     for(let j = 0; j < labels.length; j++) {
-      html.push(`<div class="d3chart-legend-${j + this.options.colorMod}" style="background-color: ${this.options.colors[j]}; color: ${this.options.labelColors[j]}">${labels[j] || ""}</div>`);
+      entries.push({
+        label: labels[j],
+        html: `<div class="d3chart-legend-entry d3chart-legend-${j + this.options.colorMod}">${labels[j] || ""}</div>`
+      });
     }
 
+    if(this.options.sortLegend) {
+      entries = entries.sort((a, b) => {
+        if(a.label < b.label) {
+          return -1;
+        } else if(b.label < a.label) {
+          return 1;
+        }
+        return 0;
+      });
+    }
+
+    let html = [];
+    for(let entry of entries) {
+      html.push(entry.html);
+    }
     container.innerHTML = html.join("");
     return container;
   }
@@ -178,6 +209,38 @@ class D3Chart {
 
     let keys = this.getKeys(data);
     let legend = this.generateLegend(keys, this.options.colors);
+
+    // TODO scope to bubble
+    legend.addEventListener("mouseover", e => {
+      let target = e.target;
+      if(target.classList.contains("d3chart-legend-entry")) {
+        let circleSlug = this.slugify(target.innerHTML, `${this.targetId}-bubblecircle-`);
+        let labelSlug = this.slugify(target.innerHTML, `${this.targetId}-bubblelabel-`);
+
+        let circle = document.getElementById(circleSlug);
+        let label = document.getElementById(labelSlug);
+        circle.classList.add("active");
+        label.classList.add("active");
+
+        circle.closest("svg").classList.add("d3chart-bubble-active");
+      }
+    });
+
+    // TODO better code, accessibility
+    legend.addEventListener("mouseout", e => {
+      let target = e.target;
+      if(target.classList.contains("d3chart-legend-entry")) {
+        let circleSlug = this.slugify(target.innerHTML, `${this.targetId}-bubblecircle-`);
+        let labelSlug = this.slugify(target.innerHTML, `${this.targetId}-bubblelabel-`);
+
+        let circle = document.getElementById(circleSlug);
+        let label = document.getElementById(labelSlug);
+        circle.classList.remove("active");
+        label.classList.remove("active");
+
+        circle.closest("svg").classList.remove("d3chart-bubble-active");
+      }
+    })
     let selector = ":scope .d3chart-legend-placeholder";
 
     let previousEl = this.target.previousElementSibling;
@@ -192,6 +255,20 @@ class D3Chart {
       // inside
       this.target.appendChild(legend);
     }
+  }
+
+  // TODO this but better
+  roundValue(num) {
+    let d0 = (num * 100).toFixed(0);
+    if(this.options.labelPrecision === 0) {
+      return d0;
+    }
+    
+    let d1 = (num * 100).toFixed(1);
+    if(d1.endsWith(".0")) {
+      return d0;
+    }
+    return d1;
   }
 }
 
@@ -325,7 +402,7 @@ class D3VerticalBarChart extends D3Chart {
           .attr("y", d => d.top - (options.showInlineBarValues === "outside" ? options.inlineLabelPad : (-15 - options.inlineLabelPad)))
           .attr("fill", d => options.showInlineBarValues === "inside" ? labelColors(d.key) : "currentColor")
           .attr("class", "d3chart-inlinebarvalue")
-          .text(function(d) { return (d.value * 100).toFixed(0) + "%"; });
+          .text(d => this.roundValue(d.value) + "%");
     }
 
     chart.reset(svg);
@@ -487,7 +564,7 @@ class D3HorizontalBarChart extends D3Chart {
           })
           .attr("class", d => "d3chart-inlinebarvalue-h" + (options.showInlineBarValues.length ? ` ${options.showInlineBarValues}` : ""))
           .attr("fill", d => options.showInlineBarValues === "inside" ? labelColors(d.key) : "currentColor")
-          .text(function(d) { return (d.value * 100).toFixed(0) + "%"; });
+          .text(d => this.roundValue(d.value) + "%");
     }
 
     chart.reset(svg);
@@ -501,19 +578,27 @@ class D3BubbleChart extends D3Chart {
       right: 25,
       bottom: 25,
       left: 40
-    }
+    };
+
+    optionOverrides.sortLegend = true;
 
     let chart = super(target, optionOverrides, "d3chart-bubble");
     let csvData = chart.parseDataToCsv(tableId);
 
-    let data = csvData.split("\n").slice(1).map(entry => {
+    let data = csvData.split("\n").slice(1).map((entry, id) => {
       let [name, x, y, r] = entry.split(",");
       return {
         name,
+        id,
         x,
         y,
         r,
       };
+    });
+
+    // sort from smallest to largest circles to insert in order (to render in the right z-index)
+    data = data.slice().sort((a, b) => {
+      return b.r - a.r;
     });
 
     this.render(chart, data);
@@ -606,11 +691,7 @@ class D3BubbleChart extends D3Chart {
     // Text Labels
     function isOffsetLabel(d) {
       let range = rRange(d.r);
-      return range / d.name.length <= 3;
-    }
-
-    function getSlug(d) {
-      return `chart-${targetId}-bubblelabel-${d.name.toLowerCase().replace(/\s/g, "")}`;
+      return range <= 10;
     }
 
     circles
@@ -625,19 +706,14 @@ class D3BubbleChart extends D3Chart {
         .attr("r", function (d) {
           return rRange(d.r);
         })
+        .attr("id", d => this.slugify(d.name, `${targetId}-bubblecircle-`))
         .attr("fill", d => colors(d))
-        .attr("class", (d, j) => `d3chart-color-${j + this.options.colorMod}`)
-        .on("mouseover", function(event, d) {
-          d3.select(`#${getSlug(d)}`).raise(); 
-        })
-        .on("mouseout", function(event, d) {
-          d3.select(`#${getSlug(d)}`).lower(); 
-        });
+        .attr("class", (d, j) => `d3chart-bubblecircle d3chart-color-${j + this.options.colorMod}`);
 
     circles
       .enter()
-        // .append("image")
         .append("text")
+        .attr("id", d => this.slugify(d.name, `${targetId}-bubblelabel-`))
         .attr("filter", d => {
           return isOffsetLabel(d) ? "url(#offset-label-bg)" : ""
         })
@@ -649,23 +725,15 @@ class D3BubbleChart extends D3Chart {
           return "d3chart-bubblelabel" + (isOffsetLabel(d) ? " offset-l" : "");
         })
         .attr("fill", d => isOffsetLabel(d) ? "currentColor" : labelColors(d))
-        .text(d => d.name)
-        // .attr("href", "https://v1.indieweb-avatar.11ty.dev/https%3A%2F%2Fwww.netlify.com%2F/")
-        // .attr("width", 25)
-        // .attr("height", 25)
-        .filter(d => isOffsetLabel(d))
-        .lower()
-        .attr("id", d => getSlug(d))
-        .on("mouseover", function() {
-          d3.select(this).raise(); 
+        .text(d => {
+          let labelId = this.retrieveLabelId(d.name);
+          if(labelId) {
+            return labelId;
+          }
+          return d.name;
         })
-        .on("mouseout", function() {
-          d3.select(this).lower(); 
-        });
-
-    circles
-      .enter()
-      .filter(d => isOffsetLabel(d))
+        .filter(d => isOffsetLabel(d))
+        .lower();
 
     chart.reset(svg);
   }

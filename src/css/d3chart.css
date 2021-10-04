@@ -5,6 +5,9 @@
 .d3chart-placeholder-large {
 	height: 660px;
 }
+.d3chart-placeholder-extralarge {
+	height: 750px;
+}
 .d3chart-legend-placeholder {
 	min-height: 1.71875em; /* 27.5px /16 */
 }
@@ -127,6 +130,16 @@
 .d3chart-bubblelabelbg.offset {
 	background-color: rgba(255,255,255,.4);
 }
+.d3chart-bubble circle {
+	fill-opacity: .9;
+}
+.d3chart-bubble-active .d3chart-bubblelabel,
+.d3chart-bubble-active .d3chart-bubblecircle {
+	fill-opacity: .2;
+}
+.d3chart-bubble-active .active {
+	fill-opacity: 1;
+}
 
 /* Color gradients */
 .d3chart-color-0 {
@@ -193,38 +206,44 @@
 
 /* Legend gradients */
 .d3chart-legend-0 {
+	color: #fff;
 	background: linear-gradient(352.65deg, #F0047F 1.39%, #FC814A 82.63%);
 }
 .d3chart-legend-1 {
+	color: #000;
 	background: linear-gradient(47.9deg, #0090CA 6.17%, #00BFAD 79.63%);
 }
 .d3chart-legend-2 {
+	color: #000;
 	background: linear-gradient(180deg, #FFC803 0%, #FC814A 100%);
 }
 .d3chart-legend-3 {
+	color: #000;
 	background: linear-gradient(180deg, #78ECC2 0%, #00FFB2 100%);
 }
 .d3chart-legend-4 {
+	color: #000;
 	background: linear-gradient(108.82deg, #DF4A1F 0%, #FFA278 90.74%);
 }
 .d3chart-legend-5 {
+	color: #000;
 	background: linear-gradient(108.82deg, #FD98BC 32.87%, #FFCCDE 90.74%);
 }
 .d3chart-legend-6 {
+	color: #000;
 	background: linear-gradient(108.82deg, #6B38FB 0%, #CCB4FF 90.74%);
 }
 .d3chart-legend-7 {
+	color: #000;
 	background: linear-gradient(108.82deg, #03D0D0 0%, #B5FFF8 90.74%);
 }
 .d3chart-legend-8 {
+	color: #000;
 	background: linear-gradient(108.82deg, #C40468 0%, #FC2796 90.74%);
 }
 .d3chart-legend-9 {
+	color: #000;
 	background: linear-gradient(180deg, #78F19A 0%, #13B110 100%);
 }
 
 /* Overrides */
-/* #adoption-titles-chart .d3chart-inlinebarvalue-h {
-	fill: currentColor;
-	text-anchor: start;
-} */
