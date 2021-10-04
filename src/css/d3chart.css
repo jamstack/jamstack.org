@@ -152,6 +152,36 @@
 .d3chart-hbar .d3chart-color-4 {
 	fill: url(#gradient-hallows-h);
 }
+.d3chart-color-5 {
+	fill: url(#gradient-bubblegum-v);
+}
+.d3chart-hbar .d3chart-color-5 {
+	fill: url(#gradient-bubblegum-h);
+}
+.d3chart-color-6 {
+	fill: url(#gradient-purple-v);
+}
+.d3chart-hbar .d3chart-color-6 {
+	fill: url(#gradient-purple-h);
+}
+.d3chart-color-7 {
+	fill: url(#gradient-air-v);
+}
+.d3chart-hbar .d3chart-color-7 {
+	fill: url(#gradient-air-h);
+}
+.d3chart-color-8 {
+	fill: url(#gradient-pink-v);
+}
+.d3chart-hbar .d3chart-color-8 {
+	fill: url(#gradient-pink-h);
+}
+.d3chart-color-9 {
+	fill: url(#gradient-leaves-v);
+}
+.d3chart-hbar .d3chart-color-9 {
+	fill: url(#gradient-leaves-h);
+}
 
 
 /* Legend gradients */
@@ -169,4 +199,19 @@
 }
 .d3chart-legend-4 {
 	background: linear-gradient(108.82deg, #DF4A1F 0%, #FFA278 90.74%);
+}
+.d3chart-legend-5 {
+	background: linear-gradient(108.82deg, #FD98BC 32.87%, #FFCCDE 90.74%);
+}
+.d3chart-legend-6 {
+	background: linear-gradient(108.82deg, #6B38FB 0%, #CCB4FF 90.74%);
+}
+.d3chart-legend-7 {
+	background: linear-gradient(108.82deg, #03D0D0 0%, #B5FFF8 90.74%);
+}
+.d3chart-legend-8 {
+	background: linear-gradient(108.82deg, #C40468 0%, #FC2796 90.74%);
+}
+.d3chart-legend-9 {
+	background: linear-gradient(180deg, #78F19A 0%, #13B110 100%);
 }

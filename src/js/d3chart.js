@@ -7,22 +7,31 @@ class D3Chart {
       showInlineBarValues: "inside", // inside and outside supported
       showLegend: true,
       margin: {},
-      // colors: ["#77ecc1", "#ef1675", "#029cc1", "#66e581", "#ffb21a", "#946dfd", "#d00b71"],
       colors: [
         "#F0047F",
         "#00BFAD",
         "#FFC803",
         "#78ECC2",
-
-        "#ffb21a", "#946dfd", "#d00b71"],
+        "#DF4A1F",
+        "#FD98BC",
+        "#6B38FB",
+        "#03D0D0",
+        "#C40468",
+        "#78F19A"
+      ],
       // only applies when `showInlineBarValues: "inside"`
       labelColors: [
         "#fff",
         "#000",
         "#000",
         "#000",
-
-        "#000", "#fff", "#000"],
+        "#000",
+        "#000",
+        "#000",
+        "#000",
+        "#000",
+        "#000"
+      ],
       colorMod: 0,
       inlineLabelPad: 5,
     }, options);

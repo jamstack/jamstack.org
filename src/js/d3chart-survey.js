@@ -33,6 +33,29 @@ new D3HorizontalBarChart("experience-region-chart", "experience-region-table", {
   }
 });
 
+new D3HorizontalBarChart("experience-fulltimevstudent-chart", "experience-fulltimevstudent-table", {
+  showInlineBarValues: "outside",
+  margin: {
+    left: 90
+  }
+});
+
+// TODO (@zachleat) fix label wrapping
+// https://bl.ocks.org/mbostock/7555321
+new D3HorizontalBarChart("experience-pandemic-chart", "experience-pandemic-table", {
+  showInlineBarValues: "outside",
+  showLegend: false,
+  margin: {
+    left: 420
+  },
+  colorMod: 3
+});
+
+new D3VerticalBarChart("experience-wentremote-chart", "experience-wentremote-table", {
+  showInlineBarValues: "outside",
+  colorMod: 2
+});
+
 // --- samples
 new D3VerticalBarChart("yoe-2020-vert", "yoe-2020-vert-table", {
   showInlineBarValues: "outside",
