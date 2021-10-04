@@ -93,6 +93,10 @@
 .d3chart-inlinebarvalue-h.inside {
 	text-anchor: end;
 }
+.d3chart-inlinebarvalue-h.inside-offset {
+	font-size: 14px;
+	text-anchor: end;
+}
 #yoe-stack .d3chart-inlinebarvalue {
 	--d3chart-label-clamp: 1.5vw;
 }
@@ -218,3 +222,9 @@
 .d3chart-legend-9 {
 	background: linear-gradient(180deg, #78F19A 0%, #13B110 100%);
 }
+
+/* Overrides */
+/* #adoption-titles-chart .d3chart-inlinebarvalue-h {
+	fill: currentColor;
+	text-anchor: start;
+} */

@@ -4,6 +4,7 @@ new D3VerticalBarChart("demographics-jobs-chart", "demographics-jobs-table", {
 
 new D3HorizontalBarChart("demographics-jobtitle-chart", "demographics-jobtitle-table", {
   showInlineBarValues: "outside",
+  showLegend: false,
   margin: {
     left: 150
   },
@@ -72,9 +73,18 @@ new D3HorizontalBarChart("adoption-purpose-chart", "adoption-purpose-table", {
 });
 
 new D3HorizontalBarChart("adoption-audience-chart", "adoption-audience-table", {
-  showInlineBarValues: "inside",
+  showInlineBarValues: "inside-offset",
   margin: {
-    left: 160
+    left: 110
+  },
+  mode: "stacked"
+});
+
+new D3HorizontalBarChart("adoption-titles-chart", "adoption-titles-table", {
+  showInlineBarValues: "inside-offset",
+  margin: {
+    left: 90,
+    top: 30,
   },
   mode: "stacked"
 });

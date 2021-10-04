@@ -4,7 +4,7 @@ class D3Chart {
     this.className = className;
 
     this.options = Object.assign({
-      showInlineBarValues: "inside", // inside and outside supported
+      showInlineBarValues: "inside", // inside, inside-offset, and outside supported
       showLegend: true,
       margin: {},
       colors: [
@@ -55,12 +55,14 @@ class D3Chart {
   }
 
   get margin() {
-    return Object.assign({
+    let m = Object.assign({
       top: 30,
       right: 10,
       bottom: 25,
       left: 40,
     }, this.options.margin);
+
+    return m;
   }
 
   get dimensions() {
@@ -383,7 +385,7 @@ class D3HorizontalBarChart extends D3Chart {
     let y0 = d3.scaleBand()
       .domain(groups)
       .rangeRound([height - margin.bottom - margin.top, margin.top])
-      .paddingInner(0.1);
+      .paddingInner(options.showInlineBarValues === "inside-offset" ? 0.25 : 0.15);
 
     let y1 = d3.scaleBand()
       .domain(keys)
@@ -458,10 +460,21 @@ class D3HorizontalBarChart extends D3Chart {
         .selectAll("text")
         .data(dataMod)
         .join("text")
-          .attr("x", d => d.left + d.width + (options.showInlineBarValues === "inside" ? -1 * options.inlineLabelPad : options.inlineLabelPad))
-          .attr("y", d => d.top + Math.floor(d.height / 2) - 1)
-          .attr("style", d => {
-            return `font-size: ${Math.min(Math.round(dimensions.container.width / 30), Math.round(d.height * .75), 16)}px`
+          .attr("x", d => {
+            let offset = options.inlineLabelPad;
+            if(options.showInlineBarValues.startsWith("inside")) {
+              offset = -1 * offset;
+            }
+            if(options.showInlineBarValues === "inside-offset") {
+              offset += 16;
+            }
+            return d.left + d.width + offset;
+          })
+          .attr("y", d => {
+            if(options.showInlineBarValues === "inside-offset") {
+              return -10;
+            }
+            return d.top + Math.floor(d.height / 2) - 1;
           })
           .attr("class", d => "d3chart-inlinebarvalue-h" + (options.showInlineBarValues.length ? ` ${options.showInlineBarValues}` : ""))
           .attr("fill", d => options.showInlineBarValues === "inside" ? labelColors(d.key) : "currentColor")
