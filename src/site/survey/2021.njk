@@ -55,106 +55,40 @@ gradientColors:
       <li class="py-1 px-2 ml-4"><a href="#workflows">Workflows</a></li>
       <li class="py-1 px-2 ml-4"><a href="#choices">Technology choices</a></li>
       <li class="py-1 px-2 ml-4"><a href="#conclusion">Conclusion</a></li>
-      <li class="py-1 px-2 ml-4"><a href="#additional">Additional resources</a></li>
+      <li class="py-1 px-2 ml-4"><a href="#resources">Additional resources</a></li>
     </ol>
   </nav>
 
 </section>
 
-<section id="demographics">
+<section id="demographics" class="border-b">
   <h2>Demographics</h2>
+  {% include "survey/demographics.njk" %}
+</section>
 
-  <h3 class="text-2xl font-semibold my-4">Jobs</h3>
+<section id="experience" class="border-b">
+  <h2>Experience</h2>
+  {% include "survey/experience.njk" %}
+</section>
 
-  <h4 class="text-xl my-4 max-w-md">2021 saw an influx in students, as the Jamstack community continues to grow and thrive.</h4>
+<section id="adoption" class="border-b">
+  <h2>Jamstack adoption</h2>
+</section>
 
-  <p>Between 2020 and 2021, we didn’t see much change in our mix of developer and non-developer respondents. That’s good news—it means we’re sampling the same population both years, and the changes we’re noticing in other parts of the survey are real changes, and not just statistical noise.</p>
+<section id="workflows" class="border-b">
+  <h2>Workflows</h2>
+</section>
 
-  <div class="mt-8 flex justify-between">
-    <h4 class="text-xl font-semibold">Developers and non-developers</h4>
-    <div class="d3chart-legend-placeholder"></div>
-  </div>
+<section id="choices" class="border-b">
+  <h2>Technology choices</h2>
+</section>
 
-  <div id="demographics-jobs-chart" class="d3chart-placeholder"></div>
+<section id="conclusion" class="border-b">
+  <h2>Conclusion</h2>
+</section>
 
-  <details class="my-4">
-    <summary class="text-sm mb-2">Show Chart Data</summary>
-    <table id="demographics-jobs-table" class="w-full table-auto border-collapse">
-      <thead>
-        <tr class="bg-gray-700 border-b-2">
-          <th class="text-left">People</th>
-          <th class="text-left">2020</th>
-          <th class="text-left">2021</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Developers</td>
-          <td>79%</td>
-          <td>81%</td>
-        </tr>
-        <tr>
-          <td>Non-developers</td>
-          <td>21%</td>
-          <td>19%</td>
-        </tr>
-      </tbody>
-    </table>
-  </details>
-
-  <div class="mt-8 flex justify-between">
-    <h4 class="text-xl font-semibold">Job title</h4>
-    <div class="d3chart-legend-placeholder"></div>
-  </div>
-
-  <div id="demographics-jobtitle-chart" class="d3chart-placeholder"></div>
-
-  <details class="my-4">
-    <summary class="text-sm mb-2">Show Chart Data</summary>
-    <table id="demographics-jobtitle-table" class="w-full table-auto border-collapse">
-      <thead>
-        <tr class="bg-gray-700 border-b-2">
-          <th class="text-left">Job Title</th>
-          <th class="text-left">Percentage of Survey Participants</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Developer: Front-end</td>
-          <td>45%</td>
-        </tr>
-        <tr>
-          <td>Developer: Full Stack</td>
-          <td>32%</td>
-        </tr>
-        <tr>
-          <td>Management</td>
-          <td>6%</td>
-        </tr>
-        <tr>
-          <td>Other</td>
-          <td>5%</td>
-        </tr>
-        <tr>
-          <td>Developer: Back-end</td>
-          <td>5%</td>
-        </tr>
-        <tr>
-          <td>Designer</td>
-          <td>4%</td>
-        </tr>
-        <tr>
-          <td>Content Producer</td>
-          <td>2%</td>
-        </tr>
-        <tr>
-          <td>DevOps</td>
-          <td>2%</td>
-        </tr>
-      </tbody>
-    </table>
-  </details>
-
+<section id="resources" class="border-b">
+  <h2>Additional resources</h2>
 </section>
 
 

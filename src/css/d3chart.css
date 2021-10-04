@@ -22,6 +22,13 @@
 	font-size: 0.8125em; /* 13px /16 */
 	font-weight: 600;
 }
+.d3chart-legend-wrap .d3chart-legend {
+	flex-wrap: wrap;
+	justify-content: center;
+	max-width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
 .d3chart + .d3chart-legend-placeholder .d3chart-legend {
 	justify-content: center;
 }

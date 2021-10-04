@@ -2,13 +2,35 @@ new D3VerticalBarChart("demographics-jobs-chart", "demographics-jobs-table", {
   showInlineBarValues: "outside",
 });
 
-// TODO fix ticks
 new D3HorizontalBarChart("demographics-jobtitle-chart", "demographics-jobtitle-table", {
   showInlineBarValues: "outside",
   margin: {
     left: 150
   },
   colorMod: 2
+});
+
+new D3HorizontalBarChart("demographics-employmentstatus-chart", "demographics-employmentstatus-table", {
+  showInlineBarValues: "outside",
+  margin: {
+    left: 100
+  }
+});
+
+new D3HorizontalBarChart("experience-years-chart", "experience-years-table", {
+  showInlineBarValues: "outside",
+  margin: {
+    left: 90
+  }
+});
+
+new D3HorizontalBarChart("experience-region-chart", "experience-region-table", {
+  mode: "stacked",
+  showInlineBarValues: false,
+  margin: {
+    left: 50,
+    right: 0
+  }
 });
 
 // --- samples

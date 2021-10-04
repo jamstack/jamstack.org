@@ -49,7 +49,7 @@ class D3Chart {
     return Object.assign({
       top: 30,
       right: 10,
-      bottom: 20,
+      bottom: 25,
       left: 40,
     }, this.options.margin);
   }
@@ -168,9 +168,16 @@ class D3Chart {
 
     let keys = this.getKeys(data);
     let legend = this.generateLegend(keys, this.options.colors);
-    let legendAnchor = this.target.previousElementSibling.querySelector(":scope .d3chart-legend-placeholder");
-    if(legendAnchor) {
-      legendAnchor.appendChild(legend)
+    let selector = ":scope .d3chart-legend-placeholder";
+
+    let previousEl = this.target.previousElementSibling;
+    let legendAnchorBefore = previousEl ? previousEl.querySelector(selector) : null;
+
+    let nextEl = this.target.nextElementSibling;
+    let legendAnchorAfter = nextEl ? nextEl.querySelector(selector) : null;
+
+    if(legendAnchorBefore || legendAnchorAfter) {
+      (legendAnchorBefore || legendAnchorAfter).appendChild(legend)
     } else {
       // inside
       this.target.appendChild(legend);
@@ -323,7 +330,6 @@ class D3HorizontalBarChart extends D3Chart {
       bottom: 20,
       left: 120
     }, optionOverrides.margin);
-
     let chart = super(target, optionOverrides, "d3chart-hbar");
     let csvData = chart.parseDataToCsv(tableId, true);
     let data = Object.assign(d3.csvParse(csvData, d3.autoType));
@@ -381,7 +387,7 @@ class D3HorizontalBarChart extends D3Chart {
       .attr("class", "d3chart-xaxis")
       .call(d3
         .axisBottom(x)
-        .ticks(null, "%")
+        .ticks(5, "%")
         .tickSize(height - margin.bottom - margin.top))
       .call(g => g.select(".domain").remove());
 
