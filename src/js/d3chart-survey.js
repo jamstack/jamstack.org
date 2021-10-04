@@ -86,7 +86,8 @@ new D3HorizontalBarChart("adoption-titles-chart", "adoption-titles-table", {
     left: 90,
     top: 30,
   },
-  mode: "stacked"
+  mode: "stacked",
+  scale: "proportional"
 });
 
 

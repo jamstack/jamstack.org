@@ -370,6 +370,10 @@ class D3HorizontalBarChart extends D3Chart {
 
     let x = d3.scaleLinear()
       .domain([0, d3.max(data, d => {
+        if(options.scale === "proportional") {
+          return 1;
+        }
+
         if(options.mode === "stacked") {
           let sum = 0;
           for(let key of keys) {
@@ -409,12 +413,17 @@ class D3HorizontalBarChart extends D3Chart {
 
     let dataMod = d => {
       let incrementer = 0;
+      let sum = 0;
+      for(let key of keys) {
+        sum += d[key];
+      }
 
       return keys.map(key => {
         let data = {
           key,
           value: d[key],
-          width: x(d[key]) - x(0),
+          sum,
+          width: x(options.scale === "proportional" ? (d[key] / sum) :  d[key]) - x(0),
           height: y1.bandwidth(),
           left: margin.left,
           top: y1(key)
