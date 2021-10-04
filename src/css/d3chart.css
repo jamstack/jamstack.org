@@ -2,6 +2,9 @@
 	width: 100%;
 	height: 450px;
 }
+.d3chart-placeholder-large {
+	height: 660px;
+}
 .d3chart-legend-placeholder {
 	min-height: 1.71875em; /* 27.5px /16 */
 }

@@ -67,7 +67,6 @@ class D3Chart {
     let target = this.target;
     return {
       container: {
-        // TODO tie to the container, not the viewport
         width: target.clientWidth,
         height: target.clientHeight,
       },
@@ -76,7 +75,7 @@ class D3Chart {
         height: 450
       },
       max: {
-        height: 450
+        height: 660
       },
     };
   }

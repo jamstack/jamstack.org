@@ -53,8 +53,34 @@ new D3HorizontalBarChart("experience-pandemic-chart", "experience-pandemic-table
 
 new D3VerticalBarChart("experience-wentremote-chart", "experience-wentremote-table", {
   showInlineBarValues: "outside",
-  colorMod: 2
+  colorMod: 2,
+  showLegend: false,
 });
+
+new D3VerticalBarChart("experience-wentremotetitle-chart", "experience-wentremotetitle-table", {
+  showInlineBarValues: "outside",
+  showLegend: false,
+});
+
+new D3HorizontalBarChart("adoption-purpose-chart", "adoption-purpose-table", {
+  showInlineBarValues: "outside",
+  showLegend: false,
+  margin: {
+    left: 200
+  },
+  colorMod: 1
+});
+
+new D3HorizontalBarChart("adoption-audience-chart", "adoption-audience-table", {
+  showInlineBarValues: "inside",
+  margin: {
+    left: 160
+  },
+  mode: "stacked"
+});
+
+
+
 
 // --- samples
 new D3VerticalBarChart("yoe-2020-vert", "yoe-2020-vert-table", {
