@@ -35,6 +35,8 @@ class D3Chart {
       colorMod: 0,
       inlineLabelPad: 5,
       labelPrecision: 0,
+      // TODO make this automatic by parsing `%` signs
+      valueType: ["percentage"],
       sortLegend: false,
       highlightElementsFromLegend: false
     }, options);
@@ -265,8 +267,11 @@ class D3Chart {
     }
   }
 
-  // TODO this but better
-  roundValue(num) {
+  roundValue(num, valueType = "percentage") {
+    if(valueType !== "percentage") {
+      return num;
+    }
+
     let d0 = (num * 100).toFixed(0);
     if(this.options.labelPrecision === 0) {
       return d0;
@@ -343,7 +348,7 @@ class D3VerticalBarChart extends D3Chart {
       .attr("class", "d3chart-yaxis")
       .call(d3
         .axisLeft(y)
-        .ticks(null, "%")
+        .ticks(null, this.options.valueType[0] === "percentage" ? "%" : "")
         .tickSize(-width + margin.left + margin.right))
       .call(g => g.select(".domain").remove());
 
@@ -410,7 +415,7 @@ class D3VerticalBarChart extends D3Chart {
           .attr("y", d => d.top - (options.showInlineBarValues === "outside" ? options.inlineLabelPad : (-15 - options.inlineLabelPad)))
           .attr("fill", d => options.showInlineBarValues === "inside" ? labelColors(d.key) : "currentColor")
           .attr("class", "d3chart-inlinebarvalue")
-          .text(d => this.roundValue(d.value) + "%");
+          .text(d => this.roundValue(d.value, this.options.valueType[0]) + (this.options.valueType[0] === "percentage" ? "%" : ""));
     }
 
     chart.reset(svg);
@@ -486,7 +491,7 @@ class D3HorizontalBarChart extends D3Chart {
       .attr("class", "d3chart-xaxis")
       .call(d3
         .axisBottom(x)
-        .ticks(5, "%")
+        .ticks(5, this.options.valueType[0] === "percentage" ? "%" : "")
         .tickSize(height - margin.bottom - margin.top))
       .call(g => g.select(".domain").remove());
 
@@ -572,7 +577,7 @@ class D3HorizontalBarChart extends D3Chart {
           })
           .attr("class", d => "d3chart-inlinebarvalue-h" + (options.showInlineBarValues.length ? ` ${options.showInlineBarValues}` : ""))
           .attr("fill", d => options.showInlineBarValues === "inside" ? labelColors(d.key) : "currentColor")
-          .text(d => this.roundValue(d.value) + "%");
+          .text(d => this.roundValue(d.value, this.options.valueType[0]) + (this.options.valueType[0] === "percentage" ? "%" : ""));
     }
 
     chart.reset(svg);
@@ -590,6 +595,10 @@ class D3BubbleChart extends D3Chart {
 
     optionOverrides.sortLegend = true;
     optionOverrides.highlightElementsFromLegend = true;
+
+    if(!optionOverrides.valueType) {
+      optionOverrides.valueType = ["percentage", "percentage"];
+    }
 
     let chart = super(target, optionOverrides, "d3chart-bubble");
     let csvData = chart.parseDataToCsv(tableId);
@@ -609,6 +618,7 @@ class D3BubbleChart extends D3Chart {
     data = data.slice().sort((a, b) => {
       return b.r - a.r;
     });
+    console.log( data );
 
     this.render(chart, data);
     this.renderLegend(data);
@@ -644,30 +654,30 @@ class D3BubbleChart extends D3Chart {
       .range([margin.left + margin.right, width - margin.left - margin.right])
       .domain([
         0, //d3.min(data, d => d.x),
-        d3.max(data, d => d.x)
+        d3.max(data, d => parseFloat(d.x))
       ]);
 
     let yRange = d3.scaleLinear()
       .range([height - margin.top - margin.bottom, margin.top + margin.bottom]) // flipped
       .domain([
         0, //d3.min(data, d => d.y),
-        d3.max(data, d => d.y)
+        d3.max(data, d => parseFloat(d.y))
       ]);
 
     let rRange = d3.scaleLinear()
-      .range([10, 40])
+      .range([0, 30])
       .domain([
-        d3.min(data, d => d.r),
-        d3.max(data, d => d.r)
+        0,
+        d3.max(data, d => parseFloat(d.r))
       ]);
 
     let xScale = d3.scaleLinear()
-      .domain([0, 1])
+      .domain([0, d3.max(data, d => parseFloat(d.x))])
       .range([0, width - margin.left - margin.right]);
 
     let xAxis = d3.axisBottom()
       .scale(xScale)
-      .ticks(null, "%")
+      .ticks(null, this.options.valueType[0] === "percentage" ? "%" : "")
       .tickSize(-height + margin.top + margin.bottom);
 
     svg.append("g")
@@ -680,9 +690,9 @@ class D3BubbleChart extends D3Chart {
 
     let yAxis = d3.axisLeft()
       .scale(d3.scaleLinear()
-        .domain([1, 0])
+        .domain([1, 0]) // TODO fix only for percents?
         .range([0, height - margin.top - margin.bottom]))
-      .ticks(null, "%")
+      .ticks(null, this.options.valueType[1] === "percentage" ? "%" : "")
       .tickSize(-width + margin.right + margin.left);
 
     svg.append("g")

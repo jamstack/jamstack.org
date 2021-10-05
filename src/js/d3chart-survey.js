@@ -111,6 +111,30 @@ new D3HorizontalBarChart("adoption-industries-chart", "adoption-industries-table
 
 new D3BubbleChart("adoption-serverside-chart", "adoption-serverside-table");
 
+new D3HorizontalBarChart("workflows-devices-chart", "workflows-devices-table", {
+  showInlineBarValues: "inside-offset",
+  mode: "stacked",
+  margin: {
+    left: 140
+  }
+});
+
+new D3VerticalBarChart("workflows-priorities-chart", "workflows-priorities-table", {
+  showInlineBarValues: "outside",
+  colorMod: 2,
+  valueType: ["float"],
+});
+
+new D3BubbleChart("workflows-design-chart", "workflows-design-table", {
+  valueType: ["float", "percentage"]
+});
+
+new D3BubbleChart("workflows-editors-chart", "workflows-editors-table", {
+  valueType: ["float", "percentage"]
+});
+
+
+
 
 // --- samples
 
