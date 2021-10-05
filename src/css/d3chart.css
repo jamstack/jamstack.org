@@ -144,6 +144,12 @@
 .d3chart-bubble-active .d3chart-bubblecircle.active {
 	fill-opacity: 1;
 }
+.d3chart-bubble .d3chart-yaxis .tick:last-child text {
+	display: none;
+}
+.d3chart-bubble .d3chart-xaxis .tick text {
+	transform: translateY(2px);
+}
 
 /* Color gradients */
 .d3chart-color-0 {
