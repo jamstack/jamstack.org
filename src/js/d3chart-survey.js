@@ -115,7 +115,9 @@ new D3HorizontalBarChart("adoption-industries-chart", "adoption-industries-table
   labelPrecision: 0,
 });
 
-new D3BubbleChart("adoption-serverside-chart", "adoption-serverside-table");
+new D3BubbleChart("adoption-serverside-chart", "adoption-serverside-table", {
+  valueType: ["percentage", "float"]
+});
 
 new D3HorizontalBarChart("workflows-devices-chart", "workflows-devices-table", {
   showInlineBarValues: "inside-offset",
