@@ -28,6 +28,9 @@
 	font-size: 0.8125em; /* 13px /16 */
 	font-weight: 600;
 }
+.d3chart-legend button {
+	font-weight: inherit;
+}
 .d3chart-legend-wrap .d3chart-legend {
 	flex-wrap: wrap;
 	justify-content: center;
