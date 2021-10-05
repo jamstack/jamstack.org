@@ -133,42 +133,38 @@ new D3BubbleChart("workflows-editors-chart", "workflows-editors-table", {
   valueType: ["float", "percentage"]
 });
 
-
-
-
-// --- samples
-
-/*
-new D3VerticalBarChart("yoe-2020-vert", "yoe-2020-vert-table", {
-  showInlineBarValues: "outside",
+new D3BubbleChart("choices-cms-chart", "choices-cms-table", {
+  valueType: ["percentage", "float"]
 });
 
-new D3HorizontalBarChart("yoe-2020", "yoe-2020-table", {
+new D3BubbleChart("choices-cmsdelta-chart", "choices-cmsdelta-table", {
+  valueType: ["percentage", "float"]
+});
+
+new D3BubbleChart("choices-langs-chart", "choices-langs-table", {
+  valueType: ["percentage", "float"]
+});
+
+new D3BubbleChart("choices-langsdelta-chart", "choices-langsdelta-table", {
+  valueType: ["percentage", "float"]
+});
+
+new D3BubbleChart("choices-frameworks-chart", "choices-frameworks-table", {
+  valueType: ["percentage", "float"]
+});
+
+new D3BubbleChart("choices-frameworksminor-chart", "choices-frameworksminor-table", {
+  valueType: ["percentage", "float"]
+});
+
+new D3BubbleChart("choices-frameworksdelta-chart", "choices-frameworksdelta-table", {
+  valueType: ["percentage", "float"]
+});
+
+new D3HorizontalBarChart("choices-thirdparty-chart", "choices-thirdparty-table", {
+  showInlineBarValues: "outside",
+  showLegend: false,
   margin: {
-    right: 50
-  }
+    left: 185
+  },
 });
-
-new D3VerticalBarChart("yoe-2021-vert", "yoe-2021-vert-table", {
-});
-new D3HorizontalBarChart("yoe-2021", "yoe-2021-table", {
-});
-
-new D3VerticalBarChart("yoe-stack-vert", "yoe-stack-vert-table", {
-  showInlineBarValues: "outside",
-});
-
-new D3HorizontalBarChart("yoe-stack", "yoe-stack-table", {
-  showInlineBarValues: "outside",
-});
-
-new D3HorizontalBarChart("yoe-usercount-stacked", "yoe-usercount-stacked-table", {
-  mode: "stacked",
-});
-
-new D3VerticalBarChart("yoe-usercount-vert-stacked", "yoe-usercount-vert-stacked-table", {
-  mode: "stacked",
-});
-
-new D3BubbleChart("sua", "sua-table");
-*/

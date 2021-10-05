@@ -17,7 +17,14 @@ class D3Chart {
         "#6B38FB",
         "#03D0D0",
         "#C40468",
-        "#78F19A"
+        "#78F19A",
+        "#91A5EE",
+        "#02C6B3",
+        "#FF0F00",
+        "#003EDD",
+        "#02465F",
+        "#960000",
+        "#FF72CF",
       ],
       // only applies when `showInlineBarValues: "inside"`
       labelColors: [
@@ -29,8 +36,15 @@ class D3Chart {
         "#000",
         "#000",
         "#000",
+        "#fff",
         "#000",
-        "#000"
+        "#000",
+        "#000",
+        "#000",
+        "#000",
+        "#000",
+        "#fff",
+        "#fff",
       ],
       colorMod: 0,
       inlineLabelPad: 5,
@@ -162,7 +176,7 @@ class D3Chart {
   retrieveLabelId(label) {
     let match = label.match(/^(\d*)\./);
     if(match && match[1]) {
-      return match[1];
+      return parseInt(match[1], 10);
     }
   }
 
@@ -191,6 +205,11 @@ class D3Chart {
 
     if(this.options.sortLegend) {
       entries = entries.sort((a, b) => {
+        let idA = this.retrieveLabelId(a.label);
+        let idB = this.retrieveLabelId(b.label);
+        if(idA && idB) {
+          return idA - idB;
+        }
         if(a.label < b.label) {
           return -1;
         } else if(b.label < a.label) {
@@ -618,7 +637,6 @@ class D3BubbleChart extends D3Chart {
     data = data.slice().sort((a, b) => {
       return b.r - a.r;
     });
-    console.log( data );
 
     this.render(chart, data);
     this.renderLegend(data);
@@ -650,29 +668,48 @@ class D3BubbleChart extends D3Chart {
 
     let targetId = this.targetId;
 
+    let xAxisMax = d3.max(data, d => parseFloat(d.x));
+    if(this.options.valueType[0] !== "percentage") {
+      xAxisMax = Math.ceil(xAxisMax);
+    } else {
+      // round up to at least 1 if percentage
+      // xAxisMax = Math.max(1, xAxisMax);
+    }
+
+    let yAxisMax = d3.max(data, d => parseFloat(d.y));
+    if(this.options.valueType[1] !== "percentage") {
+      yAxisMax = Math.ceil(yAxisMax);
+    } else {
+      // round up to at least 1 if percentage
+      yAxisMax = Math.max(1, yAxisMax);
+    }
+
     let xRange = d3.scaleLinear()
       .range([margin.left + margin.right, width - margin.left - margin.right])
       .domain([
-        0, //d3.min(data, d => d.x),
-        d3.max(data, d => parseFloat(d.x))
+        Math.min(d3.min(data, d => parseFloat(d.x)), 0),
+        xAxisMax
       ]);
 
     let yRange = d3.scaleLinear()
       .range([height - margin.top - margin.bottom, margin.top + margin.bottom]) // flipped
       .domain([
-        0, //d3.min(data, d => d.y),
-        d3.max(data, d => parseFloat(d.y))
-      ]);
+        Math.min(d3.min(data, d => parseFloat(d.y)), 0),
+        yAxisMax
+      ]).nice();
 
     let rRange = d3.scaleLinear()
-      .range([0, 30])
+      .range([7, 25])
       .domain([
-        0,
+        Math.min(d3.min(data, d => parseFloat(d.r)), 0),
         d3.max(data, d => parseFloat(d.r))
       ]);
 
     let xScale = d3.scaleLinear()
-      .domain([0, d3.max(data, d => parseFloat(d.x))])
+      .domain([
+        Math.min(d3.min(data, d => parseFloat(d.x)), 0),
+        xAxisMax
+      ])
       .range([0, width - margin.left - margin.right]);
 
     let xAxis = d3.axisBottom()
@@ -690,7 +727,10 @@ class D3BubbleChart extends D3Chart {
 
     let yAxis = d3.axisLeft()
       .scale(d3.scaleLinear()
-        .domain([1, 0]) // TODO fix only for percents?
+        .domain([
+          yAxisMax,
+          Math.min(d3.min(data, d => parseFloat(d.y)), 0),
+        ])
         .range([0, height - margin.top - margin.bottom]))
       .ticks(null, this.options.valueType[1] === "percentage" ? "%" : "")
       .tickSize(-width + margin.right + margin.left);
