@@ -96,7 +96,7 @@ class D3Chart {
         height: 450
       },
       max: {
-        height: 750
+        height: 1000
       },
     };
   }
@@ -106,7 +106,7 @@ class D3Chart {
   }
 
   get height() {
-    return Math.max(Math.min(this.dimensions.container.height, this.dimensions.max.height) - this.margin.bottom, this.dimensions.min.height)
+    return Math.max(Math.min(this.dimensions.container.height, this.dimensions.max.height) - this.margin.bottom, this.dimensions.min.height);
   }
 
   get svg() {
@@ -142,6 +142,40 @@ class D3Chart {
 
     let node = svg.node();
     target.appendChild(node);
+  }
+
+  // Thanks https://bl.ocks.org/mbostock/7555321
+  static wrapText(text, width) {
+    text.each(function() {
+      var text = d3.select(this),
+          words = text.text().split(/\s+/).reverse(),
+          word,
+          line = [],
+          lineNumber = 0,
+          lineHeight = 1.01, // ems
+          y = text.attr("y"),
+          dy = parseFloat(text.attr("dy")),
+          tspan = text.text(null).append("tspan").attr("x", 0).attr("y", y),
+          firstTspan = tspan;
+
+      let wrapCount = 0;
+      while (word = words.pop()) {
+        line.push(word);
+        tspan.text(line.join(" "));
+        if (tspan.node().getComputedTextLength() > width) {
+          wrapCount++;
+          line.pop();
+          tspan.text(line.join(" "));
+          line = [word];
+          tspan = text.append("tspan").attr("x", 0).attr("y", y).attr("dy", lineHeight + dy + "em").text(word);
+        }
+      }
+
+      if(wrapCount) {
+        text.attr("dy", 0).attr("class", "d3chart-label-wrapped");
+        firstTspan.attr("dy", (-0.3 * wrapCount * lineHeight) + "em")
+      }
+    });
   }
 
   parseDataToCsv(tableId, reverse) {
@@ -367,7 +401,7 @@ class D3VerticalBarChart extends D3Chart {
       .attr("class", "d3chart-yaxis")
       .call(d3
         .axisLeft(y)
-        .ticks(null, this.options.valueType[0] === "percentage" ? "%" : "")
+        .ticks(null, options.valueType[0] === "percentage" ? "%" : "")
         .tickSize(-width + margin.left + margin.right))
       .call(g => g.select(".domain").remove());
 
@@ -419,7 +453,7 @@ class D3VerticalBarChart extends D3Chart {
         .attr("width", d => d.width)
         .attr("height", d => d.height)
         .attr("fill", d => colors(d.key))
-        .attr("class", (d, j) => `d3chart-color-${j + this.options.colorMod}`);
+        .attr("class", (d, j) => `d3chart-color-${j + options.colorMod}`);
 
     if(options.showInlineBarValues) {
       svg.append("g")
@@ -434,7 +468,7 @@ class D3VerticalBarChart extends D3Chart {
           .attr("y", d => d.top - (options.showInlineBarValues === "outside" ? options.inlineLabelPad : (-15 - options.inlineLabelPad)))
           .attr("fill", d => options.showInlineBarValues === "inside" ? labelColors(d.key) : "currentColor")
           .attr("class", "d3chart-inlinebarvalue")
-          .text(d => this.roundValue(d.value, this.options.valueType[0]) + (this.options.valueType[0] === "percentage" ? "%" : ""));
+          .text(d => this.roundValue(d.value, options.valueType[0]) + (options.valueType[0] === "percentage" ? "%" : ""));
     }
 
     chart.reset(svg);
@@ -510,14 +544,14 @@ class D3HorizontalBarChart extends D3Chart {
       .attr("class", "d3chart-xaxis")
       .call(d3
         .axisBottom(x)
-        .ticks(5, this.options.valueType[0] === "percentage" ? "%" : "")
+        .ticks(5, options.valueType[0] === "percentage" ? "%" : "")
         .tickSize(height - margin.bottom - margin.top))
       .call(g => g.select(".domain").remove());
 
     let yAxis = g => g
-      .attr("transform", `translate(${margin.left},0)`)
+      .attr("transform", `translate(${margin.left - 6},0)`)
       .attr("class", "d3chart-yaxis")
-      .call(d3.axisLeft(y0).tickSizeOuter(0))
+      .call(d3.axisLeft(y0).tickSize(0))
       .call(g => g.select(".domain").remove());
 
     let dataMod = d => {
@@ -566,7 +600,7 @@ class D3HorizontalBarChart extends D3Chart {
         .attr("width", d => d.width)
         .attr("height", d => d.height)
         .attr("fill", d => colors(d.key))
-        .attr("class", (d, j) => `d3chart-color-${j + this.options.colorMod}`);
+        .attr("class", (d, j) => `d3chart-color-${j + options.colorMod}`);
 
     if(options.showInlineBarValues) {
       svg.append("g")
@@ -596,10 +630,14 @@ class D3HorizontalBarChart extends D3Chart {
           })
           .attr("class", d => "d3chart-inlinebarvalue-h" + (options.showInlineBarValues.length ? ` ${options.showInlineBarValues}` : ""))
           .attr("fill", d => options.showInlineBarValues === "inside" ? labelColors(d.key) : "currentColor")
-          .text(d => this.roundValue(d.value, this.options.valueType[0]) + (this.options.valueType[0] === "percentage" ? "%" : ""));
+          .text(d => this.roundValue(d.value, options.valueType[0]) + (options.valueType[0] === "percentage" ? "%" : ""));
     }
 
     chart.reset(svg);
+
+    if(options.wrapAxisLabel && options.wrapAxisLabel.left) {
+      D3Chart.wrapText(svg.selectAll(".d3chart-yaxis .tick text"), margin.left - 6);
+    }
   }
 }
 
@@ -669,7 +707,7 @@ class D3BubbleChart extends D3Chart {
     let targetId = this.targetId;
 
     let xAxisMax = d3.max(data, d => parseFloat(d.x));
-    if(this.options.valueType[0] !== "percentage") {
+    if(options.valueType[0] !== "percentage") {
       xAxisMax = Math.ceil(xAxisMax);
     } else {
       // round up to at least 1 if percentage
@@ -677,7 +715,7 @@ class D3BubbleChart extends D3Chart {
     }
 
     let yAxisMax = d3.max(data, d => parseFloat(d.y));
-    if(this.options.valueType[1] !== "percentage") {
+    if(options.valueType[1] !== "percentage") {
       yAxisMax = Math.ceil(yAxisMax);
     } else {
       // round up to at least 1 if percentage
@@ -714,7 +752,7 @@ class D3BubbleChart extends D3Chart {
 
     let xAxis = d3.axisBottom()
       .scale(xScale)
-      .ticks(null, this.options.valueType[0] === "percentage" ? "%" : "")
+      .ticks(null, options.valueType[0] === "percentage" ? "%" : "")
       .tickSize(-height + margin.top + margin.bottom);
 
     svg.append("g")
@@ -732,7 +770,7 @@ class D3BubbleChart extends D3Chart {
           Math.min(d3.min(data, d => parseFloat(d.y)), 0),
         ])
         .range([0, height - margin.top - margin.bottom]))
-      .ticks(null, this.options.valueType[1] === "percentage" ? "%" : "")
+      .ticks(null, options.valueType[1] === "percentage" ? "%" : "")
       .tickSize(-width + margin.right + margin.left);
 
     svg.append("g")
@@ -767,7 +805,7 @@ class D3BubbleChart extends D3Chart {
         })
         .attr("id", d => this.slugify(d.name, `${targetId}-bubblecircle-`))
         .attr("fill", d => colors(d))
-        .attr("class", (d, j) => `d3chart-bubblecircle d3chart-color-${j + this.options.colorMod}`);
+        .attr("class", (d, j) => `d3chart-bubblecircle d3chart-color-${j + options.colorMod}`);
 
     circles
       .enter()

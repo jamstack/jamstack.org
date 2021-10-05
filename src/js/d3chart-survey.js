@@ -47,7 +47,10 @@ new D3HorizontalBarChart("experience-pandemic-chart", "experience-pandemic-table
   showInlineBarValues: "outside",
   showLegend: false,
   margin: {
-    left: 420
+    left: 200
+  },
+  wrapAxisLabel: {
+    left: true,
   },
   colorMod: 3
 });
@@ -103,7 +106,10 @@ new D3HorizontalBarChart("adoption-industries-chart", "adoption-industries-table
   showInlineBarValues: "outside",
   showLegend: false,
   margin: {
-    left: 300
+    left: 200
+  },
+  wrapAxisLabel: {
+    left: true,
   },
   colorMod: 3,
   labelPrecision: 0,

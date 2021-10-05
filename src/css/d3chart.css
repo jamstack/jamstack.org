@@ -5,8 +5,8 @@
 .d3chart-placeholder-large {
 	height: 660px;
 }
-.d3chart-placeholder-extralarge {
-	height: 750px;
+.d3chart-placeholder-xl {
+	height: 1000px;
 }
 .d3chart-legend-placeholder {
 	min-height: 1.71875em; /* 27.5px /16 */
@@ -99,13 +99,9 @@
 	font-size: 14px;
 	text-anchor: end;
 }
-#yoe-stack .d3chart-inlinebarvalue {
-	--d3chart-label-clamp: 1.5vw;
-}
-@media (max-width: 40.5625em) { /* 649px */
-	#yoe-stack .d3chart-inlinebarvalue {
-		display: none;
-	}
+
+.d3chart-yaxis text.d3chart-label-wrapped {
+	font-size: 13px;
 }
 
 /* Bubble charts */
