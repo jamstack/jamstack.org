@@ -138,7 +138,7 @@ new D3BubbleChart("workflows-design-chart", "workflows-design-table", {
 });
 
 new D3BubbleChart("workflows-editors-chart", "workflows-editors-table", {
-  valueType: ["float", "percentage"]
+  valueType: ["percentage", "float"]
 });
 
 new D3BubbleChart("choices-cms-chart", "choices-cms-table", {
