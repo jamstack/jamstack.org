@@ -134,7 +134,7 @@ new D3VerticalBarChart("workflows-priorities-chart", "workflows-priorities-table
 });
 
 new D3BubbleChart("workflows-design-chart", "workflows-design-table", {
-  valueType: ["float", "percentage"]
+  valueType: ["percentage", "float"]
 });
 
 new D3BubbleChart("workflows-editors-chart", "workflows-editors-table", {
