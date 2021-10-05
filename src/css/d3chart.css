@@ -109,6 +109,7 @@
 .d3chart-axislabel {
 	fill: #fff;
 	text-anchor: end;
+	font-weight: 700;
 }
 
 /* Bubble charts */
