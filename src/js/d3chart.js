@@ -644,10 +644,10 @@ class D3HorizontalBarChart extends D3Chart {
 class D3BubbleChart extends D3Chart {
   constructor(target, tableId, optionOverrides = {}) {
     optionOverrides.margin = {
-      top: 25,
-      right: 25,
-      bottom: 25,
-      left: 40
+      top: 10,
+      right: 20,
+      bottom: 50,
+      left: 65
     };
 
     optionOverrides.sortLegend = true;
@@ -659,8 +659,10 @@ class D3BubbleChart extends D3Chart {
 
     let chart = super(target, optionOverrides, "d3chart-bubble");
     let csvData = chart.parseDataToCsv(tableId);
+    let dataSplit = csvData.split("\n");
+    this.axisLabels = dataSplit[0].split(",").slice(1);
 
-    let data = csvData.split("\n").slice(1).map((entry, id) => {
+    let data = dataSplit.slice(1).map((entry, id) => {
       let [name, x, y, r] = entry.split(",");
       return {
         name,
@@ -692,6 +694,36 @@ class D3BubbleChart extends D3Chart {
     return keys;
   }
 
+  resolveLimit(data, key, valueType, mode) {
+    let limit = d3[mode](data, d => parseFloat(d[key]));
+    if(valueType !== "percentage") {
+      if(mode === "max") {
+        limit = Math.ceil(limit);
+      } else if(mode === "min") {
+        limit = Math.min(Math.floor(limit), 0);
+      }
+    } else {
+      if(mode === "max") {
+        if(limit > 1) {
+          limit += .1;
+        } else {
+          // round up to at most 1 if percentage < 100%
+          limit = Math.min(limit + .1, 1);
+        }
+      }
+      if(mode === "min") {
+        if(limit <= 0) {
+          limit -= .1;
+        } else {
+          // round up to at most 1 if percentage < 100%
+          limit = Math.min(limit, 0);
+        }
+      }
+    }
+
+    return limit;
+  }
+
   render(chart, data) {
     let {
       options,
@@ -706,70 +738,53 @@ class D3BubbleChart extends D3Chart {
 
     let targetId = this.targetId;
 
-    let xAxisMax = d3.max(data, d => parseFloat(d.x));
-    if(options.valueType[0] !== "percentage") {
-      xAxisMax = Math.ceil(xAxisMax);
-    } else {
-      // round up to at least 1 if percentage
-      // xAxisMax = Math.max(1, xAxisMax);
-    }
+    let xAxisMin = this.resolveLimit(data, "x", options.valueType[0], "min");
+    let xAxisMax = this.resolveLimit(data, "x", options.valueType[0], "max");
+    let yAxisMin = this.resolveLimit(data, "y", options.valueType[1], "min");
+    let yAxisMax = this.resolveLimit(data, "y", options.valueType[1], "max");
 
-    let yAxisMax = d3.max(data, d => parseFloat(d.y));
-    if(options.valueType[1] !== "percentage") {
-      yAxisMax = Math.ceil(yAxisMax);
-    } else {
-      // round up to at least 1 if percentage
-      yAxisMax = Math.max(1, yAxisMax);
-    }
-
-    let xRange = d3.scaleLinear()
-      .range([margin.left + margin.right, width - margin.left - margin.right])
+    let xScale = d3.scaleLinear()
       .domain([
-        Math.min(d3.min(data, d => parseFloat(d.x)), 0),
+        xAxisMin,
         xAxisMax
+      ])
+      .range([
+        margin.left,
+        width - margin.right
       ]);
 
-    let yRange = d3.scaleLinear()
-      .range([height - margin.top - margin.bottom, margin.top + margin.bottom]) // flipped
+    let yScale = d3.scaleLinear()
       .domain([
-        Math.min(d3.min(data, d => parseFloat(d.y)), 0),
-        yAxisMax
-      ]).nice();
-
-    let rRange = d3.scaleLinear()
+        yAxisMax,
+        yAxisMin,
+      ])
+      .range([
+        margin.top,
+        height - margin.top - margin.bottom
+      ]);
+    
+    let rScale = d3.scaleLinear()
       .range([7, 25])
       .domain([
         Math.min(d3.min(data, d => parseFloat(d.r)), 0),
         d3.max(data, d => parseFloat(d.r))
       ]);
 
-    let xScale = d3.scaleLinear()
-      .domain([
-        Math.min(d3.min(data, d => parseFloat(d.x)), 0),
-        xAxisMax
-      ])
-      .range([0, width - margin.left - margin.right]);
-
     let xAxis = d3.axisBottom()
       .scale(xScale)
       .ticks(null, options.valueType[0] === "percentage" ? "%" : "")
-      .tickSize(-height + margin.top + margin.bottom);
+      .tickSize(-height + margin.bottom + margin.top);
 
     svg.append("g")
       .attr("class", "d3chart-xaxis")
       .attr("transform", function(){
-          return "translate(" + margin.left + "," + (height - margin.top) + ")";
+          return "translate(0," + (height - margin.bottom) + ")";
       })
       .call(xAxis)
       .call(g => g.select(".domain").remove());
 
     let yAxis = d3.axisLeft()
-      .scale(d3.scaleLinear()
-        .domain([
-          yAxisMax,
-          Math.min(d3.min(data, d => parseFloat(d.y)), 0),
-        ])
-        .range([0, height - margin.top - margin.bottom]))
+      .scale(yScale)
       .ticks(null, options.valueType[1] === "percentage" ? "%" : "")
       .tickSize(-width + margin.right + margin.left);
 
@@ -781,13 +796,29 @@ class D3BubbleChart extends D3Chart {
       .call(yAxis)
       .call(g => g.select(".domain").remove());
 
-    let vis = svg.append("g");
+    // Axis labels
+    svg.append("text")
+      .attr("x", width - margin.right)
+      .attr("y", height - 6)
+      .attr("class", "d3chart-axislabel")
+      .text(this.axisLabels[0]);
+  
+    svg.append("text")
+      .attr("x", -1 * margin.top)
+      .attr("y", 6)
+      .attr("dy", ".75em")
+      .attr("transform", "rotate(-90)")
+      .attr("class", "d3chart-axislabel")
+      .text(this.axisLabels[1]);
     
-    let circles = vis.selectAll("circle").data(data);
+
+    let group = svg.append("g");
+    
+    let circles = group.selectAll("circle").data(data);
 
     // Text Labels
     function isOffsetLabel(d) {
-      let range = rRange(d.r);
+      let range = rScale(d.r);
       return range <= 10;
     }
 
@@ -795,13 +826,13 @@ class D3BubbleChart extends D3Chart {
       .enter()
         .insert("circle")
         .attr("cx", function (d) {
-          return xRange(d.x);
+          return xScale(d.x);
         })
         .attr("cy", function (d) {
-          return yRange(d.y);
+          return yScale(d.y);
         })
         .attr("r", function (d) {
-          return rRange(d.r);
+          return rScale(d.r);
         })
         .attr("id", d => this.slugify(d.name, `${targetId}-bubblecircle-`))
         .attr("fill", d => colors(d))
@@ -815,9 +846,9 @@ class D3BubbleChart extends D3Chart {
           return isOffsetLabel(d) ? "url(#offset-label-bg)" : ""
         })
         .attr("x", d => {
-          return xRange(d.x) - (isOffsetLabel(d) ? rRange(d.r) + 4 : 0);
+          return xScale(d.x) - (isOffsetLabel(d) ? rScale(d.r) + 4 : 0);
         })
-        .attr("y", d => yRange(d.y))
+        .attr("y", d => yScale(d.y))
         .attr("class", d => {
           return "d3chart-bubblelabel" + (isOffsetLabel(d) ? " offset-l" : "");
         })

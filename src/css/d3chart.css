@@ -100,8 +100,15 @@
 	text-anchor: end;
 }
 
+/* Wrapped labels */
 .d3chart-yaxis text.d3chart-label-wrapped {
 	font-size: 13px;
+}
+
+/* Axis labels */
+.d3chart-axislabel {
+	fill: #fff;
+	text-anchor: end;
 }
 
 /* Bubble charts */
