@@ -1,16 +1,16 @@
 ---
-title: Kentico Kontent
+title: Kontent by Kentico
 homepage: https://kontent.ai/
 twitter: KenticoKontent
 opensource: "No"
 typeofcms: "API Driven"
 supportedgenerators:
   - All
-description: Kentico Kontent offers Content as a Service to gain full control over content presentation across all digital channels.
+description: Kontent by Kentico offers Content as a Service to gain full control over content presentation across all digital channels.
 ---
-## Kentico Kontent
+## Kontent by Kentico
 
-Kentico Kontent offers Content as a Service to gain full control over content presentation across all digital channels.
+Kontent by Kentico offers Content as a Service to gain full control over content presentation across all digital channels.
 
 ### Manage All Your Content in One Place
 
@@ -26,4 +26,4 @@ Manage your content from planning through creation up to publishing and optimiza
 
 ### Static Site Generators
 
-See examples of [static site generators using Kentico Kontent for Content as a Service](https://docs.kontent.ai/tutorials/develop-apps/optimize-your-app/static-sites).
+See examples of [static site generators using Kontent for Content as a Service](https://docs.kontent.ai/tutorials/develop-apps/optimize-your-app/static-sites).
