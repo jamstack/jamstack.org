@@ -21,7 +21,7 @@ new D3HorizontalBarChart("demographics-employmentstatus-chart", "demographics-em
 new D3HorizontalBarChart("experience-years-chart", "experience-years-table", {
   showInlineBarValues: "outside",
   margin: {
-    left: 90
+    left: 50
   }
 });
 
@@ -37,7 +37,7 @@ new D3HorizontalBarChart("experience-region-chart", "experience-region-table", {
 new D3HorizontalBarChart("experience-fulltimevstudent-chart", "experience-fulltimevstudent-table", {
   showInlineBarValues: "outside",
   margin: {
-    left: 90
+    left: 50
   }
 });
 
