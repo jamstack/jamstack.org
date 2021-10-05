@@ -49,15 +49,15 @@ gradientColors:
   </defs>
 </svg>
 
-<section class="leading-normal">
+<section>
   <h1 class="leading-tight">{{ title }}</h1>
 
-  <p>This year we saw Jamstack go mainstream, with big changes in working patterns for Jamstack developers in every region. From an influx in new students to changes in how and where members of the Jamstack community are working, we’ve learned that the move to remote work has remained particularly significant among web developers.</p>
-  <p>Netlify sits at the center of the Jamstack community, and we conduct our annual survey so we can understand our community of developers. This helps us tailor our products and services to our community. In sharing our survey results, we also want to help developers better understand themselves and one another. Working as a developer often means working in a vacuum, without a sense of what’s happening in the broader community. Our survey data can help provide a sense of best practices as well as an idea of what else is happening in the community.</p>
-  <p>This year, for example, you told us that content management systems Sanity and Strapi are having a moment, and that security is a rising concern for all devs. You also offered a lot of insight about new developers, from which specific devs have moved to remote work to the (obvious and less obvious) reasons why.</p>
+  <p>This year we saw Jamstack go mainstream, with big changes in working patterns for Jamstack developers in every region. Our community has grown, adding not only experienced developers but also becoming the first stop for those just breaking into the industry. We also learned that the move to remote work has been significant and lasting among web developers. </p>
+  <p><a href="https://www.netlify.com/">Netlify</a> sits at the center of the Jamstack community, and we conduct our annual survey so we can understand our community of developers. This helps us tailor our products and services to our community. In sharing our survey results, we also want to help developers better understand themselves and one another. Working as a developer often means working in a vacuum, without a sense of what’s happening in the broader community. Our survey data can help provide a sense of best practices as well as an idea of what else is happening in the community. </p>
+  <p>This year, for example, you told us that content management systems Sanity and Strapi are having a moment. You shared that security is a rising priority for all devs. You also offered a lot of insight about new developers, from which specific devs have moved to remote work to the (obvious and less obvious) reasons why.</p>
   <p>To get a better picture of the full developer landscape, we surveyed people who build websites in general, regardless of whether they build Jamstack sites, though our analysis focuses on active Jamstack developers.</p>
-  <p>We ran this year’s survey from June 22nd to August 10th and received over 7,000 responses, more than twice as many as last year’s survey. You can review our methodology document for a detailed breakdown of the demographics and accuracy of the survey sample and results.</p>
-  <p>To the developers who took the time to respond to our survey to help us learn more about the Jamstack and our community: Thank you. We hope you walk away from this report learning something about yourselves and the expanding Jamstack community. </p>
+  <p>We ran this year’s survey from June 23 to August 10 and received over 7,000 responses, more than twice as many as last year’s survey. You can review our <!-- @TODO -->methodology document for a detailed breakdown of the demographics and accuracy of the survey sample and results.</p>
+  <p>To the developers who took the time to respond to our survey to help us learn more about the Jamstack and our community: Thank you. We hope you walk away from this report learning something about yourselves and the expanding Jamstack community.</p>
 
   <nav class="overflow-hidden my-8">
     <ol class="list-decimal float-left p-4 bg-gray-900 rounded-default">
@@ -66,42 +66,35 @@ gradientColors:
       <li class="py-1 px-2 ml-4"><a href="#workflows">Workflows</a></li>
       <li class="py-1 px-2 ml-4"><a href="#choices">Technology choices</a></li>
       <li class="py-1 px-2 ml-4"><a href="#conclusion">Conclusion</a></li>
-      <li class="py-1 px-2 ml-4"><a href="#resources">Additional resources</a></li>
     </ol>
   </nav>
 
 </section>
 
-<section id="demographics" class="border-b">
+<section id="demographics" class="border-b pb-16 mb-16">
   <h2>Demographics</h2>
   {% include "survey/demographics.njk" %}
-</section>
 
-<section id="experience" class="border-b">
-  <h2>Experience</h2>
   {% include "survey/experience.njk" %}
 </section>
 
-<section id="adoption" class="border-b">
+<section id="adoption" class="border-b pb-16 mb-16">
   <h2>Jamstack adoption</h2>
   {% include "survey/adoption.njk" %}
 </section>
 
-<section id="workflows" class="border-b">
+<section id="workflows" class="border-b pb-16 mb-16">
   <h2>Workflows</h2>
   {% include "survey/workflows.njk" %}
 </section>
 
-<section id="choices" class="border-b">
+<section id="choices" class="border-b pb-16 mb-16">
   <h2>Technology choices</h2>
   {% include "survey/choices.njk" %}
 </section>
 
-<section id="conclusion" class="border-b">
-  <h2>Conclusion</h2>
-</section>
-
-<section id="resources" class="border-b">
-  <h2>Additional resources</h2>
+<section id="conclusion" class="border-b pb-16 mb-16">
+  <h2>Jamstack has become the standard architecture for the web.</h2>
+  {% include "survey/conclusion.njk" %}
 </section>
 
