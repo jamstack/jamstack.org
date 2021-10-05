@@ -644,7 +644,7 @@ class D3HorizontalBarChart extends D3Chart {
 class D3BubbleChart extends D3Chart {
   constructor(target, tableId, optionOverrides = {}) {
     optionOverrides.margin = {
-      top: 10,
+      top: 20,
       right: 20,
       bottom: 50,
       left: 65
@@ -708,7 +708,11 @@ class D3BubbleChart extends D3Chart {
           limit += .1;
         } else {
           // round up to at most 1 if percentage < 100%
-          limit = Math.min(limit + .1, 1);
+          if(limit > .5) {
+            limit = Math.min(limit + .1, 1);
+          } else {
+            limit = limit + .05, 1;
+          }
         }
       }
       if(mode === "min") {
