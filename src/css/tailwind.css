@@ -242,7 +242,7 @@ details[open] .summary-swap-open {
   display: block;
 }
 
-@media (min-width: 640px) {
+@media (min-width: 768px) {
   .sm\:page-layout {
     grid-template-columns: 16.875em minmax(0, 1fr);
   }
@@ -255,7 +255,7 @@ details[open] .summary-swap-open {
 }
 
 /* Desktop sticky nav */
-@media (min-width: 640px) and (min-height: 41.25em) { /* 660px */
+@media (min-width: 768px) and (min-height: 41.25em) { /* 660px */
   .page-header {
     position: sticky;
     top: 0;
