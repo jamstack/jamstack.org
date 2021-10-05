@@ -36,6 +36,7 @@ class D3Chart {
       inlineLabelPad: 5,
       labelPrecision: 0,
       sortLegend: false,
+      highlightElementsFromLegend: false
     }, options);
 
     this.options.colors = this.normalizeColors(this.options.colors, this.options.colorMod);
@@ -173,9 +174,16 @@ class D3Chart {
 
     let entries = [];
     for(let j = 0; j < labels.length; j++) {
+      let tag = "div";
+      let attrs = "";
+      if(this.options.highlightElementsFromLegend) {
+        tag = "button";
+        attrs = " type='button'"
+      }
+
       entries.push({
         label: labels[j],
-        html: `<div class="d3chart-legend-entry d3chart-legend-${j + this.options.colorMod}">${labels[j] || ""}</div>`
+        html: `<${tag}${attrs} class="d3chart-legend-entry d3chart-legend-${j + this.options.colorMod}">${labels[j] || ""}</${tag}>`
       });
     }
 
@@ -202,6 +210,22 @@ class D3Chart {
     return data.columns.slice(1);
   }
 
+  highlightElements(target, method) {
+    // TODO this is specific to Bubble chart
+    if(target.classList.contains("d3chart-legend-entry")) {
+      let circleSlug = this.slugify(target.innerHTML, `${this.targetId}-bubblecircle-`);
+      let labelSlug = this.slugify(target.innerHTML, `${this.targetId}-bubblelabel-`);
+
+      let circle = document.getElementById(circleSlug);
+      let label = document.getElementById(labelSlug);
+
+      circle.classList[method]("active");
+      label.classList[method]("active");
+
+      circle.closest("svg").classList[method]("d3chart-bubble-active");
+    }
+  }
+
   renderLegend(data) {
     if(!this.options.showLegend) {
       return;
@@ -210,37 +234,21 @@ class D3Chart {
     let keys = this.getKeys(data);
     let legend = this.generateLegend(keys, this.options.colors);
 
-    // TODO scope to bubble
-    legend.addEventListener("mouseover", e => {
-      let target = e.target;
-      if(target.classList.contains("d3chart-legend-entry")) {
-        let circleSlug = this.slugify(target.innerHTML, `${this.targetId}-bubblecircle-`);
-        let labelSlug = this.slugify(target.innerHTML, `${this.targetId}-bubblelabel-`);
+    if(this.options.highlightElementsFromLegend) {
+      legend.addEventListener("mouseover", e => {
+        this.highlightElements(e.target, "add");
+      });
+      legend.addEventListener("mouseout", e => {
+        this.highlightElements(e.target, "remove");
+      });
+      legend.addEventListener("focusin", e => {
+        this.highlightElements(e.target, "add");
+      });
+      legend.addEventListener("focusout", e => {
+        this.highlightElements(e.target, "remove");
+      });
+    }
 
-        let circle = document.getElementById(circleSlug);
-        let label = document.getElementById(labelSlug);
-        circle.classList.add("active");
-        label.classList.add("active");
-
-        circle.closest("svg").classList.add("d3chart-bubble-active");
-      }
-    });
-
-    // TODO better code, accessibility
-    legend.addEventListener("mouseout", e => {
-      let target = e.target;
-      if(target.classList.contains("d3chart-legend-entry")) {
-        let circleSlug = this.slugify(target.innerHTML, `${this.targetId}-bubblecircle-`);
-        let labelSlug = this.slugify(target.innerHTML, `${this.targetId}-bubblelabel-`);
-
-        let circle = document.getElementById(circleSlug);
-        let label = document.getElementById(labelSlug);
-        circle.classList.remove("active");
-        label.classList.remove("active");
-
-        circle.closest("svg").classList.remove("d3chart-bubble-active");
-      }
-    })
     let selector = ":scope .d3chart-legend-placeholder";
 
     let previousEl = this.target.previousElementSibling;
@@ -581,6 +589,7 @@ class D3BubbleChart extends D3Chart {
     };
 
     optionOverrides.sortLegend = true;
+    optionOverrides.highlightElementsFromLegend = true;
 
     let chart = super(target, optionOverrides, "d3chart-bubble");
     let csvData = chart.parseDataToCsv(tableId);
