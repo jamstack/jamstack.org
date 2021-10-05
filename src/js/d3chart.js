@@ -778,7 +778,7 @@ class D3BubbleChart extends D3Chart {
       .scale(xScale)
       .ticks(null)
       .tickSize(-height + margin.bottom + margin.top)
-      .tickFormat(d => options.valueType[0] === "percentage" ? `${d*100}%` : d);
+      .tickFormat(d => options.valueType[0] === "percentage" ? `${(d*100).toFixed(0)}%` : d);
 
     svg.append("g")
       .attr("class", "d3chart-xaxis")
@@ -792,7 +792,7 @@ class D3BubbleChart extends D3Chart {
       .scale(yScale)
       .ticks(null)
       .tickSize(-width + margin.right + margin.left)
-      .tickFormat(d => options.valueType[1] === "percentage" ? `${d*100}%` : d);
+      .tickFormat(d => options.valueType[1] === "percentage" ? `${(d*100).toFixed(0)}%` : d);
 
     svg.append("g")
       .attr("class", "d3chart-yaxis")
