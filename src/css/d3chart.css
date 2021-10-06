@@ -94,6 +94,8 @@
 	font-size: 16px;
 	font-weight: 600;
 	text-anchor: start;
+	dominant-baseline: central;
+	alignment-baseline: middle;
 }
 .d3chart-inlinebarvalue-h.inside {
 	text-anchor: end;

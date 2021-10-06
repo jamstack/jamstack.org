@@ -665,7 +665,6 @@ class D3HorizontalBarChart extends D3Chart {
         .data(data)
         .join("g")
           .attr("transform", d => `translate(0,${y0(d[groupKey])})`)
-          .attr("dominant-baseline", "central")
         .selectAll("text")
         .data(dataMod)
         .join("text")
