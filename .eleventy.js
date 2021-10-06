@@ -187,7 +187,7 @@ module.exports = function(eleventyConfig) {
   // favicons files
   eleventyConfig.addPassthroughCopy("src/site/browserconfig.xml");
   eleventyConfig.addPassthroughCopy("src/site/site.webmanifest");
-
+  eleventyConfig.addPassthroughCopy("src/site/survey/2021/community-survey-2021-methodology.pdf");
 
   return  {
     dir: {
