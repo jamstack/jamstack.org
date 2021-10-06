@@ -5,11 +5,14 @@ module.exports = function(eleventyConfig) {
   // Support yaml data files
   eleventyConfig.addDataExtension("yaml", contents => yaml.safeLoad(contents))
 
+  eleventyConfig.addWatchTarget("src/site/survey/**/*.js");
+
   // pass images directly through to the output
   eleventyConfig.addPassthroughCopy("src/site/img");
   eleventyConfig.addPassthroughCopy({
     "src/js": "js",
     "node_modules/@zachleat/filter-container/*.js": "js",
+    "src/css": "css",
   });
 
   // Date helper
@@ -184,7 +187,7 @@ module.exports = function(eleventyConfig) {
   // favicons files
   eleventyConfig.addPassthroughCopy("src/site/browserconfig.xml");
   eleventyConfig.addPassthroughCopy("src/site/site.webmanifest");
-
+  eleventyConfig.addPassthroughCopy("src/site/survey/2021/community-survey-2021-methodology.pdf");
 
   return  {
     dir: {

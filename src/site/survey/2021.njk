@@ -1,0 +1,99 @@
+---
+title: "Jamming into the Mainstream: Jamstack Community Survey 2021"
+layout: layouts/base.njk
+ogimage: "/img/og/jamstack-community-survey-og.png"
+stylesheets: 
+  - /css/d3chart.css
+javascripts:
+  - /survey/2021/bundle.js
+gradientColors:
+  sunrise: [ "#F0047F", "#FC814A" ]
+  blue: [ "#0090c9", "#00c0ad" ]
+  sun: [ "#FFC803", "#FC814A" ]
+  seamist: [ "#78ECC2", "#00FFB2" ]
+  hallows: [ "#DF4A1F", "#FFA278" ]
+  bubblegum: [ "#FF98BC", "#FFCCDE" ]
+  purple: [ "#6B38FB", "#CCB4FF" ]
+  air: [ "#03d0d0", "#B5FFF8" ]
+  pink: [ "#c40468", "#fc2796" ]
+  leaves: [ "#78f19a", "#13b110" ]
+  haze: [ "#91A5EE", "#d6deff" ]
+  gnat: [ "#02C6B3", "#59F7E7" ]
+  fire: [ "#FF0F00", "#FF928A" ]
+  ocean: [ "#003EDD", "#6CDCFF" ]
+  night: [ "#02465F", "#6AD7FF" ]
+  dusk: [ "#960000", "#E94242" ]
+  rain: [ "#FF72CF", "#C92ECC" ]
+---
+<svg style="position: absolute; left: -9999px; width: 1px; height: 1px; overflow: hidden;">
+  <defs>
+    <filter x="0" y="0" width="1" height="1" id="offset-label-bg">
+      <feFlood flood-color="#161a2c" result="bg" />
+      <feMerge>
+        <feMergeNode in="bg"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    {%- for key, entry in gradientColors %}
+    <linearGradient id="gradient-{{key}}-h">
+      <stop offset="0%" stop-color="{{entry[0]}}"/>
+      <stop offset="100%" stop-color="{{entry[1]}}"/>
+    </linearGradient>
+    <linearGradient id="gradient-{{key}}-v" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="{{entry[0]}}"/>
+      <stop offset="100%" stop-color="{{entry[1]}}"/>
+    </linearGradient>
+    {%- endfor %}
+  </defs>
+</svg>
+
+<section>
+  <h1 class="leading-tight">{{ title }}</h1>
+
+  <p>This year we saw Jamstack go mainstream, with big changes in working patterns for Jamstack developers in every region. Our community has grown, adding not only experienced developers but also becoming the first stop for those just breaking into the industry. We also learned that the move to remote work has been significant and lasting among web developers. </p>
+  <p><a href="https://www.netlify.com/">Netlify</a> sits at the center of the Jamstack community, and we conduct our annual survey so we can understand our community of developers. This helps us tailor our products and services to our community. In sharing our survey results, we also want to help developers better understand themselves and one another. Working as a developer often means working in a vacuum, without a sense of what’s happening in the broader community. Our survey data can help provide a sense of best practices as well as an idea of what else is happening in the community. </p>
+  <p>This year, for example, you told us that content management systems Sanity and Strapi are having a moment. You shared that security is a rising priority for all devs. You also offered a lot of insight about new developers, from which specific devs have moved to remote work to the (obvious and less obvious) reasons why.</p>
+  <p>To get a better picture of the full developer landscape, we surveyed people who build websites in general, regardless of whether they build Jamstack sites, though our analysis focuses on active Jamstack developers.</p>
+  <p>We ran this year’s survey from June 23 to August 10 and received over 7,000 responses, more than twice as many as last year’s survey. You can review our <a href="/survey/2021/community-survey-2021-methodology.pdf">methodology document</a> for a detailed breakdown of the demographics and accuracy of the survey sample and results.</p>
+  <p>To the developers who took the time to respond to our survey to help us learn more about the Jamstack and our community: Thank you. We hope you walk away from this report learning something about yourselves and the expanding Jamstack community.</p>
+
+  <nav class="overflow-hidden my-8">
+    <ol class="list-decimal float-left p-4 bg-gray-900 rounded-default">
+      <li class="py-1 px-2 ml-4"><a href="#demographics">Demographics</a></li>
+      <li class="py-1 px-2 ml-4"><a href="#adoption">Jamstack adoption</a></li>
+      <li class="py-1 px-2 ml-4"><a href="#workflows">Workflows</a></li>
+      <li class="py-1 px-2 ml-4"><a href="#choices">Technology choices</a></li>
+      <li class="py-1 px-2 ml-4"><a href="#conclusion">Conclusion</a></li>
+    </ol>
+  </nav>
+
+</section>
+
+<section id="demographics" class="border-b pb-16 mb-16">
+  <h2>Demographics</h2>
+  {% include "survey/demographics.njk" %}
+
+  {% include "survey/experience.njk" %}
+</section>
+
+<section id="adoption" class="border-b pb-16 mb-16">
+  <h2>Jamstack adoption</h2>
+  {% include "survey/adoption.njk" %}
+</section>
+
+<section id="workflows" class="border-b pb-16 mb-16">
+  <h2>Workflows</h2>
+  {% include "survey/workflows.njk" %}
+</section>
+
+<section id="choices" class="border-b pb-16 mb-16">
+  <h2>Technology choices</h2>
+  {% include "survey/choices.njk" %}
+</section>
+
+<section id="conclusion" class="border-b pb-16 mb-16">
+  <h2>Jamstack has become the standard architecture for the web.</h2>
+  {% include "survey/conclusion.njk" %}
+</section>
+
