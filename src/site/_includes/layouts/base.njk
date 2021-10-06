@@ -35,6 +35,9 @@ ogimage: "/img/og/default-og-image.png"
     <meta name="google-site-verification" content="i5IheizQ6X_M4jNqb_b7vbJrT34i_gvEg8Gxkq9IY_w" />
     <meta name="google-site-verification" content="WDIQ_1X8K7XIpPJ5G1Z8KnOqdSeYetPQB4EgoTLfIsc" />
     <script type="module">document.documentElement.classList.add("js");</script>
+    {%- for url in javascripts %}
+    <script defer src="{{ url }}"></script>
+    {%- endfor %}
   </head>
   <body class="bg-blue-900 text-blue-100 leading-relaxed antialiased">
     <svg width="0" height="0" aria-hidden="true" style="position: absolute;">
@@ -92,9 +95,6 @@ ogimage: "/img/og/default-og-image.png"
     <script type="module" src="/js/lazyiframe.js"></script>
     {%- for path in javascriptIncludes %}
     {% include path %}
-    {%- endfor %}
-    {%- for url in javascripts %}
-    <script defer src="{{ url }}"></script>
     {%- endfor %}
   </body>
 </html>

@@ -60,6 +60,45 @@ class D3Chart {
     this.options.labelColors = this.normalizeColors(this.options.labelColors, this.options.colorMod);
   }
 
+  onResize(callback) {
+    if (!("ResizeObserver" in window)) {
+      window.addEventListener("resize", () => {
+        callback.call(this);
+      });
+      return;
+    }
+    
+    let resizeObserver = new ResizeObserver(entries => {
+      for (let entry of entries) {
+        // console.log( "resizing", this.target );
+        callback.call(this);
+      }
+    });
+
+    resizeObserver.observe(this.target);
+  }
+
+  onDeferInit(callback) {
+    if (!('IntersectionObserver' in window)) {
+      callback.call(this);
+      return;
+    }
+
+    let observer = new IntersectionObserver((entries, observer) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          // console.log( "initing", this.target );
+          callback.call(this);
+          observer.unobserve(entry.target);
+        }
+      });
+    }, {
+      threshold: .1
+    });
+
+    observer.observe(this.target);
+  }
+
   normalizeColors(colors = [], mod = 0) {
     if(mod) {
       let c = [];
@@ -349,11 +388,14 @@ class D3VerticalBarChart extends D3Chart {
 
     let data = Object.assign(d3.csvParse(csvData, d3.autoType));
 
-    this.render(chart, data);
-    this.renderLegend(data);
 
-    window.addEventListener("resize", () => {
+    this.onDeferInit(function() {
       this.render(chart, data);
+      this.renderLegend(data);
+
+      this.onResize(function() {
+        this.render(chart, data);
+      })
     });
   }
 
@@ -500,11 +542,13 @@ class D3HorizontalBarChart extends D3Chart {
     let csvData = chart.parseDataToCsv(tableId, true);
     let data = Object.assign(d3.csvParse(csvData, d3.autoType));
 
-    this.render(chart, data);
-    this.renderLegend(data);
-
-    window.addEventListener("resize", () => {
+    this.onDeferInit(function() {
       this.render(chart, data);
+      this.renderLegend(data);
+
+      this.onResize(function() {
+        this.render(chart, data);
+      });
     });
   }
 
@@ -692,11 +736,13 @@ class D3BubbleChart extends D3Chart {
       return b.r - a.r;
     });
 
-    this.render(chart, data);
-    this.renderLegend(data);
-
-    window.addEventListener("resize", () => {
+    this.onDeferInit(function() {
       this.render(chart, data);
+      this.renderLegend(data);
+  
+      this.onResize(function() {
+        this.render(chart, data);
+      });
     });
   }
 

@@ -5,6 +5,8 @@ module.exports = function(eleventyConfig) {
   // Support yaml data files
   eleventyConfig.addDataExtension("yaml", contents => yaml.safeLoad(contents))
 
+  eleventyConfig.addWatchTarget("src/site/survey/**/*.js");
+
   // pass images directly through to the output
   eleventyConfig.addPassthroughCopy("src/site/img");
   eleventyConfig.addPassthroughCopy({
