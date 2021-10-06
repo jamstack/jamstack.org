@@ -255,7 +255,7 @@ details[open] .summary-swap-open {
 }
 
 /* Desktop sticky nav */
-@media (min-width: 768px) and (min-height: 41.25em) { /* 660px */
+@media (min-width: 768px) and (min-height: 53.75em) { /* 860px */
   .page-header {
     position: sticky;
     top: 0;
