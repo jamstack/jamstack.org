@@ -130,6 +130,7 @@ new D3HorizontalBarChart("workflows-devices-chart", "workflows-devices-table", {
 new D3VerticalBarChart("workflows-priorities-chart", "workflows-priorities-table", {
   showInlineBarValues: "outside",
   colorMod: 2,
+  showLegend: false,
   valueType: ["float"],
 });
 
