@@ -95,9 +95,11 @@ new D3HorizontalBarChart("adoption-titles-chart", "adoption-titles-table", {
 
 new D3VerticalBarChart("adoption-frequency-chart", "adoption-frequency-table", {
   showInlineBarValues: "inside",
+  showAxisLabels: true,
   margin: {
-    left: 90,
+    left: 60,
     top: 30,
+    bottom: 60,
   },
   mode: "stacked"
 });

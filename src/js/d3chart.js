@@ -6,6 +6,7 @@ class D3Chart {
     this.options = Object.assign({
       showInlineBarValues: "inside", // inside, inside-offset, and outside supported
       showLegend: true,
+      showAxisLabels: false,
       margin: {},
       colors: [
         "#F0047F",
@@ -343,6 +344,9 @@ class D3VerticalBarChart extends D3Chart {
     let chart = super(target, optionOverrides, "d3chart-vbar");
 
     let csvData = chart.parseDataToCsv(tableId);
+    let dataSplit = csvData.split("\n");
+    this.axisLabels = [dataSplit[0].split(",")[0]];
+
     let data = Object.assign(d3.csvParse(csvData, d3.autoType));
 
     this.render(chart, data);
@@ -469,6 +473,15 @@ class D3VerticalBarChart extends D3Chart {
           .attr("fill", d => options.showInlineBarValues === "inside" ? labelColors(d.key) : "currentColor")
           .attr("class", "d3chart-inlinebarvalue")
           .text(d => this.roundValue(d.value, options.valueType[0]) + (options.valueType[0] === "percentage" ? "%" : ""));
+    }
+
+    // TODO for horizontal bar chart
+    if(options.showAxisLabels) {
+      svg.append("text")
+        .attr("x", Math.round(width/2))
+        .attr("y", height - 6)
+        .attr("class", "d3chart-axislabel d3chart-axislabel-center")
+        .text(this.axisLabels[0]);
     }
 
     chart.reset(svg);
@@ -652,6 +665,7 @@ class D3BubbleChart extends D3Chart {
 
     optionOverrides.sortLegend = true;
     optionOverrides.highlightElementsFromLegend = true;
+    optionOverrides.showAxisLabels = true;
 
     if(!optionOverrides.valueType) {
       optionOverrides.valueType = ["percentage", "percentage"];
@@ -802,21 +816,22 @@ class D3BubbleChart extends D3Chart {
       .call(yAxis)
       .call(g => g.select(".domain").remove());
 
-    // Axis labels
-    svg.append("text")
-      .attr("x", width - margin.right)
-      .attr("y", height - 6)
-      .attr("class", "d3chart-axislabel")
-      .text(this.axisLabels[0]);
-  
-    svg.append("text")
-      .attr("x", -1 * margin.top)
-      .attr("y", 6)
-      .attr("dy", ".75em")
-      .attr("transform", "rotate(-90)")
-      .attr("class", "d3chart-axislabel")
-      .text(this.axisLabels[1]);
+    if(options.showAxisLabels) {
+      // Axis labels
+      svg.append("text")
+        .attr("x", width - margin.right)
+        .attr("y", height - 6)
+        .attr("class", "d3chart-axislabel")
+        .text(this.axisLabels[0]);
     
+      svg.append("text")
+        .attr("x", -1 * margin.top)
+        .attr("y", 6)
+        .attr("dy", ".75em")
+        .attr("transform", "rotate(-90)")
+        .attr("class", "d3chart-axislabel")
+        .text(this.axisLabels[1]);
+    }
 
     let group = svg.append("g");
     

@@ -114,6 +114,9 @@
 	text-anchor: end;
 	font-weight: 700;
 }
+.d3chart-axislabel-center {
+	text-anchor: middle;
+}
 
 /* Bubble charts */
 .d3chart-bubblelabel {
