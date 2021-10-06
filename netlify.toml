@@ -56,11 +56,6 @@
   status = 404
 
 [[redirects]]
-  from = "/survey"
-  to = "https://www.surveymonkey.com/r/jamstack-survey"
-  status = 302
-
-[[redirects]]
   from = "/headless-cms/keystone-5/"
   to = "/headless-cms/keystone/"
   status = 301
