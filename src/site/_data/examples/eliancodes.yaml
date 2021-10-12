@@ -4,6 +4,15 @@ link: https://www.elian.codes
 thumbnailurl: /img/examples/eliancodes.jpg
 tools:
   - Astro
+  - Vue
+  - Svelte
+  - Preact
+  - TypeScript
   - TailwindCSS
+  - PrismJS
+  - AOS
+  - NestJS
+  - Docusaurus
   - Google Cloud Storage
-  - MarkedJS
+  - Google Cloud Run
+  - Google Cloud Build
