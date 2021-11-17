@@ -1,0 +1,14 @@
+title: Rokit Media
+description: Rokit Media Web Design & Development Website built with Gatsby
+link: 'https://www.rokitmedia.co.uk'
+thumbnailurl: /img/examples/rokitmedia.jpg
+tools:
+  - Gatsby
+  - Gatsby Image
+  - Netlify Hosting
+  - Netlify CMS
+  - Netlify WebHooks
+  - Power Automate
+  - Tailwind CSS
+  - Markdown
+  - Google Maps
