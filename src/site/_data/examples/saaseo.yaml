@@ -1,0 +1,8 @@
+title: SaaSEO LLC
+description: Website development company in Japan
+link: 'https://saaseo.dev/'
+thumbnailurl: /img/examples/saaseo.jpg
+tools:
+  - Gatsby
+  - Tailwind CSS
+  - Netlify
