@@ -52,7 +52,7 @@ Or go to [sanity.io/create](https://www.sanity.io/create) to get started with a 
 
 ### [Structured Content](https://www.sanity.io/structured-content)
 
-- Distribute from a single source of thruth, in real-time
+- Distribute from a single source of truth, in real-time
 - Unlock programmatic approaches to workflows and design
 - [Upload images and transform them on demand](https://www.sanity.io/docs/asset-pipeline), and integrate with any digital asset manager
 - [Customizable previews](https://www.sanity.io/blog/evolve-authoring-experiences-with-views-and-split-panes)
