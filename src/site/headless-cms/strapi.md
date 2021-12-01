@@ -11,6 +11,8 @@ description: Strapi is the leading open-source headless CMS. It’s 100% Javascr
 images:
   - path: /img/cms/strapi-content-types-builder.png
   - path: /img/cms/strapi-content-manager.png
+  - path: /img/cms/strapi-media-library.png
+  - path: /img/cms/strapi-settings-edit-roles.png
 ---
 
 ## Get started
@@ -39,7 +41,7 @@ Try also one of our starters: [Gatsby catalog](https://github.com/strapi/strapi-
 
 <br />
 
-**Multi-databases support** SQLite, MongoDB, MySQL, Postgres are supported, you just have to pick one of your choice.<br />
+**Multi-databases support** SQLite, MySQL, Postgres are supported, you just have to pick one of your choice.<br />
 **GraphQL or RESTful** Consume the API from any client (React, Vue, Angular), mobile apps or even IoT, using REST or GraphQL.<br />
 **100% Javascript** One language fits all. Use JavaScript from front to back.<br />
 **Webhooks** Call back anywhere you need, to get the functionality you want, out of the box with our API.<br />
