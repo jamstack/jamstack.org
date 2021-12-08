@@ -16,8 +16,8 @@
   status = 302
 
 [[redirects]]
-  from = "/slack"
-  to = "https://join.slack.com/t/jamstack/shared_invite/zt-qkent5tv-0D0Nu3M1rJEHhVHE4zUMBw"
+  from = "/discord"
+  to = "https://discord.gg/jamstack"
   status = 302
 
 [[redirects]]
