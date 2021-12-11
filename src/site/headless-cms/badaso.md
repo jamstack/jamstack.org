@@ -9,7 +9,7 @@ supportedgenerators:
   - All
 description: The API & platform builder, build your apps 10x faster even more, it's open source & 100% free ! it's fully customize
 images:
-  - path: /img/cms/strapi.png
+  - path: /img/cms/badaso.png
 ---
 
 ## Why badaso ?
