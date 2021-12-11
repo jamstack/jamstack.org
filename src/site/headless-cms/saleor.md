@@ -33,7 +33,7 @@ Saleor is a rapidly-growing open source e-commerce platform that has served high
 - **Geo-adaptive**: Automatic localized pricing. Over 20 local languages. Localized checkout experience by country.
 - **SEO**: Packed with features that get stores to a wider audience
 - **Cloud**: Optimized for deployments using Docker
-- **Analytics**: Server-side Google Analytics to report e-commerce metrics without affecting privacy
+- **Analytics**: Server- side Google Analytics to report e-commerce metrics without affecting privacy
 
 Saleor is free and always will be.
 Help us out… If you love free stuff and great software, give us a star! 🌟
