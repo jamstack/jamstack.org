@@ -9,7 +9,7 @@ supportedgenerators:
   - All
 description: Customer-centric e-commerce on a modern stack. A headless, GraphQL commerce platform delivering ultra-fast, dynamic, personalized shopping experiences. Beautiful online stores, anywhere, on any device.
 images:
-  - path: /img/cms/saleor.png
+  - path: /img/cms/saleor-logo.png
 ---
 
 Saleor is an open-source, GraphQL-first e-commerce platform delivering ultra-fast, dynamic and personalized shopping experiences.
