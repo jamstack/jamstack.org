@@ -37,5 +37,3 @@ Saleor is a rapidly-growing open source e-commerce platform that has served high
 
 Saleor is free and always will be.
 Help us out… If you love free stuff and great software, give us a star! 🌟
-
-<style>.images{display:none}</style>
