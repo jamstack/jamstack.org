@@ -1,0 +1,10 @@
+title: Matt Saxe's Personal Site
+description: Fast, responsive personal site for freelance development and design
+link: 'https://matthewsaxe.com'
+thumbnailurl: /img/examples/matthew-saxe.png
+tools:
+  - Vue
+  - Nuxt.js
+  - Nuxt Content
+  - Sass
+  - Netlify
