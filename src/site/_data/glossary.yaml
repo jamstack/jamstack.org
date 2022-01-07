@@ -116,7 +116,9 @@
   id: 'monorepo'
 
 - term: 'Markup'
-  id: 'Markup'
+  id: 'markup'
+  summary: 'A method that pre-renders markup or content as HTML at the build time. As such, it is inseparable from the static site generator.'
+  definition: 'Markup in Jamstack technology means much more than an aggregate determinant for using markup languages, e.g., [Mardown](https://www.markdownguide.org/). Essentially it defines a method that pre-renders markup or content as HTML at the build time. As such, it is inseparable from the [static site generator](/glossary/ssg).'
 
 - term: 'Markdown'
   id: 'Markdown'
