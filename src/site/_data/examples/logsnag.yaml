@@ -5,5 +5,5 @@ thumbnailurl: /img/examples/logsnag.jpg
 tools:
   - Vercel
   - TailwindCSS
-  - React
+  - NextJS
   - Svelte
