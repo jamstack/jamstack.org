@@ -1,0 +1,9 @@
+title: LogSnag
+description: LogSnag notifies you of your projects' events and provides you with a timeline to keep track of anything important that happens.
+link: https://logsnag.com
+thumbnailurl: /img/examples/logsnag.jpg
+tools:
+  - Vercel
+  - TailwindCSS
+  - React
+  - Svelte
