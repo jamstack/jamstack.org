@@ -13,7 +13,7 @@ templates:
   - Svelte
   - Solid
   - HTML
-description: The Joyful Site Generator
+description: The Joyful Site Generator. Islands of Interactivity with Vue, Preact, Svelte, and more.
 ---
 îles is a static-site generator with great support for partial hydration, supporting all major frameworks.
 
