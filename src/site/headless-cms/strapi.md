@@ -11,6 +11,8 @@ description: Strapi is the leading open-source headless CMS. It’s 100% Javascr
 images:
   - path: /img/cms/strapi-content-types-builder.png
   - path: /img/cms/strapi-content-manager.png
+  - path: /img/cms/strapi-media-library.png
+  - path: /img/cms/strapi-settings-edit-roles.png
 ---
 
 ## Get started
@@ -39,7 +41,7 @@ Try also one of our starters: [Gatsby catalog](https://github.com/strapi/strapi-
 
 <br />
 
-**Multi-databases support** SQLite, MongoDB, MySQL, Postgres are supported, you just have to pick one of your choice.<br />
+**Multi-databases support** SQLite, MySQL, Postgres are supported, you just have to pick one of your choice.<br />
 **GraphQL or RESTful** Consume the API from any client (React, Vue, Angular), mobile apps or even IoT, using REST or GraphQL.<br />
 **100% Javascript** One language fits all. Use JavaScript from front to back.<br />
 **Webhooks** Call back anywhere you need, to get the functionality you want, out of the box with our API.<br />
@@ -65,8 +67,8 @@ Try also one of our starters: [Gatsby catalog](https://github.com/strapi/strapi-
 [Media Library](https://strapi.io/features/media-library): The media library allows you to store your images, videos and files in your Strapi admin panel with many ways to visualize and manage them.<br />
 [Role-Based Access Control (RBAC)](https://strapi.io/features/custom-roles-and-permissions): Role-Based Access Control is a feature available in the Administration Panel settings that let your team members have access rights only to the information they need.<br />
 [Internationalization (i18n)](https://strapi.io/features/internationalization): Internationalization (i18n) lets you create many content versions, also called locales, in different languages and for different countries.<br />
-
+[SSO (Enterprise)](https://strapi.io/blog/v3-5-sentry-plugin-sso-authentication): SSO authentication feature for the Strapi admin panel, which lets enterprises connect Strapi to their authentication providers and protocols such as Active Directory, Okta, Auth0, Keycloak, OAuth etc...
 
 ## Resources
 
- [Docs](https://strapi.io/documentation) • [Demo](https://strapi.io/demo) • [Starters](https://strapi.io/starters) • [Become a Strapi expert](https://academy.strapi.io/) • [Forum](https://forum.strapi.io/) • [Discord](https://discord.strapi.io) • [Youtube](https://www.youtube.com/c/Strapi/featured) • [Try Enterprise Edition](https://strapi.io/enterprise)
+[Docs](https://docs.strapi.io) • [Demo](https://strapi.io/demo) • [Starters](https://strapi.io/starters) • [Forum](https://forum.strapi.io/) • [Discord](https://discord.strapi.io) • [Youtube](https://www.youtube.com/c/Strapi/featured) • [Try Enterprise Edition](https://strapi.io/enterprise) • [Strapi Design System](https://design-system.strapi.io/) • [Marketplace](https://market.strapi.io/)

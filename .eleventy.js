@@ -1,7 +1,7 @@
 const lodashGet = require("lodash/get");
 const yaml = require("js-yaml");
 
-module.exports = function(eleventyConfig) {
+module.exports = function (eleventyConfig) {
   // Support yaml data files
   eleventyConfig.addDataExtension("yaml", contents => yaml.safeLoad(contents))
 
@@ -19,7 +19,7 @@ module.exports = function(eleventyConfig) {
   const { DateTime } = require('luxon');
   eleventyConfig.addFilter('formatDate', (dateObj, formatStr) => {
     // convert any date strings to read dates
-    if(typeof(dateObj) == "string") {
+    if (typeof (dateObj) == "string") {
       dateObj = new Date(dateObj);
     }
     const format = formatStr ? formatStr : 'LLLL d, y';
@@ -45,7 +45,7 @@ module.exports = function(eleventyConfig) {
   });
 
 
-  eleventyConfig.addCollection("resources", function(collectionApi) {
+  eleventyConfig.addCollection("resources", function (collectionApi) {
     return collectionApi.getFilteredByGlob("src/site/resources/*.md");
   });
 
@@ -72,7 +72,7 @@ module.exports = function(eleventyConfig) {
 
   // filter a data array based on the value of a property
   eleventyConfig.addFilter('select', (array, clause) => {
-    if(clause.indexOf("=") > -1) {
+    if (clause.indexOf("=") > -1) {
       const property = clause.split("=")[0];
       const value = clause.split("=")[1];
       return array.filter(item => lodashGet(item, property).includes(value));
@@ -83,9 +83,9 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addFilter('flatten', (array) => {
     let results = [];
-    for(let result of array) {
-      if(result) {
-        if(Array.isArray(result)) {
+    for (let result of array) {
+      if (result) {
+        if (Array.isArray(result)) {
           results = [...results, ...result];
         } else {
           results.push(result);
@@ -97,8 +97,8 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addFilter('unique', (array) => {
     let caseInsensitive = {};
-    for(let val of array) {
-      if(typeof val === "string") {
+    for (let val of array) {
+      if (typeof val === "string") {
         caseInsensitive[val.toLowerCase()] = val;
       }
     }
@@ -110,15 +110,15 @@ module.exports = function(eleventyConfig) {
     if (count > array.length) {
       count = array.length;
     }
-    const shuffled = array.sort( () => 0.5 - Math.random() );
+    const shuffled = array.sort(() => 0.5 - Math.random());
     return shuffled.slice(0, count);
   });
 
   // Convert an associative array into an indexable, iterable array
   eleventyConfig.addFilter('iterable', (obj) => {
     var iterableArray = new Array();
-    for (var item in obj){
-      iterableArray.push( obj[item] );
+    for (var item in obj) {
+      iterableArray.push(obj[item]);
     }
     return iterableArray;
   });
@@ -142,9 +142,9 @@ module.exports = function(eleventyConfig) {
     return arr.sort((a, b) => {
       let aKey = lodashGet(a, selector).toLowerCase();
       let bKey = lodashGet(b, selector).toLowerCase();
-      if(aKey < bKey) {
+      if (aKey < bKey) {
         return -1;
-      } else if(aKey > bKey) {
+      } else if (aKey > bKey) {
         return 1;
       }
       return 0;
@@ -155,9 +155,9 @@ module.exports = function(eleventyConfig) {
     return arr.sort((a, b) => {
       let aKey = githubData[a.data.repo] ? (githubData[a.data.repo].stars || 0) : 0;
       let bKey = githubData[b.data.repo] ? (githubData[b.data.repo].stars || 0) : 0;
-      if(aKey < bKey) {
+      if (aKey < bKey) {
         return 1;
-      } else if(aKey > bKey) {
+      } else if (aKey > bKey) {
         return -1;
       }
       return 0;
@@ -168,11 +168,11 @@ module.exports = function(eleventyConfig) {
   // Format a path to avoid any Cloudinary URL API miss-steps.
   eleventyConfig.addFilter("cloudinaryifyPath", (str) => {
 
-    if(str) { 
-      
+    if (str) {
+
       // add generic url encoding 
       str = encodeURI(str);
-      
+
       // we also need to double escape some characters which might appear in text
       // but are meaningful in cloudinary URLs
       str = str.replace(/,/g, '%252C');
@@ -189,7 +189,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/site/site.webmanifest");
   eleventyConfig.addPassthroughCopy("src/site/survey/2021/community-survey-2021-methodology.pdf");
 
-  return  {
+  return {
     dir: {
       input: "src/site",
       inludes: "_includes",
