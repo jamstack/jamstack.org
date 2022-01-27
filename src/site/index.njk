@@ -98,20 +98,6 @@ layout: layouts/base.njk
   </div>
 </section>
 
-<section class="text-center mb-20">
-  <h2>Jamstack-Powered Projects</h2>
-  <p class="md:w-8/12 mx-auto mt-6 mb-8">
-    You have likely visited —and may have even worked on— a Jamstack site, which is commonly built using a static site generator like Gatsby, Next, Jekyll, Hugo, 11ty or Nuxt.
-  </p>
-  <div class="mt-12 flex flex-wrap justify-around lg:justify-between">
-    {% for item in examples | iterable | selectattr("featured") | luckydip(6) %}
-      <div class="md:w-1/2 lg:w-1/3 text-left mb-8 md:pr-10">
-      {% include "components/example-thumbnail.njk" %}
-      </div>
-    {% endfor %}
-  </div>
-  <a href="/examples" class="cta">More examples</a>
-</section>
 
 {% include "components/join-the-movement.njk" %}
 
