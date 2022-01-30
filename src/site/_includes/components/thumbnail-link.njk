@@ -1,4 +1,4 @@
-<a href="{{ item.data.link }}" target="_BLANK" rel="noopener" class="mb-4 border-solid border-2 rounded block text-gray-300 hover:text-red-500">
+<a href="{{ item.data.link }}" rel="noopener" class="mb-4 border-solid border-2 rounded block text-gray-300 hover:text-red-500">
   {% if item.data.thumbnailurl %}
   <img src="{{ item.data.thumbnailurl }}" loading="lazy" alt="{{ item.data.title }}">
   {% else %}
@@ -9,7 +9,7 @@
   {% endif %}
 </a>
 <h3>
-  <a href="{{ item.data.link }}" target="_BLANK" rel="noopener">{{ item.data.title }} →</a>
+  <a href="{{ item.data.link }}" rel="noopener">{{ item.data.title }} →</a>
 </h3>
 {% if item.data.date %}
 <time value="{{ item.data.date | formatDate('y-MM-dd') }}" class="text-gray-400 text-xs">{{ item.data.date | formatDate }} </time>
