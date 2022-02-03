@@ -11,11 +11,11 @@ description: The WordPress CMS enables headless development through a built-in R
 ---
 ## What Is WordPress?
 
-WordPress is currently the most popular CMS on the internet today, used by everyone from small DIY bloggers, small and mid-sized agencies, and complex enterprises. Using the built in REST API, WordPress can power amazing headless experiences while providing content editors and managers an extensible and familiar publishing interface. 
+WordPress is currently the most popular CMS on the internet today, used by everyone from small DIY bloggers to small/mid-sized agencies and complex enterprises. Using the built-in REST API, WordPress can power amazing headless experiences while providing content editors and managers an extensible and familiar publishing interface. 
 
 ## Using WordPress as a Headless CMS
 
-The WordPress CMS already gives site developers a method for server-side rendering (SSR) using themes based on PHP templates, but the platform as offers a robust and extensible REST API that allows developers to create headless sites and apps using any manner of frontend technologies. 
+The WordPress CMS already gives site developers a method for server-side rendering (SSR) using themes based on PHP templates, but the platform also offers a robust and extensible REST API that allows developers to create headless sites and apps using any manner of frontend technologies. 
 
 ### REST API
 
