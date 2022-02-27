@@ -1,7 +1,7 @@
 ---
 title: Jamstackpy
-repo: Abdur-RahmaanJ/jamstack
-homepage: https://github.com/Abdur-rahmaanJ/jamstack#readme
+repo: jamstackpy/jamstack
+homepage: https://github.com/jamstackpy/jamstack#readme
 language:
   - Python
 license:
