@@ -25,12 +25,12 @@ You have the opportunity to start your site from scratch or use one of our wonde
 
 ## Installation
 
-`python -m pip install jamstack`
+`$ python -m pip install jamstack`
 
 
 ## Create basic project
 
-`jamstack plain <foldername>`
+`$ jamstack plain <foldername>`
 
 
 ## Templates
@@ -40,12 +40,12 @@ Jamstack has templates available courtesy of [html5up](https://html5up.net). For
 The syntax is as follows:
 
 
-`jamstack t <template> <foldername>`
+`$ jamstack t <template> <foldername>`
 
 Use the `--existing` flag if you want the project to be created in an existing folder.
 
 
-`jamstack t html5up/massively myproject --existing`
+`$ jamstack t html5up/massively myproject --existing`
 
 
 By default, projects are created without the assets (stylesheets, images, etc...) to download them, you must pass the `--jamdo` option to the `static.py` file of the respective project.
@@ -54,7 +54,7 @@ By default, projects are created without the assets (stylesheets, images, etc...
 
 To build the site run the file `static.py`.
 
-`python static.py`
+`$ python static.py`
 
 Your site will be generated in the **dist/** folder.
 
