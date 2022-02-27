@@ -23,63 +23,42 @@ Also known as Jamstackpy, Jamstack offers a scalable, easy to extend and fully c
 
 You have the opportunity to start your site from scratch or use one of our wonderful templates courtesy of html5up.
 
-
 ## Installation
 
-```bash
-python -m pip install jamstack
-```
+`python -m pip install jamstack`
 
 
 ## Create basic project
 
-```bash
-jamstack plain <foldername>
-```
+`jamstack plain <foldername>`
 
 
 ## Templates
 
-<p>
-  Jamstack has templates available courtesy of [html5up](https://html5up.net). For see full templates visit Jamstack repo.
+Jamstack has templates available courtesy of [html5up](https://html5up.net). For see full templates visit Jamstack repo.
 
-  The syntax is as follows:
-</p>
-
-```
-jamstack t <template> <foldername>
-```
+The syntax is as follows:
 
 
-<p>
-  Use the `--existing` flag if you want the project to be created in an existing folder.
-</p>
+`jamstack t <template> <foldername>`
+
+Use the `--existing` flag if you want the project to be created in an existing folder.
 
 
-```
-jamstack t html5up/massively myproject --existing
-```
+`jamstack t html5up/massively myproject --existing`
 
-<p>
-  By default, projects are created without the assets (stylesheets, images, etc...) to download them, you must pass the `--jamdo` option to the `static.py` file of the respective project.
-</p>
+
+By default, projects are created without the assets (stylesheets, images, etc...) to download them, you must pass the `--jamdo` option to the `static.py` file of the respective project.
 
 ## Build
 
-<p>
-  To build the site run the file `static.py`.
-</p>
+To build the site run the file `static.py`.
 
+`python static.py`
 
-```bash
-python static.py
-```
+Your site will be generated in the **dist/** folder.
 
-<p>
-  Your site will be generated in the **dist/** folder.
-
-  Alternatively you can use the `--server` flag if you want to start livewatch.
-</p>
+Alternatively you can use the `--server` flag if you want to start livewatch.
 
 ## Sites using jamstack
 
