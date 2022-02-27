@@ -8,7 +8,7 @@ license:
   - Apache-2.0
 templates:
   - HTML
-  - Python
+  - Jinja
 description: Create jamstack sites with the Power of Python and Flask, as simple or as complex as you like
 ---
 
@@ -40,41 +40,46 @@ jamstack plain <foldername>
 
 ## Templates
 
-Jamstack has templates available courtesy of [html5up](https://html5up.net). For see full templates visit Jamstack repo.
+<p>
+  Jamstack has templates available courtesy of [html5up](https://html5up.net). For see full templates visit Jamstack repo.
 
-The syntax is as follows:
-
+  The syntax is as follows:
+</p>
 
 ```
 jamstack t <template> <foldername>
 ```
 
 
-Use the `--existing` flag if you want the project to be created in an existing folder
+<p>
+  Use the `--existing` flag if you want the project to be created in an existing folder.
+</p>
 
 
 ```
 jamstack t html5up/massively myproject --existing
 ```
 
-
-By default, projects are created without the assets (stylesheets, images, etc...) to download them, you must pass the `--jamdo` option to the `static.py` file of the respective project.
-
+<p>
+  By default, projects are created without the assets (stylesheets, images, etc...) to download them, you must pass the `--jamdo` option to the `static.py` file of the respective project.
+</p>
 
 ## Build
 
-To build the site run the file `static.py`.
+<p>
+  To build the site run the file `static.py`.
+</p>
 
 
 ```bash
 python static.py
 ```
 
+<p>
+  Your site will be generated in the **dist/** folder.
 
-Your site will be generated in the **dist/** folder.
-
-Alternatively you can use the `--server` flag if you want to start livewatch.
-
+  Alternatively you can use the `--server` flag if you want to start livewatch.
+</p>
 
 ## Sites using jamstack
 
