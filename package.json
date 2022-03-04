@@ -44,7 +44,8 @@
     "postcss-cli": "^8.3.1",
     "postcss-import": "^13.0.0",
     "spdx-correct": "^3.1.1",
-    "tailwindcss": "^2.0.3"
+    "tailwindcss": "^2.0.3",
+    "workbox-cli": "^6.5.0"
   },
   "devDependencies": {
     "live-server": "^1.2.1"
