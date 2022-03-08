@@ -1,9 +1,0 @@
-title: Next.js and Supabase Subscription Payments
-description: The all-in-one starter kit for high-performance SaaS applications. With a few clicks, Next.js developers can clone, deploy and fully customize their own SaaS subscription application.
-link: https://subscription-payments.vercel.app/
-thumbnailurl: /img/examples/nextjs-and-supabase-subscription-payments.png
-tools:
-  - Vercel
-  - TailwindCSS
-  - Supabase
-  - Supabase Auth
