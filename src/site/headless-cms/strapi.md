@@ -7,7 +7,7 @@ opensource: "Yes"
 typeofcms: "API Driven"
 supportedgenerators:
   - All
-description: Strapi is the leading open-source headless CMS. It’s 100% Javascript, fully customizable and developer-first. It saves API development time through a beautiful admin panel anyone can use.
+description: Strapi is the leading open-source headless CMS. It’s 100% Javascript, fully customizable, support TypeScript and developer-first. It saves API development time through a beautiful admin panel anyone can use.
 images:
   - path: /img/cms/strapi-content-types-builder.png
   - path: /img/cms/strapi-content-manager.png
