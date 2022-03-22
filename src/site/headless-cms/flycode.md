@@ -1,6 +1,6 @@
 | title    | homepage             | twitter  | opensource | typeofcms  | supportedgenerators | images |
 | -------- | ---------------------| ---------| ---------- | ---------- | ------------------- | ------------------- |
-| Flycode  | https://flycode.com  | flycode  | "No"       | Git based  | React, Angular      | /img/cms/flycode-installation-chart.png|
+| Flycode  | https://flycode.com  | flycode  | "No"       | Git based  | React, Angular      | src/site/img/cms/flycode-installation-chart.png|
 												 
 												
 # Why Flycode?
@@ -19,5 +19,5 @@ For all the changes made with FlyCode, a Pull Request (or Merge Request) will be
 And in short:
 
 <br>
-<img src="/img/cms/flycode-installation-chart.png" >
+<img src="../img/cms/flycode-installation-chart.png" >
 </br>
