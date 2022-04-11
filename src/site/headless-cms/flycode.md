@@ -19,9 +19,9 @@ FlyCode is the only out-of-the-box CMS built specifically for Modern Web and Mob
 Visit our app, https://app.flycode.com to connect your apps, select relevant repos - or add your teammate and send them an invite to connect!
 That's it, FlyCode does the rest! Immediately access your content to begin editing with no code!
 
-<br >
-	<img style={{"max-width":"400px"}} src="../img/cms/flycode-scan-result.png" >
-</br>
+<br/>
+<img style={{width:400px}} src="../img/cms/flycode-scan-result.png" />
+<br/>
 
 #### Empower Product and UX teams to own experimentation and product edits without development resources:
 FlyCode's automated scan identifies editable components and content in the product and submits requests for changes via a pull request for the developers to review.
