@@ -20,7 +20,10 @@ Visit our app, https://app.flycode.com to connect your apps, select relevant rep
 That's it, FlyCode does the rest! Immediately access your content to begin editing with no code!
 
 <br/>
-<img style={{width:400px}} src="../img/cms/flycode-scan-result.png" />
+<div style="display:flex;flex-firection:row;justify-content:center;width:100%">
+	<img style="width:600px;" src="../img/cms/flycode-scan-result.png" />
+<div/>
+
 <br/>
 
 #### Empower Product and UX teams to own experimentation and product edits without development resources:
@@ -34,9 +37,11 @@ Our visual editor (beta) helps non-developers visualize changes with the context
 
 ### To start now, visit our app, https://app.flycode.com
 
-<br >
-	<img src="../img/cms/flycode-installation-chart.png" >
-</br>
+<br/>
+	<div style="display:flex;flex-firection:row;justify-content:center;width:100%">
+		<img style="width:600px;" src="../img/cms/flycode-installation-chart.png"/>
+	</div>
+<br/>
 
 
 To read more about our product and our latest updates, don't miss our medium channel:
