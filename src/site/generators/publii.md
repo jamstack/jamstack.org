@@ -12,7 +12,7 @@ description: Desktop-based CMS for creating static websites.
 twitter: getpublii
 ---
 
-Publii is a desktop-based CMS for Windows and Mac that makes creating static websites fast and hassle-free, even for beginners.
+Publii is a desktop-based CMS for Windows, Mac and Linux that makes creating static websites fast and hassle-free, even for beginners.
 
 Unlike static-site generators that are often unwieldy and difficult to use, Publii provides an easy-to-understand UI much like server-based CMSs such as WordPress or Joomla!, where users can create posts and other site content, and style their site using a variety of built-in themes and options. Users can enjoy the benefits of a super-fast and secure static website, with all the convenience that a CMS provides.
 
