@@ -282,11 +282,7 @@ details[open] .summary-swap-open {
     font-size: 4em; /* 64px /16 */
   }
 }
-.hero-text-img {
-  height: 1.244444444em;
-  width: auto;
-  margin-top: -0.1111111111111em; /* -4px /36 */
-}
+
 
 .rounded-xl-embed {
   border-radius: 0.9375rem; /* 15px /16 */
