@@ -7,30 +7,16 @@ layout: layouts/base.njk
 {% import "components/section-heading.njk" as section %}
 {% import "components/zinger-cta.njk" as zinger %}
 
-<section class="">
-  <h1 class="hero-text">What is Jamstack?</h1>
-  <p>Pre-generated assets which are highly portable and may be served from a wide variety of hosting platforms. Elevated by modern developer tooling.</p>
-  <a href="/discord" class="cta">Join the Discord community</a>
-</section>
 
 <section class="mb-10 p-0">
   {{ ticker.icons() }}
   {{ ticker.main() }}
 </section>
 
-<section class="mb-10">
-  <a href="https://jamstackconf.com" class="border-2 border-white block rounded-xl shadow-lg text-center ">
-    <img src="/img/conf-2021-tout.png" alt="Jamstack Conf 2021" class="rounded-xl w-2/3 mx-auto my-8">
-    <p class="font-bold text-3xl my-0">
-      October 6-7, 2021
-    </p>
-    <p class="font-bold text-lg md:text-xl mb-10 w-2/3 md:w-1/2 mx-auto">
-      Join 20,000+ web developers to learn how it started, how it's going, and what's next!
-    </p>
-  </a>
+<section>
+  <h1 class="hero-text">What is the Jamstack?</h1>
+  <p class="mb-8">Pre-generated assets which are highly portable and may be served from a wide variety of hosting platforms. Elevated by modern developer tooling.</p>
 </section>
-
-
 
 <section class="mb-20">
   <h2>Why Jamstack</h2>
@@ -38,50 +24,8 @@ layout: layouts/base.njk
     The Jamstack architecture has many benefits, whether you’re building a large e-commerce site, SaaS application or personal blog.
   </p>
 
-  {{ section.icons() }}
-
-
-
-  {{ section.benefit(
-      "Better Performance",
-      "#pink_lightning",
-      "<p>
-        Why wait for pages to build on the fly when you can generate them at deploy time? When it comes to minimizing the time to first byte, nothing beats pre-built files served over a CDN.
-      </p>")
-  }}
-  {{ section.benefit(
-      "Higher Security",
-      "#blue_shield",
-      "<p>
-        With server-side processes abstracted into microservice APIs, surface areas for attacks are reduced. You can also leverage the domain expertise of specialist third-party services.
-      </p>")
-  }}
-  {{ section.benefit(
-    "Cheaper, Easier Scaling",
-    "#orange_coins",
-    "<p>
-      When your deployment amounts to a stack of files that can be served anywhere, scaling is a matter of serving those files in more places. CDNs are perfect for this, and often include scaling in all of their plans.
-    </p>")
-  }}
-  {{ section.benefit(
-    "Better Developer Experience",
-    "#teal_browser",
-    "<p>
-      Loose coupling and separation of controls allow for more targeted development and debugging, and the expanding selection of CMS options for site generators remove the need to maintain a separate stack for content and marketing.
-    </p>")
-  }}
   <a href="/why-jamstack" class="cta">Read more about the benefits of Jamstack</a>
 </section>
-
-<div class="bg-gray-100 mb-20">
-  <section>
-    <h2 class="text-2xl">The future is highly distributed</h2>
-    <p class="mt-6 mb-8">
-      Jamstack is the new standard architecture for the web. Using Git workflows and modern build tools, pre-rendered   content is served to a CDN and made dynamic through APIs and serverless functions. Technologies in the stack include JavaScript frameworks, Static Site Generators, Headless CMSs, and CDNs.
-    </p>
-    <img src="/img/svg/architecture.svg" alt="Jamstack architecture diagram, Bidirectional arrows between Client and CDN, Client and Microservices">
-  </section>
-</div>
 
 <section class="text-center mb-20">
   <div class="md:w-8/12 mx-auto">
