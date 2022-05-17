@@ -7,33 +7,9 @@ An entry-point for learning about this architectural model. A place to learn wha
 
 ## Contributing resources
 
-The site includes a showcase of Jamstack examples sites. You can submit a site to be included in this list. We've also collected a set of videos, presentation, articles and other learning resources about Jamstack. You can contribute content to that pool of resources too.
+We've collected a set of videos, presentation, articles and other learning resources about Jamstack. You can contribute content to that pool of resources!
 
 We accept contributions submitted as [pull requests](https://github.com/jamstack/jamstack.org/pulls).
-
-
-### Contribute a site example
-
-To contribute a site:
-
-1. Create a new yaml file in the [`src/site/_data/examples`](src/site/_data/examples) folder with a unique and descriptive name. Populate that file according to the structure shown below.
-1. Add a thumbnail image to the [`src/site/img/examples`](src/site/img/examples) folder. (Image should be a jpeg 596px wide and 396px tall)
-1. Submit a pull request
-
-_example site yaml reference:_
-```yaml
-title: Your site title
-description: A short description of the site.
-link: The URL of this site
-thumbnailurl: /img/examples/this-site-thumbnail.jpg
-tools:
-  - List
-  - of
-  - notable
-  - tools
-  - used
-```
-
 
 ### Contribute links to resources
 
