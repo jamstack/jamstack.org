@@ -18,12 +18,11 @@
     }
   }
   h2 {
-    @apply text-white text-3xl font-bold leading-none mb-8;
+    @apply text-white text-3xl font-bold leading-none mb-2 underline;
   }
   @screen md {
     h2 {
       @apply text-3xl;
-      @apply underline;
     }
   }
 }
