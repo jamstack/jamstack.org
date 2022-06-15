@@ -1,11 +1,20 @@
 const lodashGet = require("lodash/get");
 const yaml = require("js-yaml");
+const { EleventyServerlessBundlerPlugin } = require("@11ty/eleventy");
 
 module.exports = function (eleventyConfig) {
   // Support yaml data files
   eleventyConfig.addDataExtension("yaml", contents => yaml.safeLoad(contents))
 
   eleventyConfig.addWatchTarget("src/site/survey/**/*.js");
+
+  // ODB for Discord events
+  eleventyConfig.addPlugin(EleventyServerlessBundlerPlugin, {
+    name: "community",
+    functionsDir: './netlify/functions',
+    redirects: "netlify-toml-builders"
+  });
+
 
   // pass images directly through to the output
   eleventyConfig.addPassthroughCopy("src/site/img");
