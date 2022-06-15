@@ -10,6 +10,9 @@ publish = "dist"
 command = "npm run start"
 publish = "dist"
 
+[functions]
+  node_bundler = "esbuild"
+
 [[redirects]]
 from = "/community/"
 to = "/.netlify/builders/community"
