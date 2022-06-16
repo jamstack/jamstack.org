@@ -12,7 +12,9 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(EleventyServerlessBundlerPlugin, {
     name: "community",
     functionsDir: './netlify/functions',
+    inputDir: "./src/site",
     redirects: "netlify-toml-builders",
+    copy: ["./algolia.config.json"]
   });
 
 

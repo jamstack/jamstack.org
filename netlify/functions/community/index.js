@@ -45,14 +45,5 @@ async function handler(event) {
   }
 }
 
-// Choose one:
-// * Runs on each request: AWS Lambda, Netlify Function
-// * Runs on first request only: Netlify On-demand Builder
-//    1. Don’t forget to `npm install @netlify/functions`
-//    2. Also use `redirects: "netlify-toml-builders"` in your config file’s serverless bundler options:
-//       https://www.11ty.dev/docs/plugins/serverless/#bundler-options
-
-// exports.handler = handler;
-
 const { builder } = require("@netlify/functions");
 exports.handler = builder(handler);
