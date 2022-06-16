@@ -11,7 +11,7 @@ command = "npm run start"
 publish = "dist"
 
 [functions]
-  node_bundler = "esbuild"
+node_bundler = "esbuild"
 
 [[redirects]]
 from = "/community/"
