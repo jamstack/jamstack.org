@@ -31,7 +31,6 @@
     "dotenv": "^8.2.0",
     "fast-glob": "^3.2.5",
     "gray-matter": "^4.0.2",
-    "i18n-iso-countries": "^6.5.0",
     "js-yaml": "^3.14.0",
     "lodash": "^4.17.21",
     "luxon": "^1.26.0",

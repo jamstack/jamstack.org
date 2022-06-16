@@ -14,7 +14,7 @@ module.exports = function (eleventyConfig) {
     functionsDir: './netlify/functions',
     inputDir: "./src/site",
     redirects: "netlify-toml-builders",
-    copy: ["./algolia.config.json"]
+    copy: [".algolia.config.json"]
   });
 
 
