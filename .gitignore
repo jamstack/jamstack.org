@@ -22,3 +22,4 @@ dist
 
 netlify/functions/community/**
 !netlify/functions/community/index.js
+!netlify/functions/community/eleventy-serverless-map.json
