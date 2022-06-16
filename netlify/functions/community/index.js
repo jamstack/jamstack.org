@@ -23,6 +23,7 @@ async function handler(event) {
         "Content-Type": "text/html; charset=UTF-8",
       },
       body: page.content,
+      ttl: 60
     };
   } catch (error) {
     // Only console log for matching serverless paths
@@ -50,6 +51,8 @@ async function handler(event) {
 //    1. Don’t forget to `npm install @netlify/functions`
 //    2. Also use `redirects: "netlify-toml-builders"` in your config file’s serverless bundler options:
 //       https://www.11ty.dev/docs/plugins/serverless/#bundler-options
+
+// exports.handler = handler;
 
 const { builder } = require("@netlify/functions");
 exports.handler = builder(handler);
