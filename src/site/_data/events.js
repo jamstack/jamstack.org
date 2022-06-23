@@ -11,7 +11,7 @@ module.exports = async function () {
 
   const data = await res.json()
 
-  console.log({ data })
+  console.log(data[0])
 
   return data
 }
