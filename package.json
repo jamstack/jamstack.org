@@ -15,7 +15,7 @@
     "build": "npm-run-all build:html build:css",
     "build:html": "eleventy",
     "build:css": "postcss src/css/tailwind.css -o dist/css/styles.css",
-    "watch:html": "ELEVENTY_ENV=dev eleventy --serve --port=8090 --quiet",
+    "watch:html": "ELEVENTY_ENV=dev eleventy --serve --port=8080 --quiet",
     "watch:css": "postcss src/css/tailwind.css -o dist/css/styles.css --watch",
     "start": "npm-run-all --parallel watch:html watch:css",
     "clean": "rm -rf dist"

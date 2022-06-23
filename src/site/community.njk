@@ -11,17 +11,16 @@ permalink:
 
 {% from "components/event-card.njk" import EventCard %}
 
-<div class="flex flex-col items-center justify-center mt-10">
-  <div class="flex flex-col">
-    <h1 class="prose-xl">Upcoming Jamstack Community Events</h1>
-    <p class="animate-pulse">Served via On Demand Builders</p>
+<section class="flex flex-col items-center justify-center mt-10">
+  <div class="flex flex-col text-center">
+    <h2 class="prose-xl">Upcoming Jamstack Community Events</h2>
   </div>
 
-  {% for event in events %}
-    <div class="flex flex-wrap p-4">
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-6 justify-between">
+    {% for event in events %}
       {{ EventCard(event) }}
-    </div>
-  {% endfor %}
+    {% endfor %}
+  </section>
 
   <section class="my-16 text-center">
     <h1>Join the global community</h1>
