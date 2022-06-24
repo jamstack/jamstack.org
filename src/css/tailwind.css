@@ -340,6 +340,52 @@ details[open] .summary-swap-open {
   display: none !important;
 }
 
+.event-card-component {
+  --img-ratio: 3/2;
+
+  display: flex;
+  flex-direction: column;
+  /* Supported for flexbox in modern browsers since April 2021 */
+  gap: 1rem;
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.35);  
+  @apply bg-white border-4 border-pink-700 rounded-xl;
+
+}
+
+.event-card-component > img {
+  aspect-ratio: var(--img-ratio);
+  object-fit: cover;
+  width: 100%;
+  @apply rounded-t-lg;
+}
+
+.event-card-component > img:first-child {
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.event-card-component > :not(img) {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.event-card-component > :not(img):first-child {
+  margin-top: 1rem;
+}
+
+/* Enhanced `:not()` accepts a selector list,
+but as a fallback you can chain `:not()` instead */
+.event-card-component > :last-of-type:not(img, h2, h3, h4) {
+  margin-bottom: 1rem;
+}
+
+.event-card-component > :not(h2, h3, h4) {
+  font-size: 0.9rem;
+}
+
+.event-card-component > a {
+  align-self: start;
+}
+
 /* Jamstack TV */
 .ais-SearchBox-input {
   @apply bg-blue-900;
