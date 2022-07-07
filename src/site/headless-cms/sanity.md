@@ -57,4 +57,4 @@ Or go to [sanity.io/create](https://www.sanity.io/create) to get started with a 
 - [Upload images and transform them on demand](https://www.sanity.io/docs/asset-pipeline), and integrate with any digital asset manager
 - [Customizable previews](https://www.sanity.io/blog/evolve-authoring-experiences-with-views-and-split-panes)
 - Query images for metadata like dominant colors, sizes, geo-location, and EXIF metadata
-- [See how rich text that can be serialized into any markup language](https://www.sanity.io/guides/introduction-to-portable-text), and learn about the Sanity [Rich Text Editor](https://www.sanity.io/rich-text-editor)
+- [See how rich text that can be serialized into any markup language](https://www.sanity.io/guides/introduction-to-portable-text), and learn about the Sanity [Rich Text Editor](https://www.sanity.io/docs/what-you-need-to-know-about-block-text)
