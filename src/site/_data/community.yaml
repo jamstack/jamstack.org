@@ -132,3 +132,6 @@
   link: https://www.meetup.com/jamstack-barcelona/
   feed: https://api.meetup.com/jamstack-barcelona/events
   
+- name: Stockholm
+  link: https://www.meetup.com/jamstack-stockholm/
+  feed: https://api.meetup.com/jamstack-stockholm/events
