@@ -17,12 +17,12 @@
 
 [[redirects]]
   from = "/conf"
-  to = "https://jamstackconf.com/"
+  to = "https://jamstackconf.com/conf/"
   status = 200
 
 [[redirects]]
   from = "/conf/*"
-  to = "https://jamstackconf.com/:splat"
+  to = "https://jamstackconf.com/conf/:splat"
   status = 200
 
 [[redirects]]
