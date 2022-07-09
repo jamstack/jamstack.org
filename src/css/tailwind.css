@@ -18,7 +18,7 @@
     }
   }
   h2 {
-    @apply text-white text-3xl font-bold leading-none mb-2 underline;
+    @apply text-white text-3xl font-bold leading-none mb-2;
   }
   @screen md {
     h2 {
