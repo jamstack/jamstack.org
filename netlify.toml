@@ -12,8 +12,18 @@
 
 [[redirects]]
   from = "/conference"
+  to = "/conf"
+  status = 301
+
+[[redirects]]
+  from = "/conf"
   to = "https://jamstackconf.com/"
-  status = 302
+  status = 200
+
+[[redirects]]
+  from = "/conf/*"
+  to = "https://jamstackconf.com/:splat"
+  status = 200
 
 [[redirects]]
   from = "/discord"
@@ -47,7 +57,7 @@
 
 [[redirects]]
   from = "/conf/cfp"
-  to = "https://docs.google.com/forms/d/e/1FAIpQLSeR5W4m9owqDBJEq2EuRUNXFTOeLCxFPUn0qbuCE15o4SWDFg/viewform"
+  to = "https://docs.google.com/forms/d/e/1FAIpQLSc-z50GyD7zXzr_JCn2M1NBFZ-h65kSdu7zn43V1u2qAKO3ew/viewform"
   status = 302
 
 [[redirects]]
