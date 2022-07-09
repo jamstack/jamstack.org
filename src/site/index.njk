@@ -20,59 +20,11 @@ layout: layouts/base.njk
       </a>
 
       <p>Jamstack is an architectural approach that decouples the web experience layer from data and business logic, improving flexibility, scalability, performance, and maintainability. Jamstack removes the need for business logic to dictate the web experience. It enables a composable architecture for the web where custom logic and 3rd party services are consumed through well defined APIs.</p>
-      <h3 class="mt-3">Jamstack projects have:</h3>
-      <ul class="list-disc ml-4">
-        <li>
-          Ready-to-serve assets
-        </li>
-        <li>
-          Any interactivity provided <em>without a managed server</em>
-        </li>
-        <li>
-          Any interactivity provided by some combination of Javascript and decoupled services via APIs
-        </li>
-      </ul>
     </div>
   </div>
 </section>
 
-<div class="bg-gray-100 mb-16">
-  <section class="py-10">
-    <a name="why-jamstack">
-      <h1>Why Jamstack?</h1>
-    </a>
-    <p>A Jamstack architecture can bring all sorts of benefits to the sites and to project workflows. Some of the key benefits are:</p>
-
-    <div  class="my-10">
-      <h2>Security</h2>
-      <p>The Jamstack removes multiple moving parts and systems from the hosting infrastructure resulting in fewer servers and systems to harden against attack.</p>
-      <p>Serving pages and assets as <a href="/glossary/pre-render/">pre-generated</a> files allows read-only hosting reducing attack vectors even further. Meanwhile dynamic tools and services can be provided by vendors with teams dedicated to securing their specific systems and providing high levels of service.</p>
-    </div>
-
-    <div  class="my-10">
-      <h2>Scale</h2>
-      <p>Popular architectures deal with heavy traffic loads by adding logic to cache popular views and resources. The Jamstack provides this by default. When sites can be served entirely from a <a href="/glossary/cdn/">CDN</a> there is no complex logic or workflow to determine what assets can be cached and when.</p>
-      <p>With Jamstack sites everything can be cached in a content delivery network. With simpler deployments, built-in redundancy and incredible load capacity.</p>
-    </div>
-
-    <div  class="my-10">
-      <h2>Performance</h2>
-      <p>Page loading speeds have an impact on user experience and conversion. Jamstack sites remove the need to generate page views on a server at request time by instead generating pages ahead of time during a build.</p>
-      <p>With all the pages are already available on a <a href="/glossary/cdn/">CDN</a> close to the user and ready to serve, very high performance is possible without introducing expensive or complex infrastructure.</p>
-    </div>
-
-    <div  class="my-10">
-      <h2>Maintainability</h2>
-      <p>When hosting complexity is reduced, so are maintenance tasks. A <a href="/glossary/pre-render/">pre-generated</a> site, being served directly from a simple host or directly from a CDN does not need a team of experts to "keep the lights on".</p>
-      <p>The work was done during the build, so now the generated site is stable and can be hosted without servers which might require patching, updating and maintain.</p>
-    </div>
-
-    <div  class="my-10">
-      <h2>Developer Experience</h2>
-      <p>Jamstack sites can be built with a wide variety of tools. They do not depend on the proprietary technologies or exotic and little known frameworks. Instead, they build on widely available tools and conventions. As a result, it's not hard to find enthusiastic and talented developers who have the right skills to build with the Jamstack. Efficiency and effectiveness can prosper.</p>
-    </div>
-  </section>
-</div>
+{% include "components/join-the-movement.njk" %}
 
 <section class=" mb-16">
   <div class="md:w-8/12 mx-auto">
@@ -88,5 +40,3 @@ layout: layouts/base.njk
     <a href="/resources/" class="cta">See more videos and resources</a>
   </div>
 </section>
-
-{% include "components/join-the-movement.njk" %}
