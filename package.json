@@ -15,14 +15,13 @@
     "build": "npm-run-all build:html build:css",
     "build:html": "eleventy",
     "build:css": "postcss src/css/tailwind.css -o dist/css/styles.css",
-    "watch:html": "ELEVENTY_ENV=dev eleventy --watch --quiet",
+    "watch:html": "ELEVENTY_ENV=dev eleventy --serve --port=8080 --quiet",
     "watch:css": "postcss src/css/tailwind.css -o dist/css/styles.css --watch",
-    "serve": "npx live-server dist --quiet --port=8090",
-    "start": "npm-run-all --parallel watch:html watch:css serve",
+    "start": "npm-run-all --parallel watch:html watch:css",
     "clean": "rm -rf dist"
   },
   "dependencies": {
-    "@11ty/eleventy": "^0.11.1",
+    "@11ty/eleventy": "^1.0.0",
     "@11ty/eleventy-cache-assets": "^2.1.0",
     "@zachleat/filter-container": "^1.0.3",
     "autoprefixer": "^10.2.5",
@@ -45,8 +44,5 @@
     "postcss-import": "^13.0.0",
     "spdx-correct": "^3.1.1",
     "tailwindcss": "^2.0.3"
-  },
-  "devDependencies": {
-    "live-server": "^1.2.1"
   }
 }
