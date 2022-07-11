@@ -106,8 +106,11 @@
 
 - term: 'Jamstack'
   id: 'jamstack'
-  summary: 'A way of thinking about how to build for the web. The UI is compiled, the frontend is decoupled, and data is pulled in as needed.'
-  definition: 'A way of thinking about how to build for the web. The UI is [compiled](/glossary/pre-render), the frontend is [decoupled](/glossary/decoupling), and data is pulled in as needed.'
+  summary: Jamstack is an architectural approach that decouples the web experience layer from data and business logic, improving flexibility, scalability, performance, and maintainability.'
+  definition: 'Jamstack is an architectural approach that [decouples](/glossary/decoupling) the web experience layer from data and business logic, improving flexibility, scalability, performance, and maintainability. Jamstack removes the need for business logic to dictate the web experience.
+  
+  
+  It enables a composable architecture for the web where custom logic and 3rd party services are consumed through [APIs](/glossary/api).'
 
 - term: 'Monolith'
   id: 'monolith'
