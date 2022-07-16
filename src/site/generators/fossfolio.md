@@ -1,7 +1,7 @@
 ---
 title: Fossfolio
-repo: anuran-roy/fossfolio
-homepage: http://anuran-roy.github.io/fossfolio
+repo: fossworx-labs/fossfolio
+homepage: http://fossworx-labs.github.io/fossfolio
 language:
   - Python
 license:
