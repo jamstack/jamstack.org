@@ -3,7 +3,7 @@ title: Payload CMS
 repo: payloadcms/payload
 homepage: https://payloadcms.com
 twitter: PayloadCMS
-opensource: "No"
+opensource: "Yes"
 typeofcms: "API Driven"
 supportedgenerators:
   - All
