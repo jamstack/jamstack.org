@@ -21,14 +21,32 @@ force = true
 _generated_by_eleventy_serverless = "community"
 
 [[redirects]]
-from = "/conference"
-to = "https://jamstackconf.com/"
-status = 302
-
-[[redirects]]
 from = "/discord"
 to = "https://discord.gg/jamstack"
 status = 302
+  from = "/conference"
+  to = "/conf"
+  status = 301
+
+[[redirects]]
+  from = "/conf"
+  to = "https://jamstackconf.com/conf/"
+  status = 200
+
+[[redirects]]
+  from = "/conf/cfp"
+  to = "https://docs.google.com/forms/d/e/1FAIpQLSc-z50GyD7zXzr_JCn2M1NBFZ-h65kSdu7zn43V1u2qAKO3ew/viewform"
+  status = 302
+
+[[redirects]]
+  from = "/conf/*"
+  to = "https://jamstackconf.com/conf/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/discord"
+  to = "https://discord.gg/jamstack"
+  status = 302
 
 [[redirects]]
 from = "/women-of-jamstack/"
@@ -56,6 +74,7 @@ to = "https://res.cloudinary.com/netlify/image/fetch/c_fit,l_text:Roboto_56_bold
 status = 200
 
 [[redirects]]
+<<<<<<< HEAD
 from = "/conf/"
 to = "https://jamstackconf.com/"
 status = 302
@@ -69,6 +88,11 @@ status = 302
 from = "/glossary/*"
 to = "/glossary/contribute/index.html"
 status = 404
+=======
+  from = "/glossary/*"
+  to = "/glossary/contribute/index.html"
+  status = 404
+>>>>>>> 5de11bb1c40696646a9d6447497610545725c5ef
 
 [[redirects]]
 from = "/headless-cms/keystone-5/"

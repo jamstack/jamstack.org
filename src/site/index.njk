@@ -7,85 +7,52 @@ layout: layouts/base.njk
 {% import "components/section-heading.njk" as section %}
 {% import "components/zinger-cta.njk" as zinger %}
 
-<section class="mt-16">
-  <p class="w-1/2">Comprehensive guide for building Jamstack sites and home of the global Jamstack community.</p>
-  <h1 class="hero-text">The modern way to&nbsp;build <img src="/img/svg/websites-and-apps.svg" width="545" height="88" alt="Websites and Apps" class="inline-block mr-2 hero-text-img"> that delivers better performance</h1>
-  <a href="/community" class="cta">Join the global community</a>
-</section>
-
-<section class="mb-10 p-0">
+<section class="my-10 p-0">
   {{ ticker.icons() }}
   {{ ticker.main() }}
 </section>
 
+<section class="relative p-10 mb-16">
+  <div class="p-2 rounded-lg bg-gradient-jams" w-full>
+    <div class="flex flex-col bg-blue-900 p-10 text-xl">
+      <a class="border-b-0" name="what-is-jamstack">
+        <h1>What is <span class="font-extrabold text-transparent bg-clip-text bg-gradient-jams">Jamstack</span>?</h1>
+      </a>
+      <p>
+        Jamstack is an architectural approach that decouples the web experience layer from data and business logic, improving flexibility, scalability, performance, and maintainability.
+      </p>
+      <p>
+        Jamstack removes the need for business logic to dictate the web experience.
+      </p>
+      <p>
+        It enables a composable architecture for the web where custom logic and 3rd party services are consumed through APIs.</p>
+      </p>
+    </div>
+  </div>
+</section>
+
 <section class="mb-10">
-  <a href="https://jamstackconf.com" class="border-2 border-white block rounded-xl shadow-lg text-center ">
-    <img src="/img/conf-2021-tout.png" alt="Jamstack Conf 2021" class="rounded-xl w-2/3 mx-auto my-8">
-    <p class="font-bold text-3xl my-0">
-      October 6-7, 2021
+  <div class="border-2 border-white block rounded-xl shadow-lg text-center ">
+    <img src="/img/conf-2022-tout.png" alt="Jamstack Conf 2022" class="rounded-xl w-2/3 mx-auto my-6">
+    <p class="text-xl md:text-2xl mb-5 px-5">
+      <span class="font-bold">7-8 Nov 2022</span>
+      <span>·</span>
+      <span>San Francisco and online</span>
     </p>
-    <p class="font-bold text-lg md:text-xl mb-10 w-2/3 md:w-1/2 mx-auto">
-      Join 20,000+ web developers to learn how it started, how it's going, and what's next!
+    <p class="text-lg md:text-xl mb-5 w-2/3 md:w-1/2 mx-auto">
+      Join 20,000+ web developers for two days dedicated to building modern web projects.
     </p>
-  </a>
+    <p class="mb-5">
+      <a href="https://jamstackconf.com" class="cta">Attend Jamstack Conf</a>
+    </p>
+  </div>
 </section>
 
+{% include "components/join-the-movement.njk" %}
 
-
-<section class="mb-20">
-  <h2>Why Jamstack</h2>
-  <p class="w-2/3 mb-12">
-    The Jamstack architecture has many benefits, whether you’re building a large e-commerce site, SaaS application or personal blog.
-  </p>
-
-  {{ section.icons() }}
-
-
-
-  {{ section.benefit(
-      "Better Performance",
-      "#pink_lightning",
-      "<p>
-        Why wait for pages to build on the fly when you can generate them at deploy time? When it comes to minimizing the time to first byte, nothing beats pre-built files served over a CDN.
-      </p>")
-  }}
-  {{ section.benefit(
-      "Higher Security",
-      "#blue_shield",
-      "<p>
-        With server-side processes abstracted into microservice APIs, surface areas for attacks are reduced. You can also leverage the domain expertise of specialist third-party services.
-      </p>")
-  }}
-  {{ section.benefit(
-    "Cheaper, Easier Scaling",
-    "#orange_coins",
-    "<p>
-      When your deployment amounts to a stack of files that can be served anywhere, scaling is a matter of serving those files in more places. CDNs are perfect for this, and often include scaling in all of their plans.
-    </p>")
-  }}
-  {{ section.benefit(
-    "Better Developer Experience",
-    "#teal_browser",
-    "<p>
-      Loose coupling and separation of controls allow for more targeted development and debugging, and the expanding selection of CMS options for site generators remove the need to maintain a separate stack for content and marketing.
-    </p>")
-  }}
-  <a href="/why-jamstack" class="cta">Read more about the benefits of Jamstack</a>
-</section>
-
-<div class="bg-gray-100 mb-20">
-  <section>
-    <h2 class="text-2xl">The future is highly distributed</h2>
-    <p class="mt-6 mb-8">
-      Jamstack is the new standard architecture for the web. Using Git workflows and modern build tools, pre-rendered   content is served to a CDN and made dynamic through APIs and serverless functions. Technologies in the stack include JavaScript frameworks, Static Site Generators, Headless CMSs, and CDNs.
-    </p>
-    <img src="/img/svg/architecture.svg" alt="Jamstack architecture diagram, Bidirectional arrows between Client and CDN, Client and Microservices">
-  </section>
-</div>
-
-<section class="text-center mb-20">
+<section class=" mb-16">
   <div class="md:w-8/12 mx-auto">
-    <h2>Rise of the Jamstack</h2>
+    <h2>The Roots of Jamstack</h2>
     <p class="mt-6 mb-8">
       <a href="https://www.netlify.com/authors/matt-biilmann/">Matt Biilmann</a> took the concept of Jamstack mainstream with his presentation at Smashing Conf 2016. Watch the quintessential introduction to the Jamstack.
     </p>
@@ -97,7 +64,3 @@ layout: layouts/base.njk
     <a href="/resources/" class="cta">See more videos and resources</a>
   </div>
 </section>
-
-
-{% include "components/join-the-movement.njk" %}
-
