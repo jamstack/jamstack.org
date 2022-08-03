@@ -1,0 +1,10 @@
+{% macro card(name, url, theme ) %}
+
+<a href="{{ url }}" target="_BLANK" rel="noopener" class="{{ theme }} bg-gradient-to-r block mb-4 border-gray-400 border rounded-xl rounded-tr-none text-center">
+  <div class="bg-gray-100 mt-3 py-8 rounded-xl-embed rounded-t-none card-shadow">
+    <svg role="img" aria-label="Jamstack Group" aria-hidden="true" focusable="false" width="20" height="20" class="inline"><use xlink:href="#gem-jamstack" ></use></svg>
+    <span class="font-bold ml-1">{{ name }} &rarr;</span>
+  </div>
+</a>
+
+{% endmacro %}

@@ -1,0 +1,102 @@
+<script type="module" src="https://cdn.jsdelivr.net/npm/algoliasearch@4.5.1/dist/algoliasearch-lite.umd.js" integrity="sha256-EXPXz4W6pQgfYY3yTpnDa3OH8/EPn16ciVsPQ/ypsjk=" crossorigin="anonymous"></script>
+<script type="module" src="https://cdn.jsdelivr.net/npm/instantsearch.js@4.8.3/dist/instantsearch.production.min.js" integrity="sha256-LAGhRRdtVoD6RLo2qDQsU2mp+XVSciKRC8XPOBWmofM=" crossorigin="anonymous"></script>
+<script type="module">
+const searchClient = algoliasearch('{{ algolia.appId }}', '{{ algolia.searchOnlyApiKey }}');
+
+const search = instantsearch({
+  indexName: '{{ algolia.indexName }}',
+  searchClient,
+});
+
+{% raw %}
+function pad(num) {
+  return num < 10 ? `0${num}` : num;
+}
+
+function getDurationString(duration) {
+  let secondsInOne = {
+    hour: 60*60,
+    minute: 60
+  };
+
+  let hours = Math.floor(duration / secondsInOne.hour);
+  let minutes = Math.floor((duration % secondsInOne.hour) / secondsInOne.minute);
+  let seconds = Math.floor(duration % secondsInOne.minute);
+
+  return `${hours ? `${hours}:`: ""}${hours ? pad(minutes) : minutes}:${pad(seconds)}`;
+}
+
+search.addWidgets([
+  instantsearch.widgets.searchBox({
+    container: '#searchbox',
+    //placeholder: 'Search Video Content',
+    showReset: false,
+    showSubmit: false,
+  }),
+
+  instantsearch.widgets.sortBy({
+    container: '#sort-by',
+    items: [
+      { label: 'Newest', value: 'jamstack' },
+      { label: 'Popular', value: 'popular' },
+    ],
+    cssClasses: {
+      //root: 'MyCustomSortBy',
+      select: [
+        'text-black py-1 px-2 rounded-default border border-white bg-white',
+      ],
+    },
+  }),
+
+  instantsearch.widgets.hits({
+    snippetEllipsisText: '…',
+    container: '#hits',
+    cssClasses: {
+      root: "bg-blue-900 text-blue-100",
+      //item: "bg-blue-900 text-blue-100",
+    },
+    transformItems(items) {
+      return items.map(item => {
+        let start = item.caption.start;
+
+        let obj = {
+          ...item,
+          url: `https://www.youtube.com/watch?v=${item.video.id}}&t=${start}s`,
+          displayDuration: getDurationString(item.video.duration),
+        };
+
+        if(start > 10) { // only show for deep links > 10 seconds
+          obj.displayStartInline = `<span class="jamstacktv-time"><b></b><b></b>${getDurationString(start)} of</span>`;
+          let scrubberWidth = Math.floor( 100 * item.caption.start / item.video.duration );
+          obj.scrubberHtml = `<div class="jamstacktv-scrubber"><div style="width: ${scrubberWidth}%"></div></div>`;
+          //obj._highlightResult.caption.content = `…${obj._highlightResult.caption.content}`;
+        } else {
+          obj.wrapperClass = "jamstacktv-no-skip";
+        }
+        return obj;
+      });
+    },
+    templates: {
+      item: `
+        <a href="{{ url }}" class="mb-4 group jamstacktv-link">
+          <div class="relative jamstacktv-card">
+            <img src="{{ video.thumbnails.medium }}" alt="{{ video.title }}" class="jamstacktv-img card-shadow bg-gradient-card-sunrise group-hover:card-shadow-sunrise" width="480" height="360">
+            <span class="jamstacktv-duration">{{{ displayStartInline }}}{{ displayDuration }}</span>
+            {{{ scrubberHtml }}}
+          </div>
+          <div class="jamstacktv-item {{ wrapperClass }}">
+            <div class="jamstacktv-meta mb-1">
+              <span class="jamstacktv-category">{{#helpers.highlight}}{ "attribute": "playlist.title" }{{/helpers.highlight}}</span>
+              <span class="jamstacktv-title">{{#helpers.highlight}}{ "attribute": "video.title" }{{/helpers.highlight}}</span>
+            </div>
+            <strong class="jamstacktv-caption"><span class="jamstacktv-caption-quote">{{#helpers.highlight}}{ "attribute": "caption.content" }{{/helpers.highlight}}</span></strong>
+          </div>
+        </div>
+      `,
+    },
+  })
+]);
+
+search.start();
+{% endraw %}
+</script>

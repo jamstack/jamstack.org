@@ -1,0 +1,97 @@
+[
+  [
+    {
+      "created": 1585342923000,
+      "duration": 7200000,
+      "id": "269697699",
+      "name": "Jamstack SF Meetup - April - VIRTUAL MEETUP!",
+      "date_in_series_pattern": false,
+      "status": "upcoming",
+      "time": 1587603600000,
+      "local_date": "2020-04-22",
+      "local_time": "18:00",
+      "updated": 1585343679000,
+      "utc_offset": -25200000,
+      "waitlist_count": 0,
+      "yes_rsvp_count": 39,
+      "venue": {
+        "id": 26043648,
+        "name": "Microsoft Reactor",
+        "lat": 37.78462219238281,
+        "lon": -122.39823150634766,
+        "repinned": true,
+        "address_1": "680 Folsom St #145",
+        "city": "San Francisco",
+        "country": "us",
+        "localized_country_name": "USA",
+        "zip": "94107",
+        "state": "CA"
+      },
+      "is_online_event": false,
+      "group": {
+        "created": 1424300496000,
+        "name": "Jamstack San Francisco",
+        "id": 18444650,
+        "join_mode": "open",
+        "lat": 37.77000045776367,
+        "lon": -122.4000015258789,
+        "urlname": "jamstack-sf",
+        "who": "JAMsters",
+        "localized_location": "San Francisco, CA",
+        "state": "CA",
+        "country": "us",
+        "region": "en_US",
+        "timezone": "US/Pacific"
+      },
+      "link": "https://www.meetup.com/jamstack-sf/events/269697699/",
+      "description": "<p>Hello! Welcome to the Jamstack SF meetup!</p> <p>Sponsors: None at the moment! Ping me on meetup for inquiries.</p> <p>Schedule:<br/>6:00 PM - Introduction<br/>6:15 PM - Bryan Robinson, \"The DIY Web: Where we came from; what we’ve lost; where we can go\"<br/>7:00 PM - Lars Peterson, \"Blazing fast Jamstack personalization\"<br/>7:45 PM - Chat on Slack Community<br/>8:00 PM - Closing! Thank you!</p> <p>Slack: <a href=\"https://join.slack.com/t/jamstack/shared_invite/zt-8nw6pmj5-sfla3J7jNBXhiL9ZDNdTtw\" class=\"linkified\">https://join.slack.com/t/jamstack/shared_invite/zt-8nw6pmj5-sfla3J7jNBXhiL9ZDNdTtw</a><br/>join #meetup-sfbayarea for community discussions live!</p> <p>Talk #1: Bryan Robinson</p> <p>The DIY Web: Where we came from; what we’ve lost; where we can go</p> <p>Society’s perception of the web has changed. What was once a DIY paradise has neatly converted itself into a commercial juggernaut. The web’s commercial power keeps us all well-employed, but what have we lost since the days of the DIY movement?<br/>In this talk, we’ll examine what has changed and how the Jamstack is positioning itself as a prime avenue to bring back personal projects, sites and apps in a big way.</p> <p>Bryan has been creating hand-crafted experiences on the web his entire career. His experience spans from large content-driven news sites to boutique designs for small to medium businesses.<br/>He’s currently making a living as a “free agent” developer evangelist for technologies he’s passionate about via his startup company Code Contemporary. In the past, he’s led agency design and development teams, been a front-end developer and a UX strategist.<br/>Bryan hosts the That’s My Jamstack podcasts, streams live code and design daily and runs multiple developer groups in his hometown.<br/>His passions on the web are CSS, layout and the Jamstack. He lives in Memphis with his wife, son and two cats.</p> <p>**************************************************************<br/>Talk #2: Lars Peterson</p> <p>Blazing fast Jamstack personalization<br/>It's a well-known fact that personalization can help increase engagement and conversions by giving site visitors a more relevant experience. In this session we dive into different types of personalization, ranging from easy to advanced, from rules-based to machine learning and how to use personalization on the Jamstack.</p> <p>Lars Birkholm Petersen is co-founder of Uniform, a platform enabling Jamstack for the Enterprise and co-author of Connect: How to Use Data and Experience Marketing to Create Lifetime Customers. He is an expert on advising enterprise organizations on data architecture and architecting personalized experiences.</p> <p>**************************************************************</p> ",
+      "visibility": "public",
+      "member_pay_fee": false
+    }
+  ],
+  [
+    {
+      "created": 1585905293000,
+      "duration": 5400000,
+      "id": "269831244",
+      "name": "Jamstack OPO #8 | Brunch is served - A Jamstack Story",
+      "date_in_series_pattern": false,
+      "status": "upcoming",
+      "time": 1587405600000,
+      "local_date": "2020-04-20",
+      "local_time": "19:00",
+      "updated": 1586179218000,
+      "utc_offset": 3600000,
+      "waitlist_count": 0,
+      "yes_rsvp_count": 18,
+      "venue": {
+        "id": 26906060,
+        "name": "Online event",
+        "repinned": false,
+        "country": "",
+        "localized_country_name": ""
+      },
+      "is_online_event": true,
+      "group": {
+        "created": 1494438491000,
+        "name": "Jamstack Porto",
+        "id": 23707617,
+        "join_mode": "open",
+        "lat": 41.150001525878906,
+        "lon": -8.619999885559082,
+        "urlname": "Jamstack-Porto",
+        "who": "JAMsters",
+        "localized_location": "Porto, Portugal",
+        "state": "",
+        "country": "pt",
+        "region": "en_US",
+        "timezone": "Europe/Lisbon"
+      },
+      "link": "https://www.meetup.com/Jamstack-Porto/events/269831244/",
+      "description": "<p>Jamstack is not about specific technologies. It’s a new way of building websites and apps that delivers better performance, higher security, lower cost of scaling, and better developer experience.</p> <p>For this event, Carlos Silva is going to share with us his experience with Jamstack and how it's possible to replace dynamic stacks such as WordPress by Jamstack.</p> <p>Following governmental recommendations, this event will be held online. All participants that RSVP will have access to the link for the webinar.</p> <p>## About the presentation</p> <p>One of Carlos' favorite pastimes today is Jamstack and everything related to the latest development technologies. The term Jamstack was created by Mathias Biilman, co-founder of Netlify, to contrast with the more 'modern' approaches to web development like the LAMP stack, that some of us know very well. Jamstack refers to the serverless, database-free stack, composed only of Javascript, APIs and Markup. Interest in Jamstack is growing, and many feel that the Jamstack approach to web development, which in many ways is faster, more secure and offers greater stability than the traditional stack, is the future of the web. So let's see how we can \"abandon\" a backend stack like WordPress and replace it with Jamstack.</p> <p>## About Carlos Silva</p> <p>Husband to a beautiful wife and father to 2 awesome kids. Chief Technology Officer at BindTuning | Speaker | Developer Advocate felling in love with open source.</p> <p>## Agenda:</p> <p>- [19h00] Small introduction by Marzee Labs (<a href=\"https://marzeelabs.org/\" class=\"linkified\">https://marzeelabs.org/</a>)<br/>- [19h15] Brunch is served - A Jamstack Story by Carlos Silva</p> ",
+      "how_to_find_us": "https://meet.jit.si/CruelOrangutansSingObviously\n",
+      "visibility": "public",
+      "member_pay_fee": false
+    }
+  ]
+]

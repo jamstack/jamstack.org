@@ -1,0 +1,20 @@
+{% macro EventCard(event) %}
+  <li class="event-card-component">
+    {% if event.image === null %}
+      <img src="https://via.placeholder.com/248x98" alt=""/>
+    {% else %}
+      <img src={{ "https://cdn.discordapp.com/guild-events/" + event.id + "/" + event.image + ".png "  }}/>
+    {% endif %}
+    <div class="flex-col items-center justify-around p-6">
+      <h3 class="text-lg text-blue-900 font-bold">{{ event.name }}</h2>
+      <div class="flex text-sm leading-5 text-gray-500">
+        <time datetime="2020-03-16">{{ event.scheduled_start_time | formatDate }}</time>
+      </div>
+      {% if event.entity_metadata %}
+        <a class="text-blue-700 underline min-content" href={{ event.entity_metadata.location }}>Link</a>
+      {% endif %}
+    </div>
+  </li>
+{% endmacro %}
+
+{# flex-col items-center bg-white border-4 border-pink-700 rounded-xl m-auto w-80 md:w-64 h-80 #}

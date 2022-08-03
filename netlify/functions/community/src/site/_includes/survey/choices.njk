@@ -1,0 +1,983 @@
+<h3 class="text-2xl font-semibold my-4">Which content management systems were devs’ favorites in 2021?</h3>
+
+<h4 class="text-xl my-4">2021 was a breakout year for Sanity and Strapi.</h4>
+
+<div class="mt-16 flex justify-between" id="choices-cms">
+  <h4 class="text-xl font-semibold">CMS usage vs. satisfaction</h4>
+</div>
+
+<div id="choices-cms-chart" class="d3chart-placeholder"></div>
+
+<div>
+  <div class="d3chart-legend-placeholder d3chart-legend-wrap mt-4"></div>
+</div>
+
+<div class="text-center my-2">Source: Jamstack Community Survey 2020—2021</div>
+
+<details class="mt-4 mb-32">
+  <summary class="text-sm mb-2">Show Chart Data</summary>
+  <table id="choices-cms-table" class="table-auto border-collapse">
+    <thead>
+      <tr class="bg-gray-700 border-b-2">
+        <th class="text-left pr-2">CMS</th>
+        <th class="text-left pr-2">Usage</th>
+        <th class="text-left pr-2">Satisfaction</th>
+        <th class="text-left pr-2">Awareness</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1. WordPress</td>
+        <td>39.43%</td>
+        <td>0.3</td>
+        <td>93.32%</td>
+      </tr>
+      <tr>
+        <td>2. Contentful</td>
+        <td>22.13%</td>
+        <td>2.2</td>
+        <td>70.13%</td>
+      </tr>
+      <tr>
+        <td>3. WordPress (Headless)</td>
+        <td>21.57%</td>
+        <td>1.1</td>
+        <td>86.67%</td>
+      </tr>
+      <tr>
+        <td>4. Strapi</td>
+        <td>17.89%</td>
+        <td>2.9</td>
+        <td>64.28%</td>
+      </tr>
+      <tr>
+        <td>5. Drupal</td>
+        <td>13.36%</td>
+        <td>0.4</td>
+        <td>83.95%</td>
+      </tr>
+      <tr>
+        <td>6. Sanity</td>
+        <td>12.72%</td>
+        <td>3.2</td>
+        <td>54.13%</td>
+      </tr>
+      <tr>
+        <td>7. Prismic</td>
+        <td>12.31%</td>
+        <td>2.0</td>
+        <td>53.79%</td>
+      </tr>
+      <tr>
+        <td>8. Wix</td>
+        <td>11.4%</td>
+        <td>0.5</td>
+        <td>86.47%</td>
+      </tr>
+      <tr>
+        <td>9. Ghost</td>
+        <td>10.44%</td>
+        <td>1.3</td>
+        <td>63.67%</td>
+      </tr>
+      <tr>
+        <td>10. Webflow</td>
+        <td>10.38%</td>
+        <td>1.1</td>
+        <td>62.92%</td>
+      </tr>
+      <tr>
+        <td>11. Squarespace</td>
+        <td>10.22%</td>
+        <td>0.5</td>
+        <td>74.67%</td>
+      </tr>
+      <tr>
+        <td>12. Forestry</td>
+        <td>9.32%</td>
+        <td>1.5</td>
+        <td>48.39%</td>
+      </tr>
+      <tr>
+        <td>13. Weebly</td>
+        <td>5.77%</td>
+        <td>0.6</td>
+        <td>61.35%</td>
+      </tr>
+      <tr>
+        <td>14. Contentstack</td>
+        <td>5.45%</td>
+        <td>1.0</td>
+        <td>35.28%</td>
+      </tr>
+      <tr>
+        <td>15. Agility CMS</td>
+        <td>5.33%</td>
+        <td>1.6</td>
+        <td>38.84%</td>
+      </tr>
+      <tr>
+        <td>16. Builder</td>
+        <td>5.13%</td>
+        <td>1.2</td>
+        <td>31.03%</td>
+      </tr>
+    </tbody>
+  </table>
+</details>
+
+<p>Content management systems: Can’t live with them, can’t live without them. We asked developers to tell us a lot about CMSes: Whether they were aware of them, whether they used them, and whether they wanted to use them more or less.</p>
+
+<p>We turned the ratio of “people who want to use it more” vs. “people who want to use it less” into something we call our “satisfaction score,” and you’ll see us use it a few times.</p>
+
+<p>A score of less than one in “satisfaction” means more people want to stop using a technology than want to continue using it.</p>
+
+<p>If you compare usage against satisfaction, you begin to see some clear takeaways:</p>
+
+<ul class="list-disc ml-8 mt-2 mb-32">
+  <li>WordPress is a clear leader as a content management system, but it is not well-loved, with a score of 0.3, significantly less than 1. However, using WordPress as a <a href="https://jamstack.org/glossary/headless-technology/">headless</a> content manager to a hosting provider like Netlify, while less common, is an arrangement with a much higher satisfaction score.</li>
+  <li>Several well-known content management systems have scores well below one.</li>
+</ul>
+
+
+<div class="mt-16 flex justify-between" id="choices-cmsdelta">
+  <h4 class="text-xl font-semibold">CMS changes in usage and satisfaction</h4>
+</div>
+
+<div id="choices-cmsdelta-chart" class="d3chart-placeholder"></div>
+
+<div>
+  <div class="d3chart-legend-placeholder d3chart-legend-wrap mt-4"></div>
+</div>
+
+<div class="text-center my-2">Source: Jamstack Community Survey 2020—2021</div>
+
+<details class="mt-4 mb-32">
+  <summary class="text-sm mb-2">Show Chart Data</summary>
+  <table id="choices-cmsdelta-table" class="table-auto border-collapse">
+    <thead>
+      <tr class="bg-gray-700 border-b-2">
+        <th class="text-left pr-2">CMS</th>
+        <th class="text-left pr-2">Usage change (%)</th>
+        <th class="text-left pr-2">Satisfaction change</th>
+        <th class="text-left pr-2">Usage</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1. WordPress</td>
+        <td>-10.08%</td>
+        <td>0.2</td>
+        <td>39.43%</td>
+      </tr>
+      <tr>
+        <td>2. Contentful</td>
+        <td>5.58%</td>
+        <td>0.3</td>
+        <td>22.13%</td>
+      </tr>
+      <tr>
+        <td>3. WordPress (Headless)</td>
+        <td>7.26%</td>
+        <td>0.2</td>
+        <td>21.57%</td>
+      </tr>
+      <tr>
+        <td>4. Strapi</td>
+        <td>102.15%</td>
+        <td>-1.2</td>
+        <td>17.89%</td>
+      </tr>
+      <tr>
+        <td>5. Drupal</td>
+        <td>-10.09%</td>
+        <td>0.2</td>
+        <td>13.36%</td>
+      </tr>
+      <tr>
+        <td>6. Sanity</td>
+        <td>48.08%</td>
+        <td>-3.5</td>
+        <td>12.72%</td>
+      </tr>
+      <tr>
+        <td>7. Prismic</td>
+        <td>43.98%</td>
+        <td>-0.3</td>
+        <td>12.31%</td>
+      </tr>
+      <tr>
+        <td>8. Wix</td>
+        <td>95.54%</td>
+        <td>0.2</td>
+        <td>11.4%</td>
+      </tr>
+      <tr>
+        <td>9. Ghost</td>
+        <td>-2.06%</td>
+        <td>-0.3</td>
+        <td>10.44%</td>
+      </tr>
+      <tr>
+        <td>10. Webflow</td>
+        <td>77.44%</td>
+        <td>0.2</td>
+        <td>10.38%</td>
+      </tr>
+      <tr>
+        <td>11. Squarespace</td>
+        <td>-2.06%</td>
+        <td>0.2</td>
+        <td>10.22%</td>
+      </tr>
+      <tr>
+        <td>12. Forestry</td>
+        <td>-3.82%</td>
+        <td>-0.5</td>
+        <td>9.32%</td>
+      </tr>
+      <tr>
+        <td>13. Weebly</td>
+        <td>130.80%</td>
+        <td>0.3</td>
+        <td>5.77%</td>
+      </tr>
+    </tbody>
+  </table>
+</details>
+
+<p>We asked the same question last year about many of the same systems, allowing us this year to show a new visualization: How these things are changing over time.</p>
+
+<ul class="list-disc ml-8 mt-2 mb-32">
+  <li>In the top right quadrant are systems that are both getting more popular and more loved at the same time. Good going, Weebly, on more than doubling usage!</li>
+  <li>In the bottom right, we see systems that became more popular but less well-loved. Sanity and Strapi, as we saw above, still have exceptionally high satisfaction scores, but as they’ve gained in popularity, we’ve seen a trend we’ve observed previously: Their user base no longer exclusively consists of super-fan early adopters, so their stratospheric scores from last year have dropped. However, their users are still some of the happiest around and they’ve seen huge jumps in usage.</li>
+  <li>In the top left are systems that are getting less popular but more loved. How do we explain this trend? Well, it’s the inverse of what’s happening to Sanity and Strapi. As people migrate away from older systems like Drupal and WordPress, their remaining users tend to be super-fans who are on average happier with them.</li>
+  <li>Finally in the bottom left is a quadrant of systems that are both becoming less popular and less loved at the same time.</li>
+</ul>
+
+<h3 class="text-2xl font-semibold mt-32 mb-4">And Jamstack’s top programming languages are…</h3>
+
+<h4 class="text-xl my-4">TypeScript is gaining at JavaScript’s expense.</h4>
+
+<p>JavaScript is unsurprisingly the primary language for the majority of developers at 55%. However, this is down since last year, from 63%.</p>
+
+<p>Where are those points going? To TypeScript, mostly, which 15% of developers now report as their <em>primary</em> language, not just one they use. Python also went up, from 5% to 7%.</p>
+
+<p>Separate from devs’ primary programming language, we asked about all languages. First, let’s look at their absolute usage and satisfaction:</p>
+
+<div class="mt-16 flex justify-between" id="choices-langs">
+  <h4 class="text-xl font-semibold">Programming languages by usage and satisfaction</h4>
+</div>
+
+<div id="choices-langs-chart" class="d3chart-placeholder"></div>
+
+<div>
+  <div class="d3chart-legend-placeholder d3chart-legend-wrap mt-4"></div>
+</div>
+
+<div class="text-center my-2">Source: Jamstack Community Survey 2020—2021</div>
+
+<details class="mt-4 mb-32">
+  <summary class="text-sm mb-2">Show Chart Data</summary>
+  <table id="choices-langs-table" class="table-auto border-collapse">
+    <thead>
+      <tr class="bg-gray-700 border-b-2">
+        <th class="text-left pr-2">Language</th>
+        <th class="text-left pr-2">Usage</th>
+        <th class="text-left pr-2">Satisfaction</th>
+        <th class="text-left pr-2">Awareness</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1. JavaScript</td>
+        <td>96.48%</td>
+        <td>4.2</td>
+        <td>99.76%</td>
+      </tr>
+      <tr>
+        <td>2. SQL</td>
+        <td>67.1%</td>
+        <td>1.6</td>
+        <td>98.18%</td>
+      </tr>
+      <tr>
+        <td>3. TypeScript</td>
+        <td>60.37%</td>
+        <td>7.6</td>
+        <td>97.85%</td>
+      </tr>
+      <tr>
+        <td>4. Shell (Bash)</td>
+        <td>52.08%</td>
+        <td>1.5</td>
+        <td>95.98%</td>
+      </tr>
+      <tr>
+        <td>5. PHP</td>
+        <td>46.42%</td>
+        <td>0.5</td>
+        <td>97.41%</td>
+      </tr>
+      <tr>
+        <td>6. Python</td>
+        <td>42.41%</td>
+        <td>2.8</td>
+        <td>98.03%</td>
+      </tr>
+      <tr>
+        <td>7. Java</td>
+        <td>25%</td>
+        <td>0.6</td>
+        <td>96.9%</td>
+      </tr>
+      <tr>
+        <td>8. C#</td>
+        <td>21.5%</td>
+        <td>1.4</td>
+        <td>97%</td>
+      </tr>
+      <tr>
+        <td>9. Ruby</td>
+        <td>16.78%</td>
+        <td>1</td>
+        <td>95.22%</td>
+      </tr>
+      <tr>
+        <td>10. C/C++</td>
+        <td>16.17%</td>
+        <td>0.9</td>
+        <td>96.92%</td>
+      </tr>
+      <tr>
+        <td>11. Go</td>
+        <td>15.23%</td>
+        <td>3.4</td>
+        <td>94.37%</td>
+      </tr>
+      <tr>
+        <td>12. Swift</td>
+        <td>9.42%</td>
+        <td>2.9</td>
+        <td>92.06%</td>
+      </tr>
+      <tr>
+        <td>13. Rust</td>
+        <td>8.91%</td>
+        <td>4.0</td>
+        <td>91.89%</td>
+      </tr>
+      <tr>
+        <td>14. Visual Basic</td>
+        <td>7.84%</td>
+        <td>0.5</td>
+        <td>91.37%</td>
+      </tr>
+      <tr>
+        <td>15. Objective-C</td>
+        <td>6.38%</td>
+        <td>0.5</td>
+        <td>91.11%</td>
+      </tr>
+      <tr>
+        <td>16. Perl</td>
+        <td>5.22%</td>
+        <td>0.5</td>
+        <td>91.73%</td>
+      </tr>
+      <tr>
+        <td>17. Elixir</td>
+        <td>4.83%</td>
+        <td>2.4</td>
+        <td>77.97%</td>
+      </tr>
+    </tbody>
+  </table>
+</details>
+
+<p>In absolute terms, JavaScript continues to dominate. Workhorse languages like SQL, Bash, and Python remain very heavily used, with TypeScript positioned as a newcomer to the big languages for web developers, with the happiest user base by some distance.</p>
+
+<p>Smaller, newer languages like Rust, Go, Swift, and Elixir are in a cluster of small but happy user communities.</p>
+
+<p>The cut-off line for satisfaction is 1.0, so below that line you see languages with unhappy users: PHP, Java, Perl, Objective-C, and all the C variants, except C#.</p>
+
+<p>But now let’s look at annual changes:</p>
+
+<div class="mt-16 flex justify-between" id="choices-langsdelta">
+  <h4 class="text-xl font-semibold">Programming languages by 1-year change in usage and satisfaction</h4>
+</div>
+
+<div id="choices-langsdelta-chart" class="d3chart-placeholder"></div>
+
+<div>
+  <div class="d3chart-legend-placeholder d3chart-legend-wrap mt-4"></div>
+</div>
+
+<div class="text-center my-2">Source: Jamstack Community Survey 2020—2021</div>
+
+<details class="mt-4 mb-32">
+  <summary class="text-sm mb-2">Show Chart Data</summary>
+  <table id="choices-langsdelta-table" class="table-auto border-collapse">
+    <thead>
+      <tr class="bg-gray-700 border-b-2">
+        <th class="text-left pr-2">CMS</th>
+        <th class="text-left pr-2">Usage change (%)</th>
+        <th class="text-left pr-2">Satisfaction change</th>
+        <th class="text-left pr-2">Usage</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1. JavaScript</td>
+        <td>-0.7%</td>
+        <td>-1.6</td>
+        <td>96.48%</td>
+      </tr>
+      <tr>
+        <td>2. SQL</td>
+        <td>4.2%</td>
+        <td>0.4</td>
+        <td>67.1%</td>
+      </tr>
+      <tr>
+        <td>3. TypeScript</td>
+        <td>14.1%</td>
+        <td>1.9</td>
+        <td>60.37%</td>
+      </tr>
+      <tr>
+        <td>4. Shell (Bash)</td>
+        <td>-2.7%</td>
+        <td>0.1</td>
+        <td>52.08%</td>
+      </tr>
+      <tr>
+        <td>5. PHP</td>
+        <td>-0.2%</td>
+        <td>0.2</td>
+        <td>46.42%</td>
+      </tr>
+      <tr>
+        <td>6. Python</td>
+        <td>7.4%</td>
+        <td>0.5</td>
+        <td>42.41%</td>
+      </tr>
+      <tr>
+        <td>7. Java</td>
+        <td>2.2%</td>
+        <td>0.3</td>
+        <td>25%</td>
+      </tr>
+      <tr>
+        <td>8. C#</td>
+        <td>4.6%</td>
+        <td>0</td>
+        <td>21.5%</td>
+      </tr>
+      <tr>
+        <td>9. Ruby</td>
+        <td>-1.4%</td>
+        <td>-0.1</td>
+        <td>16.78%</td>
+      </tr>
+      <tr>
+        <td>10. C/C++</td>
+        <td>6.3%</td>
+        <td>0.2</td>
+        <td>16.17%</td>
+      </tr>
+      <tr>
+        <td>11. Go</td>
+        <td>1.2%</td>
+        <td>0.9</td>
+        <td>15.23%</td>
+      </tr>
+      <tr>
+        <td>12. Swift</td>
+        <td>2.3%</td>
+        <td>-0.5</td>
+        <td>9.42%</td>
+      </tr>
+      <tr>
+        <td>13. Rust</td>
+        <td>4.0%</td>
+        <td>-3.5</td>
+        <td>8.91%</td>
+      </tr>
+      <tr>
+        <td>14. Visual Basic</td>
+        <td>3.6%</td>
+        <td>0.3</td>
+        <td>7.84%</td>
+      </tr>
+      <tr>
+        <td>15. Objective-C</td>
+        <td>1.4%</td>
+        <td>0.2</td>
+        <td>6.38%</td>
+      </tr>
+    </tbody>
+  </table>
+</details>
+
+<p>TypeScript has seen a huge leap in usage (bigger than the change in people who call it their primary language). Its usage increased from 46% to 60%. Even more surprisingly, it experienced a jump in satisfaction—usually as something gets more popular, satisfaction falls, since the user base has expanded beyond the super-satisfied early adopters.</p>
+
+<p>In the top right, you can see languages that experienced an increase in usage and satisfaction. Python and Go are represented in this area, which is great news for them, as they are also big and popular.</p>
+
+<p>The languages with unhappy users (shown in the previous graph) are also mostly in this top right quadrant: Visual Basic, Java, SQL, and the C variants. Their users aren’t happy, but they’re happier than last year.</p>
+
+<p>In the top left are languages with increased satisfaction scores but decreased usage. You’d expect to see legacy languages with fans who are hanging on here, and so here we find PHP and Bash.</p>
+
+<p>In the bottom right are languages that experienced more usage, but are less popular. As expected, up-and-coming languages, like Swift and Rust, are represented here. Go is not here, which is a surprise. It managed to make its users happier even as it grew.</p>
+
+<p>Finally, the bottom left includes languages that lost both usage and popularity: Ruby is here, and so is JavaScript. Keep in mind that JavaScript is still far and away the most-used language, but its dominance is not so total as it was.</p>
+
+<h3 class="text-2xl font-semibold mt-32 mb-4">Jamstack devs’ favorite frameworks revealed</h3>
+
+<h4 class="text-xl my-4">React is most popular, and Next.js is a big deal.</h4>
+
+<p>We asked about an enormous number of frameworks—over 30 of them. Visualizing so many frameworks at once is a challenge, so we split them into two groups: Major frameworks, where the cut-off is at least 10% usage, and then minor frameworks, where usage is less than 10% (keep in mind, developers use multiple frameworks and could mark all the frameworks they used, so these percentages add up to well over 100%).</p>
+<p>The major frameworks have a lot of surprises. React is the most frequent choice, as it has been for a long time, and its satisfaction score remains high. Vue has higher satisfaction but roughly half the usage.</p>
+<p>Next.js has stellar satisfaction and is really big these days, and Nuxt.js is a little smaller. If you were looking for a safe pick for a new kitchen-sink framework based on this data, Next or Nuxt are where to go.</p>
+<p>The big legacy frameworks, jQuery and Express, aren’t going anywhere. But with a satisfaction score below 1.0, jQuery users seem to wish it would.</p>
+<p>Relative newcomers Svelte and 11ty are doing very well, with 11ty continuing a strong showing despite relatively low awareness. Early-ish adopters, check these out.</p>
+<p>Both flavors of Angular have scores under 1.0, despite maintaining growth.</p>
+
+<div class="mt-16 flex justify-between" id="choices-frameworks">
+  <h4 class="text-xl font-semibold">Major frameworks by usage and satisfaction</h4>
+</div>
+
+<div id="choices-frameworks-chart" class="d3chart-placeholder"></div>
+
+<div>
+  <div class="d3chart-legend-placeholder d3chart-legend-wrap mt-4"></div>
+</div>
+
+<div class="text-center my-2">Source: Jamstack Community Survey 2020—2021</div>
+
+<details class="mt-4 mb-32">
+  <summary class="text-sm mb-2">Show Chart Data</summary>
+  <table id="choices-frameworks-table" class="table-auto border-collapse">
+    <thead>
+      <tr class="bg-gray-700 border-b-2">
+        <th class="text-left pr-2">Framework</th>
+        <th class="text-left pr-2">Percentage of respondents who use this</th>
+        <th class="text-left pr-2">Satisfaction score</th>
+        <th class="text-left pr-2">Awareness</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1. React</td>
+        <td>68.1%</td>
+        <td>4.3</td>
+        <td>98.4%</td>
+      </tr>
+      <tr>
+        <td>2. Express</td>
+        <td>51.3%</td>
+        <td>1.9</td>
+        <td>91.5%</td>
+      </tr>
+      <tr>
+        <td>3. jQuery</td>
+        <td>50.8%</td>
+        <td>0.2</td>
+        <td>97.5%</td>
+      </tr>
+      <tr>
+        <td>4. Next.js</td>
+        <td>43.2%</td>
+        <td>7.0</td>
+        <td>93.9%</td>
+      </tr>
+      <tr>
+        <td>5. Vue</td>
+        <td>39.4%</td>
+        <td>5.2</td>
+        <td>94.8%</td>
+      </tr>
+      <tr>
+        <td>6. Gatsby</td>
+        <td>36.9%</td>
+        <td>1.9</td>
+        <td>91.7%</td>
+      </tr>
+      <tr>
+        <td>7. Nuxt.js</td>
+        <td>24.8%</td>
+        <td>5.5</td>
+        <td>84.6%</td>
+      </tr>
+      <tr>
+        <td>8. Angular 2+</td>
+        <td>19.9%</td>
+        <td>0.8</td>
+        <td>95.3%</td>
+      </tr>
+      <tr>
+        <td>9. 11ty</td>
+        <td>17.4%</td>
+        <td>5.9</td>
+        <td>60.9%</td>
+      </tr>
+      <tr>
+        <td>10. Jekyll</td>
+        <td>16.5%</td>
+        <td>0.5</td>
+        <td>80.8%</td>
+      </tr>
+      <tr>
+        <td>11. Angular 1.x</td>
+        <td>15.3%</td>
+        <td>0.2</td>
+        <td>94.4%</td>
+      </tr>
+      <tr>
+        <td>12. Hugo</td>
+        <td>14.8%</td>
+        <td>1.3</td>
+        <td>73.6%</td>
+      </tr>
+      <tr>
+        <td>13. Svelte</td>
+        <td>14.4%</td>
+        <td>5.5</td>
+        <td>82%</td>
+      </tr>
+      <tr>
+        <td>14. Vite</td>
+        <td>14.2%</td>
+        <td>9.6</td>
+        <td>59.3%</td>
+      </tr>
+      <tr>
+        <td>15. Preact</td>
+        <td>10.5%</td>
+        <td>2.7</td>
+        <td>74.4%</td>
+      </tr>
+    </tbody>
+  </table>
+</details>
+
+<p>Let’s look at the next group with under 10% usage. SvelteKit, with huge satisfaction and riding the coattails of Svelte over in the major frameworks group, looks likely to break out by next year.</p>
+
+<p>Bad news for those under 1.0: Dojo, Hexo, Ember, Meteor and Backbone, with small and unhappy user bases, might be frameworks you consider moving away from.</p>
+
+<div class="mt-16 flex justify-between" id="choices-frameworksminor">
+  <h4 class="text-xl font-semibold">Minor frameworks by usage and satisfaction</h4>
+</div>
+
+<div id="choices-frameworksminor-chart" class="d3chart-placeholder"></div>
+
+<div>
+  <div class="d3chart-legend-placeholder d3chart-legend-wrap mt-4"></div>
+</div>
+
+<div class="text-center my-2">Source: Jamstack Community Survey 2020—2021</div>
+
+<details class="mt-4 mb-32">
+  <summary class="text-sm mb-2">Show Chart Data</summary>
+  <table id="choices-frameworksminor-table" class="table-auto border-collapse">
+    <thead>
+      <tr class="bg-gray-700 border-b-2">
+        <th class="text-left pr-2">Framework</th>
+        <th class="text-left pr-2">Percentage of respondents who use this</th>
+        <th class="text-left pr-2">Satisfaction score</th>
+        <th class="text-left pr-2">Awareness</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1. Nest</td>
+        <td>8.8%</td>
+        <td>2.6</td>
+        <td>59.9%</td>
+      </tr>
+      <tr>
+        <td>2. VuePress</td>
+        <td>8.8%</td>
+        <td>2.4</td>
+        <td>62.3%</td>
+      </tr>
+      <tr>
+        <td>3. Gridsome</td>
+        <td>8.5%</td>
+        <td>1.6</td>
+        <td>54.2%</td>
+      </tr>
+      <tr>
+        <td>4. SvelteKit</td>
+        <td>8.1%</td>
+        <td>6.0</td>
+        <td>58.1%</td>
+      </tr>
+      <tr>
+        <td>5. Backbone</td>
+        <td>7.8%</td>
+        <td>0.3</td>
+        <td>76.5%</td>
+      </tr>
+      <tr>
+        <td>6. Meteor</td>
+        <td>6.5%</td>
+        <td>0.5</td>
+        <td>69.5%</td>
+      </tr>
+      <tr>
+        <td>7. Docusaurus</td>
+        <td>6.2%</td>
+        <td>1.9</td>
+        <td>50.5%</td>
+      </tr>
+      <tr>
+        <td>8. Sapper</td>
+        <td>6.1%</td>
+        <td>1.2</td>
+        <td>45.1%</td>
+      </tr>
+      <tr>
+        <td>9. Hapi</td>
+        <td>5.6%</td>
+        <td>1.3</td>
+        <td>52.7%</td>
+      </tr>
+      <tr>
+        <td>10. Ember</td>
+        <td>5.3%</td>
+        <td>0.7</td>
+        <td>78.2%</td>
+      </tr>
+      <tr>
+        <td>11. Stencil</td>
+        <td>4.3%</td>
+        <td>1.8</td>
+        <td>43.8%</td>
+      </tr>
+      <tr>
+        <td>12. RedwoodJS</td>
+        <td>4.3%</td>
+        <td>1.8</td>
+        <td>48.9%</td>
+      </tr>
+      <tr>
+        <td>13. Clojure</td>
+        <td>3.6%</td>
+        <td>1.5</td>
+        <td>68.1%</td>
+      </tr>
+      <tr>
+        <td>14. Hexo</td>
+        <td>3.4%</td>
+        <td>0.8</td>
+        <td>43.2%</td>
+      </tr>
+      <tr>
+        <td>15. Blitz.js</td>
+        <td>3.3%</td>
+        <td>2.0</td>
+        <td>50.3%</td>
+      </tr>
+      <tr>
+        <td>16. Dojo</td>
+        <td>2.9%</td>
+        <td>0.9</td>
+        <td>51.5%</td>
+      </tr>
+      <tr>
+        <td>17. Remix</td>
+        <td>2.4%</td>
+        <td>1.4</td>
+        <td>43.0%</td>
+      </tr>
+    </tbody>
+  </table>
+</details>
+
+<p>We didn’t ask about every framework this year last year as well, but we did for a lot of them, allowing us to show an annual changes chart.</p>
+
+<div class="mt-16 flex justify-between" id="choices-frameworksdelta">
+  <h4 class="text-xl font-semibold">Frameworks by 1-year change in usage and satisfaction</h4>
+</div>
+
+<div id="choices-frameworksdelta-chart" class="d3chart-placeholder"></div>
+
+<div>
+  <div class="d3chart-legend-placeholder d3chart-legend-wrap mt-4"></div>
+</div>
+
+<div class="text-center my-2">Source: Jamstack Community Survey 2020—2021</div>
+
+<details class="mt-4 mb-32">
+  <summary class="text-sm mb-2">Show Chart Data</summary>
+  <table id="choices-frameworksdelta-table" class="table-auto border-collapse">
+    <thead>
+      <tr class="bg-gray-700 border-b-2">
+        <th class="text-left pr-2">CMS</th>
+        <th class="text-left pr-2">Usage change (%)</th>
+        <th class="text-left pr-2">Satisfaction change</th>
+        <th class="text-left pr-2">Usage</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1. React</td>
+        <td>5.7%</td>
+        <td>0.2</td>
+        <td>68.1%</td>
+      </tr>
+      <tr>
+        <td>2. Express</td>
+        <td>5.3%</td>
+        <td>-0.4</td>
+        <td>51.3%</td>
+      </tr>
+      <tr>
+        <td>3. jQuery</td>
+        <td>-1.2%</td>
+        <td>0.1</td>
+        <td>50.8%</td>
+      </tr>
+      <tr>
+        <td>4. Next.js</td>
+        <td>22.2%</td>
+        <td>0.9</td>
+        <td>43.2%</td>
+      </tr>
+      <tr>
+        <td>5. Vue</td>
+        <td>1.9%</td>
+        <td>-0.6</td>
+        <td>39.4%</td>
+      </tr>
+      <tr>
+        <td>6. Gatsby</td>
+        <td>-2.9%</td>
+        <td>-2.5</td>
+        <td>36.9%</td>
+      </tr>
+      <tr>
+        <td>7. Nuxt.js</td>
+        <td>5.2%</td>
+        <td></td>
+        <td>24.8%</td>
+      </tr>
+      <tr>
+        <td>8. Angular 2+</td>
+        <td>1.8%</td>
+        <td>0.2</td>
+        <td>19.9%</td>
+      </tr>
+      <tr>
+        <td>9. 11ty</td>
+        <td>7.0%</td>
+        <td>-7.2</td>
+        <td>17.4%</td>
+      </tr>
+      <tr>
+        <td>10. Jekyll</td>
+        <td>-2.4%</td>
+        <td>-0.1</td>
+        <td>16.5%</td>
+      </tr>
+      <tr>
+        <td>11. Angular 1.x</td>
+        <td>-0.7%</td>
+        <td>0.1</td>
+        <td>15.3%</td>
+      </tr>
+      <tr>
+        <td>12. Hugo</td>
+        <td>0.1%</td>
+        <td>-0.4</td>
+        <td>14.8%</td>
+      </tr>
+      <tr>
+        <td>13. Svelte</td>
+        <td>3.4%</td>
+        <td>-1.4</td>
+        <td>14.4%</td>
+      </tr>
+      <tr>
+        <td>14. Preact</td>
+        <td>2.9%</td>
+        <td>-4.0</td>
+        <td>10.5%</td>
+      </tr>
+      <tr>
+        <td>15. Nest</td>
+        <td>4.5%</td>
+        <td>-5.3</td>
+        <td>8.8%</td>
+      </tr>
+      <tr>
+        <td>16. VuePress</td>
+        <td>1.1%</td>
+        <td>-2.5</td>
+        <td>8.8%</td>
+      </tr>
+    </tbody>
+  </table>
+</details>
+
+<p>Here you can see a clear trend mentioned several times. The more your usage grows, the more your satisfaction falls, as your user base expands beyond early adopters. As we saw, 11ty broke into major territory for the first time this year. It has a great satisfaction score, but it’s much lower than last year. This is true, to some degree, for all the growing frameworks. VuePress, Preact, Nest and 11ty form a straight line going down and to the right: the more users they gained, the less happy they were.</p>
+
+<p>There are a few obvious exceptions. Next.js, despite growing enormously, also improved its satisfaction score.</p>
+
+<p>React managed to keep its score steady. No small feat when you’re the biggest framework by a long shot.</p>
+
+<p>Gatsby lost in both usage and satisfaction, an unfortunate outcome for that team.</p>
+
+<h3 class="text-2xl font-semibold mt-32 mb-4">The top third-party services Jamstack developers use</h3>
+
+<h4 class="text-xl my-4">Jamstack devs are using third-party services and CMSes to make their lives easier.</h4>
+
+<p>Jamstack is all about APIs, and many third-party APIs exist to make life easier for developers.</p>
+
+<p>The most popular third-party service is authentication, which is unsurprising—using an existing login reduces signup friction and the security challenges associated with maintaining your own authentication.</p>
+
+<p>CMS services are likewise very popular. Why build a rich text editor when one already exists?</p>
+
+<div class="mt-16 flex justify-between" id="choices-thirdparty">
+  <h4 class="text-xl font-semibold">Third party services by usage</h4>
+</div>
+
+<div id="choices-thirdparty-chart" class="d3chart-placeholder"></div>
+
+<div class="text-center my-2">Source: Jamstack Community Survey 2020—2021</div>
+
+<details class="mt-4 mb-32">
+  <summary class="text-sm mb-2">Show Chart Data</summary>
+  <table id="choices-thirdparty-table" class="table-auto border-collapse">
+    <thead>
+      <tr class="bg-gray-700 border-b-2">
+        <th class="text-left pr-2">API</th>
+        <th class="text-left pr-2">Most used</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>User authentication</td>
+        <td>55%</td>
+      </tr>
+      <tr>
+        <td>Headless CMS</td>
+        <td>53%</td>
+      </tr>
+      <tr>
+        <td>Asset/Image management</td>
+        <td>45%</td>
+      </tr>
+      <tr>
+        <td>Headless database</td>
+        <td>36%</td>
+      </tr>
+      <tr>
+        <td>Headless e-commerce</td>
+        <td>24%</td>
+      </tr>
+    </tbody>
+  </table>
+</details>

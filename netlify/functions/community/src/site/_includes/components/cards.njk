@@ -1,0 +1,85 @@
+{% macro repo(item, loopIndex, githubData) %}
+<div id="{{item.id}}" class="generator-card flex flex-col h-full"
+  data-sort-name="{{ item.data.title | lower }}"
+  {%- if githubData[item.data.repo].stars !== "" %} data-sort-githubstars-numeric-descending="{{ githubData[item.data.repo].stars }}"{% endif %}
+  {%- if item.data.typeofcms %} data-filter-typeofcms="{{ item.data.typeofcms | lower }}"{% endif %}
+  {%- if item.data.opensource %} data-filter-opensource="{{ item.data.opensource | lower }}"{% endif %}
+  data-filter-template="{{ (item.data.templates or []) | join(",") | lower }}"
+  {%- if item.data.language %} data-filter-language="{{ item.data.language | join(",") | lower }}"{% endif %}
+  {%- if item.data.license %} data-filter-license="{{ item.data.license | join(",") | lower }}"{% endif %}>
+  <a href="{{ item.url }}" class="flex-grow block border-0 bg-white text-gray-700 rounded-t-lg last:rounded-b-lg">
+    <div class="text-xl md:text-2xl lg:text-3xl font-bold text-ellipsis text-black bg-gradient-to-b border-b border-black rounded-t-lg p-4
+    {%- if loopIndex % 4 === 0 %} bg-gradient-card-sunrise
+    {%- elseif loopIndex % 4 === 1 %} bg-gradient-card-blue
+    {%- elseif loopIndex % 4 === 2 %} bg-gradient-card-seafoam
+    {%- elseif loopIndex % 4 === 3 %} bg-gradient-card-gold
+    {%- endif -%}">
+      {%- if item.data.opensource === "Yes" or item.data.opensource === "YES" or item.data.opensource === "yes" -%}
+      <div class="text-xxs mb-2">
+        <span class="inline-block uppercase bg-black text-white leading-5 px-2 rounded">Open Source</span>
+      </div>
+      {% endif %}
+      {{ item.data.title }}
+    </div>
+    <div class="p-4">
+      {%- if githubData[item.data.repo] and githubData[item.data.repo].stars !== "" and githubData[item.data.repo].forks !== "" and githubData[item.data.repo].issues !== "" %}
+      <div class="flex justify-center mb-4">
+        {%- if githubData[item.data.repo].stars !== "" %}
+        <div class="flex flex-col items-center font-bold text-sm mr-6">
+          <svg role="img" aria-hidden="true" focusable="false" width="18" height="18" viewBox="0 0 40 40" class="block"><use xlink:href="#github-star"/></svg>
+          {{ githubData[item.data.repo].stars }}
+          <span class="sr-only">star{%- if githubData[item.data.repo].stars != 1 %}s{% endif %}</span>
+        </div>
+        {%- endif %}
+        {%- if githubData[item.data.repo].forks !== "" %}
+        <div class="flex flex-col items-center font-bold text-sm mr-6">
+          <svg role="img" aria-hidden="true" focusable="false" width="18" height="18" viewBox="0 0 40 40" class="block"><use xlink:href="#github-fork"/></svg>
+          {{ githubData[item.data.repo].forks }}
+          <span class="sr-only">fork{%- if githubData[item.data.repo].forks != 1 %}s{% endif %}</span>
+        </div>
+        {%- endif %}
+        {%- if githubData[item.data.repo].issues !== "" %}
+        <div class="flex flex-col items-center font-bold text-sm">
+          <svg role="img" aria-hidden="true" focusable="false" width="18" height="18" viewBox="0 0 40 40" class="block"><use xlink:href="#github-issue"/></svg>
+          {{ githubData[item.data.repo].issues }}
+          <span class="sr-only">issue{%- if githubData[item.data.repo].issues != 1 %}s{% endif %}</span>
+        </div>
+        {%- endif %}
+      </div>
+      {%- endif %}
+
+      <div class="text-sm mb-4">
+        {{ item.data.description | safe }}
+      </div>
+      <dl class="grid grid-cols-5 gap-2 text-sm">
+        {%- if item.data.language %}
+        <dt class="col-span-2 font-bold">Language:</dt>
+        <dd class="col-span-3">{{ item.data.language }}</dd>
+        {%- endif %}
+        {%- if item.data.templates and item.data.templates.length > 0 %}
+        <dt class="col-span-2 font-bold">Templates:</dt>
+        <dd class="col-span-3">{{ item.data.templates | join(", ") }}</dd>
+        {%- endif %}
+        {%- if item.data.license and item.data.license.length > 0 %}
+        <dt class="col-span-2 font-bold">License:</dt>
+        <dd class="col-span-3">{{ item.data.license | join(", ") }}</dd>
+        {%- endif %}
+        {%- if item.data.typeofcms %}
+        <dt class="col-span-2 font-bold">Type:</dt>
+        <dd class="col-span-3">{{ item.data.typeofcms }}</dd>
+        {%- endif %}
+        {%- if item.data.supportedgenerators %}
+        <dt class="col-span-2 font-bold">Supported Site Generators:</dt>
+        <dd class="col-span-3 flex items-end">{{ item.data.supportedgenerators | join(", ") }}</dd>
+        {%- endif %}
+      </dl>
+    </div>
+  </a>
+  {% if item.data.startertemplaterepo %}
+  <a href="https://app.netlify.com/start/deploy?repository={{ item.data.startertemplaterepo}}" class="block px-4 py-3 text-gray-700 bg-white rounded-b-lg text-center md:text-lg whitespace-nowrap border-t">
+    <svg role="img" aria-hidden="true" focusable="false" width="30" height="30" viewBox="0 0 40 40" class="inline-block mr-1" fill="#36b0bb"><use xlink:href="#logo-netlify-gem"/></svg>
+    Deploy to Netlify
+  </a>
+  {% endif %}
+</div>
+{% endmacro %}

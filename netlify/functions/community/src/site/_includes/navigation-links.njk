@@ -1,0 +1,24 @@
+<ul class="block list-jams-logo-pink mb-12">
+  {% for link in linkList %}
+    <li>
+      <a href="{{ link.url }}"
+        class="block font-bold text-sm text-white hover:underline py-2 px-10 {% if page.url.split("/")[1] == link.url.split("/")[1] %} bg-gray-900{% endif %}">
+        {{ link.text }}
+      </a>
+    </li>
+    {%- if link.children %}
+      <li class="list-jams-no-bullet">
+        <ul class="list-jams-logo list-jams-logo-border">
+          {%- for childlink in link.children %}
+            <li>
+              <a href="{{ childlink.url }}"
+            class="block text-sm text-white hover:underline py-2 pl-16 pr-8{% if page.url.split("/")[1] == childlink.url.split("/")[1] %} bg-gray-900 font-bold{% endif %}">
+                {{ childlink.text }}
+              </a>
+            </li>
+          {%- endfor %}
+        </ul>
+      </li>
+    {%- endif %}
+  {% endfor %}
+</ul>
