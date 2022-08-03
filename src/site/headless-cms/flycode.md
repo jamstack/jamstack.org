@@ -1,8 +1,8 @@
-
 ---
 title: FlyCode
 homepage: https://flycode.com
-twitter: #flycodeHQ
+description: FlyCode helps product teams work like software engineers - to ship better products, faster with no-code 
+twitter: flycodeHQ
 opensource: "No"
 typeofcms: "Git based"
 supportedgenerators:
@@ -10,6 +10,11 @@ supportedgenerators:
   - Angular
   - Vue
   - PHP
+images:
+    - path: /img/cms/Flycode_Jam_Step1.png
+    - path: /img/cms/Flycode_Jam_Step2.png
+    - path: /img/cms/Flycode_Jam_Step3.png
+    - path: /img/cms/flycode-installation-chart.png
 ---
 
 												
@@ -26,9 +31,9 @@ supportedgenerators:
 # How it works?
 <br/>
 <div style="display:flex;flex-direction:row;width:100%">
-	<img style="width:33%" src="../img/cms/Flycode_Jam_Step1.png" />
-	<img style="width:33%" src="../img/cms/Flycode_Jam_Step2.png" />
-	<img style="width:33%"  src="../img/cms/Flycode_Jam_Step3.png" />
+	<img style="width:33%" src="/img/cms/Flycode_Jam_Step1.png" />
+	<img style="width:33%" src="/img/cms/Flycode_Jam_Step2.png" />
+	<img style="width:33%"  src="/img/cms/Flycode_Jam_Step3.png" />
 
 </div>
 <br/>
@@ -49,7 +54,7 @@ Our visual editor (beta) helps non-developers visualize changes with the context
 ### To start now, [sign up here](https://app.flycode.com)
 
 <br />
-<img style="width:"50%" src="../img/cms/flycode-installation-chart.png" >
+<img style="width:"50%" src="/img/cms/flycode-installation-chart.png" >
 <br/>
 
 
