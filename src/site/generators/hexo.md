@@ -14,7 +14,6 @@ templates:
   - Nunjucks
   - Mustache
   - Handlebars
-  - Twig
   - Marko
 description: 'Hexo is a fast, simple and powerful blog framework.'
 twitter: hexojs
