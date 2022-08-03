@@ -7,7 +7,7 @@ opensource: "Yes"
 typeofcms: "API Driven"
 supportedgenerators:
   - All
-description: Strapi is the leading open-source headless CMS. It’s 100% Javascript, fully customizable and developer-first. It saves API development time through a beautiful admin panel anyone can use.
+description: Strapi is the leading open-source headless CMS. It’s 100% Javascript, fully customizable, support TypeScript and developer-first. It saves API development time through a beautiful admin panel anyone can use.
 images:
   - path: /img/cms/strapi-content-types-builder.png
   - path: /img/cms/strapi-content-manager.png
@@ -22,22 +22,22 @@ Get started with Strapi using yarn or npx:
 <br />
 
 ```bash
-yarn create strapi-app my-project --quickstart
+yarn create strapi-app my-project
 ```
 
 ```bash
-npx create-strapi-app my-project --quickstart
+npx create-strapi-app my-project
 ```
 
 <br />
 
-Try also one of our starters: [Gatsby catalog](https://github.com/strapi/strapi-starter-gatsby-catalog) • [Gatsby blog](https://github.com/strapi/strapi-starter-gatsby-blog) • [Nuxt.js blog](https://github.com/strapi/strapi-starter-nuxt-blog) • [Next.js blog](https://github.com/strapi/strapi-starter-next-blog) • [Next.js corporate](https://github.com/strapi/strapi-starter-next-corporate) • [Gatsby corporate](https://github.com/strapi/strapi-starter-gatsby-corporate) • [Gridsome portfolio](https://github.com/strapi/strapi-starter-gridsome-portfolio) • [Nuxt.js e-commerce](https://github.com/strapi/strapi-starter-nuxt-e-commerce) • [Next.js e-commerce](https://github.com/strapi/strapi-starter-next-ecommerce) • [Gridsome blog](https://github.com/strapi/strapi-starter-gridsome-blog)
+Try also one of our [starters](https://github.com/strapi/starters-and-templates/tree/main/packages/starters) or [templates](https://github.com/strapi/starters-and-templates/tree/main/packages/templates)
 
 <br />
 
 ## Features overview
 
-### Developer
+### For Developers
 
 <br />
 
@@ -46,9 +46,11 @@ Try also one of our starters: [Gatsby catalog](https://github.com/strapi/strapi-
 **100% Javascript** One language fits all. Use JavaScript from front to back.<br />
 **Webhooks** Call back anywhere you need, to get the functionality you want, out of the box with our API.<br />
 **Auto-generated documentation** Write and maintain the documentation with a one-click integration.<br />
-**Authentication & Permissions** Secure your endpoints by allowing or not allowing users to access your API by roles.<br /><br />
+**Authentication & Permissions** Secure your endpoints by allowing or not allowing users to 
+access your API by roles.<br />
+**TypeScript support** As developer, you will now be able to create and write lines of code using TypeScript files. All these files will be automatically compiled during the development phase.<br /><br />
 
-### User
+### For Users
 
 <br />
 
@@ -68,6 +70,11 @@ Try also one of our starters: [Gatsby catalog](https://github.com/strapi/strapi-
 [Role-Based Access Control (RBAC)](https://strapi.io/features/custom-roles-and-permissions): Role-Based Access Control is a feature available in the Administration Panel settings that let your team members have access rights only to the information they need.<br />
 [Internationalization (i18n)](https://strapi.io/features/internationalization): Internationalization (i18n) lets you create many content versions, also called locales, in different languages and for different countries.<br />
 [SSO (Enterprise)](https://strapi.io/blog/v3-5-sentry-plugin-sso-authentication): SSO authentication feature for the Strapi admin panel, which lets enterprises connect Strapi to their authentication providers and protocols such as Active Directory, Okta, Auth0, Keycloak, OAuth etc...
+<br />
+[Dark Mode](https://strapi.io/blog/strapiconf-2022-announcements-recap): You will be able to easily switch between the dark and the light mode through the user profile section in the administration panel.
+<br />
+[In-app marketplace](https://strapi.io/blog/strapiconf-2022-announcements-recap): Everything you love about the marketplace directly in Strapi. Now you can find all the plugins you need right in the app.
+<br />
 
 ## Resources
 
