@@ -1,7 +1,7 @@
 ---
 title: Flextype
 repo: flextype/flextype
-homepage: https://flextype.org
+homepage: https://awilum.github.io/flextype
 twitter: getflextype
 opensource: "Yes"
 typeofcms: "API Driven"
