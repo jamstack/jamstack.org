@@ -1,0 +1,6 @@
+{% include "components/example-thumbnail.njk" %}
+<ul class="text-gray-400 text-sm mt-2">
+  {% for tool in item.tools | sort %}
+  <li>{{ tool }}</li>
+  {% endfor %}
+</ul>

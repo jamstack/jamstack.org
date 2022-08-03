@@ -1,0 +1,41 @@
+---
+title: Jamstack Community
+description: Find Jamstack meetups, upcoming events, and keep up-to-date with the latest in the Jamstack Community happenings. Check it out!
+layout: layouts/base.njk
+permalink:
+    community: "/community/"
+---
+
+{% import "components/zinger-cta.njk" as zinger %}
+{% import "components/cards-meetup.njk" as meetup %}
+
+{% from "components/event-card.njk" import EventCard %}
+
+<section class="flex flex-col items-center justify-center mt-10">
+  <div class="flex flex-col text-center">
+    <h2 class="prose-lg">Upcoming Jamstack Community Events</h2>
+  </div>
+
+  <ul class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 justify-between">
+    {% for event in events %}
+      {{ EventCard(event) }}
+    {% endfor %}
+  </ul>
+
+  <section class="my-16 text-center">
+    <h1>Join the global community</h1>
+    <p class="w-4/5 mx-auto ">Our community members gather in many channels, online and in-person around the world, to learn about modern web development techniques and emerging technologies. Join the community to exchange ideas, find new opportunities and help build a better web.</p>
+
+    <div class="lg:w-full mx-auto lg:gap-8 my-12">
+      {{ zinger.cta(
+        "Join the Discord",
+        "https://jamstack.org/discord",
+        "bg-gradient-card-sunrise card-shadow hover:card-shadow-sunrise",
+        "#logo-discord"
+        )
+    }}
+    </div>
+    <p class="pb-20 border-gray-400 border-b">
+    To participate in our community channels, it’s important to read and follow our <a href="/code-of-conduct">Code of Conduct</a>
+    </p>
+  </section>

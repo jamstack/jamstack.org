@@ -1,0 +1,5 @@
+<li class="mt-6">
+  <h4 class="text-lg font-bold"><a href="{{ item.data.link }}" rel="noopener" target="_BLANK">{{ item.data.title }}</a></h4>
+  <time value="{{ item.data.date | formatDate('y-MM-dd') }}" class="text-gray-400 text-xs">{{ item.data.date | formatDate }}</time>
+  <p class="text-gray-600 text-xs">{{ item.data.link | domain }}</p>
+</li>

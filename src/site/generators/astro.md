@@ -1,6 +1,6 @@
 ---
 title: Astro
-repo: snowpackjs/astro
+repo: withastro/astro
 homepage: https://astro.build
 language:
   - JavaScript

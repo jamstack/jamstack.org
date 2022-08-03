@@ -1,0 +1,356 @@
+<h3 class="text-2xl font-semibold my-4">A changing landscape of developer experience</h3>
+
+<h4 class="text-xl my-4">Newer developers are becoming much more geographically diverse.</h4>
+
+<p>In both 2020 and 2021, we asked developers how many years of experience relevant to their job they have. We noticed a shift to lower levels of experience this year.</p>
+<p>Our category of newest developers, those with less than one year of experience, jumped from just 4% to 13% of respondents, and those with 1-2 years rose from 13% to 19%. All categories of those with more experience fell. Because we saw such a surge of students in our breakdown by job title, this makes sense—students have less experience, after all.</p>
+
+<div class="mt-16 flex justify-between" id="experience-years">
+  <h4 class="text-xl font-semibold">Years of Experience, 2020 vs. 2021</h4>
+  <div class="d3chart-legend-placeholder"></div>
+</div>
+
+<div id="experience-years-chart" class="d3chart-placeholder d3chart-placeholder-large"></div>
+
+<div class="text-center my-2">Source: Jamstack Community Survey 2020—2021</div>
+
+<details class="mt-4 mb-32">
+  <summary class="text-sm mb-2">Show Chart Data</summary>
+  <table id="experience-years-table" class="table-auto border-collapse">
+    <thead>
+      <tr class="bg-gray-700 border-b-2">
+        <th class="text-left pr-2">Years of Experience</th>
+        <th class="text-left pr-2">2020</th>
+        <th class="text-left pr-2">2021</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>&lt; 1</td><td>4%</td><td>13%</td></tr>
+      <tr><td>1–2</td><td>13%</td><td>19%</td></tr>
+      <tr><td>3–4</td><td>20%</td><td>18%</td></tr>
+      <tr><td>5–6</td><td>15%</td><td>12%</td></tr>
+      <tr><td>7–8</td><td>9%</td><td>7%</td></tr>
+      <tr><td>9–10</td><td>12%</td><td>8%</td></tr>
+      <tr><td>11–12</td><td>5%</td><td>5%</td></tr>
+      <tr><td>13–14</td><td>5%</td><td>3%</td></tr>
+      <tr><td>15+</td><td>17%</td><td>14%</td></tr>
+    </tbody>
+  </table>
+</details>
+
+<p>To confirm this, we looked further into this question in <a href="#breakout-1">breakout 1: experience levels of students vs. non-student</a>.</p>
+
+<p>This year, we also asked developers where they were in the world, split into major geographical regions.</p>
+
+<p>The data was unsurprising—mostly Europe and North America—<em>until</em> we split up the region data by the number of years of experience of the developers. We excluded students when doing the geographical breakout.</p>
+
+<p>We noticed a clear trend: Newer developers are significantly more geographically diverse than more experienced developers. In the most experienced category, only 15% of developers don’t come from Europe or North America. But with the newest developers, that number more than triples to 48%. Our hope is that when people work from more diverse places, this fosters greater diversity of other kinds as well.</p>
+
+<div class="mt-16 flex justify-between" id="experience-region">
+  <h4 class="text-xl font-semibold">Years of Experience, by region</h4>
+</div>
+
+<div id="experience-region-chart" class="d3chart-placeholder"></div>
+
+<div>
+  <div class="d3chart-legend-placeholder d3chart-legend-wrap mt-4"></div>
+</div>
+
+<div class="text-center my-2">Source: Jamstack Community Survey 2020—2021</div>
+
+<details class="mt-4 mb-32">
+  <summary class="text-sm mb-2">Show Chart Data</summary>
+  <table id="experience-region-table" class="w-full table-auto border-collapse text-sm">
+    <thead>
+      <tr class="bg-gray-700 border-b-2">
+        <th class="text-left pr-2">Years of Experience</th>
+        <th class="text-left pr-2">Africa</th>
+        <th class="text-left pr-2">Asia Pacific</th>
+        <th class="text-left pr-2">Caribbean</th>
+        <th class="text-left pr-2">Central America</th>
+        <th class="text-left pr-2">Eastern Asia</th>
+        <th class="text-left pr-2">Europe</th>
+        <th class="text-left pr-2">Middle East</th>
+        <th class="text-left pr-2">North America</th>
+        <th class="text-left pr-2">South America</th>
+        <th class="text-left pr-2">Southern Asia</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>&lt; 1</td>
+        <td>5.32%</td>
+        <td>17.02%</td>
+        <td>0.53%</td>
+        <td>2.13%</td>
+        <td>2.13%</td>
+        <td>27.66%</td>
+        <td>0%</td>
+        <td>23.94%</td>
+        <td>8.51%</td>
+        <td>12.77%</td>
+      </tr>
+      <tr>
+        <td>1–2</td>
+        <td>7.49%</td>
+        <td>12.75%</td>
+        <td>0.81%</td>
+        <td>1.21%</td>
+        <td>2.43%</td>
+        <td>32.39%</td>
+        <td>0.81%</td>
+        <td>25.91%</td>
+        <td>7.69%</td>
+        <td>8.5%</td>
+      </tr>
+      <tr>
+        <td>3–4</td>
+        <td>5.09%</td>
+        <td>9.86%</td>
+        <td>1.11%</td>
+        <td>1.11%</td>
+        <td>1.75%</td>
+        <td>38.16%</td>
+        <td>1.43%</td>
+        <td>28.78%</td>
+        <td>5.88%</td>
+        <td>6.84%</td>
+      </tr>
+      <tr>
+        <td>5–6</td>
+        <td>2.48%</td>
+        <td>9.5%</td>
+        <td>0.41%</td>
+        <td>0.62%</td>
+        <td>0.41%</td>
+        <td>44.01%</td>
+        <td>1.45%</td>
+        <td>32.85%</td>
+        <td>4.13%</td>
+        <td>4.13%</td>
+      </tr>
+      <tr>
+        <td>7–8</td>
+        <td>1.28%</td>
+        <td>8.97%</td>
+        <td>0.64%</td>
+        <td>0.00%</td>
+        <td>1.28%</td>
+        <td>42.31%</td>
+        <td>0.96%</td>
+        <td>34.62%</td>
+        <td>7.05%</td>
+        <td>2.88%</td>
+      </tr>
+      <tr>
+        <td>9–10</td>
+        <td>2.88%</td>
+        <td>5.48%</td>
+        <td>0.29%</td>
+        <td>0.58%</td>
+        <td>0.86%</td>
+        <td>46.11%</td>
+        <td>1.73%</td>
+        <td>34.87%</td>
+        <td>5.19%</td>
+        <td>2.02%</td>
+      </tr>
+      <tr>
+        <td>11–12</td>
+        <td>1.35%</td>
+        <td>9.01%</td>
+        <td>0%</td>
+        <td>1.8%</td>
+        <td>0.45%</td>
+        <td>43.24%</td>
+        <td>0.45%</td>
+        <td>37.84%</td>
+        <td>4.95%</td>
+        <td>0.9%</td>
+      </tr>
+      <tr>
+        <td>13–14</td>
+        <td>0.76%</td>
+        <td>9.09%</td>
+        <td>0%</td>
+        <td>0.76%</td>
+        <td>0%</td>
+        <td>40.91%</td>
+        <td>2.27%</td>
+        <td>40.91%</td>
+        <td>3.79%</td>
+        <td>1.52%</td>
+      </tr>
+      <tr>
+        <td>15+</td>
+        <td>1.08%</td>
+        <td>6.92%</td>
+        <td>0.15%</td>
+        <td>0.46%</td>
+        <td>0.77%</td>
+        <td>45.08%</td>
+        <td>1.23%</td>
+        <td>40.15%</td>
+        <td>2.77%</td>
+        <td>1.38%</td>
+      </tr>
+    </tbody>
+  </table>
+</details>
+
+<h3 class="text-2xl font-semibold my-4" id="breakout-1">Breakout 1: An uptick in students in 2021 led to a shift in experience levels.</h3>
+
+<p>To confirm that our changes to experience levels were caused by an uptick in students, we broke out students from full-timers and then looked at their experience levels.</p>
+<p>Sure enough: students were concentrated heavily into the first two years of experience.</p>
+
+<div class="mt-16 flex justify-between" id="experience-fulltimevstudent">
+  <h4 class="text-xl font-semibold">Experience levels, full-timers vs. students</h4>
+  <div class="d3chart-legend-placeholder"></div>
+</div>
+
+<div id="experience-fulltimevstudent-chart" class="d3chart-placeholder d3chart-placeholder-large"></div>
+
+<div class="text-center my-2">Source: Jamstack Community Survey 2020—2021</div>
+
+<details class="mt-4 mb-32">
+  <summary class="text-sm mb-2">Show Chart Data</summary>
+  <table id="experience-fulltimevstudent-table" class="table-auto border-collapse">
+    <thead>
+      <tr class="bg-gray-700 border-b-2">
+        <th class="text-left pr-2">Years of Experience</th>
+        <th class="text-left pr-2">Full-time</th>
+        <th class="text-left pr-2">Students</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>&lt; 1</td><td>6%</td><td>41%</td></tr>
+      <tr><td>1–2</td><td>14%</td><td>38%</td></tr>
+      <tr><td>3–4</td><td>19%</td><td>15%</td></tr>
+      <tr><td>5–6</td><td>14%</td><td>3%</td></tr>
+      <tr><td>7–8</td><td>9%</td><td>1%</td></tr>
+      <tr><td>9–10</td><td>10%</td><td>1%</td></tr>
+      <tr><td>11–12</td><td>7%</td><td>0%</td></tr>
+      <tr><td>13–14</td><td>4%</td><td>0%</td></tr>
+      <tr><td>15+</td><td>16%</td><td>1%</td></tr>
+    </tbody>
+  </table>
+</details>
+
+<p>This leads to the next question: Where did all these students come from? One potential explanation is that as Jamstack has continued to go mainstream, it’s become the default way of teaching new developers to launch their websites. In turn, that’s been increasing the percentage of students in the Jamstack community. We’ll dig more in future surveys to confirm this effect, but having a huge new population of new developers is a great sign for the community—the more, the merrier!</p>
+
+<h3 class="text-2xl font-semibold mt-32 mb-4">How the pandemic affected working life</h3>
+
+<h4 class="text-xl my-4">Many developers shifted to remote work, and they don’t plan to return to the office.</h4>
+
+<p>In 2020 and 2021, everyone’s life was affected by the COVID-19 pandemic in some way—for the purposes of our survey, we focused on how it changed developers’ working lives. What we found surprised us.</p>
+
+<div class="mt-16 flex justify-between" id="experience-pandemic">
+  <h4 class="text-xl font-semibold">How did the pandemic change your working life?</h4>
+</div>
+
+<div id="experience-pandemic-chart" class="d3chart-placeholder"></div>
+
+<div class="text-center my-2">Source: Jamstack Community Survey 2020—2021</div>
+
+<details class="mt-4 mb-32">
+  <summary class="text-sm mb-2">Show Chart Data</summary>
+  <table id="experience-pandemic-table" class="table-auto border-collapse">
+    <thead>
+      <tr class="bg-gray-700 border-b-2">
+        <th class="text-left pr-2">Pandemic effect</th>
+        <th class="text-left pr-2"></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>None of the above</td><td>38%</td></tr>
+      <tr><td>Kept job—went fully remote</td><td>31%</td></tr>
+      <tr><td>Kept job—went part-time remote</td><td>14%</td></tr>
+      <tr><td>Lost a job</td><td>9%</td></tr>
+      <tr><td>Took remote job that wouldn't have been feasible in-person</td><td>9%</td></tr>
+      <tr><td>Moved to take advantage of remote work</td><td>8%</td></tr>
+      <tr><td>Quit job to take care of family</td><td>3%</td></tr>
+    </tbody>
+  </table>
+</details>
+
+<p>The biggest change we noticed was that 31% of developers said their job, previously not remote, went fully remote and will stay remote foreseeably—even after the pandemic ends. This represents a huge shift in working patterns for web developers. We also discovered interesting correlations to developers’ level of experience and their job title, which you can investigate in our <a href="#breakout-2">breakout</a>.</p>
+
+<p>8% of developers said they moved to a new place to take advantage of remote work.</p>
+
+<p>The other notable change we observed was 9% of developers said they lost a job. In <a href="#demographics-employmentstatus">section 1</a> we noted that the number of people reporting themselves as full-time employed had fallen, and the number of students had risen. It’s possible that some developers who lost their jobs moved into education.</p>
+
+<h3 class="text-2xl font-semibold mt-32 mb-4" id="breakout-2">Breakout 2: A third of developers went remote during the pandemic, and don’t plan on coming back.</h3>
+
+<p>As mentioned, a whopping 31% of developers said they went remote in the pandemic, and plan to stay remote after the pandemic. We wanted to know more about those people.</p>
+<p>First, we split up the respondents by experience. There was a notable effect here: The newest developers were much less likely to have “kept their job and gone remote” because they were more likely to have lost their job in the pandemic.</p>
+<p>Twelve percent of those with less than 1 year of experience reported losing a job to the pandemic, and 10% of those with less than 2 years did too.</p>
+<p>Excluding those with less than 2 years of experience, the percentage of developers who’d gone remote was even higher—40%! But that number didn’t change with further experience.</p>
+
+<div class="mt-16 flex justify-between" id="experience-wentremote">
+  <h4 class="text-xl font-semibold">Developers who went remote during the pandemic, by years of experience</h4>
+</div>
+
+<div id="experience-wentremote-chart" class="d3chart-placeholder"></div>
+
+<div class="text-center my-2">Source: Jamstack Community Survey 2020—2021</div>
+
+<details class="mt-4 mb-32">
+  <summary class="text-sm mb-2">Show Chart Data</summary>
+  <table id="experience-wentremote-table" class="table-auto border-collapse">
+    <thead>
+      <tr class="bg-gray-700 border-b-2">
+        <th class="text-left pr-2">Years of Experience</th>
+        <th class="text-left pr-2">Remote</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>&lt; 1</td><td>17%</td></tr>
+      <tr><td>1–2</td><td>32%</td></tr>
+      <tr><td>3–4</td><td>40%</td></tr>
+      <tr><td>5–6</td><td>40%</td></tr>
+      <tr><td>7–8</td><td>40%</td></tr>
+      <tr><td>9–10</td><td>41%</td></tr>
+      <tr><td>11–12</td><td>42%</td></tr>
+      <tr><td>13–14</td><td>41%</td></tr>
+      <tr><td>15+</td><td>39%</td></tr>
+    </tbody>
+  </table>
+</details>
+
+<p>Excluding those first two categories, we proceeded to look at job titles, and we noticed some substantial differences. Nearly 50% of DevOps respondents reported going full-time remote, while only 36% of managers said they did.</p>
+
+<p>Front-end developers were more likely to go remote than full-stack developers, even though the data tells us that full-stack devs report having more experience on average than front-end ones.</p>
+
+<p>We wanted to know why that happened. Initially, we thought it might be that the most experienced people were most likely to choose to work remotely. But, apart from full-stack and front-end not matching that pattern, the data indicated that management has even more experience, but is less likely to go remote.</p>
+
+<p>Our conclusion is that we’re not sure what causes this. Could it be related to the number of meetings you have? Which jobs are harder to hire for? We will have to investigate further.</p>
+
+<div class="mt-16 flex justify-between" id="experience-wentremotetitle">
+  <h4 class="text-xl font-semibold whitespace-nowrap">Who went remote?</h4>
+  <p class="pl-16">Percentage of workers by job title who went full-time remote, excluding those with less than 2 years’ experience</p>
+</div>
+
+<div id="experience-wentremotetitle-chart" class="d3chart-placeholder"></div>
+
+<div class="text-center my-2">Source: Jamstack Community Survey 2020—2021</div>
+
+<details class="mt-4 mb-32">
+  <summary class="text-sm mb-2">Show Chart Data</summary>
+  <table id="experience-wentremotetitle-table" class="table-auto border-collapse">
+    <thead>
+      <tr class="bg-gray-700 border-b-2">
+        <th class="text-left pr-2">Years of Experience</th>
+        <th class="text-left pr-2">Remote</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>DevOps</td><td>50%</td></tr>
+      <tr><td>Back-end</td><td>45%</td></tr>
+      <tr><td>Front-end</td><td>43%</td></tr>
+      <tr><td>Full stack</td><td>39%</td></tr>
+      <tr><td>Designer</td><td>37%</td></tr>
+      <tr><td>Management</td><td>36%</td></tr>
+      <tr><td>Content</td><td>29%</td></tr>
+    </tbody>
+  </table>
+</details>

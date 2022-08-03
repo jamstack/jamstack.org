@@ -1,0 +1,17 @@
+<a href="{{ item.data.link }}" target="_BLANK" rel="noopener" class="mb-4 border-solid border-2 rounded block text-gray-300 hover:text-red-500">
+  {% if item.data.thumbnailurl %}
+  <img src="{{ item.data.thumbnailurl }}" loading="lazy" alt="{{ item.data.title }}">
+  {% else %}
+  <svg  class="w-full" viewBox="0 0 600 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect width="600" height="400" fill="white"/>
+    <path class="fill-current"  fill-rule="evenodd" clip-rule="evenodd" d="M252.94 200.47C252.94 174.188 274.188 152.94 300.47 152.94H348V200.47C348 226.752 326.752 248 300.47 248C274.188 248 252.94 226.752 252.94 200.47ZM299.424 235.774C280.726 235.251 265.624 220.149 265.1 201.451H299.424V235.774ZM301.451 235.84C320.149 235.317 335.251 220.214 335.774 201.516H301.451V235.84ZM301.451 165.1H335.774V199.424H301.451V165.1Z"/>
+  </svg>
+  {% endif %}
+</a>
+<h3>
+  <a href="{{ item.data.link }}" target="_BLANK" rel="noopener">{{ item.data.title }} →</a>
+</h3>
+{% if item.data.date %}
+<time value="{{ item.data.date | formatDate('y-MM-dd') }}" class="text-gray-400 text-xs">{{ item.data.date | formatDate }} </time>
+{% endif %}
+<p class="mt-0 text-gray-600 text-xs">{{ item.data.link | domain}}</p>
