@@ -1,7 +1,7 @@
 ---
 title: Any JSON CMS
 repo: evmizulin/any-json-cms
-homepage: https://anyjsoncms.com/
+homepage: https://github.com/evmizulin/any-json-cms
 opensource: "Yes"
 typeofcms: "API Driven"
 supportedgenerators:
