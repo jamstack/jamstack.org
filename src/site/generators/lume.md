@@ -1,7 +1,7 @@
 ---
 title: Lume
 repo: lumeland/lume
-homepage: https://lumeland.github.io/
+homepage: https://lume.land/
 language:
   - JavaScript (Deno)
 license:
