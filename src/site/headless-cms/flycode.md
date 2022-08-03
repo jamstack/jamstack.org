@@ -1,7 +1,17 @@
-| title    | homepage             | twitter  | opensource | typeofcms  | supported generators |
-| -------- | ---------------------| ---------| ---------- | ---------- | ------------------- |
-| FlyCode  | https://flycode.com  | #flycodeHQ | No         | Git based  | React, Angular, Vue      |
-												 
+
+---
+title: FlyCode
+homepage: https://flycode.com
+twitter: #flycodeHQ
+opensource: "No"
+typeofcms: "Git based"
+supportedgenerators:
+  - React
+  - Angular
+  - Vue
+  - PHP
+---
+
 												
 # Why Flycode?
 
