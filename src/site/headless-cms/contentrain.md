@@ -1,7 +1,7 @@
 ---
 title: Contentrain
 homepage: https://contentrain.io/
-twitter: @Contentrain_io
+twitter: contentrain_io
 opensource: "No"
 typeofcms: "Git-based"
 supportedgenerators:
@@ -19,6 +19,7 @@ supportedgenerators:
   - Angular
   - Svelte
   - Docusaurus
+  - All
 description: Contentrain is a Git-based Headless CMS that was focused on developer and content editor experience which provide seamless integration with Jamstack web apps.
 ---
 
