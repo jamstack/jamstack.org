@@ -11,6 +11,8 @@ templates:
   - React
   - Preact
   - Vue
+  - Solid
+  - Lit
   - HTML
 description: Build faster websites with less client-side Javascript
 ---
