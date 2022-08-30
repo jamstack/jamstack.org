@@ -1,84 +1,114 @@
 [build]
-  command = "npm run build"
-  publish = "dist"
+command = "npm run build"
+publish = "dist"
 
-[build.environment]
+  [build.environment]
   NODE_VERSION = "12.16.2"
   NODE_ENV = "production"
 
 [dev]
-  command = "npm run start"
-  publish = "dist"
+command = "npm run start"
+publish = "dist"
+
+[functions]
+directory = "/netlify/functions"
 
 [[redirects]]
-  from = "/conference"
-  to = "/conf"
-  status = 301
+from = "/community/"
+to = "/.netlify/builders/community"
+status = 200
+force = true
+_generated_by_eleventy_serverless = "community"
 
 [[redirects]]
-  from = "/conf"
-  to = "https://jamstackconf.com/conf/"
-  status = 200
+from = "/conference"
+to = "/conf"
+status = 301
 
 [[redirects]]
-  from = "/conf/cfp"
-  to = "https://docs.google.com/forms/d/e/1FAIpQLSc-z50GyD7zXzr_JCn2M1NBFZ-h65kSdu7zn43V1u2qAKO3ew/viewform"
-  status = 302
+from = "/discord"
+to = "https://discord.gg/jamstack"
+status = 302
 
 [[redirects]]
-  from = "/conf/*"
-  to = "https://jamstackconf.com/conf/:splat"
-  status = 200
+from = "/conf"
+to = "https://jamstackconf.com/conf/"
+status = 200
 
 [[redirects]]
-  from = "/discord"
-  to = "https://discord.gg/jamstack"
-  status = 302
+from = "/conf/cfp"
+to = "https://docs.google.com/forms/d/e/1FAIpQLSc-z50GyD7zXzr_JCn2M1NBFZ-h65kSdu7zn43V1u2qAKO3ew/viewform"
+status = 302
 
 [[redirects]]
-  from = "/women-of-jamstack/"
-  to = "https://womenofjamstack.com"
-  status = 302
+from = "/conf/*"
+to = "https://jamstackconf.com/conf/:splat"
+status = 200
 
 [[redirects]]
-  from = "/best-practices"
-  to = "/resources"
-  status = 301
+from = "/discord"
+to = "https://discord.gg/jamstack"
+status = 302
 
 [[redirects]]
-  from = "/diversity"
-  to = "/code-of-conduct"
-  status = 301
+from = "/women-of-jamstack/"
+to = "https://womenofjamstack.com"
+status = 302
 
 [[redirects]]
-  from = "/benefits"
-  to = "/why-jamstack"
-  status = 301
+from = "/best-practices"
+to = "/resources"
+status = 301
 
 [[redirects]]
-  from = "/img/og/glossary/:term/:summary"
-  to = "https://res.cloudinary.com/netlify/image/fetch/c_fit,l_text:Roboto_56_bold::term,co_rgb:FFFFFF,g_north_west,y_75,x_100,w_1000/c_fit,l_text:Roboto_38_light::summary,co_rgb:FFFFFF,g_north_west,y_200,x_160,w_885/https://jamstack.org/img/og/glossary-card-bg.png"
-  status = 200
+from = "/diversity"
+to = "/code-of-conduct"
+status = 301
 
 [[redirects]]
-  from = "/glossary/*"
-  to = "/glossary/contribute/index.html"
-  status = 404
+from = "/benefits"
+to = "/why-jamstack"
+status = 301
 
 [[redirects]]
-  from = "/headless-cms/keystone-5/"
-  to = "/headless-cms/keystone/"
-  status = 301
+from = "/img/og/glossary/:term/:summary"
+to = "https://res.cloudinary.com/netlify/image/fetch/c_fit,l_text:Roboto_56_bold::term,co_rgb:FFFFFF,g_north_west,y_75,x_100,w_1000/c_fit,l_text:Roboto_38_light::summary,co_rgb:FFFFFF,g_north_west,y_200,x_160,w_885/https://jamstack.org/img/og/glossary-card-bg.png"
+status = 200
 
 [[redirects]]
-  from = "/survey/"
-  to = "/survey/2021/"
-  status = 302
+from = "/conf/"
+to = "https://jamstackconf.com/"
+status = 302
 
 [[redirects]]
-  from = "/survey/2020/"
-  to = "https://www.netlify.com/blog/2020/05/27/state-of-the-jamstack-survey-2020-first-results/"
-  status = 301
+from = "/conf/cfp"
+to = "https://docs.google.com/forms/d/e/1FAIpQLSeR5W4m9owqDBJEq2EuRUNXFTOeLCxFPUn0qbuCE15o4SWDFg/viewform"
+status = 302
+
+[[redirects]]
+from = "/glossary/*"
+to = "/glossary/contribute/index.html"
+status = 404
+
+[[redirects]]
+from = "/glossary/*"
+to = "/glossary/contribute/index.html"
+status = 404
+
+[[redirects]]
+from = "/headless-cms/keystone-5/"
+to = "/headless-cms/keystone/"
+status = 301
+
+[[redirects]]
+from = "/survey/"
+to = "/survey/2021/"
+status = 302
+
+[[redirects]]
+from = "/survey/2020/"
+to = "https://www.netlify.com/blog/2020/05/27/state-of-the-jamstack-survey-2020-first-results/"
+status = 301
 
 [[plugins]]
-  package = "./plugins/keep-dot-cache-folder"
+package = "./plugins/keep-dot-cache-folder"

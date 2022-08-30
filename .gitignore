@@ -19,3 +19,6 @@ dist
 
 # Environment variables
 .env
+
+netlify/functions/community/**
+!netlify/functions/community/index.js

@@ -23,6 +23,7 @@
   "dependencies": {
     "@11ty/eleventy": "^1.0.0",
     "@11ty/eleventy-cache-assets": "^2.1.0",
+    "@netlify/functions": "^1.0.0",
     "@zachleat/filter-container": "^1.0.3",
     "autoprefixer": "^10.2.5",
     "cssnano": "^4.1.10",
@@ -30,7 +31,6 @@
     "dotenv": "^8.2.0",
     "fast-glob": "^3.2.5",
     "gray-matter": "^4.0.2",
-    "i18n-iso-countries": "^6.5.0",
     "js-yaml": "^3.14.0",
     "lodash": "^4.17.21",
     "luxon": "^1.26.0",
@@ -38,7 +38,6 @@
     "netlify-plugin-minify-html": "^0.3.1",
     "node-fetch": "^2.6.1",
     "npm-run-all": "^4.1.5",
-    "placename": "^1.1.2",
     "postcss": "^8.2.8",
     "postcss-cli": "^8.3.1",
     "postcss-import": "^13.0.0",
