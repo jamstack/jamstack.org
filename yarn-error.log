@@ -1,0 +1,74 @@
+Arguments: 
+  /usr/local/bin/node /Users/benjaminread/.yarn/bin/yarn.js
+
+PATH: 
+  /Users/benjaminread/.npm-global/bin:/Users/benjaminread/.yarn/bin:/Users/benjaminread/.config/yarn/global/node_modules/.bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/benjaminread/.npm-global/bin:/Users/benjaminread/.yarn/bin:/Users/benjaminread/.config/yarn/global/node_modules/.bin:/opt/homebrew/bin:/opt/homebrew/sbin:/Users/benjaminread/.pulumi/bin:/Users/benjaminread/.pulumi/bin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  14.20.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: connect ECONNREFUSED 127.0.0.1:4873
+      at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+
+npm manifest: 
+  {
+    "name": "jamstackdotorg",
+    "version": "2.0.0",
+    "description": "Home page for the Jamstack community",
+    "author": "Phil Hawksworth",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/jamstack/jamstack.org"
+    },
+    "engines": {
+      "node": ">=12"
+    },
+    "scripts": {
+      "build": "npm-run-all build:html build:css",
+      "build:html": "eleventy",
+      "build:css": "postcss src/css/tailwind.css -o dist/css/styles.css",
+      "watch:html": "ELEVENTY_ENV=dev eleventy --serve --port=8080 --quiet",
+      "watch:css": "postcss src/css/tailwind.css -o dist/css/styles.css --watch",
+      "start": "npm-run-all --parallel watch:html watch:css",
+      "clean": "rm -rf dist"
+    },
+    "dependencies": {
+      "@11ty/eleventy": "^1.0.0",
+      "@11ty/eleventy-cache-assets": "^2.1.0",
+      "@zachleat/filter-container": "^1.0.3",
+      "autoprefixer": "^10.2.5",
+      "cssnano": "^4.1.10",
+      "d3": "^7.1.1",
+      "dotenv": "^8.2.0",
+      "fast-glob": "^3.2.5",
+      "gray-matter": "^4.0.2",
+      "i18n-iso-countries": "^6.5.0",
+      "js-yaml": "^3.14.0",
+      "lodash": "^4.17.21",
+      "luxon": "^1.26.0",
+      "markdown-it": "^12.0.4",
+      "netlify-plugin-minify-html": "^0.3.1",
+      "node-fetch": "^2.6.1",
+      "npm-run-all": "^4.1.5",
+      "placename": "^1.1.2",
+      "postcss": "^8.2.8",
+      "postcss-cli": "^8.3.1",
+      "postcss-import": "^13.0.0",
+      "spdx-correct": "^3.1.1",
+      "tailwindcss": "^2.0.3"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
