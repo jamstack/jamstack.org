@@ -8,6 +8,7 @@ license:
   - MIT
 templates:
   - Jinja2
+startertemplaterepo: https://github.com/paulocoutinhox/kaktos
 description: Kaktos is a python static site generator
 ---
 
