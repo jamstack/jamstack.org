@@ -4,7 +4,7 @@ homepage: https://flycode.com
 description: FlyCode helps product teams work like software engineers - to ship better products, faster with no-code 
 twitter: flycodeHQ
 opensource: "No"
-typeofcms: "Git based"
+typeofcms: "Git-based"
 supportedgenerators:
   - React
   - Angular
