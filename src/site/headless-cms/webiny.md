@@ -7,7 +7,7 @@ opensource: "Yes"
 typeofcms: "API Driven"
 supportedgenerators:
   - All
-description: Webiny is an highly customizable, infinitely scalable, serverless CMS that you can host on your own AWS account. It offers you enterprise-grade functionality while keeping your data within the secure perimeter of your own infrastructure.
+description: Webiny is an highly customizable, scalable, serverless CMS that you can host on your own AWS account. It offers you enterprise-grade functionality while keeping your data within the secure perimeter of your own infrastructure.
 images:
   - path: /img/cms/webiny-headless-cms.gif
   - path: /img/cms/webiny-file-manager.gif
