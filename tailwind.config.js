@@ -1,5 +1,5 @@
 module.exports = {
-  purge: [
+  content: [
     './src/site/**/*.njk',
     './src/site/**/*.md'
   ],
