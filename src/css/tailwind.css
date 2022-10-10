@@ -18,7 +18,7 @@
     }
   }
   h2 {
-    @apply text-white text-3xl font-bold leading-none mb-2;
+    @apply text-blue-900 dark:text-white text-3xl font-bold leading-none mb-2;
   }
   @screen md {
     h2 {
@@ -42,9 +42,9 @@ section {
 
 section a,
 dd a {
-  @apply text-white;
+  @apply dark:text-white;
   @apply border-b;
-  @apply border-blue-100;
+  @apply border-blue-900 dark:border-blue-100;
 }
 section:not(.cards):not(.no-underline) a:hover,
 section:not(.cards):not(.no-underline) a:focus,
@@ -337,14 +337,14 @@ details[open] .summary-swap-open {
 
 /* Jamstack TV */
 .ais-SearchBox-input {
-  @apply bg-blue-900;
-  @apply text-white;
+  @apply bg-white dark:bg-blue-900;
+  @apply dark:text-white;
   @apply font-bold;
   @apply p-3;
   @apply pl-14;
   @apply mx-auto;
   @apply border;
-  border-color: #5A5F75;
+  @apply border-gray-300 dark:border-gray-400;
   @apply rounded-full;
   @apply block;
   @apply w-full;
