@@ -35,6 +35,17 @@ ogimage: "/img/og/default-og-image.png"
     <meta name="google-site-verification" content="i5IheizQ6X_M4jNqb_b7vbJrT34i_gvEg8Gxkq9IY_w" />
     <meta name="google-site-verification" content="WDIQ_1X8K7XIpPJ5G1Z8KnOqdSeYetPQB4EgoTLfIsc" />
     <script type="module">document.documentElement.classList.add("js");</script>
+    <script>
+      if (
+        localStorage.theme === "dark" ||
+        (!("theme" in localStorage) &&
+          window.matchMedia("(prefers-color-scheme: dark)").matches)
+      ) {
+        document.documentElement.classList.add("dark");
+      } else {
+        document.documentElement.classList.remove("dark");
+      }
+    </script>
     {%- for url in javascripts %}
     <script defer src="{{ url }}"></script>
     {%- endfor %}
@@ -54,6 +65,7 @@ ogimage: "/img/og/default-og-image.png"
       </div>
       <div>
         {% include "banner.njk" %}
+        {% include "components/color-theme-selector.njk" %}
         {{ content | safe }}
         <div class="border-gray-300 dark:border-blue-800 border-t">
           {% include "footer.njk" %}
@@ -84,6 +96,7 @@ ogimage: "/img/og/default-og-image.png"
       </defs>
     </svg>
     <script type="module" src="/js/details-force-state.js"></script>
+    <script type="module" src="/js/color-theme.js"></script>
     <script type="module" src="/js/filter-container.js"></script>
     <script type="module" src="/js/sort-container.js"></script>
     <script type="module" src="/js/lazyiframe.js"></script>

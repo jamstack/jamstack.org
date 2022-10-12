@@ -17,11 +17,8 @@
   z-index: 2;
 }
 
-@media (prefers-color-scheme: dark) {
-  .logos-ticker-fade {
-    background: linear-gradient(to right, rgba(22, 26, 43, 1) 0%, rgba(22, 26, 43, .01) 20%, rgba(22, 26, 43, .01) 80%, rgba(22, 26, 43, 1) 100%);
-
-  }
+.dark .logos-ticker-fade {
+  background: linear-gradient(to right, rgba(22, 26, 43, 1) 0%, rgba(22, 26, 43, .01) 20%, rgba(22, 26, 43, .01) 80%, rgba(22, 26, 43, 1) 100%);
 }
 
 .logos-ticker-container {

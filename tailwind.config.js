@@ -3,6 +3,7 @@ module.exports = {
     './src/site/**/*.njk',
     './src/site/**/*.md'
   ],
+  darkMode: ['class'],
   theme: {
     borderRadius: {
       'none': '0',

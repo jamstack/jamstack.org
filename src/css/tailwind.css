@@ -40,8 +40,8 @@ section {
 }
 
 
-section a,
-dd a {
+:where(section a),
+:where(dd a) {
   @apply dark:text-white;
   @apply border-b;
   @apply border-blue-900 dark:border-blue-100;
@@ -470,6 +470,11 @@ details[open] .summary-swap-open {
 .jamstacktv-scrubber > div {
   height: 4px;
   background-color: red;
+}
+
+/* Survey */
+.chart-data-table-head {
+  @apply bg-gray-200 dark:bg-gray-700 border-b-2;
 }
 /* purgecss end ignore */
 

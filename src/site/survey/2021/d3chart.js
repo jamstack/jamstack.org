@@ -908,9 +908,6 @@ class D3BubbleChart extends D3Chart {
       .enter()
         .append("text")
         .attr("id", d => this.slugify(d.name, `${targetId}-bubblelabel-`))
-        .attr("filter", d => {
-          return isOffsetLabel(d) ? "url(#offset-label-bg)" : ""
-        })
         .attr("x", d => {
           return xScale(d.x) - (isOffsetLabel(d) ? rScale(d.r) + 4 : 0);
         })
