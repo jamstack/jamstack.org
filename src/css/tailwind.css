@@ -9,6 +9,9 @@
 
 
 @layer base {
+  h1, h2, h3 {
+    @apply text-blue-900 dark:text-white;
+  }
   h1 {
     @apply font-bold text-4xl leading-tight my-8;
   }
@@ -18,7 +21,7 @@
     }
   }
   h2 {
-    @apply text-blue-900 dark:text-white text-3xl font-bold leading-none mb-2;
+    @apply text-3xl font-bold leading-none mb-2;
   }
   @screen md {
     h2 {
@@ -393,6 +396,7 @@ details[open] .summary-swap-open {
   @apply bg-black;
   @apply text-sm;
   @apply font-bold;
+  @apply text-blue-100;
   position: absolute;
   right: .4em;
   top: .4em;
