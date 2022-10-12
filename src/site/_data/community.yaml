@@ -1,3 +1,8 @@
+- name: Kolachi 
+  link: https://www.meetup.com/jamstack-kolachi/
+  feed: https://api.meetup.com/jamstack-kolachi/events
+  country: Pakistan
+  
 - name: San Francisco
   link: https://www.meetup.com/Jamstack-sf/
   feed: https://api.meetup.com/Jamstack-sf/events
