@@ -1,7 +1,10 @@
 <div class="flex justify-end p-4">
-  <label class="color-theme-selector-wrapper inline-flex invisible" data-color-theme-selector>
+  <label class="color-theme-selector-wrapper" data-color-theme-selector>
+    <svg class="color-theme-selector-wrapper-icon fill-current" role="img" focusable="false">
+      <use xlink:href="#icon-color-theme-system"></use>
+    </svg>
     <span class="sr-only">Color theme</span>
-    <select class="text-black py-1 px-2 rounded-default border border-gray-200 dark:border-transparent bg-white">
+    <select>
       <option selected value="system">System</option>
       <option value="dark">Dark</option>
       <option value="light">Light</option>

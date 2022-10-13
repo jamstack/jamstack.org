@@ -3,7 +3,19 @@ const colorThemeSelector = document.querySelector(
   "[data-color-theme-selector]"
 );
 const colorThemeSelectorInput = colorThemeSelector.querySelector("select");
+const colorThemeSelectorInputIcon = colorThemeSelector.querySelector('.color-theme-selector-wrapper-icon');
+const colorThemeSelectorInputIconSrc = colorThemeSelectorInputIcon.querySelector('use');
 const storedTheme = localStorage.theme;
+
+function setInputIcon(type) {
+  if(type === 'dark') {
+    colorThemeSelectorInputIconSrc.setAttribute('xlink:href', '#icon-color-theme-dark');
+  } else if(type === 'light') {
+    colorThemeSelectorInputIconSrc.setAttribute('xlink:href', '#icon-color-theme-light');
+  } else {
+    colorThemeSelectorInputIconSrc.setAttribute('xlink:href', '#icon-color-theme-system');
+  } 
+}
 
 function setInputState(storedTheme) {
   if (!!storedTheme) {
@@ -11,12 +23,14 @@ function setInputState(storedTheme) {
       `[value="${storedTheme}"]`
     ).selected = true;
 
+    setInputIcon(storedTheme);
+
     htmlElement.classList.add(storedTheme);
   }
 }
 
 function displayThemeSelector() {
-  colorThemeSelector.classList.remove("invisible");
+  colorThemeSelector.style.visibility = 'visible';
 }
 
 function toggleThemeClass(type) {
@@ -53,14 +67,22 @@ function updateTheme(type) {
   switch (type) {
     case "dark":
       toggleThemeClass("dark");
+
+      setInputIcon('dark');
+
       localStorage.theme = "dark";
       break;
     case "light":
       toggleThemeClass("light");
+
+      setInputIcon('light');
+
       localStorage.theme = "light";
       break;
     default:
       toggleThemeClass("system");
+
+      setInputIcon('system');
 
       localStorage.removeItem("theme");
       break;

@@ -108,6 +108,41 @@ footer p a:focus {
 }
 
 
+/* Color theme selector */
+.color-theme-selector-wrapper {
+  --padding-inline: 0.5rem;
+  --icon-size: 1rem;
+
+  @apply invisible;
+  @apply relative w-32 h-8 flex items-center;
+  @apply rounded-default border border-gray-200 dark:border-transparent;
+  @apply bg-white;
+  @apply text-black;
+}
+
+.color-theme-selector-wrapper-icon {
+  width: var(--icon-size);
+  max-height: 100%;
+  margin-left: var(--padding-inline);
+}
+
+.color-theme-selector-wrapper::after {
+  position:absolute;
+  top: 50%;
+  right: var(--padding-inline);
+  transform: translateY(-50%);
+  content: "";
+  width: var(--icon-size);
+  height: var(--icon-size);
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M6 9L12 15L18 9' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
+}
+
+.color-theme-selector-wrapper select {
+  @apply absolute w-full flex items-center bg-transparent;
+  appearance: none;
+  padding-left: calc(var(--icon-size) + var(--padding-inline) + 0.5rem);
+}
+
 .videowrapper {
   position: relative;
   padding-bottom: 56.25%; /* 16:9 */
