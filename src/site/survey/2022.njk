@@ -1,0 +1,62 @@
+---
+title: "Jamstack Community Survey 2022"
+layout: layouts/base.njk
+ogimage: "/img/og/jamstack-community-survey-og.png"
+stylesheets:
+  - /css/d3chart.css
+javascripts:
+  - /survey/bundle.js
+gradientColors:
+  sunrise: ["#F0047F", "#FC814A"]
+  blue: ["#0090c9", "#00c0ad"]
+  sun: ["#FFC803", "#FC814A"]
+  seamist: ["#78ECC2", "#00FFB2"]
+  hallows: ["#DF4A1F", "#FFA278"]
+  bubblegum: ["#FF98BC", "#FFCCDE"]
+  purple: ["#6B38FB", "#CCB4FF"]
+  air: ["#03d0d0", "#B5FFF8"]
+  pink: ["#c40468", "#fc2796"]
+  leaves: ["#78f19a", "#13b110"]
+  haze: ["#91A5EE", "#d6deff"]
+  gnat: ["#02C6B3", "#59F7E7"]
+  fire: ["#FF0F00", "#FF928A"]
+  ocean: ["#003EDD", "#6CDCFF"]
+  night: ["#02465F", "#6AD7FF"]
+  dusk: ["#960000", "#E94242"]
+  rain: ["#FF72CF", "#C92ECC"]
+---
+
+<svg
+  style="
+    position: absolute;
+    left: -9999px;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+  "
+>
+  <defs>
+    <filter x="0" y="0" width="1" height="1" id="offset-label-bg">
+      <feFlood flood-color="#161a2c" result="bg" />
+      <feMerge>
+        <feMergeNode in="bg" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    {%- for key, entry in gradientColors %}
+    <linearGradient id="gradient-{{ key }}-h">
+      <stop offset="0%" stop-color="{{ entry[0] }}" />
+      <stop offset="100%" stop-color="{{ entry[1] }}" />
+    </linearGradient>
+    <linearGradient id="gradient-{{ key }}-v" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="{{ entry[0] }}" />
+      <stop offset="100%" stop-color="{{ entry[1] }}" />
+    </linearGradient>
+    {%- endfor %}
+  </defs>
+</svg>
+
+<section>
+  <h1 class="leading-tight">{{ title }}</h1>
+</section>
