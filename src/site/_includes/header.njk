@@ -19,7 +19,7 @@
 %}
 
 <header class="page-header md:flex md:flex-col md:h-screen">
-  <a href="/" class="block text-white hover:text-pink-900 mx-8 py-8">
+  <a href="/" class="block dark:text-white mx-8 py-8">
     <svg role="img" aria-hidden="true" focusable="false" width="163" height="31">
       <use xlink:href="#logo-jamstack"></use>
     </svg>
@@ -30,14 +30,14 @@
     class="md:flex-grow">
     <summary class="summary-no-arrow md:hidden absolute top-0 right-0 p-8">
       <svg width="22" height="31" viewBox="0 0 22 21" fill="none" class="summary-swap-closed">
-        <rect width="22" height="3" fill="white"/>
-        <rect y="18" width="22" height="3" fill="white"/>
-        <rect y="9" width="22" height="3" fill="white"/>
+        <rect width="22" height="3" class="fill-current"/>
+        <rect y="18" width="22" height="3" class="fill-current"/>
+        <rect y="9" width="22" height="3" class="fill-current"/>
       </svg>
 
       <svg width="22" height="31" viewBox="0 0 18 19" fill="none" class="summary-swap-open">
-        <rect y="16.7217" width="22" height="3" transform="rotate(-48.3434 0 16.7217)" fill="white"/>
-        <rect width="22" height="3" transform="matrix(0.664665 0.747142 0.747142 -0.664665 0.431641 1.9939)" fill="white"/>
+        <rect y="16.7217" width="22" height="3" transform="rotate(-48.3434 0 16.7217)" class="fill-current"/>
+        <rect width="22" height="3" transform="matrix(0.664665 0.747142 0.747142 -0.664665 0.431641 1.9939)" class="fill-current"/>
       </svg>
 
       <span class="sr-only">Menu</span>
@@ -47,8 +47,8 @@
       {% include "navigation-links.njk" %}
 
       <div>
-        <div class="text-center text-sm mb-4 text-gray-300">Connect with us</div>
-        <div class="grid grid-cols-3 divide-x divide-gray-700 text-gray-300">
+        <div class="text-center text-sm mb-4 dark:text-gray-300">Connect with us</div>
+        <div class="grid grid-cols-3 divide-x divide-gray-200 dark:divide-gray-700 dark:text-gray-300">
           <a href="https://discord.gg/jamstack" target="_BLANK" rel="noopener" class="flex items-center justify-center p-4 hover:text-pink-500">
             <svg role="img" aria-label="Discord" focusable="false" width="36" height="36" class="fill-current">
               <use xlink:href="#logo-discord"></use>

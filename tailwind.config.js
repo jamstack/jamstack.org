@@ -1,8 +1,9 @@
 module.exports = {
-  purge: [
+  content: [
     './src/site/**/*.njk',
     './src/site/**/*.md'
   ],
+  darkMode: ['class'],
   theme: {
     borderRadius: {
       'none': '0',
@@ -33,8 +34,8 @@ module.exports = {
           700: "#2D3247",
           400: "#5A5F75",
           300: "#9AA0B6",
-          200: "#DEDEDE",
-          100: "#10121E"
+          200: "#D8DEEC",
+          100: "#F8FAFF"
         },
         pink : {
           900 : '#D1036F', // old

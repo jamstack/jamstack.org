@@ -1,4 +1,4 @@
-  <tr class="{% if loop.index0 % 2 == 0 %}bg-gray-900{% endif %}">
+  <tr class="{% if loop.index0 % 2 == 0 %}bg-gray-200 dark:bg-gray-900{% endif %}">
     <td class="m-2 md:p-4 md:m-0 block md:table-cell"><span class="font-bold md:hidden">Group: </span>{{ item.group.name }}</td>
     <td class="m-2 md:p-4 md:m-0 block md:table-cell"><span class="font-bold md:hidden">Name: </span><a href="{{ item.link }}">{{ item.name }}</a></td>
     <td class="m-2 md:p-4 md:m-0 block md:table-cell"><span class="font-bold md:hidden">Venue: </span>{{ item.venue.name }}</dt>
