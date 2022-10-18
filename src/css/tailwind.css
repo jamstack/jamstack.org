@@ -514,6 +514,25 @@ details[open] .summary-swap-open {
 .chart-data-table-head {
   @apply bg-gray-200 dark:bg-gray-700 border-b-2;
 }
+
+.permalink-heading {
+  @apply flex items-center gap-x-2;
+}
+
+.permalink-heading-anchor {
+  @apply border-0;
+}
+
+.permalink-heading-icon {
+  @apply w-4;
+  @apply opacity-50;
+}
+
+.permalink-heading-icon:hover {
+  @apply opacity-100;
+}
+
+
 /* purgecss end ignore */
 
 @tailwind utilities;
