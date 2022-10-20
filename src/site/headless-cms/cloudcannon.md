@@ -8,22 +8,29 @@ supportedgenerators:
   - Jekyll
   - Hugo
   - 11ty
-description: The Git-based CMS for Jekyll, Hugo and 11ty sites. Take control of your content with visual editing, publishing and reusable components. 
+  - SvelteKit
+  - Next.js
+  - Gatsby
+  - Nuxt
+  - Astro
+  - MkDocs
+description: A Git-based CMS that supports all major Static Site Generators. Manage your site's content with visual editing, custom components and two way Git-syncing.
 ---
 ## CloudCannon
-The Git-based CMS for Jekyll, Hugo and 11ty sites. Take control of your content with visual editing, publishing and reusable components. 
+A Git-based CMS that supports all major Static Site Generators. Manage your site's content with visual editing, custom components and two way Git-syncing.
 
-### Sync Workflow
-Develop your unique site and sync files with your favourite Git provider, GitHub, Bitbucket or GitLab. 
+Develop your unique site and sync files with your favorite Git provider, GitHub, Bitbucket or GitLab. 
+With three Editors, Visual, Content and Source — your team can choose how they manage their content and build new web pages. 
+Optional hosting to deliver the fastest sites on the internet with Cloudflare and AWS. 
 
-### Build Workflow
-Gain a competitive edge with Jekyll, Hugo or 11ty building your site. 
-
-### Edit Workflow
-Take full control of your content with intuitive visual editing, publishing, and reusable components.
-
-### Host Workflow
-Deliver the fastest sites on the internet with Cloudflare and AWS. 
-
-### Community
-Plenty of [Jamstack resources to help the community](https://cloudcannon.com/community/), including the Jamstack ecosystem, themes, showcases and more. 
+### Features
+  - User roles and permissions
+  - Authentication
+  - Scheduling
+  - Visual, Content & Source Editors
+  - Globalization
+  - Digital Asset Management (DAM uploads)
+  - Git based version control
+  - Testing domains
+ 
+ 
