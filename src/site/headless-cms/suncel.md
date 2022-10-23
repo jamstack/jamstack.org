@@ -9,6 +9,7 @@ supportedgenerators:
   - Next.js
 description: Suncel is a headless CMS for Next.js, with a powerful no-code visual builder to rapidly create pages and publish your content.
 images:
+  - path: /img/cms/suncel-2.png
   - path: /img/cms/suncel-1.png
 ---
 
