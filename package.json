@@ -43,6 +43,6 @@
     "postcss-cli": "^8.3.1",
     "postcss-import": "^13.0.0",
     "spdx-correct": "^3.1.1",
-    "tailwindcss": "^2.0.3"
+    "tailwindcss": "^3.1.8"
   }
 }

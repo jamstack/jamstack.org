@@ -27,7 +27,7 @@ layout: layouts/base.njk
         )
     }}
   </div>
-  <p class="pb-20 border-gray-400 border-b">
+  <p class="pb-20 border-gray-300 dark:border-gray-400 border-b">
     To participate in our community channels, it’s important to read and follow our <a href="/code-of-conduct">Code of Conduct</a>
   </p>
 </section>
@@ -78,7 +78,7 @@ layout: layouts/base.njk
       </div>
       <label class="inline-flex pr-4 pb-2">
         <span class="sr-only">Country</span>
-        <select data-filter-bind="country" class="text-black py-1 px-2 rounded-default border border-white bg-white">
+        <select data-filter-bind="country" class="text-black py-1 px-2 rounded-default border border-gray-200 dark:border-transparent bg-white">
           <option selected value="">All Countries</option>
           {%- for country in community | select("country") | flatten | unique | sort(false, false) %}
           <option value="{{ country | lower }}">{{ country }}</option>

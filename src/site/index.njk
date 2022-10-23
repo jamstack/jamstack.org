@@ -6,6 +6,7 @@ layout: layouts/base.njk
 {% import "components/ticker.njk" as ticker %}
 {% import "components/section-heading.njk" as section %}
 {% import "components/zinger-cta.njk" as zinger %}
+{% import "components/color-theme-selector.njk" as colorThemeToggle %}
 
 <section class="my-10 p-0">
   {{ ticker.icons() }}
@@ -13,10 +14,10 @@ layout: layouts/base.njk
 </section>
 
 <section class="relative p-10 mb-16">
-  <div class="p-2 rounded-lg bg-gradient-jams" w-full>
-    <div class="flex flex-col bg-blue-900 p-10 text-xl">
+  <div class="p-1 rounded-lg bg-gradient-pink-orange" w-full>
+    <div class="flex flex-col bg-white dark:bg-blue-900 p-10 text-xl rounded-sm">
       <a class="border-b-0" name="what-is-jamstack">
-        <h1>What is <span class="font-extrabold text-transparent bg-clip-text bg-gradient-jams">Jamstack</span>?</h1>
+        <h1>What is <span class="font-extrabold text-transparent bg-clip-text bg-gradient-pink-orange">Jamstack</span>?</h1>
       </a>
       <p>
         Jamstack is an architectural approach that decouples the web experience layer from data and business logic, improving flexibility, scalability, performance, and maintainability.
@@ -32,12 +33,12 @@ layout: layouts/base.njk
 </section>
 
 <section class="mb-10">
-  <div class="border-2 border-white block rounded-xl shadow-lg text-center overflow-hidden">
+  <div class="border-2 border-white bg-white dark:bg-blue-900 block rounded-xl shadow-lg text-center overflow-hidden">
     <a href="/conf/">
       <img src="/img/conf-2022-tout-new.png" alt="Jamstack Conf 2022, 7-8 November, San Francisco and online" width="1500" height="600" />
     </a>
-    <h2 class="mt-8">Join us at Jamstack Conf!</h2>
-    <p class="text-lg md:text-xl mb-5 w-2/3 md:w-1/2 mx-auto">
+    <h2 class="mt-8">Join us at Jamstack Conf!</h2x>
+    <p class="mt-4 text-lg md:text-xl mb-5 w-2/3 md:w-1/2 mx-auto">
       Join 20,000+ web developers for two days dedicated to building modern web projects.
     </p>
     <p class="mb-5">
