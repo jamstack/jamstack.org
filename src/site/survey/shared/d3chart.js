@@ -233,13 +233,15 @@ class D3Chart {
       let row = [];
       for(let child of tr.children) {
         let value = child.textContent;
-        if(value.endsWith("%")) {
+        if(child.getAttribute('data-avoid-parse') === null && value.endsWith("%")) {
           value = parseFloat(value) / 100;
         }
         row.push(value);
+        console.log(row)
       }
       output.push(row.join(","));
     }
+    
     if(reverse) {
       return [headerOutput.join(","), ...output.reverse()].join("\n");
     }
@@ -497,7 +499,7 @@ class D3VerticalBarChart extends D3Chart {
         .attr("x", d => d.left)
         .attr("y", d => d.top)
         .attr("width", d => d.width)
-        .attr("height", d => d.height)
+        .attr("height", d => isNaN(d.height) ? 0 : d.height)
         .attr("fill", d => colors(d.key))
         .attr("class", (d, j) => `d3chart-color-${j + options.colorMod}`);
 
@@ -511,10 +513,22 @@ class D3VerticalBarChart extends D3Chart {
         .data(dataMod)
         .join("text")
           .attr("x", d => d.left + d.width / 2)
-          .attr("y", d => d.top - (options.showInlineBarValues === "outside" ? options.inlineLabelPad : (-15 - options.inlineLabelPad)))
+          .attr("y", d => {
+            if(isNaN(d.height)) {
+              return 0;
+            }
+
+            return d.top - (options.showInlineBarValues === "outside" ? options.inlineLabelPad : (-15 - options.inlineLabelPad))
+          })
           .attr("fill", d => options.showInlineBarValues === "inside" ? labelColors(d.key) : "currentColor")
           .attr("class", "d3chart-inlinebarvalue")
-          .text(d => this.roundValue(d.value, options.valueType[0]) + (options.valueType[0] === "percentage" ? "%" : ""));
+          .text(d => {
+            if(d.value === null) {
+              return '';
+            }
+
+            return this.roundValue(d.value, options.valueType[0]) + (options.valueType[0] === "percentage" ? "%" : "")
+          });
     }
 
     // TODO for horizontal bar chart
@@ -654,10 +668,10 @@ class D3HorizontalBarChart extends D3Chart {
       .join("rect")
         .attr("x", d => d.left)
         .attr("y", d => d.top)
-        .attr("width", d => d.width)
+        .attr("width", d => isNaN(d.width) ? 0 : d.width)
         .attr("height", d => d.height)
         .attr("fill", d => colors(d.key))
-        .attr("class", (d, j) => `d3chart-color-${j + options.colorMod}`);
+        .attr("class", (d, j) => `d3chart-color-${j + options.colorMod}`)
 
     if(options.showInlineBarValues) {
       svg.append("g")
@@ -670,12 +684,19 @@ class D3HorizontalBarChart extends D3Chart {
         .join("text")
           .attr("x", d => {
             let offset = options.inlineLabelPad;
+
+            if(isNaN(d.width)) {
+              return d.left + offset;
+            }
+
             if(options.showInlineBarValues.startsWith("inside")) {
               offset = -1 * offset;
             }
+
             if(options.showInlineBarValues === "inside-offset") {
               offset += 16;
             }
+
             return d.left + d.width + offset;
           })
           .attr("y", d => {
@@ -686,7 +707,13 @@ class D3HorizontalBarChart extends D3Chart {
           })
           .attr("class", d => "d3chart-inlinebarvalue-h" + (options.showInlineBarValues.length ? ` ${options.showInlineBarValues}` : ""))
           .attr("fill", d => options.showInlineBarValues === "inside" ? labelColors(d.key) : "currentColor")
-          .text(d => this.roundValue(d.value, options.valueType[0]) + (options.valueType[0] === "percentage" ? "%" : ""));
+          .text(d => {
+            if(d.value === null) {
+              return ''
+            }
+
+            return this.roundValue(d.value, options.valueType[0]) + (options.valueType[0] === "percentage" ? "%" : "")
+          });
     }
 
     chart.reset(svg);

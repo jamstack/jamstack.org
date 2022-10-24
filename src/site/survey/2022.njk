@@ -5,7 +5,7 @@ ogimage: "/img/og/jamstack-community-survey-og.png"
 stylesheets:
   - /css/d3chart.css
 javascripts:
-  - /survey/bundle.js
+  - /survey/2022/bundle.js
 gradientColors:
   sunrise: ["#F0047F", "#FC814A"]
   blue: ["#0090c9", "#00c0ad"]
@@ -66,7 +66,7 @@ gradientColors:
 <section id="whos-doing-the-building" class="border-b pb-16 mb-16">
   {{ permalinkHeading.render('h2', 'Who’s doing the building') }}
 
-  {% include "survey/2022/whos-doing-the-building.njk" %}
+  {% include "survey/2022/whos-doing-the-building/index.njk" %}
 </section>
 
 <section id="what-are-we-building" class="border-b pb-16 mb-16">
