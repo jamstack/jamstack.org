@@ -250,7 +250,8 @@ class D3Chart {
 
     let headerOutput = [];
     for (let th of headerCells) {
-      headerOutput.push(th.textContent);
+      console.log(th.textContent)
+      headerOutput.push(th.textContent.replace(/,/g, "&comma;"));
     }
 
     let output = [];
