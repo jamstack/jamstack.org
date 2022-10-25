@@ -74,22 +74,14 @@ new D3HorizontalBarChart("remote-changes-chart", "remote-changes-table", {
 new D3VerticalBarChart("my-company-has-remote-work-figured-out-chart", "my-company-has-remote-work-figured-out-table", {
   showLegend: false,
   showInlineBarValues: "outside",
-  colorMod: 2
+  colorMod: 0
 });
 
 new D3VerticalBarChart("i-enjoy-remote-work-chart", "i-enjoy-remote-work-table", {
   showLegend: false,
   showInlineBarValues: "outside",
-  colorMod: 2
+  colorMod: 1
 });
-
-
-new D3VerticalBarChart("i-enjoy-remote-work-chart", "i-enjoy-remote-work-table", {
-  showLegend: false,
-  showInlineBarValues: "outside",
-  colorMod: 2
-});
-
 
 new D3VerticalBarChart("i-would-like-to-work-remote-more-often-chart", "i-would-like-to-work-remote-more-often-table", {
   showLegend: false,
@@ -100,18 +92,23 @@ new D3VerticalBarChart("i-would-like-to-work-remote-more-often-chart", "i-would-
 new D3VerticalBarChart("i-changed-jobs-to-work-remotely-more-often-chart", "i-changed-jobs-to-work-remotely-more-often-table", {
   showLegend: false,
   showInlineBarValues: "outside",
-  colorMod: 2
+  colorMod: 3
 });
 
 new D3VerticalBarChart("i-would-quit-my-job-if-remote-was-more-often-chart", "i-would-quit-my-job-if-remote-was-more-often-table", {
   showLegend: false,
   showInlineBarValues: "outside",
-  colorMod: 2
+  colorMod: 4
 });
 
 new D3VerticalBarChart("i-would-quit-if-in-person-was-more-often-chart", "i-would-quit-if-in-person-was-more-often-table", {
   showLegend: false,
   showInlineBarValues: "outside",
+  colorMod: 5
+});
+
+new D3LineChart("primary-programming-language-changes-2020-2022-chart", "primary-programming-language-changes-2020-2022-table", {
+  showLegend: true,
   colorMod: 2
 });
 

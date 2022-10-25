@@ -260,6 +260,71 @@
 	fill: url(#gradient-dusk-h);
 }
 
+.d3chart-color-stroke-0 {
+  stroke: url(#gradient-sunrise-h);
+}
+
+.d3chart-color-stroke-1 {
+  stroke: url(#gradient-blue-h);
+}
+
+.d3chart-color-stroke-2 {
+  stroke: url(#gradient-sun-h);
+}
+
+.d3chart-color-stroke-3 {
+  stroke: url(#gradient-seamist-h);
+}
+
+.d3chart-color-stroke-4 {
+  stroke: url(#gradient-hallows-h);
+}
+
+.d3chart-color-stroke-5 {
+  stroke: url(#gradient-bubblegum-h);
+}
+
+.d3chart-color-stroke-6 {
+  stroke: url(#gradient-purple-h);
+}
+
+.d3chart-color-stroke-7 {
+  stroke: url(#gradient-air-h);
+}
+
+.d3chart-color-stroke-8 {
+  stroke: url(#gradient-pink-h);
+}
+
+.d3chart-color-stroke-9 {
+  stroke: url(#gradient-leaves-h);
+}
+
+.d3chart-color-stroke-10 {
+  stroke: url(#gradient-haze-h);
+}
+
+.d3chart-color-stroke-11 {
+  stroke: url(#gradient-gnat-h);
+}
+
+.d3chart-color-stroke-12 {
+  stroke: url(#gradient-fire-h);
+}
+
+.d3chart-color-stroke-13 {
+  stroke: url(#gradient-ocean-h);
+}
+
+.d3chart-color-stroke-14 {
+  stroke: url(#gradient-night-h);
+}
+
+.d3chart-color-stroke-15 {
+  stroke: url(#gradient-dusk-h);
+}
+
+
 /* Legend gradients */
 .d3chart-legend-0 {
 	color: #fff;
