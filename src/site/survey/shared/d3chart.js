@@ -845,7 +845,7 @@ class D3BubbleChart extends D3Chart {
         id,
         x,
         y,
-        r,
+        r
       };
     });
 
@@ -924,6 +924,7 @@ class D3BubbleChart extends D3Chart {
     let xAxisMax = this.resolveLimit(data, "x", options.valueType[0], "max");
     let yAxisMin = this.resolveLimit(data, "y", options.valueType[1], "min");
     let yAxisMax = this.resolveLimit(data, "y", options.valueType[1], "max");
+
 
     let xScale = d3
       .scaleLinear()
@@ -1058,12 +1059,6 @@ class D3BubbleChart extends D3Chart {
 
 class D3LineChart extends D3Chart {
   constructor(target, tableId, optionOverrides = {}) {
-    // optionOverrides.margin = Object.assign({
-    //   top: 20,
-    //   right: 50,
-    //   bottom: 20,
-    //   left: 120
-    // }, optionOverrides.margin);
     let chart = super(target, optionOverrides, "d3chart-hline");
     let csvData = chart.parseDataToCsv(tableId, true);
     let data = Object.assign(d3.csvParse(csvData, d3.autoType));
@@ -1146,7 +1141,5 @@ class D3LineChart extends D3Chart {
       .attr("class", (d, j) => `d3chart-color-stroke-${j + options.colorMod}`);
 
     chart.reset(svg);
-
-    // const xScale = d3.scaleTime().range([0,width]);
   }
 }
