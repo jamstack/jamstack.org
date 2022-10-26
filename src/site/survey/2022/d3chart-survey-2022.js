@@ -10,13 +10,13 @@ new D3HorizontalBarChart("employment-status-chart", "employment-status-table", {
   showInlineBarValues: "outside",
   showLegend: false,
   margin: {
-    left: 188
+    left: 128
   },
   colorMod: 2
 });
 
 new D3VerticalBarChart("experience-increasing-over-time-chart", "experience-increasing-over-time-table", {
-  showInlineBarValues: "outside",
+  showInlineBarValues: false
 });
 
 new D3HorizontalBarChart("remote-frequency-chart", "remote-frequency-table", {
@@ -51,6 +51,7 @@ new D3VerticalBarChart("target-devices-by-type-chart", "target-devices-by-type-t
 });
 
 new D3BubbleChart("cms-usage-vs-satisfaction-chart", "cms-usage-vs-satisfaction-table", {
+  radiusColumn: 1,
   valueType: ["percentage", "float"]
 });
 
@@ -69,14 +70,17 @@ new D3LineChart("primary-programming-language-changes-2020-2022-chart", "primary
 });
 
 new D3BubbleChart("programming-language-usage-vs-satisfaction-chart", "programming-language-usage-vs-satisfaction-table", {
+  radiusColumn: 1,
   valueType: ["percentage", "float"]
 });
 
 new D3BubbleChart("frameworks-usage-vs-satisfaction-chart", "frameworks-usage-vs-satisfaction-table", {
+  radiusColumn: 1,
   valueType: ["percentage", "float"]
 });
 
 new D3BubbleChart("smaller-frameworks-usage-vs-satisfaction-chart", "smaller-frameworks-usage-vs-satisfaction-table", {
+  radiusColumn: 1,
   valueType: ["percentage", "float"]
 });
 

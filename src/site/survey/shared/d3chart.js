@@ -250,7 +250,6 @@ class D3Chart {
 
     let headerOutput = [];
     for (let th of headerCells) {
-      console.log(th.textContent)
       headerOutput.push(th.textContent.replace(/,/g, "&comma;"));
     }
 
@@ -598,6 +597,19 @@ class D3VerticalBarChart extends D3Chart {
     }
 
     chart.reset(svg);
+
+    // d3.selectAll(".d3chart-inlinebarvalue")
+    //   .style("transform-box", "fill-box")
+    //   .style("transform-origin", "50%")
+    //   .style("transform", function(data) {
+    //     const elementWidth = this.getBBox().width;
+
+    //     if(elementWidth >= data.width) {
+    //       return `scale(${data.width / elementWidth})`
+    //     }
+
+    //     return 'scale(1)';
+    //   })
   }
 }
 
@@ -840,13 +852,14 @@ class D3BubbleChart extends D3Chart {
     this.axisLabels = dataSplit[0].split(",").slice(1);
 
     let data = dataSplit.slice(1).map((entry, id) => {
-      let [name, x, y, r] = entry.split(",");
+      const columns = entry.split(",");
+      let [name, x, y, r] = columns;
       return {
         name,
         id,
         x,
         y,
-        r
+        r: r ?? columns[optionOverrides.radiusColumn],
       };
     });
 
@@ -921,21 +934,24 @@ class D3BubbleChart extends D3Chart {
 
     let targetId = this.targetId;
 
+    let xScale = d3
+      .scaleLinear()
+      .range([margin.left, width - margin.right])
+
+    let yScale = d3
+      .scaleLinear()
+      .range([margin.top, height - margin.bottom])
+
     let xAxisMin = this.resolveLimit(data, "x", options.valueType[0], "min");
     let xAxisMax = this.resolveLimit(data, "x", options.valueType[0], "max");
     let yAxisMin = this.resolveLimit(data, "y", options.valueType[1], "min");
     let yAxisMax = this.resolveLimit(data, "y", options.valueType[1], "max");
+    
+    const yExtent = d3.extent([yAxisMin, yAxisMax]);
+    const yRange = yExtent[1] - yExtent[0];
 
-
-    let xScale = d3
-      .scaleLinear()
-      .domain([xAxisMin, xAxisMax])
-      .range([margin.left, width - margin.right]);
-
-    let yScale = d3
-      .scaleLinear()
-      .domain([yAxisMax, yAxisMin])
-      .range([margin.top, height - margin.top - margin.bottom]);
+    xScale.domain([xAxisMin, xAxisMax]).nice()
+    yScale.domain([yExtent[1] + yRange * 0.05, yExtent[0] - yRange * 0.05]).nice();
 
     let rScale = d3
       .scaleLinear()
@@ -979,7 +995,7 @@ class D3BubbleChart extends D3Chart {
       .append("g")
       .attr("class", "d3chart-yaxis")
       .attr("transform", function () {
-        return "translate(" + margin.left + "," + margin.top + ")";
+        return "translate(" + margin.left + "," + 0 + ")";
       })
       .call(yAxis)
       .call((g) => g.select(".domain").remove());
@@ -1078,7 +1094,7 @@ class D3LineChart extends D3Chart {
     let { options, margin, width, height, dimensions, svg } = chart;
 
     const paddingX = dimensions.container.width / 16;
-    const paddingY = 0
+    const paddingY = 0;
 
     const timeConv = d3.timeParse("%Y");
 
@@ -1108,7 +1124,11 @@ class D3LineChart extends D3Chart {
       ])
       .nice();
 
-    const yaxis = d3.axisLeft().tickFormat(d3.format(".0%")).tickSize(-width + margin.left + margin.right).scale(yScale)
+    const yaxis = d3
+      .axisLeft()
+      .tickFormat(d3.format(".0%"))
+      .tickSize(-width + margin.left + margin.right)
+      .scale(yScale);
     const xaxis = d3.axisBottom().ticks(d3.timeYear.every(1)).scale(xScale);
 
     svg
@@ -1138,7 +1158,7 @@ class D3LineChart extends D3Chart {
       .append("path")
       .attr("d", (d) => line(d.values))
       .attr("fill", "none")
-      .attr("stroke-width", 2)
+      .attr("stroke-width", 3)
       .attr("class", (d, j) => `d3chart-color-stroke-${j + options.colorMod}`);
 
     chart.reset(svg);

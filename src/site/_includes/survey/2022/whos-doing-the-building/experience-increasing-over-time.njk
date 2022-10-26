@@ -1,12 +1,18 @@
 <div class="mt-16 flex justify-between">
-  <h4 class="text-xl font-semibold">Experience increasing over time</h4>
+  {{ permalinkHeading.render('h4', "Experience increasing over time", 'text-xl font-semibold') }}
   <p class="pl-16">Years of experience relevant to current job, 2020-2022</p>
-  <div class="d3chart-legend-placeholder"></div>
 </div>
+
 <div
   id="experience-increasing-over-time-chart"
   class="d3chart-placeholder"
 ></div>
+
+<div class="d3chart-legend-placeholder d3chart-legend-wrap mt-4 mb-5">
+  <div class="d3chart-legend-placeholder"></div>
+</div>
+
+
 <div class="text-center my-2">Source: Jamstack Community Survey 2020—2022</div>
 
 <details class="mt-4 mb-32">

@@ -15,6 +15,9 @@
 .d3chart {
 	position: relative;
 }
+.d3chart svg {
+  max-width: 100%;
+}
 .d3chart > .d3chart-legend {
 	position: absolute;
 	top: 0;

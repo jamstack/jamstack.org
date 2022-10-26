@@ -1,12 +1,17 @@
 <div class="mt-16 flex justify-between">
-  <h4 class="text-xl font-semibold">Target devices by type, 2020-2022</h4>
-  <p class="pl-16">Percentage of respondents saying these targets were somewhat or very important</p>
-  <div class="d3chart-legend-placeholder"></div>
+  {{ permalinkHeading.render('h4', "Target devices by type, 2020-2022", 'text-xl font-semibold') }}
+  <p class="pl-16 max-w-sm">Percentage of respondents saying these targets were somewhat or very important</p>
 </div>
+
 <div
   id="target-devices-by-type-chart"
   class="d3chart-placeholder"
 ></div>
+
+<div class="d3chart-legend-placeholder d3chart-legend-wrap mt-4 mb-5">
+  <div class="d3chart-legend-placeholder"></div>
+</div>
+
 <div class="text-center my-2">Source: Jamstack Community Survey 2020—2022</div>
 
 <details class="mt-4 mb-32">
