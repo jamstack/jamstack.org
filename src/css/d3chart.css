@@ -50,14 +50,18 @@
 }
 .d3chart .tick line {
 	shape-rendering: crispEdges;
-	stroke: rgba(255,255,255,.15);
+}
+
+.d3chart .tick line {
+	stroke: rgba(22,26,42,.15);
 }
 .d3chart-bubble .tick:nth-child(2n) line {
-	stroke: rgba(255,255,255,.22);
+	stroke: rgba(22,26,42,.22);
 }
 .d3chart-bubble .tick:nth-child(2n+1) line {
-	stroke: rgba(255,255,255,.1);
+	stroke: rgba(22,26,42,.1);
 }
+
 .d3chart-bubble .d3chart-xaxis :first-child line,
 .d3chart-bubble .d3chart-yaxis .tick:last-child line {
 	stroke: #737680;
@@ -112,7 +116,6 @@
 
 /* Axis labels */
 .d3chart-axislabel {
-	fill: #fff;
 	text-anchor: end;
 	font-weight: 700;
 }
@@ -327,6 +330,23 @@
 	background: linear-gradient(108.82deg, #FF72CF 0%, #C92ECC 90.74%);
 }
 
-
-
 /* Overrides */
+
+/* Dark mode */
+.dark .tick line {
+	stroke: rgba(255,255,255,.15);
+}
+.dark .d3chart-bubble .tick:nth-child(2n) line {
+	stroke: rgba(255,255,255,.22);
+}
+.dark .d3chart-bubble .tick:nth-child(2n+1) line {
+	stroke: rgba(255,255,255,.1);
+}
+
+.dark .d3chart-axislabel {
+	fill: #fff;
+}
+
+.dark .d3chart-bubblelabel.offset-l {
+	filter: url(#offset-label-bg);
+}

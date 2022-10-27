@@ -1,9 +1,9 @@
 {% macro heading(title, icon, description ) %}
-  <h2 class="text-3xl mt-0 mb-2 text-white text-bold md:text-4xl md:mt-12">
+  <h2 class="text-3xl mt-0 mb-2 dark:text-white text-bold md:text-4xl md:mt-12">
     <img src="/img/svg/{{ icon }}" class="inline-block" />
     {{ title }}
   </h2>
-  <p class="text-md font-bold inline-block bg-pink-900 text-white p-y px-2 mb-4 md:text-lg leading-relaxed">
+  <p class="text-md font-bold inline-block bg-pink-900 dark:text-white p-y px-2 mb-4 md:text-lg leading-relaxed">
     {{ description | safe }}
   </p>
 {% endmacro %}
@@ -20,10 +20,10 @@
     </svg>
     {% endif %}
     <div>
-      <h3 class="font-bold text-white mb-2">
+      <h3 class="font-bold dark:text-white mb-2">
         {{ title }}
       </h3>
-      <div class="text-blue-100">
+      <div class="dark:text-blue-100">
         {{ description | safe }}
       </div>
     </div>
