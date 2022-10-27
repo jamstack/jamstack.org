@@ -1,3 +1,13 @@
+const debounce = (callback, wait) => {
+  let timeoutId = null;
+  return (...args) => {
+    window.clearTimeout(timeoutId);
+    timeoutId = window.setTimeout(() => {
+      callback.apply(null, args);
+    }, wait);
+  };
+};
+
 class D3Chart {
   constructor(targetId, options, className) {
     this.targetId = targetId;
@@ -299,6 +309,8 @@ class D3Chart {
         attrs = " type='button'";
       }
 
+      attrs += ` data-item=${this.slugify(labels[j], "")} `;
+
       entries.push({
         label: labels[j],
         html: `<${tag}${attrs} class="d3chart-legend-entry d3chart-legend-${
@@ -365,20 +377,7 @@ class D3Chart {
     let keys = this.getKeys(data);
     let legend = this.generateLegend(keys, this.options.colors);
 
-    if (this.options.highlightElementsFromLegend) {
-      legend.addEventListener("mouseover", (e) => {
-        this.highlightElements(e.target, "add");
-      });
-      legend.addEventListener("mouseout", (e) => {
-        this.highlightElements(e.target, "remove");
-      });
-      legend.addEventListener("focusin", (e) => {
-        this.highlightElements(e.target, "add");
-      });
-      legend.addEventListener("focusout", (e) => {
-        this.highlightElements(e.target, "remove");
-      });
-    }
+    legend.classList.add(`${this.targetId}-legend`);
 
     let selector = ":scope .d3chart-legend-placeholder";
 
@@ -860,6 +859,7 @@ class D3BubbleChart extends D3Chart {
         x,
         y,
         r: r ?? columns[optionOverrides.radiusColumn],
+        slug: this.slugify(name, ""),
       };
     });
 
@@ -931,27 +931,21 @@ class D3BubbleChart extends D3Chart {
       colors,
       labelColors,
     } = chart;
-
-    let targetId = this.targetId;
-
-    let xScale = d3
-      .scaleLinear()
-      .range([margin.left, width - margin.right])
-
-    let yScale = d3
-      .scaleLinear()
-      .range([margin.top, height - margin.bottom])
+    let xScale = d3.scaleLinear().range([margin.left, width - margin.right]);
+    let yScale = d3.scaleLinear().range([margin.top, height - margin.bottom]);
 
     let xAxisMin = this.resolveLimit(data, "x", options.valueType[0], "min");
     let xAxisMax = this.resolveLimit(data, "x", options.valueType[0], "max");
     let yAxisMin = this.resolveLimit(data, "y", options.valueType[1], "min");
     let yAxisMax = this.resolveLimit(data, "y", options.valueType[1], "max");
-    
+
     const yExtent = d3.extent([yAxisMin, yAxisMax]);
     const yRange = yExtent[1] - yExtent[0];
 
-    xScale.domain([xAxisMin, xAxisMax]).nice()
-    yScale.domain([yExtent[1] + yRange * 0.05, yExtent[0] - yRange * 0.05]).nice();
+    xScale.domain([xAxisMin, xAxisMax]).nice();
+    yScale
+      .domain([yExtent[1] + yRange * 0.05, yExtent[0] - yRange * 0.05])
+      .nice();
 
     let rScale = d3
       .scaleLinear()
@@ -1032,6 +1026,7 @@ class D3BubbleChart extends D3Chart {
     circles
       .enter()
       .insert("circle")
+      .attr("data-item", (d) => d.slug)
       .attr("cx", function (d) {
         return xScale(d.x);
       })
@@ -1041,7 +1036,6 @@ class D3BubbleChart extends D3Chart {
       .attr("r", function (d) {
         return rScale(d.r);
       })
-      .attr("id", (d) => this.slugify(d.name, `${targetId}-bubblecircle-`))
       .attr("fill", (d) => colors(d))
       .attr(
         "class",
@@ -1051,7 +1045,7 @@ class D3BubbleChart extends D3Chart {
     circles
       .enter()
       .append("text")
-      .attr("id", (d) => this.slugify(d.name, `${targetId}-bubblelabel-`))
+      .attr("data-item", (d) => d.slug)
       .attr("x", (d) => {
         return xScale(d.x) - (isOffsetLabel(d) ? rScale(d.r) + 4 : 0);
       })
@@ -1060,6 +1054,7 @@ class D3BubbleChart extends D3Chart {
         return "d3chart-bubblelabel" + (isOffsetLabel(d) ? " offset-l" : "");
       })
       .attr("fill", (d) => (isOffsetLabel(d) ? "currentColor" : labelColors(d)))
+      .attr("pointer-events", "none")
       .text((d) => {
         let labelId = this.retrieveLabelId(d.name);
         if (labelId) {
@@ -1071,6 +1066,80 @@ class D3BubbleChart extends D3Chart {
       .lower();
 
     chart.reset(svg);
+
+    this.setupInteractivity(svg);
+  }
+
+  setupInteractivity(svg) {
+    const circleElements = svg.selectAll(".d3chart-bubblecircle");
+    const labelElements = svg.selectAll(".d3chart-bubblelabel");
+
+    let resetTimeout;
+
+    const legendItems = d3.selectAll(
+      `.${this.targetId}-legend .d3chart-legend-entry`
+    );
+
+    function knockBackOpacity() {
+      circleElements.style("fill-opacity", 0.15);
+      labelElements.style("fill-opacity", 0.15);
+      legendItems.style("opacity", 0.15);
+    }
+
+    function resetOpacity() {
+      resetTimeout = setTimeout(() => {
+        labelElements.style("fill-opacity", 1);
+        circleElements.style("fill-opacity", 0.85);
+
+        legendItems.style("opacity", 1);
+      }, 512);
+    }
+
+    legendItems.on("mouseover", function () {
+      clearTimeout(resetTimeout);
+
+      knockBackOpacity();
+
+      const item = d3.select(this).attr("data-item");
+
+      const circle = circleElements.filter(function () {
+        return d3.select(this).attr("data-item") === item;
+      });
+
+      const label = labelElements.filter(function () {
+        return d3.select(this).attr("data-item") === item;
+      });
+
+      circle.style("fill-opacity", 1);
+      label.style("fill-opacity", 1);
+
+      d3.select(this).style("opacity", 1);
+    });
+
+    legendItems.on("mouseout", function () {
+      resetOpacity();
+    });
+
+    circleElements.on("mouseover", function (e, data) {
+      clearTimeout(resetTimeout);
+
+      knockBackOpacity();
+
+      const label = svg.select(
+        `.d3chart-bubblelabel[data-item="${data.slug}"]`
+      );
+      const legendItem = legendItems.filter(function () {
+        return d3.select(this).attr("data-item") === data.slug;
+      });
+
+      d3.select(this).style("fill-opacity", 1);
+      label.style("fill-opacity", 1);
+      legendItem.style("opacity", 1);
+    });
+
+    circleElements.on("mouseout", function () {
+      resetOpacity();
+    });
   }
 }
 

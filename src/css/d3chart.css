@@ -150,14 +150,6 @@
 .d3chart-bubble circle {
 	fill-opacity: .85;
 }
-.d3chart-bubble-active .d3chart-bubblelabel,
-.d3chart-bubble-active .d3chart-bubblecircle {
-	fill-opacity: .15;
-}
-.d3chart-bubble-active .d3chart-bubblelabel.active,
-.d3chart-bubble-active .d3chart-bubblecircle.active {
-	fill-opacity: 1;
-}
 .d3chart-bubble .d3chart-yaxis .tick:last-child text {
 	display: none;
 }
