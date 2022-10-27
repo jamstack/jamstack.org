@@ -52,7 +52,7 @@ new D3VerticalBarChart("target-devices-by-type-chart", "target-devices-by-type-t
 
 new D3BubbleChart("cms-usage-vs-satisfaction-chart", "cms-usage-vs-satisfaction-table", {
   radiusColumn: 1,
-  valueType: ["percentage", "float"]
+  valueType: ["percentage", "float"],
 });
 
 new D3HorizontalBarChart("primary-programming-language-chart", "primary-programming-language-table", {

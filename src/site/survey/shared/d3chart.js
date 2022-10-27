@@ -1176,6 +1176,7 @@ class D3LineChart extends D3Chart {
             measurement: +d[id],
           };
         }),
+        slug: this.slugify(id, ""),
       };
     });
 
@@ -1227,9 +1228,73 @@ class D3LineChart extends D3Chart {
       .append("path")
       .attr("d", (d) => line(d.values))
       .attr("fill", "none")
-      .attr("stroke-width", 3)
-      .attr("class", (d, j) => `d3chart-color-stroke-${j + options.colorMod}`);
+      .attr("stroke-width", 5)
+      .attr(
+        "class",
+        (d, j) => `d3chart-line d3chart-color-stroke-${j + options.colorMod}`
+      )
+      .attr("data-item", (d) => d.slug);
 
     chart.reset(svg);
+
+    this.setupInteractivity(svg);
+  }
+
+  setupInteractivity(svg) {
+    const lineElements = svg.selectAll(".d3chart-line");
+    const legendItems = d3.selectAll(
+      `.${this.targetId}-legend .d3chart-legend-entry`
+    );
+
+    let resetTimeout;
+
+    function knockBackOpacity() {
+      lineElements.style("opacity", 0.15);
+      legendItems.style("opacity", 0.15);
+    }
+
+    function resetOpacity() {
+      resetTimeout = setTimeout(() => {
+        lineElements.style("opacity", 1);
+        legendItems.style("opacity", 1);
+      }, 512);
+    }
+
+    lineElements.on("mouseover", function (e, data) {
+      clearTimeout(resetTimeout);
+
+      knockBackOpacity();
+
+      d3.select(this).style("opacity", 1);
+
+      const legendItem = legendItems.filter(function () {
+        return d3.select(this).attr("data-item") === data.slug;
+      });
+
+      legendItem.style("opacity", 1);
+    });
+
+    lineElements.on("mouseout", function () {
+      resetOpacity();
+    });
+
+    legendItems.on("mouseover", function (e, data) {
+      clearTimeout(resetTimeout);
+      knockBackOpacity();
+
+      const slug = d3.select(this).attr("data-item");
+
+      const line = lineElements.filter(function (d) {
+        return d.slug === slug;
+      });
+
+      line.style("opacity", 1);
+
+      d3.select(this).style("opacity", 1);
+    });
+
+    legendItems.on("mouseout", function () {
+      resetOpacity();
+    });
   }
 }
