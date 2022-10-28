@@ -1,42 +1,108 @@
+<section id="whos-doing-the-building" class="border-b pb-16 mb-16">
+  {{ permalinkHeading.render("h2", "Who’s doing the building") }}
 
-{% include "./job-title-2021-vs-2022.njk" %}
+  <p>
+    As usual, we kick off by looking at the demographics of our community. Who
+    are we, exactly?
+  </p>
 
-{% include "./employment-status.njk" %}
+  {{ permalinkHeading.render("h3", "Job titles") }}
 
-{% include "./experience-increasing-over-time.njk" %}
+  <p>
+    There was not much change in the breakdown of reported job titles in our
+    survey this year: as usual, nearly everyone (84%) who responded considers
+    themselves to be an engineer of some kind. There was one curious change,
+    however: the number of people calling themselves “full stack” versus “front
+    end” has almost exactly flipped, from 32% full stack and 45% front end last
+    year to 44% full stack and 33% front end in the 2022 survey. None of the
+    other demographic markers we tracked changed very much, so we believe this
+    is a real shift in how the community thinks of itself. We have two theories
+    about why this might be the case, and we’ll discuss them in the sections on
+    <a href="">job changes</a> and <a href="">serverless</a>.
+  </p>
 
-{% include "./remote-frequency.njk" %}
+  <!-- prettier-ignore -->
+  {% include "./job-title-2021-vs-2022.njk" %}
 
-{% include "./remote-changes.njk" %}
+  {{ permalinkHeading.render("h3", "Employment status") }}
 
-{# 
+  <p>
+    This year when asking about employment status we added a new category,
+    “self-employed”, which meant that the results are not totally comparable to
+    last year. A bunch of people who last year described themselves as
+    “full-time” switched to the “self-employed” category, which makes sense.
+    Students continue to be the second-biggest group in the community, at 21% of
+    all respondents. As we said last year, this is a solidly positive sign for a
+    community: the Jamstack remains a popular way to on-board students at
+    bootcamps into deploying websites for the first time, and becoming the
+    “default” way to build a website means the Jamstack can expect to enjoy
+    growth for years to come.
+  </p>
 
+  <!-- prettier-ignore -->
+  {% include "./employment-status.njk" %}
 
-{% include "./job-title.njk" %} #}
+  {{ permalinkHeading.render("h3", "Working experience") }}
 
+  <p>
+    When asking about our community’s level of working experience, we saw a
+    continuing trend from 2020 and 2021: the community is slowly increasing in
+    experience. 2021 was our biggest year for new community members, and you can
+    see that cohort moving up by 1 year of experience in this chart. In 2022,
+    nearly 1 in 5 developers say they have been working in their current career
+    for 15 or more years.
+  </p>
 
+  <!-- prettier-ignore -->
+  {% include "./experience-increasing-over-time.njk" %}
 
-{# 
-{% include "./employment-status-2020-to-2022.njk" %}
+  {{ permalinkHeading.render("h4", "Increasing geographical diversity") }}
 
-{% include "./years-of-experience.njk" %}
+  <p>
+    Repeating a phenomenon we first noticed last year, the geographical
+    diversity of our respondents has a strong correlation to their level of
+    career experience. In the most experienced group, 84% of respondents come
+    from either North America or Europe. In our newest group, those with less
+    than a year of experience, that falls to just 43%. That means in 2022 for
+    the first time, more than half of people who joined the Jamstack community
+    came from outside of the two big regions!
+  </p>
 
+  <p>
+    An explanation for this correlation that we find persuasive is that access
+    to technology is continuing to improve worldwide, leading to increased
+    geographical diversity. We think this is an encouraging trend, and hope that
+    it will lead to greater diversity in other dimensions as well.
+  </p>
 
+  <!-- prettier-ignore -->
+  {% include "./experience-by-region.njk" %}
 
-{% include "./what-influenced-staying-leaving.njk" %}
+  <p>
+    Every region outside of Europe and North America grew in share. The
+    fastest-growing region was Africa, which jumped from 4% of respondents to 8%
+    from 2021 to 2022. This author is also delighted to note that his home
+    region, the Caribbean, went from 0.5% to 1% in the same period.
+  </p>
 
+  <!-- prettier-ignore -->
+  {% include "./respondents-by-region.njk" %}
 
+  {{ permalinkHeading.render("h3", "The Great Resignation") }}
 
-{% include "./remote-changes.njk" %}
+  <p>
+    A phenomenon that gained a great deal of attention in 2021 was a spike in
+    the number of people changing jobs, which has become known as The Great
+    Resignation. We were interested to get hard numbers on the reality of this
+    change, and we were not disappointed: fully two-thirds of our respondents
+    reported that they changed jobs in the last year, a truly monumental shift.
+    In our job titles data we saw a big change in job titles, with 11% switching
+    from front-end to full-stack roles, a change that seems totally plausible in
+    the context of a community where 67% of people changed jobs.
+  </p>
 
-{% include "./my-company-has-remote-work-figured-out.njk" %}
-
-{% include "./i-enjoy-remote-work.njk" %}
-
-{% include "./i-would-like-to-work-remote-more-often.njk" %}
-
-{% include "./i-changed-jobs-to-work-remotely-more-often.njk" %}
-
-{% include "./i-would-quit-my-job-if-remote-was-more-often.njk" %}
-
-{% include "./i-would-quit-my-job-if-in-person-was-more-often.njk" %} #}
+  <!-- prettier-ignore -->
+  {% include "./have-you-changed-jobs-in-the-last-12-months.njk" %}
+  {% include "./remote-frequency.njk" %} 
+  {% include "./remote-changes.njk" %}
+</section>

@@ -58,6 +58,39 @@ class D3Chart {
           "#fff",
           "#fff",
         ],
+        labelColorsExtended: [
+          "#fff",
+          "#000",
+          "#000",
+          "#000",
+          "#000",
+          "#000",
+          "#000",
+          "#000",
+          "#000",
+          "#000",
+          "#000",
+          "#fff",
+          "#000",
+          "#000",
+          "#fff",
+          "#000",
+          "#000",
+          "#000",
+          "#000",
+          "#000",
+          "#000",
+          "#000",
+          "#000",
+          "#000",
+          "#fff",
+          "#000",
+          "#fff",
+          "#fff",
+          "#000",
+          "#000",
+          "#000",
+        ],
         colorMod: 0,
         inlineLabelPad: 5,
         labelPrecision: 0,
@@ -65,6 +98,8 @@ class D3Chart {
         valueType: ["percentage"],
         sortLegend: false,
         highlightElementsFromLegend: false,
+        rotateXAxisLabels: false,
+        extendedColors: false
       },
       options
     );
@@ -75,6 +110,10 @@ class D3Chart {
     );
     this.options.labelColors = this.normalizeColors(
       this.options.labelColors,
+      this.options.colorMod
+    );
+    this.options.labelColorsExtended = this.normalizeColors(
+      this.options.labelColorsExtended,
       this.options.colorMod
     );
   }
@@ -190,7 +229,11 @@ class D3Chart {
   }
 
   get labelColors() {
-    return d3.scaleOrdinal().range(this.options.labelColors);
+    if (this.options.extendedColors) {
+      return d3.scaleOrdinal().range(this.options.labelColorsExtended);
+    } else {
+      return d3.scaleOrdinal().range(this.options.labelColors);
+    }
   }
 
   get target() {
@@ -417,6 +460,12 @@ class D3Chart {
 
 class D3VerticalBarChart extends D3Chart {
   constructor(target, tableId, optionOverrides = {}) {
+    if (!optionOverrides.rotateXAxisLabels) {
+      optionOverrides.rotateXAxisLabels = {
+        maxWidth: 0,
+      };
+    }
+
     let chart = super(target, optionOverrides, "d3chart-vbar");
 
     let csvData = chart.parseDataToCsv(tableId);
@@ -597,18 +646,25 @@ class D3VerticalBarChart extends D3Chart {
 
     chart.reset(svg);
 
-    // d3.selectAll(".d3chart-inlinebarvalue")
-    //   .style("transform-box", "fill-box")
-    //   .style("transform-origin", "50%")
-    //   .style("transform", function(data) {
-    //     const elementWidth = this.getBBox().width;
+    if (width <= options.rotateXAxisLabels.maxWidth) {
+      svg.style("overflow", "visible");
+      svg
+        .select(".d3chart-xaxis")
+        .selectAll("text")
+        .attr("transform", "rotate(45)")
+        .style("text-anchor", "start");
 
-    //     if(elementWidth >= data.width) {
-    //       return `scale(${data.width / elementWidth})`
-    //     }
+      const bounds = [];
 
-    //     return 'scale(1)';
-    //   })
+      svg
+        .select(".d3chart-xaxis")
+        .selectAll(".tick")
+        .each(function () {
+          bounds.push(Math.max(this.getBBox().height, this.getBBox().width));
+        });
+
+      d3.select(svg.node().parentNode).style("margin-bottom", `${bounds[1]}px`);
+    }
   }
 }
 
@@ -1036,7 +1092,6 @@ class D3BubbleChart extends D3Chart {
       .attr("r", function (d) {
         return rScale(d.r);
       })
-      .attr("fill", (d) => colors(d))
       .attr(
         "class",
         (d, j) => `d3chart-bubblecircle d3chart-color-${j + options.colorMod}`

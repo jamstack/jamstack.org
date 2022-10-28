@@ -319,6 +319,109 @@
   stroke: url(#gradient-dusk-h);
 }
 
+.d3chart-colors-extended .d3chart-legend-16 {
+  color: #000;
+  background-image: linear-gradient(108deg, #f0185d, #ff668f);
+}
+.d3chart-colors-extended .d3chart-color-16 {
+  fill: url(#gradient-extended-16-v);
+}
+
+.d3chart-colors-extended .d3chart-legend-17 {
+  color: #000;
+  background-image: linear-gradient(108deg, #448bd0, #80c0ff);
+}
+.d3chart-colors-extended .d3chart-color-17 {
+  fill: url(#gradient-extended-17-v);
+}
+
+.d3chart-colors-extended .d3chart-legend-18 {
+  color: #000;
+  background-image: linear-gradient(108deg, #dbd600, #ffff54);
+}
+.d3chart-colors-extended .d3chart-color-18 {
+  fill: url(#gradient-extended-18-v);
+}
+
+.d3chart-colors-extended .d3chart-legend-19 {
+  color: #000;
+  background-image: linear-gradient(108deg, #63edd7, #a1ffff);
+}
+.d3chart-colors-extended .d3chart-color-19 {
+  fill: url(#gradient-extended-19-v);
+}
+
+.d3chart-colors-extended .d3chart-legend-20 {
+  color: #000;
+  background-image: linear-gradient(108deg, #cb5f00, #ff932f);
+}
+.d3chart-colors-extended .d3chart-color-20 {
+  fill: url(#gradient-extended-20-v);
+}
+
+.d3chart-colors-extended .d3chart-legend-21 {
+  color: #000;
+  background-image: linear-gradient(108deg, #ff98a8, #ffd0df);
+}
+.d3chart-colors-extended .d3chart-color-21 {
+  fill: url(#gradient-extended-21-v);
+}
+
+.d3chart-colors-extended .d3chart-legend-22 {
+  color: #fff;
+  background-image: linear-gradient(108deg, #a800dc, #e449ff);
+}
+.d3chart-colors-extended .d3chart-color-22 {
+  fill: url(#gradient-extended-22-v);
+}
+
+.d3chart-colors-extended .d3chart-legend-23 {
+  color: #000;
+  background-image: linear-gradient(108deg, #00cfe4, #6affff);
+}
+.d3chart-colors-extended .d3chart-color-23 {
+  fill: url(#gradient-extended-23-v);
+}
+
+.d3chart-colors-extended .d3chart-legend-24 {
+  color: #fff;
+  background-image: linear-gradient(108deg, #c5114c, #ff5a7c);
+}
+.d3chart-colors-extended .d3chart-color-24 {
+  fill: url(#gradient-extended-24-v);
+}
+
+.d3chart-colors-extended .d3chart-legend-25 {
+  color: #000;
+  background-image: linear-gradient(108deg, #4af4b5, #8effed);
+}
+.d3chart-colors-extended .d3chart-color-25 {
+  fill: url(#gradient-extended-25-v);
+}
+
+.d3chart-colors-extended .d3chart-legend-26 {
+  color: #000;
+  background-image: linear-gradient(108deg, #aa9ee9, #e2d5ff);
+}
+.d3chart-colors-extended .d3chart-color-26 {
+  fill: url(#gradient-extended-26-v);
+}
+
+.d3chart-colors-extended .d3chart-legend-27 {
+  color: #000;
+  background-image: linear-gradient(108deg, #00c6c9, #57ffff);
+}
+.d3chart-colors-extended .d3chart-color-27 {
+  fill: url(#gradient-extended-27-v);
+}
+
+.d3chart-colors-extended .d3chart-legend-28 {
+  color: #000;
+  background-image: linear-gradient(108deg, #e64b00, #ff8300);
+}
+.d3chart-colors-extended .d3chart-color-28 {
+  fill: url(#gradient-extended-28-v);
+}
 
 /* Legend gradients */
 .d3chart-legend-0 {

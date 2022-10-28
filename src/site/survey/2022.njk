@@ -1,5 +1,5 @@
 ---
-title: "Jamstack Community Survey 2022"
+title: "The Jamstack in Transition: Findings from the Jamstack Community Survey 2022"
 layout: layouts/base.njk
 ogimage: "/img/og/jamstack-community-survey-og.png"
 stylesheets:
@@ -24,6 +24,20 @@ gradientColors:
   night: ["#02465F", "#6AD7FF"]
   dusk: ["#960000", "#E94242"]
   rain: ["#FF72CF", "#C92ECC"]
+gradientColorsExtended:
+  "16": ["#f0185d", "#ff668f"]
+  "17": ["#448bd0", "#80c0ff"]
+  "18": ["#dbd600", "#ffff54"]
+  "19": ["#63edd7", "#a1ffff"]
+  "20": ["#cb5f00", "#ff932f"]
+  "21": ["#ff98a8", "#ffd0df"]
+  "22": ["#a800dc", "#e449ff"]
+  "23": ["#00cfe4", "#6affff"]
+  "24": ["#c5114c", "#ff5a7c"]
+  "25": ["#4af4b5", "#8effed"]
+  "26": ["#aa9ee9", "#e2d5ff"]
+  "27": ["#00c6c9", "#57ffff"]
+  "28": ["#e64b00", "#ff8300"]
 ---
 
 {% import "components/permalink-heading.njk" as permalinkHeading %}
@@ -55,36 +69,93 @@ gradientColors:
       <stop offset="0%" stop-color="{{ entry[0] }}" />
       <stop offset="100%" stop-color="{{ entry[1] }}" />
     </linearGradient>
+    {%- endfor %} {%- for key, entry in gradientColorsExtended %}
+    <linearGradient id="gradient-extended-{{ key }}-h">
+      <stop offset="0%" stop-color="{{ entry[0] }}" />
+      <stop offset="100%" stop-color="{{ entry[1] }}" />
+    </linearGradient>
+    <linearGradient
+      id="gradient-extended-{{ key }}-v"
+      x1="0"
+      x2="0"
+      y1="0"
+      y2="1"
+    >
+      <stop offset="0%" stop-color="{{ entry[0] }}" />
+      <stop offset="100%" stop-color="{{ entry[1] }}" />
+    </linearGradient>
     {%- endfor %}
   </defs>
 </svg>
 
 <section>
-  <h1 class="leading-tight">{{ title }}</h1>
+  <h1 class="leading-tight">The Jamstack in Transition</h1>
+  <h2 class="leading-tight">
+    Findings from the Jamstack Community Survey 2022
+  </h2>
+  <p>
+    The third year of the Jamstack Community Survey found a mix of things we
+    expected – indeed, things we predicted last year – as well as some big
+    surprises about the many diverse members of our community. Four out of five
+    developers are now working remotely most of the time, and more than half say
+    they would quit their jobs rather than go back to an office. The number of
+    people who have used serverless technology jumped to 70%, taking it fully
+    into the mainstream. React continued to grow to an almost unprecedented 71%
+    share of developers, and Next.js rode that wave and is now used by 1 in
+    every 2 developers.
+  </p>
+  <p>
+    <a href="https://www.netlify.com/" target="_blank">Netlify</a> sits at the
+    center of the Jamstack community, and we conduct our annual survey so we can
+    understand our community of developers. This helps us tailor our products
+    and services to our community. In sharing our survey results, we also want
+    to help developers better understand themselves and one another. Working as
+    a developer often means working in a vacuum, without a sense of what’s
+    happening in the broader community. Our survey data can help provide a sense
+    of best practices as well as an idea of what else is happening in the
+    community.
+  </p>
+  <p>
+    In addition to our usual framework census and our questions about content
+    management systems, this year we asked about some emerging technologies that
+    have got a lot of attention. The fuzzy group of technologies called “web3”
+    garnered mixed feelings despite a great deal of press in 2021 and 2022.
+    Browser-native web components, on the other hand, seem to have finally
+    reached mainstream adoption.
+  </p>
+  <p>
+    As usual, our survey covers everyone we can reach: every kind of developer
+    responded to our survey from every region of the world, whether or not they
+    were Netlify users, and whether or not they considered themselves Jamstack
+    developers. Our survey this year received a little under 7,000 responses. If
+    you’re interested in the specifics of our methodology, we have a
+    <a href="" target="_blank">detailed writeup</a> of the demographics and
+    margins of error in our survey.
+  </p>
+  <p>
+    As usual, we want to thank the developers who took the time to contribute to
+    the survey. We have done our best to take the data you’ve given us and turn
+    it into useful, actionable insights for everyone in our community, and we
+    hope it helps you.
+  </p>
 </section>
 
-<section id="whos-doing-the-building" class="border-b pb-16 mb-16">
-  {{ permalinkHeading.render('h2', 'Who’s doing the building') }}
-
-  {% include "survey/2022/whos-doing-the-building/index.njk" %}
-</section>
+{% include "survey/2022/whos-doing-the-building/index.njk" %}
 
 <section id="what-are-we-building" class="border-b pb-16 mb-16">
-  {{ permalinkHeading.render('h2', 'What are we building') }}
+  {{ permalinkHeading.render("h2", "What are we building") }}
 
   {% include "survey/2022/what-are-we-building/index.njk" %}
 </section>
 
 <section id="how-are-we-building" class="border-b pb-16 mb-16">
-  {{ permalinkHeading.render('h2', 'How are we building') }}
+  {{ permalinkHeading.render("h2", "How are we building") }}
 
   {% include "survey/2022/how-are-we-building/index.njk" %}
 </section>
 
 <section id="where-are-we-going" class="pb-16 mb-16">
-  {{ permalinkHeading.render('h2', 'Where are we going?') }}
-  
+  {{ permalinkHeading.render("h2", "Where are we going?") }}
+
   {% include "survey/2022/where-are-we-going/index.njk" %}
 </section>
-
-
