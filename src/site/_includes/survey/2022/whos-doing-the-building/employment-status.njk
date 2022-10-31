@@ -1,47 +1,49 @@
-<div class="mt-16 flex justify-between">
-  {{ permalinkHeading.render('h4', "What's your employment status?", 'text-xl font-semibold') }}
-</div>
-<div id="employment-status-chart" class="d3chart-placeholder"></div>
-<div class="text-center my-2">Source: Jamstack Community Survey 2022</div>
+<div class="survey-chart">
+  <div class="flex justify-between">
+    {{ permalinkHeading.render('h4', "What's your employment status?") }}
+  </div>
+  <div id="employment-status-chart" class="d3chart-placeholder"></div>
+  <div class="text-center">Source: Jamstack Community Survey 2022</div>
 
-<details class="mt-4 mb-32">
-  <summary class="text-sm mb-2">Show Chart Data</summary>
-  <table id="employment-status-table" class="table-auto border-collapse">
-    <thead>
-      <tr class="chart-data-table-head">
-        <th class="text-left pr-2">Employment Status</th>
-        <th class="text-left pr-2">Percentage of Survey Participants</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Full-time</td>
-        <td>50%</td>
-      </tr>
-      <tr>
-        <td>Student</td>
-        <td>21%</td>
-      </tr>
-      <tr>
-        <td>Self-employed</td>
-        <td>13%</td>
-      </tr>
-      <tr>
-        <td>Contractor</td>
-        <td>6%</td>
-      </tr>
-      <tr>
-        <td>Part-time</td>
-        <td>5%</td>
-      </tr>
-      <tr>
-        <td>Between jobs</td>
-        <td>5%</td>
-      </tr>
-      <tr>
-        <td>Retired</td>
-        <td>1%</td>
-      </tr>
-    </tbody>
-  </table>
-</details>
+  <details>
+    <summary class="text-sm">Show Chart Data</summary>
+    <table id="employment-status-table" class="table-auto border-collapse">
+      <thead>
+        <tr class="chart-data-table-head">
+          <th class="text-left pr-2">Employment Status</th>
+          <th class="text-left pr-2">Percentage of Survey Participants</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Full-time</td>
+          <td>50%</td>
+        </tr>
+        <tr>
+          <td>Student</td>
+          <td>21%</td>
+        </tr>
+        <tr>
+          <td>Self-employed</td>
+          <td>13%</td>
+        </tr>
+        <tr>
+          <td>Contractor</td>
+          <td>6%</td>
+        </tr>
+        <tr>
+          <td>Part-time</td>
+          <td>5%</td>
+        </tr>
+        <tr>
+          <td>Between jobs</td>
+          <td>5%</td>
+        </tr>
+        <tr>
+          <td>Retired</td>
+          <td>1%</td>
+        </tr>
+      </tbody>
+    </table>
+  </details>
+</div>

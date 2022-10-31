@@ -1,4 +1,4 @@
-<section id="whos-doing-the-building" class="border-b pb-16 mb-16">
+<section id="whos-doing-the-building" class="survey-section survey-grid border-b">
   {{ permalinkHeading.render("h2", "Who’s doing the building") }}
 
   <p>
@@ -185,11 +185,9 @@
     do it very well.
   </p>
 
-  <div class="flex gap-x-4">
-    <div class="w-1/2">{% include "./i-enjoy-remote-work.njk" %}</div>
-    <div class="w-1/2">
-      {% include "./my-company-has-remote-work-figured-out.njk" %}
-    </div>
+  <div class="survey-chart-split">
+    {% include "./i-enjoy-remote-work.njk" %}
+    {% include "./my-company-has-remote-work-figured-out.njk" %}
   </div>
 
   <p>
@@ -201,13 +199,9 @@
     motivator.
   </p>
 
-  <div class="flex gap-x-4">
-    <div class="w-1/2">
-      {% include "./i-would-like-to-work-remote-more-often.njk" %}
-    </div>
-    <div class="w-1/2">
-      {% include "./i-changed-jobs-to-work-remotely-more-often.njk" %}
-    </div>
+  <div class="survey-chart-split">
+    {% include "./i-would-like-to-work-remote-more-often.njk" %}
+    {% include "./i-changed-jobs-to-work-remotely-more-often.njk" %}
   </div>
 
   <p>
@@ -218,15 +212,8 @@
     said they would quit their jobs rather than work in person more often.
   </p>
 
-  <div class="flex gap-x-4">
-    <div class="w-1/2">
-      {% include "./i-would-quit-my-job-if-in-person-was-more-often.njk" %}
-    </div>
-    <div class="w-1/2">
-      {% include "./i-would-quit-my-job-if-remote-was-more-often.njk" %}
-    </div>
+  <div class="survey-chart-split">
+  {% include "./i-would-quit-my-job-if-in-person-was-more-often.njk" %}
+  {% include "./i-would-quit-my-job-if-remote-was-more-often.njk" %}
   </div>
-
-
-  <!-- prettier-ignore -->
 </section>

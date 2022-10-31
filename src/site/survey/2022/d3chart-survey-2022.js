@@ -4,6 +4,7 @@ new D3HorizontalBarChart(
   {
     showInlineBarValues: "outside",
     margin: {
+      bottom: 0,
       left: 188,
     },
     colorMod: 1,

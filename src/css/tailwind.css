@@ -532,6 +532,117 @@ details[open] .summary-swap-open {
   @apply opacity-100;
 }
 
+.survey-grid {
+  --gap: 2rem;
+  --full: minmax(var(--gap), 1fr);
+  --content: min(52rem, 100% - var(--gap) * 2);
+  --popout: minmax(0, 2rem);
+  --feature: minmax(0, 5rem);
+
+  display: grid;
+  grid-template-columns:
+    [full-start] var(--full)
+    [feature-start] var(--feature)
+    [popout-start] var(--popout)
+    [content-start] var(--content) [content-end]
+    var(--popout) [popout-end]
+    var(--feature) [feature-end]
+    var(--full) [full-end];
+}
+
+.survey-grid > * {
+  grid-column: content;
+}
+
+.stack > * + * {
+  margin-block-end: 0;
+  margin-block-start: var(--stack-space);
+}
+
+:where(.survey) section {
+  padding: 0;
+  margin: 0;
+  max-width: none;
+}
+
+:where(.survey) h1, h2, h3, h4, h5 {
+  margin: 0;
+}
+
+.survey h3 {
+  @apply text-2xl font-semibold;
+}
+
+.survey h4 {
+  @apply text-xl font-semibold;
+}
+
+.survey-chart h5 {
+  @apply text-lg font-semibold;
+}
+
+.survey > * + * {
+  margin-block-start: 6rem;
+}
+
+.survey-toc, 
+.survey-toc + * {
+  margin-block-start: 3rem;
+}
+
+.survey-section > * + * {
+  margin-block-start: 1.5rem;
+}
+
+.survey-section:not(:first-of-type) {
+  padding-bottom: 6rem;
+}
+
+.survey-section h3 {
+  margin-block-start: 3rem;
+} 
+
+.survey-section .survey-chart,
+.survey-section .survey-chart + * {
+  margin-block-start: 3rem;
+}
+
+.survey-section .survey-chart-split,
+.survey-section .survey-chart-split + * {
+  margin-block-start: 4.5rem;
+}
+
+/* 
+.survey-chart {
+  grid-column: popout;
+} */
+
+.survey-chart > * + * {
+  margin-block-start: 1.5rem;
+}
+
+.survey-section:first-of-type p:first-of-type {
+  margin-block-start: 4.5rem;
+}
+
+.survey-chart-split {
+  display: flex;
+}
+
+.survey-chart-split {
+  --min: 24rem;
+  --gap: 1.5rem;
+  
+  grid-column: feature;
+  display: grid;
+  grid-column-gap: var(--gap);
+  grid-row-gap: 4.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, var(--min)), 1fr));
+}
+
+.survey-chart-split .survey-chart {
+  margin-block-start: 0;
+}
 
 /* purgecss end ignore */
 
