@@ -612,13 +612,12 @@ details[open] .summary-swap-open {
   margin-block-start: 4.5rem;
 }
 
-/* 
-.survey-chart {
-  grid-column: popout;
-} */
-
 .survey-chart > * + * {
   margin-block-start: 1.5rem;
+}
+
+.survey-chart > div:first-of-type {
+  column-gap: 1.5rem;
 }
 
 .survey-section:first-of-type p:first-of-type {
