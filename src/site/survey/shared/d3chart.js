@@ -624,7 +624,7 @@ class D3VerticalBarChart extends D3Chart {
         width: (x0.bandwidth() * 1 + keys.length) + 2,
       })
 
-      svg.selectAll(".d3chart-xaxis text").call(wrap).style('word-break', 'break-word')
+      svg.selectAll(".d3chart-xaxis text").call(wrap);
       svg
         .selectAll("foreignObject")
         .attr("x", function () {

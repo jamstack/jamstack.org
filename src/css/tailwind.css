@@ -581,6 +581,11 @@ details[open] .summary-swap-open {
   @apply text-lg font-semibold;
 }
 
+
+.survey {
+  margin-block-start: 4.5rem;
+}
+
 .survey > * + * {
   margin-block-start: 6rem;
 }

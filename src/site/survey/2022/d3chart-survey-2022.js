@@ -227,7 +227,6 @@ new D3VerticalBarChart(
   "target-devices-by-type-table",
   {
     showInlineBarValues: "outside",
-    showInlineBarValues: false,
     wrapAxisLabel: {
       bottom: true
     },
@@ -238,7 +237,7 @@ new D3VerticalBarChart(
   "audience-sizes-chart",
   "audience-sizes-table",
   {
-    showInlineBarValues: false,
+    showInlineBarValues: "outside",
     wrapAxisLabel: {
       bottom: true
     },
