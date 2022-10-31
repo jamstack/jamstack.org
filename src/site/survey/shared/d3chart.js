@@ -622,7 +622,7 @@ class D3VerticalBarChart extends D3Chart {
       const wrap = d3.textwrap().bounds({
         height: margin.bottom,
         width: x0.bandwidth() * 1 + keys.length,
-      });
+      }).padding(2);
 
       svg.selectAll(".d3chart-xaxis text").call(wrap);
       svg
