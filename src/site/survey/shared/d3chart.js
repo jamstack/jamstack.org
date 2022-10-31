@@ -671,6 +671,8 @@ class D3HorizontalBarChart extends D3Chart {
     let csvData = chart.parseDataToCsv(tableId, true);
     let data = Object.assign(d3.csvParse(csvData, d3.autoType));
 
+    console.log(csvData)
+
     this.onDeferInit(function () {
       this.render(chart, data);
       this.renderLegend(data);

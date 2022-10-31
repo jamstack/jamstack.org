@@ -209,11 +209,32 @@ new D3HorizontalBarChart(
   }
 );
 
+new D3HorizontalBarChart(
+  "types-of-sites-built-last-12-months-chart",
+  "types-of-sites-built-last-12-months-table",
+  {
+    mode: "stacked",
+    showInlineBarValues: false,
+    margin: {
+      left: 128,
+      right: 0,
+    },
+  }
+);
+
 new D3VerticalBarChart(
   "target-devices-by-type-chart",
   "target-devices-by-type-table",
   {
     showInlineBarValues: "outside",
+  }
+);
+
+new D3VerticalBarChart(
+  "audience-sizes-chart",
+  "audience-sizes-table",
+  {
+    showInlineBarValues: false,
   }
 );
 
