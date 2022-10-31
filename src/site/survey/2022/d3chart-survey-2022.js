@@ -93,7 +93,7 @@ new D3HorizontalBarChart("remote-frequency-chart", "remote-frequency-table", {
   margin: {
     left: 64,
   },
-  colorMod: 0
+  colorMod: 0,
 });
 
 new D3HorizontalBarChart("remote-changes-chart", "remote-changes-table", {
