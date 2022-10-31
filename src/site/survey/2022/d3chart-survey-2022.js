@@ -47,12 +47,11 @@ new D3VerticalBarChart(
     showInlineBarValues: false,
     margin: {
       left: 32,
-      right: 24
+      bottom: 88,
+      right: 32
     },
     colorMod: 1,
-    rotateXAxisLabels: {
-      maxWidth: 1024
-    }
+    rotateXAxisLabels: true
   }
 );
 
@@ -60,6 +59,7 @@ new D3HorizontalBarChart(
   "have-you-changed-jobs-in-the-last-12-months-chart",
   "have-you-changed-jobs-in-the-last-12-months-table",
   {
+    showInlineBarValues: "outside",
     showLegend: false,
     margin: {
       left: 40,
@@ -68,8 +68,27 @@ new D3HorizontalBarChart(
   }
 );
 
+new D3HorizontalBarChart("what-influenced-staying-chart", "what-influenced-staying-table", {
+  mode: "stacked",
+  showInlineBarValues: false,
+  margin: {
+    left: 164,
+    right: 0,
+  },
+});
+
+new D3HorizontalBarChart("what-influenced-leaving-chart", "what-influenced-staying-table", {
+  mode: "stacked",
+  showInlineBarValues: false,
+  margin: {
+    left: 164,
+    right: 0,
+  },
+});
+
 new D3HorizontalBarChart("remote-frequency-chart", "remote-frequency-table", {
   showLegend: false,
+  showInlineBarValues: "outside",
   margin: {
     left: 64,
   },
@@ -84,6 +103,97 @@ new D3HorizontalBarChart("remote-changes-chart", "remote-changes-table", {
   },
   colorMod: 1,
 });
+
+new D3VerticalBarChart(
+  "i-enjoy-remote-work-chart",
+  "i-enjoy-remote-work-table",
+  {
+    showLegend: false,
+    showInlineBarValues: 'outside',
+    colorMod: 2,
+    wrapAxisLabel: {
+      bottom: true
+    },
+  }
+);
+
+new D3VerticalBarChart(
+  "my-company-has-remote-work-figured-out-chart",
+  "my-company-has-remote-work-figured-out-table",
+  {
+    showLegend: false,
+    showInlineBarValues: 'outside',
+    colorMod: 2,
+    wrapAxisLabel: {
+      bottom: true
+    },
+  }
+);
+
+new D3VerticalBarChart(
+  "i-would-like-to-work-remote-more-often-chart",
+  "i-would-like-to-work-remote-more-often-table",
+  {
+    showLegend: false,
+    showInlineBarValues: 'outside',
+    colorMod: 3,
+    wrapAxisLabel: {
+      bottom: true
+    },
+  }
+);
+
+new D3VerticalBarChart(
+  "i-would-like-to-work-remote-more-often-chart",
+  "i-would-like-to-work-remote-more-often-table",
+  {
+    showLegend: false,
+    showInlineBarValues: 'outside',
+    colorMod: 3,
+    wrapAxisLabel: {
+      bottom: true
+    },
+  }
+);
+
+new D3VerticalBarChart(
+  "i-changed-jobs-to-work-remotely-more-often-chart",
+  "i-changed-jobs-to-work-remotely-more-often-table",
+  {
+    showLegend: false,
+    showInlineBarValues: 'outside',
+    colorMod: 3,
+    wrapAxisLabel: {
+      bottom: true
+    },
+  }
+);
+
+new D3VerticalBarChart(
+  "i-would-quit-if-in-person-was-more-often-chart",
+  "i-would-quit-if-in-person-was-more-often-table",
+  {
+    showLegend: false,
+    showInlineBarValues: 'outside',
+    colorMod: 0,
+    wrapAxisLabel: {
+      bottom: true
+    },
+  }
+);
+
+new D3VerticalBarChart(
+  "i-would-quit-my-job-if-remote-was-more-often-chart",
+  "i-would-quit-my-job-if-remote-was-more-often-table",
+  {
+    showLegend: false,
+    showInlineBarValues: 'outside',
+    colorMod: 0,
+    wrapAxisLabel: {
+      bottom: true
+    },
+  }
+);
 
 new D3HorizontalBarChart(
   "what-is-the-purpose-of-the-sites-you-built-in-2022-chart",

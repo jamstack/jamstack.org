@@ -101,8 +101,132 @@
     the context of a community where 67% of people changed jobs.
   </p>
 
-  <!-- prettier-ignore -->
   {% include "./have-you-changed-jobs-in-the-last-12-months.njk" %}
-  {% include "./remote-frequency.njk" %} 
+
+  {{ permalinkHeading.render("h4", "Why people stay") }}
+
+  <p>
+    We had a second question about the great resignation asking people what
+    motivated their behavior – either why they stayed, or why they left. The
+    biggest reason people kept their jobs will be no surprise: people stay if
+    they like their team. Humans are social animals, and a team you love makes
+    work more bearable.
+  </p>
+
+  <p>
+    A more surprising finding was that the number two reason, as measured by
+    those who called it “extremely important”, was remote work. People really,
+    really like working remotely. Money was important, but it was only the
+    fifth-biggest reason people stayed where they were. Career growth was also a
+    very important reason to stay.
+  </p>
+
+  <!-- prettier-ignore -->
+  {% include "./what-influenced-staying.njk" %}
+
+  {{ permalinkHeading.render("h4", "Why people leave") }}
+
+  <p>
+    Why people left jobs was even heavier on remote work: being able to work
+    remotely at the new job was the number one reason people left their jobs in
+    our community, as measured by the number of people saying it was an
+    “extremely important” reason. Growing in your career came in second when
+    measured in this way, though if you include people who called things “very”
+    important in addition to “extremely” important it came first. Company
+    culture, bad teams, and not enough money came next.
+  </p>
+
+  {% include "./what-influenced-leaving.njk" %}
+
+  {{ permalinkHeading.render("h3", "Remote work") }}
+
+  <p>
+    Given that two-thirds of respondents changed jobs in the last year and many
+    indicated that remote work was their primary reason for either staying or
+    leaving a company, our next finding makes sense: a startling 83% of our
+    respondents say they work remotely at least half of the time. Three in five
+    (62%) work remotely at least 90% of the time, which we’re going to call
+    “full time remote”. In last year’s survey about a third said their job had
+    gone full-time remote, and we know from earlier surveys (such as GitHub’s
+    Octoverse report) that about a third of people were already working remotely
+    before the pandemic, so this is roughly double the pre-pandemic numbers.
+  </p>
+
+  {% include "./remote-frequency.njk" %}
+
+  {{ permalinkHeading.render("h4", "Changes in remote work") }}
+
+  <p>
+    Since a lot of remote work was driven by the pandemic and offices around the
+    world are still in the process of reopening, we thought it was fair to ask
+    whether or not this new state was going to be permanent, or whether people
+    were returning to offices, but slowly.
+  </p>
+
+  <p>
+    The clear response was that remote work is here to stay. A solid majority
+    (76%) of respondents said their frequency of remote work had either stayed
+    the same or increased in the last year. Indeed the strongest signal is that
+    this is the new normal: 52% of people said nothing changed about their
+    remote working situation, and the ratio of those working remotely more often
+    versus less often was just 1.04, meaning only a small net change.
+  </p>
+
+  <!-- prettier-ignore -->
   {% include "./remote-changes.njk" %}
+
+  {{ permalinkHeading.render("h4", "Attitudes to remote work") }}
+
+  <p>
+    We also asked our community about their attitudes to various aspects of
+    remote work. 87% of respondents say they enjoy remote work, but only 71% say
+    their company has remote work “figured out”, which implies there’s 16% of
+    people enjoying remote work even though they believe their company doesn’t
+    do it very well.
+  </p>
+
+  <div class="flex gap-x-4">
+    <div class="w-1/2">{% include "./i-enjoy-remote-work.njk" %}</div>
+    <div class="w-1/2">
+      {% include "./my-company-has-remote-work-figured-out.njk" %}
+    </div>
+  </div>
+
+  <p>
+    As we suspected from the job change data, the number of people who would
+    like to work remotely even more often than they currently do is high: 59%.
+    And the number saying they changed jobs specifically to be able to work
+    remotely more often is 35%, which is roughly half of all the people who
+    changed jobs in the last year. That is a huge amount of change, and a strong
+    motivator.
+  </p>
+
+  <div class="flex gap-x-4">
+    <div class="w-1/2">
+      {% include "./i-would-like-to-work-remote-more-often.njk" %}
+    </div>
+    <div class="w-1/2">
+      {% include "./i-changed-jobs-to-work-remotely-more-often.njk" %}
+    </div>
+  </div>
+
+  <p>
+    Our final pair of questions about remote work determined two things: first,
+    we confirmed that it’s not just that people hate having their jobs changed:
+    asked if they would quit their jobs if asked to work remotely more often,
+    only 11% said they would. Asked the opposite question, 55% of respondents
+    said they would quit their jobs rather than work in person more often.
+  </p>
+
+  <div class="flex gap-x-4">
+    <div class="w-1/2">
+      {% include "./i-would-quit-my-job-if-in-person-was-more-often.njk" %}
+    </div>
+    <div class="w-1/2">
+      {% include "./i-would-quit-my-job-if-remote-was-more-often.njk" %}
+    </div>
+  </div>
+
+
+  <!-- prettier-ignore -->
 </section>

@@ -57,26 +57,6 @@ class D3Chart {
           "#000",
           "#fff",
           "#fff",
-        ],
-        labelColorsExtended: [
-          "#fff",
-          "#000",
-          "#000",
-          "#000",
-          "#000",
-          "#000",
-          "#000",
-          "#000",
-          "#000",
-          "#000",
-          "#000",
-          "#fff",
-          "#000",
-          "#000",
-          "#fff",
-          "#000",
-          "#000",
-          "#000",
           "#000",
           "#000",
           "#000",
@@ -86,7 +66,7 @@ class D3Chart {
           "#fff",
           "#000",
           "#fff",
-          "#fff",
+          "#000",
           "#000",
           "#000",
           "#000",
@@ -98,8 +78,7 @@ class D3Chart {
         valueType: ["percentage"],
         sortLegend: false,
         highlightElementsFromLegend: false,
-        rotateXAxisLabels: false,
-        extendedColors: false
+        extendedColors: false,
       },
       options
     );
@@ -110,10 +89,6 @@ class D3Chart {
     );
     this.options.labelColors = this.normalizeColors(
       this.options.labelColors,
-      this.options.colorMod
-    );
-    this.options.labelColorsExtended = this.normalizeColors(
-      this.options.labelColorsExtended,
       this.options.colorMod
     );
   }
@@ -229,11 +204,7 @@ class D3Chart {
   }
 
   get labelColors() {
-    if (this.options.extendedColors) {
-      return d3.scaleOrdinal().range(this.options.labelColorsExtended);
-    } else {
-      return d3.scaleOrdinal().range(this.options.labelColors);
-    }
+    return d3.scaleOrdinal().range(this.options.labelColors);
   }
 
   get target() {
@@ -646,24 +617,41 @@ class D3VerticalBarChart extends D3Chart {
 
     chart.reset(svg);
 
-    if (width <= options.rotateXAxisLabels.maxWidth) {
-      svg.style("overflow", "visible");
+    if (options.wrapAxisLabel && options.wrapAxisLabel.bottom) {
+      const heights = [];
+      const wrap = d3.textwrap().bounds({
+        height: margin.bottom,
+        width: x0.bandwidth() * 1 + keys.length,
+      });
+
+      svg.selectAll(".d3chart-xaxis text").call(wrap);
+      svg
+        .selectAll("foreignObject")
+        .attr("x", function () {
+          return (-1 * +d3.select(this).attr("width")) / 2;
+        })
+        .style("text-align", "center")
+        .style("font-weight", 600)
+        .attr("height", function () {
+          const height = d3
+            .select(this)
+            .select("div")
+            .node()
+            .getBoundingClientRect().height;
+          heights.push(height);
+          return height;
+        });
+
+      svg.attr("overflow", "visible");
+      svg.node().parentNode.style.marginBottom = `${Math.max(...heights)}px`;
+    }
+
+    if (options.rotateXAxisLabels === true) {
       svg
         .select(".d3chart-xaxis")
         .selectAll("text")
         .attr("transform", "rotate(45)")
         .style("text-anchor", "start");
-
-      const bounds = [];
-
-      svg
-        .select(".d3chart-xaxis")
-        .selectAll(".tick")
-        .each(function () {
-          bounds.push(Math.max(this.getBBox().height, this.getBBox().width));
-        });
-
-      d3.select(svg.node().parentNode).style("margin-bottom", `${bounds[1]}px`);
     }
   }
 }
