@@ -38,7 +38,7 @@ new D3HorizontalBarChart(
       left: 96,
       right: 0,
     },
-  }
+  },
 );
 
 new D3VerticalBarChart(
@@ -254,26 +254,6 @@ new D3BubbleChart(
   }
 );
 
-new D3HorizontalBarChart(
-  "primary-programming-language-chart",
-  "primary-programming-language-table",
-  {
-    showInlineBarValues: "outside",
-    showLegend: false,
-    colorMod: 0,
-    margin: {
-      left: 96,
-    },
-  }
-);
-
-new D3LineChart(
-  "primary-programming-language-changes-2020-2022-chart",
-  "primary-programming-language-changes-2020-2022-table",
-  {
-    showLegend: true,
-  }
-);
 
 new D3BubbleChart(
   "programming-language-usage-vs-satisfaction-chart",
@@ -303,12 +283,13 @@ new D3BubbleChart(
   }
 );
 
+
 new D3BubbleChart(
   "frameworks-usage-vs-satisfaction-changes-chart",
   "frameworks-usage-vs-satisfaction-changes-table",
   {
     valueType: ["percentage", "float"],
-    extendedColors: true
+    extendedColors: true,
   }
 );
 
@@ -343,5 +324,8 @@ new D3HorizontalBarChart("web-components-chart", "web-components-table", {
 new D3VerticalBarChart("serverless-usage-chart", "serverless-usage-table", {
   showLegend: false,
   showInlineBarValues: "outside",
-  colorMod: 0,
+  colorMod: 2,
+  wrapAxisLabel: {
+    bottom: true
+  }
 });

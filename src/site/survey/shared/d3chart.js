@@ -500,7 +500,7 @@ class D3VerticalBarChart extends D3Chart {
       .scaleBand()
       .domain(keys)
       .rangeRound([0, x0.bandwidth()])
-      .padding(0.05);
+      .padding(0.1);
 
     let yAxis = (g) =>
       g

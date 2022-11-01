@@ -9,7 +9,7 @@ javascripts:
 gradientColors:
   sunrise: ["#F0047F", "#FC814A"]
   blue: ["#0090c9", "#00c0ad"]
-  sun: ["#FFC803", "#FC814A"]
+  sun: ["#FC814A", "#FFC803"]
   seamist: ["#78ECC2", "#00FFB2"]
   hallows: ["#DF4A1F", "#FFA278"]
   bubblegum: ["#FF98BC", "#FFCCDE"]
@@ -167,22 +167,8 @@ gradientColorsExtended:
   {% include "survey/2022/whos-doing-the-building/index.njk" %}
 
   {% include "survey/2022/what-are-we-building/index.njk" %}
-{# 
-  <section id="what-are-we-building" class="border-b">
-    {{ permalinkHeading.render("h2", "What are we building") }}
 
-    
-  </section>
+  {% include "survey/2022/how-are-we-building/index.njk" %}
 
-  <section id="how-are-we-building" class="border-b">
-    {{ permalinkHeading.render("h2", "How are we building") }}
-
-    {% include "survey/2022/how-are-we-building/index.njk" %}
-  </section>
-
-  <section id="where-are-we-going">
-    {{ permalinkHeading.render("h2", "Where are we going?") }}
-
-    {% include "survey/2022/where-are-we-going/index.njk" %}
-  </section> #}
+  {% include "survey/2022/where-are-we-going/index.njk" %}
 </div>

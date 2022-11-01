@@ -189,16 +189,18 @@
 	fill: url(#gradient-hallows-h);
 }
 .d3chart-color-5 {
-	fill: url(#gradient-bubblegum-v);
-}
-.d3chart-hbar .d3chart-color-5 {
-	fill: url(#gradient-bubblegum-h);
-}
-.d3chart-color-6 {
 	fill: url(#gradient-purple-v);
 }
-.d3chart-hbar .d3chart-color-6 {
+.d3chart-hbar .d3chart-color-5 {
 	fill: url(#gradient-purple-h);
+}
+.d3chart-color-6 {
+  fill: url(#gradient-bubblegum-v);
+	
+}
+.d3chart-hbar .d3chart-color-6 {
+  fill: url(#gradient-bubblegum-h);
+	
 }
 .d3chart-color-7 {
 	fill: url(#gradient-air-v);
@@ -434,7 +436,7 @@
 }
 .d3chart-legend-2 {
 	color: #000;
-	background: linear-gradient(180deg, #FFC803 0%, #FC814A 100%);
+	background: linear-gradient(180deg, #FC814A 0%, #FFC803 100%);
 }
 .d3chart-legend-3 {
 	color: #000;
@@ -446,11 +448,11 @@
 }
 .d3chart-legend-5 {
 	color: #000;
-	background: linear-gradient(108.82deg, #FD98BC 32.87%, #FFCCDE 90.74%);
+	background: linear-gradient(108.82deg, #6B38FB 0%, #CCB4FF 90.74%);
 }
 .d3chart-legend-6 {
-	color: #000;
-	background: linear-gradient(108.82deg, #6B38FB 0%, #CCB4FF 90.74%);
+  color: #000;
+	background: linear-gradient(108.82deg, #FD98BC 32.87%, #FFCCDE 90.74%);
 }
 .d3chart-legend-7 {
 	color: #000;

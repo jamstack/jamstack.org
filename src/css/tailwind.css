@@ -577,10 +577,9 @@ details[open] .summary-swap-open {
   @apply text-xl font-semibold;
 }
 
-.survey-chart h5 {
+.survey h5 {
   @apply text-lg font-semibold;
 }
-
 
 .survey {
   margin-block-start: 4.5rem;
@@ -603,9 +602,16 @@ details[open] .summary-swap-open {
   padding-bottom: 6rem;
 }
 
-.survey-section h3 {
+.survey-section h3, 
+.survey-section h4, 
+.survey-section h5 {
   margin-block-start: 3rem;
 } 
+
+.survey-chart h4, 
+.survey-chart h5 {
+  margin-block-start: 0;
+}
 
 .survey-section .survey-chart,
 .survey-section .survey-chart + * {
@@ -615,6 +621,16 @@ details[open] .summary-swap-open {
 .survey-section .survey-chart-split,
 .survey-section .survey-chart-split + * {
   margin-block-start: 4.5rem;
+}
+
+.survey-section ul {
+  list-style-position: inside;
+  list-style-type: disc;
+}
+
+
+.survey-section ul > * + * {
+  margin-block-start: 0.375rem;
 }
 
 .survey-chart > * + * {
@@ -646,6 +662,19 @@ details[open] .summary-swap-open {
 
 .survey-chart-split .survey-chart {
   margin-block-start: 0;
+}
+
+.survey .final-heading {
+  @apply font-extrabold bg-gradient-pink-orange text-white;
+  grid-column: full;
+  text-align: center;
+  margin: 2em 0 1em 0;
+  font-size: clamp(1.5rem, 0.7857rem + 3.5714vw, 4rem);
+  padding: 0.5em;
+  line-height: 1.125;
+  max-width: 24ch;
+  margin-inline: auto;
+  
 }
 
 /* purgecss end ignore */
