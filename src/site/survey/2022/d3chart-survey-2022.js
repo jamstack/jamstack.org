@@ -297,7 +297,7 @@ new D3HorizontalBarChart("web3-feelings-chart", "web3-feelings-table", {
   showLegend: false,
   showInlineBarValues: "outside",
   margin: {
-    left: 196,
+    left: 164,
   },
   colorMod: 1,
 });
@@ -316,7 +316,7 @@ new D3HorizontalBarChart("web-components-chart", "web-components-table", {
   showLegend: false,
   showInlineBarValues: "outside",
   margin: {
-    left: 196,
+    left: 180,
   },
   colorMod: 3,
 });
