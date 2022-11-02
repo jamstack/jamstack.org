@@ -344,7 +344,10 @@ class D3Chart {
     for (let j = 0; j < labels.length; j++) {
       let tag = "div";
       let attrs = "";
-      if (this.options.highlightElementsFromLegend) {
+      if (
+        this.options.highlightElementsFromLegend ||
+        this.options.interactive
+      ) {
         tag = "button";
         attrs = " type='button'";
       }
@@ -558,6 +561,7 @@ class D3VerticalBarChart extends D3Chart {
           height: y(0) - y(d[key]),
           left: x1(key),
           top: y(d[key]),
+          slug: this.slugify(key, ""),
         };
 
         if (options.mode === "stacked") {
@@ -588,7 +592,9 @@ class D3VerticalBarChart extends D3Chart {
       .attr("width", (d) => d.width)
       .attr("height", (d) => (isNaN(d.height) ? 0 : d.height))
       .attr("fill", (d) => colors(d.key))
-      .attr("class", (d, j) => `d3chart-color-${j + options.colorMod}`);
+      .attr("data-item", (d) => d.key)
+      .attr("class", (d, j) => `d3chart-color-${j + options.colorMod}`)
+      .classed("d3chart-rect", true);
 
     if (options.showInlineBarValues) {
       svg
@@ -679,6 +685,89 @@ class D3VerticalBarChart extends D3Chart {
         .attr("transform", "rotate(45)")
         .style("text-anchor", "start");
     }
+
+    if (options.interactive) {
+      this.setupInteractivity(svg);
+    }
+  }
+
+  setupInteractivity(svg) {
+    const rectElements = svg.selectAll(".d3chart-rect");
+    const labelElements = svg.selectAll(".d3chart-bubblelabel");
+
+    let resetTimeout;
+
+    const legendItems = d3.selectAll(
+      `.${this.targetId}-legend .d3chart-legend-entry`
+    );
+
+    function knockBackOpacity() {
+      rectElements.style("fill-opacity", 0.15);
+      labelElements.style("fill-opacity", 0.15);
+      legendItems.style("opacity", 0.15);
+    }
+
+    function resetOpacity() {
+      resetTimeout = setTimeout(() => {
+        labelElements.style("fill-opacity", 1);
+        rectElements.style("fill-opacity", 0.85);
+
+        legendItems.style("opacity", 1);
+      }, 512);
+    }
+
+    function handleLegendIteraction() {
+      clearTimeout(resetTimeout);
+
+      knockBackOpacity();
+
+      const item = d3.select(this).attr("data-item");
+
+      const rect = rectElements.filter(function () {
+        return d3.select(this).attr("data-item") === item;
+      });
+
+      const label = labelElements.filter(function () {
+        return d3.select(this).attr("data-item") === item;
+      });
+
+      rect.style("fill-opacity", 1);
+      label.style("fill-opacity", 1);
+
+      d3.select(this).style("opacity", 1);
+    }
+
+    legendItems.on("mouseover", handleLegendIteraction);
+    legendItems.on("focus", handleLegendIteraction);
+
+    legendItems.on("mouseout", function () {
+      resetOpacity();
+    });
+
+    legendItems.on("focusout", function () {
+      resetOpacity();
+    });
+
+    rectElements.on("mouseover", function (e, data) {
+      clearTimeout(resetTimeout);
+
+      knockBackOpacity();
+
+      const label = svg.select(
+        `.d3chart-bubblelabel[data-item="${data.slug}"]`
+      );
+      const legendItem = legendItems.filter(function () {
+        return d3.select(this).attr("data-item") === data.slug;
+      });
+
+      d3.select(this).style("fill-opacity", 1);
+      label.style("fill-opacity", 1);
+      legendItem.style("opacity", 1);
+    });
+
+    rectElements.on("mouseout", function () {
+      resetOpacity();
+    });
   }
 }
 
@@ -796,6 +885,7 @@ class D3HorizontalBarChart extends D3Chart {
           height: y1.bandwidth(),
           left: margin.left,
           top: y1(key),
+          slug: this.slugify(key, ""),
         };
 
         if (options.mode === "stacked") {
@@ -827,7 +917,9 @@ class D3HorizontalBarChart extends D3Chart {
       .attr("width", (d) => (isNaN(d.width) ? 0 : d.width))
       .attr("height", (d) => d.height)
       .attr("fill", (d) => colors(d.key))
-      .attr("class", (d, j) => `d3chart-color-${j + options.colorMod}`);
+      .attr("class", (d, j) => `d3chart-color-${j + options.colorMod}`)
+      .classed("d3chart-rect", true)
+      .attr("data-item", (d) => d.slug);
 
     if (options.showInlineBarValues) {
       svg
@@ -899,6 +991,89 @@ class D3HorizontalBarChart extends D3Chart {
         margin.left - 6
       );
     }
+
+    if (options.interactive) {
+      this.setupInteractivity(svg);
+    }
+  }
+
+  setupInteractivity(svg) {
+    const rectElements = svg.selectAll(".d3chart-rect");
+    const labelElements = svg.selectAll(".d3chart-bubblelabel");
+
+    let resetTimeout;
+
+    const legendItems = d3.selectAll(
+      `.${this.targetId}-legend .d3chart-legend-entry`
+    );
+
+    function knockBackOpacity() {
+      rectElements.style("fill-opacity", 0.15);
+      labelElements.style("fill-opacity", 0.15);
+      legendItems.style("opacity", 0.15);
+    }
+
+    function resetOpacity() {
+      resetTimeout = setTimeout(() => {
+        labelElements.style("fill-opacity", 1);
+        rectElements.style("fill-opacity", 0.85);
+
+        legendItems.style("opacity", 1);
+      }, 512);
+    }
+
+    function handleLegendIteraction() {
+      clearTimeout(resetTimeout);
+
+      knockBackOpacity();
+
+      const item = d3.select(this).attr("data-item");
+
+      const rect = rectElements.filter(function () {
+        return d3.select(this).attr("data-item") === item;
+      });
+
+      const label = labelElements.filter(function () {
+        return d3.select(this).attr("data-item") === item;
+      });
+
+      rect.style("fill-opacity", 1);
+      label.style("fill-opacity", 1);
+
+      d3.select(this).style("opacity", 1);
+    }
+
+    legendItems.on("mouseover", handleLegendIteraction);
+    legendItems.on("focus", handleLegendIteraction);
+
+    legendItems.on("mouseout", function () {
+      resetOpacity();
+    });
+
+    legendItems.on("focusout", function () {
+      resetOpacity();
+    });
+
+    rectElements.on("mouseover", function (e, data) {
+      clearTimeout(resetTimeout);
+
+      knockBackOpacity();
+
+      const label = svg.select(
+        `.d3chart-bubblelabel[data-item="${data.slug}"]`
+      );
+      const legendItem = legendItems.filter(function () {
+        return d3.select(this).attr("data-item") === data.slug;
+      });
+
+      d3.select(this).style("fill-opacity", 1);
+      label.style("fill-opacity", 1);
+      legendItem.style("opacity", 1);
+    });
+
+    rectElements.on("mouseout", function () {
+      resetOpacity();
+    });
   }
 }
 
@@ -1175,7 +1350,7 @@ class D3BubbleChart extends D3Chart {
       }, 512);
     }
 
-    legendItems.on("mouseover", function () {
+    function handleLegendIteraction() {
       clearTimeout(resetTimeout);
 
       knockBackOpacity();
@@ -1194,11 +1369,16 @@ class D3BubbleChart extends D3Chart {
       label.style("fill-opacity", 1);
 
       d3.select(this).style("opacity", 1);
-    });
+    }
+
+    legendItems.on("mouseover", handleLegendIteraction);
+    legendItems.on("focus", handleLegendIteraction);
 
     legendItems.on("mouseout", function () {
       resetOpacity();
     });
+
+    legendItems.on("focusout", resetOpacity);
 
     circleElements.on("mouseover", function (e, data) {
       clearTimeout(resetTimeout);

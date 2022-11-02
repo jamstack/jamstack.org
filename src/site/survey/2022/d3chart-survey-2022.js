@@ -10,6 +10,7 @@ new D3HorizontalBarChart(
       x: true,
     },
     colorMod: 1,
+    interactive: true
   }
 );
 
@@ -30,6 +31,7 @@ new D3VerticalBarChart(
   "experience-increasing-over-time-table",
   {
     showInlineBarValues: false,
+    interactive: true
   }
 );
 
@@ -43,6 +45,7 @@ new D3HorizontalBarChart(
       left: 48,
       right: 0,
     },
+    interactive: true
   }
 );
 
@@ -58,6 +61,7 @@ new D3VerticalBarChart(
     },
     colorMod: 1,
     rotateXAxisLabels: true,
+    interactive: true
   }
 );
 
@@ -87,6 +91,7 @@ new D3HorizontalBarChart(
     scaleTicks: {
       x: true,
     },
+    interactive: true
   }
 );
 
@@ -103,6 +108,7 @@ new D3HorizontalBarChart(
     scaleTicks: {
       x: true,
     },
+    interactive: true
   }
 );
 
@@ -250,6 +256,7 @@ new D3HorizontalBarChart(
     scaleTicks: {
       x: true,
     },
+    interactive: true
   }
 );
 
@@ -261,6 +268,7 @@ new D3VerticalBarChart(
     wrapTicks: {
       x: true,
     },
+    interactive: true
   }
 );
 
@@ -269,6 +277,7 @@ new D3VerticalBarChart("audience-sizes-chart", "audience-sizes-table", {
   wrapTicks: {
     x: true,
   },
+  interactive: true
 });
 
 new D3BubbleChart(
@@ -355,6 +364,7 @@ new D3HorizontalBarChart("web3-usage-chart", "web3-usage-table", {
       x: true,
     },
   },
+  interactive: true
 });
 
 new D3HorizontalBarChart("web-components-chart", "web-components-table", {
