@@ -1,7 +1,12 @@
 <div class="survey-chart">
   <div class="flex justify-between">
-    {{ permalinkHeading.render('h4', 'Job titles, 2021 vs. 2022') }}
-    <div class="d3chart-legend-placeholder"></div>
+    <div>
+       {{ permalinkHeading.render('h4', 'Job titles, 2021 vs. 2022') }}
+      <p class="survey-chart-subheading">Percentage of respondents</p>
+    </div>
+    <div class="flex flex-col gap-y-2">
+      <div class="d3chart-legend-placeholder"></div>
+    </div>
   </div>
   <div id="job-titles-2021-2022-comparison-chart" class="d3chart-placeholder"></div>
   <div class="text-center">Source: Jamstack Community Survey 2022</div>

@@ -1,6 +1,9 @@
 <div class="survey-chart">
-  <div class="flex justify-between">
-    {{ permalinkHeading.render('h5', "Why did you stay in your job?") }}
+  <div class="flex justify-between items-center gap-x-2">
+    <div>
+      {{ permalinkHeading.render('h5', "Why did you stay in your job?") }}
+      <p class="survey-chart-subheading">Percentage of respondents</p>
+    </div>
   </div>
 
   <div id="what-influenced-staying-chart" class="d3chart-placeholder"></div>

@@ -1,6 +1,10 @@
 <div class="survey-chart">
-  <div class="flex justify-between">
-    {{ permalinkHeading.render('h5', "Respondents by region") }}
+  <div class="flex justify-between items-center gap-x-2">
+    <div>
+      {{ permalinkHeading.render("h5", "Respondents by region") }}
+      <p class="survey-chart-subheading">Percentage of respondents</p>
+    </div>
+
     <div class="d3chart-legend-placeholder"></div>
   </div>
   <div id="respondents-by-region-chart" class="d3chart-placeholder"></div>

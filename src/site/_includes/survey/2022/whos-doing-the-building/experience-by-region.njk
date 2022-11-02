@@ -1,6 +1,9 @@
 <div class="survey-chart">
-  <div class="flex justify-between">
-    {{ permalinkHeading.render('h5', "Experience by region") }}
+  <div class="flex justify-between items-center gap-x-2">
+    <div>
+      {{ permalinkHeading.render('h5', "Experience by region") }}
+      <p class="survey-chart-subheading">Percentage of respondents</p>
+    </div>
   </div>
   <div id="experience-by-region-chart" class="d3chart-placeholder d3chart-colors-extended"></div>
 

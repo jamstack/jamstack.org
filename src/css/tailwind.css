@@ -664,6 +664,15 @@ details[open] .summary-swap-open {
   margin-block-start: 0;
 }
 
+.survey-chart-respondents {
+  @apply text-sm text-right text-gray-600 dark:text-gray-300;
+}
+
+.survey-chart-subheading {
+  @apply text-gray-600 dark:text-gray-300 text-sm;
+  margin-top: 0.375rem;
+}
+
 .survey .final-heading {
   @apply font-extrabold bg-gradient-pink-orange text-white;
   grid-column: full;

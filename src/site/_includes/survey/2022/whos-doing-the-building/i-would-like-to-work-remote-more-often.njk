@@ -1,6 +1,9 @@
 <div class="survey-chart">
-  <div class="flex justify-between">
-    {{ permalinkHeading.render('h4', "I would like to work remotely more often") }}
+  <div class="flex justify-between items-center gap-x-2">
+    <div>
+      {{ permalinkHeading.render('h4', "I would like to work remotely more often") }}
+      <p class="survey-chart-subheading">Percentage of respondents</p>
+    </div>
   </div>
   <div id="i-would-like-to-work-remote-more-often-chart" class="d3chart-placeholder"></div>
   <div class="text-center">Source: Jamstack Community Survey 2022</div>

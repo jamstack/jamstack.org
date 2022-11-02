@@ -1,6 +1,9 @@
 <div class="survey-chart">
   <div class="flex justify-between">
-    {{ permalinkHeading.render('h4', "How much have you used Web Components in the last 12 months?") }}
+    <div>
+      {{ permalinkHeading.render('h4', "How much have you used Web Components in the last 12 months?") }}
+      <p class="survey-chart-subheading">Percentage of respondents</p>
+    </div>
   </div>
   <div id="web-components-chart" class="d3chart-placeholder"></div>
   <div class="text-center">Source: Jamstack Community Survey 2022</div>

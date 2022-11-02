@@ -35,7 +35,7 @@ new D3HorizontalBarChart(
     mode: "stacked",
     showInlineBarValues: false,
     margin: {
-      left: 96,
+      left: 48,
       right: 0,
     },
   },
@@ -78,7 +78,7 @@ new D3HorizontalBarChart("what-influenced-staying-chart", "what-influenced-stayi
   },
 });
 
-new D3HorizontalBarChart("what-influenced-leaving-chart", "what-influenced-staying-table", {
+new D3HorizontalBarChart("what-influenced-leaving-chart", "what-influenced-leaving-table", {
   mode: "stacked",
   showInlineBarValues: false,
   margin: {
