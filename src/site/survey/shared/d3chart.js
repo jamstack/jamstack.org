@@ -93,6 +93,32 @@ class D3Chart {
     );
   }
 
+  scaleTicksX(svg) {
+    const getTranslateX = (node) =>
+      node.transform.baseVal.consolidate().matrix["e"];
+
+    const tickDistancesX = [];
+    const tickWidths = [];
+
+    svg.selectAll(".d3chart-xaxis .tick").each(function () {
+      tickDistancesX.push(getTranslateX(d3.select(this).node()));
+      tickWidths.push(d3.select(this).node().getBBox().width);
+    });
+
+    const tickSize = (tickDistancesX.at(-1) - tickDistancesX.at(-2)) * 0.75;
+    const largestTickWidth = Math.max(...tickWidths);
+
+    if (largestTickWidth >= tickSize) {
+      const scale = tickSize / largestTickWidth;
+
+      svg
+        .selectAll(".d3chart-xaxis .tick text")
+        .style("transform-origin", "50%")
+        .style("transform-box", "fill-box")
+        .style("transform", `scale(${scale})`);
+    }
+  }
+
   onResize(callback) {
     if (!("ResizeObserver" in window)) {
       window.addEventListener("resize", () => {
@@ -617,12 +643,12 @@ class D3VerticalBarChart extends D3Chart {
 
     chart.reset(svg);
 
-    if (options.wrapAxisLabel && options.wrapAxisLabel.bottom) {
+    if (options.wrapTicks && options.wrapTicks.x) {
       const heights = [];
       const wrap = d3.textwrap().bounds({
         height: margin.bottom,
-        width: (x0.bandwidth() * 1 + keys.length) + 2,
-      })
+        width: x0.bandwidth() * 1 + keys.length + 2,
+      });
 
       svg.selectAll(".d3chart-xaxis text").call(wrap);
       svg
@@ -670,8 +696,6 @@ class D3HorizontalBarChart extends D3Chart {
     let chart = super(target, optionOverrides, "d3chart-hbar");
     let csvData = chart.parseDataToCsv(tableId, true);
     let data = Object.assign(d3.csvParse(csvData, d3.autoType));
-
-    console.log(csvData)
 
     this.onDeferInit(function () {
       this.render(chart, data);
@@ -865,6 +889,10 @@ class D3HorizontalBarChart extends D3Chart {
 
     chart.reset(svg);
 
+    if (options.scaleTicks && options.scaleTicks.x) {
+      this.scaleTicksX(svg);
+    }
+
     if (options.wrapAxisLabel && options.wrapAxisLabel.left) {
       D3Chart.wrapText(
         svg.selectAll(".d3chart-yaxis .tick text"),
@@ -1040,6 +1068,9 @@ class D3BubbleChart extends D3Chart {
       .call(yAxis)
       .call((g) => g.select(".domain").remove());
 
+    svg.selectAll(".d3chart-xaxis .tick").attr("data-chart-value", (d) => d);
+    svg.selectAll(".d3chart-yaxis .tick").attr("data-chart-value", (d) => d);
+
     if (options.showAxisLabels) {
       // Axis labels
       svg
@@ -1111,6 +1142,10 @@ class D3BubbleChart extends D3Chart {
       .lower();
 
     chart.reset(svg);
+
+    if (options.scaleTicks && options.scaleTicks.x) {
+      this.scaleTicksX(svg, 8);
+    }
 
     this.setupInteractivity(svg);
   }

@@ -4,8 +4,10 @@ new D3HorizontalBarChart(
   {
     showInlineBarValues: "outside",
     margin: {
-      bottom: 0,
       left: 188,
+    },
+    scaleTicks: {
+      x: true,
     },
     colorMod: 1,
   }
@@ -18,6 +20,9 @@ new D3HorizontalBarChart("employment-status-chart", "employment-status-table", {
     left: 128,
   },
   colorMod: 0,
+  scaleTicks: {
+    x: true,
+  },
 });
 
 new D3VerticalBarChart(
@@ -38,7 +43,7 @@ new D3HorizontalBarChart(
       left: 48,
       right: 0,
     },
-  },
+  }
 );
 
 new D3VerticalBarChart(
@@ -49,10 +54,10 @@ new D3VerticalBarChart(
     margin: {
       left: 32,
       bottom: 88,
-      right: 32
+      right: 32,
     },
     colorMod: 1,
-    rotateXAxisLabels: true
+    rotateXAxisLabels: true,
   }
 );
 
@@ -69,23 +74,37 @@ new D3HorizontalBarChart(
   }
 );
 
-new D3HorizontalBarChart("what-influenced-staying-chart", "what-influenced-staying-table", {
-  mode: "stacked",
-  showInlineBarValues: false,
-  margin: {
-    left: 164,
-    right: 0,
-  },
-});
+new D3HorizontalBarChart(
+  "what-influenced-staying-chart",
+  "what-influenced-staying-table",
+  {
+    mode: "stacked",
+    showInlineBarValues: false,
+    margin: {
+      left: 164,
+      right: 0,
+    },
+    scaleTicks: {
+      x: true,
+    },
+  }
+);
 
-new D3HorizontalBarChart("what-influenced-leaving-chart", "what-influenced-leaving-table", {
-  mode: "stacked",
-  showInlineBarValues: false,
-  margin: {
-    left: 164,
-    right: 0,
-  },
-});
+new D3HorizontalBarChart(
+  "what-influenced-leaving-chart",
+  "what-influenced-leaving-table",
+  {
+    mode: "stacked",
+    showInlineBarValues: false,
+    margin: {
+      left: 164,
+      right: 0,
+    },
+    scaleTicks: {
+      x: true,
+    },
+  }
+);
 
 new D3HorizontalBarChart("remote-frequency-chart", "remote-frequency-table", {
   showLegend: false,
@@ -94,6 +113,9 @@ new D3HorizontalBarChart("remote-frequency-chart", "remote-frequency-table", {
     left: 64,
   },
   colorMod: 0,
+  scaleTicks: {
+    x: true,
+  },
 });
 
 new D3HorizontalBarChart("remote-changes-chart", "remote-changes-table", {
@@ -103,6 +125,9 @@ new D3HorizontalBarChart("remote-changes-chart", "remote-changes-table", {
     left: 164,
   },
   colorMod: 1,
+  scaleTicks: {
+    x: true,
+  },
 });
 
 new D3VerticalBarChart(
@@ -110,10 +135,10 @@ new D3VerticalBarChart(
   "i-enjoy-remote-work-table",
   {
     showLegend: false,
-    showInlineBarValues: 'outside',
+    showInlineBarValues: "outside",
     colorMod: 2,
-    wrapAxisLabel: {
-      bottom: true
+    wrapTicks: {
+      x: true,
     },
   }
 );
@@ -123,10 +148,10 @@ new D3VerticalBarChart(
   "my-company-has-remote-work-figured-out-table",
   {
     showLegend: false,
-    showInlineBarValues: 'outside',
+    showInlineBarValues: "outside",
     colorMod: 2,
-    wrapAxisLabel: {
-      bottom: true
+    wrapTicks: {
+      x: true,
     },
   }
 );
@@ -136,10 +161,10 @@ new D3VerticalBarChart(
   "i-would-like-to-work-remote-more-often-table",
   {
     showLegend: false,
-    showInlineBarValues: 'outside',
+    showInlineBarValues: "outside",
     colorMod: 3,
-    wrapAxisLabel: {
-      bottom: true
+    wrapTicks: {
+      x: true,
     },
   }
 );
@@ -149,10 +174,10 @@ new D3VerticalBarChart(
   "i-would-like-to-work-remote-more-often-table",
   {
     showLegend: false,
-    showInlineBarValues: 'outside',
+    showInlineBarValues: "outside",
     colorMod: 3,
-    wrapAxisLabel: {
-      bottom: true
+    wrapTicks: {
+      x: true,
     },
   }
 );
@@ -162,10 +187,10 @@ new D3VerticalBarChart(
   "i-changed-jobs-to-work-remotely-more-often-table",
   {
     showLegend: false,
-    showInlineBarValues: 'outside',
+    showInlineBarValues: "outside",
     colorMod: 3,
-    wrapAxisLabel: {
-      bottom: true
+    wrapTicks: {
+      x: true,
     },
   }
 );
@@ -175,10 +200,10 @@ new D3VerticalBarChart(
   "i-would-quit-if-in-person-was-more-often-table",
   {
     showLegend: false,
-    showInlineBarValues: 'outside',
+    showInlineBarValues: "outside",
     colorMod: 0,
-    wrapAxisLabel: {
-      bottom: true
+    wrapTicks: {
+      x: true,
     },
   }
 );
@@ -188,10 +213,10 @@ new D3VerticalBarChart(
   "i-would-quit-my-job-if-remote-was-more-often-table",
   {
     showLegend: false,
-    showInlineBarValues: 'outside',
+    showInlineBarValues: "outside",
     colorMod: 0,
-    wrapAxisLabel: {
-      bottom: true
+    wrapTicks: {
+      x: true,
     },
   }
 );
@@ -206,6 +231,9 @@ new D3HorizontalBarChart(
       left: 148,
     },
     colorMod: 2,
+    scaleTicks: {
+      x: true,
+    },
   }
 );
 
@@ -219,6 +247,9 @@ new D3HorizontalBarChart(
       left: 128,
       right: 0,
     },
+    scaleTicks: {
+      x: true,
+    },
   }
 );
 
@@ -227,22 +258,18 @@ new D3VerticalBarChart(
   "target-devices-by-type-table",
   {
     showInlineBarValues: "outside",
-    wrapAxisLabel: {
-      bottom: true
+    wrapTicks: {
+      x: true,
     },
   }
 );
 
-new D3VerticalBarChart(
-  "audience-sizes-chart",
-  "audience-sizes-table",
-  {
-    showInlineBarValues: "outside",
-    wrapAxisLabel: {
-      bottom: true
-    },
-  }
-);
+new D3VerticalBarChart("audience-sizes-chart", "audience-sizes-table", {
+  showInlineBarValues: "outside",
+  wrapTicks: {
+    x: true,
+  },
+});
 
 new D3BubbleChart(
   "cms-usage-vs-satisfaction-chart",
@@ -250,10 +277,12 @@ new D3BubbleChart(
   {
     radiusColumn: 1,
     valueType: ["percentage", "float"],
-    extendedColors: true
+    extendedColors: true,
+    scaleTicks: {
+      x: true,
+    },
   }
 );
-
 
 new D3BubbleChart(
   "programming-language-usage-vs-satisfaction-chart",
@@ -261,6 +290,9 @@ new D3BubbleChart(
   {
     radiusColumn: 1,
     valueType: ["percentage", "float"],
+    scaleTicks: {
+      x: true,
+    },
   }
 );
 
@@ -270,7 +302,10 @@ new D3BubbleChart(
   {
     radiusColumn: 1,
     valueType: ["percentage", "float"],
-    extendedColors: true
+    extendedColors: true,
+    scaleTicks: {
+      x: true,
+    },
   }
 );
 
@@ -280,9 +315,11 @@ new D3BubbleChart(
   {
     radiusColumn: 1,
     valueType: ["percentage", "float"],
+    scaleTicks: {
+      x: true,
+    },
   }
 );
-
 
 new D3BubbleChart(
   "frameworks-usage-vs-satisfaction-changes-chart",
@@ -290,6 +327,9 @@ new D3BubbleChart(
   {
     valueType: ["percentage", "float"],
     extendedColors: true,
+    scaleTicks: {
+      x: true,
+    },
   }
 );
 
@@ -300,6 +340,9 @@ new D3HorizontalBarChart("web3-feelings-chart", "web3-feelings-table", {
     left: 164,
   },
   colorMod: 1,
+  scaleTicks: {
+    x: true,
+  },
 });
 
 new D3HorizontalBarChart("web3-usage-chart", "web3-usage-table", {
@@ -308,7 +351,9 @@ new D3HorizontalBarChart("web3-usage-chart", "web3-usage-table", {
   showInlineBarValues: false,
   margin: {
     left: 128,
-    right: 0,
+    scaleTicks: {
+      x: true,
+    },
   },
 });
 
@@ -319,13 +364,19 @@ new D3HorizontalBarChart("web-components-chart", "web-components-table", {
     left: 180,
   },
   colorMod: 3,
+  scaleTicks: {
+    x: true,
+  },
 });
 
 new D3VerticalBarChart("serverless-usage-chart", "serverless-usage-table", {
   showLegend: false,
   showInlineBarValues: "outside",
   colorMod: 2,
-  wrapAxisLabel: {
-    bottom: true
-  }
+  wrapTicks: {
+    x: true,
+  },
+  scaleTicks: {
+    x: true,
+  },
 });
