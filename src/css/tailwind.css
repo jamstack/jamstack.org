@@ -680,9 +680,8 @@ h5 {
   text-align: center;
   margin: 2em 0 1em 0;
   font-size: clamp(1.5rem, 0.7857rem + 3.5714vw, 4rem);
-  padding: 0.5em;
+  padding: 0.5em 1em;
   line-height: 1.125;
-  max-width: 24ch;
   margin-inline: auto;
 }
 
