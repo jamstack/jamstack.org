@@ -36,11 +36,6 @@
   status = 302
 
 [[redirects]]
-  from = "/women-of-jamstack/"
-  to = "https://womenofjamstack.com"
-  status = 302
-
-[[redirects]]
   from = "/best-practices"
   to = "/resources"
   status = 301
