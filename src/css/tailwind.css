@@ -685,6 +685,13 @@ h5 {
   margin-inline: auto;
 }
 
+.survey table {
+  display: block;
+  max-width: fit-content;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
 /* purgecss end ignore */
 
 @tailwind utilities;

@@ -709,7 +709,7 @@ class D3VerticalBarChart extends D3Chart {
     function resetOpacity() {
       resetTimeout = setTimeout(() => {
         labelElements.style("fill-opacity", 1);
-        rectElements.style("fill-opacity", 0.85);
+        rectElements.style("fill-opacity", 1);
 
         legendItems.style("opacity", 1);
       }, 512);
@@ -1015,7 +1015,7 @@ class D3HorizontalBarChart extends D3Chart {
     function resetOpacity() {
       resetTimeout = setTimeout(() => {
         labelElements.style("fill-opacity", 1);
-        rectElements.style("fill-opacity", 0.85);
+        rectElements.style("fill-opacity", 1);
 
         legendItems.style("opacity", 1);
       }, 512);
