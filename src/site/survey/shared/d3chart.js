@@ -107,15 +107,14 @@ class D3Chart {
 
     const tickSize = (tickDistancesX.at(-1) - tickDistancesX.at(-2)) * 0.75;
     const largestTickWidth = Math.max(...tickWidths);
+    const baseFontSize = 1.3;
 
     if (largestTickWidth >= tickSize) {
       const scale = tickSize / largestTickWidth;
 
       svg
         .selectAll(".d3chart-xaxis .tick text")
-        .style("transform-origin", "50%")
-        .style("transform-box", "fill-box")
-        .style("transform", `scale(${scale})`);
+        .style("font-size", `${baseFontSize * scale}em`)
     }
   }
 
@@ -1319,7 +1318,7 @@ class D3BubbleChart extends D3Chart {
     chart.reset(svg);
 
     if (options.scaleTicks && options.scaleTicks.x) {
-      this.scaleTicksX(svg, 8);
+      this.scaleTicksX(svg);
     }
 
     this.setupInteractivity(svg);
