@@ -1,43 +1,46 @@
 .logos-ticker {
   --speed: 90s;
+  --gap: 3em;
 
   display: flex;
-  flex-wrap: nowrap;
   overflow: hidden;
-  position: relative;
-}
-
-.logos-ticker-fade {
-  background: linear-gradient(to right, rgba(248, 250, 255, 1) 0%, rgba(248, 250, 255, .01) 20%, rgba(248, 250, 255, .01) 80%, rgba(248, 250, 255, 1) 100%);
-  height: 100%;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 100%;
-  z-index: 2;
-}
-
-.dark .logos-ticker-fade {
-  background: linear-gradient(to right, rgba(22, 26, 43, 1) 0%, rgba(22, 26, 43, .01) 20%, rgba(22, 26, 43, .01) 80%, rgba(22, 26, 43, 1) 100%);
+  user-select: none;
+  gap: var(--gap);
+  mask-image: linear-gradient(
+    to right,
+    hsl(0 0% 0% / 0),
+    hsl(0 0% 0% / 1) 20%,
+    hsl(0 0% 0% / 1) 80%,
+    hsl(0 0% 0% / 0)
+  );
 }
 
 .logos-ticker-container {
+  flex-shrink: 0;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
+  gap: var(--gap);
+  min-width: 100%;
   animation: slide var(--speed) linear infinite;
 }
+
 .logos-ticker-container svg {
-  fill: #646E73;
-  margin: 0 1.5em;
+  flex: 0 0 auto;
+  fill: #646e73;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .logos-ticker-container {
+    animation-play-state: paused;
+  }
 }
 
 @keyframes slide {
-  0% {
-    transform: translate3d(0, 0, 0);
+  from {
+    transform: translateX(0);
   }
-
-  100% {
-    transform: translate3d(-100%, 0, 0);
+  to {
+    transform: translateX(calc(-100% - var(--gap, 0px)));
   }
 }
