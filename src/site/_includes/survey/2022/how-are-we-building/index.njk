@@ -1,5 +1,5 @@
-<section id="how-are-we-building" class="survey-section survey-grid border-b">
-  {{ permalinkHeading.render("h2", "How are we building") }}
+<section class="survey-section survey-grid border-b">
+  {{ permalinkHeading.render("h2", "How are we building?", "", "how-are-we-building") }}
 
   <p>
     Our largest set of questions revolve around technical choices. It’s easy for
@@ -83,7 +83,7 @@
 
   {% include './cms-usage-vs-satisfaction.njk' %}
 
-  {{ permalinkHeading.render("h3", "Programming language") }}
+  {{ permalinkHeading.render("h3", "Programming languages") }}
 
   <p>
     There are not a lot of surprises in this year’s programming language data if
@@ -163,7 +163,12 @@
   <ul>
     <li>
       Remix jumped from 2% share in last year’s survey to 10% this year, and is
-      an exciting new contender in the space.
+      an exciting new contender in the space. At the end of October Remix
+      announced they have been
+      <a href="https://remix.run/blog/remixing-shopify" target="_blank"
+        >acquired by Shopify</a
+      >
+      so it will be interesting to see what effect that has on their trajectory.
     </li>
     <li>
       Docusaurus does one thing very well and has been rewarded with
@@ -243,7 +248,7 @@
   <ul>
     <li>
       Gatsby has lost share in all 3 years of our survey, and its 0.9
-      satisfaction score indicates this trend is likely to continue
+      satisfaction score indicates this trend is likely to continue.
     </li>
     <li>
       Vue and Nuxt.js are new to this quadrant; in last year’s survey they were

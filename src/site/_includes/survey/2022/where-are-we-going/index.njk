@@ -1,5 +1,12 @@
-<section id="where-are-we-going" class="survey-section survey-grid border-b">
-  {{ permalinkHeading.render("h2", "Where are we going?") }}
+<section class="survey-section survey-grid border-b">
+  {{
+    permalinkHeading.render(
+      "h2",
+      "Emerging Trends in the Jamstack Community",
+      "",
+      "emerging-trends-in-the-jamstack-community"
+    )
+  }}
 
   <p>
     In addition to the current state of the Jamstack community, we also gathered
@@ -22,8 +29,9 @@
   </p>
 
   <p>
-    If you’re building a static or nearly-static site, we continue to think 11ty
-    is an excellent choice.
+    As we mentioned already, if you’re building a static or nearly-static site,
+    we continue to think 11ty is an excellent choice given its growth relative
+    to other SSGs in the space.
   </p>
 
   {{ permalinkHeading.render("h3", "Is web3 the future?") }}
@@ -50,14 +58,14 @@
     sentiment questions. 13% of respondents did not know what web3 was, while
     another third were neutral towards it. Of those who expressed feelings about
     web3, those who were negative about it (31%) slightly outnumbered those who
-    were positive about it (28%). If we translate this into the Satisfaction
-    Score we use elsewhere in the survey, it would be 0.9, and we would expect
+    were positive about it (28%). If we translate this into the satisfaction
+    score we use elsewhere in the survey, it would be 0.9, and we would expect
     web3 to lose usage share in the coming year.
   </p>
 
   {% include './web3-feelings.njk' %}
 
-  {{ permalinkHeading.render("h3", "Web components have arrived") }}
+  {{ permalinkHeading.render("h3", "Web Components have arrived") }}
 
   <p>
     Browser-native Web Components were introduced 11 years ago but lacked
@@ -77,7 +85,7 @@
 
   {% include './web-components.njk' %}
 
-  {{ permalinkHeading.render("h3", "Serverless") }}
+  {{ permalinkHeading.render("h3", "The Jamstack is Increasingly Serverless") }}
 
   <p>
     The final trend we covered was the growth in serverless technology,
@@ -96,6 +104,15 @@
   </p>
 
   <p>
+    We mentioned above that there was a big shift in the last year of people
+    describing themselves as “full stack” developers from “front end”
+    developers. We think the big jump in serverless adoption may be the
+    explanation: serverless lets front-end developers build full-stack
+    applications with a minimum of fuss, and the adoption has been so fast it’s
+    changing how we describe ourselves.
+  </p>
+
+  <p>
     Given the rapid growth since last year, we expect to see further growth in
     adoption and especially users moving from the “few projects” category into
     more serious usage.
@@ -103,7 +120,9 @@
 
   {% include './serverless.njk' %}
 
-  <h2 class="final-heading">Jamstack remains the standard architecture of the web</h2>
+  <h2 class="final-heading">
+    Jamstack remains the standard architecture of the web
+  </h2>
 
   <p>
     The evolution of the web as a platform continues to be rapid and exciting,
@@ -123,6 +142,38 @@
     survey.
   </p>
 
-  {# {% include './web3-feelings.njk' %} {% include './web-components.njk' %} {%
-  include './serverless.njk' %} #}
+  <ul>
+    <li>
+      Discuss and share feedback in the
+      <a href="https://discord.com/invite/jamstack" target="_blank"
+        >Jamstack Discord</a
+      >
+    </li>
+    <li>
+      <a href="https://jamstack.org/conf/agenda/" target="_blank"
+        >Register for Jamstack Conf 2022 for free</a
+      >
+      (November 7 and 8) to watch the talks live and receive the recordings
+    </li>
+    <li>
+      Read a summary of the results on the
+      <a
+        href="https://www.netlify.com/blog/jamstack-community-survey-2022/"
+        target="_blank"
+        >Netlify blog</a
+      >
+      or
+      <a
+        href="https://www.netlify.com/press/developers-drive-remote-work-future-jamstack-survey-shows/"
+        target="_blank"
+        >press release</a
+      >
+    </li>
+    <li>
+      Check out other
+      <a href="https://www.netlify.com/resources/" target="_blank"
+        >webinars, guides, e-books, and more</a
+      >
+    </li>
+  </ul>
 </section>

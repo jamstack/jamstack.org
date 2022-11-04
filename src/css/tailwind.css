@@ -571,6 +571,20 @@ h5 {
   margin: 0;
 }
 
+.survey-intro-headings {
+  grid-column: popout;
+}
+
+.survey-intro-heading {
+  max-width: 20ch;
+  @apply font-extrabold;
+}
+
+.survey-intro-subheading {
+  margin-top: 1.5rem;
+  @apply leading-tight;
+}
+
 .survey h3 {
   @apply text-2xl font-semibold;
 }

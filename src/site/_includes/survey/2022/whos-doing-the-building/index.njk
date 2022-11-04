@@ -1,9 +1,6 @@
-<section
-  id="whos-doing-the-building"
-  class="survey-section survey-grid border-b"
->
+<section class="survey-section survey-grid border-b">
   <!-- prettier-ignore -->
-  {{ permalinkHeading.render("h2", "Who’s doing the building") }}
+  {{ permalinkHeading.render("h2", "Who’s doing the building?", "", "whos-doing-the-building") }}
 
   <p>
     As usual, we kick off by looking at the demographics of our community. Who
@@ -23,7 +20,7 @@
     other demographic markers we tracked changed very much, so we believe this
     is a real shift in how the community thinks of itself. We have two theories
     about why this might be the case, and we’ll discuss them in the sections on
-    <a href="">job changes</a> and <a href="">serverless</a>.
+    <a href="#the-great-resignation">job changes</a> and <a href="#the-jamstack-is-increasingly-serverless">serverless</a>.
   </p>
 
   <!-- prettier-ignore -->
@@ -36,13 +33,14 @@
     This year when asking about employment status we added a new category,
     “self-employed”, which meant that the results are not totally comparable to
     last year. A bunch of people who last year described themselves as
-    “full-time” switched to the “self-employed” category, which makes sense.
-    Students continue to be the second-biggest group in the community, at 21% of
-    all respondents. As we said last year, this is a solidly positive sign for a
-    community: the Jamstack remains a popular way to on-board students at
-    bootcamps into deploying websites for the first time, and becoming the
-    “default” way to build a website means the Jamstack can expect to enjoy
-    growth for years to come.
+    “full-time” switched to the “self-employed” category, which probably doesn’t
+    describe an actual change in status but more accurately describes what they
+    already were. Students continue to be the second-biggest group in the
+    community, at 21% of all respondents. As we said last year, this is a
+    solidly positive sign for a community: the Jamstack remains a popular way to
+    on-board students at bootcamps into deploying websites for the first time,
+    and becoming the “default” way to build a website means the Jamstack can
+    expect to enjoy growth for years to come.
   </p>
 
   <!-- prettier-ignore -->
@@ -160,9 +158,9 @@
     respondents say they work remotely at least half of the time. Three in five
     (62%) work remotely at least 90% of the time, which we’re going to call
     “full time remote”. In last year’s survey about a third said their job had
-    gone full-time remote, and we know from earlier surveys (such as GitHub’s
-    Octoverse report) that about a third of people were already working remotely
-    before the pandemic, so this is roughly double the pre-pandemic numbers.
+    gone full-time remote, and we know from earlier surveys (such as
+    <a href="https://octoverse.github.com/" target="_blank">GitHub’s Octoverse report</a >) that about a third of people were already working remotely before the
+    pandemic, so this is roughly double the pre-pandemic numbers.
   </p>
 
   <!-- prettier-ignore -->
@@ -203,7 +201,7 @@
 
   <div class="survey-chart-split">
     <!-- prettier-ignore -->
-    {% include "./i-enjoy-remote-work.njk" %} 
+    {% include "./i-enjoy-remote-work.njk" %}
     {% include "./my-company-has-remote-work-figured-out.njk" %}
   </div>
 
@@ -217,21 +215,21 @@
 
   <div class="survey-chart-split">
     <!-- prettier-ignore -->
-    {% include "./i-would-like-to-work-remote-more-often.njk" %} 
+    {% include "./i-would-like-to-work-remote-more-often.njk" %}
     {% include "./i-changed-jobs-to-work-remotely-more-often.njk" %}
   </div>
 
   <p>
     Our final pair of questions about remote work determined two things: first,
-    we confirmed that it’s not just that people hate having their jobs changed:
-    asked if they would quit their jobs if asked to work remotely more often,
-    only 11% said they would. Asked the opposite question, 55% of respondents
-    said they would quit their jobs rather than work in person more often.
+    we confirmed that it’s not just that people hate when their working
+    conditions change: asked if they would quit their jobs if asked to work
+    remotely more often, only 11% said they would, while 55% of respondents said
+    they would quit their jobs rather than work remotely less often.
   </p>
 
   <div class="survey-chart-split">
     <!-- prettier-ignore -->
     {% include "./i-would-quit-my-job-if-remote-was-more-often.njk" %}
-    {% include "./i-would-quit-my-job-if-in-person-was-more-often.njk" %} 
+    {% include "./i-would-quit-my-job-if-in-person-was-more-often.njk" %}
   </div>
 </section>
