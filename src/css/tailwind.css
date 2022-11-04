@@ -292,10 +292,11 @@ details[open] .summary-swap-open {
 }
 
 /* Desktop sticky nav */
-@media (min-width: 768px) and (min-height: 53.75em) { /* 860px */
+@media (min-width: 768px) { /* 860px */
   .page-header {
     position: sticky;
     top: 0;
+    overflow-y: auto;
   }
   .page-nav {
     justify-content: space-between;
