@@ -1,0 +1,62 @@
+<div class="survey-chart">
+  <div class="flex justify-between">
+    <div>
+      {{ permalinkHeading.render('h4', "How many users are the websites you're building meant to serve?") }}
+      <p class="survey-chart-subheading">Percentage of respondents</p>
+    </div>
+  </div>
+
+  <div id="audience-sizes-chart" class="d3chart-placeholder"></div>
+
+  <div class="d3chart-legend-placeholder d3chart-legend-wrap">
+    <div class="d3chart-legend-placeholder"></div>
+  </div>
+
+  <div class="text-center">Source: Jamstack Community Survey 2020—2022</div>
+
+  <details>
+    <summary class="text-sm">Show Chart Data</summary>
+    <table id="audience-sizes-table" class="table-auto border-collapse">
+      <thead>
+        <tr class="chart-data-table-head">
+          <th class="text-left pr-2"></th>
+          <th class="text-left pr-2">2020</th>
+          <th class="text-left pr-2">2021</th>
+          <th class="text-left pr-2">2022</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>10s of users</td>
+          <td>63%</td>
+          <td>65%</td>
+          <td>64%</td>
+        </tr>
+        <tr>
+          <td>100s of users</td>
+          <td>78%</td>
+          <td>77%</td>
+          <td>74%</td>
+        </tr>
+        <tr>
+          <td>1000s of users</td>
+          <td>83%</td>
+          <td>79%</td>
+          <td>75%</td>
+        </tr>
+        <tr>
+          <td>100-000s of users</td>
+          <td>58%</td>
+          <td>55%</td>
+          <td>55%</td>
+        </tr>
+        <tr>
+          <td>1-000-000s of users</td>
+          <td>32%</td>
+          <td>32%</td>
+          <td>36%</td>
+        </tr>
+      </tbody>
+    </table>
+  </details>
+</div>

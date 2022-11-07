@@ -1,0 +1,68 @@
+<div class="survey-chart">
+  <div class="flex justify-between">
+    <div>
+       {{ permalinkHeading.render('h4', 'Job titles, 2021 vs. 2022') }}
+      <p class="survey-chart-subheading">Percentage of respondents</p>
+    </div>
+    <div class="flex flex-col gap-y-2">
+      <div class="d3chart-legend-placeholder"></div>
+    </div>
+  </div>
+  <div id="job-titles-2021-2022-comparison-chart" class="d3chart-placeholder"></div>
+  <div class="text-center">Source: Jamstack Community Survey 2022</div>
+
+  <details>
+    <summary class="text-sm">Show Chart Data</summary>
+    <table id="job-titles-2021-2022-comparison-table" class="table-auto border-collapse">
+      <thead>
+        <tr class="chart-data-table-head">
+          <th class="text-left pr-2">Job Title</th>
+          <th class="text-left pr-2">2021</th>
+          <th class="text-left pr-2">2022</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Developer (full-stack)</td>
+          <td>32%</td>
+          <td>44%</td>
+        </tr>
+        <tr>
+          <td>Developer (front-end)</td>
+          <td>45%</td>
+          <td>33%</td>
+        </tr>
+        <tr>
+          <td>Developer (back-end)</td>
+          <td>5%</td>
+          <td>5%</td>
+        </tr>
+        <tr>
+          <td>Designer</td>
+          <td>4%</td>
+          <td>4%</td>
+        </tr>
+        <tr>
+          <td>Manager</td>
+          <td>6%</td>
+          <td>4%</td>
+        </tr>
+        <tr>
+          <td>Executive/Business owner</td>
+          <td></td>
+          <td>4%</td>
+        </tr>
+        <tr>
+          <td>Content producer</td>
+          <td>2%</td>
+          <td>3%</td>
+        </tr>
+        <tr>
+          <td>DevOps</td>
+          <td>2%</td>
+          <td>2%</td>
+        </tr>
+      </tbody>
+    </table>
+  </details>
+</div>

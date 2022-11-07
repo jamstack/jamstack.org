@@ -1,0 +1,73 @@
+<div class="survey-chart">
+  <div class="flex justify-between">
+    <div>
+      {{ permalinkHeading.render('h4', "Types of websites built in the last 12 months") }}
+      <p class="survey-chart-subheading">Percentage of respondents</p>
+    </div>
+  </div>
+  <div id="types-of-sites-built-last-12-months-chart" class="d3chart-placeholder"></div>
+
+  <div>
+    <div class="d3chart-legend-placeholder d3chart-legend-wrap"></div>
+  </div>
+
+  <div class="text-center">Source: Jamstack Community Survey 2022</div>
+
+  <details>
+    <summary class="text-sm">Show Chart Data</summary>
+    <table id="types-of-sites-built-last-12-months-table" class="table-auto border-collapse">
+      <thead>
+        <tr class="chart-data-table-head">
+          <th></th>
+          <th class="text-left pr-2">None</th>
+          <th class="text-left pr-2">A few projects</th>
+          <th class="text-left pr-2">Many projects</th>
+          <th class="text-left pr-2">Most projects</th>
+          <th class="text-left pr-2">All</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>SPA</td>
+          <td>20%</td>
+          <td>41%</td>
+          <td>15%</td>
+          <td>16%</td>
+          <td>8%</td>
+        </tr>
+        <tr>
+          <td>Fully dynamic</td>
+          <td>28%</td>
+          <td>36%</td>
+          <td>15%</td>
+          <td>15%</td>
+          <td>6%</td>
+        </tr>
+        <tr>
+          <td>Edge-dynamic</td>
+          <td>53%</td>
+          <td>30%</td>
+          <td>9%</td>
+          <td>6%</td>
+          <td>3%</td>
+        </tr>
+        <tr>
+          <td>Mostly static</td>
+          <td>26%</td>
+          <td>43%</td>
+          <td>17%</td>
+          <td>11%</td>
+          <td>3%</td>
+        </tr>
+        <tr>
+          <td>Fully static</td>  
+          <td>30%</td>
+          <td>40%</td>
+          <td>15%</td>
+          <td>11%</td>
+          <td>4%</td>
+        </tr>
+      </tbody>
+    </table>
+  </details>
+</div>

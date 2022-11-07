@@ -188,6 +188,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/site/browserconfig.xml");
   eleventyConfig.addPassthroughCopy("src/site/site.webmanifest");
   eleventyConfig.addPassthroughCopy("src/site/survey/2021/community-survey-2021-methodology.pdf");
+  eleventyConfig.addPassthroughCopy("src/site/survey/2022/community-survey-2022-methodology.pdf");
 
   return {
     dir: {

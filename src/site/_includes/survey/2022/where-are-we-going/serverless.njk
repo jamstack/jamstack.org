@@ -1,0 +1,45 @@
+<div class="survey-chart">
+  <div class="flex justify-between">
+    <div>
+      {{ permalinkHeading.render('h4', "How many websites you've built this year have used serverless functions?") }}
+      <p class="survey-chart-subheading">Percentage of respondents</p>
+    </div>
+  </div>
+  <div id="serverless-usage-chart" class="d3chart-placeholder"></div>
+
+  <div class="text-center">Source: Jamstack Community Survey 2022</div>
+
+  <details>
+    <summary class="text-sm">Show Chart Data</summary>
+    <table id="serverless-usage-table" class="table-auto border-collapse">
+      <thead>
+        <tr class="chart-data-table-head">
+          <th class="text-left pr-2"></th>
+          <th class="text-left pr-2">Count</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>None</td>
+          <td>30%</td>
+        </tr>
+        <tr>
+          <td>A few projects</td>
+          <td>36%</td>
+        </tr>
+        <tr>
+          <td>Some projects</td>
+          <td>18%</td>
+        </tr>
+        <tr>
+          <td>Many projects</td>
+          <td>12%</td>
+        </tr>
+        <tr>
+          <td>All</td>
+          <td>5%</td>
+        </tr>
+      </tbody>
+    </table>
+  </details>
+</div>

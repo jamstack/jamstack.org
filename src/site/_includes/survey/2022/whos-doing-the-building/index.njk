@@ -1,0 +1,235 @@
+<section class="survey-section survey-grid border-b">
+  <!-- prettier-ignore -->
+  {{ permalinkHeading.render("h2", "Who’s doing the building?", "", "whos-doing-the-building") }}
+
+  <p>
+    As usual, we kick off by looking at the demographics of our community. Who
+    are we, exactly?
+  </p>
+
+  <!-- prettier-ignore -->
+  {{ permalinkHeading.render("h3", "Job titles") }}
+
+  <p>
+    There was not much change in the breakdown of reported job titles in our
+    survey this year: as usual, nearly everyone (84%) who responded considers
+    themselves to be an engineer of some kind. There was one curious change,
+    however: the number of people calling themselves “full stack” versus “front
+    end” has almost exactly flipped, from 32% full stack and 45% front end last
+    year to 44% full stack and 33% front end in the 2022 survey. None of the
+    other demographic markers we tracked changed very much, so we believe this
+    is a real shift in how the community thinks of itself. We have two theories
+    about why this might be the case, and we’ll discuss them in the sections on
+    <a href="#the-great-resignation">job changes</a> and <a href="#jamstack-is-increasingly-serverless">serverless</a>.
+  </p>
+
+  <!-- prettier-ignore -->
+  {% include "./job-title-2021-vs-2022.njk" %}
+
+  <!-- prettier-ignore -->
+  {{ permalinkHeading.render("h3", "Employment status") }}
+
+  <p>
+    This year when asking about employment status we added a new category,
+    “self-employed”, which meant that the results are not totally comparable to
+    last year. A bunch of people who last year described themselves as
+    “full-time” switched to the “self-employed” category, which probably doesn’t
+    describe an actual change in status but more accurately describes what they
+    already were. Students continue to be the second-biggest group in the
+    community, at 21% of all respondents. As we said last year, this is a
+    solidly positive sign for a community: the Jamstack remains a popular way to
+    on-board students at bootcamps into deploying websites for the first time,
+    and becoming the “default” way to build a website means the Jamstack can
+    expect to enjoy growth for years to come.
+  </p>
+
+  <!-- prettier-ignore -->
+  {% include "./employment-status.njk" %}
+
+  {{ permalinkHeading.render("h3", "Working experience") }}
+
+  <p>
+    When asking about our community’s level of working experience, we saw a
+    continuing trend from 2020 and 2021: the community is slowly increasing in
+    experience. 2021 was our biggest year for new community members, and you can
+    see that cohort moving up by 1 year of experience in this chart. In 2022,
+    nearly 1 in 5 developers say they have been working in their current career
+    for 15 or more years.
+  </p>
+
+  <!-- prettier-ignore -->
+  {% include "./experience-increasing-over-time.njk" %}
+
+  <!-- prettier-ignore -->
+  {{ permalinkHeading.render("h4", "Increasing geographical diversity") }}
+
+  <p>
+    Repeating a phenomenon we first noticed last year, the geographical
+    diversity of our respondents has a strong correlation to their level of
+    career experience. In the most experienced group, 84% of respondents come
+    from either North America or Europe. In our newest group, those with less
+    than a year of experience, that falls to just 43%. That means in 2022 for
+    the first time, more than half of people who joined the Jamstack community
+    came from outside of the two big regions!
+  </p>
+
+  <p>
+    An explanation for this correlation that we find persuasive is that access
+    to technology is continuing to improve worldwide, leading to increased
+    geographical diversity. We think this is an encouraging trend, and hope that
+    it will lead to greater diversity in other dimensions as well.
+  </p>
+
+  <!-- prettier-ignore -->
+  {% include "./experience-by-region.njk" %}
+
+  <p>
+    Every region outside of Europe and North America grew in share. The
+    fastest-growing region was Africa, which jumped from 4% of respondents to 8%
+    from 2021 to 2022. This author is also delighted to note that his home
+    region, the Caribbean, went from 0.5% to 1% in the same period.
+  </p>
+
+  <!-- prettier-ignore -->
+  {% include "./respondents-by-region.njk" %}
+
+  <!-- prettier-ignore -->
+  {{ permalinkHeading.render("h3", "The Great Resignation") }}
+
+  <p>
+    A phenomenon that gained a great deal of attention in 2021 was a spike in
+    the number of people changing jobs, which has become known as The Great
+    Resignation. We were interested to get hard numbers on the reality of this
+    change, and we were not disappointed: fully one-third of our respondents
+    reported that they changed jobs in the last year, a huge shift. In our job
+    titles data we saw a big change in job titles, with 11% switching from
+    front-end to full-stack roles, a change that seems totally plausible in the
+    context of a community where 33% of people changed jobs.
+  </p>
+
+  <!-- prettier-ignore -->
+  {% include "./have-you-changed-jobs-in-the-last-12-months.njk" %}
+
+  <!-- prettier-ignore -->
+  {{ permalinkHeading.render("h4", "Why people stay") }}
+
+  <p>
+    We had a second question about the great resignation asking people what
+    motivated their behavior – either why they stayed, or why they left. The
+    biggest reason people kept their jobs will be no surprise: people stay if
+    they like their team. Humans are social animals, and a team you love makes
+    work more bearable.
+  </p>
+
+  <p>
+    A more surprising finding was that the number two reason, as measured by
+    those who called it “extremely important”, was remote work. People really,
+    really like working remotely. Money was important, but it was only the
+    fifth-biggest reason people stayed where they were. Career growth was also a
+    very important reason to stay.
+  </p>
+
+  <!-- prettier-ignore -->
+  {% include "./what-influenced-staying.njk" %}
+
+  <!-- prettier-ignore -->
+  {{ permalinkHeading.render("h4", "Why people leave") }}
+
+  <p>
+    Why people left jobs was even heavier on remote work: being able to work
+    remotely at the new job was the number one reason people left their jobs in
+    our community, as measured by the number of people saying it was an
+    “extremely important” reason. Growing in your career came in second when
+    measured in this way, though if you include people who called things “very”
+    important in addition to “extremely” important it came first. Company
+    culture, bad teams, and not enough money came next.
+  </p>
+
+  <!-- prettier-ignore -->
+  {% include "./what-influenced-leaving.njk" %}
+
+  <!-- prettier-ignore -->
+  {{ permalinkHeading.render("h3", "Remote work") }}
+
+  <p>
+    Given that one-third of respondents changed jobs in the last year and many
+    indicated that remote work was their primary reason for either staying or
+    leaving a company, our next finding makes sense: a startling 83% of our
+    respondents say they work remotely at least half of the time. Three in five
+    (62%) work remotely at least 90% of the time, which we’re going to call
+    “full time remote”. In last year’s survey about a third said their job had
+    gone full-time remote, and we know from earlier surveys (such as
+    <a href="https://octoverse.github.com/" target="_blank">GitHub’s Octoverse report</a >) that about a third of people were already working remotely before the
+    pandemic, so this is roughly double the pre-pandemic numbers.
+  </p>
+
+  <!-- prettier-ignore -->
+  {% include "./remote-frequency.njk" %}
+
+  <!-- prettier-ignore -->
+  {{ permalinkHeading.render("h4", "Changes in remote work") }}
+
+  <p>
+    Since a lot of remote work was driven by the pandemic and offices around the
+    world are still in the process of reopening, we thought it was fair to ask
+    whether or not this new state was going to be permanent, or whether people
+    were returning to offices, but slowly.
+  </p>
+
+  <p>
+    The clear response was that remote work is here to stay. A solid majority
+    (76%) of respondents said their frequency of remote work had either stayed
+    the same or increased in the last year. Indeed the strongest signal is that
+    this is the new normal: 52% of people said nothing changed about their
+    remote working situation, and the ratio of those working remotely more often
+    versus less often was just 1.04, meaning only a small net change.
+  </p>
+
+  <!-- prettier-ignore -->
+  {% include "./remote-changes.njk" %}
+
+  <!-- prettier-ignore -->
+  {{ permalinkHeading.render("h4", "Attitudes to remote work") }}
+
+  <p>
+    We also asked our community about their attitudes to various aspects of
+    remote work. 87% of respondents say they enjoy remote work, but only 71% say
+    their company has remote work “figured out”, which implies there’s 16% of
+    people enjoying remote work even though they believe their company doesn’t
+    do it very well.
+  </p>
+
+  <div class="survey-chart-split">
+    <!-- prettier-ignore -->
+    {% include "./i-enjoy-remote-work.njk" %}
+    {% include "./my-company-has-remote-work-figured-out.njk" %}
+  </div>
+
+  <p>
+    As we suspected from the job change data, the number of people who would
+    like to work remotely even more often than they currently do is high: 59%.
+    And the number saying they changed jobs specifically to be able to work
+    remotely more often is 35%. That is a huge amount of change, and a strong
+    motivator.
+  </p>
+
+  <div class="survey-chart-split">
+    <!-- prettier-ignore -->
+    {% include "./i-would-like-to-work-remote-more-often.njk" %}
+    {% include "./i-changed-jobs-to-work-remotely-more-often.njk" %}
+  </div>
+
+  <p>
+    Our final pair of questions about remote work determined two things: first,
+    we confirmed that it’s not just that people hate when their working
+    conditions change: asked if they would quit their jobs if asked to work
+    remotely more often, only 11% said they would, while 55% of respondents said
+    they would quit their jobs rather than work remotely less often.
+  </p>
+
+  <div class="survey-chart-split">
+    <!-- prettier-ignore -->
+    {% include "./i-would-quit-my-job-if-remote-was-more-often.njk" %}
+    {% include "./i-would-quit-my-job-if-in-person-was-more-often.njk" %}
+  </div>
+</section>

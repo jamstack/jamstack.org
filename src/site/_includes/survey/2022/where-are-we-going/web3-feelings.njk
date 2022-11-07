@@ -1,0 +1,48 @@
+<div class="survey-chart">
+  <div class="flex justify-between">
+    <div>
+      {{ permalinkHeading.render('h4', "In general, how do you feel about Web3?") }}
+      <p class="survey-chart-subheading">Percentage of respondents</p>
+    </div>
+  </div>
+  <div id="web3-feelings-chart" class="d3chart-placeholder"></div>
+  <div class="text-center">Source: Jamstack Community Survey 2022</div>
+
+  <details>
+    <summary class="text-sm">Show Chart Data</summary>
+    <table id="web3-feelings-table" class="table-auto border-collapse">
+      <thead>
+        <tr class="chart-data-table-head">
+          <th class="text-left pr-2">In general, how do you feel about Web3?</th>
+          <th class="text-left pr-2">Count</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>I don't know what it is</td>
+          <td>13%</td>
+        </tr>
+        <tr>
+          <td>Strongly negative</td>
+          <td>18%</td>
+        </tr>
+        <tr>
+          <td>Negative</td>
+          <td>13%</td>
+        </tr>
+        <tr>
+          <td>Neutral</td>
+          <td>29%</td>
+        </tr>
+        <tr>
+          <td>Positive</td>
+          <td>20%</td>
+        </tr>
+        <tr>
+          <td>Strongly positive</td>
+          <td>8%</td>
+        </tr>
+      </tbody>
+    </table>
+  </details>
+</div>
