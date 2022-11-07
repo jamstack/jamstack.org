@@ -1,352 +1,528 @@
 .d3chart-placeholder {
-	width: 100%;
-	height: 450px;
+  width: 100%;
+  height: 450px;
 }
 .d3chart-placeholder-large {
-	height: 660px;
+  height: 660px;
 }
 .d3chart-placeholder-xl {
-	height: 1000px;
+  height: 1000px;
 }
 .d3chart-legend-placeholder {
-	min-height: 1.71875em; /* 27.5px /16 */
+  min-height: 1.71875em; /* 27.5px /16 */
 }
 
 .d3chart {
-	position: relative;
+  position: relative;
+}
+.d3chart svg {
+  max-width: 100%;
 }
 .d3chart > .d3chart-legend {
-	position: absolute;
-	top: 0;
-	right: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 .d3chart-legend {
-	display: flex;
-	justify-content: flex-end;
-	gap: .5em;
-	font-size: 0.8125em; /* 13px /16 */
-	font-weight: 600;
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.5em;
+  font-size: 0.8125em; /* 13px /16 */
+  font-weight: 600;
 }
 .d3chart-legend button {
-	font-weight: inherit;
+  font-weight: inherit;
 }
 .d3chart-legend-wrap .d3chart-legend {
-	flex-wrap: wrap;
-	justify-content: center;
-	margin-left: auto;
-	margin-right: auto;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 .d3chart + .d3chart-legend-placeholder .d3chart-legend {
-	justify-content: center;
+  justify-content: center;
 }
 .d3chart-legend > * {
-	border-radius: .25em;
-	padding: .25em .5em;
+  border-radius: 0.25em;
+  padding: 0.25em 0.5em;
 }
 
 .d3chart .tick text {
-	font-size: 1.3em; /* 13px /10 */
-}
-.d3chart .tick line {
-	shape-rendering: crispEdges;
+  font-size: 1.3em; /* 13px /10 */
 }
 
 .d3chart .tick line {
-	stroke: rgba(22,26,42,.15);
+  shape-rendering: crispEdges;
+}
+
+.d3chart .tick line {
+  stroke: rgba(22, 26, 42, 0.15);
 }
 .d3chart-bubble .tick:nth-child(2n) line {
-	stroke: rgba(22,26,42,.22);
+  stroke: rgba(22, 26, 42, 0.22);
 }
-.d3chart-bubble .tick:nth-child(2n+1) line {
-	stroke: rgba(22,26,42,.1);
+.d3chart-bubble .tick:nth-child(2n + 1) line {
+  stroke: rgba(22, 26, 42, 0.1);
 }
 
 .d3chart-bubble .d3chart-xaxis :first-child line,
 .d3chart-bubble .d3chart-yaxis .tick:last-child line {
-	stroke: #737680;
-	stroke-width: 2px;
+  stroke: #737680;
+  stroke-width: 2px;
 }
 .d3chart-hbar .d3chart-xaxis .tick:first-child line,
 .d3chart-vbar .d3chart-yaxis .tick:first-child line {
-	stroke: #c5c5c9;
-	stroke-width: 2px;
+  stroke: #c5c5c9;
+  stroke-width: 2px;
+}
+.d3chart-highlight-zero-axis .d3chart-xaxis :first-child line,
+.d3chart-highlight-zero-axis .d3chart-yaxis .tick:last-child line {
+  stroke-width: 0;
 }
 .d3chart-hbar .d3chart-xaxis .tick:first-child line {
-	transform: translateX(-1px);
+  transform: translateX(-1px);
 }
 .d3chart-vbar .d3chart-yaxis .tick:first-child line {
-	transform: translateY(1px);
+  transform: translateY(1px);
 }
 .d3chart-vbar .d3chart-xaxis text,
 .d3chart-hbar .d3chart-yaxis text {
-	--d3chart-label-clamp: 2vw;
-	font-size: 12px;
-	font-size: clamp(12px, var(--d3chart-label-clamp), 14px);
-	font-weight: 600;
+  --d3chart-label-clamp: 2vw;
+  font-size: 12px;
+  font-size: clamp(12px, var(--d3chart-label-clamp), 14px);
+  font-weight: 600;
 }
 
+.d3chart-bubble.d3chart-highlight-zero-axis [data-chart-value="0"] line {
+  stroke-width: 2px;
+  stroke: #737680;
+}
 
 .d3chart-inlinebarvalue {
-	--d3chart-label-clamp: 2vw;
-	font-size: 12px;
-	font-size: clamp(11px, var(--d3chart-label-clamp), 16px);
-	font-weight: 600;
-	text-anchor: middle;
+  --d3chart-label-clamp: 2vw;
+  font-size: 12px;
+  font-size: clamp(11px, var(--d3chart-label-clamp), 16px);
+  font-weight: 600;
+  text-anchor: middle;
 }
 .d3chart-inlinebarvalue-h {
-	font-size: 16px;
-	font-weight: 600;
-	text-anchor: start;
-	dominant-baseline: central;
-	alignment-baseline: middle;
+  font-size: 16px;
+  font-weight: 600;
+  text-anchor: start;
+  dominant-baseline: central;
+  alignment-baseline: middle;
 }
 .d3chart-inlinebarvalue-h.inside {
-	text-anchor: end;
+  text-anchor: end;
 }
 .d3chart-inlinebarvalue-h.inside-offset {
-	font-size: 14px;
-	text-anchor: end;
+  font-size: 14px;
+  text-anchor: end;
 }
 
 /* Wrapped labels */
 .d3chart-yaxis text.d3chart-label-wrapped {
-	font-size: 13px;
+  font-size: 13px;
 }
 
 /* Axis labels */
 .d3chart-axislabel {
-	text-anchor: end;
-	font-weight: 700;
+  text-anchor: end;
+  font-weight: 700;
 }
 .d3chart-axislabel-center {
-	text-anchor: middle;
+  text-anchor: middle;
 }
 
 /* Bubble charts */
 .d3chart-bubblelabel {
-	text-anchor: middle;
-	dominant-baseline: central;
-	font-size: 12px;
-	font-weight: 600;
+  text-anchor: middle;
+  dominant-baseline: central;
+  font-size: 12px;
+  font-weight: 600;
 }
 .d3chart-bubblelabel.offset-l,
 .d3chart-bubblelabel.offset-r {
-	font-weight: 700;
-	text-shadow: none;
+  font-weight: 700;
+  text-shadow: none;
 }
 .d3chart-bubblelabel.offset-l {
-	text-anchor: end;
+  text-anchor: end;
 }
 .d3chart-bubblelabel.offset-r {
-	text-anchor: start;
+  text-anchor: start;
 }
 .d3chart-bubblelabelbg.offset {
-	background-color: rgba(255,255,255,.4);
+  background-color: rgba(255, 255, 255, 0.4);
 }
 .d3chart-bubble circle {
-	fill-opacity: .85;
-}
-.d3chart-bubble-active .d3chart-bubblelabel,
-.d3chart-bubble-active .d3chart-bubblecircle {
-	fill-opacity: .15;
-}
-.d3chart-bubble-active .d3chart-bubblelabel.active,
-.d3chart-bubble-active .d3chart-bubblecircle.active {
-	fill-opacity: 1;
+  fill-opacity: 0.85;
 }
 .d3chart-bubble .d3chart-yaxis .tick:last-child text {
-	display: none;
+  display: none;
 }
 .d3chart-bubble .d3chart-xaxis .tick text {
-	transform: translateY(2px);
+  transform: translateY(2px);
 }
 
 /* Color gradients */
 .d3chart-color-0 {
-	fill: url(#gradient-sunrise-v);
+  fill: url(#gradient-sunrise-v);
 }
 .d3chart-hbar .d3chart-color-0 {
-	fill: url(#gradient-sunrise-h);
+  fill: url(#gradient-sunrise-h);
 }
 .d3chart-color-1 {
-	fill: url(#gradient-blue-v);
+  fill: url(#gradient-blue-v);
 }
 .d3chart-hbar .d3chart-color-1 {
-	fill: url(#gradient-blue-h);
+  fill: url(#gradient-blue-h);
 }
 .d3chart-color-2 {
-	fill: url(#gradient-sun-v);
+  fill: url(#gradient-sun-v);
 }
 .d3chart-hbar .d3chart-color-2 {
-	fill: url(#gradient-sun-h);
+  fill: url(#gradient-sun-h);
 }
 .d3chart-color-3 {
-	fill: url(#gradient-seamist-v);
+  fill: url(#gradient-seamist-v);
 }
 .d3chart-hbar .d3chart-color-3 {
-	fill: url(#gradient-seamist-h);
+  fill: url(#gradient-seamist-h);
 }
 .d3chart-color-4 {
-	fill: url(#gradient-hallows-v);
+  fill: url(#gradient-hallows-v);
 }
 .d3chart-hbar .d3chart-color-4 {
-	fill: url(#gradient-hallows-h);
+  fill: url(#gradient-hallows-h);
 }
 .d3chart-color-5 {
-	fill: url(#gradient-bubblegum-v);
+  fill: url(#gradient-purple-v);
 }
 .d3chart-hbar .d3chart-color-5 {
-	fill: url(#gradient-bubblegum-h);
+  fill: url(#gradient-purple-h);
 }
 .d3chart-color-6 {
-	fill: url(#gradient-purple-v);
+  fill: url(#gradient-bubblegum-v);
 }
 .d3chart-hbar .d3chart-color-6 {
-	fill: url(#gradient-purple-h);
+  fill: url(#gradient-bubblegum-h);
 }
 .d3chart-color-7 {
-	fill: url(#gradient-air-v);
+  fill: url(#gradient-air-v);
 }
 .d3chart-hbar .d3chart-color-7 {
-	fill: url(#gradient-air-h);
+  fill: url(#gradient-air-h);
 }
 .d3chart-color-8 {
-	fill: url(#gradient-pink-v);
+  fill: url(#gradient-pink-v);
 }
 .d3chart-hbar .d3chart-color-8 {
-	fill: url(#gradient-pink-h);
+  fill: url(#gradient-pink-h);
 }
 .d3chart-color-9 {
-	fill: url(#gradient-leaves-v);
+  fill: url(#gradient-leaves-v);
 }
 .d3chart-hbar .d3chart-color-9 {
-	fill: url(#gradient-leaves-h);
+  fill: url(#gradient-leaves-h);
 }
 .d3chart-color-10 {
-	fill: url(#gradient-haze-v);
+  fill: url(#gradient-haze-v);
 }
 .d3chart-hbar .d3chart-color-10 {
-	fill: url(#gradient-haze-h);
+  fill: url(#gradient-haze-h);
 }
 .d3chart-color-11 {
-	fill: url(#gradient-gnat-v);
+  fill: url(#gradient-gnat-v);
 }
 .d3chart-hbar .d3chart-color-11 {
-	fill: url(#gradient-gnat-h);
+  fill: url(#gradient-gnat-h);
 }
 .d3chart-color-12 {
-	fill: url(#gradient-fire-v);
+  fill: url(#gradient-fire-v);
 }
 .d3chart-hbar .d3chart-color-12 {
-	fill: url(#gradient-fire-h);
+  fill: url(#gradient-fire-h);
 }
 .d3chart-color-13 {
-	fill: url(#gradient-ocean-v);
+  fill: url(#gradient-ocean-v);
 }
 .d3chart-hbar .d3chart-color-13 {
-	fill: url(#gradient-ocean-h);
+  fill: url(#gradient-ocean-h);
 }
 .d3chart-color-14 {
-	fill: url(#gradient-night-v);
+  fill: url(#gradient-night-v);
 }
 .d3chart-hbar .d3chart-color-14 {
-	fill: url(#gradient-night-h);
+  fill: url(#gradient-night-h);
 }
 .d3chart-color-15 {
-	fill: url(#gradient-dusk-v);
+  fill: url(#gradient-dusk-v);
 }
 .d3chart-hbar .d3chart-color-15 {
-	fill: url(#gradient-dusk-h);
+  fill: url(#gradient-dusk-h);
+}
+
+.d3chart-color-stroke-0 {
+  stroke: url(#gradient-sunrise-h);
+}
+
+.d3chart-color-stroke-1 {
+  stroke: url(#gradient-blue-h);
+}
+
+.d3chart-color-stroke-2 {
+  stroke: url(#gradient-sun-h);
+}
+
+.d3chart-color-stroke-3 {
+  stroke: url(#gradient-seamist-h);
+}
+
+.d3chart-color-stroke-4 {
+  stroke: url(#gradient-hallows-h);
+}
+
+.d3chart-color-stroke-5 {
+  stroke: url(#gradient-bubblegum-h);
+}
+
+.d3chart-color-stroke-6 {
+  stroke: url(#gradient-purple-h);
+}
+
+.d3chart-color-stroke-7 {
+  stroke: url(#gradient-air-h);
+}
+
+.d3chart-color-stroke-8 {
+  stroke: url(#gradient-pink-h);
+}
+
+.d3chart-color-stroke-9 {
+  stroke: url(#gradient-leaves-h);
+}
+
+.d3chart-color-stroke-10 {
+  stroke: url(#gradient-haze-h);
+}
+
+.d3chart-color-stroke-11 {
+  stroke: url(#gradient-gnat-h);
+}
+
+.d3chart-color-stroke-12 {
+  stroke: url(#gradient-fire-h);
+}
+
+.d3chart-color-stroke-13 {
+  stroke: url(#gradient-ocean-h);
+}
+
+.d3chart-color-stroke-14 {
+  stroke: url(#gradient-night-h);
+}
+
+.d3chart-color-stroke-15 {
+  stroke: url(#gradient-dusk-h);
+}
+
+.d3chart-colors-extended .d3chart-legend-16 {
+  color: #000;
+  background-image: linear-gradient(108deg, #f0185d, #ff668f);
+}
+.d3chart-colors-extended .d3chart-color-16 {
+  fill: url(#gradient-extended-16-v);
+}
+
+.d3chart-colors-extended .d3chart-legend-17 {
+  color: #000;
+  background-image: linear-gradient(108deg, #448bd0, #80c0ff);
+}
+.d3chart-colors-extended .d3chart-color-17 {
+  fill: url(#gradient-extended-17-v);
+}
+
+.d3chart-colors-extended .d3chart-legend-18 {
+  color: #000;
+  background-image: linear-gradient(108deg, #dbd600, #ffff54);
+}
+.d3chart-colors-extended .d3chart-color-18 {
+  fill: url(#gradient-extended-18-v);
+}
+
+.d3chart-colors-extended .d3chart-legend-19 {
+  color: #000;
+  background-image: linear-gradient(108deg, #63edd7, #a1ffff);
+}
+.d3chart-colors-extended .d3chart-color-19 {
+  fill: url(#gradient-extended-19-v);
+}
+
+.d3chart-colors-extended .d3chart-legend-20 {
+  color: #000;
+  background-image: linear-gradient(108deg, #cb5f00, #ff932f);
+}
+.d3chart-colors-extended .d3chart-color-20 {
+  fill: url(#gradient-extended-20-v);
+}
+
+.d3chart-colors-extended .d3chart-legend-21 {
+  color: #000;
+  background-image: linear-gradient(108deg, #ff98a8, #ffd0df);
+}
+.d3chart-colors-extended .d3chart-color-21 {
+  fill: url(#gradient-extended-21-v);
+}
+
+.d3chart-colors-extended .d3chart-legend-22 {
+  color: #fff;
+  background-image: linear-gradient(108deg, #a800dc, #e449ff);
+}
+.d3chart-colors-extended .d3chart-color-22 {
+  fill: url(#gradient-extended-22-v);
+}
+
+.d3chart-colors-extended .d3chart-legend-23 {
+  color: #000;
+  background-image: linear-gradient(108deg, #00cfe4, #6affff);
+}
+.d3chart-colors-extended .d3chart-color-23 {
+  fill: url(#gradient-extended-23-v);
+}
+
+.d3chart-colors-extended .d3chart-legend-24 {
+  color: #fff;
+  background-image: linear-gradient(108deg, #c5114c, #ff5a7c);
+}
+.d3chart-colors-extended .d3chart-color-24 {
+  fill: url(#gradient-extended-24-v);
+}
+
+.d3chart-colors-extended .d3chart-legend-25 {
+  color: #000;
+  background-image: linear-gradient(108deg, #4af4b5, #8effed);
+}
+.d3chart-colors-extended .d3chart-color-25 {
+  fill: url(#gradient-extended-25-v);
+}
+
+.d3chart-colors-extended .d3chart-legend-26 {
+  color: #000;
+  background-image: linear-gradient(108deg, #aa9ee9, #e2d5ff);
+}
+.d3chart-colors-extended .d3chart-color-26 {
+  fill: url(#gradient-extended-26-v);
+}
+
+.d3chart-colors-extended .d3chart-legend-27 {
+  color: #000;
+  background-image: linear-gradient(108deg, #00c6c9, #57ffff);
+}
+.d3chart-colors-extended .d3chart-color-27 {
+  fill: url(#gradient-extended-27-v);
+}
+
+.d3chart-colors-extended .d3chart-legend-28 {
+  color: #000;
+  background-image: linear-gradient(108deg, #e64b00, #ff8300);
+}
+.d3chart-colors-extended .d3chart-color-28 {
+  fill: url(#gradient-extended-28-v);
 }
 
 /* Legend gradients */
 .d3chart-legend-0 {
-	color: #fff;
-	background: linear-gradient(352.65deg, #F0047F 1.39%, #FC814A 82.63%);
+  color: #fff;
+  background: linear-gradient(352.65deg, #f0047f 1.39%, #fc814a 82.63%);
 }
 .d3chart-legend-1 {
-	color: #000;
-	background: linear-gradient(47.9deg, #0090CA 6.17%, #00BFAD 79.63%);
+  color: #000;
+  background: linear-gradient(47.9deg, #0090ca 6.17%, #00bfad 79.63%);
 }
 .d3chart-legend-2 {
-	color: #000;
-	background: linear-gradient(180deg, #FFC803 0%, #FC814A 100%);
+  color: #000;
+  background: linear-gradient(180deg, #fc814a 0%, #ffc803 100%);
 }
 .d3chart-legend-3 {
-	color: #000;
-	background: linear-gradient(180deg, #78ECC2 0%, #00FFB2 100%);
+  color: #000;
+  background: linear-gradient(180deg, #78ecc2 0%, #00ffb2 100%);
 }
 .d3chart-legend-4 {
-	color: #000;
-	background: linear-gradient(108.82deg, #DF4A1F 0%, #FFA278 90.74%);
+  color: #000;
+  background: linear-gradient(108.82deg, #df4a1f 0%, #ffa278 90.74%);
 }
 .d3chart-legend-5 {
-	color: #000;
-	background: linear-gradient(108.82deg, #FD98BC 32.87%, #FFCCDE 90.74%);
+  color: #000;
+  background: linear-gradient(108.82deg, #6b38fb 0%, #ccb4ff 90.74%);
 }
 .d3chart-legend-6 {
-	color: #000;
-	background: linear-gradient(108.82deg, #6B38FB 0%, #CCB4FF 90.74%);
+  color: #000;
+  background: linear-gradient(108.82deg, #fd98bc 32.87%, #ffccde 90.74%);
 }
 .d3chart-legend-7 {
-	color: #000;
-	background: linear-gradient(108.82deg, #03D0D0 0%, #B5FFF8 90.74%);
+  color: #000;
+  background: linear-gradient(108.82deg, #03d0d0 0%, #b5fff8 90.74%);
 }
 .d3chart-legend-8 {
-	color: #fff;
-	background: linear-gradient(108.82deg, #C40468 0%, #FC2796 90.74%);
+  color: #fff;
+  background: linear-gradient(108.82deg, #c40468 0%, #fc2796 90.74%);
 }
 .d3chart-legend-9 {
-	color: #000;
-	background: linear-gradient(180deg, #78F19A 0%, #13B110 100%);
+  color: #000;
+  background: linear-gradient(180deg, #78f19a 0%, #13b110 100%);
 }
 .d3chart-legend-10 {
-	color: #000;
-	background: linear-gradient(108.82deg, #91A5EE 37.71%, #D6DEFF 90.74%);
+  color: #000;
+  background: linear-gradient(108.82deg, #91a5ee 37.71%, #d6deff 90.74%);
 }
 .d3chart-legend-11 {
-	color: #000;
-	background: linear-gradient(108.82deg, #02C6B3 40.13%, #59F7E7 90.74%);
+  color: #000;
+  background: linear-gradient(108.82deg, #02c6b3 40.13%, #59f7e7 90.74%);
 }
 .d3chart-legend-12 {
-	color: #fff;
-	background: linear-gradient(108.82deg, #FF0F00 0%, #FF928A 90.74%);
+  color: #fff;
+  background: linear-gradient(108.82deg, #ff0f00 0%, #ff928a 90.74%);
 }
 .d3chart-legend-13 {
-	color: #000;
-	background: linear-gradient(180deg, #003EDD 0%, #6CDCFF 100%);
+  color: #000;
+  background: linear-gradient(180deg, #003edd 0%, #6cdcff 100%);
 }
 .d3chart-legend-14 {
-	color: #000;
-	background: linear-gradient(108.82deg, #02465F 3.38%, #6AD7FF 90.74%);
+  color: #000;
+  background: linear-gradient(108.82deg, #02465f 3.38%, #6ad7ff 90.74%);
 }
 .d3chart-legend-15 {
-	color: #fff;
-	background: linear-gradient(108.82deg, #960000 0%, #E94242 92.82%);
+  color: #fff;
+  background: linear-gradient(108.82deg, #960000 0%, #e94242 92.82%);
 }
 .d3chart-legend-16 {
-	color: #fff;
-	background: linear-gradient(108.82deg, #FF72CF 0%, #C92ECC 90.74%);
+  color: #fff;
+  background: linear-gradient(108.82deg, #ff72cf 0%, #c92ecc 90.74%);
 }
 
 /* Overrides */
 
 /* Dark mode */
 .dark .tick line {
-	stroke: rgba(255,255,255,.15);
+  stroke: rgba(255, 255, 255, 0.15);
 }
 .dark .d3chart-bubble .tick:nth-child(2n) line {
-	stroke: rgba(255,255,255,.22);
+  stroke: rgba(255, 255, 255, 0.22);
 }
-.dark .d3chart-bubble .tick:nth-child(2n+1) line {
-	stroke: rgba(255,255,255,.1);
+.dark .d3chart-bubble .tick:nth-child(2n + 1) line {
+  stroke: rgba(255, 255, 255, 0.1);
+}
+
+.dark .d3chart-bubble.d3chart-highlight-zero-axis [data-chart-value="0"] line {
+  stroke: rgba(255, 255, 255, 0.75);
 }
 
 .dark .d3chart-axislabel {
-	fill: #fff;
+  fill: #fff;
 }
 
 .dark .d3chart-bubblelabel.offset-l {
-	filter: url(#offset-label-bg);
+  filter: url(#offset-label-bg);
 }

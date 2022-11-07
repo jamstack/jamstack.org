@@ -1,0 +1,201 @@
+---
+title: "Jamstack Community Survey Results 2022"
+description: "The third annual Jamstack Survey conducted by Netlify reveals developer attitudes towards trends like remote work, Web3, serverless, edge and more."
+layout: layouts/base.njk
+ogimage: "/img/og/jamstack-community-survey-2022-og.png"
+stylesheets:
+  - /css/d3chart.css
+javascripts:
+  - /survey/2022/bundle.js
+gradientColors:
+  sunrise: ["#F0047F", "#FC814A"]
+  blue: ["#0090c9", "#00c0ad"]
+  sun: ["#FC814A", "#FFC803"]
+  seamist: ["#78ECC2", "#00FFB2"]
+  hallows: ["#DF4A1F", "#FFA278"]
+  bubblegum: ["#FF98BC", "#FFCCDE"]
+  purple: ["#6B38FB", "#CCB4FF"]
+  air: ["#03d0d0", "#B5FFF8"]
+  pink: ["#c40468", "#fc2796"]
+  leaves: ["#78f19a", "#13b110"]
+  haze: ["#91A5EE", "#d6deff"]
+  gnat: ["#02C6B3", "#59F7E7"]
+  fire: ["#FF0F00", "#FF928A"]
+  ocean: ["#003EDD", "#6CDCFF"]
+  night: ["#02465F", "#6AD7FF"]
+  dusk: ["#960000", "#E94242"]
+  rain: ["#FF72CF", "#C92ECC"]
+gradientColorsExtended:
+  "16": ["#f0185d", "#ff668f"]
+  "17": ["#448bd0", "#80c0ff"]
+  "18": ["#dbd600", "#ffff54"]
+  "19": ["#63edd7", "#a1ffff"]
+  "20": ["#cb5f00", "#ff932f"]
+  "21": ["#ff98a8", "#ffd0df"]
+  "22": ["#a800dc", "#e449ff"]
+  "23": ["#00cfe4", "#6affff"]
+  "24": ["#c5114c", "#ff5a7c"]
+  "25": ["#4af4b5", "#8effed"]
+  "26": ["#aa9ee9", "#e2d5ff"]
+  "27": ["#00c6c9", "#57ffff"]
+  "28": ["#e64b00", "#ff8300"]
+---
+
+{% import "components/permalink-heading.njk" as permalinkHeading %}
+
+<svg
+  style="
+    position: absolute;
+    left: -9999px;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+  "
+>
+  <defs>
+    <filter x="0" y="0" width="1" height="1" id="offset-label-bg">
+      <feFlood flood-color="#161a2c" result="bg" />
+      <feMerge>
+        <feMergeNode in="bg" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    {%- for key, entry in gradientColors %}
+    <linearGradient id="gradient-{{ key }}-h">
+      <stop offset="0%" stop-color="{{ entry[0] }}" />
+      <stop offset="100%" stop-color="{{ entry[1] }}" />
+    </linearGradient>
+    <linearGradient id="gradient-{{ key }}-v" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="{{ entry[0] }}" />
+      <stop offset="100%" stop-color="{{ entry[1] }}" />
+    </linearGradient>
+    {%- endfor %} {%- for key, entry in gradientColorsExtended %}
+    <linearGradient id="gradient-extended-{{ key }}-h">
+      <stop offset="0%" stop-color="{{ entry[0] }}" />
+      <stop offset="100%" stop-color="{{ entry[1] }}" />
+    </linearGradient>
+    <linearGradient
+      id="gradient-extended-{{ key }}-v"
+      x1="0"
+      x2="0"
+      y1="0"
+      y2="1"
+    >
+      <stop offset="0%" stop-color="{{ entry[0] }}" />
+      <stop offset="100%" stop-color="{{ entry[1] }}" />
+    </linearGradient>
+    {%- endfor %}
+  </defs>
+</svg>
+
+<div class="survey">
+  <section class="survey-section survey-grid">
+    <div class="survey-intro-headings">
+      <h1 class="leading-tight survey-intro-heading">Jamstack gives developers full-stack powers</h1>
+      <h2 class="survey-intro-subheading">Findings from the Jamstack Community Survey 2022</h2>
+    </div>
+    <p>
+      The third year of the Jamstack Community Survey found a mix of things we
+      expected – indeed, things we predicted last year – as well as some big
+      surprises about the many diverse members of our community. Some key
+      takeaways include:
+    </p>
+    <ul>
+      <li>
+        Four out of five developers are now working remotely most of the time,
+        and more than half say they would quit their jobs rather than go back to
+        an office.
+      </li>
+      <li>
+        The number of people who have used serverless technology jumped to 70%,
+        taking it fully into the mainstream.
+      </li>
+      <li>
+        React continued to grow to an almost unprecedented 71% share of
+        developers, and Next.js rode that wave and is now used by 1 in every 2
+        developers.
+      </li>
+    </ul>
+    <p>
+      <a href="https://www.netlify.com/" target="_blank">Netlify</a> sits at the
+      center of the Jamstack community, and we conduct our annual survey so we
+      can understand our community of developers. This helps us tailor our
+      products and services to our community. In sharing our survey results, we
+      also want to help developers better understand themselves and one another.
+      Working as a developer often means working in a vacuum, without a sense of
+      what’s happening in the broader community. Our survey data can help
+      provide a sense of best practices as well as an idea of what else is
+      happening in the community.
+    </p>
+    <p>
+      In addition to our usual framework census and our questions about content
+      management systems, this year we asked about some emerging technologies
+      that have received a lot of attention. The fuzzy group of technologies
+      called “Web3” garnered mixed feelings despite a great deal of press in
+      2021 and 2022. Browser-native web components, on the other hand, seem to
+      have finally reached mainstream adoption.
+    </p>
+    <p>
+      As usual, our survey covers everyone we can reach: every kind of developer
+      responded to our survey from every region of the world, whether or not
+      they were Netlify users, and whether or not they considered themselves
+      Jamstack developers. Our survey this year received a little under 7,000
+      responses. If you’re interested in the specifics of our methodology, we
+      have a
+      <a href="/survey/2022/community-survey-2022-methodology.pdf" target="_blank">detailed writeup</a>
+      of the demographics and margins of error in our survey.
+    </p>
+    <p>
+      As usual, we want to thank the developers who took the time to contribute
+      to the survey. We have done our best to take the data you’ve given us and
+      turn it into useful, actionable insights for everyone in our community,
+      and we hope it helps you.
+    </p>
+    <p>This year, our results are split into four sections:</p>
+    <nav class="overflow-hidden survey-toc">
+      <ol
+        class="list-decimal float-left p-4 bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-900 rounded-default"
+      >
+        <li class="py-1 px-2 ml-4">
+          <a
+            href="#whos-doing-the-building"
+            class="text-pink-500 border-pink-500"
+            >Who’s doing the building?</a
+          >
+          <span class="italic ml-1">Demographic data.</span>
+        </li>
+        <li class="py-1 px-2 ml-4">
+          <a href="#what-is-the-jamstack-community-building" class="text-pink-500 border-pink-500"
+            >What is the Jamstack Community building?</a
+          >
+          <span class="ml-1 italic">The targets and purposes of our work.</span>
+        </li>
+        <li class="py-1 px-2 ml-4">
+          <a href="#how-are-we-building" class="text-pink-500 border-pink-500"
+            >How are we building?</a
+          >
+          <span class="ml-1 italic">Technology choices and trends.</span>
+        </li>
+        <li class="py-1 px-2 ml-4">
+          <a href="#emerging-trends-in-the-jamstack-community" class="text-pink-500 border-pink-500"
+            >Emerging Trends in the Jamstack Community</a
+          >
+          <span class="ml-1 italic"
+            >Up-and-coming technologies and cultural trends.</span
+          >
+        </li>
+      </ol>
+    </nav>
+  </section>
+
+  <!-- prettier-ignore -->
+
+  {% include "survey/2022/whos-doing-the-building/index.njk" %}
+
+  {% include "survey/2022/what-are-we-building/index.njk" %}
+
+  {% include "survey/2022/how-are-we-building/index.njk" %}
+
+  {% include "survey/2022/where-are-we-going/index.njk" %}
+</div>

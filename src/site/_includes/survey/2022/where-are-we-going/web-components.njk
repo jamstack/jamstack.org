@@ -1,0 +1,52 @@
+<div class="survey-chart">
+  <div class="flex justify-between">
+    <div>
+      {{ permalinkHeading.render('h4', "How much have you used Web Components in the last 12 months?") }}
+      <p class="survey-chart-subheading">Percentage of respondents</p>
+    </div>
+  </div>
+  <div id="web-components-chart" class="d3chart-placeholder"></div>
+  <div class="text-center">Source: Jamstack Community Survey 2022</div>
+
+  <details>
+    <summary class="text-sm">Show Chart Data</summary>
+    <table id="web-components-table" class="table-auto border-collapse">
+      <thead>
+        <tr class="chart-data-table-head">
+          <th class="text-left pr-2"></th>
+          <th class="text-left pr-2">Count</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Not aware of them</td>
+          <td>23%</td>
+        </tr>
+        <tr>
+          <td>Rarely and don't want to</td>
+          <td>16%</td>
+        </tr>
+        <tr>
+          <td>Rarely but want more</td>
+          <td>29%</td>
+        </tr>
+        <tr>
+          <td>Some and want fewer</td>
+          <td>5%</td>
+        </tr>
+        <tr>
+          <td>Some and want more</td>
+          <td>19%</td>
+        </tr>
+        <tr>
+          <td>Many and want fewer</td>
+          <td>1%</td>
+        </tr>
+        <tr>
+          <td>Many and want more</td>
+          <td>7%</td>
+        </tr>
+      </tbody>
+    </table>
+  </details>
+</div>

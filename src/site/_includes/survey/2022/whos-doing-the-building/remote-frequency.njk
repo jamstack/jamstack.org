@@ -1,0 +1,56 @@
+<div class="survey-chart">
+  <div class="flex justify-between gap-x-2 items-center">
+    <div>
+      {{ permalinkHeading.render('h4', "What percentage of your time do you work remotely?") }}
+      <p class="survey-chart-subheading">Percentage of respondents</p>
+    </div>
+  </div>
+  <div id="remote-frequency-chart" class="d3chart-placeholder"></div>
+  <div class="text-center">Source: Jamstack Community Survey 2022</div>
+
+  <details>
+    <summary class="text-sm">Show Chart Data</summary>
+    <table id="remote-frequency-table" class="table-auto border-collapse">
+      <thead>
+        <tr class="chart-data-table-head">
+          <th class="text-left pr-2">Frequency</th>
+          <th class="text-left pr-2">Percentage of Survey Participants</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td data-avoid-parse>0%</td>
+          <td>3%</td>
+        </tr>
+        <tr>
+          <td data-avoid-parse>1-9%</td>
+          <td>4%</td>
+        </tr>
+        <tr>
+          <td data-avoid-parse>10-24%</td>
+          <td>5%</td>
+        </tr>
+        <tr>
+          <td data-avoid-parse>25-49%</td>
+          <td>5%</td>
+        </tr>
+        <tr>
+          <td data-avoid-parse>50-74%</td>
+          <td>9%</td>
+        </tr>
+        <tr>
+          <td data-avoid-parse>75-89%</td>
+          <td>12%</td>
+        </tr>
+        <tr>
+          <td data-avoid-parse>90-99%</td>
+          <td>23%</td>
+        </tr>
+        <tr>
+          <td data-avoid-parse>100%</td>
+          <td>39%</td>
+        </tr>
+      </tbody>
+    </table>
+  </details>
+</div>

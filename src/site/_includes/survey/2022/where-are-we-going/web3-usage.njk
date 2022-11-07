@@ -1,0 +1,89 @@
+<div class="survey-chart">
+  <div class="flex justify-between">
+    <div>
+      {{ permalinkHeading.render('h4', "Which Web3 technologies did you use in the last 12 months?") }}
+      <p class="survey-chart-subheading">Percentage of respondents</p>
+    </div>
+  </div>
+  <div id="web3-usage-chart" class="d3chart-placeholder"></div>
+
+  <div>
+    <div class="d3chart-legend-placeholder d3chart-legend-wrap"></div>
+  </div>
+
+  <div class="text-center">Source: Jamstack Community Survey 2022</div>
+
+  <details>
+    <summary class="text-sm">Show Chart Data</summary>
+    <table id="web3-usage-table" class="table-auto border-collapse">
+      <thead>
+        <tr class="chart-data-table-head">
+          <th class="text-left pr-2"></th>
+          <th class="text-left pr-2">None</th>
+          <th class="text-left pr-2">A few projects</th>
+          <th class="text-left pr-2">Many projects</th>
+          <th class="text-left pr-2">Most projects</th>
+          <th class="text-left pr-2">All</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Bitcoin</td>
+          <td>89%</td>
+          <td>7%</td>
+          <td>1%</td>
+          <td>1%</td>
+          <td>1%</td>
+        </tr>
+        <tr>
+          <td>Ethereum</td>
+          <td>87%</td>
+          <td>9%</td>
+          <td>1%</td>
+          <td>1%</td>
+          <td>1%</td>
+        </tr>
+        <tr>
+          <td>Solana</td>
+          <td>93%</td>
+          <td>4%</td>
+          <td>1%</td>
+          <td>1%</td>
+          <td>1%</td>
+        </tr>
+        <tr>
+          <td>Other blockchain</td>
+          <td>89%</td>
+          <td>7%</td>
+          <td>1%</td>
+          <td>1%</td>
+          <td>1%</td>
+        </tr>
+        <tr>
+          <td>DAOs</td>
+          <td>93%</td>
+          <td>4%</td>
+          <td>1%</td>
+          <td>1%</td>
+          <td>1%</td>
+        </tr>
+        <tr>
+          <td>Other dApps</td>
+          <td>90%</td>
+          <td>6%</td>
+          <td>2%</td>
+          <td>1%</td>
+          <td>1%</td>
+        </tr>
+        <tr>
+          <td>NFTs</td>
+          <td>86%</td>
+          <td>10%</td>
+          <td>2%</td>
+          <td>1%</td>
+          <td>1%</td>
+        </tr>
+      </tbody>
+    </table>
+  </details>
+</div>

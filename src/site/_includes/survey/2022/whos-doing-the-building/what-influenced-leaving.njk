@@ -1,0 +1,114 @@
+<div class="survey-chart">
+  <div class="flex justify-between items-center gap-x-2">
+    <div>
+      {{ permalinkHeading.render('h5', "Why did you leave your job?") }}
+      <p class="survey-chart-subheading">Percentage of respondents</p>
+    </div>
+  </div>
+
+  <div id="what-influenced-leaving-chart" class="d3chart-placeholder"></div>
+
+  <div>
+    <div class="d3chart-legend-placeholder d3chart-legend-wrap"></div>
+  </div>
+
+  <div class="text-center">Source: Jamstack Community Survey 2022</div>
+
+  <details>
+    <summary class="text-sm">Show Chart Data</summary>
+    <table id="what-influenced-leaving-table" class="w-full table-auto border-collapse text-sm">
+      <thead>
+        <tr class="chart-data-table-head">
+          <th></th>
+          <th class="text-left pr-2">Not at all important</th>
+          <th class="text-left pr-2">Slightly important</th>
+          <th class="text-left pr-2">Moderately important</th>
+          <th class="text-left pr-2">Very important</th>
+          <th class="text-left pr-2">Extremely important</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Remote work</td>
+          <td>6%</td>
+          <td>6%</td>
+          <td>18%</td>
+          <td>30%</td>
+          <td>41%</td>
+        </tr>
+        <tr>
+          <td>Career growth</td>
+          <td>3%</td>
+          <td>5%</td>
+          <td>18%</td>
+          <td>35%</td>
+          <td>39%</td>
+        </tr>
+        <tr>
+          <td>Company culture</td>
+          <td>4%</td>
+          <td>6%</td>
+          <td>21%</td>
+          <td>38%</td>
+          <td>31%</td>
+        </tr>
+        <tr>
+          <td>Team</td>
+          <td>4%</td>
+          <td>6%</td>
+          <td>21%</td>
+          <td>38%</td>
+          <td>31%</td>
+        </tr>
+        <tr>
+          <td>Money</td>
+          <td>4%</td>
+          <td>5%</td>
+          <td>20%</td>
+          <td>40%</td>
+          <td>30%</td>
+        </tr>
+        <tr>
+          <td>My manager</td>
+          <td>6%</td>
+          <td>9%</td>
+          <td>24%</td>
+          <td>34%</td>
+          <td>26%</td>
+        </tr>
+        <tr>
+          <td>Corporate ethics</td>
+          <td>6%</td>
+          <td>9%</td>
+          <td>25%</td>
+          <td>36%</td>
+          <td>25%</td>
+        </tr>
+        <tr>
+          <td>Technology choices</td>
+          <td>4%</td>
+          <td>7%</td>
+          <td>25%</td>
+          <td>42%</td>
+          <td>22%</td>
+        </tr>
+        <tr>
+          <td>Environmental impact</td>
+          <td>15%</td>
+          <td>16%</td>
+          <td>30%</td>
+          <td>25%</td>
+          <td>14%</td>
+        </tr>
+        <tr>
+          <td>Involuntary</td>
+          <td>36%</td>
+          <td>10%</td>
+          <td>28%</td>
+          <td>15%</td>
+          <td>11%</td>
+        </tr>
+      </tbody>
+    </table>
+  </details>
+</div>

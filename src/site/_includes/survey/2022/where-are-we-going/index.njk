@@ -1,0 +1,166 @@
+<section class="survey-section survey-grid border-b">
+  {{
+    permalinkHeading.render(
+      "h2",
+      "Emerging Trends in the Jamstack Community",
+      "",
+      "emerging-trends-in-the-jamstack-community"
+    )
+  }}
+
+  <p>
+    In addition to the current state of the Jamstack community, we also gathered
+    some data about emerging trends, and tried to use our data to make some
+    predictions about where we expect things will go in 2023.
+  </p>
+
+  {{ permalinkHeading.render("h3", "Trends in web frameworks") }}
+
+  <p>
+    The continued dominance of React in the web framework landscape seems set to
+    continue, and we expect further growth from React and its allied Next.js in
+    2023. But React is only one of many possible ways to build a useful website.
+  </p>
+
+  <p>
+    If you’re looking for interactivity with high performance and a low resource
+    footprint, such as if your user base is primarily mobile, you might want to
+    look at Astro or Sveltekit.
+  </p>
+
+  <p>
+    As we mentioned already, if you’re building a static or nearly-static site,
+    we continue to think 11ty is an excellent choice given its growth relative
+    to other SSGs in the space.
+  </p>
+
+  {{ permalinkHeading.render("h3", "Is Web3 the future?") }}
+
+  <p>
+    We heard a great deal on social media in 2022 about Web3, so we included a
+    couple of specific questions about Web3 technologies in this year’s survey
+    (after running a small pre-survey, we did not include the Metaverse in our
+    definition of Web3, as a majority of respondents did not think of it as part
+    of Web3).
+  </p>
+
+  <p>
+    Overall, only about 10% of respondents said they had tried out any of the
+    Web3 technologies we asked about. Applying the same “some or many projects”
+    standard that we do when counting web frameworks, Web3 technologies did not
+    cross 3% usage.
+  </p>
+
+  {% include './web3-usage.njk' %}
+
+  <p>
+    Low usage is to be expected in an early technology, so we also asked
+    sentiment questions. 13% of respondents did not know what Web3 was, while
+    another third were neutral towards it. Of those who expressed feelings about
+    Web3, those who were negative about it (31%) slightly outnumbered those who
+    were positive about it (28%). If we translate this into the satisfaction
+    score we use elsewhere in the survey, it would be 0.9, and we would expect
+    Web3 to lose usage share in the coming year.
+  </p>
+
+  {% include './web3-feelings.njk' %}
+
+  {{ permalinkHeading.render("h3", "Web Components have arrived") }}
+
+  <p>
+    Browser-native Web Components were introduced 11 years ago but lacked
+    support from all major browsers until roughly
+    <a href="https://caniuse.com/?search=web%20components" target="_blank">2018</a >. Since then, their adoption has accelerated notably, and while they are
+    still not in use by the majority of our respondents we believe we can call
+    them a solid choice in 2022.
+  </p>
+
+  <p>
+    Using the same standards we apply to web frameworks, native Web Components
+    have usage of 32%. Even more positively, their Satisfaction Score is 4.3, so
+    we expect rapid growth in the adoption of web components in 2023.
+  </p>
+
+  {% include './web-components.njk' %}
+
+  {{ permalinkHeading.render("h3", "Jamstack is Increasingly Serverless") }}
+
+  <p>
+    The final trend we covered was the growth in serverless technology,
+    sometimes also called edge computing. Last year we were taken somewhat by
+    surprise to learn that serverless adoption had hit 46%, so this year we made
+    sure to ask a more detailed question.
+  </p>
+
+  <p>
+    Using the standard we used last year of any adoption at all, serverless
+    usage jumped from 46% to 71%. We expected growth, but that was much faster
+    than we predicted. Applying our usual standard of “some+many” projects we
+    use for web frameworks, serverless technology is at 35% adoption, which
+    relative to frameworks would make it bigger than Vue but smaller than
+    Next.js.
+  </p>
+
+  <p>
+    We mentioned above that there was a big shift in the last year of people
+    describing themselves as “full stack” developers from “front end”
+    developers. We think the big jump in serverless adoption may be the
+    explanation: serverless lets front-end developers build full-stack
+    applications with a minimum of fuss, and the adoption has been so fast it’s
+    changing how we describe ourselves.
+  </p>
+
+  <p>
+    Given the rapid growth since last year, we expect to see further growth in
+    adoption and especially users moving from the “few projects” category into
+    more serious usage.
+  </p>
+
+  {% include './serverless.njk' %}
+
+  <h2 class="final-heading">
+    Jamstack remains the standard architecture of the web
+  </h2>
+
+  <p>
+    The evolution of the web as a platform continues to be rapid and exciting,
+    with new technologies pushing the boundaries of what the web can do and how
+    quickly developers can ship. We’ve also learned more about our community as
+    human beings: where they are, who they are, and what motivates them.
+  </p>
+
+  <p>
+    We hope giving you a sense of the community you’re part of and the
+    technologies that your peers use gives you a sense of place and some ideas
+    about where you should put your time and energy in the next year.
+  </p>
+
+  <p>
+    Once again, we’d like to thank everybody who participated in the community
+    survey.
+  </p>
+
+  <ul>
+    <li>
+      Discuss and share feedback in the
+      <a href="https://discord.com/invite/jamstack" target="_blank">Jamstack Discord</a >
+    </li>
+    <li>
+      <a href="https://jamstack.org/conf/agenda/" target="_blank">Register for Jamstack Conf 2022 for free</a >
+      (November 7 and 8) to watch the talks live and receive the recordings
+    </li>
+    <li>
+      Read a summary of the results on the
+      <a href="https://www.netlify.com/blog/jamstack-community-survey-2022/" target="_blank">Netlify blog</a >
+      or
+      <a href="https://www.netlify.com/press/developers-drive-remote-work-future-jamstack-survey-shows/" target="_blank">press release</a >
+    </li>
+    <li>
+      Check out other
+      <a href="https://www.netlify.com/resources/" target="_blank">webinars, guides, e-books, and more</a >
+    </li>
+    <li>
+      Our <a href="/survey/2021/">look at the 2021 data</a> is still available if you'd like to look back
+    </li>
+  </ul>
+</section>

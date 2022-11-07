@@ -1,0 +1,155 @@
+<div class="survey-chart">
+  <div class="flex justify-between items-center gap-x-2">
+    <div>
+      {{ permalinkHeading.render('h5', "Experience by region") }}
+      <p class="survey-chart-subheading">Percentage of respondents</p>
+    </div>
+  </div>
+  <div id="experience-by-region-chart" class="d3chart-placeholder d3chart-colors-extended"></div>
+
+  <div>
+    <div class="d3chart-legend-placeholder d3chart-legend-wrap d3chart-colors-extended"></div>
+  </div>
+
+  <div class="text-center">Source: Jamstack Community Survey 2022</div>
+
+  <details>
+    <summary class="text-sm">Show Chart Data</summary>
+    <table id="experience-by-region-table" class="table-auto border-collapse">
+      <thead>
+        <tr class="chart-data-table-head">
+          <th class="text-left pr-2">Years of experience</th>
+          <th class="text-left pr-2">Africa</th>
+          <th class="text-left pr-2">Asia Pacific</th>
+          <th class="text-left pr-2">Central America</th>
+          <th class="text-left pr-2">Eastern Asia</th>
+          <th class="text-left pr-2">Europe</th>
+          <th class="text-left pr-2">Middle East</th>
+          <th class="text-left pr-2">North America</th>
+          <th class="text-left pr-2">South America</th>
+          <th class="text-left pr-2">Southern Asia</th>
+          <th class="text-left pr-2">Caribbean</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>< 1</td>
+          <td>9.3%</td>
+          <td>21.1%</td>
+          <td>0.5%</td>
+          <td>3.6%</td>
+          <td>21.7%</td>
+          <td>2.1%</td>
+          <td>21.7%</td>
+          <td>7.2%</td>
+          <td>12.9%</td>
+          <td>0.0%</td>
+        </tr>
+        <tr>
+          <td>1-2</td>
+          <td>12.4%</td>
+          <td>16.4%</td>
+          <td>1.2%</td>
+          <td>0.7%</td>
+          <td>27.9%</td>
+          <td>0.9%</td>
+          <td>21.6%</td>
+          <td>5.9%</td>
+          <td>12.0%</td>
+          <td>0.9%</td>
+        </tr>
+        <tr>
+          <td>3-4</td>
+          <td>8.4%</td>
+          <td>13.1%</td>
+          <td>1.3%</td>
+          <td>2.2%</td>
+          <td>37.4%</td>
+          <td>2.2%</td>
+          <td>24.5%</td>
+          <td>4.5%</td>
+          <td>5.4%</td>
+          <td>1.1%</td>
+        </tr>
+        <tr>
+          <td>5-6</td>
+          <td>5.7%</td>
+          <td>12.9%</td>
+          <td>2.5%</td>
+          <td>2.0%</td>
+          <td>34.5%</td>
+          <td>2.2%</td>
+          <td>28.3%</td>
+          <td>6.2%</td>
+          <td>3.7%</td>
+          <td>2.0%</td>
+        </tr>
+        <tr>
+          <td>7-8</td>
+          <td>3.7%</td>
+          <td>6.7%</td>
+          <td>0.7%</td>
+          <td>1.9%</td>
+          <td>39.6%</td>
+          <td>0.7%</td>
+          <td>37.0%</td>
+          <td>3.0%</td>
+          <td>5.6%</td>
+          <td>1.1%</td>
+        </tr>
+        <tr>
+          <td>9-10</td>
+          <td>2.5%</td>
+          <td>5.8%</td>
+          <td>1.1%</td>
+          <td>0.4%</td>
+          <td>42.4%</td>
+          <td>0.7%</td>
+          <td>40.6%</td>
+          <td>4.7%</td>
+          <td>1.1%</td>
+          <td>0.7%</td>
+        </tr>
+        <tr>
+          <td>11-12</td>
+          <td>3.8%</td>
+          <td>5.0%</td>
+          <td>0.6%</td>
+          <td>1.3%</td>
+          <td>51.9%</td>
+          <td>1.3%</td>
+          <td>32.5%</td>
+          <td>3.1%</td>
+          <td>0.6%</td>
+          <td>0.0%</td>
+        </tr>
+        <tr>
+          <td>13-14</td>
+          <td>3.5%</td>
+          <td>8.1%</td>
+          <td>0.0%</td>
+          <td>0.0%</td>
+          <td>39.1%</td>
+          <td>5.8%</td>
+          <td>35.6%</td>
+          <td>2.3%</td>
+          <td>5.8%</td>
+          <td>0.0%</td>
+        </tr>
+        <tr>
+          <td>15+</td>
+          <td>0.7%</td>
+          <td>8.0%</td>
+          <td>0.5%</td>
+          <td>1.1%</td>
+          <td>40.3%</td>
+          <td>1.5%</td>
+          <td>44.1%</td>
+          <td>2.0%</td>
+          <td>1.3%</td>
+          <td>0.5%</td>
+        </tr>
+      </tbody>
+    </table>
+  </details>
+</div>
