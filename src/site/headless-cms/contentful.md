@@ -6,7 +6,7 @@ opensource: "No"
 typeofcms: "API Driven"
 supportedgenerators:
   - All
-description: Contentful is a content management developer platform with an API at its core.
+description: The Contentful® Composable Content Platform brings the building blocks of content together to create once and reuse for any digital experience. The API-first platform integrates easily with data sources and new functionality as digital experiences and technology evolve.
 ---
 ## Contentful
 
@@ -26,4 +26,4 @@ Organize and structure the content your way. Build a custom content model instea
 
 ### Just the content, no presets or templates
 
-Contentful delivers the content, and you design around it. We separate the content from presentation — it's most flexible this way.
+Contentful delivers the content, and you design around it. We separate the content from presentation — the most flexible way.
