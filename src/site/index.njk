@@ -8,18 +8,6 @@ layout: layouts/base.njk
 {% import "components/zinger-cta.njk" as zinger %}
 {% import "components/color-theme-selector.njk" as colorThemeToggle %}
 
-<section class="mb-10">
-  <div class="border-2 border-white bg-white dark:bg-blue-900 block rounded-xl shadow-lg text-center overflow-hidden">
-    <a href="/conf/">
-      <img src="/img/conf-2022-tout-new.png" alt="Jamstack Conf 2022, 7-8 November, San Francisco and online" width="1500" height="600"/>
-    </a>
-    <h2 class="mt-8">Thanks for joining us at Jamstack Conf!</h2x>
-    <p class="mb-5">
-      <a href="https://jamstack.org/conf/jammies/" class="cta">Check out this year's Jammies winners</a>
-    </p>
-  </div>
-</section>
-
 <section class="my-10 p-0">
   {{ ticker.icons() }}
   {{ ticker.main() }}
@@ -41,6 +29,18 @@ layout: layouts/base.njk
         It enables a composable architecture for the web where custom logic and 3rd party services are consumed through APIs.</p>
     </p>
   </div>
+</div>
+</section>
+
+<section class="mb-10">
+<div class="border-2 border-white bg-white dark:bg-blue-900 block rounded-xl shadow-lg text-center overflow-hidden">
+  <a href="/conf/">
+    <img src="/img/conf-2022-tout-new.png" alt="Jamstack Conf 2022, 7-8 November, San Francisco and online" width="1500" height="600"/>
+  </a>
+  <h2 class="mt-8">Thanks for joining us at Jamstack Conf!</h2x>
+  <p class="mb-5">
+    <a href="https://jamstack.org/conf/jammies/" class="cta">Check out this year's Jammies winners</a>
+  </p>
 </div>
 </section>
 
