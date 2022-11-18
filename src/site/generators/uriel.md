@@ -31,7 +31,7 @@ will still build the same way in the future.
 - Possible to build a basic site without writing any Python code
 - Flat URL support to make some or all content nodes top-level URLs
 - Static file linking lets you catch potential 404 errors at build time
-- Static file hash linking support for dynamically generated CSS/JavaScript file includes.
+- Static file hash linking support for dynamically generated CSS/JavaScript file includes
 - Content node metadata inheritance system
 - Built-in tag index system
 - RSS feed support
