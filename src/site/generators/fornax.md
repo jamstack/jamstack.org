@@ -7,7 +7,7 @@ language:
 license:
   - MIT
 templates:
-  - type safe F# DSL
+  - Type Safe F# DSL
 description: Scriptable static site generator using type safe F# DSL to define page templates.
 ---
 
