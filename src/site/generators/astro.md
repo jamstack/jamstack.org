@@ -13,7 +13,7 @@ templates:
   - Vue
   - SolidJS
   - Lit
-  - Alpine
+  - AlpineJS
   - HTML
   - Markdown
   - MDX
