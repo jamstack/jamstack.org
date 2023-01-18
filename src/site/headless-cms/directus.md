@@ -25,7 +25,7 @@ The **[Directus Suite](https://github.com/directus/directus)** is a package that
 
 ## Database-First
 
-Directus follows a database-first approach, storing all of your data _unaltered_ in pure SQL databases with that can be completely cusotmized. Benefits to this approach include:
+Directus follows a database-first approach, storing all of your data _unaltered_ in pure SQL databases with that can be completely customized. Benefits to this approach include:
 
 ### Portability and Transparency
 
