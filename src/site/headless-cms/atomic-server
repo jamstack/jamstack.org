@@ -2,6 +2,7 @@
 title: Atomic Server
 homepage: https://atomicdata.dev/
 opensource: "Yes"
+repo: atomicdata-dev/atomic-data-rust
 typeofcms: "API Driven"
 supportedgenerators:
   - All
