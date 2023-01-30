@@ -1,5 +1,6 @@
 const lodashGet = require("lodash/get");
 const yaml = require("js-yaml");
+const { URL } = require("url");
 
 module.exports = function (eleventyConfig) {
   // Support yaml data files
@@ -37,6 +38,10 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPairedShortcode('markdown', (content) => {
     return md.render(content);
   });
+
+  eleventyConfig.addFilter('absoluteUrl', (url, base) => {
+    return (new URL(url, base)).toString() || url
+  })
 
 
   eleventyConfig.addFilter('convertFromEpoc', (time) => {
