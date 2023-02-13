@@ -7,7 +7,7 @@ language:
 license:
   - MPL-2.0
 templates:
-  - Handlebars
+  - Markdown
 description: GitBook alternative implemented in Rust.
 ---
 
