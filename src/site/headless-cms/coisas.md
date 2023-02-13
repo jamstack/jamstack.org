@@ -1,7 +1,7 @@
 ---
 title: Coisas
 repo: fiatjaf/coisas
-homepage: https://coisas.alhur.es/
+homepage: https://coisas.fiatjaf.com/
 opensource: "Yes"
 typeofcms: "Git-based"
 supportedgenerators:
