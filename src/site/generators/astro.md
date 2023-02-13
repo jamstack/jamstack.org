@@ -11,7 +11,12 @@ templates:
   - React
   - Preact
   - Vue
+  - SolidJS
+  - Lit
+  - AlpineJS
   - HTML
+  - Markdown
+  - MDX
 description: Build faster websites with less client-side Javascript
 ---
 Astro is a fresh but familiar approach to building websites. 
