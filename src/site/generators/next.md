@@ -10,6 +10,7 @@ templates:
   - React
 startertemplaterepo: https://github.com/netlify-templates/next-netlify-starter
 description: A framework for statically-exported React apps (supports server side rendering)
+twitter: nextjs
 ---
 
 Next.js is a minimalistic framework for server-rendered React applications as well as statically exported React apps.
