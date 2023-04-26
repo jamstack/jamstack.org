@@ -9,7 +9,7 @@ license:
 templates:
   - Go
 description: A Fast and Flexible Static Site Generator.
-startertemplaterepo: https://github.com/netlify/victor-hugo
+startertemplaterepo: https://github.com/netlify-templates/hugo-quickstart
 twitter: GoHugoIO
 ---
 
