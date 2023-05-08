@@ -3,7 +3,6 @@ title: Youngsoni
 repo: ElijahToussaint/youngsoni
 homepage: https://github.com/ElijahToussaint/youngsoni
 language:
-  - HTML
   - JavaScript
   - Node.js
 license:
@@ -12,6 +11,7 @@ templates:
   - Nunjucks
   - Hjson
   - Markdown
+  - HTML
 description: A static site generator.
 ---
 
