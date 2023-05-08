@@ -3,7 +3,7 @@ title: Youngsoni
 repo: ElijahToussaint/youngsoni
 homepage: https://github.com/ElijahToussaint/youngsoni
 language:
-  - Html
+  - HTML
   - JavaScript
   - Node.js
 license:
@@ -30,11 +30,11 @@ Youngsoni is the [lesser hairy-footed dunnart](https://en.wikipedia.org/wiki/Les
 
 ## Features
 
-- Open source, [AGPL License](/LICENSE).
+- Open source.
 - Lightweight and easy to deploy.
 - Clean, mobile-friendly interface.
 - Supports seperate sections for personal links and cryptocurrencies.
-- Pages are automatically paginated. Disabling and adjusting page size is all done through your [config](src/config/config.hjson) file
+- Pages are automatically paginated. Disabling and adjusting page size is all done through your config file
 - A webserver is started so you can view your website in a browser.
 - Support for the [Nunjucks](https://mozilla.github.io/nunjucks/) templating engine.
 - The powerful and easy to learn [markdown](https://daringfireball.net/projects/markdown/) syntax is used for writing posts.
