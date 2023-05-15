@@ -75,5 +75,10 @@
   to = "https://www.netlify.com/blog/2020/05/27/state-of-the-jamstack-survey-2020-first-results/"
   status = 301
 
+[[redirects]]
+  from = "/headless-cms/netlify-cms/"
+  to = "/headless-cms/decap-cms/"
+  status = 301
+
 [[plugins]]
   package = "./plugins/keep-dot-cache-folder"
