@@ -45,7 +45,7 @@ If you are not a developer, you can [Spin up a demo](https://reactbricks.com/liv
 
 <img class="simple" src="/img/cms/reactbricks-code.gif" alt="React Bricks components code" />
 
-Define visually editable content blocks as React components. In the JSX use React Bricks components like `Text`, `RichText`, `Image`, `Repeater` to add the Visual editing magic. Decide which rich text features you wnatto enable for each text and define custom render functions for each style. Add **sidebar controls** that map to your component's props to let the editors change properties like the background color, with only the options that you allow.
+Define visually editable content blocks as React components. In the JSX use React Bricks components like `Text`, `RichText`, `Image`, `Repeater` to add the Visual editing magic. Decide which rich text features you want to enable for each text and define custom render functions for each style. Add **sidebar controls** that map to your component's props to let the editors change properties like the background color, with only the options that you allow.
 
 ### Flexibility
 
