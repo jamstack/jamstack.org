@@ -7,57 +7,87 @@ opensource: "Yes"
 typeofcms: "API Driven"
 supportedgenerators:
   - All
-description: Directus is a database-first platform that provides an instant REST API for custom SQL databases and an intuitive Admin App for non-technical users to manage that content.
+description: The CMS (and more) you've been looking for 😎🐰.
 images:
-  - path: https://docs.directus.io/assets/img/item-detail.dacd91c4.png
+  - path: https://marketing.directus.app/assets/100b259d-f293-419c-9fc4-884a7a106254?key=page2x
 ---
-Directus is an open-source suite of software that provides an instant API wrapper for SQL databases and an intuitive Admin App for non-technical users to manage that content. It's like a safe, friendly, and super-powered "database client" (eg: _PHP-my-Admin_ or _Sequel Pro_). Created in 2004, our premium platform powers hundreds-of-thousands of data-driven applications around the world. With our JSON API, webhooks, and complete control over where and how your content is used — what will you build with Directus?
 
-<img class="simple" src="https://docs.directus.io/assets/img/item-detail.dacd91c4.png" alt="Directus 7 — Item Edit" />
 
-## Architecture
+Directus is [a headless CMS](http://directus.io/headless-cms) that instantly turns your SQL database into REST and GraphQL APIs and gives you a beautiful, intuitive no-code app to manage all your content and data.
 
-The **[Directus API](https://github.com/directus/api)** wraps any new or existing SQL database with RESTful JSON endpoints for connecting content anywhere: websites, native apps, wearables, IoT devices, kiosks, or anything else! ([API Reference](https://docs.directus.io/api/reference.html))
+But it's also more than just a headless CMS. It’s an open data platform that has all the tools you need for creating, managing, serving, visualizing, and even automating your data for your next web, mobile, or digital project.
 
-The **[Directus Admin App](https://github.com/directus/app)** is a friendly admin interface built with Vue.js that works in conjunction with our API to allow non-technical users to manage database content and digital assets. ([User Guide](https://docs.directus.io/guides/user-guide.html))
+⚡ Now with [🕸️🧦 WebSockets and GraphQL subscription support](https://youtu.be/SCjBCAsONig) through Directus Realtime.
 
-The **[Directus Suite](https://github.com/directus/directus)** is a package that combines our API, Admin App, and all dependencies for quick and easy installation on most servers. ([Docs](https://docs.directus.io))
+Agencies, Fortune 500s, and organizations in-between are using Directus for many different types of use cases in addition to Headless CMS.
 
-## Database-First
+If you want to go to market faster with a solution that’s also ready for true-production scale - Directus is the choice for your next headless CMS.
 
-Directus follows a database-first approach, storing all of your data _unaltered_ in pure SQL databases with that can be completely cusotmized. Benefits to this approach include:
+## Get Started with Directus ⚡
 
-### Portability and Transparency
+[-> Create your account on Directus Cloud](https://directus.cloud/) to spin up your first project
 
-Directus is _not_ a black-box system. There is nothing proprietary or opinionated about how Directus stores your content so you're never locked-in or locked out. Import existing SQL to get started quickly, and rest assured that you can also export your unaltered content as vanilla SQL at any point. You can also self-host the entire suite on your own servers if needed or use our hosted Cloud service.
+or...
 
-### Access and Optimization
+Quickly [get started with the self-hosted version using Docker.](https://docs.directus.io/self-hosted/quickstart.html)
 
-Directus mirrors _your_ actual database so it will automatically stay in sync with any changes made directly to the database! With the full power of SQL unlocked, you can:
+**Helpful Links 🔗**
 
-1. Architect your actual database with meaningful table and column names
-2. Infinitely optimize with indexing, datatypes, lengths, defaults, keys, encoding, etc
-3. Update your database schema at any point and Directus will instantly reflect changes
-4. Create, update, and delete content directly from the database
+- Read the [Introduction to Directus on our documentation](https://docs.directus.io/getting-started/introduction.html)
+- Watch the [full overview of Directus on our YouTube Channel](https://youtu.be/viURaw3oiBA)
 
-This database-first approach means that you have the option to completely bypass Directus as needed. Connecting your application directly to the database means Directus is completely bypassed, removing even the slightest possibility of a bottleneck, and giving you the unbridled power of SQL.
+## Key Features of Directus 🧰
 
-### Complex Relationships
+**Instant REST and GraphQL APIs** – Directus creates powerful and easy to use REST and GraphQL APIs from your SQL database in 90 seconds or less. The APIs are highly performant and come with built-in features like robust authentication, caching, image transformation, aggregation, filtering, sorting, and pagination.
 
-Whether you need many-to-one, one-to-many, many-to-many, or something completely different... Directus has you covered. You can interrelate database fields, then fetch deeply nested data using our robust dot-notation parameters.
+**Intuitive No-Code App (CMS)** – Developers AND non-technical users love how easy it is to manage content and even data models inside our Data Studio.
 
-## Simple, Modular and Extensible
+![The Directus item detail page is shown. A popup is displayed above a field titled Blocks. The popup contains choices for different sections of a webpage - Hero, Columns, FAQs, Call To Action, Form, Card Group](https://marketing.directus.app/assets/751d81ab-bd14-406c-bc3b-c98bce2a7de7?key=page2x)
 
-We've intentionally kept our codebase as simple and lightweight as possible. Every aspect of Directus has been modularized, with many options for extending, overriding, or even bypassing the core system. Choose your auth providers, storage adapters, content interfaces, data presentation, and more. We also have webhooks, event hooks, API response filters, custom endpoints, CSS/JS override files, and much more.
+**Page Builder** – Take advantage of Many To Any (M2A) Relationships to create a page builder that allows your content editors to build pages composed of different components with totally customizable schemas.
 
-## Internationalization and Accessibility
+**Live Preview** – Preview how your content will appear on your live site right within Directus... without waiting on long build times or deploy previews.
 
-Directus allows you to manage multilingual content in as many languages as your project needs. And no matter what language(s) your organization requires, our Admin App supports a growing number of locales. We've also paid close attention to our Admin App's interface to ensure it is as clear and accessible as possible for all users.
+![The Directus translations interface is shown. Title, Summary, and Description fields are shown and editable in two different languages – Spanish and Chinese.](https://directus.io/assets/img/screenshots/v9/translations.png)
+
+**Localization & Translations** – Directus makes it easy manage multilingual content with a specialized interface that users love. And no matter what languages your organization requires, our Admin App supports a growing number of locales.
+
+**Realtime** – With WebSockets, you can effortlessly integrate real-time data updates into your frontend applications. Say goodbye to manual polling or workarounds, and embrace a more efficient and elegant solution that keeps your applications in sync with the latest information in real time.
+
+**Users and Authentication** – Built-in JWT auth supports SSO via OAuth, OpenID, and LDAP, with 2FA and configurable password policies.
+
+**Roles and Permissions** – Keep your data secure by creating unlimited roles and permissions to ensure users only access what they need. Add custom filter rules, custom validation, field-level permissions, IP allow-lists, and configurable public access.
+
+![A Directus dashboard is shown. It features charts, graphs, and metrics for the following data – Total MRR, New Daily Customers, Twitter Followers, Total ARR, Github Issues, CPU, Memory, Disk, Top Spending Customers, Total Projects](https://directus.io/assets/img/screenshots/v9/insights.png)
+
+**Custom Dashboards** – You no longer have to turn to separate business intelligence tools to get the reporting you need. With Insights you can rapidly build helpful dashboards without writing any code.
+
+![The Directus Flows builder is shown. The automation workflow for User Signup Flow has one trigger – On Data Change and several operations - Ignore Drafts, Notify Admins, and one other operation that is cut off from view.](https://marketing.directus.app/assets/6547164b-b3c3-4207-ab46-ce3506464296?key=page2x)
+
+**Built-In Automation** – Stop stringing crazy workflows together with apps like Zapier, Make, or others. The Directus Flows module provides custom, event driven data processing and task automation right within your headless CMS.
+
+**Extensibility** – Directus is highly modular and extensible. Your team can fully white-label it, create your own custom modules, interfaces, API endpoints, and much more using the Extensions SDK.
+
+## Directus Architecture 🤖
+
+**Unopinionated to the core**
+
+Directus completely conforms to *your* tech stack, with support for any SQL database vendor and schema, REST and GraphQL APIs, all auth providers, and any file storage.
+
+![Architecture diagram that has several levels. Directus is at the middle of the diagram. Connected below Directus are different channels – desktop, smartphone, IoT devices, and ecommerce.](https://marketing.directus.app/assets/c03311df-ed27-460d-8f16-2f49cd76f43a?key=page2x)
+
+**Node.js (APIs) + Vue (No-code app)**
+
+Built entirely in Typescript, primarily on **[Node.js](https://nodejs.dev/)** and **[Vue.js](https://vuejs.org/)**, Directus is 100% open-source, modular and extensible, ensuring your project never hits a hard feature ceiling. The platform scales without issue, *and some Projects have hundreds of millions of users.*
 
 ## Resources
 
-Directus is released under the GPLv3 license and is managed by [RANGER Studio LLC](http://rangerstudio.com). It's easy to self-host your own instance of Directus, below are a few links to help you get started:
-
-[Directus.io](https://directus.io) • [GitHub](https://github.com/directus/directus) • [Docs](https://docs.directus.io) • [API Reference](https://docs.directus.io/api/reference.html) • [User Guide](https://docs.directus.io/guides/user-guide.html) • [Demo](https://directus.app) • [Contribute](https://docs.directus.io/getting-started/supporting-directus.html) • [Slack](https://slack.directus.io) • [Twitter](https://twitter.com/directus)
-
-<style>.images{display:none}</style>
+- [Directus Website](https://directus.io/) 🔗
+- [Get A Live Demo ➡️](https://directus.io/contact/)
+- [GitHub](https://github.com/directus/directus) 🧑‍💻
+- [Docs](https://docs.directus.io/) 🔍
+- [API Reference](https://docs.directus.io/reference/introduction.html) ⚙️
+- [User Guide](https://docs.directus.io/app/overview.html) 👤
+- [Join Discord Community](https://directus.chat/) 🐰
+- [Directus on Twitter](https://twitter.com/directus) 🐦
+- [Directus on YouTube 📺](https://www.youtube.com/@DirectusVideos)
