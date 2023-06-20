@@ -1,6 +1,6 @@
 ---
 title: Docsy
-repo: https://github.com/google/docsy
+repo: google/docsy
 homepage: https://www.docsy.dev/
 language:
   - Go
