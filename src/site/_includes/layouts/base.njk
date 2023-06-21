@@ -15,6 +15,14 @@ ogimage: "/img/og/default-og-image.png"
 {%- endfor %}
     <title>{{ title }} | Jamstack</title>
     <meta name="description" content="{{ description }}">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-X2FMMZSSS9"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-X2FMMZSSS9');
+    </script>
     <link rel="apple-touch-icon" sizes="180x180" href="/img/favicons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/img/favicons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/img/favicons/favicon-16x16.png">
@@ -33,8 +41,6 @@ ogimage: "/img/og/default-og-image.png"
     <meta property="twitter:title" content="{{ title }} | Jamstack">
     <meta property="twitter:description" content="{{ description }}">
     <meta property="twitter:image" content="{{ netlify.deployUrl }}{{ ogimage }}">
-    <meta name="google-site-verification" content="i5IheizQ6X_M4jNqb_b7vbJrT34i_gvEg8Gxkq9IY_w" />
-    <meta name="google-site-verification" content="WDIQ_1X8K7XIpPJ5G1Z8KnOqdSeYetPQB4EgoTLfIsc" />
     <script type="module">document.documentElement.classList.add("js");</script>
     <script>
       if (
