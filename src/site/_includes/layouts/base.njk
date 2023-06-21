@@ -9,6 +9,12 @@ ogimage: "/img/og/default-og-image.png"
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+{%- for url in stylesheets %}
+    <link rel="stylesheet" href="{{ url }}">
+{%- endfor %}
+    <title>{{ title }} | Jamstack</title>
+    <meta name="description" content="{{ description }}">
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-X2FMMZSSS9"></script>
     <script>
@@ -17,12 +23,6 @@ ogimage: "/img/og/default-og-image.png"
       gtag('js', new Date());
       gtag('config', 'G-X2FMMZSSS9');
     </script>
-    <link rel="stylesheet" href="/css/styles.css">
-{%- for url in stylesheets %}
-    <link rel="stylesheet" href="{{ url }}">
-{%- endfor %}
-    <title>{{ title }} | Jamstack</title>
-    <meta name="description" content="{{ description }}">
     <link rel="apple-touch-icon" sizes="180x180" href="/img/favicons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/img/favicons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/img/favicons/favicon-16x16.png">
