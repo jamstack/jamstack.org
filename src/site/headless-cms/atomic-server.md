@@ -1,8 +1,8 @@
 ---
 title: Atomic Server
-homepage: https://atomicdata.dev/
+homepage: https://atomicserver.eu/
 opensource: "Yes"
-repo: atomicdata-dev/atomic-data-rust
+repo: atomicdata-dev/atomic-server
 typeofcms: "API Driven"
 supportedgenerators:
   - All
