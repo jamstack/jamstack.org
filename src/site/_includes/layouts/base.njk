@@ -50,6 +50,16 @@ ogimage: "/img/og/default-og-image.png"
     {%- for url in javascripts %}
     <script defer src="{{ url }}"></script>
     {%- endfor %}
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-X2FMMZSSS9"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-X2FMMZSSS9');
+    </script>
   </head>
   <body class="bg-gray-100 dark:bg-blue-900 text-blue-800 dark:text-blue-100 leading-relaxed antialiased">
     <svg width="0" height="0" aria-hidden="true" style="position: absolute;">
