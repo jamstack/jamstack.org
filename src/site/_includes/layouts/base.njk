@@ -9,7 +9,6 @@ ogimage: "/img/og/default-og-image.png"
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/styles.css">
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-X2FMMZSSS9"></script>
     <script>
@@ -18,6 +17,7 @@ ogimage: "/img/og/default-og-image.png"
       gtag('js', new Date());
       gtag('config', 'G-X2FMMZSSS9');
     </script>
+    <link rel="stylesheet" href="/css/styles.css">
 {%- for url in stylesheets %}
     <link rel="stylesheet" href="{{ url }}">
 {%- endfor %}
