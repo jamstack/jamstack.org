@@ -1,8 +1,6 @@
 ---
 title: doc2.site
-repo: doc2-site/community
 homepage: https://doc2.site
-twitter: doc2_site_bot
 opensource: "No"
 typeofcms: "API Driven"
 supportedgenerators:
