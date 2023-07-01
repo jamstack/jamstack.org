@@ -1,7 +1,7 @@
 ---
 title: Mandy
 repo: angeldollface/mandy
-homepage: https://github.com/angeldollface/mandy
+homepage: https://angeldollface.art/mandys-house
 language:
   - Rust
 license:
