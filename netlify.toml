@@ -20,20 +20,11 @@
   to = "https://jamstackconf.com/conf/"
   status = 200
 
-[[redirects]]
-  from = "/conf/cfp"
-  to = "https://docs.google.com/forms/d/e/1FAIpQLSc-z50GyD7zXzr_JCn2M1NBFZ-h65kSdu7zn43V1u2qAKO3ew/viewform"
-  status = 302
 
 [[redirects]]
   from = "/conf/*"
   to = "https://jamstackconf.com/conf/:splat"
   status = 200
-
-[[redirects]]
-  from = "/discord"
-  to = "https://discord.gg/jamstack"
-  status = 302
 
 [[redirects]]
   from = "/best-practices"
