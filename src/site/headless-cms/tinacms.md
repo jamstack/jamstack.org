@@ -2,35 +2,53 @@
 title: Tina
 repo: tinacms/tinacms
 homepage: https://tina.io
-twitter: tina_cms
+twitter: tinacms
 opensource: "Yes"
-typeofcms: "Git-based"
+typeofcms: "Git + API"
 supportedgenerators:
-  - Next
-description: An open-source editor focused on git backed, cross-functional visual editing.
+  - All
+description: TinaCMS is a free and open-source headless CMS focused on providing the best developer experience for building web sites and applications.
 ---
 
-Tina contains multiple tools and applications designed to improve collaboration between content writers and developers who work on web content.
+[TinaCMS](https://tina.io) is a free and open-source headless CMS focused on providing the best developer experience for building web sites and applications. Tina has two main components: 
 
-- Our TinaCMS JS library, is an open source library that enables developers to add a custom visual editing experience directly into their site.
-- Our Tina Cloud hosted service allows cross-functional teams to collaborate on the site's content in a git-based worflow (regardless of whether they write code or have GitHub accounts).
+* An open-source admin UI (with support for visual editing)
+* An open-source GraphQL API for serving content
 
-To see Tina in action go to [tina.io](https://tina.io?utm_source=jamstack&utm_medium=link&utm_campaign=jamstack) or [try our quickstart flow](https://app.tina.io/quickstart?utm_source=jamstack&utm_medium=link&utm_campaign=jamstack)
+For people who don’t want to self-host their CMS, [Tina Cloud](https://tina.io/) provides a hosted option.
 
-## The Next Generation of Content Management
+<video class="w-full h-auto" autoplay="" loop="" muted="" playsinline="" poster="https://res.cloudinary.com/forestry-demo/video/upload/so_0/tina-io/new-homepage/homepage-demo-2.jpg"><source src="https://res.cloudinary.com/forestry-demo/video/upload/q_80,h_562/tina-io/new-homepage/homepage-demo-2.webm" type="video/webm"><source src="https://res.cloudinary.com/forestry-demo/video/upload/q_80,h_562/tina-io/new-homepage/homepage-demo-2.mp4" type="video/mp4"></video>
 
-![tina-gif](https://res.cloudinary.com/forestry-demo/video/upload/v1629294438/tina-io/Beta_Launch_Demo.gif)
+## Try it out
+Create a testing site:
 
-Tina is optimized for next-gen Jamstack tools. It currently supports Next.js with more frameworks in the future.
+```
+npx create-tina-app@latest
+```
 
-## Get Started
+Or request a [demo](mailto:info@tina.io).
 
-To use Tina, you should have a good working knowledge of Next.js
+## Why Tina?
+Tina is an open-source headless CMS that does two things differently:
 
-If you're itching to see what Tina can do, head over to the [Quickstart Guide](https://tina.io/docs/getting-started/introduction?utm_source=jamstack&utm_medium=link&utm_campaign=jamstack) or use our [Quickstart flow](https://app.tina.io/quickstart?utm_source=jamstack&utm_medium=link&utm_campaign=jamstack)
+### 1. Git Sync
+Like other headless CMSs, Tina provides a GraphQL API to query your content. However, Tina generates its API from content stored in Markdown and JSON files in a Git repository.  This allows you to use the file system as the source of truth for your content instead of a database but gives you an API to query that content (i.e. `post.author.name`).
 
-## Get Involved
+Tina Cloud Enterprise customers can leverage Tina’s [Editorial Workflow](https://tina.io/editorial-workflow) for advanced Git features like branching and Pull Requests. 
 
-Want to help out with Tina's development? Please visit our [Contributing](https://github.com/tinacms/tinacms/blob/main/CONTRIBUTING.md) section in our open source repository. 
+### 2. Visual Editing
+Tina supports visual editing for sites using React (and soon Vue & Svelte). This means your content creators get a live preview when editing content.  This allows you to give content creators a site-builder experience with block-based editing that feels similar to Wix or Squarespace.  
 
-Looking for help with Tina, or want to stay on top of the latest developments? [Join our Discord](https://discord.com/invite/zumN63Ybpf) to chat with other Tina enthusiasts.
+## Enterprise Features
+For Tina Cloud Business and Enterprise customers, Tina’s editorial workflow makes working on Branches and making Pull Requests user friendly. 
+
+<video class="w-full h-auto" controls="" loop="" muted="" playsinline="" poster="https://res.cloudinary.com/forestry-demo/video/upload/so_0/v1689260393/blog-media/editorial-workflow/create-branch.jpg"><source src="https://res.cloudinary.com/forestry-demo/video/upload/q_80,h_562/v1689260393/blog-media/editorial-workflow/create-branch.webm" type="video/webm"><source src="https://res.cloudinary.com/forestry-demo/video/upload/q_80,h_562/v1689260393/blog-media/editorial-workflow/create-branch.mp4" type="video/mp4"></video>
+
+## Who's using Tina? 
+Tina is used by agencies, Fortune 500 companies, and governments to power various types of sites.  Tina can scale to sites with 10’s of thousands of Markdown-based pages, such as [smashingmagazine.com](smashingmagazine.com).
+
+## Resources
+* [Tina Documentation](https://tina.io/docs/)
+* 20-minute video tutorial with Tina's architect [https://www.youtube.com/watch?v=PcgnJDILv4w](https://www.youtube.com/watch?v=PcgnJDILv4w)
+* 5-part tutorial video series [here](https://tina.io/blog/Introducing-the-Deep-Dive-Video-Series/)
+* [Tina for Enterprise](https://tina.io/enterprise/)
