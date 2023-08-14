@@ -57,6 +57,11 @@
   status = 301
 
 [[redirects]]
+  from = "/headless-cms/graphcms/"
+  to = "/headless-cms/hygraph/"
+  status = 301
+
+[[redirects]]
   from = "/survey/"
   to = "/survey/2022/"
   status = 302
