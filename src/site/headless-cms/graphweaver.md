@@ -32,7 +32,7 @@ Take a look at the Quick Start Guide to see how easy it is to get started:
 
 **Cross Source Filters** - Need to filter the data? Graphweaver creates filters automatically for all the connected data sources. You can even filter across data sources! Imagine fetching customer orders in your local database using a value stored in your CRM.
 
-**100% Open Source** - Graphweaver is open-source, available on GitHub under the MIT license. Many projects only offer some of their code as open source. With Graphweaver, it is yours to change and deploy as you need.
+**100% Open Source** - Graphweaver is open-source, available on GitHub under the MIT license, so you are free to change and deploy as needed. We accept contributions to the project which will help improve Graphweaver for everyone.
 
 **Admin Panel** - View, create, edit, and delete data from any data source. The admin panel is a React.js app that you can extend with custom pages and fields. Giving you the flexibility to customise it to any project you are working on.
 
