@@ -44,7 +44,7 @@ Take a look at the Quick Start Guide to see how easy it is to get started:
 
 ## Useful Links to Get Started
 
-**Quick Start Guide:** [https://docs.graphweaver.com/quick-start](https://docs.graphweaver.com/quick-start)
+**Quick Start Guide:** [https://graphweaver.com/docs/quick-start](https://graphweaver.com/docs/quick-start)
 
 **Examples:**
 
@@ -59,5 +59,5 @@ Take a look at the Quick Start Guide to see how easy it is to get started:
 - [Graphweaver Website](https://graphweaver.com/) 🔗
 - [GitHub](https://github.com/exogee-technology/graphweaver) 🧑‍💻
 - [Docs](https://graphweaver.com/docs) 🔍
-- [Graphweaver on Twitter](https://twitter.com/directus) 🐦
+- [Graphweaver on Twitter](https://twitter.com/graphweaver) 🐦
 - [Graphweaver on YouTube 📺](https://www.youtube.com/@graphweaver)
