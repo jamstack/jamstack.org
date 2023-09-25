@@ -1,7 +1,7 @@
 ---
 title: Directus
 repo: directus/directus
-homepage: https://directus.io/headless-cms/
+homepage: https://directus.io/solutions/headless-cms
 twitter: directus
 opensource: "Yes"
 typeofcms: "API Driven"
