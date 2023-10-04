@@ -57,4 +57,4 @@ Are you looking to launch a personal site, a blog, or an e-commerce site? Launch
 - Upload images, transform them on demand with Sanity's [asset pipeline](https://www.sanity.io/docs/asset-pipeline), and integrate with any digital asset manager.
 - [Preview your content](https://www.sanity.io/docs/previewing-content-in-sanity-studio) in real-time before publishing.
 - Query images for metadata like dominant colors, sizes, geo-location, and EXIF metadata.
-- See how rich text can be serialized into any markup language, and learn about Sanity's [Rich Text Editor](https://www.sanity.io/docs/block-content).
+- [See how rich text that can be serialized into any markup language](https://www.sanity.io/guides/introduction-to-portable-text), and learn about the Sanity [Rich Text Editor](https://www.sanity.io/docs/what-you-need-to-know-about-block-text)
