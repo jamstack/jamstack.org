@@ -1,12 +1,13 @@
 ---
 title: Prismic
+repo: prismicio/slice-machine
 homepage: https://prismic.io/
 twitter: prismicio
 opensource: "No"
 typeofcms: "API Driven"
 supportedgenerators:
   - All
-description: An API-based CMS backend for your Websites & Apps
+description: A headless website builder for Jamstack sites. Prismic offers an intuitive content interface and easy-to-use development tools. Used by Google, Netflix, Spotify.
 ---
 ## Prismic
 
