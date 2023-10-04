@@ -1,5 +1,6 @@
 const lodashGet = require("lodash/get");
 const yaml = require("js-yaml");
+const { URL } = require("url");
 
 module.exports = function (eleventyConfig) {
   // Support yaml data files
@@ -37,6 +38,10 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPairedShortcode('markdown', (content) => {
     return md.render(content);
   });
+
+  eleventyConfig.addFilter('absoluteUrl', (url, base) => {
+    return (new URL(url, base)).toString() || url
+  })
 
 
   eleventyConfig.addFilter('convertFromEpoc', (time) => {
@@ -188,6 +193,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/site/browserconfig.xml");
   eleventyConfig.addPassthroughCopy("src/site/site.webmanifest");
   eleventyConfig.addPassthroughCopy("src/site/survey/2021/community-survey-2021-methodology.pdf");
+  eleventyConfig.addPassthroughCopy("src/site/survey/2022/community-survey-2022-methodology.pdf");
 
   return {
     dir: {

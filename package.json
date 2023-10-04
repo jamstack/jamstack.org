@@ -27,6 +27,7 @@
     "autoprefixer": "^10.2.5",
     "cssnano": "^4.1.10",
     "d3": "^7.1.1",
+    "d3-textwrap": "^3.0.0",
     "dotenv": "^8.2.0",
     "fast-glob": "^3.2.5",
     "gray-matter": "^4.0.2",
@@ -43,6 +44,6 @@
     "postcss-cli": "^8.3.1",
     "postcss-import": "^13.0.0",
     "spdx-correct": "^3.1.1",
-    "tailwindcss": "^2.0.3"
+    "tailwindcss": "^3.1.8"
   }
 }

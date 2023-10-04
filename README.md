@@ -15,18 +15,20 @@ We accept contributions submitted as [pull requests](https://github.com/jamstack
 
 To contribute a link to a resource:
 
-1. Create a new yaml file in the [`src/site/_data/resources`](src/site/_data/resources) folder with a unique and descriptive name. Populate that file according to the structure shown below.
-1. For presentations and video, add an optional thumbnail image to the [`src/site/_data/resources`](src/site/img/cms/resources) folder. (Image should be a jpeg 600px wide and 400px tall)
+1. Create a new md file in the [`src/site/resources`](src/site/resources) folder with a unique and descriptive name. Populate that file according to the structure shown below.
+1. For presentations and video, add an optional thumbnail image to the [`src/site/img/cms`](src/site/img/cms) folder. (Image should be a jpeg 600px wide and 400px tall)
 1. Submit a pull request
 
-_resource yaml reference:_
+_resource md reference:_
 ```yaml
+---
 title: Resource title
 date: Publish date (YYYY-MM-DD)
 link: the URL of this resource
 thumbnailurl: /img/cms/resources/resource-thumbnail.jpg
 type:
   - article (Help us group and sort the resources by type article|video|presentation)
+---
 ```
 
 Before submitting a pull request, or if you are suggesting/contributing code or content changes, it is wise to preview your change in a local build. We've tried to make the process of running a local build as low as possible.
@@ -84,3 +86,4 @@ npm run start
 You can clone this repository and bootstrap it as a test site of your own, complete with the CI/CD build pipeline on [Netlify](https://netlify.com?utm_source=github&utm_medium=jamstackorg-pnh&utm_campaign=devex) by clicking the button below. (Requires free GitHub and Netlify accounts)
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/jamstack/jamstack.org)
+

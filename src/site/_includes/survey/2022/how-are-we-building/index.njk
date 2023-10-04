@@ -1,0 +1,268 @@
+<section class="survey-section survey-grid border-b">
+  {{
+    permalinkHeading.render(
+      "h2",
+      "How are we building?",
+      "",
+      "how-are-we-building"
+    )
+  }}
+
+  <p>
+    Our largest set of questions revolve around technical choices. It’s easy for
+    this kind of data to turn into a popularity contest, so we should be clear:
+    the most popular choice is not always the best choice for you. As we’ll see
+    shortly, your use case matters much more than total adoption of a
+    technology. However, within the bounds of a use case, popularity can help.
+    Open source technology benefits from more contributors: bugs are fixed
+    faster, documentation is better, rough edges are smoothed away more quickly,
+    and there will be more plugins and third-party integrations.
+  </p>
+
+  {{
+    permalinkHeading.render(
+      "h3",
+      "A note on how to read Usage + Satisfaction graphs"
+    )
+  }}
+
+  <p>
+    This section contains a number of graphs like the one below. On the
+    horizontal axis, we measure the usage of a technology, as measured by the
+    number of people who say they have used that technology in the last year on
+    “some projects” or “many projects”. We do not count people who say they use
+    a technology “rarely”, so we believe our “some+many” number represents real,
+    regular usage.
+  </p>
+
+  <p>
+    At the same time as we ask people how often they use a technology, we ask
+    them whether they would like to use it more or less in the coming year. We
+    take the ratio of the “want to use it more” and the “want to use it less”
+    numbers to create our vertical axis, which we call the “Satisfaction score”.
+    A score of 1.0 or more means the technology’s users are on balance
+    enthusiastic about it, while under 1.0 it means they are not. In the three
+    years of our survey, a satisfaction score under 1.0 has been strongly (but
+    not perfectly) predictive of a loss in usage the following year, which high
+    satisfaction scores correlate well to growth in share.
+  </p>
+
+  {{ permalinkHeading.render("h3", "Content Management Systems (CMS)") }}
+
+  <p>
+    The decoupled nature of frontend and backend code in the Jamstack ecosystem
+    means that CMS are a big component of many of the websites we build. As
+    anyone who’s built a site with one knows, once a CMS has become embedded
+    into your company’s culture and workflows it can be hard to get it out
+    again, so this is a critical choice for many people.
+  </p>
+
+  <ul>
+    <li>
+      The overall leader in the CMS space remains WordPress, as it has been for
+      many years. However, with a satisfaction score of just 0.5, unenthusiastic
+      users of WordPress outnumber enthusiastic ones 2-to-1, and WordPress has
+      lost usage share over the course of our surveys.
+    </li>
+    <li>
+      WordPress used as an API (“headless” mode) has more enthusiastic users
+      than WordPress in traditional mode, and a substantial 22% share, but this
+      share has been growing only slowly.
+    </li>
+    <li>
+      Notion is something of an outlier in this data: certainly some people are
+      using it via its API to power websites, but we believe many people who
+      answered yes to this option are using it for internal content. We intend
+      to run a small follow-up survey to confirm this.
+    </li>
+    <li>
+      Given high satisfaction scores, Sanity and Strapi were our choices in last
+      year’s survey to be breakout contenders in this year's, and they both grew
+      share, though not as much as we had expected. Contentful lost usage share
+      in this year’s survey compared to last year’s.
+    </li>
+    <li>
+      Of the smaller CMS systems, Storyblok is notable for high satisfaction.
+      This is the first year we’ve tracked it and it came in at 8% share, so
+      we’ll be looking for it to grow.
+    </li>
+  </ul>
+
+  {% include './cms-usage-vs-satisfaction.njk' %}
+
+  {{ permalinkHeading.render("h3", "Programming languages") }}
+
+  <p>
+    There are not a lot of surprises in this year’s programming language data if
+    you have seen our previous surveys. One note: when we show programming
+    languages, we should be clear that this data is about their popularity
+    within the Jamstack community; in more general computing surveys Java is a
+    much more popular choice.
+  </p>
+
+  <ul>
+    <li>
+      JavaScript remains the near-universal choice, with 96% of respondents
+      saying they have used it in some or many projects in the last year.
+    </li>
+    <li>
+      TypeScript continues rapid growth, hitting 67% usage this year, overtaking
+      SQL as the second-most used language.
+    </li>
+    <li>
+      When asked about their <strong>primary</strong> programming language, 53%
+      of people still say JavaScript, a number that has declined in all 3 years
+      of our survey, while 21% say TypeScript is their primary language, more
+      than doubling its usage as a primary language. The continuing migration
+      from JavaScript to TypeScript is a trend we are following closely.
+    </li>
+  </ul>
+
+  {% include './programming-language-usage-vs-satisfaction.njk' %}
+
+  {{ permalinkHeading.render("h3", "Web frameworks") }}
+
+  <p>
+    Always our largest section, we tracked 29 frameworks this year, with a few
+    that we have tracked in previous years falling out of the survey (our
+    cut-off for frameworks that are not growing quickly is 4% share).
+  </p>
+
+  {{ permalinkHeading.render("h4", "React and Next.js") }}
+
+  <p>
+    The most obvious story in our framework data is the continued growth of
+    React. With high satisfaction scores last year, we predicted it would
+    continue to grow and that was borne out this year, hitting a new record of
+    71% share, the highest of any framework we’ve tracked in all 3 years. While
+    there are many options for building a reactive web app, the enormous
+    ecosystem around React continues to make it an easy choice for many.
+  </p>
+
+  <p>
+    Riding the tails of React’s popularity is Next.js, a full featured “kitchen
+    sink” framework based on React. This year 47%, or nearly 1 in 2 developers
+    say they used Next.js in some or many projects, and with a satisfaction
+    score over 4.0 we expect to see it continue to grow.
+  </p>
+
+  {{ permalinkHeading.render("h4", "Vite") }}
+
+  <p>
+    Although we have been tracking it in our frameworks data, Vite is more of a
+    bundler, competing with choices such as Webpack and Babel. It has been
+    adopted as the default bundler for several other frameworks including Nuxt
+    and SvelteKit, contributing to its high share, but its stellar satisfaction
+    score is all its own.
+  </p>
+
+  {% include './frameworks-usage-vs-satisfaction.njk' %}
+
+  {{ permalinkHeading.render("h4", "Zooming in on smaller frameworks") }}
+
+  <p>
+    Looking at the crowded bottom-left corner of the overall frameworks graph
+    can hide some detail, so we take a closer look at frameworks at 10% share or
+    less. In here are some older frameworks such as Hapi and Gridsome, but also
+    some new entrants.
+  </p>
+
+  <ul>
+    <li>
+      Remix jumped from 2% share in last year’s survey to 10% this year, and is
+      an exciting new contender in the space. At the end of October Remix
+      announced they have been
+      <a href="https://remix.run/blog/remixing-shopify" target="_blank"
+        >acquired by Shopify</a
+      >
+      so it will be interesting to see what effect that has on their trajectory.
+    </li>
+    <li>
+      Docusaurus does one thing very well and has been rewarded with
+      consistently high satisfaction scores and modest growth.
+    </li>
+    <li>SolidJS, a new entry to our survey, clocks in at 6% share.</li>
+  </ul>
+
+  {% include './smaller-frameworks-usage-vs-satisfaction.njk' %}
+
+  {{ permalinkHeading.render("h4", "Tracking usage and satisfaction changes") }}
+
+  <p>
+    We have found it instructive to look at how usage and satisfaction scores in
+    our survey have changed from year to year. Keep in mind that these are
+    <strong>changes</strong>; Next.js and Nuxt.js for example both have high
+    satisfaction scores overall, just lower than last year. We split this graph
+    into four quadrants.
+  </p>
+
+  {{ permalinkHeading.render("h5", "Bottom-right: regular growth") }}
+
+  <p>
+    A pattern we have seen every year is that frameworks that grow share usually
+    lose satisfaction score while doing so. This makes sense: as more people
+    adopt a technology, there are fewer enthusiastic early adopters, and more
+    people using the framework for use cases that are outside of its sweet spot.
+  </p>
+
+  <ul>
+    <li>
+      React and Next.js both show growth in share and loss in satisfaction, as
+      expected.
+    </li>
+    <li>
+      Svelte and SvelteKit, another component-framework pair, did the same.
+    </li>
+    <li>
+      11ty was the only purely static site generator (SSG) in our survey to show
+      growth in usage share. For this reason we think 11ty is now the clear
+      choice if a static site is your use case.
+    </li>
+  </ul>
+
+  {{ permalinkHeading.render("h5", "Top right: early adoption") }}
+
+  <p>
+    Technologies in the early phases of adoption tend to see rapid growth and
+    users who get happier year on year.
+  </p>
+
+  <ul>
+    <li>
+      As mentioned, Vite is seeing huge growth – it more than doubled its usage
+      share from last year, while maintaining its high satisfaction score.
+    </li>
+    <li>
+      Remix, already mentioned, jumped from 2% to 10% share and increased
+      satisfaction.
+    </li>
+  </ul>
+
+  {{ permalinkHeading.render("h5", "Top left: core users") }}
+
+  <p>
+    Occupying a quadrant almost by itself is jQuery. Anyone still using jQuery
+    in 2022 is heavily invested in doing so and it shows.
+  </p>
+
+  {{ permalinkHeading.render("h5", "Bottom left: danger zone") }}
+
+  <p>
+    Losing usage share and satisfaction score at the same time is bad news for
+    project maintainers.
+  </p>
+
+  <ul>
+    <li>
+      Gatsby has lost share in all 3 years of our survey, and its 0.9
+      satisfaction score indicates this trend is likely to continue.
+    </li>
+    <li>
+      Vue and Nuxt.js are new to this quadrant; in last year’s survey they were
+      still growing. The continued growth of React and Next.js makes it
+      difficult for similar alternatives to compete.
+    </li>
+  </ul>
+
+  {% include './frameworks-usage-vs-satisfaction-changes.njk' %}
+</section>

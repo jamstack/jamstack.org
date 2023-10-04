@@ -8,6 +8,7 @@ license:
   - MIT
 templates:
   - React
+  - MDX
   - JSX
 description: An opinionated, zero-config static site generator
 ---

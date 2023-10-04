@@ -9,6 +9,7 @@ license:
 templates:
   - Twig
 description: Generates HTML, PDF (via LaTeX), and any other text output from Markdown content and Twig templates.
+startertemplaterepo: https://github.com/samwilson/basildon-skeleton
 ---
 
 Basildon has three key differences from other similar static site generators that are based around Markdown and Yaml frontmatter:

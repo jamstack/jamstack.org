@@ -1,6 +1,6 @@
 ---
 title: Metalsmith
-repo: segmentio/metalsmith
+repo: metalsmith/metalsmith
 homepage: http://www.metalsmith.io/
 language:
   - JavaScript
@@ -46,7 +46,7 @@ Each plugin is invoked with the contents of the source directory, and each file 
 }
 ```
 
-...which any of the plugins can then manipulate however they want. And writing the plugins is incredibly simple, just take a look at the [example drafts plugin](https://github.com/segmentio/metalsmith-drafts/blob/master/lib/index.js).
+...which any of the plugins can then manipulate however they want. And writing the plugins is incredibly simple, just take a look at the [example drafts plugin](https://github.com/metalsmith/drafts/blob/master/lib/index.js).
 
 Of course they can get a lot more complicated too. That's what makes Metalsmith powerful; the plugins can do anything you want!
 

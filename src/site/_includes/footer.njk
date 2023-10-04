@@ -1,11 +1,16 @@
 <section>
-  <footer class="py-20 text-blue-200">
-    <ul class="text-left md:flex justify-between">
-      <li class="p-2">&copy; {{ page.date | formatDate('yyyy') }}  Netlify </li>
-      <li class="p-2"><a href="https://jamstack.org/discord">Chat on Discord</a></li>
-      <li class="p-2"><a href="https://community.netlify.com/">Netlify Support</a></li>
-      <li class="p-2"><a href="{{ pkg.repository.url }}">Code on GitHub</a></li>
-      <li class="p-2"><a href="/code-of-conduct/">Code of Conduct</a></li>
+  <footer class="py-20 dark:text-blue-200">
+    <p class="p-2">&copy; {{ page.date | formatDate('yyyy') }}  Netlify </p>
+    <ul class="text-left md:flex justify-between flex-wrap">
+      <li class="p-2 flex-[1_0_33%]"><a href="https://netlify.com/jamstack">Jamstack on Netlify</a></li>
+      <li class="p-2 flex-[1_0_33%]"><a href="https://community.netlify.com/">Netlify Support</a></li>
+      <li class="p-2 flex-[1_0_33%]"><a href="{{ pkg.repository.url }}">Code on GitHub</a></li>
+      <li class="p-2 flex-[1_0_33%]"><a href="/code-of-conduct/">Code of Conduct</a></li>
+      <li class="p-2 flex-[1_0_33%]"><a href="https://www.netlify.com/trust-center/" id="cta-footer-trustcenter">Trust Center</a></li>
+      <li class="p-2 flex-[1_0_33%]"><a href="https://www.netlify.com/privacy/" id="cta-footer-privacypolicy">Privacy</a></li>
+      <li class="p-2 flex-[1_0_33%]"><a href="https://www.netlify.com/security/" id="cta-footer-security">Security</a></li>
+      <li class="p-2 flex-[1_0_33%]"><a href="https://www.netlify.com/gdpr-ccpa/" id="cta-footer-gdpr">GDPR/CCPA</a></li>
+      <li class="p-2 flex-[1_0_33%]"><a href="mailto:fraud@netlify.com?subject=Abuse%20report&body=Please%20include%20the%20site%20URL%20and%20reason%20for%20your%20report%2C%20and%20we%20will%20reply%20promptly." id="cta-footer-abuse" target="_blank" rel="noopener noreferrer">Abuse</a></li>
     </ul>
   </footer>
 </section>

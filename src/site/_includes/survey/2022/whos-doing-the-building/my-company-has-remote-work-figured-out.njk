@@ -1,0 +1,44 @@
+<div class="survey-chart">
+  <div class="flex justify-between items-center gap-x-2">
+    <div>
+      {{ permalinkHeading.render('h4', "My company has remote work figured out") }}
+      <p class="survey-chart-subheading">Percentage of respondents</p>
+    </div>
+  </div>
+  <div id="my-company-has-remote-work-figured-out-chart" class="d3chart-placeholder"></div>
+  <div class="text-center">Source: Jamstack Community Survey 2022</div>
+
+  <details>
+    <summary class="text-sm">Show Chart Data</summary>
+    <table id="my-company-has-remote-work-figured-out-table" class="table-auto border-collapse">
+      <thead>
+        <tr class="chart-data-table-head">
+          <th class="text-left pr-2"></th>
+          <th class="text-left pr-2">Percentage of Survey Participants</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Strongly disagree</td>
+          <td>6%</td>
+        </tr>
+        <tr>
+          <td>Somewhat disagree</td>
+          <td>9%</td>
+        </tr>
+        <tr>
+          <td>Neither agree nor disagree</td>
+          <td>14%</td>
+        </tr>
+        <tr>
+          <td>Somewhat agree</td>
+          <td>32%</td>
+        </tr>
+        <tr>
+          <td>Strongly agree</td>
+          <td>39%</td>
+        </tr>
+      </tbody>
+    </table>
+  </details>
+</div>

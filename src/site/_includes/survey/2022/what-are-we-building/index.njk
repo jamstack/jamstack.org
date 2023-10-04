@@ -1,0 +1,84 @@
+<section class="survey-section survey-grid border-b">
+  {{
+    permalinkHeading.render(
+      "h2",
+      "What is the Jamstack Community building?",
+      "",
+      "what-is-the-jamstack-community-building"
+    )
+  }}
+
+  <p>Moving on from demographics, let’s look at what we’re building in 2022.</p>
+
+  {{ permalinkHeading.render("h3", "Purposes of websites built") }}
+
+  <p>
+    Most people build lots of sites in a year, so we allowed people to give
+    multiple answers to our question about what the sites they built were for.
+    The results were similar to last year: the single most common answer was
+    personal websites (such as blogs or resumes). Consumer software, B2B
+    software and e-commerce remained major areas of focus.
+  </p>
+
+  {% include './what-is-the-purpose-of-the-sites-you-built-in-2022.njk' %}
+
+  {{ permalinkHeading.render("h3", "Application types") }}
+
+  <p>
+    Another question we repeated from last year was asking people what kinds of
+    websites they built. As was the case in 2021, Single Page Apps (SPAs) were
+    popular, but a majority were various levels of static websites – either
+    fully or mostly static. This is unsurprising, since the core of Jamstack has
+    always been progressive enhancement of static websites.
+  </p>
+
+  <p>
+    Fully dynamic websites remain popular for some applications, and this time
+    we asked about a new category: edge-dynamic sites, which we’re defining here
+    as sites that are fully dynamic, and render all their content at the edge
+    (i.e. using serverless functions or edge functions). This is a pretty new
+    category and so it was also the smallest, but nearly half (47%) said they’d
+    built at least one website of this kind this year. This tracks the
+    <a href="#jamstack-is-increasingly-serverless">growth in serverless</a>
+    we saw in later questions.
+  </p>
+
+  {% include './types-of-sites-built-last-12-months.njk' %}
+
+  {{ permalinkHeading.render("h3", "Target devices") }}
+
+  <p>
+    Another standard question we ask every year is about what devices your work
+    targets. We’ve used this previously to point out that while “mobile-first”
+    has been the mantra of the industry for a long time, desktop devices still
+    have a small edge in terms of being the most important target for our work,
+    with tablets third.
+  </p>
+
+  <p>
+    However, over the last 3 years our “everything else” category, called
+    “device-specific browsers” (we suggested things like Internet of Things
+    devices, or smart watches) has been steadily growing and now fully one-third
+    of people say this somewhat poorly defined fourth category is at least
+    somewhat important. This was a surprise! We’ll be conducting follow-up
+    surveys to discover what exactly the folks who call these devices important
+    were talking about.
+  </p>
+
+  {% include './target-devices-by-type.njk' %}
+
+  {{ permalinkHeading.render("h3", "Audience sizes") }}
+
+  <p>
+    Our final question about the goals of our websites in 2022 was about
+    audience sizes: how big is the audience your website serves? This is another
+    question where we have data from all 3 years of the survey and are able to
+    see a trend, although not much has changed. The most common type of website
+    remains one built for a relatively small audience – hundreds, or a few
+    thousand users. But more than a third of people say they’ve built websites
+    this year intended for audiences of millions, and this category grew in
+    2022.
+  </p>
+
+  {% include './audience-sizes.njk' %}
+</section>

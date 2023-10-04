@@ -1,0 +1,94 @@
+<div class="survey-chart">
+  <div class="flex justify-between gap-x-2 items-center">
+    <div>
+      {{ permalinkHeading.render('h4', "Experience increasing over time") }}
+      <p class="survey-chart-subheading">Years of experience relevant to current job, 2020-2022</p>
+    </div>
+    <p class="survey-chart-respondents">Percentage of respondents</p>
+  </div>
+
+  <div
+    id="experience-increasing-over-time-chart"
+    class="d3chart-placeholder"
+  ></div>
+
+  <div class="d3chart-legend-placeholder d3chart-legend-wrap">
+    <div class="d3chart-legend-placeholder"></div>
+  </div>
+
+
+  <div class="text-center">Source: Jamstack Community Survey 2020—2022</div>
+
+  <details>
+    <summary class="text-sm">Show Chart Data</summary>
+    <table
+      id="experience-increasing-over-time-table"
+      class="table-auto border-collapse"
+    >
+      <thead>
+        <tr class="chart-data-table-head">
+          <th class="text-left pr-2">Years of experience</th>
+          <th class="text-left pr-2">2020</th>
+          <th class="text-left pr-2">2021</th>
+          <th class="text-left pr-2">2022</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>< 1</td>
+          <td>4%</td>
+          <td>13%</td>
+          <td>8%</td>
+        </tr>
+        <tr>
+          <td>1-2</td>
+          <td>13%</td>
+          <td>19%</td>
+          <td>16%</td>
+        </tr>
+        <tr>
+          <td>3-4</td>
+          <td>20%</td>
+          <td>18%</td>
+          <td>16%</td>
+        </tr>
+        <tr>
+          <td>5-6</td>
+          <td>15%</td>
+          <td>12%</td>
+          <td>14%</td>
+        </tr>
+        <tr>
+          <td>7-8</td>
+          <td>9%</td>
+          <td>7%</td>
+          <td>9%</td>
+        </tr>
+        <tr>
+          <td>9-10</td>
+          <td>12%</td>
+          <td>8%</td>
+          <td>9%</td>
+        </tr>
+        <tr>
+          <td>11-12</td>
+          <td>8%</td>
+          <td>5%</td>
+          <td>5%</td>
+        </tr>
+        <tr>
+          <td>13-14</td>
+          <td>5%</td>
+          <td>3%</td>
+          <td>3%</td>
+        </tr>
+        <tr>
+          <td>15+</td>
+          <td>14%</td>
+          <td>14%</td>
+          <td>19%</td>
+        </tr>
+      </tbody>
+    </table>
+  </details>
+</div>
