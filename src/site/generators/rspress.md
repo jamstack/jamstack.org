@@ -1,5 +1,5 @@
 ---
-title: mdBook
+title: rspress
 repo: web-infra-dev/rspress
 homepage: https://rspress.dev/
 language:
