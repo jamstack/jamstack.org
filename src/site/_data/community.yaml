@@ -137,3 +137,7 @@
   link: https://www.meetup.com/jamstack-barcelona/
   feed: https://api.meetup.com/jamstack-barcelona/events
   
+- name: Tunisia
+  link: https://js-community.tn/
+  feed: https://js-community.tn/api/events
+  
