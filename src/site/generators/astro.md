@@ -4,6 +4,7 @@ repo: withastro/astro
 homepage: https://astro.build
 language:
   - JavaScript
+  - TypeScript
 license:
   - MIT
 templates:
