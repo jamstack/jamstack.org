@@ -1,7 +1,7 @@
 ---
 title: Tarbell
 repo: tarbell-project/tarbell
-homepage: http://tarbell.io
+homepage: https://tarbell.readthedocs.io/
 language:
   - Python
 license:
