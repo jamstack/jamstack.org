@@ -32,7 +32,7 @@
   definition: 'An approach to sharing the work of rendering page views and persisting them as part of the latest deploy. Some pages are rendered as part of a build, others are rendered on demand when first requested via their URL. In this way, build times can be kept manageable for even very large sites as nominated pages can have their rendering deferred until first requested.
   
   
-  Since the pages rendered on demand become part of the latest deployment, key Jamstack principals and advantages such as [Immutable deploys](/glossary/immutable) and [atomic deploys](/glossary/atomic) are preserved.
+  Since the pages rendered on demand become part of the latest deployment, key Jamstack principles and advantages such as [Immutable deploys](/glossary/immutable) and [atomic deploys](/glossary/atomic) are preserved.
 
 
   This approach, [discussed in this RFC](https://github.com/jamstack/jamstack.org/discussions/549), can also populate pages with content not available at the time of the site build. Such as content contributed by users.
