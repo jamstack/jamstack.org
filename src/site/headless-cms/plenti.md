@@ -14,30 +14,40 @@ The Plenti CMS is designed to work out-of-the box with zero configuration. It's 
 
 ## Preview
 
-![plenti-gif](/img/cms/plenti.gif)
+<video class="w-full h-auto" autoplay="" loop="" muted="" playsinline="">
+  <source src="/img/cms/plenti.mp4" type="video/mp4">
+</video>
 
 <details>
   <summary>OAuth from your Git Repo</summary>
 
-  ![plenti-gif](/img/cms/plenti_oauth.gif)
+  <video class="w-full h-auto" autoplay="" loop="" muted="" playsinline="">
+    <source src="/img/cms/plenti_oauth.mp4" type="video/mp4">
+  </video>
 </details>
 
 <details>
   <summary>Media Management</summary>
 
-  ![plenti-gif](/img/cms/plenti_media.gif)
+  <video class="w-full h-auto" autoplay="" loop="" muted="" playsinline="">
+    <source src="/img/cms/plenti_media.mp4" type="video/mp4">
+  </video>
 </details>
 
 <details>
   <summary>Component-based Architecture</summary>
 
-  ![plenti-gif](/img/cms/plenti_components.gif)
+  <video class="w-full h-auto" autoplay="" loop="" muted="" playsinline="">
+    <source src="/img/cms/plenti_components.mp4" type="video/mp4">
+  </video>
 </details>
 
 <details>
   <summary>Git-Backend</summary>
 
-  ![plenti-gif](/img/cms/plenti_git.gif)
+  <video class="w-full h-auto" autoplay="" loop="" muted="" playsinline="">
+    <source src="/img/cms/plenti_git.mp4" type="video/mp4">
+  </video>
 </details>
 
 ## Highlights
