@@ -20,20 +20,11 @@
   to = "https://jamstackconf.com/conf/"
   status = 200
 
-[[redirects]]
-  from = "/conf/cfp"
-  to = "https://docs.google.com/forms/d/e/1FAIpQLSc-z50GyD7zXzr_JCn2M1NBFZ-h65kSdu7zn43V1u2qAKO3ew/viewform"
-  status = 302
 
 [[redirects]]
   from = "/conf/*"
   to = "https://jamstackconf.com/conf/:splat"
   status = 200
-
-[[redirects]]
-  from = "/discord"
-  to = "https://discord.gg/jamstack"
-  status = 302
 
 [[redirects]]
   from = "/best-practices"
@@ -66,6 +57,11 @@
   status = 301
 
 [[redirects]]
+  from = "/headless-cms/graphcms/"
+  to = "/headless-cms/hygraph/"
+  status = 301
+
+[[redirects]]
   from = "/survey/"
   to = "/survey/2022/"
   status = 302
@@ -75,5 +71,16 @@
   to = "https://www.netlify.com/blog/2020/05/27/state-of-the-jamstack-survey-2020-first-results/"
   status = 301
 
+[[redirects]]
+  from = "/headless-cms/netlify-cms/"
+  to = "/headless-cms/decap-cms/"
+  status = 301
+
+[[redirects]]
+  from = "/discord"
+  to = "https://answers.netlify.com/"
+  status = 302
+
 [[plugins]]
   package = "./plugins/keep-dot-cache-folder"
+

@@ -1,6 +1,6 @@
 ---
 title: Docsy
-repo: https://github.com/google/docsy
+repo: google/docsy
 homepage: https://www.docsy.dev/
 language:
   - Go
@@ -10,7 +10,7 @@ templates:
   - Go
 description: A Hugo theme for creating great technical documentation sites
 startertemplaterepo: https://github.com/google/docsy/tree/main/layouts
-twitter: https://twitter.com/docsydocs
+twitter: docsydocs
 ---
 
 Docsy is a pre-configured Hugo theme that provides the core features and behaviors needed to create a technical documentation site.

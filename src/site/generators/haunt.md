@@ -3,7 +3,7 @@ title: Haunt
 repo: https://git.dthompson.us/haunt.git
 homepage: https://dthompson.us/projects/haunt.html
 language:
-  - Scheme
+  - Guile
 license:
   - GPL-3.0-or-later
 templates:

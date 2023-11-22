@@ -41,7 +41,7 @@ Discover my features below, or skip ahead to the installation instructions to ge
 - Use the [Partials Plugin](http://docpad.org/plugin/partials) to abstract common pieces of code into their own individual file that can be included as much as you want
 - Syntax highlight code blocks automatically with either our [Highlight.js Plugin](http://docpad.org/plugin/highlightjs/) or [Pygments Plugin](http://docpad.org/plugin/pygments/)
 - Get SEO friendly clean URLs with our [Clean URLs Plugin](http://docpad.org/plugin/cleanurls/) (dynamic deployments only)
-- Lint your code automatically with our Lint Plugins: [jshint](https://github.com/jking90/docpad-plugin-jshint) and [coffeelint](https://github.com/jking90/docpad-plugin-coffeelint)
+- Lint your code automatically with our Lint Plugins: [jshint](https://github.com/docpad/docpad-plugin-jshint) and [coffeelint](https://github.com/docpad/docpad-plugin-coffeelint)
 - Concatenate and minify your JavaScript and CSS assets making page loads faster for your users with our Minify Plugins: [htmlmin](https://github.com/robloach/docpad-plugin-htmlmin) and [grunt](https://gist.github.com/balupton/3898915)
 - Install common javascript libraries like jQuery, Backbone and Underscore directly from the command line - under construction, coming soon
 - Automatically translate your entire website into other languages with our Translation Plugin - under construction, coming soon
