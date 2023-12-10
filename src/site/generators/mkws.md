@@ -1,21 +1,15 @@
 ---
-title: mkws(1)
-repo: mkws-1/mkws-1
+title: mkws
 homepage: https://mkws.sh
 language:
-  - Bash
+  - sh
 license:
   - ISC
 templates:
-  - Bash
-description: Efficient Static Site Generator
-startertemplaterepo: https://github.com/mkws-1/netlify-blank
-twitter: mkws_1
+  - sh
+description: simple static site generator
 ---
 
-Efficient Static Site Generator
+simple static site generator
 
-Simple, One Language (POSIX shell), Blazing Fast, Highly Extensible
-static site generator.
-
-Maybe fastest from nil to online!
+`sh` based simple static site generator
