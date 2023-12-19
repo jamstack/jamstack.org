@@ -1,7 +1,8 @@
 ---
 title: Orion
-repo:SunStarSys/Orion
-homepage: https://sunstarsys.com/orion/
+repo: "SunStarSys/orion"
+homepage: "https://sunstarsys.com/orion/"
+
 language:
   - Markdown
   - Perl
@@ -10,7 +11,7 @@ license:
 templates:
   - "Dotiac::DTL (custom)"
 description: The Original Markdown Jamstack Wiki
-startertemplaterepo: https://github.com/SunStarSys/www
+startertemplaterepo: "https://github.com/SunStarSys/www"
 twitter: sunstarsys
 ---
 
