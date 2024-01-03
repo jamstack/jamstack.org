@@ -11,7 +11,7 @@ images:
   - path: /img/cms/pack.png
 ---
 
-Pack is a powerful storefront management tool that allows your team to build and manage performant Shopify Hydrogen storefronts that are flexible and easy to use.
+Pack helps commerce teams to build and manage performant Shopify Hydrogen storefronts that are flexible and easy to use.
 
 ## How to get started
 
@@ -33,7 +33,7 @@ Pack is a powerful storefront management tool that allows your team to build and
 
   - Create, publish, and manage content, no developer required.
   - Drag and drop pre-built components or metaobjects to create landing pages, product pages, collection pages, etc.
-  - Set up A/B tests to optimize for conversions
+  - Set up A/B tests to optimize for conversions (coming soon)
   - Boost site speed and conversion rates
   - Maximize the ROI of Shopify
 
@@ -65,4 +65,4 @@ Pack is a powerful storefront management tool that allows your team to build and
   - Alternate hosting options: Netlify or Vercel\*
 
 - **CRO tools**
-  - A/B Testing
+  - A/B Testing (coming soon)
