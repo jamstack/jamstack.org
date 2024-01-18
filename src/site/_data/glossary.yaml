@@ -104,6 +104,11 @@
   summary: 'A programming paradigm where many parts of a large application are broken down into various units that have smaller responsibility.'
   definition: 'A programming paradigm where many parts of a large application are broken down into various units that have smaller responsibility. We can use Serverless or APIs for this, but it''s not that APIs or Serverless are necessarily Microservices, it''s that we have split apart what we want to access, and that modularity is what we call Microservices.'
 
+- term: 'CMS'
+  id: 'CMS'
+  summary: 'CMS, also known as a Content Management System, is a software application that allows users to create, update, maintain, and manage content creation online with little to no technical application. A popular example is WordPress'
+  definition: 'CMS, also known as a Content Management System, is a software application that allows users to create, update, maintain, and manage content creation online with little to no technical application. A popular example is WordPress'
+
 - term: 'Jamstack'
   id: 'jamstack'
   summary: Jamstack is an architectural approach that decouples the web experience layer from data and business logic, improving flexibility, scalability, performance, and maintainability.'
