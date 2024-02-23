@@ -1,7 +1,7 @@
 ---
 title: Hashnode Headless CMS
 homepage: https://hashnode.com/headless
-twitter: @hashnode
+twitter: hashnode
 opensource: "Yes"
 typeofcms: "API Driven"
 supportedgenerators:
