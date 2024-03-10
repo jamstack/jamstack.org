@@ -1,7 +1,7 @@
 ---
 title: squido
 repo: mrvautin/squido
-homepage: https://squido.org/
+homepage: https://squido.markmoffat.com
 language:
   - JavaScript
   - Node.js
@@ -21,13 +21,13 @@ startertemplaterepo: https://github.com/mrvautin/squido-blog-example
 
 A dead simple static HTML website builder which can be hosted anywhere for super fast websites and very little effort. Create your Blog or Documentation using our boilerplate examples.
 
-- [squido homepage](https://squido.org/)
-- [Demos/Boilerplates](https://squido.org/demo-websites/)
-- [Plugins](https://docs.squido.org/plugins/)
-- [Deployment](https://docs.squido.org/deployment-and-hosting/)
-- [Documentation](https://docs.squido.org/)
-- [Automation](https://docs.squido.org/post-build-tasks/)
-- [Features](https://squido.org/features/)
+- [squido homepage](https://squido.markmoffat.com/)
+- [Demos/Boilerplates](https://squido.markmoffat.com/demo-websites/)
+- [Plugins](https://squido-docs.markmoffat.com/plugins/)
+- [Deployment](https://squido-docs.markmoffat.com/deployment-and-hosting/)
+- [Documentation](https://squido-docs.markmoffat.com/)
+- [Automation](https://squido-docs.markmoffat.com/post-build-tasks/)
+- [Features](https://squido.markmoffat.com/features/)
 
 **Dead simple**
 
