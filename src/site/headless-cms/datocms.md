@@ -28,7 +28,7 @@ Don't care about servers, maintenance, security. Take care only about your conte
 [Try it free!](https://dashboard.datocms.com/?utm_source=headlesscms.org&utm_medium=project&utm_campaign=headlesscms.org)
 
 ### Starter Projects!
-DatoCMS comes with [**starter projects**](https://dashboard.datocms.com/projects/browse/categories?utm_source=headlesscms.org&utm_medium=project&utm_campaign=headlesscms.org) for Next.js, Nuxt, Svelte, and other frameworks. If you're new to DatoCMS, we recommend trying our [Marketing Website](https://www.datocms.com/marketplace/starters/marketing-website) or [E-commerce] (https://www.datocms.com/marketplace/starters/ecommerce-website) starters, which offer typed GraphQL queries, Tailwind, multi-language, Web Previews, real-time updates in Preview Mode, SEO/Readability analysis, and much more!
+DatoCMS comes with [**starter projects**](https://dashboard.datocms.com/projects/browse/categories?utm_source=headlesscms.org&utm_medium=project&utm_campaign=headlesscms.org) for Next.js, Nuxt, Svelte, and other frameworks. If you're new to DatoCMS, we recommend trying our [Marketing Website](https://www.datocms.com/marketplace/starters/marketing-website) or [E-commerce](https://www.datocms.com/marketplace/starters/ecommerce-website) starters, which offer typed GraphQL queries, Tailwind, multi-language, Web Previews, real-time updates in Preview Mode, SEO/Readability analysis, and much more!
 
 ### GraphQL
 The Content Delivery API is written in GraphQL, which offers a number of advantages over classic REST APIs:
