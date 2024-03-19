@@ -1,7 +1,7 @@
 ---
-title: Bloggr
-repo: hlassiege/bloggr
-homepage: https://bloggr.eventuallycoding.com
+title: Bloggrify
+repo: hlassiege/bloggrify
+homepage: https://bloggrify.com
 language:
   - TypeScript
 license:
@@ -11,7 +11,7 @@ templates:
 description: A static blog generator built on top of Nuxt-content
 ---
 
-Bloggr is built on top of 
+Bloggrify is built on top of 
 * Nuxt.js 
 * Tailwind CSS
 * Nuxt-Content 
