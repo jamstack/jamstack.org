@@ -1,0 +1,11 @@
+
+title: Vibemap
+description: Vibemap is a city discovery and recommendation platform that connects you with meaningful places, experiences, and people that match your vibe.
+link: 'https://vibemap.com/'
+thumbnailurl: https://vibemap.com/static/7e1610ce5b9d9807ae08a03fe328ebb9/a764f/Vibemap-Gradient_logotype.jpg
+tools:
+  - Gatsby.js
+  - React
+  - GraphQL
+  - WordPress
+  - Netlify
