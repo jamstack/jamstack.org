@@ -44,3 +44,4 @@ Diplodoc offers  the advantage of supporting Right-to-Left (RTL) mode, ensuring 
 ## Integrated Search Functionality
 
 The most typical use case for document searching on the platform, without extra costs or support efforts.
+
