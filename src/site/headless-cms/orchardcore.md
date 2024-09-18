@@ -26,7 +26,7 @@ Orchard Core has a lot of interesting features that help you to manage different
 
 - **NuGet Packages**. Modules and themes are now shared as NuGet packages. Creating a new website with Orchard Core CMS is actually as simple as referencing a single meta package from the NuGet gallery. It also means that updating to a newer version only involves updating the version number of this package.
 
-- **Liquid templates support**. Editors can safely change the HTML templates with the Liquid template language. It was chosen as it's both very well documented (Jekyll, Shopify, …) and secure.
+- **Liquid templates support**. Editors can safely change the HTML templates with the Liquid template language. It was chosen as it's both very well documented (Jekyll, Shopify, ...) and secure.
 
 - **Custom queries**. We wanted to provide a way for developers to access all their data as simply as possible. We created a module that lets you create custom ad-hoc SQL and Lucene queries that can be re-used to display custom content, or exposed as API endpoints. You can use it to create efficient queries, or expose your data to SPA applications.
 
