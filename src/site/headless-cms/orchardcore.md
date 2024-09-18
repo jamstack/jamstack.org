@@ -16,17 +16,17 @@ Orchard Core is an open-source, modular, multi-tenant application framework and 
 
 Orchard Core has a lot of interesting features that help you to manage different content types.
 
-- **Performance**. This might the most obvious change when you start using Orchard Core CMS. It’s extremely fast for a CMS. So fast that we haven’t even cared about working on an output cache module. To give you an idea, without caching Orchard Core CMS is around 20 times faster than the previous version.
+- **Performance**. This might the most obvious change when you start using Orchard Core CMS. It's extremely fast for a CMS. So fast that we haven't even cared about working on an output cache module. To give you an idea, without caching Orchard Core CMS is around 20 times faster than the previous version.
 
 - **Portable**. You can now develop and deploy Orchard Core CMS on Windows, Linux and macOS. We also have Docker images ready for use.
 
 - **Database Support**. SQL Server, MySQL, MariaDB, PostgreSQL, and SQLite. For MariaDB, select MySQL as the database type and follow all MySQL rules.
 
-- **Document database abstraction**. Orchard Core CMS still requires a relational database and is compatible with SQL Server, MySQL, PostgreSQL, and SQLite, but it’s now using a document abstraction (YesSql) that provides a document database API to store and query documents. This is a much better approach for CMS systems and helps performance significantly.
+- **Document database abstraction**. Orchard Core CMS still requires a relational database and is compatible with SQL Server, MySQL, PostgreSQL, and SQLite, but it's now using a document abstraction (YesSql) that provides a document database API to store and query documents. This is a much better approach for CMS systems and helps performance significantly.
 
 - **NuGet Packages**. Modules and themes are now shared as NuGet packages. Creating a new website with Orchard Core CMS is actually as simple as referencing a single meta package from the NuGet gallery. It also means that updating to a newer version only involves updating the version number of this package.
 
-- **Liquid templates support**. Editors can safely change the HTML templates with the Liquid template language. It was chosen as it’s both very well documented (Jekyll, Shopify, …) and secure.
+- **Liquid templates support**. Editors can safely change the HTML templates with the Liquid template language. It was chosen as it's both very well documented (Jekyll, Shopify, …) and secure.
 
 - **Custom queries**. We wanted to provide a way for developers to access all their data as simply as possible. We created a module that lets you create custom ad-hoc SQL and Lucene queries that can be re-used to display custom content, or exposed as API endpoints. You can use it to create efficient queries, or expose your data to SPA applications.
 
