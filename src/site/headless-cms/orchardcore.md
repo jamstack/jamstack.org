@@ -38,6 +38,6 @@ Orchard Core has a lot of interesting features that help you to manage different
 
 ## Different website building strategies
 
-Orchard Core CMS supports different building strategies but there is one that allows you to expose contents via api and GraphQL:
+Orchard Core CMS supports different building strategies but there is one that allows you to expose content via API and GraphQL:
 
 - **Headless CMS**. The site only manages the content, and you create a separate application that will fetch the managed content using GraphQL or REST APIs. See [Sebastien Ros on Headless CMS with Orchard Core on YouTube](https://www.youtube.com/watch?v=4o9zG17cfa0).
