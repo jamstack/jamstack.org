@@ -16,7 +16,7 @@ Orchard Core is an open-source, modular, multi-tenant application framework and 
 
 Orchard Core has a lot of interesting features that help you to manage different content types.
 
-- **Performance**. This might the most obvious change when you start using Orchard Core CMS. It's extremely fast for a CMS. So fast that we haven't even cared about working on an output cache module. To give you an idea, without caching Orchard Core CMS is around 20 times faster than the previous version.
+- **Performance**. This might be the most obvious change when you start using Orchard Core CMS. It's extremely fast for a CMS. So fast that we haven't even cared about working on an output cache module. To give you an idea, without caching Orchard Core CMS is around 20 times faster than the previous version.
 
 - **Portable**. You can now develop and deploy Orchard Core CMS on Windows, Linux and macOS. We also have Docker images ready for use.
 
