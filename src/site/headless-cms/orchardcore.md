@@ -18,7 +18,7 @@ Orchard Core has a lot of interesting features that help you to manage different
 
 - **Performance**. This might be the most obvious change when you start using Orchard Core CMS. It's extremely fast for a CMS. So fast that we haven't even cared about working on an output cache module. To give you an idea, without caching Orchard Core CMS is around 20 times faster than the previous version.
 
-- **Portable**. You can now develop and deploy Orchard Core CMS on Windows, Linux and macOS. We also have Docker images ready for use.
+- **Portable**. You can now develop and deploy Orchard Core CMS on Windows, Linux, and macOS. We also have Docker images ready for use.
 
 - **Database Support**. SQL Server, MySQL, MariaDB, PostgreSQL, and SQLite. For MariaDB, select MySQL as the database type and follow all MySQL rules.
 
