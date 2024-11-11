@@ -13,35 +13,33 @@ images:
 
 # About PMKIN
 
-At PMKIN, our mission is to create a content management system that's as powerful as it is easy to use. We saw too many teams struggling with complex CMSs that frustrate writers and developers alike. That's why we built PMKIN - a headless CMS designed from the ground up to simplify content creation and delivery for modern JAMstack sites.
-
-![The PMKIN Editor](/img/cms/pmkin-editor.png)
+At PMKIN, our mission is to create a content management system that's as powerful and easy to use. Too many teams struggle with complex CMSs that frustrate writers and developers alike. That's why we built PMKIN—a headless CMS designed from the ground up to simplify content creation and delivery for modern JAMstack sites.
 
 ## Why PMKIN?
 
-Our intuitive editor gives non-technical team members a streamlined experience for writing, formatting, and publishing content. No more fighting with complex markup or technical setups - just focus on creating great content.
+Our intuitive editor streamlines the writing, formatting, and publishing experience for non-technical team members. No more fighting with complex markup or technical setups—focus on creating great content.
 
-PMKIN puts the power of content management in the hands of your marketing, editorial, and subject matter experts. Our user-friendly interface allows them to work independently, freeing up your development team to focus on building amazing experiences.
+PMKIN gives your marketing, editorial, and subject matter experts the power of content management. Our user-friendly interface allows them to work independently, freeing up your development team to focus on building unique experiences.
 
-With PMKIN's headless architecture, your content is decoupled from your front-end, allowing you to publish updates quickly without waiting for developer bandwidth. Our GraphQL API makes it easy to integrate content into your JAMstack applications.
+With PMKIN's headless architecture, your content is decoupled from your front end, allowing you to publish updates quickly without waiting for developer bandwidth. Our GraphQL API makes it easy to integrate content into your JAMstack applications.
 
-PMKIN is designed to work seamlessly with your JAMstack tech stack, especially Next.js. Our API-first approach and developer-friendly tools make it simple to connect your content to your application.
+PMKIN is designed to work seamlessly with your JAMstack tech stack, especially Next.js. Our API-first approach and developer-friendly tools make connecting your content to your application simple.
 
 ## How PMKIN Works
 
 PMKIN provides a comprehensive set of features to streamline your content management workflow:
 
-- Our intuitive editor allows content creators to focus on the writing experience, with no need to learn complex markup languages. Format text, add images, and build engaging content without technical constraints.
+- Our intuitive editor lets content creators focus on the writing experience without learning complex markup languages. Format text, add images, and build engaging content without technical constraints.
 
 - Publish your content immediately or schedule future updates. PMKIN's SEO-friendly features ensure your content is optimized for search engines as soon as it goes live.
 
-- Keep your content structured and easy to manage with categories. PMKIN's centralized content hub makes it simple to find, update, and repurpose all your valuable content assets.
+- Use categories to keep your content structured and easy to manage. PMKIN's centralized content hub makes finding, updating, and repurposing all your valuable content assets simple.
 
 - PMKIN stores your content in Markdown format and serves it through a powerful GraphQL API. This allows your development team to efficiently integrate content into your JAMstack applications, with full control over the presentation layer.
 
 ## Get Started with PMKIN
 
-Ready to simplify content management for your JAMstack project? [Sign up for PMKIN](https://pmkin.com/sign-up) and experience the difference of a CMS built for writers and developers.
+Would you be ready to simplify content management for your JAMstack project? [Sign up for PMKIN](https://pmkin.com/sign-up) and experience the difference of a CMS built for writers and developers.
 
 ### Useful Links to Get Started
 
