@@ -18,15 +18,15 @@ Flotiq's goal is to provide developers with an easy to use API, powerful integra
 
 ## Where to start
 
-Head over to [Flotiq Docs](https://flotiq.com/docs/) or start exploring immediately with a [free account](https://editor.flotiq.com).
+Head over to [Flotiq Docs](https://flotiq.com/docs/?utm_source=jamstack&utm_medium=referral&utm_campaign=flotiq_at_jamstack_headless_cms) or start exploring immediately with a [free account](https://editor.flotiq.com?utm_source=jamstack&utm_medium=referral&utm_campaign=flotiq_at_jamstack_headless_cms).
 
-<a href="https://flotiq.com/docs/" style="padding: 10px 20px; background-color: #007bff; color: white; text-decoration: none; border-radius: 5px;">Explore Flotiq Docs</a>
-<a href="https://editor.flotiq.com" style="padding: 10px 20px; background-color: #28a745; color: white; text-decoration: none; border-radius: 5px;">Start Free</a>
+<a href="https://flotiq.com/docs/?utm_source=jamstack&utm_medium=referral&utm_campaign=flotiq_at_jamstack_headless_cms" style="padding: 10px 20px; background-color: #007bff; color: white; text-decoration: none; border-radius: 5px;">Explore Flotiq Docs</a>
+<a href="https://editor.flotiq.com?utm_source=jamstack&utm_medium=referral&utm_campaign=flotiq_at_jamstack_headless_cms" style="padding: 10px 20px; background-color: #28a745; color: white; text-decoration: none; border-radius: 5px;">Start Free</a>
 
 We've published several deep-dive docs describing how to get started building JAMstack-based apps with Flotiq:
-- [Build a blog in 3 minutes](https://flotiq.com/docs/Deep-Dives/Building-a-blog-in-3-minutes/)
-- [Migrate Wordpress to Flotiq](https://flotiq.com/docs/Deep-Dives/wordpress-import/)
-- [Connect a contact form to Flotiq and add notifications with Zapier](https://flotiq.com/docs/Deep-Dives/Headless-CMS-Contact-Forms/)
+- [Build a blog in 3 minutes](https://flotiq.com/docs/Deep-Dives/Building-a-blog-in-3-minutes/?utm_source=jamstack&utm_medium=referral&utm_campaign=flotiq_at_jamstack_headless_cms)
+- [Migrate Wordpress to Flotiq](https://flotiq.com/docs/Deep-Dives/wordpress-import/?utm_source=jamstack&utm_medium=referral&utm_campaign=flotiq_at_jamstack_headless_cms)
+- [Connect a contact form to Flotiq and add notifications with Zapier](https://flotiq.com/docs/Deep-Dives/Headless-CMS-Contact-Forms/?utm_source=jamstack&utm_medium=referral&utm_campaign=flotiq_at_jamstack_headless_cms)
 
 or have a quick look at one of our inspiring videos:
 - [Start a blog in 3 minutes with Flotiq, GatsbyJs and Heroku!](https://youtu.be/hz3RK5qqhrQ)
@@ -92,7 +92,7 @@ The recently added scoped API keys are a perfect way to keep your API secure. Yo
 
 Unlike other headless CMS systems - we believe that developers need efficient access to content. So we're not only exposing the content through REST endpoints, but also providing efficient means of searching through that content. To provide one of the most powerful ways to query content - we partially expose the ElasticSearch (ES) engine through Flotiq's search API, wrapping it and stripping to leave only the essentials.
 
-You can aggregate your search results by given conditions and also rank them by giving weight to a specific field. Be sure to check our [Search API Deep Dive](https://flotiq.com/docs/Deep-Dives/search-api-deepdive/) to read more about it.
+You can aggregate your search results by given conditions and also rank them by giving weight to a specific field. Be sure to check our [Search API Deep Dive](https://flotiq.com/docs/Deep-Dives/search-api-deepdive/?utm_source=jamstack&utm_medium=referral&utm_campaign=flotiq_at_jamstack_headless_cms) to read more about it.
 
 <img src="/img/cms/flotiq-search-aggregations.png" alt="Flotiq full-text api search" style="width: 45% ;border: 1px solid #ccc; display: block; margin: 20px auto;">
 
@@ -100,8 +100,8 @@ You can aggregate your search results by given conditions and also rank them by 
 
   ## Interested? 
 
-  Try <a href="https://editor.flotiq.com" style="color: #007bff; text-decoration: none;">Flotiq</a> now, it's free to start.
+  Try <a href="https://editor.flotiq.com?utm_source=jamstack&utm_medium=referral&utm_campaign=flotiq_at_jamstack_headless_cms" style="color: #007bff; text-decoration: none;">Flotiq</a> now, it's free to start.
 
-  <a href="https://editor.flotiq.com" style="padding: 10px 20px; background-color: #28a745; color: white; text-decoration: none; border-radius: 5px;">Start Free</a>
+  <a href="https://editor.flotiq.com?utm_source=jamstack&utm_medium=referral&utm_campaign=flotiq_at_jamstack_headless_cms" style="padding: 10px 20px; background-color: #28a745; color: white; text-decoration: none; border-radius: 5px;">Start Free</a>
 
 </div>
