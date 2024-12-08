@@ -1,6 +1,7 @@
 ---
 title: Storyblok
 homepage: https://www.storyblok.com/
+repo: storyblok/storyblok
 twitter: storyblok
 opensource: "No"
 typeofcms: "API Driven"
