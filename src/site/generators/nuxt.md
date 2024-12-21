@@ -1,7 +1,7 @@
 ---
 title: Nuxt
-repo: nuxt/nuxt.js
-homepage: https://nuxtjs.org/
+repo: nuxt/nuxt
+homepage: https://nuxt.com/
 language:
   - JavaScript
 license:
@@ -9,11 +9,11 @@ license:
 templates:
   - Vue
 description: A minimalistic framework for serverless Vue.js applications.
-startertemplaterepo: https://github.com/lukeocodes/nuxt-starter-netlify-cms
+startertemplaterepo: https://github.com/netlify-templates/nuxt-starter
 twitter: nuxt_js
 ---
 
-An easy way to export your Vue.js Web Application into a static website.
+Nuxt is a free and open-source framework with an intuitive and extendable way to create type-safe, performant and production-grade full-stack web applications and websites with Vue.js.
 
 ## Easy to use
 
