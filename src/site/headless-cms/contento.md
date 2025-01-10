@@ -17,20 +17,20 @@ Contento is the only headless CMS focused on building websites. It features a st
 
 ## Who is Contento For?
 
-We've made building a headless website fast and simple for developers, with ease, speed and repeatability at the core of our focus. Our range of starter kits, content type library and ability to store your own content models helps speed up your build process, helping you make headless more profitible.
+We've made building a headless website fast and simple for developers — with ease, speed and repeatability at the core of our focus. Our range of starter kits, content type library and ability to reuse your own content models across projects helps speed up your build process, making headless websites more profitable to deploy.
 
-We also bake in key features like SEO, visual preview and internationalisation across all product tiers enabling all users to access the entire feature set. Our intuitive admin panel and editing experience also makes Contento easy to use for the marketing team.
+We also bake in key website tools like SEO, visual preview and internationalisation across all product tiers enabling all users to access the entire feature set. Our intuitive admin panel and editing experience also makes Contento easy to use for the marketing team.
 
-With optional features like Content Workflow and Autotranslation available on our Pro plan for those who need it.
+With optional features like the content workflow and auto translation available on our Pro plan for those who need it.
 
 ![Contento - Content Type Library](https://assets.contento.io/assets/VK6vBK72xR/Content-Types-Library.png?fit=crop&w=960&dpr=2)
 
 ## How is Contento Different?
 
-- Built with a specific use case in mind - managing and maintaining a marketing website
-- Focus on making headless website builds as easy and repeatable as possible
-- First class DX - well documented [API](https://www.contento.io/docs/content-api/v1), SDK with framework adapaters, built-in [image API](https://www.contento.io/docs/image-api)
-- Attractive pricing tiers - with a free (forever) plan and Pro plan starting from $40/month
+- Built with a specific use case in mind - managing and maintaining a website
+- We focus on making headless website builds as easy and repeatable as possible
+- First class developer experience - well documented [API](https://www.contento.io/docs/content-api/v1), SDK with framework adapters, built-in [image API](https://www.contento.io/docs/image-api)
+- Attractive [pricing tiers](https://www.contento.io/pricing) - with a free (forever) plan and Pro plan starting from $40/month
 - Access to dedicated support - with Contento, you can speak to a human if you need to
 
 ![Contento - Starter Kits](https://assets.contento.io/assets/VK6vBK72xR/My-Library---Starter-Kits---Dark-Mode.png?fit=crop&w=960&dpr=2)
@@ -46,6 +46,6 @@ With optional features like Content Workflow and Autotranslation available on ou
 
 <br>
 
-Find out everything else at [www.contento.io](https://www.contento.io)
+Find out everything else at [www.contento.io](https://www.contento.io).
 
-Contento - Headless websites, without the headache.
+**Contento - headless websites, without the headache.**
