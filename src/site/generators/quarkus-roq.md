@@ -1,13 +1,13 @@
 ---
 title: Quarkus Roq
 repo: quarkiverse/quarkus-roq
-homepage: https://docs.quarkiverse.io/quarkus-roq/dev/index.html
+homepage: https://pages.quarkiverse.io/quarkus-roq/docs/
 language:
   - Java
 license:
   - Apache 2.0
 templates:
-  - Tera
+  - Qute
 description: Roq allows to easily create a static website or blog using Quarkus super-powers.
 ---
 
