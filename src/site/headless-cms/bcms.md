@@ -9,8 +9,11 @@ supportedgenerators:
   - All
 description: BCMS provides flexible content modeling for creative projects in Next.js, Astro, Nuxt.js, Svelte, and Gatsby.js. Comes with strong TypeScript support and rich customization options.
 images:
-  - path: /img/cms/bcms-dashboard.png
+  - path: /img/cms/bcms-dashboard.jpg
+  - path: /img/cms/bcms-drag-n-drop.gif
 ---
+
+![/img/cms/bcms-dashboard.jpg]
 
 ## BCMS: Headless CMS built for Developers, loved by their Clients
 
