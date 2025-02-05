@@ -3,7 +3,7 @@ title: Krems
 repo: mreider/krems
 homepage: https://github.com/mreider/krems
 language:
-  - Ruby
+  - Go
 license:
   - MIT
 templates:
@@ -12,4 +12,4 @@ templates:
 description: Krems static site generator
 ---
 
-A simple, lightweight static site generator for Markdown, with live preview and customizable CSS.
+A simple, lightweight static site generator written in Go. It converts Markdown files into responsive HTML pages, complete with navigation menus, optional blog listings, and an RSS feed. Think of it like Hugo or Jekyll, but stripped down to the essentials.
