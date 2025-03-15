@@ -15,7 +15,7 @@ supportedgenerators:
   - Nuxt
   - MkDocs
 description: >
-  GitCMS is a Chrome extension that transforms GitHub into a user-friendly headless CMS, supporting all major static site generators. It offers a Notion-like editor, custom frontmatter schemas, and seamless GitHub integration for efficient content management.
+  GitCMS is a Chrome extension which turns GitHub into a headless CMS with a Notion-like editor, custom frontmatter schemas, and seamless GitHub integration.
 ---
 ## GitCMS
 
