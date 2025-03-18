@@ -9,6 +9,7 @@ license:
 templates:
   - React
 description: Build Better Websites. Create modern, resilient user experiences with web fundamentals.
+startertemplaterepo: https://github.com/netlify-templates/remix-admin-template
 twitter: remix_run
 ---
 
