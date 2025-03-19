@@ -5,13 +5,13 @@ opensource: "No"
 typeofcms: "API Driven"
 supportedgenerators:
   - All
-description: The Contentful® Composable Content Platform brings the building blocks of content together to create once and reuse for any digital experience. The API-first platform integrates easily with data sources and new functionality as digital experiences and technology evolve.
+description: Use Google Sheets as a simple, low-cost, headless CMS, published to your AWS account and with no rate limits.
 ---
 # Starsheet
 
 <img src="/img/cms/starsheet-hero.png" alt="Starsheet Screenshot" />
 
-Use Google Sheets as a low-cost, headless CMS, with zero infrastructure to manage but published to your AWS account so you're in complete control of your data.
+Use Google Sheets as a low-cost, headless CMS, with zero infrastructure to manage but published to your AWS account so you're in control of your data.
 
 ## Features
 
