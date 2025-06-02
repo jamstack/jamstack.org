@@ -18,7 +18,9 @@
     "watch:html": "ELEVENTY_ENV=dev eleventy --serve --port=8080 --quiet",
     "watch:css": "postcss src/css/tailwind.css -o ../dist/css/styles.css --watch",
     "start": "npm-run-all --parallel watch:html watch:css",
-    "clean": "rm -rf dist"
+    "build:health": "cd healthcare_site && npx @11ty/eleventy && cd ..",
+    "serve:health": "cd healthcare_site && npx @11ty/eleventy --serve --port=8081 && cd ..",
+    "clean": "rm -rf dist healthcare_site/dist"
   },
   "dependencies": {
     "@11ty/eleventy": "^1.0.0",
