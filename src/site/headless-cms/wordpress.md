@@ -24,3 +24,7 @@ The [WordPress REST API](https://developer.wordpress.org/rest-api/) has been a s
 ### WPGraphQL
 
 Using the extensible nature of WordPress' plugin APIs, developers of headless sites can take advantage of the [WPGraphQL plugin](https://www.wpgraphql.com/) to interact with their site's content using GraphQL. 
+
+### Gato GraphQL
+
+[Gato GraphQL](https://gatographql.com/) is a plugin that provides a GraphQL server, allowing us to build a headless site using WordPress as the source of data. It also allows us to manipulate and store again any piece of data in the site, and interact with external services. 
