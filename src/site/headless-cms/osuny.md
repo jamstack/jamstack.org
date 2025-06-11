@@ -1,5 +1,5 @@
 ---
-title: osuny
+title: Osuny
 homepage: https://www.osuny.org/
 repo: osunyorg/theme
 opensource: "Yes"
