@@ -32,7 +32,7 @@ But above all, __Osuny guarantees__:
  - Freedom
  
  ##
- There are __many more features__ that Osuny offers - see our [docs](https://developers.osuny.org/docs/) for more: 
+ There are __many more features__ that Osuny offers - see our [docs](https://developers.osuny.org/docs/) for more details.
 
  
 ## Get Started
