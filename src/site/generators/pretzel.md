@@ -3,7 +3,7 @@ title: pretzel
 repo: Code52/pretzel
 homepage: http://code52.org/pretzel.html
 language:
-  - .Net
+  - C#
 license:
   - MS-PL
 templates:
