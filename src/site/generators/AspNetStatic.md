@@ -4,7 +4,6 @@ repo: ZarehD/AspNetStatic
 homepage: https://github.com/ZarehD/AspNetStatic
 language:
   - C#
-  - .Net
 license:
   - Apache-2.0
 templates:

@@ -3,7 +3,7 @@ title: Statiq
 repo: statiqdev/Statiq.Web
 homepage: https://statiq.dev/web/
 language:
-  - .Net
+  - C#
 license:
   - Prosperity Public License
 templates:
