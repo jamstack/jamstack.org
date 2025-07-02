@@ -1,8 +1,8 @@
 ---
 title: Multiple Page Portfolio
 repo: tomcomtang/multiplepage-portfolio
-homepage: https://github.com/tomcomtang/multiplepage-portfolio
-demo: https://multiplepage-portfolio-demo.example.com
+startertemplaterepo: https://github.com/tomcomtang/multiplepage-portfolio
+homepage: https://multiplepage-portfolio.edgeone.app
 language:
   - JavaScript
   - HTML

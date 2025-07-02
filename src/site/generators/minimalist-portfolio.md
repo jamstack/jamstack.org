@@ -1,8 +1,8 @@
 ---
 title: Minimalist Portfolio
 repo: tomcomtang/minimalist-portfolio
-homepage: https://github.com/tomcomtang/minimalist-portfolio
-demo: https://minimalist-portfolio-demo.example.com
+startertemplaterepo: https://github.com/tomcomtang/minimalist-portfolio
+homepage: https://minimalist-portfolio-demo.example.com
 language:
   - JavaScript
   - HTML

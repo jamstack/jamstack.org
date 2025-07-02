@@ -1,8 +1,8 @@
 ---
 title: WordPress Gatsby
 repo: tomcomtang/wordpress-gatsby
-homepage: https://github.com/tomcomtang/wordpress-gatsby
-demo: https://wordpress-gatsby-demo.example.com
+startertemplaterepo: https://github.com/tomcomtang/wordpress-gatsby
+homepage: https://wordpress-gatsby.edgeone.app
 language:
   - JavaScript
   - PHP

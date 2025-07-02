@@ -1,8 +1,8 @@
 ---
 title: Minimal Gallery
 repo: tomcomtang/minimal-gallery
-homepage: https://github.com/tomcomtang/minimal-gallery
-demo: https://minimal-gallery-demo.example.com
+homepage: https://minimal-gallery.edgeone.app
+startertemplaterepo: https://github.com/tomcomtang/minimal-gallery
 language:
   - JavaScript
   - HTML
