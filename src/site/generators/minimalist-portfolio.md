@@ -2,7 +2,7 @@
 title: Minimalist Portfolio
 repo: tomcomtang/minimalist-portfolio
 startertemplaterepo: https://github.com/tomcomtang/minimalist-portfolio
-homepage: https://minimalist-portfolio-demo.example.com
+homepage: https://minimalist-portfolio.edgeone.app
 language:
   - JavaScript
   - HTML
