@@ -15,6 +15,7 @@ module.exports = function (eleventyConfig) {
     "node_modules/@zachleat/filter-container/*.js": "js",
     "src/css": "css",
   });
+  eleventyConfig.addPassthroughCopy({"src/site/README.md": "README.md"});
 
   // Date helper
   const { DateTime } = require('luxon');
@@ -198,8 +199,8 @@ module.exports = function (eleventyConfig) {
   return {
     dir: {
       input: "src/site",
-      inludes: "_includes",
-      output: "dist"
+      includes: "_includes",
+      output: "../dist"
     },
     passthroughFileCopy: true,
     markdownTemplateEngine: false,
