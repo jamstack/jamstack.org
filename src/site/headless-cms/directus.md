@@ -3,7 +3,7 @@ title: Directus
 repo: directus/directus
 homepage: https://directus.io
 twitter: directus
-opensource: "Yes"
+opensource: "No"
 typeofcms: "API Driven"
 supportedgenerators:
   - All
