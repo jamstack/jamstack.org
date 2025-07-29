@@ -1,35 +1,385 @@
 ---
 title: Jamstack TV
-subtitle:  Jamstack TV is a searchable collection of video resources. Interested in a topic? Looking for a specific talk? Search here and we’ll find that talk or topic timestamp within the videos for you.
+subtitle: A curated collection of Jamstack video resources featuring talks, tutorials, and conference presentations from the community.
 layout: layouts/base.njk
-preconnect:
-  - https://cdn.jsdelivr.net
-javascriptIncludes:
-  - search-js.njk
 ---
-{# This search index data is populated by the code at https://github.com/netlify/jamstack-tv-search-data #}
 
 <section class="md:mt-20">
   <h1 class="text-center">{{ title }}</h1>
-  <p class="text-center">{{ subtitle }}</p>
+  <p class="px-4 mx-auto max-w-3xl text-center">{{ subtitle }}</p>
 </section>
 
-<div class="px-8 max-w-6xl mx-auto">
-  <div class="flex flex-wrap items-center justify-center max-w-2xl mx-auto">
-    <div id="searchbox" class="flex-grow my-2">
-      <span class="jamstacktv-js">The search functionality on Jamstack TV requires JavaScript to operate.</span>
-    </div>
-    <div class="mx-4 my-2">
-      <a href="https://www.algolia.com/">
-        <img alt="Search by Algolia" width="168" height="24" src="/img/svg/search-by-algolia-dark-background.svg" class="w-auto hidden dark:inline">
-        <img alt="Search by Algolia" width="168" height="24" src="/img/svg/search-by-algolia-light-background.svg" class="w-auto inline dark:hidden">
-      </a>
-    </div>
-  </div>
-  <div class="flex items-center justify-end mt-20">
-    <div class="mr-4">Sort by</div>
-    <div id="sort-by"></div>
-  </div>
-  <div id="hits" class="mt-4"></div>
-</div>
+<div class="px-8 mx-auto mt-12 max-w-6xl">
 
+  
+  <ol>
+    <li>
+      <a href="https://www.youtube.com/watch?v=GnCjbXqLV-o&amp;t=0s" class="mb-4 group jamstacktv-link">
+        <div class="relative jamstacktv-card">
+          <img src="https://i.ytimg.com/vi/GnCjbXqLV-o/hqdefault.jpg"
+               alt="Jamstack Meetup SF: Realizing the Potential of the A in Jamstack"
+               class="jamstacktv-img card-shadow bg-gradient-card-sunrise group-hover:card-shadow-sunrise"
+               width="480" height="360">
+          <span class="jamstacktv-duration">42:53</span>
+        </div>
+        <div class="jamstacktv-item jamstacktv-no-skip">
+          <div class="mb-1 jamstacktv-meta">
+            <span class="jamstacktv-category">Jamstack Meetups</span>
+            <span class="jamstacktv-title">
+              Jamstack Meetup SF: Realizing the Potential of the A in Jamstack
+            </span>
+          </div>
+          <strong class="jamstacktv-caption">
+            <span class="jamstacktv-caption-quote">hello and</span>
+          </strong>
+        </div>
+      </a>
+    </li>
+
+    <li>
+      <a href="https://www.youtube.com/watch?v=vy6VAKZpq4I&amp;t=1s" class="mb-4 group jamstacktv-link">
+        <div class="relative jamstacktv-card">
+          <img src="https://i.ytimg.com/vi/vy6VAKZpq4I/hqdefault.jpg"
+               alt="[Livestream] JAMstack Meetup #16"
+               class="jamstacktv-img card-shadow bg-gradient-card-sunrise group-hover:card-shadow-sunrise"
+               width="480" height="360">
+          <span class="jamstacktv-duration">59:56</span>
+        </div>
+        <div class="jamstacktv-item jamstacktv-no-skip">
+          <div class="mb-1 jamstacktv-meta">
+            <span class="jamstacktv-category">Jamstack Meetups</span>
+            <span class="jamstacktv-title">[Livestream] JAMstack Meetup #16</span>
+          </div>
+          <strong class="jamstacktv-caption">
+            <span class="jamstacktv-caption-quote">
+              (captions sponsored by Prisma) - [Enxhi] And we're live.
+            </span>
+          </strong>
+        </div>
+      </a>
+    </li>
+
+    <li>
+      <a href="https://www.youtube.com/watch?v=tr6aHw8I32M&amp;t=0s" class="mb-4 group jamstacktv-link">
+        <div class="relative jamstacktv-card">
+          <img src="https://i.ytimg.com/vi/tr6aHw8I32M/hqdefault.jpg"
+               alt="Oh The Scripts We'll Load - A Performance Talk by Tim Kadlec"
+               class="jamstacktv-img card-shadow bg-gradient-card-sunrise group-hover:card-shadow-sunrise"
+               width="480" height="360">
+          <span class="jamstacktv-duration">31:31</span>
+        </div>
+        <div class="jamstacktv-item jamstacktv-no-skip">
+          <div class="mb-1 jamstacktv-meta">
+            <span class="jamstacktv-category">Jamstack Conf Virtual Oct 2020</span>
+            <span class="jamstacktv-title">
+              Oh The Scripts We'll Load - A Performance Talk by Tim Kadlec
+            </span>
+          </div>
+          <strong class="jamstacktv-caption">
+            <span class="jamstacktv-caption-quote">thanks phil</span>
+          </strong>
+        </div>
+      </a>
+    </li>
+
+    <li>
+      <a href="https://www.youtube.com/watch?v=4xAF3r29GhQ&amp;t=0s" class="mb-4 group jamstacktv-link">
+        <div class="relative jamstacktv-card">
+          <img src="https://i.ytimg.com/vi/4xAF3r29GhQ/hqdefault.jpg"
+               alt="Jamstack Conf Virtual - The Jammies Awards"
+               class="jamstacktv-img card-shadow bg-gradient-card-sunrise group-hover:card-shadow-sunrise"
+               width="480" height="360">
+          <span class="jamstacktv-duration">18:39</span>
+        </div>
+        <div class="jamstacktv-item jamstacktv-no-skip">
+          <div class="mb-1 jamstacktv-meta">
+            <span class="jamstacktv-category">Jamstack Conf Virtual Oct 2020</span>
+            <span class="jamstacktv-title">Jamstack Conf Virtual - The Jammies Awards</span>
+          </div>
+          <strong class="jamstacktv-caption">
+            <span class="jamstacktv-caption-quote">so let's move on</span>
+          </strong>
+        </div>
+      </a>
+    </li>
+
+    <li>
+      <a href="https://www.youtube.com/watch?v=oibCVDK_-60&amp;t=0s" class="mb-4 group jamstacktv-link">
+        <div class="relative jamstacktv-card">
+          <img src="https://i.ytimg.com/vi/oibCVDK_-60/hqdefault.jpg"
+               alt="JamSnack - What's New in Hugo"
+               class="jamstacktv-img card-shadow bg-gradient-card-sunrise group-hover:card-shadow-sunrise"
+               width="480" height="360">
+          <span class="jamstacktv-duration">2:26</span>
+        </div>
+        <div class="jamstacktv-item jamstacktv-no-skip">
+          <div class="mb-1 jamstacktv-meta">
+            <span class="jamstacktv-category">Jamstack Conf Virtual Oct 2020</span>
+            <span class="jamstacktv-title">JamSnack - What's New in Hugo</span>
+          </div>
+          <strong class="jamstacktv-caption">
+            <span class="jamstacktv-caption-quote">hello</span>
+          </strong>
+        </div>
+      </a>
+    </li>
+
+    <li>
+      <a href="https://www.youtube.com/watch?v=5DnJmVKiqZY&amp;t=0s" class="mb-4 group jamstacktv-link">
+        <div class="relative jamstacktv-card">
+          <img src="https://i.ytimg.com/vi/5DnJmVKiqZY/hqdefault.jpg"
+               alt="JamSnack - What's New in Next.js"
+               class="jamstacktv-img card-shadow bg-gradient-card-sunrise group-hover:card-shadow-sunrise"
+               width="480" height="360">
+          <span class="jamstacktv-duration">3:07</span>
+        </div>
+        <div class="jamstacktv-item jamstacktv-no-skip">
+          <div class="mb-1 jamstacktv-meta">
+            <span class="jamstacktv-category">Jamstack Conf Virtual Oct 2020</span>
+            <span class="jamstacktv-title">JamSnack - What's New in Next.js</span>
+          </div>
+          <strong class="jamstacktv-caption">
+            <span class="jamstacktv-caption-quote">hello jams.com my name is cassidy and</span>
+          </strong>
+        </div>
+      </a>
+    </li>
+
+    <li>
+      <a href="https://www.youtube.com/watch?v=EWQJuXlvoiQ&amp;t=0s" class="mb-4 group jamstacktv-link">
+        <div class="relative jamstacktv-card">
+          <img src="https://i.ytimg.com/vi/EWQJuXlvoiQ/hqdefault.jpg"
+               alt="JamSnack - What's New in Redwood.js"
+               class="jamstacktv-img card-shadow bg-gradient-card-sunrise group-hover:card-shadow-sunrise"
+               width="480" height="360">
+          <span class="jamstacktv-duration">2:20</span>
+        </div>
+        <div class="jamstacktv-item jamstacktv-no-skip">
+          <div class="mb-1 jamstacktv-meta">
+            <span class="jamstacktv-category">Jamstack Conf Virtual Oct 2020</span>
+            <span class="jamstacktv-title">JamSnack - What's New in Redwood.js</span>
+          </div>
+          <strong class="jamstacktv-caption">
+            <span class="jamstacktv-caption-quote">does the javascript ecosystem leave you</span>
+          </strong>
+        </div>
+      </a>
+    </li>
+
+    <li>
+      <a href="https://www.youtube.com/watch?v=fFB-7906eUA&amp;t=0s" class="mb-4 group jamstacktv-link">
+        <div class="relative jamstacktv-card">
+          <img src="https://i.ytimg.com/vi/fFB-7906eUA/hqdefault.jpg"
+               alt="JamSnack - What's New in Scully"
+               class="jamstacktv-img card-shadow bg-gradient-card-sunrise group-hover:card-shadow-sunrise"
+               width="480" height="360">
+          <span class="jamstacktv-duration">2:48</span>
+        </div>
+        <div class="jamstacktv-item jamstacktv-no-skip">
+          <div class="mb-1 jamstacktv-meta">
+            <span class="jamstacktv-category">Jamstack Conf Virtual Oct 2020</span>
+            <span class="jamstacktv-title">JamSnack - What's New in Scully</span>
+          </div>
+          <strong class="jamstacktv-caption">
+            <span class="jamstacktv-caption-quote">hey jammers</span>
+          </strong>
+        </div>
+      </a>
+    </li>
+
+    <li>
+      <a href="https://www.youtube.com/watch?v=-NMf5zkdbQw&amp;t=0s" class="mb-4 group jamstacktv-link">
+        <div class="relative jamstacktv-card">
+          <img src="https://i.ytimg.com/vi/-NMf5zkdbQw/hqdefault.jpg"
+               alt="JamSnack - What's New in Vue.js"
+               class="jamstacktv-img card-shadow bg-gradient-card-sunrise group-hover:card-shadow-sunrise"
+               width="480" height="360">
+          <span class="jamstacktv-duration">2:54</span>
+        </div>
+        <div class="jamstacktv-item jamstacktv-no-skip">
+          <div class="mb-1 jamstacktv-meta">
+            <span class="jamstacktv-category">Jamstack Conf Virtual Oct 2020</span>
+            <span class="jamstacktv-title">JamSnack - What's New in Vue.js</span>
+          </div>
+          <strong class="jamstacktv-caption">
+            <span class="jamstacktv-caption-quote">hello james.com this is evan yu</span>
+          </strong>
+        </div>
+      </a>
+    </li>
+
+    <li>
+      <a href="https://www.youtube.com/watch?v=hYYCE3cPl6I&amp;t=0s" class="mb-4 group jamstacktv-link">
+        <div class="relative jamstacktv-card">
+          <img src="https://i.ytimg.com/vi/hYYCE3cPl6I/hqdefault.jpg"
+               alt="JamSnack - What's New in Gatsby.js"
+               class="jamstacktv-img card-shadow bg-gradient-card-sunrise group-hover:card-shadow-sunrise"
+               width="480" height="360">
+          <span class="jamstacktv-duration">1:44</span>
+        </div>
+        <div class="jamstacktv-item jamstacktv-no-skip">
+          <div class="mb-1 jamstacktv-meta">
+            <span class="jamstacktv-category">Jamstack Conf Virtual Oct 2020</span>
+            <span class="jamstacktv-title">JamSnack - What's New in Gatsby.js</span>
+          </div>
+          <strong class="jamstacktv-caption">
+            <span class="jamstacktv-caption-quote">hi</span>
+          </strong>
+        </div>
+      </a>
+    </li>
+
+    <li>
+      <a href="https://www.youtube.com/watch?v=RTraenhnqrY&amp;t=0s" class="mb-4 group jamstacktv-link">
+        <div class="relative jamstacktv-card">
+          <img src="https://i.ytimg.com/vi/RTraenhnqrY/hqdefault.jpg"
+               alt="JamSnack - What's New in Angular"
+               class="jamstacktv-img card-shadow bg-gradient-card-sunrise group-hover:card-shadow-sunrise"
+               width="480" height="360">
+          <span class="jamstacktv-duration">2:01</span>
+        </div>
+        <div class="jamstacktv-item jamstacktv-no-skip">
+          <div class="mb-1 jamstacktv-meta">
+            <span class="jamstacktv-category">Jamstack Conf Virtual Oct 2020</span>
+            <span class="jamstacktv-title">JamSnack - What's New in Angular</span>
+          </div>
+          <strong class="jamstacktv-caption">
+            <span class="jamstacktv-caption-quote">hi</span>
+          </strong>
+        </div>
+      </a>
+    </li>
+
+    <li>
+      <a href="https://www.youtube.com/watch?v=Y1I6S5v4ZYs&amp;t=0s" class="mb-4 group jamstacktv-link">
+        <div class="relative jamstacktv-card">
+          <img src="https://i.ytimg.com/vi/Y1I6S5v4ZYs/hqdefault.jpg"
+               alt="JamSnack - What's New in 11ty"
+               class="jamstacktv-img card-shadow bg-gradient-card-sunrise group-hover:card-shadow-sunrise"
+               width="480" height="360">
+          <span class="jamstacktv-duration">2:32</span>
+        </div>
+        <div class="jamstacktv-item jamstacktv-no-skip">
+          <div class="mb-1 jamstacktv-meta">
+            <span class="jamstacktv-category">Jamstack Conf Virtual Oct 2020</span>
+            <span class="jamstacktv-title">JamSnack - What's New in 11ty</span>
+          </div>
+          <strong class="jamstacktv-caption">
+            <span class="jamstacktv-caption-quote">what's up y'all</span>
+          </strong>
+        </div>
+      </a>
+    </li>
+
+    <li>
+      <a href="https://www.youtube.com/watch?v=5xkDnOemjLk&amp;t=0s" class="mb-4 group jamstacktv-link">
+        <div class="relative jamstacktv-card">
+          <img src="https://i.ytimg.com/vi/5xkDnOemjLk/hqdefault.jpg"
+               alt="Teespring's Journey to the Jamstack, Rick Takes"
+               class="jamstacktv-img card-shadow bg-gradient-card-sunrise group-hover:card-shadow-sunrise"
+               width="480" height="360">
+          <span class="jamstacktv-duration">17:32</span>
+        </div>
+        <div class="jamstacktv-item jamstacktv-no-skip">
+          <div class="mb-1 jamstacktv-meta">
+            <span class="jamstacktv-category">Jamstack Conf Virtual Oct 2020</span>
+            <span class="jamstacktv-title">Teespring's Journey to the Jamstack, Rick Takes</span>
+          </div>
+          <strong class="jamstacktv-caption">
+            <span class="jamstacktv-caption-quote">hi everyone</span>
+          </strong>
+        </div>
+      </a>
+    </li>
+
+    <li>
+      <a href="https://www.youtube.com/watch?v=Z1uVLa2lmZY&amp;t=0s" class="mb-4 group jamstacktv-link">
+        <div class="relative jamstacktv-card">
+          <img src="https://i.ytimg.com/vi/Z1uVLa2lmZY/hqdefault.jpg"
+               alt="State of the Jamstack Oct 2020 Keynote, Matt Biilmann of Netlify"
+               class="jamstacktv-img card-shadow bg-gradient-card-sunrise group-hover:card-shadow-sunrise"
+               width="480" height="360">
+          <span class="jamstacktv-duration">20:49</span>
+        </div>
+        <div class="jamstacktv-item jamstacktv-no-skip">
+          <div class="mb-1 jamstacktv-meta">
+            <span class="jamstacktv-category">Jamstack Conf Virtual Oct 2020</span>
+            <span class="jamstacktv-title">
+              State of the Jamstack Oct 2020 Keynote, Matt Biilmann of Netlify
+            </span>
+          </div>
+          <strong class="jamstacktv-caption">
+            <span class="jamstacktv-caption-quote">hi everybody</span>
+          </strong>
+        </div>
+      </a>
+    </li>
+
+    <li>
+      <a href="https://www.youtube.com/watch?v=dBHUir4I13c&amp;t=0s" class="mb-4 group jamstacktv-link">
+        <div class="relative jamstacktv-card">
+          <img src="https://i.ytimg.com/vi/dBHUir4I13c/hqdefault.jpg"
+               alt="Bringing Remote Sensing and Disaster Relief to the Jamstack"
+               class="jamstacktv-img card-shadow bg-gradient-card-sunrise group-hover:card-shadow-sunrise"
+               width="480" height="360">
+          <span class="jamstacktv-duration">9:38</span>
+        </div>
+        <div class="jamstacktv-item jamstacktv-no-skip">
+          <div class="mb-1 jamstacktv-meta">
+            <span class="jamstacktv-category">Jamstack Conf Virtual Oct 2020</span>
+            <span class="jamstacktv-title">
+              Bringing Remote Sensing and Disaster Relief to the Jamstack
+            </span>
+          </div>
+          <strong class="jamstacktv-caption">
+            <span class="jamstacktv-caption-quote">hey everyone</span>
+          </strong>
+        </div>
+      </a>
+    </li>
+
+    <li>
+      <a href="https://www.youtube.com/watch?v=4K4_5yLLqzM&amp;t=0s" class="mb-4 group jamstacktv-link">
+        <div class="relative jamstacktv-card">
+          <img src="https://i.ytimg.com/vi/4K4_5yLLqzM/hqdefault.jpg"
+               alt="Migrating to Netlify, One Page at a Time"
+               class="jamstacktv-img card-shadow bg-gradient-card-sunrise group-hover:card-shadow-sunrise"
+               width="480" height="360">
+          <span class="jamstacktv-duration">9:56</span>
+        </div>
+        <div class="jamstacktv-item jamstacktv-no-skip">
+          <div class="mb-1 jamstacktv-meta">
+            <span class="jamstacktv-category">Jamstack Conf Virtual Oct 2020</span>
+            <span class="jamstacktv-title">Migrating to Netlify, One Page at a Time</span>
+          </div>
+          <strong class="jamstacktv-caption">
+            <span class="jamstacktv-caption-quote">hello</span>
+          </strong>
+        </div>
+      </a>
+    </li>
+
+    <li>
+      <a href="https://www.youtube.com/watch?v=zbdfqfn1yiM&amp;t=0s" class="mb-4 group jamstacktv-link">
+        <div class="relative jamstacktv-card">
+          <img src="https://i.ytimg.com/vi/zbdfqfn1yiM/hqdefault.jpg"
+               alt="Jamstack Lightning Launch: Algolia Search Crawlers"
+               class="jamstacktv-img card-shadow bg-gradient-card-sunrise group-hover:card-shadow-sunrise"
+               width="480" height="360">
+          <span class="jamstacktv-duration">7:47</span>
+        </div>
+        <div class="jamstacktv-item jamstacktv-no-skip">
+          <div class="mb-1 jamstacktv-meta">
+            <span class="jamstacktv-category">Jamstack Conf Virtual Oct 2020</span>
+            <span class="jamstacktv-title">Jamstack Lightning Launch: Algolia Search Crawlers</span>
+          </div>
+          <strong class="jamstacktv-caption">
+            <span class="jamstacktv-caption-quote">
+              [Musique] i want my name is fair and engineering
+            </span>
+          </strong>
+        </div>
+      </a>
+    </li>
+  </ol>
+</div>
