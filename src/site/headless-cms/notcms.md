@@ -8,7 +8,7 @@ typeofcms: "API Driven"
 supportedgenerators:
   - All
 description: NotCMS is a type-safe headless CMS that transforms Notion into a powerful content backend. Write content in Notion's familiar interface and publish instantly to any framework with full TypeScript support.
-images:
+images: /img/cms/notcms.jpg
 ---
 
 ## What is NotCMS?
