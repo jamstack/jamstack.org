@@ -1,7 +1,6 @@
 ---
-title: Brill CMS
+title: Brill Software
 homepage: https://www.brill.software/
-repo: https://github.com/brill-software/brill_client
 opensource: "Yes"
 typeofcms: "Visual, API Driven"
 supportedgenerators:
@@ -19,41 +18,34 @@ that can be Dragged and Dropped onto pages. The Storybook includes Material UI C
 You can add your own React components and create a Stroybook of components specifically for your organization, that implements
 your organizations Look and Feel guidelines. This saves Content Editors time and helps them keep to the Look and Feel guidelines.
 
-The Brill CMS is designed for creating enterprise level application but can equally be used for smaller projects.
-There's no limit as to the sophistication of a web application that can be developed. You can create any web application you could using a bespoke React application. Components can include text, images, forms, fields, radio buttons, checkboxes, tables and anything you can think of.
-
-The Brill CMS was developed using the Brill CMS. We're not aware of any other CMSes that were created using themsleves or that can edit themselves.
+The Brill CMS was designed for creating enterprise applications but can equally be used for smaller projects.
+There's no limit as to the sophistication of a web application that can be developed. You can create any web application you could using a bespoke React application. The Brill CMS was developed using the Brill CMS.
 
 The Brill CMS uses a Git repository for storing versions of pages and resources. This allows large teams of Developers and Content Editors to work on a project without tripping over each other.  There's a workflow for reviewing and testing changes, before they go live.
 
 ## Brill Framework
 
-The Brill Framework ties everything together and supports the rapid development of enterprise web applications using a 'low code' approach. The Brill Framework includes client and server side functionality and middleware that ties everything together. 
+The Brill Framework ties everything together and supports the rapid development of enterprise web applications using a 'low code' approach. The Brill Framework includes Client and Server side functionality and as well as a Middleware. 
 
-The Brill Middleware allows React components to communicate with each other within a web application and also with the server. A component typically subscribes to a topic and publishes its results to another topic. The Brill Middleware uses WebSockets and is two way. React Components can get data from the server but also the server can push data to components. This allows applications to be
-developed that display real time information such as share prices or news.
+The Brill Middleware allows React components to communicate with each other within a web applications and also with the Server. A component typically subscribes to a topic and publishes its results to another topic. The Brill Middleware uses WebSockets and is two way. React Components can get data from the Server but also the Server can push data to components. This allows quick development of applications that display real time information.
 
 ## For Developers
 
 ### Getting started
 
-You can download the brill_client, brill_server and brill_apps projects from a public repository such as Bitbucket, Sourceforge, GitHub or GitLab. It does take some time to build the projects and set everything up. Alternatively there's a Docker Image available with everything already set up and ready to go. 
-
-We'd recommend that you get in touch and request a demo, so that you can get an overview of the product and how it could meet your requirements. We can provide you with a login that allows you to create and edit pages on one of our servers, so you can produce an initial proof of concept.
+You can create an account and try the Brill CMS out. Visit the Brill Software website and click on 'Create Brill Online CMS Account'. There's a demo application and Storybook of components you can use as the basis to create your own web application.
 
 ### Low Code Solution
 
 Its a lot of effort to create an enterprise web application using bespoke code from scratch. As a result there are many "No Code" solutions available that allow web applications to be created quickly. But often you find that the "No Code" solution doesn't support exactly what you want and then you spend large amounts of effort bending the product to do what you require.
 
-The Brill CMS and Brill Framework take an in-between "Low Code" approach. You can use the supplied components and use the middleware to allow components to subscribe to and publish data. You can configure the server to connect to a database or existing backend system. You can use the authentication code and even use the Brill Framework to access a git repository. But you can also develop your own components, storybook, themes, client validation code, middleware messages and server business logic, all to meet your specific requirements.
+The Brill CMS and Brill Framework take an in-between "Low Code" approach. You can use the supplied components and use the Middleware to allow components to subscribe to and publish data. You can configure the Server to connect to a database or existing backend system. You can develop your own components, Storybook, Themes, Client validation code, Middleware messages and Server business logic, all to meet your specific requirements.
 
 ### Re-use existing component and business logic
 
-Any existing React components that you might already have can be imported and made available within the Brill CMS. The React components  are just plain React Components implemented either using a Class or Hooks and either JavaScript or TypeScript. For new components, you can base them on the nearest existing component in the Storybook. The supplied componets are written in Typescript and are designed to be easy to understand and are well documented.
+Any existing React components that you might already have can be imported and made available within the Brill CMS. The React components are just plain React Components implemented either using a Classes or Hooks and written in TypeScript or JavaScript. For new components, you can base them on the nearest existing component in the Storybook. The supplied componets are written in Typescript and are designed to be easy to understand and are well documented.
 
-Any Java business logic you might already have can also be intergrated into the Brill Server. The Brill Server uses Spring Boot. You can also run JavaScript code within a sandbox on the server.
-
-The objective is to make it as easy as possible for you to integrate in your own code and to be able to do what you could do with a bespoke solution but with less effort and in a shorter timescale.
+Any Java business logic you might already have can also be intergrated into the Brill Server. The Brill Server uses Spring Boot. You can also run JavaScript code within a sandbox on the Server.
 
 ## For Content editors
 
@@ -62,25 +54,21 @@ customized.
 
 The Brill CMS uses Themes to apply colors, styles and layout to pages. Pages and components are responsive and the same page can be used on mobiles, tablets and desktops. The Theme can specify different font sizes, colors and layout, depending on the screen size.  
 
-A Theme can be developed that matches your organizations Look and Feel guidelines. Themes can be used to support multiple different brands. For example, suppose you provide house insurance quotes to several different supermarkets, you can have a Theme for each supermarket and have a common quote page to which the appropriate Theme is applied.
+A Theme can be developed that matches your organizations Look and Feel guidelines. Themes can be used to support multiple brands.
 
 ## For Technical Architects
 
 ### Open Source
 
-The full source code is available and it's intended that most organizations will run the product on their own in-house servers or a cloud service that they have control over. There's no tie-in to a SaaS and no per end user or bandwidth charges, so you can support millions
-of users.
+The Brill CMS and Brill Framework is completely open-source, empowering you with the full source code to host, modify, and maintain the software on your own terms. Whether you prefer on-premises Servers or cloud infrastructure, you have full control over your deployment environment. Your not locked into a SaaS solution that has per-user-pricing.
 
-### Standards based
-
- All the supplied components are written in TypeScript. TypeScript supports type checking and this helps detect issues at an earlier stage in the development cycle and makes the code more readable and easier to maintain. The CMS pages are held in a JSON format. The messages between the client and server are also JSON. The server is a Java Spring Boot application that uses WebScokets. The server
- uses JSON for holding data internally and supports JDBC compatible databases such as MySql, Oracle, DB2 and Microsoft SQL Server.
+We pride ourselves on providing code that meets the highest standards of quality, code that's brill. The codebase is not only documented to a high standrad but also designed with clarity and simplicity in mind. We've used industry standards wherever applicable.
 
 ### Security
 
-Fine grained permissions are used to control access to pages and server resources. Various cypher and hashing standards are used such as Eliptical Curve Cryptography, AES and SHA-256. Passwords are hashed on the client and only the hash is transferred to the server. JavaScript code on the server is executed in a sandbox.
+Fine grained permissions are used to control access to pages and Server resources. Various cypher and hashing standards are used. Passwords are hashed on the Client and only the hash is transferred to the Server. JavaScript code on the Server is executed in a sandbox.
 
-All changes made using the Brill CMS are tracked using a Git repository. Forked repositories can be created for specific users or groups of users. Users can be restricted to particular workspaces and repositories.
+All changes made in the Brill CMS are tracked using a Git repository. Forked repositories can be created for specific users or groups of users. Users can be restricted to particular workspaces and repositories.
 
 ### Provides significantly more than a Headless CMS
 
