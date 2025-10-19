@@ -27,4 +27,4 @@ Vitto stands out by leveraging Vite's powerful ecosystem, allowing you to:
 
 - **Stay Simple**: Template-based approach without framework complexity.
 
-<br/>Building websites doesn't have to be complicated.
+Building websites doesn't have to be complicated.
