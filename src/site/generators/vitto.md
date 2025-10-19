@@ -21,7 +21,7 @@ Vitto stands out by leveraging Vite's powerful ecosystem, allowing you to:
 
 - **Use Modern Tools**: Direct access to Vite plugins (Tailwind CSS, UnoCSS, PostCSS, etc.)
 
-- **Integrate Easily**: Add HTMX, Alpine.js, or any library via bundler or CDN.
+- **Integrate Easily**: Add htmx, Alpine.js, or any library via bundler or CDN.
 
 - **Build Fast**: Lightning-fast builds with Vite's optimized pipeline.
 
