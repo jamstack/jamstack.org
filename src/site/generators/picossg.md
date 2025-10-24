@@ -1,6 +1,6 @@
 ---
 title: PicoSSG
-repo: [wolframkriesing/picossg](https://codeberg.org/wolframkriesing/picossg)
+repo: https://codeberg.org/wolframkriesing/picossg
 homepage: https://picossg.dev/
 language:
   - JavaScript
