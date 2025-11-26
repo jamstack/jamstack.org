@@ -1,7 +1,7 @@
 ---
 title: Basildon
 repo: samwilson/basildon
-homepage: https://basildon.netlify.app/
+homepage: https://basildon.samwilson.id.au
 language:
   - PHP
 license:
