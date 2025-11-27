@@ -3,7 +3,7 @@ title: Wyam
 repo: Wyamio/Wyam
 homepage: http://wyam.io
 language:
-  - .Net
+  - C#
 license:
   - MIT
 templates:
