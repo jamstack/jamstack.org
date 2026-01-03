@@ -4,7 +4,6 @@ repo: accretional/statue
 homepage: https://statue.dev/
 language:
   - Svelte
-  - Markdown
 license:
   - MIT
 templates:
