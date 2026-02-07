@@ -3,7 +3,7 @@ title: graze
 repo: mikoskinen/graze
 homepage: http://mikaelkoskinen.net/graze-static-site-generator-using-razor
 language:
-  - .Net
+  - C#
 license:
   - MIT
 templates:
