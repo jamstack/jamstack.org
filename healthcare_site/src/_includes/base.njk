@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }} - Healthcare Information Portal</title>
+    {# The url filter will ensure the path is correct relative to the output #}
+    <link rel="stylesheet" href="{{ '/css/style.css' | url }}">
+  </head>
+  <body>
+    <header>
+      <h1>{{ title }}</h1>
+    </header>
+    <main>
+      {{ content | safe }}
+    </main>
+    <footer>
+      <p>&copy; 2024 Healthcare Site. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
