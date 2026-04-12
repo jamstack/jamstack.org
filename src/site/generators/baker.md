@@ -3,7 +3,7 @@ title: Misakai Baker
 repo: Kelindar/misakai-baker
 homepage: http://baker.misakai.com
 language:
-  - .Net
+  - C#
 license:
   - Apache-2.0
 templates:

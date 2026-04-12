@@ -3,7 +3,6 @@ title: Record Collector
 repo: krompaco/record-collector
 homepage: https://record-collector.net/en/
 language:
-  - .Net
   - C#
 license:
   - MIT

@@ -3,7 +3,6 @@ title: lastpage
 repo: tomzorz/lastpage
 homepage: https://github.com/tomzorz/lastpage
 language:
-  - .Net
   - C#
 license:
   - MIT

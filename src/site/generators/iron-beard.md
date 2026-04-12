@@ -3,7 +3,7 @@ title: IronBeard
 repo: wkallhof/iron-beard
 homepage: https://github.com/wkallhof/iron-beard
 language:
-  - .Net
+  - C#
 license:
   - MIT
 templates:

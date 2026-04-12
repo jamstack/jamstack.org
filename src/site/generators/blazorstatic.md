@@ -4,7 +4,6 @@ repo: tesar-tech/BlazorStatic
 homepage: https://github.com/tesar-tech/BlazorStatic
 language:
   - C#
-  - .Net
 license:
   - AGPL-3.0 license
 templates:
