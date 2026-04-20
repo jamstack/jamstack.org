@@ -1,7 +1,7 @@
 ---
 title: Directus
 repo: directus/directus
-homepage: https://directus.io
+homepage: https://directus.io/solutions/headless-cms
 twitter: directus
 opensource: "No"
 typeofcms: "API Driven"
@@ -48,7 +48,7 @@ Quickly [get started with the self-hosted version using Docker.](https://docs.di
 
 **Live Preview** – Preview how your content will appear on your live site right within Directus... without waiting on long build times or deploy previews.
 
-![The Directus translations interface is shown. Title, Summary, and Description fields are shown and editable in two different languages – Spanish and Chinese.](https://directus.io/assets/img/screenshots/v9/translations.png)
+![The Directus translations interface is shown. Title, Summary, and Description fields are shown and editable in two different languages – Spanish and Chinese.](https://marketing.directus.app/assets/b33402dc-cce2-4e03-b542-5fd7f9858871?key=page2x)
 
 **Localization & Translations** – Directus makes it easy manage multilingual content with a specialized interface that users love. And no matter what languages your organization requires, our Admin App supports a growing number of locales.
 
@@ -58,7 +58,7 @@ Quickly [get started with the self-hosted version using Docker.](https://docs.di
 
 **Roles and Permissions** – Keep your data secure by creating unlimited roles and permissions to ensure users only access what they need. Add custom filter rules, custom validation, field-level permissions, IP allow-lists, and configurable public access.
 
-![A Directus dashboard is shown. It features charts, graphs, and metrics for the following data – Total MRR, New Daily Customers, Twitter Followers, Total ARR, Github Issues, CPU, Memory, Disk, Top Spending Customers, Total Projects](https://directus.io/assets/img/screenshots/v9/insights.png)
+![A Directus dashboard is shown. It features charts, graphs, and metrics for the following data – Total MRR, New Daily Customers, Twitter Followers, Total ARR, Github Issues, CPU, Memory, Disk, Top Spending Customers, Total Projects](https://marketing.directus.app/assets/a45ec81c-5f0f-4fe0-a9f4-745fb7da3349?key=page2x)
 
 **Custom Dashboards** – You no longer have to turn to separate business intelligence tools to get the reporting you need. With Insights you can rapidly build helpful dashboards without writing any code.
 
