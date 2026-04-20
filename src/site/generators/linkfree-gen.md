@@ -1,6 +1,6 @@
 ---
 title: LinkFree Generator
-repo: chriskthomas/linkfree-generator
+repo: writeplace/linkfree-generator
 homepage: https://ckt.im/linkfree/
 language:
   - PHP
