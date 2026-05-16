@@ -33,6 +33,9 @@ type:
 
 Before submitting a pull request, or if you are suggesting/contributing code or content changes, it is wise to preview your change in a local build. We've tried to make the process of running a local build as low as possible.
 
+## Contributor over time
+
+[![Contributor over time](https://contributor-graph-api.apiseven.com/contributors-svg?chart=contributorOverTime&repo=jamstack/jamstack.org)](https://www.apiseven.com/en/contributor-graph?chart=contributorOverTime&repo=jamstack/jamstack.org)
 
 ## Running a local build
 
