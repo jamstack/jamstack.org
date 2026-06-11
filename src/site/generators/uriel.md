@@ -1,7 +1,7 @@
 ---
 title: Uriel
 repo: ratherlargerobot/uriel
-homepage: https://nathanrosenquist.com/uriel/
+homepage: https://uriel.foo/
 language:
   - Python
 license:
@@ -15,12 +15,12 @@ Uriel is a minimalistic, stable, feature complete static site generator,
 written in Python.
 
 Built to last for years without requiring any maintenance. It is feature
-complete, and only depends on python3 and rsync, with no third-party module
+complete, and only depends on python3, with no third-party module
 dependencies. That means that it won't break unexpectedly years from now,
 after you've built a site around it.
 
-As long as you can still get a working copy of python3 and rsync, your site
-will still build the same way in the future.
+As long as you can still get a working copy of python3, your site will still
+build the same way in the future.
 
 ### Features
 
@@ -39,4 +39,4 @@ will still build the same way in the future.
 - Creates basic robots.txt file
 - Useful error messages
 - Stable, feature complete platform
-- Almost entirely self-contained, only depends on python3 and rsync
+- Almost entirely self-contained, only depends on python3
