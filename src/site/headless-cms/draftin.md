@@ -7,6 +7,11 @@ typeofcms: "API Driven"
 supportedgenerators:
   - All
 description: DraftIn.io is a headless CMS with a built-in AI writing assistant. Model your content, write with AI-powered suggestions, and publish to any channel through a clean API.
+images:
+  - path: /img/cms/draftin_1.png
+  - path: /img/cms/draftin_2.png
+  - path: /img/cms/draftin_3.png
+  - path: /img/cms/draftin_4.png
 ---
 
 ## DraftIn.io
