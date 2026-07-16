@@ -1,6 +1,6 @@
 ---
 title: Coralite
-repo: tjdavid/coralite
+repo: tjdav/coralite
 homepage: https://coralite.dev
 language:
   - JavaScript
