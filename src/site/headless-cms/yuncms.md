@@ -1,7 +1,7 @@
 ---
 title: YunCMS
 repo: Yunsoft-Software/yuncms
-homepage: https://github.com/Yunsoft-Software/yuncms
+homepage: https://yunsoft.com
 twitter: yunsoftofficial
 opensource: "Yes"
 typeofcms: "API Driven"
