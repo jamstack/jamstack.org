@@ -3,6 +3,8 @@ title: Sveltia CMS
 repo: sveltia/sveltia-cms
 homepage: https://github.com/sveltia/sveltia-cms
 opensource: "Yes"
+language:
+  - JavaScript
 typeofcms: "Git-based"
 supportedgenerators:
   - All

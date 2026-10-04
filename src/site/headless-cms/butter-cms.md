@@ -3,6 +3,9 @@ title: Butter CMS
 homepage: https://buttercms.com/
 twitter: buttercms
 opensource: "No"
+language:
+  - Python
+  - JavaScript
 typeofcms: "API Driven"
 supportedgenerators:
   - All

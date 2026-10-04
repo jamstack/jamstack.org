@@ -4,6 +4,8 @@ homepage: https://www.storyblok.com/
 repo: storyblok/storyblok
 twitter: storyblok
 opensource: "No"
+language:
+  - Ruby
 typeofcms: "API Driven"
 supportedgenerators:
   - All

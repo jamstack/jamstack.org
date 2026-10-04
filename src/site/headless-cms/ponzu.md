@@ -4,6 +4,8 @@ repo: ponzu-cms/ponzu
 homepage: https://ponzu-cms.org
 twitter: ponzu_cms
 opensource: "Yes"
+language:
+  - Go
 typeofcms: "API Driven"
 supportedgenerators:
   - All

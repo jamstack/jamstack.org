@@ -3,6 +3,8 @@ title: microCMS
 homepage: https://microcms.io/
 twitter: micro_cms
 opensource: "No"
+language:
+  - Go
 typeofcms: "API Driven"
 supportedgenerators:
   - All

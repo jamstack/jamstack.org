@@ -4,6 +4,8 @@ repo: contember/admin
 homepage: https://www.contember.com
 twitter: contember
 opensource: "Yes"
+language:
+  - TypeScript
 typeofcms: "API Driven"
 supportedgenerators:
   - All

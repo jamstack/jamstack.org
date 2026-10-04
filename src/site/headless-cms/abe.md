@@ -3,6 +3,8 @@ title: AbeCMS
 repo: abecms/abecms
 homepage: https://abecms.org/
 opensource: "Yes"
+language:
+  - JavaScript
 typeofcms: "API Driven"
 supportedgenerators:
   - Jekyll

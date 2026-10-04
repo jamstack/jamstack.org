@@ -3,6 +3,9 @@ title: Cloud CMS
 homepage: https://www.cloudcms.com/
 twitter: cloudcms
 opensource: "No"
+language:
+  - Java
+  - JavaScript
 typeofcms: "API Driven"
 supportedgenerators:
   - All

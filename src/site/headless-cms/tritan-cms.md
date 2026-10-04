@@ -4,6 +4,8 @@ repo: parkerj/TriTan-CMS
 homepage: https://github.com/parkerj/TriTan-CMS
 twitter: tritan_cms
 opensource: "Yes"
+language:
+  - PHP
 typeofcms: "API Driven"
 supportedgenerators:
   - All

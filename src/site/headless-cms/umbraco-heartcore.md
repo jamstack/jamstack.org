@@ -4,6 +4,8 @@ repo: umbraco/Umbraco-cms
 homepage: https://umbraco.com/products/umbraco-heartcore/
 twitter: umbraco
 opensource: "No"
+language:
+  - C#
 typeofcms: "API Driven"
 supportedgenerators:
   - All

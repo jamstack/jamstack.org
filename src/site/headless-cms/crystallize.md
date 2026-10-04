@@ -4,6 +4,8 @@ homepage: https://www.crystallize.com/
 twitter: CrystallizeAPI
 repo: CrystallizeAPI/crystallize-cli
 opensource: "No"
+language:
+  - TypeScript
 typeofcms: "API Driven"
 supportedgenerators:
     - All

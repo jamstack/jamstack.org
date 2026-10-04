@@ -4,6 +4,10 @@ repo: dotCMS/core
 homepage: https://www.dotcms.com/
 twitter: dotcms
 opensource: "Yes"
+language:
+  - Java
+  - JavaScript
+  - TypeScript
 typeofcms: "API Driven"
 supportedgenerators:
   - All

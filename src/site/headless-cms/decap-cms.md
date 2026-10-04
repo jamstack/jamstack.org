@@ -4,6 +4,9 @@ repo: decaporg/decap-cms
 homepage: https://decapcms.org/
 twitter: Decap_CMS
 opensource: "Yes"
+language:
+  - JavaScript
+  - TypeScript
 typeofcms: "Git-based"
 supportedgenerators:
   - All

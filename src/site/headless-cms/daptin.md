@@ -3,6 +3,8 @@ title: Daptin
 repo: daptin/daptin
 homepage: https://dapt.in
 opensource: "Yes"
+language:
+  - Go
 typeofcms: "API Driven"
 supportedgenerators:
   - All

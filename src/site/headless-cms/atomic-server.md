@@ -2,6 +2,9 @@
 title: Atomic Server
 homepage: https://atomicserver.eu/
 opensource: "Yes"
+language:
+  - Rust
+  - TypeScript
 repo: atomicdata-dev/atomic-server
 typeofcms: "API Driven"
 supportedgenerators:

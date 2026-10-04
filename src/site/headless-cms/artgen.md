@@ -4,6 +4,8 @@ repo: artgenio/core
 homepage: https://artgen.io
 twitter: artgencms
 opensource: "Yes"
+language:
+  - TypeScript
 typeofcms: "API Driven"
 supportedgenerators:
   - All

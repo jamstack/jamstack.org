@@ -4,6 +4,10 @@ homepage: https://wagtail.org/
 repo: wagtail/wagtail
 twitter: wagtailcms
 opensource: "Yes"
+language:
+  - Python
+  - JavaScript
+  - TypeScript
 typeofcms: "API Driven"
 supportedgenerators:
   - All

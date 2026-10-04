@@ -4,6 +4,8 @@ repo: alineacms/alinea
 homepage: https://alineacms.com
 twitter: alineacms
 opensource: "Yes"
+language:
+  - TypeScript
 typeofcms: "Git + API"
 supportedgenerators:
   - All

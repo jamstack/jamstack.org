@@ -3,12 +3,14 @@ title: Agit CMS
 repo: 0xsuk/agitcms
 homepage: https://github.com/0xsuk/agitcms
 opensource: "Yes"
+language:
+  - TypeScript
 typeofcms: "Local"
 supportedgenerators:
-	- All
+  - All
 description: A hackable headless CMS for markdown blogs
 images:
-	- path: /img/cms/agitcms.png
+  - path: /img/cms/agitcms.png
 ---
 Agit CMS is a simple web frontend interface that utilizes filesystem to manage markdown/media contents. Built for markdown-based static site generators, like Hugo and Jekyll.  
 Write markdown blog posts the *hackable* way, get rid of your itch points.

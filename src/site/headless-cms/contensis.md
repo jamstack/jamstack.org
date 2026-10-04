@@ -3,6 +3,8 @@ title: Contensis
 homepage: https://www.contensis.com
 twitter: contensis
 opensource: "No"
+language:
+  - C#
 typeofcms: "API Driven"
 supportedgenerators:
   - All

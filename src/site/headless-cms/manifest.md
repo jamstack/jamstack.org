@@ -4,6 +4,8 @@ repo: mnfst/manifest
 homepage: https://manifest.build
 twitter: manifestfordevs
 opensource: 'Yes'
+language:
+  - TypeScript
 typeofcms: 'API Driven'
 supportedgenerators:
   - All

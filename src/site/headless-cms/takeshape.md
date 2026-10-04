@@ -2,6 +2,8 @@
 title: TakeShape
 homepage: http://www.takeshape.io/
 opensource: "No"
+language:
+  - TypeScript
 twitter: TakeShapeIO
 typeofcms: "API Driven"
 supportedgenerators:

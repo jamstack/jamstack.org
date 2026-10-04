@@ -4,6 +4,9 @@ repo: terminusdb/terminusdb
 homepage: https://terminusdb.com
 twitter: TerminusDB
 opensource: "Yes"
+language:
+  - Prolog
+  - Rust
 typeofcms: "API Driven"
 supportedgenerators:
   - All

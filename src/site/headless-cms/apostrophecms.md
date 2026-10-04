@@ -4,6 +4,9 @@ repo: apostrophecms/apostrophe
 homepage: https://apostrophecms.com/
 twitter: apostrophecms
 opensource: "Yes"
+language:
+  - JavaScript
+  - TypeScript
 typeofcms: "API Driven"
 supportedgenerators:
   - All

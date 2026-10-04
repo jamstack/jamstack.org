@@ -4,6 +4,9 @@ repo: b2evolution/b2evolution
 homepage: https://www.b2evolution.net/
 twitter: b2evolution
 opensource: "Yes"
+language:
+  - PHP
+  - JavaScript
 typeofcms: "API Driven"
 supportedgenerators:
   - All

@@ -3,6 +3,9 @@ title: Brill CMS
 homepage: https://www.brill.software/
 repo: https://github.com/brill-software/brill_client
 opensource: "Yes"
+language:
+  - Java
+  - TypeScript
 typeofcms: "Visual, API Driven"
 supportedgenerators:
   - All

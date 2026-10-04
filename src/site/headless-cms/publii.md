@@ -3,6 +3,8 @@ title: Publii
 repo: GetPublii/Publii
 homepage: https://getpublii.com/
 opensource: "Yes"
+language:
+  - JavaScript
 typeofcms: "Git-based"
 supportedgenerators:
   - "Built In"

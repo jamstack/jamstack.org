@@ -4,6 +4,9 @@ repo: superdesk/superdesk
 homepage: https://www.superdesk.org/
 twitter: sourcefabric
 opensource: "Yes"
+language:
+  - Python
+  - TypeScript
 typeofcms: "API Driven"
 supportedgenerators:
   - All

@@ -4,6 +4,8 @@ repo: strapi/strapi
 homepage: https://strapi.io
 twitter: strapijs
 opensource: "Yes"
+language:
+  - TypeScript
 typeofcms: "API Driven"
 supportedgenerators:
   - All

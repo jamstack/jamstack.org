@@ -4,6 +4,9 @@ repo: prismicio/slice-machine
 homepage: https://prismic.io/
 twitter: prismicio
 opensource: "No"
+language:
+  - Scala
+  - TypeScript
 typeofcms: "API Driven"
 supportedgenerators:
   - All

@@ -4,6 +4,9 @@ repo: TryGhost/Ghost
 homepage: https://ghost.org
 twitter: Ghost
 opensource: "Yes"
+language:
+  - TypeScript
+  - JavaScript
 typeofcms: "API Driven"
 supportedgenerators:
   - All

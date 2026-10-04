@@ -3,6 +3,8 @@ title: Versioned
 homepage: https://www.versioned.io
 twitter: VersionedCMS
 opensource: "Yes"
+language:
+  - JavaScript
 typeofcms: "API Driven"
 supportedgenerators:
   - All

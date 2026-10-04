@@ -4,6 +4,9 @@ repo: WordPress/WordPress
 homepage: https://wordpress.org/
 twitter: WordPress
 opensource: "Yes"
+language:
+  - PHP
+  - JavaScript
 typeofcms: "API Driven"
 supportedgenerators:
   - All

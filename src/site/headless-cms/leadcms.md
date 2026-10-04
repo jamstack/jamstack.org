@@ -4,6 +4,8 @@ repo: LeadCMS/leadcms.core
 homepage: https://leadcms.ai
 twitter: LeadCMS
 opensource: "Yes"
+language:
+  - C#
 typeofcms: "API Driven"
 supportedgenerators:
   - All

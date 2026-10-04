@@ -3,6 +3,8 @@ title: Coisas
 repo: fiatjaf/coisas
 homepage: https://coisas.fiatjaf.com/
 opensource: "Yes"
+language:
+  - JavaScript
 typeofcms: "Git-based"
 supportedgenerators:
   - All

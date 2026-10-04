@@ -3,6 +3,8 @@ title: jsHarmony CMS
 repo: apHarmony/jsharmony-cms
 homepage: https://www.jsharmonycms.com/
 opensource: "Yes"
+language:
+  - JavaScript
 typeofcms: "Git-based"
 supportedgenerators:
   - "Built In"

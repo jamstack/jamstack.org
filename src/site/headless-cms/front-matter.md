@@ -3,6 +3,8 @@ title: Front Matter
 repo: estruyf/vscode-front-matter
 homepage: https://frontmatter.codes
 opensource: "Yes"
+language:
+  - TypeScript
 typeofcms: "GIT-based"
 supportedgenerators:
   - All

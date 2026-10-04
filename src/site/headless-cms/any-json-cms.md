@@ -3,6 +3,8 @@ title: Any JSON CMS
 repo: evmizulin/any-json-cms
 homepage: https://github.com/evmizulin/any-json-cms
 opensource: "Yes"
+language:
+  - JavaScript
 typeofcms: "API Driven"
 supportedgenerators:
   - All

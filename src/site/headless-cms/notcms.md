@@ -4,6 +4,8 @@ repo: qqpann/notcms
 homepage: https://notcms.com
 twitter: notcmsjs
 opensource: "Yes"
+language:
+  - TypeScript
 typeofcms: "API Driven"
 supportedgenerators:
   - All

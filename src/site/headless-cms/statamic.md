@@ -4,6 +4,9 @@ homepage: https://statamic.com/
 repo: statamic/cms
 twitter: statamic
 opensource: "Yes"
+language:
+  - PHP
+  - JavaScript
 typeofcms: "Git-based"
 supportedgenerators:
   - Built In

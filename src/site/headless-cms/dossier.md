@@ -3,6 +3,8 @@ title: Dossier
 homepage: https://www.dossierhq.dev
 repo: dossierhq/dossierhq
 opensource: "Yes"
+language:
+  - TypeScript
 typeofcms: "API Driven"
 supportedgenerators:
   - All

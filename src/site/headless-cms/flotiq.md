@@ -4,6 +4,8 @@ homepage: https://flotiq.com/
 repo: flotiq/flotiq-blog
 twitter: flotiq
 opensource: "No"
+language:
+  - PHP
 typeofcms: "API Driven"
 supportedgenerators:
   - All

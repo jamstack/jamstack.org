@@ -4,6 +4,8 @@ repo: pages-cms/pages-cms
 homepage: https://pagescms.org/
 twitter: pagescms
 opensource: "Yes"
+language:
+  - TypeScript
 typeofcms: "Git-based"
 supportedgenerators:
   - All

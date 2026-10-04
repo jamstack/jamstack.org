@@ -4,6 +4,8 @@ repo: payloadcms/payload
 homepage: https://payloadcms.com
 twitter: PayloadCMS
 opensource: "Yes"
+language:
+  - TypeScript
 typeofcms: "API Driven"
 supportedgenerators:
   - All

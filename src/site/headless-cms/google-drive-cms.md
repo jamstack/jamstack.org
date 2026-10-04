@@ -3,6 +3,8 @@ title: Google Drive CMS
 repo: max-barry/google-drive-cms
 homepage: https://www.drivecms.xyz
 opensource: "Yes"
+language:
+  - JavaScript
 typeofcms: "API Driven"
 supportedgenerators:
   - All

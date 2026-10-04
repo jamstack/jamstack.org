@@ -4,6 +4,8 @@ repo: tinacms/tinacms
 homepage: https://tina.io
 twitter: tinacms
 opensource: "Yes"
+language:
+  - TypeScript
 typeofcms: "Git + API"
 supportedgenerators:
   - All

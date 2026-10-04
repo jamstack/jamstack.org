@@ -4,6 +4,8 @@ homepage: https://www.builder.io/
 repo: BuilderIO/builder
 twitter: builderio
 opensource: "No"
+language:
+  - TypeScript
 typeofcms: "API Driven"
 supportedgenerators:
   - All

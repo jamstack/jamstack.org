@@ -4,6 +4,8 @@ repo: /pimcore/pimcore
 homepage: https://www.pimcore.com
 twitter: pimcore
 opensource: "Yes"
+language:
+  - PHP
 typeofcms: "API Driven"
 supportedgenerators:
   - All

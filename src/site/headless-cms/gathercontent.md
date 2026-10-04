@@ -3,6 +3,9 @@ title: GatherContent
 homepage: https://www.gathercontent.com/
 twitter: gathercontent
 opensource: "No"
+language:
+  - PHP
+  - TypeScript
 typeofcms: "API Driven"
 supportedgenerators:
 - Gatsby

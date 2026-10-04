@@ -3,6 +3,8 @@ title: HashBrown
 repo: Putaitu/hashbrown-cms
 homepage: https://hashbrowncms.org/
 opensource: "Yes"
+language:
+  - JavaScript
 typeofcms: "API Driven"
 supportedgenerators:
   - All

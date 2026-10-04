@@ -3,6 +3,8 @@ title: Contentrain
 homepage: https://contentrain.io/
 twitter: contentrain_io
 opensource: "No"
+language:
+  - TypeScript
 typeofcms: "Git-based"
 supportedgenerators:
   - NuxtJs

@@ -4,6 +4,8 @@ repo: flextype/flextype
 homepage: https://awilum.github.io/flextype
 twitter: getflextype
 opensource: "Yes"
+language:
+  - PHP
 typeofcms: "API Driven"
 supportedgenerators:
   - All

@@ -3,6 +3,8 @@ title: Kontent.ai
 homepage: https://kontent.ai/
 twitter: Kontent_ai
 opensource: "No"
+language:
+  - C#
 typeofcms: "API Driven"
 supportedgenerators:
   - All

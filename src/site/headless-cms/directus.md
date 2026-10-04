@@ -4,6 +4,8 @@ repo: directus/directus
 homepage: https://directus.io
 twitter: directus
 opensource: "No"
+language:
+  - TypeScript
 typeofcms: "API Driven"
 supportedgenerators:
   - All

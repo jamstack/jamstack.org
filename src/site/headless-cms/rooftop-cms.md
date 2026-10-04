@@ -4,6 +4,8 @@ repo: rooftopcms/rooftop-cms
 homepage: https://www.rooftopcms.com/
 twitter: rooftopcms
 opensource: "Yes"
+language:
+  - PHP
 typeofcms: "API Driven"
 supportedgenerators:
   - Spike
