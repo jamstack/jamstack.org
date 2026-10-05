@@ -4,6 +4,15 @@ const CacheAsset = require("@11ty/eleventy-cache-assets");
 const fastglob = require("fast-glob");
 const graymatter = require("gray-matter");
 
+// Weekly snapshot written by scripts/update-github-stats.js, used whenever
+// live data is unavailable (local dev, missing token or API errors).
+let snapshot = {};
+try {
+  snapshot = require("../../github-stats.json");
+} catch(e) {
+  console.log("GitHub stats snapshot not found, continuing without it.");
+}
+
 /*
 Sample return data:
 {
@@ -24,7 +33,7 @@ Sample return data:
 }
 */
 async function githubRequest(user, repo) {
-  let errorData = {
+  let errorData = snapshot[`${user}/${repo}`] || {
     stars: "",
     forks: "",
     issues: "",

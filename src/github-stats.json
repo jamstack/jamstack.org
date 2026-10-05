@@ -1,0 +1,2112 @@
+{
+  "0xsuk/agitcms": {
+    "stars": 100,
+    "forks": 7,
+    "issues": 3
+  },
+  "11ty/eleventy": {
+    "stars": 19948,
+    "forks": 588,
+    "issues": 160
+  },
+  "4awpawz/trio": {
+    "stars": 14,
+    "forks": 1,
+    "issues": 10
+  },
+  "abecms/abecms": {
+    "stars": 181,
+    "forks": 29,
+    "issues": 28
+  },
+  "abelgraham/wg": {
+    "stars": 3,
+    "forks": 1,
+    "issues": 0
+  },
+  "abelljs/abell": {
+    "stars": 443,
+    "forks": 35,
+    "issues": 14
+  },
+  "accretional/statue": {
+    "stars": 177,
+    "forks": 33,
+    "issues": 21
+  },
+  "adamduncan/grunt-flats": {
+    "stars": 12,
+    "forks": 1,
+    "issues": 2
+  },
+  "adamrenklint/asimov-static": {
+    "stars": 4,
+    "forks": 4,
+    "issues": 0
+  },
+  "aerosol/wb": {
+    "stars": 38,
+    "forks": 2,
+    "issues": 3
+  },
+  "agentejo/cockpit": {
+    "stars": 5394,
+    "forks": 502,
+    "issues": 259
+  },
+  "agonzalezro/polo": {
+    "stars": 47,
+    "forks": 8,
+    "issues": 11
+  },
+  "agrison/jssg": {
+    "stars": 22,
+    "forks": 5,
+    "issues": 0
+  },
+  "AirshipCMS/Launcher": {
+    "stars": 1,
+    "forks": 0,
+    "issues": 0
+  },
+  "AlexanderElias/muleify": {
+    "stars": 16,
+    "forks": 1,
+    "issues": 2
+  },
+  "alexkorban/elmstatic": {
+    "stars": 205,
+    "forks": 7,
+    "issues": 4
+  },
+  "alineacms/alinea": {
+    "stars": 854,
+    "forks": 39,
+    "issues": 18
+  },
+  "altlimit/sitegen": {
+    "stars": 8,
+    "forks": 5,
+    "issues": 0
+  },
+  "AlynxZhou/hikaru": {
+    "stars": 19,
+    "forks": 1,
+    "issues": 0
+  },
+  "analogjs/analog": {
+    "stars": 3186,
+    "forks": 331,
+    "issues": 28
+  },
+  "andrejewski/reem": {
+    "stars": 27,
+    "forks": 3,
+    "issues": 0
+  },
+  "antwarjs/antwar": {
+    "stars": 457,
+    "forks": 25,
+    "issues": 7
+  },
+  "apHarmony/jsharmony-cms": {
+    "stars": 8,
+    "forks": 5,
+    "issues": 0
+  },
+  "apostrophecms/apostrophe": {
+    "stars": 4639,
+    "forks": 645,
+    "issues": 124
+  },
+  "aprescott/serif": {
+    "stars": 113,
+    "forks": 10,
+    "issues": 6
+  },
+  "argyleink/bolt": {
+    "stars": 39,
+    "forks": 7,
+    "issues": 4
+  },
+  "artgenio/core": {
+    "stars": 95,
+    "forks": 10,
+    "issues": 3
+  },
+  "ArtNazarov/HtmlBuilder": {
+    "stars": 13,
+    "forks": 4,
+    "issues": 0
+  },
+  "aschmelyun/cleaver": {
+    "stars": 298,
+    "forks": 21,
+    "issues": 18
+  },
+  "asciidoctor/jekyll-asciidoc-quickstart": {
+    "stars": 126,
+    "forks": 152,
+    "issues": 2
+  },
+  "asika32764/vaseman": {
+    "stars": 27,
+    "forks": 5,
+    "issues": 6
+  },
+  "assemble/assemble": {
+    "stars": 4256,
+    "forks": 268,
+    "issues": 28
+  },
+  "astronomersiva/lego": {
+    "stars": 185,
+    "forks": 7,
+    "issues": 7
+  },
+  "atas/ssg": {
+    "stars": 36,
+    "forks": 11,
+    "issues": 0
+  },
+  "atomicdata-dev/atomic-server": {
+    "stars": 1612,
+    "forks": 82,
+    "issues": 462
+  },
+  "AVGP/susi": {
+    "stars": 58,
+    "forks": 8,
+    "issues": 3
+  },
+  "awestruct/awestruct": {
+    "stars": 293,
+    "forks": 84,
+    "issues": 51
+  },
+  "b2evolution/b2evolution": {
+    "stars": 182,
+    "forks": 84,
+    "issues": 3
+  },
+  "badosu/coil": {
+    "stars": 69,
+    "forks": 6,
+    "issues": 0
+  },
+  "BarryMode/grav-plugin-blackhole": {
+    "stars": 168,
+    "forks": 16,
+    "issues": 0
+  },
+  "BennyHallett/obelisk": {
+    "stars": 393,
+    "forks": 31,
+    "issues": 25
+  },
+  "bensmithett/tropical": {
+    "stars": 173,
+    "forks": 7,
+    "issues": 1
+  },
+  "betterwebinit/rustyll": {
+    "stars": 9,
+    "forks": 0,
+    "issues": 2
+  },
+  "bk/wmk": {
+    "stars": 4,
+    "forks": 0,
+    "issues": 0
+  },
+  "BlendedSiteGenerator/Blended": {
+    "stars": 25,
+    "forks": 2,
+    "issues": 2
+  },
+  "blinkk/amagaki": {
+    "stars": 36,
+    "forks": 2,
+    "issues": 25
+  },
+  "blogc/blogc": {
+    "stars": 192,
+    "forks": 20,
+    "issues": 6
+  },
+  "bookdown/Bookdown.Bookdown": {
+    "stars": 82,
+    "forks": 12,
+    "issues": 3
+  },
+  "botanicus/ace": {
+    "stars": 38,
+    "forks": 6,
+    "issues": 0
+  },
+  "boylesoftware/stacy": {
+    "stars": 25,
+    "forks": 5,
+    "issues": 0
+  },
+  "braceio/tags": {
+    "stars": 192,
+    "forks": 19,
+    "issues": 6
+  },
+  "BrandonRomano/static-lite": {
+    "stars": 29,
+    "forks": 6,
+    "issues": 0
+  },
+  "brandonweiss/charge": {
+    "stars": 430,
+    "forks": 19,
+    "issues": 12
+  },
+  "breck7/scroll": {
+    "stars": 486,
+    "forks": 21,
+    "issues": 14
+  },
+  "bridgetownrb/bridgetown": {
+    "stars": 1366,
+    "forks": 130,
+    "issues": 40
+  },
+  "brunch/brunch": {
+    "stars": 6756,
+    "forks": 393,
+    "issues": 0
+  },
+  "BuilderIO/builder": {
+    "stars": 8860,
+    "forks": 1137,
+    "issues": 68
+  },
+  "burdy-io/burdy": {
+    "stars": 232,
+    "forks": 20,
+    "issues": 11
+  },
+  "CabinJS/Cabin": {
+    "stars": 890,
+    "forks": 44,
+    "issues": 0
+  },
+  "capri-js/capri": {
+    "stars": 213,
+    "forks": 4,
+    "issues": 1
+  },
+  "Ceasar/staticjinja": {
+    "stars": 341,
+    "forks": 53,
+    "issues": 5
+  },
+  "Cecilapp/Cecil": {
+    "stars": 297,
+    "forks": 31,
+    "issues": 0
+  },
+  "cfenollosa/bashblog": {
+    "stars": 1933,
+    "forks": 228,
+    "issues": 24
+  },
+  "chipsenkbeil/grus": {
+    "stars": 5,
+    "forks": 0,
+    "issues": 6
+  },
+  "chriskthomas/linkfree-generator": {
+    "stars": 168,
+    "forks": 33,
+    "issues": 5
+  },
+  "ChrisPenner/SitePipe": {
+    "stars": 119,
+    "forks": 8,
+    "issues": 1
+  },
+  "ChrisPenner/slick": {
+    "stars": 223,
+    "forks": 24,
+    "issues": 2
+  },
+  "ciscoheat/simplest-sitegen": {
+    "stars": 8,
+    "forks": 1,
+    "issues": 0
+  },
+  "cmints/cmints": {
+    "stars": 38,
+    "forks": 3,
+    "issues": 18
+  },
+  "cobalt-org/cobalt.rs": {
+    "stars": 1538,
+    "forks": 111,
+    "issues": 73
+  },
+  "Code52/pretzel": {
+    "stars": 585,
+    "forks": 156,
+    "issues": 36
+  },
+  "codejamninja/blogdown": {
+    "stars": 22,
+    "forks": 1,
+    "issues": 9
+  },
+  "codemotion/cogear.js": {
+    "stars": 307,
+    "forks": 21,
+    "issues": 11
+  },
+  "colynb/generator-go-static": {
+    "stars": 23,
+    "forks": 2,
+    "issues": 5
+  },
+  "CONNECT-platform/codedoc": {
+    "stars": 434,
+    "forks": 11,
+    "issues": 27
+  },
+  "contember/admin": {
+    "stars": 92,
+    "forks": 7,
+    "issues": 5
+  },
+  "contentacms/contenta_jsonapi": {
+    "stars": 326,
+    "forks": 99,
+    "issues": 0
+  },
+  "CouscousPHP/Couscous": {
+    "stars": 839,
+    "forks": 101,
+    "issues": 43
+  },
+  "craftcms/cms": {
+    "stars": 3610,
+    "forks": 701,
+    "issues": 472
+  },
+  "craigbuckler/publican": {
+    "stars": 20,
+    "forks": 0,
+    "issues": 0
+  },
+  "creationix/wheat": {
+    "stars": 1350,
+    "forks": 118,
+    "issues": 13
+  },
+  "Crownpeak/DXM-SDK-Core": {
+    "stars": 3,
+    "forks": 2,
+    "issues": 24
+  },
+  "cryogen-project/cryogen": {
+    "stars": 1133,
+    "forks": 93,
+    "issues": 18
+  },
+  "CrystallizeAPI/crystallize-cli": {
+    "stars": 17,
+    "forks": 1,
+    "issues": 1
+  },
+  "CTNicholas/keystone-ssg": {
+    "stars": 8,
+    "forks": 1,
+    "issues": 1
+  },
+  "curvenote/curvenote": {
+    "stars": 168,
+    "forks": 10,
+    "issues": 5
+  },
+  "cuttlebelle/cuttlebelle": {
+    "stars": 553,
+    "forks": 25,
+    "issues": 14
+  },
+  "daattali/beautiful-jekyll": {
+    "stars": 5826,
+    "forks": 15433,
+    "issues": 7
+  },
+  "dacav/App-PFT": {
+    "stars": 9,
+    "forks": 2,
+    "issues": 2
+  },
+  "Dalgona/Serum": {
+    "stars": 323,
+    "forks": 30,
+    "issues": 8
+  },
+  "dankert/openrat-cms": {
+    "stars": 4,
+    "forks": 1,
+    "issues": 2
+  },
+  "daptin/daptin": {
+    "stars": 1899,
+    "forks": 120,
+    "issues": 16
+  },
+  "datenstrom/yellow": {
+    "stars": 487,
+    "forks": 77,
+    "issues": 0
+  },
+  "davidsiaw/weaver": {
+    "stars": 7,
+    "forks": 2,
+    "issues": 0
+  },
+  "decaporg/decap-cms": {
+    "stars": 19414,
+    "forks": 3083,
+    "issues": 567
+  },
+  "denisftw/s2gen": {
+    "stars": 15,
+    "forks": 4,
+    "issues": 0
+  },
+  "denoland/fresh": {
+    "stars": 13792,
+    "forks": 755,
+    "issues": 84
+  },
+  "dillonkearns/elm-pages": {
+    "stars": 696,
+    "forks": 102,
+    "issues": 58
+  },
+  "directus/directus": {
+    "stars": 38023,
+    "forks": 4925,
+    "issues": 350
+  },
+  "dmbaturin/soupault": {
+    "stars": 430,
+    "forks": 21,
+    "issues": 16
+  },
+  "docpad/docpad": {
+    "stars": 3045,
+    "forks": 229,
+    "issues": 26
+  },
+  "docpress/docpress": {
+    "stars": 878,
+    "forks": 73,
+    "issues": 27
+  },
+  "docsifyjs/docsify": {
+    "stars": 31542,
+    "forks": 5698,
+    "issues": 63
+  },
+  "dossierhq/dossierhq": {
+    "stars": 52,
+    "forks": 0,
+    "issues": 6
+  },
+  "dotCMS/core": {
+    "stars": 971,
+    "forks": 481,
+    "issues": 1143
+  },
+  "dotnet/docfx": {
+    "stars": 4449,
+    "forks": 874,
+    "issues": 407
+  },
+  "doug2k1/nanogen": {
+    "stars": 204,
+    "forks": 60,
+    "issues": 11
+  },
+  "drupal-tome/tome-project": {
+    "stars": 69,
+    "forks": 7,
+    "issues": 4
+  },
+  "ducksoupdev/gulp-site-generator": {
+    "stars": 178,
+    "forks": 25,
+    "issues": 9
+  },
+  "dvwallin/ago": {
+    "stars": 7,
+    "forks": 2,
+    "issues": 0
+  },
+  "dvwallin/bashblog-ng": {
+    "stars": 32,
+    "forks": 6,
+    "issues": 0
+  },
+  "easystatic/easystatic": {
+    "stars": 47,
+    "forks": 7,
+    "issues": 3
+  },
+  "eklausme/saaze": {
+    "stars": 12,
+    "forks": 0,
+    "issues": 0
+  },
+  "elazar/scribing": {
+    "stars": 11,
+    "forks": 0,
+    "issues": 0
+  },
+  "elderjs/elderjs": {
+    "stars": 2121,
+    "forks": 52,
+    "issues": 40
+  },
+  "electerious/Rosid": {
+    "stars": 144,
+    "forks": 6,
+    "issues": 0
+  },
+  "ElijahToussaint/youngsoni": {
+    "stars": 3,
+    "forks": 0,
+    "issues": 0
+  },
+  "ElMassimo/iles": {
+    "stars": 1161,
+    "forks": 35,
+    "issues": 32
+  },
+  "empress/empress-blog": {
+    "stars": 185,
+    "forks": 28,
+    "issues": 44
+  },
+  "enigmacurry/blogofile": {
+    "stars": 346,
+    "forks": 80,
+    "issues": 37
+  },
+  "enonic/xp": {
+    "stars": 211,
+    "forks": 40,
+    "issues": 97
+  },
+  "entu/ssg": {
+    "stars": 17,
+    "forks": 4,
+    "issues": 4
+  },
+  "ericalli/static-site-boilerplate": {
+    "stars": 1728,
+    "forks": 157,
+    "issues": 14
+  },
+  "estruyf/vscode-front-matter": {
+    "stars": 2546,
+    "forks": 108,
+    "issues": 85
+  },
+  "eudicots/Cactus": {
+    "stars": 3466,
+    "forks": 310,
+    "issues": 85
+  },
+  "evmizulin/any-json-cms": {
+    "stars": 130,
+    "forks": 7,
+    "issues": 0
+  },
+  "exogee-technology/graphweaver": {
+    "stars": 556,
+    "forks": 31,
+    "issues": 7
+  },
+  "facebook/docusaurus": {
+    "stars": 66402,
+    "forks": 9956,
+    "issues": 288
+  },
+  "fallenhitokiri/drupan": {
+    "stars": 45,
+    "forks": 5,
+    "issues": 4
+  },
+  "fcambus/motyl": {
+    "stars": 78,
+    "forks": 2,
+    "issues": 0
+  },
+  "felipetavares/bake": {
+    "stars": 47,
+    "forks": 7,
+    "issues": 1
+  },
+  "fiatjaf/coisas": {
+    "stars": 333,
+    "forks": 27,
+    "issues": 3
+  },
+  "fiatjaf/sitio": {
+    "stars": 50,
+    "forks": 3,
+    "issues": 0
+  },
+  "fitnr/taft": {
+    "stars": 11,
+    "forks": 1,
+    "issues": 0
+  },
+  "flatiron/blacksmith": {
+    "stars": 551,
+    "forks": 39,
+    "issues": 21
+  },
+  "flextype/flextype": {
+    "stars": 588,
+    "forks": 72,
+    "issues": 32
+  },
+  "flotiq/flotiq-blog": {
+    "stars": 17,
+    "forks": 7,
+    "issues": 0
+  },
+  "fortes/enfield": {
+    "stars": 82,
+    "forks": 5,
+    "issues": 2
+  },
+  "fossworx-labs/fossfolio": {
+    "stars": 31,
+    "forks": 4,
+    "issues": 2
+  },
+  "franzwilding/last": {
+    "stars": 11,
+    "forks": 3,
+    "issues": 0
+  },
+  "freetonik/underblog": {
+    "stars": 112,
+    "forks": 13,
+    "issues": 6
+  },
+  "Frozen-Flask/Frozen-Flask": {
+    "stars": 797,
+    "forks": 72,
+    "issues": 12
+  },
+  "futape/gustav": {
+    "stars": 15,
+    "forks": 2,
+    "issues": 0
+  },
+  "gar1t/lambdapad": {
+    "stars": 125,
+    "forks": 24,
+    "issues": 8
+  },
+  "gatsbyjs/gatsby": {
+    "stars": 55941,
+    "forks": 9945,
+    "issues": 217
+  },
+  "gentics/mesh": {
+    "stars": 593,
+    "forks": 123,
+    "issues": 92
+  },
+  "getgridea/gridea": {
+    "stars": 10237,
+    "forks": 820,
+    "issues": 549
+  },
+  "getnikola/nikola": {
+    "stars": 2746,
+    "forks": 403,
+    "issues": 70
+  },
+  "getpelican/pelican": {
+    "stars": 13351,
+    "forks": 1810,
+    "issues": 74
+  },
+  "GetPublii/Publii": {
+    "stars": 7326,
+    "forks": 466,
+    "issues": 278
+  },
+  "gettalong/webgen": {
+    "stars": 118,
+    "forks": 21,
+    "issues": 1
+  },
+  "getzola/zola": {
+    "stars": 17494,
+    "forks": 1175,
+    "issues": 187
+  },
+  "gflohr/qgoda": {
+    "stars": 33,
+    "forks": 4,
+    "issues": 50
+  },
+  "giacomocaironi/Kart": {
+    "stars": 4,
+    "forks": 0,
+    "issues": 0
+  },
+  "Gioni06/stasis-generator": {
+    "stars": 27,
+    "forks": 3,
+    "issues": 7
+  },
+  "GitbookIO/gitbook": {
+    "stars": 29061,
+    "forks": 3952,
+    "issues": 51
+  },
+  "gloriajs/gloria": {
+    "stars": 150,
+    "forks": 9,
+    "issues": 43
+  },
+  "gocontento/sdk": {
+    "stars": 1,
+    "forks": 0,
+    "issues": 0
+  },
+  "gohugoio/hugo": {
+    "stars": 90041,
+    "forks": 8259,
+    "issues": 186
+  },
+  "google/docsy": {
+    "stars": 2966,
+    "forks": 938,
+    "issues": 152
+  },
+  "gottwik/enduro": {
+    "stars": 681,
+    "forks": 116,
+    "issues": 108
+  },
+  "granicz/SiteFi": {
+    "stars": 79,
+    "forks": 12,
+    "issues": 4
+  },
+  "greghendershott/frog": {
+    "stars": 940,
+    "forks": 90,
+    "issues": 36
+  },
+  "gridsome/gridsome": {
+    "stars": 8463,
+    "forks": 459,
+    "issues": 534
+  },
+  "grow/grow": {
+    "stars": 408,
+    "forks": 51,
+    "issues": 44
+  },
+  "gustwindjs/gustwind": {
+    "stars": 31,
+    "forks": 2,
+    "issues": 38
+  },
+  "h3rald/hastysite": {
+    "stars": 78,
+    "forks": 3,
+    "issues": 0
+  },
+  "hahwul/hwaro": {
+    "stars": 40,
+    "forks": 6,
+    "issues": 11
+  },
+  "hashobject/perun": {
+    "stars": 353,
+    "forks": 37,
+    "issues": 18
+  },
+  "HEInventions/docnado": {
+    "stars": 96,
+    "forks": 11,
+    "issues": 3
+  },
+  "henrylawson/photish": {
+    "stars": 152,
+    "forks": 10,
+    "issues": 5
+  },
+  "Herve07h22/staticgen": {
+    "stars": 1,
+    "forks": 0,
+    "issues": 0
+  },
+  "hexojs/hexo": {
+    "stars": 41772,
+    "forks": 45,
+    "issues": 46
+  },
+  "hilmanski/mini-SSG": {
+    "stars": 73,
+    "forks": 5,
+    "issues": 4
+  },
+  "hlassiege/bloggrify": {
+    "stars": 168,
+    "forks": 21,
+    "issues": 0
+  },
+  "hmngwy/jenny": {
+    "stars": 99,
+    "forks": 16,
+    "issues": 3
+  },
+  "HubPress/hubpress.io": {
+    "stars": 2806,
+    "forks": 2428,
+    "issues": 74
+  },
+  "hydephp/hyde": {
+    "stars": 489,
+    "forks": 18,
+    "issues": 6
+  },
+  "iamfrntdv/adm-dev-kit": {
+    "stars": 31,
+    "forks": 3,
+    "issues": 5
+  },
+  "icyphox/vite": {
+    "stars": 60,
+    "forks": 6,
+    "issues": 0
+  },
+  "igapyon/igapyonv3": {
+    "stars": 5,
+    "forks": 0,
+    "issues": 0
+  },
+  "igr/spig": {
+    "stars": 13,
+    "forks": 1,
+    "issues": 1
+  },
+  "ijmccallum/Mini-Site-Generator": {
+    "stars": 13,
+    "forks": 0,
+    "issues": 1
+  },
+  "imdario/zas": {
+    "stars": 216,
+    "forks": 16,
+    "issues": 0
+  },
+  "InkProject/ink": {
+    "stars": 1088,
+    "forks": 114,
+    "issues": 10
+  },
+  "interstar/bootdown": {
+    "stars": 17,
+    "forks": 2,
+    "issues": 0
+  },
+  "intuition-dev/INTUITION": {
+    "stars": 29,
+    "forks": 3,
+    "issues": 1
+  },
+  "ionide/Fornax": {
+    "stars": 256,
+    "forks": 44,
+    "issues": 21
+  },
+  "isnowfy/simple": {
+    "stars": 911,
+    "forks": 658,
+    "issues": 7
+  },
+  "Jack000/Expose": {
+    "stars": 4437,
+    "forks": 256,
+    "issues": 19
+  },
+  "jamstackpy/jamstack": {
+    "stars": 4,
+    "forks": 2,
+    "issues": 1
+  },
+  "jandecaluwe/urubu": {
+    "stars": 179,
+    "forks": 38,
+    "issues": 19
+  },
+  "jaredly/hexo-admin": {
+    "stars": 1788,
+    "forks": 257,
+    "issues": 68
+  },
+  "jaspervdj/hakyll": {
+    "stars": 2870,
+    "forks": 424,
+    "issues": 102
+  },
+  "JavaEden/Orchid": {
+    "stars": 529,
+    "forks": 53,
+    "issues": 41
+  },
+  "javimosch/staticstuff": {
+    "stars": 4,
+    "forks": 0,
+    "issues": 1
+  },
+  "jbake-org/jbake": {
+    "stars": 1161,
+    "forks": 326,
+    "issues": 145
+  },
+  "jekyll/jekyll": {
+    "stars": 51706,
+    "forks": 10071,
+    "issues": 130
+  },
+  "jekyll/jekyll-admin": {
+    "stars": 2927,
+    "forks": 354,
+    "issues": 41
+  },
+  "jellehermsen/HasClunk": {
+    "stars": 21,
+    "forks": 2,
+    "issues": 0
+  },
+  "jescalan/roots": {
+    "stars": 1446,
+    "forks": 121,
+    "issues": 20
+  },
+  "jfoucher/stati": {
+    "stars": 24,
+    "forks": 2,
+    "issues": 3
+  },
+  "jgm/yst": {
+    "stars": 408,
+    "forks": 37,
+    "issues": 17
+  },
+  "jldec/pub-server": {
+    "stars": 66,
+    "forks": 5,
+    "issues": 1
+  },
+  "jmacdotorg/plerd": {
+    "stars": 117,
+    "forks": 22,
+    "issues": 10
+  },
+  "jnordberg/wintersmith": {
+    "stars": 3477,
+    "forks": 315,
+    "issues": 16
+  },
+  "john-bokma/tumblelog": {
+    "stars": 127,
+    "forks": 7,
+    "issues": 0
+  },
+  "JohnSundell/Publish": {
+    "stars": 4969,
+    "forks": 347,
+    "issues": 0
+  },
+  "jsantell/poet": {
+    "stars": 601,
+    "forks": 140,
+    "issues": 23
+  },
+  "juliancwirko/create-harold-app": {
+    "stars": 37,
+    "forks": 0,
+    "issues": 0
+  },
+  "junglejs/junglejs": {
+    "stars": 274,
+    "forks": 4,
+    "issues": 4
+  },
+  "jus/jus": {
+    "stars": 112,
+    "forks": 12,
+    "issues": 28
+  },
+  "kambrium/dssg": {
+    "stars": 22,
+    "forks": 5,
+    "issues": 0
+  },
+  "Kelindar/misakai-baker": {
+    "stars": 41,
+    "forks": 5,
+    "issues": 1
+  },
+  "keystonejs/keystone": {
+    "stars": 9979,
+    "forks": 1242,
+    "issues": 91
+  },
+  "kingcons/coleslaw": {
+    "stars": 584,
+    "forks": 80,
+    "issues": 26
+  },
+  "koka-lang/madoko": {
+    "stars": 413,
+    "forks": 38,
+    "issues": 58
+  },
+  "krasimir/techy": {
+    "stars": 250,
+    "forks": 21,
+    "issues": 16
+  },
+  "kristapsdz/sblg": {
+    "stars": 104,
+    "forks": 16,
+    "issues": 2
+  },
+  "krompaco/record-collector": {
+    "stars": 58,
+    "forks": 10,
+    "issues": 1
+  },
+  "kulfonjs/kulfon": {
+    "stars": 118,
+    "forks": 5,
+    "issues": 15
+  },
+  "laktek/punch": {
+    "stars": 1161,
+    "forks": 97,
+    "issues": 37
+  },
+  "LeadCMS/leadcms.core": {
+    "stars": 35,
+    "forks": 20,
+    "issues": 3
+  },
+  "lektor/lektor": {
+    "stars": 3949,
+    "forks": 315,
+    "issues": 228
+  },
+  "leo/cory": {
+    "stars": 61,
+    "forks": 4,
+    "issues": 0
+  },
+  "leonstafford/wp2static": {
+    "stars": 1470,
+    "forks": 279,
+    "issues": 96
+  },
+  "loopwerk/Saga": {
+    "stars": 135,
+    "forks": 8,
+    "issues": 1
+  },
+  "LotusTM/Kotsu": {
+    "stars": 47,
+    "forks": 2,
+    "issues": 0
+  },
+  "luangjokaj/gopablo": {
+    "stars": 179,
+    "forks": 15,
+    "issues": 0
+  },
+  "lucamug/elm-starter": {
+    "stars": 90,
+    "forks": 7,
+    "issues": 7
+  },
+  "ludovicchabant/PieCrust2": {
+    "stars": 42,
+    "forks": 8,
+    "issues": 0
+  },
+  "lumarama/bakeit": {
+    "stars": 4,
+    "forks": 2,
+    "issues": 0
+  },
+  "lumeland/lume": {
+    "stars": 2285,
+    "forks": 118,
+    "issues": 43
+  },
+  "lutzroeder/minimal": {
+    "stars": 149,
+    "forks": 40,
+    "issues": 0
+  },
+  "maliMirkec/starter-project": {
+    "stars": 35,
+    "forks": 4,
+    "issues": 0
+  },
+  "marijnh/heckle": {
+    "stars": 344,
+    "forks": 15,
+    "issues": 1
+  },
+  "MarkBind/markbind": {
+    "stars": 158,
+    "forks": 141,
+    "issues": 253
+  },
+  "markdbenson/dapper": {
+    "stars": 50,
+    "forks": 13,
+    "issues": 4
+  },
+  "martin-martin/lazy-travel-blog": {
+    "stars": 8,
+    "forks": 2,
+    "issues": 0
+  },
+  "mbutterick/pollen": {
+    "stars": 1203,
+    "forks": 62,
+    "issues": 0
+  },
+  "meeb/django-distill": {
+    "stars": 519,
+    "forks": 36,
+    "issues": 0
+  },
+  "megazear7/orison": {
+    "stars": 17,
+    "forks": 2,
+    "issues": 4
+  },
+  "metalsmith/metalsmith": {
+    "stars": 7818,
+    "forks": 598,
+    "issues": 20
+  },
+  "mhlakhani/halwa": {
+    "stars": 16,
+    "forks": 1,
+    "issues": 2
+  },
+  "middleman/middleman": {
+    "stars": 7112,
+    "forks": 743,
+    "issues": 8
+  },
+  "mikoskinen/graze": {
+    "stars": 152,
+    "forks": 23,
+    "issues": 2
+  },
+  "mikoskinen/GrazeDocs": {
+    "stars": 15,
+    "forks": 3,
+    "issues": 9
+  },
+  "mimoduo/mimogear": {
+    "stars": 72,
+    "forks": 15,
+    "issues": 0
+  },
+  "mirovarga/litepub": {
+    "stars": 35,
+    "forks": 10,
+    "issues": 1
+  },
+  "mixu/markdown-styles": {
+    "stars": 1885,
+    "forks": 248,
+    "issues": 32
+  },
+  "mkaz/hastie": {
+    "stars": 184,
+    "forks": 31,
+    "issues": 0
+  },
+  "mkdocs/mkdocs": {
+    "stars": 22493,
+    "forks": 2594,
+    "issues": 120
+  },
+  "mnfst/manifest": {
+    "stars": 7552,
+    "forks": 504,
+    "issues": 16
+  },
+  "modulojs/modulo": {
+    "stars": 13,
+    "forks": 1,
+    "issues": 37
+  },
+  "moebiuseye/skf": {
+    "stars": 28,
+    "forks": 3,
+    "issues": 4
+  },
+  "moonwave99/waffel": {
+    "stars": 35,
+    "forks": 3,
+    "issues": 0
+  },
+  "moudy/broccoli-taco": {
+    "stars": 93,
+    "forks": 13,
+    "issues": 9
+  },
+  "mourner/tinyjam": {
+    "stars": 170,
+    "forks": 15,
+    "issues": 2
+  },
+  "mreider/krems": {
+    "stars": 10,
+    "forks": 0,
+    "issues": 0
+  },
+  "mrvautin/squido": {
+    "stars": 68,
+    "forks": 4,
+    "issues": 3
+  },
+  "mythmon/wok": {
+    "stars": 114,
+    "forks": 44,
+    "issues": 34
+  },
+  "nanoc/nanoc": {
+    "stars": 2158,
+    "forks": 246,
+    "issues": 16
+  },
+  "NBens/Statify": {
+    "stars": 5,
+    "forks": 0,
+    "issues": 0
+  },
+  "neevek/minerl": {
+    "stars": 20,
+    "forks": 4,
+    "issues": 0
+  },
+  "nifty-site-manager/nsm": {
+    "stars": 250,
+    "forks": 22,
+    "issues": 10
+  },
+  "nozzle/react-static": {
+    "stars": 10336,
+    "forks": 728,
+    "issues": 1
+  },
+  "nuex/zodiac": {
+    "stars": 249,
+    "forks": 20,
+    "issues": 3
+  },
+  "nullism/pykwiki": {
+    "stars": 46,
+    "forks": 7,
+    "issues": 1
+  },
+  "nuxt/nuxt": {
+    "stars": 60919,
+    "forks": 5752,
+    "issues": 304
+  },
+  "octopress/octopress": {
+    "stars": 1744,
+    "forks": 174,
+    "issues": 47
+  },
+  "oliverfields/pagegen_v2": {
+    "stars": 26,
+    "forks": 1,
+    "issues": 3
+  },
+  "OrchardCMS/OrchardCore": {
+    "stars": 8194,
+    "forks": 2566,
+    "issues": 803
+  },
+  "pablomartinezalvarez/glayu": {
+    "stars": 80,
+    "forks": 4,
+    "issues": 3
+  },
+  "padurean/scalatic": {
+    "stars": 24,
+    "forks": 7,
+    "issues": 4
+  },
+  "pageon/stitcher-core": {
+    "stars": 147,
+    "forks": 7,
+    "issues": 6
+  },
+  "pages-cms/pages-cms": {
+    "stars": 4061,
+    "forks": 554,
+    "issues": 50
+  },
+  "parkerj/TriTan-CMS": {
+    "stars": 26,
+    "forks": 5,
+    "issues": 0
+  },
+  "Paul-Browne/statik-site": {
+    "stars": 1,
+    "forks": 0,
+    "issues": 0
+  },
+  "paulocoutinhox/kaktos": {
+    "stars": 23,
+    "forks": 4,
+    "issues": 0
+  },
+  "paulohrpinheiro/gerablog": {
+    "stars": 14,
+    "forks": 0,
+    "issues": 0
+  },
+  "paultraf/makestaticsite": {
+    "stars": 14,
+    "forks": 0,
+    "issues": 0
+  },
+  "pawandubey/griffin": {
+    "stars": 29,
+    "forks": 6,
+    "issues": 9
+  },
+  "payloadcms/payload": {
+    "stars": 45098,
+    "forks": 4240,
+    "issues": 501
+  },
+  "phenomic/phenomic": {
+    "stars": 3168,
+    "forks": 237,
+    "issues": 16
+  },
+  "pillars/poltergeist": {
+    "stars": 1,
+    "forks": 0,
+    "issues": 0
+  },
+  "piranha/gostatic": {
+    "stars": 440,
+    "forks": 40,
+    "issues": 15
+  },
+  "pismute/gulp-makdoc": {
+    "stars": 14,
+    "forks": 2,
+    "issues": 1
+  },
+  "plasmicapp/plasmic": {
+    "stars": 7067,
+    "forks": 726,
+    "issues": 0
+  },
+  "platframe/platframe": {
+    "stars": 37,
+    "forks": 15,
+    "issues": 6
+  },
+  "plentico/plenti": {
+    "stars": 1077,
+    "forks": 54,
+    "issues": 85
+  },
+  "ponzu-cms/ponzu": {
+    "stars": 5759,
+    "forks": 382,
+    "issues": 32
+  },
+  "posativ/acrylamid": {
+    "stars": 280,
+    "forks": 36,
+    "issues": 38
+  },
+  "potomak/gist-txt": {
+    "stars": 73,
+    "forks": 12,
+    "issues": 9
+  },
+  "primo-af/primo": {
+    "stars": 2373,
+    "forks": 567,
+    "issues": 35
+  },
+  "prismicio/slice-machine": {
+    "stars": 304,
+    "forks": 52,
+    "issues": 9
+  },
+  "ProjectEvergreen/greenwood": {
+    "stars": 131,
+    "forks": 15,
+    "issues": 80
+  },
+  "prose/prose": {
+    "stars": 4776,
+    "forks": 699,
+    "issues": 181
+  },
+  "Psycojoker/prosopopee": {
+    "stars": 377,
+    "forks": 57,
+    "issues": 28
+  },
+  "punund/20ful": {
+    "stars": 7,
+    "forks": 0,
+    "issues": 0
+  },
+  "Putaitu/hashbrown-cms": {
+    "stars": 158,
+    "forks": 36,
+    "issues": 0
+  },
+  "pyvec/elsa": {
+    "stars": 30,
+    "forks": 48,
+    "issues": 12
+  },
+  "qqpann/notcms": {
+    "stars": 19,
+    "forks": 3,
+    "issues": 0
+  },
+  "quarkiverse/quarkus-roq": {
+    "stars": 153,
+    "forks": 56,
+    "issues": 103
+  },
+  "quarto-dev/quarto-cli": {
+    "stars": 6056,
+    "forks": 460,
+    "issues": 1820
+  },
+  "rails-designer/perron": {
+    "stars": 158,
+    "forks": 9,
+    "issues": 1
+  },
+  "ratherlargerobot/uriel": {
+    "stars": 5,
+    "forks": 0,
+    "issues": 0
+  },
+  "reactivematter/passage": {
+    "stars": 1,
+    "forks": 0,
+    "issues": 0
+  },
+  "remix-run/remix": {
+    "stars": 33386,
+    "forks": 2732,
+    "issues": 5
+  },
+  "renatoathaydes/magnanimous": {
+    "stars": 16,
+    "forks": 1,
+    "issues": 0
+  },
+  "reptar/reptar": {
+    "stars": 264,
+    "forks": 16,
+    "issues": 11
+  },
+  "riipandi/vitto": {
+    "stars": 15,
+    "forks": 0,
+    "issues": 0
+  },
+  "rincojs/rinco-sg": {
+    "stars": 17,
+    "forks": 5,
+    "issues": 3
+  },
+  "roddyyaga/finch": {
+    "stars": 60,
+    "forks": 2,
+    "issues": 2
+  },
+  "rooftopcms/rooftop-cms": {
+    "stars": 218,
+    "forks": 19,
+    "issues": 17
+  },
+  "roxiness/routify": {
+    "stars": 1986,
+    "forks": 83,
+    "issues": 30
+  },
+  "rstudio/blogdown": {
+    "stars": 1793,
+    "forks": 317,
+    "issues": 25
+  },
+  "rstudio/bookdown": {
+    "stars": 4078,
+    "forks": 1258,
+    "issues": 214
+  },
+  "rstudio/rmarkdown": {
+    "stars": 3064,
+    "forks": 965,
+    "issues": 246
+  },
+  "ruhoh/ruhoh.rb": {
+    "stars": 615,
+    "forks": 64,
+    "issues": 78
+  },
+  "rust-lang/mdBook": {
+    "stars": 22193,
+    "forks": 1859,
+    "issues": 563
+  },
+  "RyanZim/onessg": {
+    "stars": 13,
+    "forks": 2,
+    "issues": 1
+  },
+  "saberland/saber": {
+    "stars": 2115,
+    "forks": 112,
+    "issues": 59
+  },
+  "sake92/hepek": {
+    "stars": 112,
+    "forks": 10,
+    "issues": 9
+  },
+  "SalsaBoy990/static-site-express": {
+    "stars": 25,
+    "forks": 7,
+    "issues": 0
+  },
+  "samwilson/basildon": {
+    "stars": 13,
+    "forks": 0,
+    "issues": 1
+  },
+  "sanity-io/sanity": {
+    "stars": 6349,
+    "forks": 556,
+    "issues": 72
+  },
+  "sapegin/fledermaus": {
+    "stars": 76,
+    "forks": 7,
+    "issues": 0
+  },
+  "savuir/blo": {
+    "stars": 9,
+    "forks": 5,
+    "issues": 1
+  },
+  "Scrivito/scrivito_example_app_js": {
+    "stars": 71,
+    "forks": 57,
+    "issues": 0
+  },
+  "scullyio/scully": {
+    "stars": 2527,
+    "forks": 249,
+    "issues": 113
+  },
+  "sculpin/sculpin": {
+    "stars": 1484,
+    "forks": 189,
+    "issues": 12
+  },
+  "Sebastian-Fitzner/mangony": {
+    "stars": 24,
+    "forks": 2,
+    "issues": 2
+  },
+  "SenseNet/sensenet": {
+    "stars": 175,
+    "forks": 107,
+    "issues": 226
+  },
+  "sepandhaghighi/qpage": {
+    "stars": 98,
+    "forks": 22,
+    "issues": 0
+  },
+  "ShailenNaidoo/hydrogen": {
+    "stars": 170,
+    "forks": 10,
+    "issues": 49
+  },
+  "sharadcodes/my_py_site": {
+    "stars": 21,
+    "forks": 5,
+    "issues": 0
+  },
+  "sharadcodes/sudo_site": {
+    "stars": 19,
+    "forks": 2,
+    "issues": 0
+  },
+  "silexlabs/Silex": {
+    "stars": 2996,
+    "forks": 677,
+    "issues": 56
+  },
+  "sintaxi/harp": {
+    "stars": 4995,
+    "forks": 288,
+    "issues": 26
+  },
+  "skx/templer": {
+    "stars": 64,
+    "forks": 15,
+    "issues": 0
+  },
+  "Skyost/SkyDocs": {
+    "stars": 36,
+    "forks": 9,
+    "issues": 3
+  },
+  "slatedocs/slate": {
+    "stars": 36023,
+    "forks": 352,
+    "issues": 50
+  },
+  "slicknode/slicknode": {
+    "stars": 208,
+    "forks": 21,
+    "issues": 2
+  },
+  "sparanoid/almace-scaffolding": {
+    "stars": 339,
+    "forks": 169,
+    "issues": 0
+  },
+  "sphido/sphido": {
+    "stars": 37,
+    "forks": 1,
+    "issues": 0
+  },
+  "sphinx-doc/sphinx": {
+    "stars": 8055,
+    "forks": 2545,
+    "issues": 1195
+  },
+  "spotify/lingon": {
+    "stars": 163,
+    "forks": 19,
+    "issues": 15
+  },
+  "spress/spress": {
+    "stars": 372,
+    "forks": 26,
+    "issues": 14
+  },
+  "squdle/Bang": {
+    "stars": 12,
+    "forks": 1,
+    "issues": 0
+  },
+  "squidex/squidex": {
+    "stars": 2508,
+    "forks": 517,
+    "issues": 4
+  },
+  "srackham/hindsite": {
+    "stars": 2,
+    "forks": 2,
+    "issues": 2
+  },
+  "srid/ema": {
+    "stars": 126,
+    "forks": 9,
+    "issues": 10
+  },
+  "staart/site": {
+    "stars": 43,
+    "forks": 17,
+    "issues": 1
+  },
+  "statamic/cms": {
+    "stars": 4906,
+    "forks": 645,
+    "issues": 135
+  },
+  "statamic/ssg": {
+    "stars": 253,
+    "forks": 27,
+    "issues": 26
+  },
+  "static-dev/spike": {
+    "stars": 469,
+    "forks": 26,
+    "issues": 8
+  },
+  "statiqdev/Statiq.Web": {
+    "stars": 1688,
+    "forks": 234,
+    "issues": 196
+  },
+  "StenopePHP/Stenope": {
+    "stars": 140,
+    "forks": 12,
+    "issues": 14
+  },
+  "storyblok/storyblok": {
+    "stars": 327,
+    "forks": 33,
+    "issues": 0
+  },
+  "strapi/strapi": {
+    "stars": 73278,
+    "forks": 9785,
+    "issues": 214
+  },
+  "styx-static/styx": {
+    "stars": 233,
+    "forks": 23,
+    "issues": 15
+  },
+  "sunainapai/makesite": {
+    "stars": 1871,
+    "forks": 294,
+    "issues": 6
+  },
+  "superdesk/superdesk": {
+    "stars": 753,
+    "forks": 232,
+    "issues": 64
+  },
+  "sveltejs/kit": {
+    "stars": 20836,
+    "forks": 2326,
+    "issues": 735
+  },
+  "sveltejs/sapper": {
+    "stars": 6911,
+    "forks": 397,
+    "issues": 259
+  },
+  "sveltia/sveltia-cms": {
+    "stars": 2912,
+    "forks": 219,
+    "issues": 42
+  },
+  "Symplify/Statie": {
+    "stars": 92,
+    "forks": 4,
+    "issues": 0
+  },
+  "sysgears/grain": {
+    "stars": 163,
+    "forks": 29,
+    "issues": 0
+  },
+  "szeiger/ornate": {
+    "stars": 80,
+    "forks": 12,
+    "issues": 5
+  },
+  "tapestry-cloud/tapestry": {
+    "stars": 32,
+    "forks": 1,
+    "issues": 28
+  },
+  "tarbell-project/tarbell": {
+    "stars": 164,
+    "forks": 30,
+    "issues": 63
+  },
+  "tatsatb/bestatic": {
+    "stars": 17,
+    "forks": 0,
+    "issues": 0
+  },
+  "tclssg/tclssg": {
+    "stars": 90,
+    "forks": 16,
+    "issues": 2
+  },
+  "teedoc/teedoc": {
+    "stars": 267,
+    "forks": 20,
+    "issues": 16
+  },
+  "terminusdb/terminusdb": {
+    "stars": 3431,
+    "forks": 155,
+    "issues": 13
+  },
+  "tesar-tech/BlazorStatic": {
+    "stars": 249,
+    "forks": 25,
+    "issues": 16
+  },
+  "thanethomson/statik": {
+    "stars": 257,
+    "forks": 28,
+    "issues": 31
+  },
+  "theabbie/Generic-Static-Site-Generator": {
+    "stars": 13,
+    "forks": 3,
+    "issues": 1
+  },
+  "thomvaill/log4brains": {
+    "stars": 1599,
+    "forks": 110,
+    "issues": 45
+  },
+  "thumbsup/thumbsup": {
+    "stars": 867,
+    "forks": 108,
+    "issues": 83
+  },
+  "tightenco/jigsaw": {
+    "stars": 2254,
+    "forks": 187,
+    "issues": 1
+  },
+  "tinacms/tinacms": {
+    "stars": 13822,
+    "forks": 756,
+    "issues": 409
+  },
+  "tjdav/coralite": {
+    "stars": 6,
+    "forks": 1,
+    "issues": 0
+  },
+  "tlienart/Franklin.jl": {
+    "stars": 1070,
+    "forks": 118,
+    "issues": 182
+  },
+  "tomzorz/lastpage": {
+    "stars": 7,
+    "forks": 1,
+    "issues": 0
+  },
+  "toucansites/toucan": {
+    "stars": 274,
+    "forks": 22,
+    "issues": 2
+  },
+  "tripplyons/static-markdown": {
+    "stars": 6,
+    "forks": 1,
+    "issues": 0
+  },
+  "TryGhost/Ghost": {
+    "stars": 55487,
+    "forks": 11658,
+    "issues": 39
+  },
+  "trys/sergey": {
+    "stars": 305,
+    "forks": 44,
+    "issues": 27
+  },
+  "TwP/webby": {
+    "stars": 265,
+    "forks": 40,
+    "issues": 5
+  },
+  "tylerbutler/engineer": {
+    "stars": 27,
+    "forks": 3,
+    "issues": 0
+  },
+  "ulkajs/ulka": {
+    "stars": 20,
+    "forks": 2,
+    "issues": 0
+  },
+  "umbraco/Umbraco-cms": {
+    "stars": 5261,
+    "forks": 2885,
+    "issues": 412
+  },
+  "umijs/umi": {
+    "stars": 16039,
+    "forks": 2629,
+    "issues": 231
+  },
+  "underr/yasbe": {
+    "stars": 17,
+    "forks": 1,
+    "issues": 0
+  },
+  "unite-cms/unite-cms": {
+    "stars": 242,
+    "forks": 36,
+    "issues": 23
+  },
+  "uzsolt/wpwmm4": {
+    "stars": 15,
+    "forks": 2,
+    "issues": 0
+  },
+  "vercel/next.js": {
+    "stars": 143194,
+    "forks": 33618,
+    "issues": 1058
+  },
+  "verless/verless": {
+    "stars": 311,
+    "forks": 26,
+    "issues": 21
+  },
+  "vladris/tinkerer": {
+    "stars": 301,
+    "forks": 75,
+    "issues": 20
+  },
+  "vuejs/vitepress": {
+    "stars": 18377,
+    "forks": 2708,
+    "issues": 232
+  },
+  "vuejs/vuepress": {
+    "stars": 22726,
+    "forks": 4588,
+    "issues": 540
+  },
+  "waferbaby/dimples": {
+    "stars": 64,
+    "forks": 6,
+    "issues": 0
+  },
+  "wagtail/wagtail": {
+    "stars": 20530,
+    "forks": 4594,
+    "issues": 866
+  },
+  "waldronmatt/bowman": {
+    "stars": 20,
+    "forks": 2,
+    "issues": 0
+  },
+  "web-infra-dev/rspress": {
+    "stars": 2339,
+    "forks": 232,
+    "issues": 35
+  },
+  "webiny/webiny-js": {
+    "stars": 8046,
+    "forks": 679,
+    "issues": 336
+  },
+  "webmaster442/BookGen": {
+    "stars": 23,
+    "forks": 3,
+    "issues": 4
+  },
+  "wendal/gor": {
+    "stars": 595,
+    "forks": 140,
+    "issues": 24
+  },
+  "wiosdesigns/idli.site": {
+    "stars": 11,
+    "forks": 3,
+    "issues": 1
+  },
+  "withastro/astro": {
+    "stars": 63058,
+    "forks": 3797,
+    "issues": 33
+  },
+  "withastro/starlight": {
+    "stars": 9362,
+    "forks": 1048,
+    "issues": 8
+  },
+  "wiztools/stagen": {
+    "stars": 45,
+    "forks": 21,
+    "issues": 2
+  },
+  "wkallhof/iron-beard": {
+    "stars": 35,
+    "forks": 9,
+    "issues": 0
+  },
+  "WordPress/WordPress": {
+    "stars": 21449,
+    "forks": 12727,
+    "issues": 0
+  },
+  "wspringer/monkeyman": {
+    "stars": 51,
+    "forks": 15,
+    "issues": 3
+  },
+  "Wyamio/Wyam": {
+    "stars": 147,
+    "forks": 27,
+    "issues": 13
+  },
+  "xhtmlboi/yocaml": {
+    "stars": 182,
+    "forks": 28,
+    "issues": 1
+  },
+  "yet-another-static-site-generator/yass": {
+    "stars": 27,
+    "forks": 5,
+    "issues": 3
+  },
+  "ZarehD/AspNetStatic": {
+    "stars": 171,
+    "forks": 7,
+    "issues": 0
+  },
+  "zedelghem/pystatic": {
+    "stars": 20,
+    "forks": 4,
+    "issues": 3
+  },
+  "zoxjs/zox": {
+    "stars": 4,
+    "forks": 0,
+    "issues": 0
+  }
+}

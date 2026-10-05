@@ -18,7 +18,8 @@
     "watch:html": "ELEVENTY_ENV=dev eleventy --serve --port=8080 --quiet",
     "watch:css": "postcss src/css/tailwind.css -o dist/css/styles.css --watch",
     "start": "npm-run-all --parallel watch:html watch:css",
-    "clean": "rm -rf dist"
+    "clean": "rm -rf dist",
+    "update:github-stats": "node scripts/update-github-stats.js"
   },
   "dependencies": {
     "@11ty/eleventy": "^1.0.0",
