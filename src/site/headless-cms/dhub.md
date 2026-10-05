@@ -5,9 +5,7 @@ twitter: withdhub
 opensource: "No"
 typeofcms: "Git-based"
 supportedgenerators:
-  - Docusaurus
-  - Next.js
-  - Astro
+  - All
 description: Git-based CMS for documentation sites. Notion-style visual Markdown and MDX editor with two-way GitHub sync. Your content stays in your repo as clean Markdown — no lock-in.
 ---
 
@@ -24,4 +22,4 @@ Dhub is a Git-based CMS built for documentation websites. It gives content write
 
 - **Docusaurus**: Native support — import your existing project from GitHub and start editing.
 - **Next.js & React**: Integrates with [Prose UI](https://prose-ui.com), an open-source component library for rendering Markdown content.
-- **General Markdown**: Works with any static site generator that uses `.md` or `.mdx` files.
+- **Any Markdown-based generator**: Works with Hugo, Jekyll, Eleventy, and any other static site generator that uses `.md` or `.mdx` files.
