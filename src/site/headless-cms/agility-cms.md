@@ -6,53 +6,57 @@ opensource: "No"
 typeofcms: "API Driven"
 supportedgenerators:
   - All
-description: The fastest Headless CMS to prototype, build, and deploy with. Agility CMS is a cloud-based, SaaS, and API platform with Free and Paid pricing tiers.
+description: Agility CMS is a Canadian, cloud-hosted SaaS headless CMS that delivers content through REST and GraphQL APIs and includes Web Studio, a visual editor for building and previewing pages.
 ---
 ## Agility CMS
 
-The fastest Headless CMS to prototype, build, and deploy with. Agility CMS is a cloud-based, SaaS, and API driven platform with Free and Paid pricing tiers.
+Agility CMS is a Canadian, cloud-hosted SaaS headless content management system. Content is stored as structured data and delivered through REST and GraphQL APIs to websites, mobile apps, and other channels.
 
-Agility CMS was built by developers for developers to get things done faster and support their customers' needs. We aren't new to this. Agility CMS has been used for everything from small sites to huge ones, and from startups to large enterprises.
+Content teams manage pages, layouts, and content in Web Studio, a visual interface for editing and previewing pages in real time. Developers build the front end with the framework, language, and hosting of their choice.
 
-## [Sign Up for Free (forever)!](https://account.agilitycms.com/sign-up?product=agility-free&leadsource=headlesscmsorg)
+## [Try Agility CMS free for 30 days](https://agilitycms.com/free)
 
 ![Agility CMS](https://cdn.agilitycms.com/content-manager/images/screenshots/for-devs-screenshot.png)
 
-### Architecture
-Agility is a Headless CMS. Get started immediately and build your solution on your own terms.
+### Web Studio
 
-- Agility has APIs for everything. Use the REST API or our sync SDK (or both) to interact with your content.
-- Code it your way. We don't dictate how your content is presented. Use one of our starter templates to bootstrap development, or use your own.
-- Want to build a server-rendered website, single-page-application, or statically generated websites? Yep, we support that too.
-- Database?! What database? Agility hosts and completely abstracts away your database so you never have to worry about maintenance, backups, or connection strings ever again.
+Web Studio lets editors create pages, edit copy, swap assets, and preview changes in real time without leaving Agility. It includes live collaboration, so several people can work on the same page and leave comments and tasks.
+
+### Architecture
+
+- REST and GraphQL APIs for content delivery, served through a CDN.
+- TypeScript and JavaScript SDKs, plus a content sync SDK for statically generated sites.
+- Starter templates to bootstrap development, or bring your own front end.
+- Build server-rendered websites, single-page apps, or statically generated websites.
+- No database to manage: Agility hosts the platform on Microsoft Azure and handles maintenance, backups, and updates.
 
 ### Configuration
-We believe in a content first approach. Configure your CMS instance to suit your needs. Not the other way around.
 
-- Built-in page management allows you to intuitively build out your website tree.
-- Set up fields, entries, and relationships to build your bespoke content schema.
-- Set up one or many regions/locales for your content.
-- Implement built-in content workflows or use webhooks and custom logic to create your own.
-- Configurable rich authoring experience. Adjust the interface to the skillset of your team.
-- Plan personalized content needs.
-- Integrate with anything! With custom fields, webhooks and REST APIs, you have the tools to work with any third-party system.
+- Built-in page management and sitemap editing to build out your website tree.
+- Content models with custom fields and relationships for a bespoke content schema.
+- One or many locales for multilingual content.
+- Built-in approval workflows, scheduled publishing, and version history, or webhooks and custom logic for your own workflows.
+- Multi-site support for managing several websites from one instance.
+- Custom roles and SSO.
 
 ### Development
-You shouldn't have to re-invent the wheel for each of your projects. Finally, a Headless CMS that can take care of traditional features for you, but gets out the way when you need it.
 
-- Take advantage of the built-in page management, routing, and rendering framework to kickstart your project or roll your own.
-- Content preview is enabled out-of-the-box.
-- URL Redirection management within the CMS.
-- Create website forms and capture submissions without writing any code, and ability to use webhooks for complex integrations.
-- Build your project your way, in whatever platform or programming language. No speed limits.
-- Get support when you need it, whether it's by chat, our forum, or email. We are always here to help!
+- Built-in page management, routing, and rendering framework, or roll your own.
+- Real-time content preview, including through Web Studio.
+- URL redirect management within the CMS.
+- Custom fields, webhooks, and REST APIs for integrating third-party systems.
+- Use any platform or programming language.
+- Support through a community Slack channel and in-product chat.
 
 ### DevOps
-We don't dictate how or where to deploy your project. Agility CMS will fit perfectly into your DevOps.
-You can host and deploy your projects anywhere.
 
-- Compatible with any DevOps pipeline.
-- Need to know when content has been updated? We have webhooks for that.
-- Agility CMS works with static site generators and we are working towards providing native plugins for Gatsby, VuePress, Gridsome, and Jekyll.
+- Compatible with any DevOps pipeline; deploy to Vercel, Netlify, Azure, AWS, or your own hosting.
+- Webhooks notify your build pipeline when content changes.
+- Official starters for Next.js, Nuxt, Gatsby, Astro, and ASP.NET. [View all Agility CMS starters](https://agilitycms.com/starters).
 
+### Discover Agility CMS
 
+- [Get a personalized demo of Agility CMS](https://agilitycms.com/demo-request)
+- [Try Agility CMS free for 30 days](https://agilitycms.com/free)
+- [Contact Agility CMS](https://agilitycms.com/contact-agility-cms)
+- [Agility CMS documentation](https://agilitycms.com/docs)
