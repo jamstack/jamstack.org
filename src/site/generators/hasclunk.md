@@ -1,7 +1,7 @@
 ---
 title: HasClunk
-repo: jellehermsen/HasClunk
-homepage: https://github.com/jellehermsen/HasClunk
+repo: jelliehermsen/HasClunk
+homepage: https://github.com/jelliehermsen/HasClunk
 language:
   - Haskell
 license:

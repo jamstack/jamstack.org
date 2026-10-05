@@ -1,8 +1,11 @@
 ---
 title: unite cms
 repo: unite-cms/unite-cms
-homepage: https://unitecms.io/
+homepage: https://github.com/unite-cms/unite-cms
 opensource: "Yes"
+language:
+  - PHP
+  - JavaScript
 typeofcms: "API Driven"
 supportedgenerators:
   - All

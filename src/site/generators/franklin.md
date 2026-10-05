@@ -1,6 +1,6 @@
 ---
 title: Franklin
-repo: tlienart/Franklin.jl
+repo: JuliaDocs/Franklin.jl
 homepage: https://franklinjl.org/
 language:
   - Julia

@@ -1,7 +1,7 @@
 ---
 title: Bolt
 repo: argyleink/bolt
-homepage: http://argyleink.github.io/Bolt
+homepage: https://argyleink.github.io/Bolt
 language:
   - JavaScript
 license:
@@ -22,7 +22,7 @@ description: ⚡ is a fast, organized, mobile first Grunt seed project for fast 
 1. [Grunt tasks](https://github.com/argyleink/Bolt/tree/master/tasks) are individual, short, easy as hell to read
 1. [Configuration file](https://github.com/argyleink/Bolt/blob/master/app.coffee) keeps project assets and plugins centralized
 1. Bower libs go straight into jade and stylus for you
-1. [BrowserSync](http://www.browsersync.io) dev server syncs all your clicks, scrolls, and more during development
+1. [BrowserSync](https://www.browsersync.io) dev server syncs all your clicks, scrolls, and more during development
 1. BrowserSync live reload and hot css pushes for really rad fast front end crafting
 1. BrowserSync Weinre remote inspect built in
 1. Externally accessible server
@@ -41,6 +41,6 @@ description: ⚡ is a fast, organized, mobile first Grunt seed project for fast 
 
 ## Goal
 
-Offer a FAST, Grunt based, rather un-opinionated build system. Use it for whatever. The project seed I've made here is a cache heavy, smart loading, mobile first, front end static site project for ya. It comes with [Jade](http://jade-lang.com/) & [Stylus](http://learnboost.github.io/stylus/) as defaults, but swap it for whatever you want, easily. Or want more than 1 preprocessor, it's ready. At the end of the day, it's [Grunt](http://gruntjs.com/), do whatever you want.
+Offer a FAST, Grunt based, rather un-opinionated build system. Use it for whatever. The project seed I've made here is a cache heavy, smart loading, mobile first, front end static site project for ya. It comes with [Jade](https://jade-lang.com/) & [Stylus](https://learnboost.github.io/stylus/) as defaults, but swap it for whatever you want, easily. Or want more than 1 preprocessor, it's ready. At the end of the day, it's [Grunt](https://gruntjs.com/), do whatever you want.
 
 This project's default setup is for creating static sites to be hosted somewhere on the web. This could be a webview hybrid app, single page app, marketing site, who cares. This tool comes with all the tips, tricks, meta data, and automated tasks that help you build quick and efficient front ends across browsers.

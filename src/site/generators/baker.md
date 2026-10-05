@@ -1,7 +1,7 @@
 ---
 title: Misakai Baker
-repo: Kelindar/misakai-baker
-homepage: http://baker.misakai.com
+repo: kelindar/misakai-baker
+homepage: https://github.com/kelindar/misakai-baker
 language:
   - .Net
 license:

@@ -1,6 +1,6 @@
 ---
 title: Haunt
-homepage: https://dthompson.us/projects/haunt.html
+homepage: https://dthompson.dev/projects/haunt.html
 language:
   - Guile
 license:

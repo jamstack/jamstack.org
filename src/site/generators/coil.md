@@ -11,4 +11,4 @@ templates:
 description: Coil is a minimalistic static content engine written in elixir
 ---
 
-Coil is a minimalistic static content engine written in [Elixir Programming Language](http://elixir-lang.org).
+Coil is a minimalistic static content engine written in [Elixir Programming Language](https://elixir-lang.org).

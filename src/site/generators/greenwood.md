@@ -1,7 +1,7 @@
 ---
 title: Greenwood
 repo: ProjectEvergreen/greenwood
-homepage: https://www.greenwoodjs.io
+homepage: https://greenwoodjs.dev
 language:
   - JavaScript
 license:

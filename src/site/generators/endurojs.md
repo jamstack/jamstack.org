@@ -1,7 +1,7 @@
 ---
 title: Enduro.js
-repo: gottwik/enduro
-homepage: http://endurojs.com/
+repo: Gottwik/Enduro
+homepage: https://github.com/Gottwik/Enduro
 language:
   - JavaScript
 license:

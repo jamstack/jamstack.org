@@ -1,7 +1,7 @@
 ---
 title: SKF
 repo: moebiuseye/skf
-homepage: http://skf.jeannedhack.org/
+homepage: https://github.com/moebiuseye/skf
 language:
   - Bash
 license:

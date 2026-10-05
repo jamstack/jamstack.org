@@ -4,6 +4,10 @@ repo: OrchardCMS/OrchardCore
 homepage: https://orchardcore.net/
 twitter: OrchardCMS
 opensource: "Yes"
+language:
+  - C#
+  - JavaScript
+  - TypeScript
 typeofcms: "API Driven"
 supportedgenerators:
   - All

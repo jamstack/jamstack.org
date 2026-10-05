@@ -3,6 +3,8 @@ title: Aventum
 repo: TryAventum
 homepage: https://aventum.org/
 opensource: 'Yes'
+language:
+  - JavaScript
 typeofcms: 'API Driven'
 supportedgenerators:
   - All

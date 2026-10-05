@@ -3,6 +3,10 @@ title: Contentful
 homepage: https://www.contentful.com/
 twitter: contentful
 opensource: "No"
+language:
+  - TypeScript
+  - Ruby
+  - Go
 typeofcms: "API Driven"
 supportedgenerators:
   - All

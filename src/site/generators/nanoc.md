@@ -1,7 +1,7 @@
 ---
 title: Nanoc
 repo: nanoc/nanoc
-homepage: http://nanoc.ws/
+homepage: https://nanoc.denisdefreyne.com/
 language:
   - Ruby
 license:

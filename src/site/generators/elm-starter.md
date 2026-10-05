@@ -1,7 +1,7 @@
 ---
 title: elm-starter
 repo: lucamug/elm-starter
-homepage: https://elm-starter.guupa.com/
+homepage: https://github.com/lucamug/elm-starter
 language:
   - Elm
 license:

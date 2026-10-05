@@ -3,6 +3,8 @@ title: Apito
 homepage: https://apito.io/
 twitter: apito_io
 opensource: "No"
+language:
+  - Go
 typeofcms: "API Driven"
 supportedgenerators:
   - All 

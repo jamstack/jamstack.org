@@ -1,6 +1,6 @@
 ---
 title: BakeIt
-repo: lumarama/bakeit
+repo: curvednebula/bakeit
 homepage: https://www.npmjs.com/package/bakeit
 language:
   - JavaScript

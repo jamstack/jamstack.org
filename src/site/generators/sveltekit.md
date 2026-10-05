@@ -1,7 +1,7 @@
 ---
 title: SvelteKit
 repo: sveltejs/kit
-homepage: https://kit.svelte.dev/
+homepage: https://svelte.dev/docs/kit
 language:
   - JavaScript
 license:

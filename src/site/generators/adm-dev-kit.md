@@ -1,7 +1,7 @@
 ---
 title: adm-dev-kit
-repo: iamfrntdv/adm-dev-kit
-homepage: https://github.com/iamfrntdv/adm-dev-kit
+repo: eduarddotgg/adm-dev-kit
+homepage: https://github.com/eduarddotgg/adm-dev-kit
 language:
   - JavaScript
 license:

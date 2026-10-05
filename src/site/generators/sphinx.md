@@ -1,7 +1,7 @@
 ---
 title: Sphinx
 repo: sphinx-doc/sphinx
-homepage: http://www.sphinx-doc.org/
+homepage: https://www.sphinx-doc.org/
 language:
   - Python
 license:

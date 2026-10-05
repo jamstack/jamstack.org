@@ -1,7 +1,7 @@
 ---
 title: rspress
 repo: web-infra-dev/rspress
-homepage: https://rspress.dev/
+homepage: https://rspress.rs/
 language:
   - Rust
 license:

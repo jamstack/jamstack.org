@@ -1,6 +1,6 @@
 ---
 title: blogdown
-repo: codejamninja/blogdown
+repo: clayrisser/blogdown
 language:
   - JavaScript
 license:

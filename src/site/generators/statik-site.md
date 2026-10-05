@@ -1,7 +1,7 @@
 ---
 title: statik-site
 repo: Paul-Browne/statik-site
-homepage: https://statik-site.com
+homepage: https://github.com/Paul-Browne/statik-site
 language:
   - JavaScript
 license:

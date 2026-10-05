@@ -1,8 +1,11 @@
 ---
 title: Cloud CMS
-homepage: https://www.cloudcms.com/
+homepage: https://gitana.io/
 twitter: cloudcms
 opensource: "No"
+language:
+  - Java
+  - JavaScript
 typeofcms: "API Driven"
 supportedgenerators:
   - All

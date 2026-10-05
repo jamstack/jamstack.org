@@ -25,7 +25,7 @@ can make use of the power of the npm ecosystem.
 ## Modularize each page into partials
 
 Each section of your page becomes a markdown file with front-matter. The content can
-be written in [YAML](http://yaml.org/) or [markdown](https://github.com/chjj/marked.
+be written in [YAML](https://yaml.org/) or [markdown](https://github.com/chjj/marked.
 A layout is nominated per partial.
 
 ## Write your layout in react

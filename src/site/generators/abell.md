@@ -1,7 +1,7 @@
 ---
 title: Abell
 repo: abelljs/abell
-homepage: https://abelljs.org
+homepage: https://github.com/abelljs/abell
 language:
   - JavaScript
 license:

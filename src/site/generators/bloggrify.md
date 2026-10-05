@@ -1,6 +1,6 @@
 ---
 title: Bloggrify
-repo: hlassiege/bloggrify
+repo: bloggrify/bloggrify
 homepage: https://bloggrify.com
 language:
   - TypeScript

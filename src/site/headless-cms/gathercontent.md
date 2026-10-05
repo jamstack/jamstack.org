@@ -1,8 +1,11 @@
 ---
-title: GatherContent
-homepage: https://www.gathercontent.com/
+title: Content Workflow by Bynder (formerly GatherContent)
+homepage: https://www.bynder.com/en/products/content-workflow/
 twitter: gathercontent
 opensource: "No"
+language:
+  - PHP
+  - TypeScript
 typeofcms: "API Driven"
 supportedgenerators:
 - Gatsby

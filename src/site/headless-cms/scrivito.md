@@ -1,6 +1,5 @@
 ---
 title: Scrivito
-repo: Scrivito/scrivito_example_app_js
 homepage: https://www.scrivito.com/
 twitter: scrivito
 opensource: "No"

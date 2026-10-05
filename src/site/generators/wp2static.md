@@ -1,7 +1,7 @@
 ---
 title: WP2Static
-repo: leonstafford/wp2static
-homepage: https://wp2static.com
+repo: elementor/wp2static
+homepage: https://github.com/elementor/wp2static
 language:
   - PHP
 license:

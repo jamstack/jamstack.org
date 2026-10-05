@@ -1,6 +1,6 @@
 ---
 title: Tiny SSG
-repo: Herve07h22/staticgen
+repo: Herve07h22/tinySSG
 homepage: https://github.com/Herve07h22/tinySSG
 language:
   - Python

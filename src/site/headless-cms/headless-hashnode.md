@@ -1,8 +1,10 @@
 ---
 title: Hashnode Headless CMS
-homepage: https://hashnode.com/headless
+homepage: https://hashnode.com/
 twitter: hashnode
 opensource: "Yes"
+language:
+  - TypeScript
 typeofcms: "API Driven"
 supportedgenerators:
   - All

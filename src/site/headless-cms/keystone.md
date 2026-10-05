@@ -4,6 +4,8 @@ repo: keystonejs/keystone
 homepage: https://keystonejs.com/
 twitter: KeystoneJS
 opensource: "Yes"
+language:
+  - TypeScript
 typeofcms: "API Driven"
 supportedgenerators:
   - All

@@ -1,7 +1,7 @@
 ---
 title: TanStack Start
-repo: tanstack
-homepage: https://tanstack.com/
+repo: TanStack/router
+homepage: https://tanstack.com/start/latest
 language:
   - JavaScript
 license:

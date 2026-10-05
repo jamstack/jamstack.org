@@ -1,6 +1,6 @@
 ---
 title: Harold
-repo: juliancwirko/create-harold-app
+repo: harold-js/create-harold-app
 homepage: https://www.haroldjs.com
 language:
   - JavaScript

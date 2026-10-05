@@ -1,7 +1,7 @@
 ---
 title: Spignite
 repo: igr/spig
-homepage: 'https://www.spignite.com/'
+homepage: https://github.com/igr/spig
 language:
   - JavaScript
 license:

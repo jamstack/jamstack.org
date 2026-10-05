@@ -1,7 +1,7 @@
 ---
 title: Wyam
 repo: Wyamio/Wyam
-homepage: http://wyam.io
+homepage: https://github.com/Wyamio/Wyam
 language:
   - .Net
 license:

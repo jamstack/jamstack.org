@@ -4,6 +4,8 @@ title: Magnolia
 homepage: https://www.magnolia-cms.com/
 twitter: magnolia_cms
 opensource: "Yes"
+language:
+  - Java
 typeofcms: "API Driven"
 supportedgenerators:
   - All

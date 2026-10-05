@@ -1,7 +1,7 @@
 ---
 title: Blogdown
 repo: rstudio/blogdown
-homepage: https://bookdown.org/yihui/blogdown
+homepage: https://pkg.yihui.org/blogdown/
 language:
   - R
 license:
@@ -36,7 +36,7 @@ The function `blogdown::serve_site()` may be the most frequently used function i
 
 You may not be satisfied with the default site created from `new_site()`. There are two things you may want to do after your first successful experiment with **blogdown**:
 
-1. Pick a Hugo theme that you like from http://themes.gohugo.io. All you need is its Github user and repository name, to be passed to the `theme` argument of `new_site()`.
+1. Pick a Hugo theme that you like from https://themes.gohugo.io. All you need is its Github user and repository name, to be passed to the `theme` argument of `new_site()`.
 2. Add more content (pages or posts), or migrate your existing website.
 
 The full documentation is the **blogdown** book freely available at https://bookdown.org/yihui/blogdown/. You are expected to read at least the first chapter.

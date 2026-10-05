@@ -1,6 +1,6 @@
 ---
 title: Acoustic Content
-homepage: https://acoustic.com/products/content/
+homepage: https://developer.goacoustic.com/acoustic-content/docs/acoustic-content
 opensource: "No"
 typeofcms: "API Driven"
 supportedgenerators:

@@ -1,7 +1,7 @@
 ---
 title: fresh
-repo: denoland/fresh
-homepage: https://fresh.deno.dev
+repo: freshframework/fresh
+homepage: https://usefresh.dev
 language:
   - node-fetch
   - typescript

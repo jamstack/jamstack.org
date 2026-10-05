@@ -84,3 +84,185 @@
 [[plugins]]
   package = "./plugins/keep-dot-cache-folder"
 
+
+# Removed entries (dead or no longer a SSG/headless CMS)
+[[redirects]]
+  from = "/generators/anodize/"
+  to = "/generators/"
+  status = 301
+
+[[redirects]]
+  from = "/generators/blended/"
+  to = "/generators/"
+  status = 301
+
+[[redirects]]
+  from = "/generators/blogo/"
+  to = "/generators/"
+  status = 301
+
+[[redirects]]
+  from = "/generators/blogofile/"
+  to = "/generators/"
+  status = 301
+
+[[redirects]]
+  from = "/generators/cabin/"
+  to = "/generators/"
+  status = 301
+
+[[redirects]]
+  from = "/generators/cogear.js/"
+  to = "/generators/"
+  status = 301
+
+[[redirects]]
+  from = "/generators/coppersmith/"
+  to = "/generators/"
+  status = 301
+
+[[redirects]]
+  from = "/generators/deadsimplelog/"
+  to = "/generators/"
+  status = 301
+
+[[redirects]]
+  from = "/generators/expansive/"
+  to = "/generators/"
+  status = 301
+
+[[redirects]]
+  from = "/generators/flatmarket/"
+  to = "/generators/"
+  status = 301
+
+[[redirects]]
+  from = "/generators/lerret/"
+  to = "/generators/"
+  status = 301
+
+[[redirects]]
+  from = "/generators/lingon/"
+  to = "/generators/"
+  status = 301
+
+[[redirects]]
+  from = "/generators/mkws/"
+  to = "/generators/"
+  status = 301
+
+[[redirects]]
+  from = "/generators/sergey/"
+  to = "/generators/"
+  status = 301
+
+[[redirects]]
+  from = "/generators/skua/"
+  to = "/generators/"
+  status = 301
+
+[[redirects]]
+  from = "/generators/slate/"
+  to = "/generators/"
+  status = 301
+
+[[redirects]]
+  from = "/generators/stapy/"
+  to = "/generators/"
+  status = 301
+
+[[redirects]]
+  from = "/generators/statie/"
+  to = "/generators/"
+  status = 301
+
+[[redirects]]
+  from = "/generators/statik/"
+  to = "/generators/"
+  status = 301
+
+[[redirects]]
+  from = "/generators/usmu/"
+  to = "/generators/"
+  status = 301
+
+[[redirects]]
+  from = "/generators/wok/"
+  to = "/generators/"
+  status = 301
+
+[[redirects]]
+  from = "/headless-cms/appernetic/"
+  to = "/headless-cms/"
+  status = 301
+
+[[redirects]]
+  from = "/headless-cms/blogody/"
+  to = "/headless-cms/"
+  status = 301
+
+[[redirects]]
+  from = "/headless-cms/bowtie/"
+  to = "/headless-cms/"
+  status = 301
+
+[[redirects]]
+  from = "/headless-cms/editlayer/"
+  to = "/headless-cms/"
+  status = 301
+
+[[redirects]]
+  from = "/headless-cms/flycode/"
+  to = "/headless-cms/"
+  status = 301
+
+[[redirects]]
+  from = "/headless-cms/frontaid/"
+  to = "/headless-cms/"
+  status = 301
+
+[[redirects]]
+  from = "/headless-cms/google-drive-cms/"
+  to = "/headless-cms/"
+  status = 301
+
+[[redirects]]
+  from = "/headless-cms/graphapi/"
+  to = "/headless-cms/"
+  status = 301
+
+[[redirects]]
+  from = "/headless-cms/headless/"
+  to = "/headless-cms/"
+  status = 301
+
+[[redirects]]
+  from = "/headless-cms/headlesshost/"
+  to = "/headless-cms/"
+  status = 301
+
+[[redirects]]
+  from = "/headless-cms/manifest/"
+  to = "/headless-cms/"
+  status = 301
+
+[[redirects]]
+  from = "/headless-cms/nodewrite/"
+  to = "/headless-cms/"
+  status = 301
+
+[[redirects]]
+  from = "/headless-cms/rooftop-cms/"
+  to = "/headless-cms/"
+  status = 301
+
+[[redirects]]
+  from = "/headless-cms/typewriter/"
+  to = "/headless-cms/"
+  status = 301
+
+[[redirects]]
+  from = "/headless-cms/versioned/"
+  to = "/headless-cms/"
+  status = 301
+

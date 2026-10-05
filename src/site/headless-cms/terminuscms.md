@@ -1,9 +1,12 @@
 ---
-title: TerminusCMS
+title: TerminusDB
 repo: terminusdb/terminusdb
-homepage: https://terminusdb.com
+homepage: https://terminusdb.org/
 twitter: TerminusDB
 opensource: "Yes"
+language:
+  - Prolog
+  - Rust
 typeofcms: "API Driven"
 supportedgenerators:
   - All

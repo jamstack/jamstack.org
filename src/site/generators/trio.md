@@ -1,7 +1,7 @@
 ---
 title: Trio
 repo: 4awpawz/trio
-homepage: https://gettriossg.com
+homepage: https://github.com/4awpawz/trio
 language:
   - JavaScript
 license:

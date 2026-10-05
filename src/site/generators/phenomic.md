@@ -1,6 +1,6 @@
 ---
 title: Phenomic
-repo: phenomic/phenomic
+repo: MoOx/phenomic
 homepage: https://phenomic.io
 language:
   - JavaScript

@@ -1,7 +1,7 @@
 ---
 title: Coleslaw
-repo: kingcons/coleslaw
-homepage: https://github.com/kingcons/coleslaw
+repo: coleslaw-org/coleslaw
+homepage: https://github.com/coleslaw-org/coleslaw
 language:
   - Lisp
 license:
@@ -17,11 +17,11 @@ Coleslaw aims to be flexible blog software suitable for replacing a single-user 
 
 - Git for storage
 - RSS and Atom feeds!
-- Markdown Support with Code Highlighting provided by [colorize](http://www.cliki.net/colorize).
+- Markdown Support with Code Highlighting provided by [colorize](https://www.cliki.net/colorize).
   - Currently supports: Common Lisp, Emacs Lisp, Scheme, C, C++, Java, Python, Erlang, Haskell, Obj-C, Diff.
 - [Multi-site publishing](http://rmoritz.github.io/articles/coleslaw-multi-site/) support.
 
-- A [Plugin API](http://github.com/redline6561/coleslaw/blob/master/docs/plugin-api.md) and [**plugins**](http://github.com/redline6561/coleslaw/blob/master/docs/plugin-use.md) for...
+- A [Plugin API](https://github.com/redline6561/coleslaw/blob/master/docs/plugin-api.md) and [**plugins**](https://github.com/redline6561/coleslaw/blob/master/docs/plugin-use.md) for...
 
   - Comments via Disqus
   - Analytics via Google

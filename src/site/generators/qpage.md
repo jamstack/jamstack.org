@@ -1,7 +1,7 @@
 ---
 title: QPage
 repo: sepandhaghighi/qpage
-homepage: http://www.qpage.ir
+homepage: https://www.qpage.ir
 language:
   - Python
 license:
@@ -14,4 +14,4 @@ QPage or QuickPage is a free project for creating academic homepage without any 
 QPage is suitable for non-developers to generate static web pages for resume and portfolio without any code and in short time.
 We developed QPage on Windows but it also run in Linux and Mac-OSX.
 
-http://www.qpage.ir
+https://www.qpage.ir

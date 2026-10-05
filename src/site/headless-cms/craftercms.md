@@ -3,6 +3,9 @@ title: CrafterCMS
 homepage: https://craftercms.com/
 twitter: crafter_cms
 opensource: "Yes"
+language:
+  - Java
+  - TypeScript
 typeofcms: "Git + API"
 supportedgenerators:
   - All

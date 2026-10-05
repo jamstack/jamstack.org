@@ -1,9 +1,10 @@
 ---
 title: Flotiq
-homepage: https://flotiq.com/
-repo: flotiq/flotiq-blog
+homepage: https://www.flotiq.com/
 twitter: flotiq
 opensource: "No"
+language:
+  - PHP
 typeofcms: "API Driven"
 supportedgenerators:
   - All

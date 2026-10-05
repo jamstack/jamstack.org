@@ -1,7 +1,7 @@
 ---
 title: Orchid
-repo: JavaEden/Orchid
-homepage: https://orchid.run
+repo: orchidhq/Orchid
+homepage: https://orchidhq.github.io/Orchid/
 language:
   - Java
   - Kotlin

@@ -1,7 +1,7 @@
 ---
 title: Mangony
 repo: Sebastian-Fitzner/mangony
-homepage: http://mangony.veams.org/
+homepage: https://github.com/Sebastian-Fitzner/mangony
 language:
   - JavaScript
 license:

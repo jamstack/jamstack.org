@@ -1,6 +1,6 @@
 ---
 title: Hydrogen
-repo: ShailenNaidoo/hydrogen
+repo: hydrogenjs/hydrogen
 homepage: https://hydrogen-js.netlify.app/
 language:
   - TypeScript

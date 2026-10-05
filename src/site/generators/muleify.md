@@ -1,7 +1,7 @@
 ---
 title: Muleify
-repo: AlexanderElias/muleify
-homepage: https://github.com/AlexanderElias/muleify
+repo: xeaone/muleify
+homepage: https://github.com/xeaone/muleify
 language:
   - JavaScript
 license:

@@ -1,7 +1,7 @@
 ---
 title: Fossfolio
 repo: fossworx-labs/fossfolio
-homepage: http://fossworx-labs.github.io/fossfolio
+homepage: https://fossworx-labs.github.io/fossfolio
 language:
   - Python
 license:

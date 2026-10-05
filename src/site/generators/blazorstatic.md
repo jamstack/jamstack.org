@@ -1,7 +1,7 @@
 ---
 title: BlazorStatic
-repo: tesar-tech/BlazorStatic
-homepage: https://github.com/tesar-tech/BlazorStatic
+repo: BlazorStatic/BlazorStatic
+homepage: https://blazorstatic.net/
 language:
   - C#
   - .Net

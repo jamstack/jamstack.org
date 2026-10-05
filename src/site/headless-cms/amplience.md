@@ -3,6 +3,9 @@ title: Amplience
 homepage: https://www.amplience.com
 twitter: Amplience
 opensource: "No"
+language:
+  - Java
+  - TypeScript
 typeofcms: "API Driven"
 supportedgenerators:
   - All

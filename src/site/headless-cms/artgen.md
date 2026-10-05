@@ -1,9 +1,11 @@
 ---
 title: Artgen
-repo: artgenio/core
-homepage: https://artgen.io
+repo: hisorange/artgen
+homepage: https://github.com/hisorange/artgen
 twitter: artgencms
 opensource: "Yes"
+language:
+  - TypeScript
 typeofcms: "API Driven"
 supportedgenerators:
   - All

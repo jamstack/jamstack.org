@@ -1,7 +1,7 @@
 ---
 title: Bang
-repo: squdle/Bang
-homepage: https://github.com/squdle/Bang
+repo: BreadMakesYouFull/Bang
+homepage: https://github.com/BreadMakesYouFull/Bang
 language:
   - Python
 license:

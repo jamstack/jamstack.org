@@ -4,6 +4,9 @@ homepage: https://craftcms.com
 repo: craftcms/cms
 twitter: craftcms
 opensource: "Yes"
+language:
+  - PHP
+  - JavaScript
 typeofcms: "API Driven"
 supportedgenerators:
   - All

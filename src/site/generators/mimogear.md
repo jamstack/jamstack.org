@@ -1,7 +1,7 @@
 ---
 title: Mimogear
 repo: mimoduo/mimogear
-homepage: http://mimoduo.github.io/mimogear/
+homepage: https://mimoduo.github.io/mimogear/
 language:
   - JavaScript
 license:

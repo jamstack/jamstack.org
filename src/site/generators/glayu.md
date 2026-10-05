@@ -1,7 +1,7 @@
 ---
 title: Glayu
 repo: pablomartinezalvarez/glayu
-homepage: http://www.glayu.com/
+homepage: https://github.com/pablomartinezalvarez/glayu
 language:
   - Elixir
 license:

@@ -1,7 +1,7 @@
 ---
 title: SkyDocs
 repo: Skyost/SkyDocs
-homepage: https://skyost.github.io/SkyDocs/
+homepage: https://skydocs.skyost.eu/
 language:
   - Java
 license:

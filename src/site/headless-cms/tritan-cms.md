@@ -1,9 +1,11 @@
 ---
 title: TriTan CMS
-repo: parkerj/TriTan-CMS
-homepage: https://github.com/parkerj/TriTan-CMS
+repo: nomadicjosh/TriTan-CMS
+homepage: https://github.com/nomadicjosh/TriTan-CMS
 twitter: tritan_cms
 opensource: "Yes"
+language:
+  - PHP
 typeofcms: "API Driven"
 supportedgenerators:
   - All

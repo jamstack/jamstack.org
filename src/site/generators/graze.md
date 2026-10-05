@@ -1,7 +1,7 @@
 ---
 title: graze
 repo: mikoskinen/graze
-homepage: http://mikaelkoskinen.net/graze-static-site-generator-using-razor
+homepage: https://mikaelkoskinen.net/graze-static-site-generator-using-razor
 language:
   - .Net
 license:

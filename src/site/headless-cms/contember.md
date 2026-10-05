@@ -1,9 +1,11 @@
 ---
 title: Contember
-repo: contember/admin
+repo: contember/contember
 homepage: https://www.contember.com
 twitter: contember
 opensource: "Yes"
+language:
+  - TypeScript
 typeofcms: "API Driven"
 supportedgenerators:
   - All

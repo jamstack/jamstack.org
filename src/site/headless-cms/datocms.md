@@ -3,6 +3,8 @@ title: DatoCMS
 homepage: https://www.datocms.com/
 twitter: datocms
 opensource: "No"
+language:
+  - Ruby
 typeofcms: "API Driven"
 supportedgenerators:
   - All

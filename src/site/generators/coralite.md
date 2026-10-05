@@ -1,7 +1,7 @@
 ---
 title: Coralite
 repo: tjdav/coralite
-homepage: https://coralite.io
+homepage: https://coralite.dev/
 language:
   - JavaScript
   - TypeScript

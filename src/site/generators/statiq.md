@@ -1,7 +1,7 @@
 ---
 title: Statiq
-repo: statiqdev/Statiq.Web
-homepage: https://statiq.dev/web/
+repo: statiqdev/Statiq
+homepage: https://www.statiq.dev/web
 language:
   - .Net
 license:

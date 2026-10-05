@@ -3,6 +3,8 @@ title: Bloomreach
 homepage: https://developers.bloomreach.com
 twitter: bloomreach_tm
 opensource: "Yes"
+language:
+  - Java
 typeofcms: "API Driven"
 supportedgenerators:
   - All

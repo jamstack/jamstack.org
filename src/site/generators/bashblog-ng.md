@@ -1,7 +1,7 @@
 ---
 title: bashblog-ng
-repo: dvwallin/bashblog-ng
-homepage: https://github.com/dvwallin/bashblog-ng
+repo: DavidSatimeWallin/bashblog-ng
+homepage: https://github.com/DavidSatimeWallin/bashblog-ng
 language:
   - Bash
 license:

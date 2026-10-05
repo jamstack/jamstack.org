@@ -1,7 +1,7 @@
 ---
 title: Hakyll
 repo: jaspervdj/hakyll
-homepage: http://jaspervdj.be/hakyll/
+homepage: https://jaspervdj.be/hakyll/
 language:
   - Haskell
 license:

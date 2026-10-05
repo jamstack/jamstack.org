@@ -1,6 +1,6 @@
 ---
 title: Spearly CMS
-homepage: https://cms.spearly.com
+homepage: https://spearly.com/ja/cms/
 twitter: spearlycom
 opensource: "No"
 typeofcms: "API Driven"

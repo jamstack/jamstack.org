@@ -1,7 +1,7 @@
 ---
-title: Eleventy
-repo: 11ty/eleventy
-homepage: https://11ty.dev/
+title: Build Awesome (formerly Eleventy)
+repo: 11ty/buildawesome
+homepage: https://build.awesome.me/
 language:
   - JavaScript
 license:

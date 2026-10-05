@@ -19,4 +19,4 @@ Simple well-documented PHP static site generator. Fast and easy to get a simple 
 
 Supports installation and updates using Composer.
 
-[Plates](http://platesphp.com/) templates. Plates is a full-featured modern PHP template engine inspired by Twig that is simple to learn, well-documented, flexible, and extensible.
+[Plates](https://platesphp.com/) templates. Plates is a full-featured modern PHP template engine inspired by Twig that is simple to learn, well-documented, flexible, and extensible.

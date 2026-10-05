@@ -4,6 +4,9 @@ repo: squidex/squidex
 homepage: https://squidex.io
 twitter: squidexcms
 opensource: "Yes"
+language:
+  - C#
+  - TypeScript
 typeofcms: "API Driven"
 supportedgenerators:
   - All

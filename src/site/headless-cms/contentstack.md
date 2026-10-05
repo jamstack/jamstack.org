@@ -3,6 +3,8 @@ title: Contentstack
 homepage: https://www.contentstack.com
 twitter: contentstack
 opensource: "No"
+language:
+  - JavaScript
 typeofcms: "API Driven"
 supportedgenerators:
   - All

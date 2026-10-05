@@ -4,6 +4,9 @@ homepage: https://www.sanity.io
 twitter: sanity_io
 repo: sanity-io/sanity
 opensource: "No"
+language:
+  - TypeScript
+  - Go
 typeofcms: "API Driven"
 supportedgenerators:
   - All
