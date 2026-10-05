@@ -1,6 +1,6 @@
 ---
 title: HARU CMS
-homepage: https://www.webharu.com/products/harucms
+homepage: https://www.webharu.com/en/products/harucms
 opensource: "No"
 typeofcms: "API Driven"
 supportedgenerators:
@@ -23,8 +23,8 @@ HARU CMS is a headless CMS built and run in Japan by Webharu. Content is deliver
 
 ### Pricing
 
-Free plan for one site. Paid plans start at ¥980/month, and the Studio plan (¥2,980/month) covers unlimited sites and members.
+A free plan is available. See the [pricing page](https://www.webharu.com/en/products/harucms#plans) for current paid plans.
 
 ## Resources
 
-[Product page](https://www.webharu.com/products/harucms) • [Docs](https://app.harucms.com/docs/)
+[Product page](https://www.webharu.com/en/products/harucms) • [Pricing](https://www.webharu.com/en/products/harucms#plans) • [Docs (Japanese)](https://app.harucms.com/docs/)
