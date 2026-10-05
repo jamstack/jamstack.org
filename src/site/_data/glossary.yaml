@@ -4,6 +4,14 @@
 # term: 35
 # summary: 250
 
+- term: 'Artifact'
+  id: 'artifact'
+  summary: 'The output of a build: the complete set of files, such as HTML, CSS, JavaScript and images, which is ready to be deployed and served. Once created, an artifact does not change.'
+  definition: 'An artifact (or build artifact) is the output of a build process: the complete set of files, such as HTML, CSS, JavaScript, images and configuration, which a [static site generator](/glossary/ssg) or other build tooling produces and which is ready to be deployed to a hosting environment or [CDN](/glossary/cdn).
+
+
+  Each deploy produces a new artifact rather than modifying the files of a previous one. Because an artifact does not change once it has been created, it represents a known version of a site which can be inspected, served, or redeployed later. This is what makes [immutable deploys](/glossary/immutable) and instant rollbacks possible. See also [Atomic deploys](/glossary/atomic).'
+
 - term: 'Atomic deploys'
   id: 'atomic'
   summary: 'Contained and complete deploys, which begin being served only when all of their assets and config are complete and totally in place.'
@@ -44,6 +52,11 @@
 
 - term: 'Edge Network'
   id: 'edge-network'
+  summary: 'A geographically distributed network of servers located close to end users. Serving content or running code at the edge reduces latency by handling requests near where they originate.'
+  definition: 'An edge network is a geographically distributed network of servers, often called points of presence, located close to the users making requests. The "edge" refers to the outer boundary of the network, nearest to those users, as opposed to a central origin server.
+
+
+  By handling requests near where they originate, an edge network reduces latency and spreads load. Edge networks are commonly used to cache and serve static assets, as with a [CDN](/glossary/cdn), and increasingly also to run code such as redirects, rewrites, personalization or [serverless](/glossary/serverless) functions close to the user.'
 
 - term: 'Serverless'
   summary: 'Serverless functions are a means of providing a run-time environment for code without the need for knowledge of, or control over, the underlying environment.'
@@ -80,6 +93,11 @@
 
 - term: 'Hydration'
   id: 'hydration'
+  summary: 'The process by which client-side JavaScript attaches event handlers and state to markup that was pre-rendered or server-rendered, making a static page interactive in the browser.'
+  definition: 'Hydration is the process by which client-side JavaScript takes over markup that was [pre-rendered](/glossary/pre-render) or [server-rendered](/glossary/server-render), attaching event handlers and application state so that the page becomes interactive. Rather than generating the view from scratch in the browser, as with a pure [client render](/glossary/client-render), the framework reuses the existing DOM.
+
+
+  Hydration lets users see content quickly, before JavaScript has loaded, while still allowing rich interactivity afterwards. Because hydrating a whole page can be costly, techniques such as partial hydration, progressive hydration and "islands" hydrate only the interactive parts of a page.'
 
 - term: 'Decoupling'
   id: 'decoupling'
@@ -88,6 +106,11 @@
 
 - term: 'Dynamic server'
   id: 'dynamic-server'
+  summary: 'A web server which generates responses at request time, typically by running application code and querying databases, rather than returning files that were prepared in advance.'
+  definition: 'A dynamic server generates responses at the time a request is received, typically by running application code, querying databases or other services, and rendering templates into markup for each request. This is in contrast to serving files which were [pre-rendered](/glossary/pre-render) in advance.
+
+
+  Because they must do work for every request, dynamic servers usually need to be provisioned, scaled, secured and maintained as critical infrastructure. Jamstack sites aim to reduce reliance on dynamic servers by pre-rendering where possible and serving the results from a [CDN](/glossary/cdn), using [APIs](/glossary/api) and [serverless](/glossary/serverless) functions for dynamic functionality.'
 
 - term: 'API'
   id: 'api'
@@ -106,7 +129,7 @@
 
 - term: 'Jamstack'
   id: 'jamstack'
-  summary: Jamstack is an architectural approach that decouples the web experience layer from data and business logic, improving flexibility, scalability, performance, and maintainability.'
+  summary: 'Jamstack is an architectural approach that decouples the web experience layer from data and business logic, improving flexibility, scalability, performance, and maintainability.'
   definition: 'Jamstack is an architectural approach that [decouples](/glossary/decoupling) the web experience layer from data and business logic, improving flexibility, scalability, performance, and maintainability. Jamstack removes the need for business logic to dictate the web experience.
   
   
@@ -114,14 +137,34 @@
 
 - term: 'Monolith'
   id: 'monolith'
+  summary: 'An application built and deployed as a single unit, in which the user interface, business logic and data access are tightly coupled within one codebase and runtime.'
+  definition: 'A monolith, or monolithic application, is built and deployed as a single unit. Its user interface, business logic and data access are tightly coupled within one codebase and usually run together on the same server, so a change to any part typically requires the whole application to be rebuilt and redeployed.
+
+
+  Monoliths can be simple to start with, but may become harder to scale, update and reason about as they grow. Jamstack favors [decoupling](/glossary/decoupling) the front end from back-end services, which are often provided through [APIs](/glossary/api) or [microservices](/glossary/microservice). A monolith is a software architecture and should not be confused with a [monorepo](/glossary/monorepo), which describes how code is stored.'
 
 - term: 'Monorepo'
   id: 'monorepo'
+  summary: 'A single version control repository which holds the code for multiple distinct projects, such as several sites, apps, packages or services, which may be built and deployed independently.'
+  definition: 'A monorepo is a single version control repository which holds the code for multiple distinct projects, such as several sites, applications, shared packages or services. Each project may still be built and deployed independently.
+
+
+  Monorepos can make it easier to share code, keep dependencies consistent and make changes across several projects at once, often with the help of workspace and build tools. A monorepo describes how code is organized and is not the same as a [monolith](/glossary/monolith), which describes how an application is architected.'
 
 - term: 'Markup'
-  id: 'Markup'
+  id: 'markup'
+  summary: 'The descriptive representation of the structure and content of a web page. The dominant markup language on the web is HTML, which a static site generator usually produces.'
+  definition: 'The term "markup" refers to the descriptive representation of the structure of a website. The dominant markup language is HTML, but lightweight alternatives like [Markdown](/glossary/markdown) exist. Specific markup language tags denote elements, like text or images, often independent from their visual appearance.
+
+
+  On Jamstack sites, the final HTML markup is usually generated in advance by a [static site generator](/glossary/ssg) as part of a [pre-render](/glossary/pre-render) step, so it can be served directly from a [CDN](/glossary/cdn).'
 
 - term: 'Markdown'
-  id: 'Markdown'
+  id: 'markdown'
+  summary: 'A lightweight markup language which uses plain-text formatting syntax to describe headings, links, lists and emphasis. It is easy to read and write, and is commonly converted into HTML.'
+  definition: 'Markdown is a lightweight [markup](/glossary/markup) language which uses plain-text formatting syntax, such as `#` for headings and `*` for emphasis, to describe the structure of a document. It was designed to be easy to read and write as plain text, and to be converted into HTML.
+
+
+  Many [static site generators](/glossary/ssg) and [headless](/glossary/headless-technology) content management systems use Markdown files, often combined with front matter metadata, as a source of content which is transformed into HTML during a build.'
 
 
