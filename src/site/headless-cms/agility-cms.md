@@ -3,6 +3,8 @@ title: Agility CMS
 homepage: https://agilitycms.com/
 twitter: agilitycms
 opensource: "No"
+language:
+  - C#
 typeofcms: "API Driven"
 supportedgenerators:
   - All

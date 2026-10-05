@@ -9,6 +9,11 @@ license:
 templates:
   - Tera
 description: A fast static site generator in a single binary with everything built-in.
+hosting:
+  - Vercel
+  - Cloudflare
+  - Netlify
+  - Azure
 ---
 
 Static site generator built using the modern Rust programming language.

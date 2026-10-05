@@ -1,7 +1,7 @@
 ---
 title: Brunch
 repo: brunch/brunch
-homepage: http://brunch.io/
+homepage: https://brunch.github.io/
 language:
   - JavaScript
 license:
@@ -10,6 +10,10 @@ templates:
   - Any JS
 description: An ultra-fast HTML5 build tool. Capable of static site generation.
 twitter: brunch
+hosting:
+  - Vercel
+  - Cloudflare
+  - Netlify
 ---
 
 An ultra-fast HTML5 build tool. Capable of static site generation using whatever

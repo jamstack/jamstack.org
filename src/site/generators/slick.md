@@ -28,7 +28,7 @@ Here's a quick overview of what Slick can do:
   - Slick processes Pandoc (and LaTeX) metadata into a usable form (as an
         [Aeson](https://hackage.haskell.org/package/aeson) Value object) which you can manipulate as you please.
 - Slick provides combinators for rendering [Mustache templates](https://mustache.github.io/)
-  - Slick wraps Justus Adam's [Mustache](http://hackage.haskell.org/package/mustache-2.3.0/docs/Text-Mustache.html)
+  - Slick wraps Justus Adam's [Mustache](https://hackage.haskell.org/package/mustache-2.3.0/docs/Text-Mustache.html)
         library and provides cached template rendering with awareness of changes to templates, partials, and Mustache
         objects.
   - It's a thin wrapper so you can still use things like Mustache functions, etc. if you like!

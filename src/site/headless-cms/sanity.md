@@ -4,12 +4,17 @@ homepage: https://www.sanity.io
 twitter: sanity_io
 repo: sanity-io/sanity
 opensource: "No"
+language:
+  - TypeScript
+  - Go
 typeofcms: "API Driven"
 supportedgenerators:
   - All
 description: Sanity is the fully customizable, headless CMS.
 images:
   - path: /img/cms/sanity-studio.png
+hosting:
+  - Vercel
 ---
 
 Sanity is the modern [headless CMS](https://www.sanity.io/headless-cms) that uses structured content to endlessly re-use content across any channel and a composable approach to help businesses connect to any third-party technology, data source, and front end framework. Sanity has generous included quotas – so [getting started](https://www.sanity.io/get-started) is free.

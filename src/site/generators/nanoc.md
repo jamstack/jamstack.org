@@ -1,7 +1,7 @@
 ---
 title: Nanoc
 repo: nanoc/nanoc
-homepage: http://nanoc.ws/
+homepage: https://nanoc.denisdefreyne.com/
 language:
   - Ruby
 license:
@@ -13,6 +13,8 @@ templates:
   - Haml
   - Slim
 description: Simple but very flexible static site generator
+hosting:
+  - Netlify
 ---
 
 nanoc is a flexible static site generator written in Ruby. See the [nanoc web site](http://nanoc.ws) for more information.

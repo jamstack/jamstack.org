@@ -4,10 +4,15 @@ repo: apostrophecms/apostrophe
 homepage: https://apostrophecms.com/
 twitter: apostrophecms
 opensource: "Yes"
+language:
+  - JavaScript
+  - TypeScript
 typeofcms: "API Driven"
 supportedgenerators:
   - All
 description: As a full-featured JavaScript CMS with both headless capabilities and in-context editing, our tools appeal to both developers and content editors, not only because of how flexible they are, but because they feel good to use.
+hosting:
+  - Railway
 ---
 
 ## ApostropheCMS

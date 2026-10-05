@@ -3,6 +3,9 @@ title: Hygraph
 homepage: https://hygraph.com/
 twitter: hygraph
 opensource: "No"
+language:
+  - Go
+  - TypeScript
 typeofcms: "API Driven"
 supportedgenerators:
   - All

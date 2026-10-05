@@ -11,6 +11,13 @@ templates:
 description: A Fast and Flexible Static Site Generator.
 startertemplaterepo: https://github.com/netlify-templates/hugo-quickstart
 twitter: GoHugoIO
+hosting:
+  - Vercel
+  - Cloudflare
+  - Netlify
+  - AWS
+  - GCP
+  - Azure
 ---
 
 Hugo is a static site generator written in Go. It is optimized for

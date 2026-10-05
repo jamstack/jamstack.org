@@ -78,6 +78,10 @@ layout: layouts/base.njk
     <dt class="inline-block font-bold">Supported Site Generators:</dt>
     <dd class="inline-block mr-6">{{ supportedgenerators | join(", ") }}</dd>
     {%- endif %}
+    {%- if hosting and hosting.length > 0 %}
+    <dt class="inline-block font-bold">Hosting:</dt>
+    <dd class="inline-block mr-6">{{ hosting | join(", ") }}</dd>
+    {%- endif %}
   </dl>
 
   <div class="tool-content">

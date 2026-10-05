@@ -3,6 +3,8 @@ title: Flamelink
 homepage: https://flamelink.io
 twitter: FlamelinkCMS
 opensource: "No"
+language:
+  - JavaScript
 typeofcms: "API Driven"
 supportedgenerators:
   - All

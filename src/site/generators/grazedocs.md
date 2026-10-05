@@ -1,7 +1,7 @@
 ---
 title: GrazeDocs
 repo: mikoskinen/GrazeDocs
-homepage: https://grazedocs.io/
+homepage: https://github.com/mikoskinen/GrazeDocs
 language:
   - C#
 license:

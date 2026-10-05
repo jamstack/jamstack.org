@@ -9,6 +9,9 @@ license:
 templates:
   - React
 description: Pluggable enterprise-level react application framework
+hosting:
+  - Vercel
+  - Cloudflare
 ---
 
 ## Features

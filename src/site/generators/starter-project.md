@@ -1,7 +1,7 @@
 ---
 title: Starter Project
 repo: maliMirkec/starter-project
-homepage: https://starter.silvestar.codes/
+homepage: https://www.silvestar.codes/side-projects/starter-project/
 language:
   - JavaScript
 license:

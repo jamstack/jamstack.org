@@ -1,7 +1,7 @@
 ---
 title: Ago
-repo: dvwallin/ago
-homepage: https://github.com/dvwallin/ago
+repo: DavidSatimeWallin/ago
+homepage: https://github.com/DavidSatimeWallin/ago
 language:
   - Go
 license:

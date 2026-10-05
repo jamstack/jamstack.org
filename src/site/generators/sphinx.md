@@ -1,7 +1,7 @@
 ---
 title: Sphinx
 repo: sphinx-doc/sphinx
-homepage: http://www.sphinx-doc.org/
+homepage: https://www.sphinx-doc.org/
 language:
   - Python
 license:
@@ -9,6 +9,8 @@ license:
 templates:
   - Jinja2
 description: A tool that makes it easy to create intelligent and beautiful documentation, written by Georg Brandl.
+hosting:
+  - Cloudflare
 ---
 
 Sphinx is a tool that makes it easy to create intelligent and beautiful documentation, written by Georg Brandl and

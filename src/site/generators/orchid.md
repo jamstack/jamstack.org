@@ -1,7 +1,7 @@
 ---
 title: Orchid
-repo: JavaEden/Orchid
-homepage: https://orchid.run
+repo: orchidhq/Orchid
+homepage: https://orchidhq.github.io/Orchid/
 language:
   - Java
   - Kotlin
@@ -12,6 +12,8 @@ templates:
 description: A beautiful and truly unique documentation engine and static site generator.
 startertemplaterepo: https://github.com/JavaEden/OrchidStarter
 twitter: OrchidSSG
+hosting:
+  - Netlify
 ---
 
 Orchid is a general-purpose static site generator with a focus on extensibility, and aimed at developers looking to improve their technical documentation. Orchid was born out of a desire for better-looking Javadocs and frustration with how difficult is it to manage large Jekyll sites and keep it up-to-date with your code.

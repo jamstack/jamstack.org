@@ -1,8 +1,10 @@
 ---
 title: Hexo Admin
 repo: jaredly/hexo-admin
-homepage: http://jaredforsyth.com/hexo-admin/
+homepage: https://jaredforsyth.com/hexo-admin/
 opensource: "Yes"
+language:
+  - JavaScript
 typeofcms: "Git-based"
 supportedgenerators:
   - Hexo

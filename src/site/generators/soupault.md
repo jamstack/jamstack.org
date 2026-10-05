@@ -1,7 +1,7 @@
 ---
 title: soupault
-repo: dmbaturin/soupault
-homepage: https://soupault.app
+repo: PataphysicalSociety/soupault
+homepage: https://soupault.net/
 language:
   - OCaml
 license:

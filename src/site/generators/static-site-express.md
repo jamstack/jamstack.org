@@ -1,7 +1,7 @@
 ---
 title: static-site-express
-repo: SalsaBoy990/static-site-express
-homepage: https://github.com/SalsaBoy990/static-site-express
+repo: webandras/static-site-express
+homepage: https://static-site-express.netlify.app/
 language:
   - JavaScript
 license:

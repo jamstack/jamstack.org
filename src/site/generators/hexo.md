@@ -18,6 +18,10 @@ templates:
 description: 'Hexo is a fast, simple and powerful blog framework.'
 twitter: hexojs
 startertemplaterepo: https://github.com/hexojs/hexo-starter
+hosting:
+  - Vercel
+  - Cloudflare
+  - Netlify
 ---
 
 A fast, simple & powerful blog framework, powered by [Node.js](https://nodejs.org) and [NPM](https://www.npmjs.com/).

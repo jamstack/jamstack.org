@@ -11,6 +11,12 @@ templates:
 description: Vue-powered Static Site Generator
 startertemplaterepo: https://github.com/capriosa/vuepress-deploy
 twitter: vuepress
+hosting:
+  - Vercel
+  - Netlify
+  - AWS
+  - GCP
+  - Azure
 ---
 
 # Simplicity First

@@ -19,6 +19,14 @@ templates:
   - Markdown
   - MDX
 description: Build beautiful, accessible, high-performance documentation websites with Astro.
+hosting:
+  - Vercel
+  - Cloudflare
+  - Netlify
+  - Railway
+  - AWS
+  - GCP
+  - Azure
 ---
 
 ## Documentation that delights

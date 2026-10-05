@@ -1,7 +1,7 @@
 ---
 title: Dapper
 repo: markdbenson/dapper
-homepage: http://vanilladraft.com/dapper/
+homepage: https://markdbenson.com/dapper
 language:
   - Perl
 license:
@@ -56,7 +56,7 @@ Why static? Decent question. Here are some reasons:
    static website, it becomes possible to host the site on
    [Github Pages](https://pages.github.com/),
    [BitBalloon](https://www.bitballoon.com/), or
-   [Amazon S3](http://aws.amazon.com/s3/) for free or for very modest fees.
+   [Amazon S3](https://aws.amazon.com/s3/) for free or for very modest fees.
 
 3. **Secure**. It's much more secure to host a static website than a
    dynamic one. Content management systems that use scripting languages
@@ -81,7 +81,7 @@ industrial sensing equipment. In addition, it is the tool that powers
 [Vanilla Draft](http://vanilladraft.com/).
 
 In 2014, Dapper was submitted as a Perl module (App::Dapper) to
-[CPAN](http://cpan.org/) under the MIT license for anyone to use for any
+[CPAN](https://cpan.org/) under the MIT license for anyone to use for any
 purpose.
 
 ### Features

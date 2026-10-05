@@ -13,6 +13,8 @@ templates:
   - Slim
 description: A Webpack-aware, Ruby-powered static site generator for the modern Jamstack era.
 twitter: bridgetownrb
+hosting:
+  - Netlify
 ---
 
 Built upon proven open source technology as a "reimagined" fork of Jekyll, Bridgetown is a fast, scalable, modular, and thoroughly forward-looking framework for building websites and frontend applications.

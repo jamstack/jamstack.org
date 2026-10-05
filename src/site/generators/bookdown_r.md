@@ -10,6 +10,8 @@ templates:
   - R
   - R Markdown
 description: An eBook authoring platform that generates GitBook-styled static sites
+hosting:
+  - Netlify
 ---
 
 Bookdown is an eBook authoring platform for R programmers. It's based on two R packages - `knitr` and `rmarkdown` - along with Pandoc. It's usually invoked from the open-source RStudio IDE.

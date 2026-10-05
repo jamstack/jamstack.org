@@ -1,7 +1,7 @@
 ---
 title: Statiq
-repo: statiqdev/Statiq.Web
-homepage: https://statiq.dev/web/
+repo: statiqdev/Statiq
+homepage: https://www.statiq.dev/web
 language:
   - .Net
 license:
@@ -10,6 +10,9 @@ templates:
   - Razor
   - Markdown
 description: Statiq Web is a flexible static site generator written in .NET
+hosting:
+  - Netlify
+  - Azure
 ---
 
 

@@ -16,6 +16,11 @@ templates:
   - Markdown
   - Yaml
 description: 🔥 Easy and flexible static site generator for Deno 🦕
+hosting:
+  - Vercel
+  - Cloudflare
+  - Netlify
+  - AWS
 ---
 
 **🔥 Lume** is the galician word for *fire,* but also a (yet another) static site generator for Deno.

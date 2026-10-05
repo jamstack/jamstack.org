@@ -38,7 +38,7 @@ You can write any and every kind of app, since we generate HTML, javascript an c
 
 ### Documentation and Links
 
-- [INTUITION Docs](http://intuition-dev.github.io/intuDocs)
+- [INTUITION Docs](https://intuition-dev.github.io/intuDocs)
 - [Home Page](https://www.INTUITION.DEV)
 - [mbake CLI Docs](http://intuition-dev.github.io/mbCLI)
 - [Git Repo](http://git.metabake.net)

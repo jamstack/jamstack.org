@@ -1,7 +1,7 @@
 ---
 title: Easystatic
 repo: easystatic/easystatic
-homepage: https://easystatic.com/
+homepage: https://github.com/easystatic/easystatic
 language:
   - JavaScript
 license:
@@ -12,7 +12,7 @@ description: Static site generator powered by Markdown It, Postcss, Babel, Brows
 ---
 
 Easystatic uses [Markdown It](https://markdown-it.github.io/) for web pages,
-[EJS](http://ejs.co/) and [PostCSS](http://postcss.org/) +
+[EJS](https://ejs.co/) and [PostCSS](https://postcss.org/) +
 [Autoprefixer](https://github.com/postcss/autoprefixer) for layout,
 [Browsersync](https://browsersync.io/) for cross-device testing...
 

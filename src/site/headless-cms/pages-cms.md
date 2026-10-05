@@ -1,9 +1,11 @@
 ---
 title: Pages CMS
-repo: pages-cms/pages-cms
+repo: hunvreus/pagescms
 homepage: https://pagescms.org/
 twitter: pagescms
 opensource: "Yes"
+language:
+  - TypeScript
 typeofcms: "Git-based"
 supportedgenerators:
   - All
@@ -12,6 +14,8 @@ images:
   - path: /img/cms/pages-cms-1.png
   - path: /img/cms/pages-cms-2.png
   - path: /img/cms/pages-cms-3.png
+hosting:
+  - Vercel
 ---
 
 # What is Pages CMS?

@@ -3,6 +3,8 @@ title: React Bricks
 homepage: https://reactbricks.com/
 twitter: ReactBricks
 opensource: "No"
+language:
+  - TypeScript
 typeofcms: "Visual, API Driven"
 supportedgenerators:
   - Next.js

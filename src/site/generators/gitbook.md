@@ -10,6 +10,8 @@ templates:
   - Jinja2
 description: 'A modern publishing toolchain. Simply taking you from ideas to finished, polished books.'
 twitter: GitBookIO
+hosting:
+  - Cloudflare
 ---
 
 The easiest way to write a book.

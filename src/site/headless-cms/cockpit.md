@@ -4,6 +4,9 @@ repo: agentejo/cockpit
 homepage: https://getcockpit.com
 twitter: getcockpit
 opensource: "Yes"
+language:
+  - PHP
+  - JavaScript
 typeofcms: "API Driven"
 supportedgenerators:
   - All

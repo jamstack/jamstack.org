@@ -1,7 +1,7 @@
 ---
 title: Ruhoh
 repo: ruhoh/ruhoh.rb
-homepage: http://ruhoh.com/
+homepage: https://github.com/ruhoh/ruhoh.rb
 language:
   - Ruby
 license:

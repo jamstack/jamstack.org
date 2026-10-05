@@ -1,7 +1,7 @@
 ---
 title: HtmlBuilder
 repo: ArtNazarov/HtmlBuilder
-homepage: https://htmlbuilder.artnazarov.ru/
+homepage: https://github.com/ArtNazarov/HtmlBuilder
 language:
   - Object Pascal (Lazarus)
 license:

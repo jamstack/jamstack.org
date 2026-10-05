@@ -4,6 +4,10 @@ repo: enonic/xp
 homepage: https://enonic.com/
 twitter: EnonicHQ
 opensource: "Yes"
+language:
+  - Java
+  - TypeScript
+  - JavaScript
 typeofcms: "API Driven"
 supportedgenerators:
   - All

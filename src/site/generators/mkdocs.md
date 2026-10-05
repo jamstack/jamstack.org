@@ -1,7 +1,7 @@
 ---
 title: MkDocs
 repo: mkdocs/mkdocs
-homepage: http://www.mkdocs.org/
+homepage: https://www.mkdocs.org/
 language:
   - Python
 license:
@@ -11,6 +11,9 @@ templates:
 description: Project documentation with Markdown.
 startertemplaterepo: https://github.com/netlify-templates/mkdocs-base
 twitter: MkDocsProject
+hosting:
+  - Cloudflare
+  - Netlify
 ---
 
 MkDocs is a fast, simple and downright gorgeous static site generator that's geared towards building project documentation. Documentation source files are written in Markdown, and configured with a single YAML configuration file.

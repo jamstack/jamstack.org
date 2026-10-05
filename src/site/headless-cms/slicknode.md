@@ -4,6 +4,8 @@ homepage: https://slicknode.com
 twitter: slicknode
 repo: slicknode/slicknode
 opensource: "No"
+language:
+  - TypeScript
 typeofcms: "API Driven"
 supportedgenerators:
   - All

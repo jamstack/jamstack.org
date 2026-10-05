@@ -2,7 +2,6 @@
 title: Suncel
 homepage: https://suncel.io/
 twitter: Suncel_io
-repo: suncel-io
 opensource: "No"
 typeofcms: "API Driven"
 supportedgenerators:

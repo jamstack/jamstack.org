@@ -1,7 +1,7 @@
 ---
 title: rspress
 repo: web-infra-dev/rspress
-homepage: https://rspress.dev/
+homepage: https://rspress.rs/
 language:
   - Rust
 license:
@@ -9,6 +9,8 @@ license:
 templates:
   - MDX
 description: Simple, efficient and easy to extend.
+hosting:
+  - Netlify
 ---
 
 Use react components to expand the generator.

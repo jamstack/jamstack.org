@@ -24,4 +24,4 @@ Serif is a lot like Jekyll with a few extra moving parts. Its main aim is to pro
 1. Simplicity: the source and generated content are just files that can be served by any web server.
 2. Ease of publishing, wherever you are.
 
-Serif is sort of a blend between Jekyll, [Second Crack](https://github.com/marcoarment/secondcrack) and ideas from [Svbtle](http://dcurt.is/codename-svbtle). There should be flexibility with writing content, such as using the web interface, `rsync`ing from a remote machine, or editing a draft file on the remote server and having everything happen for you.
+Serif is sort of a blend between Jekyll, [Second Crack](https://github.com/marcoarment/secondcrack) and ideas from [Svbtle](https://dcurt.is/codename-svbtle). There should be flexibility with writing content, such as using the web interface, `rsync`ing from a remote machine, or editing a draft file on the remote server and having everything happen for you.

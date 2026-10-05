@@ -4,12 +4,18 @@ repo: directus/directus
 homepage: https://directus.io
 twitter: directus
 opensource: "No"
+language:
+  - TypeScript
 typeofcms: "API Driven"
 supportedgenerators:
   - All
 description: The CMS (and more) you've been looking for 😎🐰.
 images:
   - path: https://marketing.directus.app/assets/100b259d-f293-419c-9fc4-884a7a106254?key=page2x
+hosting:
+  - Railway
+  - GCP
+  - Azure
 ---
 
 

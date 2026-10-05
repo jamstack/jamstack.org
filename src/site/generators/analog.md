@@ -10,6 +10,13 @@ templates:
   - Angular
 description: Analog is a fullstack meta-framework for building applications and websites with Angular
 twitter: analogjs
+hosting:
+  - Vercel
+  - Cloudflare
+  - Netlify
+  - AWS
+  - GCP
+  - Azure
 ---
 
 Analog is a fullstack meta-framework for building applications and websites with Angular, powered by Vite.

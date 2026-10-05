@@ -3,6 +3,8 @@ title: Caisy
 homepage: https://caisy.io/
 twitter: caisyio
 opensource: "No"
+language:
+  - Go
 typeofcms: "API Driven"
 supportedgenerators:
   - All

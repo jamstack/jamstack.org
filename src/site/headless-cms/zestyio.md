@@ -3,6 +3,10 @@ title: Zesty.io
 homepage: https://www.zesty.io/
 twitter: zestyio
 opensource: "No"
+language:
+  - Go
+  - JavaScript
+  - TypeScript
 typeofcms: "API Driven"
 supportedgenerators: 
   - All

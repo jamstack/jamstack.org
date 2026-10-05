@@ -4,6 +4,9 @@ repo: plentico/plenti
 homepage: https://plenti.co
 twitter: plentico
 opensource: "Yes"
+language:
+  - Go
+  - JavaScript
 typeofcms: "Git-based"
 supportedgenerators:
   - Plenti

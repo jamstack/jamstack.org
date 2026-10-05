@@ -4,6 +4,8 @@ repo: webiny/webiny-js
 homepage: https://www.webiny.com/
 twitter: WebinyCMS
 opensource: "Yes"
+language:
+  - TypeScript
 typeofcms: "API Driven"
 supportedgenerators:
   - All

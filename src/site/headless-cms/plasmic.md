@@ -4,6 +4,8 @@ homepage: https://www.plasmic.app/
 repo: plasmicapp/plasmic
 twitter: plasmicapp
 opensource: "No"
+language:
+  - TypeScript
 typeofcms: "API Driven"
 supportedgenerators:
   - Gatsby, Next.js

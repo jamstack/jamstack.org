@@ -3,6 +3,8 @@ title: Burdy
 repo: burdy-io/burdy
 homepage: https://burdy.io
 opensource: "Yes"
+language:
+  - TypeScript
 typeofcms: "API Driven"
 supportedgenerators:
   - All

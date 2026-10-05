@@ -1,7 +1,9 @@
 ---
 title: TakeShape
-homepage: http://www.takeshape.io/
+homepage: https://www.takeshape.io/
 opensource: "No"
+language:
+  - TypeScript
 twitter: TakeShapeIO
 typeofcms: "API Driven"
 supportedgenerators:
@@ -15,7 +17,7 @@ images:
 ---
 ## TakeShape
 
-[TakeShape](http://www.takeshape.io/) is a GraphQL API-first Content Management-as-a-service cloud platform with an integrated Static Content Generator that removes the cost and effort of building and running a cloud-scale content experience.
+[TakeShape](https://www.takeshape.io/) is a GraphQL API-first Content Management-as-a-service cloud platform with an integrated Static Content Generator that removes the cost and effort of building and running a cloud-scale content experience.
 
 Check out the [quick start video](http://www.takeshape.io/docs/quickstart/).
 

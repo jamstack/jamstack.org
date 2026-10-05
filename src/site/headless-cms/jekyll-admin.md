@@ -3,6 +3,9 @@ title: Jekyll Admin
 repo: jekyll/jekyll-admin
 homepage: https://jekyll.github.io/jekyll-admin/
 opensource: "Yes"
+language:
+  - JavaScript
+  - Ruby
 typeofcms: "Git-based"
 supportedgenerators:
   - Jekyll

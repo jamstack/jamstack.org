@@ -11,9 +11,13 @@ templates:
 description: Your content driven static site generator.
 startertemplaterepo: https://github.com/Cecilapp/the-butler
 twitter: Cecil_Static
+hosting:
+  - Vercel
+  - Cloudflare
+  - Netlify
 ---
 
-Cecil is a CLI application that merges plain text files (written in [Markdown](http://daringfireball.net/projects/markdown/)), images and [Twig](http://twig.sensiolabs.org/) templates to generate a [static website](https://en.wikipedia.org/wiki/Static_web_page).
+Cecil is a CLI application that merges plain text files (written in [Markdown](https://daringfireball.net/projects/markdown/)), images and [Twig](http://twig.sensiolabs.org/) templates to generate a [static website](https://en.wikipedia.org/wiki/Static_web_page).
 
 - [Documentation](https://cecil.app/documentation)
 - [Issue tracker](https://github.com/Cecilapp/Cecil/issues)

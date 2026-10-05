@@ -11,6 +11,14 @@ templates:
 description: A minimalistic framework for serverless Vue.js applications.
 startertemplaterepo: https://github.com/netlify-templates/nuxt-starter
 twitter: nuxt_js
+hosting:
+  - Vercel
+  - Cloudflare
+  - Netlify
+  - Railway
+  - AWS
+  - GCP
+  - Azure
 ---
 
 Nuxt is a free and open-source framework with an intuitive and extendable way to create type-safe, performant and production-grade full-stack web applications and websites with Vue.js.

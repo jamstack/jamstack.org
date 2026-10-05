@@ -1,7 +1,7 @@
 ---
 title: Poet
 repo: jsantell/poet
-homepage: http://jsantell.github.io/poet/
+homepage: https://jsantell.github.io/poet/
 language:
   - JavaScript
 license:

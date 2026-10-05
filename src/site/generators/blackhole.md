@@ -1,7 +1,7 @@
 ---
 title: Blackhole
-repo: BarryMode/grav-plugin-blackhole
-homepage: https://github.com/BarryMode/grav-plugin-blackhole
+repo: barryanders/grav-plugin-blackhole
+homepage: https://github.com/barryanders/grav-plugin-blackhole
 language:
   - PHP
 license:

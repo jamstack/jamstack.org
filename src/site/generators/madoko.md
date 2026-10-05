@@ -1,7 +1,7 @@
 ---
 title: Madoko
 repo: koka-lang/madoko
-homepage: https://www.madoko.net
+homepage: http://madoko.org
 language:
   - JavaScript
 license:

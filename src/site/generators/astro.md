@@ -20,6 +20,14 @@ templates:
   - MDX
 description: Build faster websites with less client-side Javascript
 startertemplaterepo: https://github.com/netlify-templates/astro-platform-starter
+hosting:
+  - Vercel
+  - Cloudflare
+  - Netlify
+  - Railway
+  - AWS
+  - GCP
+  - Azure
 ---
 Astro is a fresh but familiar approach to building websites. 
 Astro combines decades of proven performance best practices with the DX improvements of the component-oriented era. 

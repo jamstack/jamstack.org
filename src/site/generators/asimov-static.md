@@ -1,7 +1,7 @@
 ---
 title: Asimov
 repo: adamrenklint/asimov-static
-homepage: http://www.asimovjs.org/
+homepage: https://www.asimovjs.org/
 language:
   - JavaScript
 license:

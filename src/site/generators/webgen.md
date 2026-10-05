@@ -1,7 +1,7 @@
 ---
 title: Webgen
 repo: gettalong/webgen
-homepage: http://webgen.gettalong.org/
+homepage: https://webgen.gettalong.org/
 language:
   - Ruby
 license:

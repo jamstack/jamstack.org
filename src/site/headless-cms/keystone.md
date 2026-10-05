@@ -4,6 +4,8 @@ repo: keystonejs/keystone
 homepage: https://keystonejs.com/
 twitter: KeystoneJS
 opensource: "Yes"
+language:
+  - TypeScript
 typeofcms: "API Driven"
 supportedgenerators:
   - All
@@ -13,6 +15,10 @@ images:
   - path: /img/cms/keystone-js-schema-example.png
   - path: /img/cms/keystone-admin-ui.png
   - path: /img/cms/keystone-graphQL-playground.png
+hosting:
+  - Vercel
+  - Railway
+  - Azure
 ---
 
 ## KeystoneJS: The programmable open source CMS for developers

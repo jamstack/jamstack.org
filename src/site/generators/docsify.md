@@ -10,6 +10,11 @@ templates:
   - Markdown
   - Vue
 description: A magical documentation site generator.
+hosting:
+  - Vercel
+  - Netlify
+  - AWS
+  - GCP
 ---
 
 docsify generates your documentation website on the fly. Unlike GitBook, it does not generate static html files. Instead, it smartly loads and parses your Markdown files and displays them as a website.

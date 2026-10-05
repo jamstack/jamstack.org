@@ -9,6 +9,12 @@ license:
 templates:
   - Jinja2
 description: A simple and minimal static site generator
+hosting:
+  - Vercel
+  - Cloudflare
+  - Netlify
+  - GCP
+  - Azure
 ---
 
 A simple and minimal static site generator that *just works*™.

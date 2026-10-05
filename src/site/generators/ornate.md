@@ -21,4 +21,4 @@ _Ornate_ is a tool for building multi-page HTML sites from Markdown sources. The
 - Modular design: Themes, templates, highlighters, extensions - everything can be customized with Scala code.
 - Clean, modern default theme using responsive design for a good user experience on all device from mobile phones to desktop PCs.
 
-Documentation can be found at http://szeiger.github.io/ornate-doc/
+Documentation can be found at https://szeiger.github.io/ornate-doc/

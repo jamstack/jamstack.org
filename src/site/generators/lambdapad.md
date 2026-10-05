@@ -20,7 +20,7 @@ Lambda Pad can be used to generate a static site. Here's the gist:
 # Why Another Tool?
 
 It's fair to say that static site generation
-[is a solved problem](http://staticsitegenerators.net). Why would anyone want
+[is a solved problem](https://staticsitegenerators.net). Why would anyone want
 to created yet another static site generator when there are so many well
 established, robust, proven tools already?
 
@@ -33,7 +33,7 @@ thinking_. What does that mean?
   behavior
 - Solutions should be small and focused to make them easier to understand ---
   in general, the principle of
-  [separation of concerns](http://en.wikipedia.org/wiki/Separation_of_concerns)
+  [separation of concerns](https://en.wikipedia.org/wiki/Separation_of_concerns)
   should be evident when using the tool
 
 When the goodness of functional thinking is applied to static site generation,

@@ -1,7 +1,7 @@
 ---
 title: Urubu
 repo: jandecaluwe/urubu
-homepage: http://urubu.jandecaluwe.com
+homepage: https://urubu.jandecaluwe.com
 language:
   - Python
 license:

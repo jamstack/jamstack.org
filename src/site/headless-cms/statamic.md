@@ -4,10 +4,17 @@ homepage: https://statamic.com/
 repo: statamic/cms
 twitter: statamic
 opensource: "Yes"
+language:
+  - PHP
+  - JavaScript
 typeofcms: "Git-based"
 supportedgenerators:
   - Built In
 description: A Laravel-powered, flat-first CMS that can run headless, as a full PHP stack, or generate and deploy static sites.
+hosting:
+  - Vercel
+  - Netlify
+  - GCP
 ---
 
 ## What is Statamic?

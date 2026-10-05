@@ -1,7 +1,7 @@
 ---
 title: Metalsmith
 repo: metalsmith/metalsmith
-homepage: http://www.metalsmith.io/
+homepage: https://www.metalsmith.io/
 language:
   - JavaScript
 license:
@@ -11,6 +11,8 @@ templates:
   - Any JS
 description: An extremely simple, pluggable static site generator.
 startertemplaterepo: https://github.com/andreasvirkus/metalsmith-boilerplate
+hosting:
+  - Netlify
 ---
 
 An extremely simple, _pluggable_ static site generator.

@@ -1,7 +1,7 @@
 ---
 title: SvelteKit
 repo: sveltejs/kit
-homepage: https://kit.svelte.dev/
+homepage: https://svelte.dev/docs/kit
 language:
   - JavaScript
 license:
@@ -9,6 +9,14 @@ license:
 templates:
   - Svelte
 description: SvelteKit is an application framework powered by Svelte — build bigger apps with a smaller footprint.
+hosting:
+  - Vercel
+  - Cloudflare
+  - Netlify
+  - Railway
+  - AWS
+  - GCP
+  - Azure
 ---
 
 SvelteKit is a framework for building web applications of all sizes, with a beautiful development experience and flexible filesystem-based routing. [Read the guide](https://kit.svelte.dev/docs) or the [introductory blog post](https://svelte.dev/blog/whats-the-deal-with-sveltekit) to learn more.

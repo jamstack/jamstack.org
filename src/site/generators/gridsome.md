@@ -11,6 +11,13 @@ templates:
 description: Build blazing fast websites for any CMS or data with Vue.js
 startertemplaterepo: https://github.com/gridsome/gridsome-starter-default
 twitter: gridsome
+hosting:
+  - Vercel
+  - Cloudflare
+  - Netlify
+  - AWS
+  - GCP
+  - Azure
 ---
 
 Build blazing fast websites for any CMS or data with Vue.js

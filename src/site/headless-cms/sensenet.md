@@ -4,6 +4,8 @@ homepage: https://www.sensenet.com/
 repo: SenseNet/sensenet
 twitter: sensenet
 opensource: "Yes"
+language:
+  - C#
 typeofcms: "API Driven"
 supportedgenerators:
   - All

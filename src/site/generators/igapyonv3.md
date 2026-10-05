@@ -1,7 +1,7 @@
 ---
 title: igapyonv3
 repo: igapyon/igapyonv3
-homepage: https://igapyon.github.io/igapyonv3/
+homepage: https://github.com/igapyon/igapyonv3
 language:
   - Java
 license:

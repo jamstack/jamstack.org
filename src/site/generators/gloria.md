@@ -1,7 +1,7 @@
 ---
 title: gloria
 repo: gloriajs/gloria
-homepage: https://gloriajs.com
+homepage: https://gloria.js.org
 language:
   - JavaScript
 license:

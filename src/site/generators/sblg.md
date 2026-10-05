@@ -1,7 +1,7 @@
 ---
 title: sblg
 repo: kristapsdz/sblg
-homepage: http://kristaps.bsd.lv/sblg
+homepage: https://kristaps.bsd.lv/sblg
 language:
   - C
 license:
@@ -19,4 +19,4 @@ There are no other dependencies.
 sblg is built to be driven by a Makefile just like any other development
 tool: articles are like sources compiled into standalone pages, then
 linked into blog pages.
-See [sblg(1)](http://kristaps.bsd.lv/sblg/sblg.1.html) for details.
+See [sblg(1)](https://kristaps.bsd.lv/sblg/sblg.1.html) for details.

@@ -49,6 +49,15 @@ layout: layouts/base.njk
                 {%- endfor %}
               </select>
             </label>
+            <label class="inline-flex pr-4 pb-2">
+              <span class="sr-only">Hosting</span>
+              <select data-filter-bind="hosting" data-filter-delimiter="," class="text-black py-1 px-2 rounded-default border border-gray-200 dark:border-transparent bg-white">
+                <option selected value="">Any Hosting</option>
+                {%- for hosting in collections.generators | select("data.hosting") | flatten | unique | sort(false, false) %}
+                <option value="{{ hosting | lower }}">{{ hosting }}</option>
+                {%- endfor %}
+              </select>
+            </label>
           </div>
           <div>
             <div class="pb-2">

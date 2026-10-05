@@ -1,7 +1,7 @@
 ---
 title: Curvenote
 repo: curvenote/curvenote
-homepage: http://curvenote.com/docs/web
+homepage: https://curvenote.com/docs
 language:
   - Javascript
 license:

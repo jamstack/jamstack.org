@@ -1,7 +1,7 @@
 ---
 title: Docusaurus
 repo: facebook/docusaurus
-homepage: https://v2.docusaurus.io
+homepage: https://docusaurus.io/
 language:
   - JavaScript
 license:
@@ -10,8 +10,11 @@ templates:
   - React
   - Markdown
 description: 'Build optimized websites quickly, focus on your content'
-startertemplaterepo: https://github.com/anishkny/docusaurus-base
 twitter: docusaurus
+hosting:
+  - Vercel
+  - Cloudflare
+  - Netlify
 ---
 
 ## Powered by Markdown

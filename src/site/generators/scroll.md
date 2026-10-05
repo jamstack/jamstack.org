@@ -1,7 +1,7 @@
 ---
 title: Scroll
 repo: breck7/scroll
-homepage: https://scroll.pub
+homepage: https://scroll.surf
 language:
   - JavaScript
 license:

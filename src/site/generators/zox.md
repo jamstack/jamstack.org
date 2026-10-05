@@ -1,7 +1,7 @@
 ---
 title: Zox
 repo: zoxjs/zox
-homepage: https://zoxjs.com/
+homepage: https://github.com/zoxjs/zox
 language:
   - TypeScript
 license:

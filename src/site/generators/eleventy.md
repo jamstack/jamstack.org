@@ -1,7 +1,7 @@
 ---
-title: Eleventy
-repo: 11ty/eleventy
-homepage: https://11ty.dev/
+title: Build Awesome (formerly Eleventy)
+repo: 11ty/buildawesome
+homepage: https://build.awesome.me/
 language:
   - JavaScript
 license:
@@ -20,6 +20,11 @@ templates:
 description: A simpler static site generator
 startertemplaterepo: https://github.com/netlify-templates/eleventy-blog-starter
 twitter: eleven_ty
+hosting:
+  - Vercel
+  - Cloudflare
+  - Netlify
+  - AWS
 ---
 
 A simpler static site generator. An alternative to Jekyll. Written in JavaScript. Transforms a directory of templates (of varying types) into HTML.

@@ -1,7 +1,6 @@
 ---
 title: BlogC++
-repo: dertuxmalwieder/blogcpp
-homepage: https://blogcpp.org
+homepage: https://code.rosaelefanten.org/blogcpp
 language:
   - C++
 license:

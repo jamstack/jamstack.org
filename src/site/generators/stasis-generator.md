@@ -1,7 +1,7 @@
 ---
 title: Stasis
 repo: Gioni06/stasis-generator
-homepage: https://getstasis.com/
+homepage: https://github.com/Gioni06/stasis-generator
 language:
   - TypeScript
 license:

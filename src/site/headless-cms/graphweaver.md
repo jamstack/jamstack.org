@@ -4,6 +4,8 @@ homepage: https://graphweaver.com/
 twitter: graphweaver
 repo: exogee-technology/graphweaver
 opensource: "Yes"
+language:
+  - TypeScript
 typeofcms: "API Driven"
 supportedgenerators:
   - All

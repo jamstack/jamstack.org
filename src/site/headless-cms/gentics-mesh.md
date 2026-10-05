@@ -1,9 +1,12 @@
 ---
 title: Gentics Mesh
 repo: gentics/mesh
-homepage: https://getmesh.io
+homepage: https://github.com/gentics/mesh
 twitter: genticsmesh
 opensource: "Yes"
+language:
+  - Java
+  - TypeScript
 typeofcms: "API Driven"
 supportedgenerators:
   - All

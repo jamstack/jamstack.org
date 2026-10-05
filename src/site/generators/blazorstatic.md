@@ -1,7 +1,7 @@
 ---
 title: BlazorStatic
-repo: tesar-tech/BlazorStatic
-homepage: https://github.com/tesar-tech/BlazorStatic
+repo: BlazorStatic/BlazorStatic
+homepage: https://blazorstatic.net/
 language:
   - C#
   - .Net
@@ -10,6 +10,10 @@ license:
 templates:
   - Razor
 description: Transform your Blazor app into a static site generator
+hosting:
+  - Cloudflare
+  - Netlify
+  - Azure
 ---
 
 Embrace the capabilities of Blazor on .NET 8 to craft static websites.

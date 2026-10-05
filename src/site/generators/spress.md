@@ -1,7 +1,7 @@
 ---
 title: Spress
 repo: spress/spress
-homepage: http://spress.yosymfony.com
+homepage: https://github.com/spress/spress
 language:
   - PHP
 license:

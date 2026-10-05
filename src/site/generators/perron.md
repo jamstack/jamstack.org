@@ -10,6 +10,9 @@ templates:
   - ERB
   - Markdown
 description: Perron is a Static Site Generator for Ruby on Rails. Build with Rails. Deploy static sites.
+hosting:
+  - Cloudflare
+  - Netlify
 ---
 
 Build with Rails. Deploy static sites. ❤️

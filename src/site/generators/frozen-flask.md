@@ -1,7 +1,7 @@
 ---
 title: Frozen-Flask
 repo: Frozen-Flask/Frozen-Flask
-homepage: https://pythonhosted.org/Frozen-Flask/
+homepage: https://frozen-flask.readthedocs.io
 language:
   - Python
 license:

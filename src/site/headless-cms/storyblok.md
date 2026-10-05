@@ -1,9 +1,11 @@
 ---
 title: Storyblok
 homepage: https://www.storyblok.com/
-repo: storyblok/storyblok
+repo: storyblok/monoblok
 twitter: storyblok
 opensource: "No"
+language:
+  - Ruby
 typeofcms: "API Driven"
 supportedgenerators:
   - All

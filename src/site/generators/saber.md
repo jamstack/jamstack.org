@@ -10,6 +10,10 @@ templates:
   - Vue
 description: A framework for building modern static websites.
 twitter: saber_land
+hosting:
+  - Vercel
+  - Netlify
+  - GCP
 ---
 
 Saber is a simple yet powerful framework for building modern static websites.

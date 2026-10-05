@@ -9,6 +9,8 @@ license:
 templates:
   - Svelte
 description: An opinionated, SEO focused, static site generator for Svelte.
+hosting:
+  - Cloudflare
 ---
 
 ## What's Elder.js?

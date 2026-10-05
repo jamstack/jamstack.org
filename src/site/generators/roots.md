@@ -1,7 +1,7 @@
 ---
 title: Roots
 repo: jescalan/roots
-homepage: http://roots.netlify.com
+homepage: https://roots.netlify.app
 language:
   - CoffeeScript
 license:
@@ -9,6 +9,8 @@ license:
 templates:
   - Jade
 description: roots is a toolbox for building simple, beautiful, and efficient products for the web.
+hosting:
+  - Netlify
 ---
 
 Roots is a toolkit built on best practices for advanced front-end web development. It has a very large number of features, which I’ll attempt to list below. Roots comes in the form of a static site build tool by default, but also includes templates and plugins for express and rails.

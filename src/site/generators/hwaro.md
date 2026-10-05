@@ -9,6 +9,10 @@ license:
 templates:
   - Jinja2
 description: Hwaro (화로) is a lightweight and fast static site generator written in Crystal.
+hosting:
+  - Vercel
+  - Cloudflare
+  - Netlify
 ---
 
 Hwaro is a lightweight static site generator written in Crystal, focused on speed and simplicity. It provides a straightforward workflow for building high-performance websites using Markdown and Jinja2 templates.

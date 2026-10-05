@@ -4,6 +4,9 @@ repo: TryGhost/Ghost
 homepage: https://ghost.org
 twitter: Ghost
 opensource: "Yes"
+language:
+  - TypeScript
+  - JavaScript
 typeofcms: "API Driven"
 supportedgenerators:
   - All
@@ -12,6 +15,8 @@ images:
   - path: /img/cms/ghost-product.png
   - path: /img/cms/ghost-architecture.png
   - path: /img/cms/ghost-examples.png
+hosting:
+  - Railway
 ---
 
 Ghost is an open source, professional publishing platform built on a modern Node.js technology stack — designed for teams who need power, flexibility and performance. Every day Ghost powers some of the most-read stories on the internet, serving hundreds of millions of requests across tens of thousands of sites.
@@ -30,7 +35,7 @@ Because Ghost is completely open source, built as a JSON API, has webhooks, and 
 
 ### Data & Storage
 
-Ghost ships with the [Bookshelf.js ORM](http://bookshelfjs.org/) layer by default allowing for a range of databases to be used. Currently SQLite3 is the supported default in development while MySQL is recommended for production. Other databases are available, and compatible, but not supported by the core team.
+Ghost ships with the [Bookshelf.js ORM](https://bookshelfjs.org/) layer by default allowing for a range of databases to be used. Currently SQLite3 is the supported default in development while MySQL is recommended for production. Other databases are available, and compatible, but not supported by the core team.
 
 Additionally, while Ghost uses local file storage by default it's also possible to use custom storage adapters to make your filesystem completely external. There are fairly wide range of [pre-made storage adapters](https://docs.ghost.org/concepts/storage-adapters/) for Ghost already available for use.
 

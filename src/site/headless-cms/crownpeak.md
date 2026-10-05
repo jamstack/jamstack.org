@@ -4,6 +4,8 @@ homepage: https://www.crownpeak.com
 twitter: Crownpeak
 repo: Crownpeak/DXM-SDK-Core
 opensource: "No"
+language:
+  - C#
 typeofcms: "API Driven"
 supportedgenerators:
   - All

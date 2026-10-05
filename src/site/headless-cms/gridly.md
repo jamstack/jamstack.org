@@ -6,6 +6,8 @@ typeofcms: "API Driven"
 supportedgenerators:
   - All
 opensource: No
+language:
+  - Java
 description: The spreadsheet for multi-language content tailor-made for games and digital products. Gridly connects teams, tools, and assets within a familiar spreadsheet view as a single source of truth.
 
 ---

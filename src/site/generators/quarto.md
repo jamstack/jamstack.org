@@ -18,6 +18,9 @@ templates:
     - Mermaid
 description: Quarto® is an open-source scientific and technical publishing system built on Pandoc
 twitter: quarto_pub
+hosting:
+  - Netlify
+  - GCP
 ---
 
 ## Features

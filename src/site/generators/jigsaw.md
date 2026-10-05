@@ -1,7 +1,7 @@
 ---
 title: Jigsaw
-repo: tightenco/jigsaw
-homepage: http://jigsaw.tighten.co/
+repo: tighten/jigsaw
+homepage: https://jigsaw.tighten.com
 language:
   - PHP
 license:
@@ -10,6 +10,8 @@ templates:
   - Blade
 description: Static sites for Laravel developers
 twitter: jigsawbytighten
+hosting:
+  - Netlify
 ---
 
 Jigsaw is a framework for rapidly building static sites using the same modern tooling that powers your web applications.

@@ -3,6 +3,8 @@ title: Prose
 repo: prose/prose
 homepage: https://prose.io
 opensource: "Yes"
+language:
+  - JavaScript
 typeofcms: "Git-based"
 supportedgenerators:
   - All

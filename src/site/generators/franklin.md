@@ -1,6 +1,6 @@
 ---
 title: Franklin
-repo: tlienart/Franklin.jl
+repo: JuliaDocs/Franklin.jl
 homepage: https://franklinjl.org/
 language:
   - Julia
@@ -8,6 +8,8 @@ license:
   - MIT
 templates: []
 description: A simple, customisable static site generator oriented towards technical blogging and light, fast-loading pages.
+hosting:
+  - Netlify
 ---
 
 Franklin is a simple, customisable static site generator oriented towards technical blogging and light, fast-loading pages.

@@ -1,6 +1,6 @@
 ---
 title: ARFR
-repo: javimosch/staticstuff
+repo: javimosch/arfr
 homepage: https://github.com/javimosch/arfr
 language:
   - JavaScript

@@ -1,7 +1,7 @@
 ---
 title: Gostatic
-repo: piranha/gostatic
-homepage: https://github.com/piranha/gostatic#speed
+repo: sansolovyov/gostatic
+homepage: https://github.com/sansolovyov/gostatic
 language:
   - Go
 license:

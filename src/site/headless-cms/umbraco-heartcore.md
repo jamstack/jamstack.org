@@ -4,6 +4,8 @@ repo: umbraco/Umbraco-cms
 homepage: https://umbraco.com/products/umbraco-heartcore/
 twitter: umbraco
 opensource: "No"
+language:
+  - C#
 typeofcms: "API Driven"
 supportedgenerators:
   - All
@@ -13,6 +15,8 @@ images:
   - path: /img/cms/umbraco-heartcore-channels.png
   - path: /img/cms/umbraco-heartcore-cdn.png
   - path: /img/cms/umbraco-heartcore-webhooks.gif
+hosting:
+  - Azure
 ---
 
 Umbraco Heartcore is a headless CMS with a strong core. This means you will get a backend and editor experience that makes working with content delightful, structured, logical and scalable.
