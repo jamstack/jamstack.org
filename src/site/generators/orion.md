@@ -4,7 +4,6 @@ repo: "SunStarSys/orion"
 homepage: "https://sunstarsys.com/orion/"
 
 language:
-  - Markdown
   - Perl
 license:
   - Apache 2.0
@@ -15,7 +14,7 @@ startertemplaterepo: "https://github.com/SunStarSys/www"
 twitter: sunstarsys
 ---
 
-Orion, the next generation version of The Apache CMS, is a general-purpose static site generator with a focus on performance. It is the only SSG that **fully supports** Incremental Build technology via [Smart Content Dependency Management](https://sunstarsys.com/essays/dependencies).
+Orion, the next generation version of The Apache CMS, is a general-purpose static site generator with a focus on performance. It **fully supports** Incremental Build technology in the commercial version via [Smart Content Dependency Management](https://sunstarsys.com/essays/dependencies).
 
 It only builds the content you need built. All the time.
 
