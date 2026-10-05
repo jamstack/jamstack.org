@@ -1,0 +1,39 @@
+name: Start a meetup
+description: Talk to us about starting an official Jamstack meetup
+title: "Starting a meetup group in "
+labels: ["community: new"]
+assignees: ["philhawksworth"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        You're interested in starting a Jamstack community in your area? We're keen to help. 🥳
+  - type: input
+    id: city
+    attributes:
+      label: City or region
+      placeholder: Jamsville, Australia
+    validations:
+      required: true
+  - type: input
+    id: meetup-link
+    attributes:
+      label: Link to your meetup page
+      placeholder: https://meetup.com/jamstack-your-city
+    validations:
+      required: true
+  - type: input
+    id: first-event
+    attributes:
+      label: When you plan to hold your first event
+      placeholder: January 1st
+  - type: input
+    id: frequency
+    attributes:
+      label: How regularly you plan to meet
+      placeholder: Every other month
+  - type: textarea
+    id: help
+    attributes:
+      label: How else we might be able to help
+      placeholder: Connect us with potential speakers
