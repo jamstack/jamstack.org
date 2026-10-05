@@ -87,3 +87,10 @@ You can clone this repository and bootstrap it as a test site of your own, compl
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/jamstack/jamstack.org)
 
+
+## Acknowledgements
+
+The site generator and headless CMS listings on jamstack.org grew out of [StaticGen](https://github.com/netlify/staticgen) and [headlesscms.org](https://github.com/netlify/headlesscms.org). Thank you to everyone who contributed to those projects:
+
+- [StaticGen contributors](https://github.com/netlify/staticgen/graphs/contributors)
+- [headlesscms.org contributors](https://github.com/netlify/headlesscms.org/graphs/contributors)
