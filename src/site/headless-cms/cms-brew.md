@@ -8,15 +8,12 @@ supportedgenerators:
   - Astro
   - SvelteKit
   - Hugo
+  - 11ty
   - Nuxt
   - Gatsby
   - Remix
   - Vue
-description: >
-  CMS Brew is a Git-based CMS where the client edits the site by chatting
-  instead of using an admin UI. It maps the editable content in an existing
-  repository automatically, with no schemas or config files, and sends risky or
-  out-of-scope requests back to the developer for approval.
+description: "A Git-based CMS where clients edit the site by chat, and every edit lands as a commit in your repo."
 ---
 
 ## CMS Brew
@@ -45,16 +42,6 @@ itself, including page content, components, frontmatter, and data files.
 - Per-page scoping and multilingual sites, plus image upload with resizing and
   generated alt text
 - Built-in AI, so clients do not need their own model subscription
-
-### Benefits
-
-- Takes the small-edit queue out of the developer's inbox without handing the
-  client a dashboard they can break
-- Keeps Git as the source of truth, so ownership, history, and review stay with
-  the developer
-- Works against an existing site rather than requiring content to be restructured
-  for a CMS
-- Fits maintenance and care-plan work, where the developer stays the approver
 
 For more information, visit the [CMS Brew website](https://cmsbrew.com) or try the
 [live demo](https://cmsbrew.com/demo), which needs no signup.
