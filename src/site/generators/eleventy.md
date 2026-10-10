@@ -18,7 +18,7 @@ templates:
   - HTML
   - Markdown
 description: A simpler static site generator
-startertemplaterepo: https://github.com/11ty/eleventy-base-blog
+startertemplaterepo: https://github.com/netlify-templates/eleventy-blog-starter
 twitter: eleven_ty
 ---
 

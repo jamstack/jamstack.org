@@ -1,6 +1,5 @@
 ---
 title: Haunt
-repo: https://git.dthompson.us/haunt.git
 homepage: https://dthompson.us/projects/haunt.html
 language:
   - Guile

@@ -9,7 +9,7 @@
     "url": "https://github.com/jamstack/jamstack.org"
   },
   "engines": {
-    "node": ">=12"
+    "node": ">=22"
   },
   "scripts": {
     "build": "npm-run-all build:html build:css",

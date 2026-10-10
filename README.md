@@ -7,7 +7,7 @@ An entry-point for learning about this architectural model. A place to learn wha
 
 ## Contributing resources
 
-We've collected a set of videos, presentation, articles and other learning resources about Jamstack. You can contribute content to that pool of resources!
+We've collected a set of videos, presentations, articles and other learning resources about Jamstack. You can contribute content to that pool of resources!
 
 We accept contributions submitted as [pull requests](https://github.com/jamstack/jamstack.org/pulls).
 
@@ -60,7 +60,7 @@ npm start
 
 ## Styling with TailwindCSS
 
-This site uses [TailwindCSS](https://tailwindcss.com) to offer utility CSS classes and provide a rapid means to styling the site. This means that most styling can be done without writing any additional CSS. Instead, utility classes can be added directly to the HTML. This can provide some very rapid development and also offer surprising levels of familiarity for these used to working in this way (since the conventions and classes are not _per site_.)
+This site uses [TailwindCSS](https://tailwindcss.com) to offer utility CSS classes and provide a rapid means to styling the site. This means that most styling can be done without writing any additional CSS. Instead, utility classes can be added directly to the HTML. This can provide some very rapid development and also offer surprising levels of familiarity for those used to working in this way (since the conventions and classes are not _per site_.)
 
 While running/developing locally, the `npm run start` command will generate the site including the CSS pipeline from Tailwind.
 

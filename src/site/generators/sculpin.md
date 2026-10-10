@@ -8,6 +8,8 @@ license:
   - MIT
 templates:
   - Twig
+  - HTML
+  - Markdown
 description: Sculpin is a static site generator written in PHP
 ---
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: AspNetStatic
 repo: ZarehD/AspNetStatic
 homepage: https://github.com/ZarehD/AspNetStatic
@@ -8,19 +8,24 @@ language:
 license:
   - Apache-2.0
 templates:
-  - Razor
-description: Transform ASP.NET Core into a Static Site Generator
+  - Razor (.cshtml, .razor)
+description: Transforms ASP.NET Core into a Static Site Generator
 ---
 
-## Transform ASP.NET Core into a Static Site Generator
+### Transform ASP.NET Core into a Static Site Generator
 
-If you're an ASP.NET developer who wants to create static web sites with ASP.NET instead of yet another tech stack (and/or way of constructing pages & sites) just for this task, then AspNetStatic is what you've been looking for.
+Use AspNetStatic to create a static website with the same ASP.NET Core tools you love and use every day. Just add the module and tell it which routes (page, css, js, etc.) to process.
 
-AspNetStatic lets you create a static website with the same ASP.NET Core tools you love and use every day. Just add the module and a bit of configuration, and BAM!, you have yourself a static site generator!
+AspNetStatic works equally well with Blazor (SSR), Razor Pages, and MVC (conrollers + views).
 
+### No Frameworks. No Engines. No Opinions!
 
-## No Frameworks. No Engines. No Opinions!
-
-Build your ASP.NET site the way you've always done. AspNetStatic doesn't have any opinions about how you should construct your site. AspNetStatic is not a framework. It's not a CMS. There's no engine. AspNetStatic does just one thing, create optimized static pages for selected routes in your ASP.NET Core app. That means you can use whatever framework, component, package, or architectural style you like to produce content, and AspNetStatic will create a static page for it.
+Build your ASP.NET site the way you always have. 
+AspNetStatic doesn't have any opinions about how you should structure your server-rendered site. 
+AspNetStatic is not a framework. It's not a CMS. There's no blog engine. It has no templating system. 
+AspNetStatic does just one thing; create static files for selected routes in your ASP.NET Core project. 
+That means you can use whatever framework, component, package, or architectural style you like. 
+Want to use a blog engine? No problem. Want to use a CMS? No problem. Want to create a documentation site using a markdown processor to render page content? No problem! 
+AspNetStatic doesn't care; it will **create optimized static files no matter how the content is produced by the server**.
 
 Visit the [Github repo](https://github.com/ZarehD/AspNetStatic) for more details.

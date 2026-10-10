@@ -3,7 +3,7 @@
   publish = "dist"
 
 [build.environment]
-  NODE_VERSION = "12.16.2"
+  NODE_VERSION = "22.17.1"
   NODE_ENV = "production"
 
 [dev]

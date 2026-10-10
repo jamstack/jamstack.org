@@ -1,6 +1,6 @@
 ---
 title: Quarto
-repo: https://github.com/quarto-dev/quarto-cli
+repo: quarto-dev/quarto-cli
 homepage: https://quarto.org/
 language:
     - TypeScript
