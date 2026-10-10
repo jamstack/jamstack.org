@@ -1,7 +1,7 @@
 ---
 title: Mattrbld
 homepage: https://mattrbld.com/
-opensource: "No"
+opensource: "Yes"
 typeofcms: "Git-based"
 supportedgenerators:
   - All
@@ -11,6 +11,8 @@ description: A Git-based headless CMS built with modern technologies running rig
 ## What is Mattrbld
 
 Mattrbld is a headless content management system for teams and individuals who don’t want to be locked into a specific platform or framework. It offers a fast and flexible way to create, edit and manage content while giving developers complete control over the shape of the data, so they are free to use any frontend technologies they like.
+
+It is freely available under the AGPL-3.0 licence on[GitLab](https://gitlab.com/mattrbld/mattrbld) and can be easily self-hosted.
 
 ### Familiar, but better
 
