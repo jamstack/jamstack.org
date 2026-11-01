@@ -1,15 +1,24 @@
 ---
 title: Coralite
 repo: tjdav/coralite
-homepage: https://coralite.io
+homepage: https://coralite.dev
 language:
   - JavaScript
-  - TypeScript
 license:
-  - AGPL-3.0
+  - MPL-2.0
 templates:
   - HTML
   - Web Components
-description: Build for the Web, With the Web!
+description: Static site generator built on HTML modules and native Web Components.
 ---
-Build with HTML Modules. Coralite is a static site generator for web developers who prefer native technologies. Create websites using standard HTML, CSS, and JavaScript – no new syntax to learn. Coralite features a flexible templating system with custom elements, powerful data handling, and extendable plugins for automated content organization and more.`
+
+Coralite is a static site generator that compiles HTML modules and Web Components into static HTML and scoped CSS at build time with zero client-side JavaScript by default. When pages need dynamic data or interactivity, Coralite supports server-side rendering (SSR), selective client hydration, and SPA routing using standard HTML, CSS, and JavaScript.
+
+Key features:
+
+* Single-file HTML components (`.html` with `<template>`, `<style>`, and ESM `<script type="module">`)
+* Zero-JS static output by default, with selective client hydration (`no-hydration` opt-out)
+* Light DOM scoped CSS without Shadow DOM overhead
+* Build-time `server()` data fetching stripped from browser bundles
+* Form-Associated Custom Elements (`formControl`) and W3C Context Protocol (`provide` / `consume`)
+* Built-in static validation (`coralite check` / `coralite fix`), plugin API (`definePlugin`), and AI agent scaffolding (`coralite init-agent`)
