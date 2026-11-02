@@ -1,24 +1,23 @@
 ---
 title: Silex
 repo: silexlabs/Silex
-homepage: http://www.silex.me
+homepage: https://www.silex.me
 language:
-  - JavaScript
+  - TypeScript
 license:
-  - GPL-3.0-only
+  - AGPL-3.0-or-later
 templates:
   - HTML
-description: A drag and drop editor mixed with an online CSS editor
+description: A free/libre visual website builder that publishes static sites, with dynamic data from a headless CMS
 ---
 
-With [Silex website builder](http://www.silex.me), web designers create static HTML websites online.
+With [Silex](https://www.silex.me), web designers build websites visually, on plain HTML and CSS, and publish them as static sites.
 
-Only the common settings are available in the visual editor, so that when you will need more, Silex helps you write CSS without leaving the browser. No complex dialogs and menus, just the open web standards. What you learn here will be useful to you.
+Silex can also generate the site with [11ty](https://www.11ty.dev/), to pull content from a headless CMS (for example WordPress through WPGraphQL) and deploy with CI/CD.
 
 # Features
 
-- Combine drag and drop and CSS editor
-- Built-in page system, rich text editor, sync with Dropbox and FTP, SEO
-- Available [online](http://editor.silex.me) or [host it yourself on heroku or other node.js hosts](https://github.com/silexlabs/Silex#host-an-instance-of-silex)
-- Maintained by [Silex Labs non-profit organization](http://www.silexlabs.org/silexlabs/#about-silex-labs), we’re free to innovate without any pressure to compromise
-- Loaded with a growing number of [templates (free or paid)](https://github.com/silexlabs/Silex/labels/template)
+- Visual editor working on HTML and CSS standards, no proprietary format
+- Use it online at [v3.silex.me](https://v3.silex.me/) (free, with a GitLab account for storage), or in the [desktop app](https://www.silex.me/download/) (alpha) for Windows, macOS and Linux
+- Self-hosting with Docker, Node.js or CapRover, see the [documentation](https://docs.silex.me)
+- Maintained by [Silex Labs](https://www.silex.me), a French non-profit, free software since 2009
