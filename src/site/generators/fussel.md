@@ -1,7 +1,7 @@
 ---
 title: Fussel
 repo: cbenning/fussel
-homepage: https://benninger.ca/fussel-demo/
+homepage: https://github.com/cbenning/fussel
 language:
   - Python
 license:
