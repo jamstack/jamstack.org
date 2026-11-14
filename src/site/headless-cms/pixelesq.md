@@ -5,24 +5,32 @@ twitter: pixelesq
 opensource: "No"
 typeofcms: "API Driven"
 supportedgenerators:
-  - All
-description: An innovative API driven approach to building webpages. Build your website with a visual editor and deploy it as a static site.
+  - Next.js
+description: Pixelesq is an AI-native website builder with a visual editor, a built-in CMS, managed hosting, technical SEO and lead capture in one platform.
+images:
+  - path: /img/cms/pixelesq-ask-pixel.png
+    alt: "Ask Pixel for the change: the Pixelesq editor with Pixel adding an FAQ section to a page"
+  - path: /img/cms/pixelesq-anywhere.png
+    alt: "Edit your site from anywhere: create and change pages from Claude, ChatGPT, Slack and Linear"
+  - path: /img/cms/pixelesq-ai-answers.png
+    alt: "Get found in AI answers: how ChatGPT, Claude, Gemini and Perplexity answer about your business"
+  - path: /img/cms/pixelesq-leads.png
+    alt: "Turn visitors into scored leads: chatbot and form leads in one inbox"
 ---
-## Pixelesq
 
-Build JAMstack powered websites with ease. Take your DX to the next level with our API-driven method to build websites without being a front-end or design expert.
+Pixelesq is an AI-native website builder for marketing teams, startups and the agencies that work with them. Marketers design pages visually, repeating content lives in structured collections, and Pixel, the AI inside the editor, helps set up collections, fill entries and publish.
 
-### What is Pixelesq?
+### How it works
 
-Pixelesq is a visual editor that allows you to build websites without writing code. It is a headless CMS that allows you to build websites with a visual editor and deploy them as a static site. Pixelesq is a SaaS product that is currently in beta.
+Pages are built from designed sections plus shared partials such as headers and footers. Blog posts, case studies, team members and events live in collections, each with its own fields and one page template. Any section can list a collection's entries with sorting, filters and pagination, and those lists update as soon as an entry is published.
+
+Sites render on Next.js with incremental static regeneration, and publishing refreshes the affected pages right away. Hosting, SSL, a global CDN, and image and video optimization are included.
 
 ### Features
 
-Pixelesq’s solutions are built on top of JAMstack’s underlying principles ensuring top-notch performance even with significant increase in website traffic.
-
-- **PERFORMANT (Fast loading times)** - Serve your pages from a global CDN and get the best performance scores.
-- **RESPONSIVE (Look great everywhere)** - Automatically adapts to any screen size, from mobile to desktop.
-- **SEO OPTIMIZED (Rank high on search)** - Built with SEO best practices in mind, and optimized for search engines.
-- **AFFORDABLE (Light on your wallet)** - Create and maintain enterprise-scale websites without breaking the bank.
-- **SECURE (Harden against attacks)** - No need to worry about server or database vulnerabilities.
-- **SCALABLE (Built for growth)** - Scale your website to millions of visitors without impacting performance.
+- **Visual editor**: compose pages from designed sections and apply one theme for colors and fonts across the site.
+- **Collections**: text, rich text, image, date, number, option and reference fields, one template per collection, and paginated lists search engines can crawl.
+- **Technical SEO**: sitemaps, canonical tags, JSON-LD, llms.txt and IndexNow pings kept up to date automatically, with Google Search Console connected.
+- **Growth tools**: keyword research, rank tracking with AI Overview detection, AI visibility tracking across ChatGPT, Claude, Gemini and Perplexity, and article drafts built from research that the team edits and approves.
+- **Lead capture**: multi-step forms, a proactive AI chatbot, spam filtering, and lead alerts in Slack and email.
+- **Agent and developer access**: an MCP server lets Claude, ChatGPT, Cursor and VS Code work on the site, and webhooks send content changes to other systems.
